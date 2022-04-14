@@ -152,4 +152,4 @@ Through this grant proposal, we aim to provide a well-detailed analysis of the c
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website
+**How did you hear about the Grants Program?** Mintbase Website

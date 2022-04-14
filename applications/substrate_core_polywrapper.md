@@ -110,7 +110,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - Links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
     - Blog Post - Polywrap: Improving how dApps Integrate with Uniswap v2
         - [https://blog.polywrap.io/p/uniswap-v2](https://blog.polywrap.io/p/uniswap-v2)
-- References to conversations you might have had related to this project with anyone from the Web3 Foundation
+- References to conversations you might have had related to this project with anyone from the Mintbase
     - In July, Rohan Joseph, a member of the Parity ecosystem growth team reached out to Jordan, one of the original developers, to learn more about the Polywrap technology
     - In August, the Polywrap team met with Rohan and also his coworker, Surag Sheth, to go over the Polywrap tech.  The Polywrap team also learned more about the W3F Grants Program and the benefits of applying
     - After this meeting, Rohan connected the Polywrap team to Marcin from the W3F.

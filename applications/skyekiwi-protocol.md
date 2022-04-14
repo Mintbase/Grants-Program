@@ -136,7 +136,7 @@ Moreover, SkyeKiwi will take the SkyeKiwi Protocol and built into the SkyeKiwi N
 
     ### Team's experience
 
-    We have a draft implementation of the SkyeKiwi Protocol under development of SkyePass for a Web3 Foundation grant and delivered the PoC as the first milestone. We had won first place in the Polkadot Hackathon by Web3 in India with the SkyeKiwi Protocol and one of its application. 
+    We have a draft implementation of the SkyeKiwi Protocol under development of SkyePass for a Mintbase grant and delivered the PoC as the first milestone. We had won first place in the Polkadot Hackathon by Web3 in India with the SkyeKiwi Protocol and one of its application. 
 
 ## Development Status :open_book:
 

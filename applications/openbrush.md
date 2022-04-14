@@ -268,6 +268,6 @@ In the roadmap you can see what was already done, currently we're on the 2-rd mi
 We haven’t applied for any other grant programs.
 
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
 Personal recommendation.

@@ -5,7 +5,7 @@
 * **Payment Address:** 1DJTSPajRFCjdfn5UgPXGRo6Di8EE1Dzox
 
 ## Project Overview :page_facing_up:
-We have been working on off-chain scalability solutions aka layer2 solutions. After tremendous research, we have come to believe that ZK Rollup would be the killer layer2 solution because of its data availability. Currently, rollup is [one of the potentially interesing topics](https://github.com/w3f/General-Grants-Program/blob/master/grants/polkadot_stack.md) of Web3 Foundation and Vitalik announced [the rollup centric Ethreum roadmap](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698?fbclid=IwAR1oJyMEwvjFXNy7vCHT19PyXNh27PAHZjvCR4qBRoUB9mKf_nEVOtE4vgk) last month. According to Vitalik, the Ethereum ecosystem is likely to be all-in on rollup (plus some plasma and channels) as a scaling strategy for the near and mid-term future. We know that Polkdot has a different technical architecture and tech stack but Rollup is still important because of severtal reasons.
+We have been working on off-chain scalability solutions aka layer2 solutions. After tremendous research, we have come to believe that ZK Rollup would be the killer layer2 solution because of its data availability. Currently, rollup is [one of the potentially interesing topics](https://github.com/w3f/General-Grants-Program/blob/master/grants/polkadot_stack.md) of Mintbase and Vitalik announced [the rollup centric Ethreum roadmap](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698?fbclid=IwAR1oJyMEwvjFXNy7vCHT19PyXNh27PAHZjvCR4qBRoUB9mKf_nEVOtE4vgk) last month. According to Vitalik, the Ethereum ecosystem is likely to be all-in on rollup (plus some plasma and channels) as a scaling strategy for the near and mid-term future. We know that Polkdot has a different technical architecture and tech stack but Rollup is still important because of severtal reasons.
 
 1. Bringing vertical off-chain scalability without sacrificing on-chain data availability, security and privacy (×3-10 scalability).
 1. Handling smart contracts on layer2.
@@ -30,11 +30,11 @@ There are four components we implement as a substrate pallet and these component
 * Mainchain Contract: Hold user's desposit, verify block and update state.
 
 ### Ecosystem Fit
-According to Web3 Foundation, there are at least 2 different teams that work on ZK technologies.
+According to Mintbase, there are at least 2 different teams that work on ZK technologies.
 - [Zeropool](https://github.com/zeropoolnetwork)
 - [Glacier](https://github.com/gbctech)
 
-In our understanding, Glacier is building a Distaff VM for zk-STARK proof generation and verification that are used to make  private smart contracts and private credential verifications. The difference between us is that we are making a ZK Rollup pallet and they are making a VM which supports STARKs. In terms of Zeropool, we couldn't find their info on Web3 Foundation's github.
+In our understanding, Glacier is building a Distaff VM for zk-STARK proof generation and verification that are used to make  private smart contracts and private credential verifications. The difference between us is that we are making a ZK Rollup pallet and they are making a VM which supports STARKs. In terms of Zeropool, we couldn't find their info on Mintbase's github.
 
 ## Team :busts_in_silhouette:
 

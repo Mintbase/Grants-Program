@@ -267,5 +267,5 @@ add_member(origin: OriginFor<T>, AccountID) -> DispatchResult
 remove_member(origin: OriginFor<T>, AccountID) -> DispatchResult
 add_task(origin: OriginFor<T>, AccountID) -> DispatchResult
 ```
-**How did you hear about the Grants Program?** Web3 Foundation Website
+**How did you hear about the Grants Program?** Mintbase Website
 

@@ -71,7 +71,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
 
 ### Team Code Repos
 
@@ -96,7 +96,7 @@ If you've already started implementing your project or it is part of a larger re
 - links to improvement proposals or [RFPs](https://github.com/w3f/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
 - academic publications relevant to the problem,
 - links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Web3 Foundation,
+- references to conversations you might have had related to this project with anyone from the Mintbase,
 - previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap :nut_and_bolt:
@@ -161,7 +161,7 @@ Please include here
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 

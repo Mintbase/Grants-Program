@@ -401,7 +401,7 @@ We intend to use the substrate-client-java to integrate our corporate Java-based
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** We heard about the Grants Program by Web3 Foundation and we have been in contact with managers at parity.io who guided us towards this application.
+**How did you hear about the Grants Program?** We heard about the Grants Program by Mintbase and we have been in contact with managers at parity.io who guided us towards this application.
 
 We have indicated the work we have already done in the section  [Features Roadmap](#features_roadmap) above, where we indicated the already implemented features with [x].
 

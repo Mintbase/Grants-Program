@@ -186,7 +186,7 @@ milestones out of which the first one is already completed.
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?**
-Web3 Foundation Website, the Substrate Builder's Program, as well as a
+Mintbase Website, the Substrate Builder's Program, as well as a
 networking meeting with the Acala team.
 
 **Previous Funding and Support**

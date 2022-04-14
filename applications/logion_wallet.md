@@ -395,4 +395,4 @@ It should also be available for nominators with the stacking function enabled.
 
 **How did you hear about the Grants Program?**
 
-Web3 Foundation Website / Medium / Announcement by another team / personal recommendation (all of these)
+Mintbase Website / Medium / Announcement by another team / personal recommendation (all of these)

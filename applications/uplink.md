@@ -292,4 +292,4 @@ This submission proposes the implementation of a binary peer-to-peer communicati
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website and personal recommendation.
+**How did you hear about the Grants Program?** Mintbase Website and personal recommendation.

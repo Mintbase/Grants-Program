@@ -345,7 +345,7 @@ Along these lines, we have and are building several other critical modules for s
 
 ## Additional Information :heavy_plus_sign:
 **How did you hear about the Grants Program?** 
-Web3 Foundation Website
+Mintbase Website
 
 Other relevant info:
 - Max is an advisor on the Liberland project, building on Substrate, which I believe may also submit a grant request (not written by me).

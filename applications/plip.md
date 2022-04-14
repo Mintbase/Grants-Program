@@ -156,7 +156,7 @@ Alongisde the promotion of our project, our team is working to define a buisness
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website, the Substrate Builder's Program, as well as a networking meeting with the Acala team. 
+**How did you hear about the Grants Program?** Mintbase Website, the Substrate Builder's Program, as well as a networking meeting with the Acala team. 
 
 **Previous Funding and Support**
 

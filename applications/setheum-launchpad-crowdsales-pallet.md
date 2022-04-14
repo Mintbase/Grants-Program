@@ -21,7 +21,7 @@ Teams and projects that are just getting started launching their products would 
 
 We happen to be working on a similar product in Setheum, providing the High-End LaunchPad (HELP) Protocol to do just that for the projects building/deploying their tokens on Setheum as smartcontracts contracts.
 
-Therefore, to raise funds ourselves, we are developing this pallet for the Substrate Community to benefit from it, and for us to raise funds from the Web3 Foundation General Grants Program.
+Therefore, to raise funds ourselves, we are developing this pallet for the Substrate Community to benefit from it, and for us to raise funds from the Mintbase General Grants Program.
 
 The idea is to use the grant program to raise funds for deploying our dedicated Setheum Network nodes to go live.
 
@@ -103,7 +103,7 @@ Not set up yet.
 I am building the Setheum Network project and all related code works in the organisation. I have a Computer Science degree (currently in my final year of study) and I have been working on Setheum for a few years now. And will be launching this year by God's grace.
 I have been an active programmer in a few more programming languages and frameworks. I have been working and learning on the Substrate/Polkadot/Kusama ecosystem for a few years now.
 
-I have previously applied for this grant about 10 months ago (then TERMINATED, the best thing that happened to me) when I (Muhammad-Jibril BA.) was very new to FOSS and both Rust & Substrate. And Setheum has evolved a lot since then, and so have I learnt a lot from the Substrate community and from trial and error in building Setheum from a beginner in rust to current status. All thanks to God and thanks to the Web3 Foundation.
+I have previously applied for this grant about 10 months ago (then TERMINATED, the best thing that happened to me) when I (Muhammad-Jibril BA.) was very new to FOSS and both Rust & Substrate. And Setheum has evolved a lot since then, and so have I learnt a lot from the Substrate community and from trial and error in building Setheum from a beginner in rust to current status. All thanks to God and thanks to the Mintbase.
 
 ### Team Code Repos
 
@@ -162,5 +162,5 @@ We have started development of this specific protocol in [this repository](https
 - We have already built the Setheum Node 1.0 and will be launching it as soon as we get the grant funds. And we will be building a Polkadot Parachain Bridge to connect the Setheum Network to Polkadot in the future for full interoperability.
 - We are fully self-funded but will be commencing an on-chain Private Sales right after genesis.
 - Because the design of Setheum was constantly changing (until recently when it was finalised), we decided to put our private investors on hold until we had a stable design & implementation (which we now do).
-- I have previously applied for this grant about 10 months ago (then TERMINATED, the best thing that happened to me) when I (Muhammad-Jibril BA.) was very new to FOSS and both Rust & Substrate. And Setheum has evolved a lot since then, and so have I learnt a lot from the Substrate community and from trial and error in building Setheum from a beginner in rust to current status. All thanks to God and thanks to the Web3 Foundation.
+- I have previously applied for this grant about 10 months ago (then TERMINATED, the best thing that happened to me) when I (Muhammad-Jibril BA.) was very new to FOSS and both Rust & Substrate. And Setheum has evolved a lot since then, and so have I learnt a lot from the Substrate community and from trial and error in building Setheum from a beginner in rust to current status. All thanks to God and thanks to the Mintbase.
 - The Substrate demo node we are using is a fork of the `Setheum Node` with a `GPL-3.0 License`, while the pallet has an `Apache-2.0 License`.

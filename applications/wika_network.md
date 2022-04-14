@@ -421,7 +421,7 @@ as an iterative process where we will learn from the community.
 
 **How we heard about the Grants Program?** 
 
-Web3 Foundation Website 
+Mintbase Website 
 
 **Context of our request**
 

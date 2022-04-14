@@ -251,7 +251,7 @@ Advanced Mode -> [Link](https://github.com/polkamusic/PolkaMusic/raw/master/RMP%
 
 ## Future Plans
 
-After the milestones are completed, we plan to apply grants for Web3 Foundation General Grant or Substrate Builders Program during which we will be developing the following tems:
+After the milestones are completed, we plan to apply grants for Mintbase General Grant or Substrate Builders Program during which we will be developing the following tems:
 
 1) Off-chain worker which processes the stream reports from the front-end database to generate user-centric royalty payouts.
 2) Smart Streaming Platform contract using which anybody will be able to issue a coin with its own inflationary properties, and payout artists accurately using that.

@@ -205,7 +205,7 @@ Here are our public repositories of the core product. We had quite a "break" bec
 
 Much of the technology is already implemented on an Ethereum based project (see [cash36.io](cash36.io) and [element36.io](element36.io)). We expect that we can refactor, reuse and generalize existing code and transfer the core concept to the Polkadot ecosystem within 3 months. Because Polkadot is all about integration, we think that our idea of private stablecoins, well integrated in a large ecosystem, blends perfectly with the vision of Polkadot (or Kusama).  We see our use cases can be expanded beyond the implementation on Ethereum in regards to privacy, efficiency and connectivity. Anyway - our implementation is a great blueprint, a proof for our capabilities as a team and we can apply "lessons learned" for the Polkadot implementation.  
 
-Contacts Web3 Foundation:
+Contacts Mintbase:
 
 * Aeron Buchanan (Web3 Founding Member) who I talked about the project via email - Mathias Bucher (below) got me in touch.
 * Mathias Bucher (Former Member or the Council), who I worked with several times in the past and who follows my project closely.

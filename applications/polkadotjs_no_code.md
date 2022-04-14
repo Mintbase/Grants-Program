@@ -168,4 +168,4 @@ All our crypto-related plugins
 - WalletConnect: https://bubble.io/plugin/walletconnect-1636974372019x518724777637576700
 - OpenSea SDK: https://bubble.io/plugin/opensea-sdk-1627297783875x495330366364581900
 
-**How did you hear about the Grants Program?** Web3 Foundation Website 
+**How did you hear about the Grants Program?** Mintbase Website 

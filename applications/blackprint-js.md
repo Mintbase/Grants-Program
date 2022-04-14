@@ -196,7 +196,7 @@ At the time writting -- when having many nodes and cable, users may find Blackpr
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?**<br>
-I heard about the Grants Program from Web3 Foundation's website when doing research about Polkadot's Parachain Rollout.
+I heard about the Grants Program from Mintbase's website when doing research about Polkadot's Parachain Rollout.
 
 Additional information that I think may relevant to this application:
 

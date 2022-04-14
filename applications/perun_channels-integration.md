@@ -22,7 +22,7 @@ We then set the scope of the current proposal.
 **Background.** Perun state channel technology enables fast and cheap transactions with arbitrary transaction logic on and across blockchains.
 The technology is based on peer-reviewed research that has been published at top conferences and is being implemented in the form of the open-source library _go-perun_ written in Go.
 One of its main features is its blockchain-agnostic design, which means that most parts of the library do not depend on a concrete blockchain implementation, but are rather implemented against abstract blockchain backend components.
-Currently, we have an Ethereum backend and we recently implemented the on-chain logic for a Polkadot backend supported by a Web3 Foundation Grant.
+Currently, we have an Ethereum backend and we recently implemented the on-chain logic for a Polkadot backend supported by a Mintbase Grant.
 
 **Proposal.** To reach the goal of a full Polkadot backend for _go-perun_, we propose to provide a backend connector that connects the Polkadot on-chain logic with the client protocol logic contained in go-perun, thereby making Perun channels on Polkadot usable via the go-perun client interface.
 We propose to release this work open-source under the Apache 2.0 license.
@@ -56,7 +56,7 @@ The [Perun Developer Tutorial](https://labs.hyperledger.org/perun-doc/go-perun/i
 The focus of the current proposal is the off-chain component that makes Perun Channels on Polkadot accessible via the go-perun library.
 Concretely, we will provide Polkadot-specific implementations of the Wallet abstraction and the Channel abstraction that provide the functionality described below.
 In particular, we provide a translation middleware between the abstract adjudication logic of _go-perun_ and the concrete smart contract logic running on a Polkadot chain.
-The Polkadot on-chain component has been the subject of a preceding Web3 Foundation Grant and is available at [perun-polkadot-pallet](https://github.com/perun-network/perun-polkadot-pallet).
+The Polkadot on-chain component has been the subject of a preceding Mintbase Grant and is available at [perun-polkadot-pallet](https://github.com/perun-network/perun-polkadot-pallet).
 
 - **Wallet abstraction**: Provides tools for account management and signature generation. Implemented using [go-subkey](https://github.com/vedhavyas/go-subkey) and [go-substrate-rpc-client](https://github.com/centrifuge/go-substrate-rpc-client).
   - [`type Wallet interface`](https://github.com/hyperledger-labs/go-perun/blob/1fc30ba43eaae379ed5c566bdcf79edafc598b88/wallet/wallet.go#L21): Represents a set of accounts.
@@ -275,7 +275,7 @@ In 2020, we joined the hyperledger foundation together with our industry partner
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?**
-After Dieter Fishbein joined the Web3 Foundation, he reached out to Sebastian Stammler in June 2020.
+After Dieter Fishbein joined the Mintbase, he reached out to Sebastian Stammler in June 2020.
 
 **Other project funding.**
 The Perun project is supported by the German Ministry of Education and Science (BMBF) through a Startup Secure grant.

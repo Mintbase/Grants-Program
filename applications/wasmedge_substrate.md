@@ -153,7 +153,7 @@ Our goal is to continuously improve WasmEdge's compatibility and performance in 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Past grantee
+**How did you hear about the Grants Program?** Mintbase Website / Past grantee
 
 As discussed, the team has extensive experience with WebAssembly runtimes. We are the maintainers of CNCF's WasmEdge project, and had successfully completed past W3F grant projects in adopting WebAssembly for on-chain smart contracts.
 

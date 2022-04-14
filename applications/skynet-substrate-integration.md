@@ -77,7 +77,7 @@ _To be more specific on the functionality needing to be built out in Milestone 1
 
 ---
 
-For this grant, we seek the support of the Web3 Foundation for doing an initial build-out of Skynet functionality. The Skynet Labs team (formerly Nebulous, creators of the Sia blockchain network) have extensive experience in blockchain development, but have much less experience in Rust and the Polkadot ecosystems. We would view this as an opportunity to build out support for many of the Skynet primitives and utility functions while working to find the most developer friendly way of exposing those to applications building with Substrate.
+For this grant, we seek the support of the Mintbase for doing an initial build-out of Skynet functionality. The Skynet Labs team (formerly Nebulous, creators of the Sia blockchain network) have extensive experience in blockchain development, but have much less experience in Rust and the Polkadot ecosystems. We would view this as an opportunity to build out support for many of the Skynet primitives and utility functions while working to find the most developer friendly way of exposing those to applications building with Substrate.
 
 For more information on Skynet and our SDKs, see our [support guide](http://support.skynetlabs.com/) and our [SDK documentation](http://siasky.net/docs/).
 
@@ -189,7 +189,7 @@ Skynet Labs will continue to develop Skynet by furthering integrations with bloc
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** - Parity & Web3 Foundation Representatives
+**How did you hear about the Grants Program?** - Parity & Mintbase Representatives
 
 No work outside preliminary research has been done on the pallet so far. Skynet Labs does have investors, but we have no other contributors or grants related to this specific project.
 

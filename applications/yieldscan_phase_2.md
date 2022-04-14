@@ -204,7 +204,7 @@ We want to build for the users who believe in passive wealth creation and long t
 ## Additional Information :heavy_plus_sign:
 
 - Are there are any teams who have already contributed (financially) to your project?
-    - Web3 Foundation (previous grant)
+    - Mintbase (previous grant)
     - Find Signal Studio PTE. LTD. for operational expenses after grant funding got exhausted. 
 - Do you have a community of users or open-source developers who are contributing to your project?
     - We do have a community of users on [telegram](https://t.me/yieldscan) and [discord](https://discord.gg/5Dggqx8), but they do not directly contribute to our project.

@@ -234,7 +234,7 @@ The difference between us is that the purpose and direction. Kodadot gallery is 
 
 Uniscan is a team dedicated to create an unified NFT explorer. We have the ability to develop web, mobile, and blockchain applications. The team is familiar with Ethereum and Substrate development.
 
-**Aki Wu** has many years of web and blockchain development experience, and is proficient in web development, and is familiar with ruby and rust languages. When working at [Itering](https://www.itering.io/), he developed [scale.rb](https://github.com/itering/scale.rb), a Scale Codec library and Substrate Client implemented in Ruby language. [scale.rb](https://github.com/itering/scale.rb) is a grant of the Web3 Foundation.
+**Aki Wu** has many years of web and blockchain development experience, and is proficient in web development, and is familiar with ruby and rust languages. When working at [Itering](https://www.itering.io/), he developed [scale.rb](https://github.com/itering/scale.rb), a Scale Codec library and Substrate Client implemented in Ruby language. [scale.rb](https://github.com/itering/scale.rb) is a grant of the Mintbase.
 
 **Kyle Gu** is the product manager of Uniscan team.  He has worked in the blockchain industry for many years and is familiar with the operation and development of blockchain projects.
 

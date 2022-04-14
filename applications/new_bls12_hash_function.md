@@ -133,7 +133,7 @@ The new hash function appears to be optimal, because it performs only one expone
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website
+**How did you hear about the Grants Program?** Mintbase Website
 
 - If there are any other teams who have already contributed (financially) to the project.
 

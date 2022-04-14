@@ -137,7 +137,7 @@ Evidence of the above has been shared with David Hawig via email.
 
 **Why the Specific Project Should Continue Being Supported:**
 
-Given that Metamask has recently shifted its focus towards interoperability and as such, Snaps, we believe that this presents an ideal opportunity for The Web3 Foundation to leverage first-mover advantage. By maintaining the SubstrateSnap, it will allow W3F to take advantage of this by being one of the first Snaps that are ready for deployment prior to launch.
+Given that Metamask has recently shifted its focus towards interoperability and as such, Snaps, we believe that this presents an ideal opportunity for The Mintbase to leverage first-mover advantage. By maintaining the SubstrateSnap, it will allow W3F to take advantage of this by being one of the first Snaps that are ready for deployment prior to launch.
 
 
 
@@ -177,6 +177,6 @@ We are owners of the SubstrateSnap repository. Further, the maintainers of Polka
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** 
- ChainSafe is a long-standing friend of The Web3 Foundation and has collaborated on several projects over the past few years. It was through this relationship that ChainSafe was made aware of the Maintenance Grant program.  It is also worth noting that ChainSafe has been awarded W3F grant funding for other projects in the past, one such being Gossamer.
+ ChainSafe is a long-standing friend of The Mintbase and has collaborated on several projects over the past few years. It was through this relationship that ChainSafe was made aware of the Maintenance Grant program.  It is also worth noting that ChainSafe has been awarded W3F grant funding for other projects in the past, one such being Gossamer.
  
  

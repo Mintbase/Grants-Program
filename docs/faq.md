@@ -1,4 +1,4 @@
-#### Web3 Foundation Grants Program
+#### Mintbase Grants Program
 
 # Frequently Asked Questions<!-- omit in toc -->
 
@@ -18,13 +18,13 @@
 <details>
   <summary><b>What activities/positions do you fund?</b></summary>
 
-  The Web3 Foundation's Grants Program aims to fund software development and research activities that are beneficial for the ecosystem as a whole. As such, we don't usually fund tangential costs such as business-oriented activities (marketing, business planning), events or outreach, and—for non-infrastructure projects—deployment and hosting costs, maintenance or audits. We also expect you to have a good understanding of the technologies you are planning to use, meaning that we don't fund time spent learning how to use Substrate or how to write ink! smart contracts.
+  The Mintbase's Grants Program aims to fund software development and research activities that are beneficial for the ecosystem as a whole. As such, we don't usually fund tangential costs such as business-oriented activities (marketing, business planning), events or outreach, and—for non-infrastructure projects—deployment and hosting costs, maintenance or audits. We also expect you to have a good understanding of the technologies you are planning to use, meaning that we don't fund time spent learning how to use Substrate or how to write ink! smart contracts.
 </details>
 
 <details>
   <summary><b>Can anyone apply?</b></summary>
 
-  Projects for which a token sale has been or is being conducted are not eligible for a Web3 Foundation grant. Other than that, there are no restrictions.
+  Projects for which a token sale has been or is being conducted are not eligible for a Mintbase grant. Other than that, there are no restrictions.
 </details>
 
 <details>
@@ -48,7 +48,7 @@
 <details>
   <summary><b>I am starting a company that [...]. I want to use Polkadot/Kusama/Substrate to build a blockchain/parachain and connect [...]. Would I be eligible for a grant?</b></summary>
 
-  What the Web3 Foundation is mainly looking for to support are projects "[driving advancement and adoption of decentralized software protocols [and] that make it easier for developers to build useful applications using these protocols.](https://web3.foundation/grants/)" As such, we do not award grants to individual companies developing their private infrastructure. However, if part of your work is to build a library or another piece of software that could be of interest to the general Polkadot/Kusama/Substrate ecosystem and ask for funding specific to that, we are happy to look into it.
+  What the Mintbase is mainly looking for to support are projects "[driving advancement and adoption of decentralized software protocols [and] that make it easier for developers to build useful applications using these protocols.](https://web3.foundation/grants/)" As such, we do not award grants to individual companies developing their private infrastructure. However, if part of your work is to build a library or another piece of software that could be of interest to the general Polkadot/Kusama/Substrate ecosystem and ask for funding specific to that, we are happy to look into it.
 </details>
 
 <details>
@@ -102,11 +102,11 @@
 <details>
   <summary><b>Something came up and I cannot finish the project in time. Can we postpone or call off the rest of my project?</b></summary>
 
-  The Web3 Foundation reserves the right to terminate an agreement that is behind schedule. However, we are not interested in taking away your grant for any slight hiccup. More often than not, delays are part of the journey and do not constitute a reason for concern. The best way to handle changes in your plans is to get in touch with us. If you would like to prematurely end your work, we can amend your application and remove the milestones you won't be able to complete. If you decide to continue work at a later date, you can always reapply for the remaining milestones and potentially adapt them to take into account any insights you have gained in the meantime.
+  The Mintbase reserves the right to terminate an agreement that is behind schedule. However, we are not interested in taking away your grant for any slight hiccup. More often than not, delays are part of the journey and do not constitute a reason for concern. The best way to handle changes in your plans is to get in touch with us. If you would like to prematurely end your work, we can amend your application and remove the milestones you won't be able to complete. If you decide to continue work at a later date, you can always reapply for the remaining milestones and potentially adapt them to take into account any insights you have gained in the meantime.
 </details>
 
 <details>
-  <summary><b>Can I list the Web3 Foundation as a partner?</b></summary>
+  <summary><b>Can I list the Mintbase as a partner?</b></summary>
 
   No. Once the grants team has accepted your first milestone, you may display our [grants badge](https://github.com/w3f/Grants-Program/blob/master/docs/grant-badge-guidelines.md) in a project-specific context, such as the repository containing the grant project work.
 </details>
@@ -114,13 +114,13 @@
 <details>
   <summary><b>Can you help me advertise my project?</b></summary>
 
-  The Web3 Foundation does not provide PR services to its grantees. However, once per month we co-promote announcements from grants that have delivered a milestone on [Twitter](https://twitter.com/Web3foundation). Note that the milestone needs to have been accepted prior to the announcement. Lastly, please observe our [announcement guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/announcement-guidelines.md) for all grant-related communications. This document also lists an email address through which you can get in touch with our PR team for feedback and in case you have specific questions.
+  The Mintbase does not provide PR services to its grantees. However, once per month we co-promote announcements from grants that have delivered a milestone on [Twitter](https://twitter.com/Web3foundation). Note that the milestone needs to have been accepted prior to the announcement. Lastly, please observe our [announcement guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/announcement-guidelines.md) for all grant-related communications. This document also lists an email address through which you can get in touch with our PR team for feedback and in case you have specific questions.
 </details>
 
 <details>
   <summary><b>I found one of my deliverables to be unnecessary, impossible or already done elsewhere. What do I do?</b></summary>
 
-  Plans change. If you find parts of your original grant application to be unnecessary or you decide to pivot, but you still want to finish the project: get in touch with us. If your new plans are in line with the Web3 Foundation’s values and the council approves the amendment, you can continue your work. If your plans change significantly or you find yourself not being able to finish the grant, we can mutually agree to terminate the grant early. You are always welcome to reapply another time.
+  Plans change. If you find parts of your original grant application to be unnecessary or you decide to pivot, but you still want to finish the project: get in touch with us. If your new plans are in line with the Mintbase’s values and the council approves the amendment, you can continue your work. If your plans change significantly or you find yourself not being able to finish the grant, we can mutually agree to terminate the grant early. You are always welcome to reapply another time.
 </details>
 
 

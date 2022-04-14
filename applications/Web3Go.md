@@ -122,7 +122,7 @@ What makes us different is,as a part of Web 3 community and Polkadot ecosystem:
 
 ### Team's experience
 
-All team members of Web3Go are from Litentry. Litentry is a DID (distributed identity) solution provider in the Polkadot ecosystem. Litentry has been granted a grant from the Web3 Foundation.
+All team members of Web3Go are from Litentry. Litentry is a DID (distributed identity) solution provider in the Polkadot ecosystem. Litentry has been granted a grant from the Mintbase.
 
 Web3Go team members have strong engineering background: Han Zhao, Yifei Wu and Minqi Wang are responsible for the development of Litentry's parachain (https://github.com/litentry/litentry-parachain), Hao ding and Yunjian Bian are responsible for the on-chain data indexing And front-end and back-end development. (https://github.com/litentry/data-analysis)
 
@@ -218,6 +218,6 @@ Web3Go team members have strong engineering background: Han Zhao, Yifei Wu and M
 
 **How did you hear about the Grants Program?**  
 
-Web3 Foundation Website and  personal recommendation.
+Mintbase Website and  personal recommendation.
 
 

@@ -1211,7 +1211,7 @@ Ultimately, we would like to see innovations in bot detection in the blockchain 
 
 #### 7.0.1 How did you hear about the Grants Program?
 
-Web3 Foundation Website
+Mintbase Website
 
 #### 7.0.2 Additional Info
 

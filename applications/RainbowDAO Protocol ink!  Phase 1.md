@@ -718,7 +718,7 @@ For the second milestone, we focused on the development of DAO factory contract 
 
 **How did you hear about the Grants Program?**
 
-Through the official website of the Web3 Foundation.
+Through the official website of the Mintbase.
 
 - Wheter there are any other teams who have already contributed (financially) to the project.
 

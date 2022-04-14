@@ -151,5 +151,5 @@ We would also like to see decentralization turned into active economic policy. T
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** We found out in the Web3 Foundation Website.
+**How did you hear about the Grants Program?** We found out in the Mintbase Website.
 

@@ -27,7 +27,7 @@ The following diagram is the libraries we are going to implement.
 
 ### Ecosystem Fit
 
-According to Web3 Foundation, there are at least 2 different teams that work on ZK technologies.
+According to Mintbase, there are at least 2 different teams that work on ZK technologies.
 - [Zeropool](https://github.com/zeropoolnetwork)
 - [Glacier](https://github.com/gbctech)
 

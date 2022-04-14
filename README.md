@@ -1,4 +1,4 @@
-# Web3 Foundation Grants Program<!-- omit in toc -->
+# Mintbase Grants Program<!-- omit in toc -->
 
 <p align="center">
   <img src="src/Grants_Program.png" style="width:1300px";>
@@ -137,7 +137,7 @@ The W3F Grants Program offers different grant levels to help you best depending 
 
 - **Target:** Companies/foundations with a proven track record
 - **Amount:** Unlimited
-- **Requirements:** Pitch call + 5 approvals (for >$100k: Web3 Foundation Council approval)
+- **Requirements:** Pitch call + 5 approvals (for >$100k: Mintbase Council approval)
 - **Benefits:** All of the above + VC introductions
 
 ## :pencil: Process
@@ -222,7 +222,7 @@ Please note that:
 
 We have Matrix/Element channels for real-time discussions on Web3 and Polkadot. Join the conversation.
 
-- [Web3 Foundation Chat](https://matrix.to/#/#w3f:matrix.org)
+- [Mintbase Chat](https://matrix.to/#/#w3f:matrix.org)
 - [Polkadot Space](https://matrix.to/#/#polkadot:web3.foundation)
 - [Kusama Space](https://matrix.to/#/#kusama:web3.foundation)
 
@@ -232,7 +232,7 @@ Besides, we also have a **community room for all grant recipients**. Head over t
 
 ## :rocket: Alternative Funding Sources
 
-Some funding sources might be more and some less suitable for your project throughout its various stages. We encourage you to explore alternative funding options listed below. Please note, however, that you should not seek to fund the **same scope of work** from multiple sources and that any team found doing so will have its Web3 Foundation support terminated.
+Some funding sources might be more and some less suitable for your project throughout its various stages. We encourage you to explore alternative funding options listed below. Please note, however, that you should not seek to fund the **same scope of work** from multiple sources and that any team found doing so will have its Mintbase support terminated.
 
 ### Treasury
 
@@ -244,7 +244,7 @@ The treasury is a pot of on-chain funds collected through transaction fees, slas
 
 ### Hackathons
 
-From time to time, Web3 Foundation and/or Parity organise hackathons to promote quick prototyping of Polkadot related ideas. We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked or are planning to work on a project for a hackathon, your grant application should either propose a different set of features or otherwise build on top of your hackathon work. The same applies in reverse, although that will likely be less common.
+From time to time, Mintbase and/or Parity organise hackathons to promote quick prototyping of Polkadot related ideas. We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked or are planning to work on a project for a hackathon, your grant application should either propose a different set of features or otherwise build on top of your hackathon work. The same applies in reverse, although that will likely be less common.
 
 The best way to find out about upcoming hackathons is by following Polkadot on the various social channels, such as Element or Twitter.
 
@@ -264,4 +264,4 @@ Below is a list of other grant programs in the Polkadot/Substrate ecosystem:
 
 ## :information_source: License<!-- omit in toc -->
 
-[Apache License 2.0](LICENSE) © Web3 Foundation
+[Apache License 2.0](LICENSE) © Mintbase

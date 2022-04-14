@@ -253,7 +253,7 @@ Futur plans are :
 **Why do the FTE and duration do not match ?**
 I have a full-time job as a developer, I'll take some days off for this project, however I won't take 10(+3) weeks of days off for the project, so I won't be able to work as 1FTE/month on this project. I'll work on evening and week-end to meet the milestones and deliveries.
 
-**How did you hear about the Grants Program?** Web3 Foundation Website and Reddit (/r/Polkadot, /r/Kusama and /r/dot) mainly.
+**How did you hear about the Grants Program?** Mintbase Website and Reddit (/r/Polkadot, /r/Kusama and /r/dot) mainly.
 
 **Additional information** 
 I've started to work in the back-end (polk-auction-core) as well as deployed two running nodes (one on Polkadot, one on Kusama) and their respective side-car API instances. I've applied to no previous grants neither received contribution for this project.

@@ -102,6 +102,6 @@ Selling any private data is completely out of scope of this project. The focus i
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website
+**How did you hear about the Grants Program?** Mintbase Website
 
 The project is a very long term project. Parallel to the Blockchain and decentralized governance development there is actually a game changing shift in the sequencing technology (SMRT Long Read Sequencing ) based on the availability of HiFi sequencing which allows the sequencing of human DNA ( and other species ) in a reference grade level quality.

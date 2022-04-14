@@ -322,4 +322,4 @@ For the long term plan, we will:
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website
+**How did you hear about the Grants Program?** Mintbase Website

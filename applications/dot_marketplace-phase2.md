@@ -212,6 +212,6 @@ Future releases of the Dot Marketplace include:
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website, Polkadot India Buildathon 
+**How did you hear about the Grants Program?** Mintbase Website, Polkadot India Buildathon 
 
 * We have been working on this roadmap since we applied for the Web3 grant

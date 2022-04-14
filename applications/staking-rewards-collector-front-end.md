@@ -114,5 +114,5 @@ If you've already started implementing your project or it is part of a larger re
 
 **How did you hear about the Grants Program?**
 
-* I watched a video, on youtube, with Gavin Wood where he mentioned the Web3 Foundation and the grants program.
+* I watched a video, on youtube, with Gavin Wood where he mentioned the Mintbase and the grants program.
 

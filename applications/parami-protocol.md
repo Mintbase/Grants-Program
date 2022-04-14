@@ -13,7 +13,7 @@ The goal of Parami Protocol is to build a blockchain-empowered fair and transpar
 
 Parami uses Substrate as the blockchain development framework, mainly for two reasons. From the technical level, Substrate framework is a general blockchain development framework launched by Polkadot. Substrate contains all the components needed to build a blockchain, including a p2p network, consensus mechanism, distributed database, transaction queue, and core runtime. The modulized framework provides a powerful tool for chain or side-chain development.
 
-On an ecological basis, the number of Polkadot developers and projects is growing at a rapid pace. The Web3 Foundation currently funds over 100 projects, most of which are related to Polkadot or Substrate. In terms of eco-applications, there are already nearly 100 projects based on Substrate. More and more talented developers and teams are joining the Polkadot ecosystem. These Web3.0 projects will all have the need for tokenized marketing, thus becoming an important business partner of Parami.
+On an ecological basis, the number of Polkadot developers and projects is growing at a rapid pace. The Mintbase currently funds over 100 projects, most of which are related to Polkadot or Substrate. In terms of eco-applications, there are already nearly 100 projects based on Substrate. More and more talented developers and teams are joining the Polkadot ecosystem. These Web3.0 projects will all have the need for tokenized marketing, thus becoming an important business partner of Parami.
 
 The Parami protocol will provide a DID-based tokenized advertising preference solution for the whole Polkadot ecosystem, with its power of the parachain & relay-chain mechanism.
 

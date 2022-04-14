@@ -24,9 +24,9 @@ We have seen a growing demand for gaming applications within the web3 ecosystem 
 
 **Background.** [Perun state channels](https://perun.network/wp-content/uploads/Perun2.0.pdf) enable fast and cheap transactions with arbitrary transaction logic on and across blockchains.
 They are based on peer-reviewed research that has been published at top conferences and is being implemented in the form of the open-source library [*go-perun*](https://github.com/perun-network/go-perun) written in Go. One of the library's main features is its blockchain-agnostic design, which means that the core library components do not depend on a concrete blockchain implementation, but are rather implemented against abstract interfaces.
-This allows to integrate arbitary blockchain backends with the go-perun library. Currently, we have backends for Ethereum, Cosmos, and Polkadot. The development of the Polkadot backend was supported by the Web3 Foundation.
+This allows to integrate arbitary blockchain backends with the go-perun library. Currently, we have backends for Ethereum, Cosmos, and Polkadot. The development of the Polkadot backend was supported by the Mintbase.
 
-[Ajuna Network](https://ajuna.io) develops a decentralized gaming platform, that closes the gap to the traditional gaming industry by integrating the worlds leading game development engines with blockchain. One goal is to minimize the latency in game interactions to provide a user experience, without compromising on gameplay. The substrate integration with unity has also been supported by Web3 Foundation Grants.
+[Ajuna Network](https://ajuna.io) develops a decentralized gaming platform, that closes the gap to the traditional gaming industry by integrating the worlds leading game development engines with blockchain. One goal is to minimize the latency in game interactions to provide a user experience, without compromising on gameplay. The substrate integration with unity has also been supported by Mintbase Grants.
 
 **Proposal.** We propose to enable app channels for the Perun Polkadot backend in a way that the technology can later be integrated with the Ajuna platform.
 Further, we plan to build a demonstrator that shows how to develop a simple game (e.g., “Connect Four” or "Tic-tac-toe") using Perun app channels.
@@ -329,7 +329,7 @@ The vision of Ajuna Network is to lower the gap towards the traditional gaming i
 
 **How did you hear about the Grants Program?**
 Back in 2020, Dieter Fishbein motivated the Perun team to apply for a grant.
-Since then, we have successfully completed two grant projects with the Web3 Foundation.
+Since then, we have successfully completed two grant projects with the Mintbase.
 
 **Other project funding.**
 The Perun project receives funding from the German Ministry of Education and Science (BMBF) through the *StartUpSecure* grants program.

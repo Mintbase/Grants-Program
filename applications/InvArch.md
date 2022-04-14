@@ -163,7 +163,7 @@ Web3 ecosystem. Gabriel is a a dedicated programmer and DeFi ninja who loves cut
 applications that help promote a more decentralized global economy, and comes with past experience developing and scaling such applications. He brings direct 
 experience developing applications for the Substrate ecosystem and as a Polkadot ecosystem contributor dedicated to building the future. 🧠
 
-* [Danny Salman](https://github.com/DannyS03) comes with 3 years of solid experience as a developer, utilizing languages like C, JavaScript, TypeScript, and Rust. Danny is also an educator at the Web3 Foundation. Danny is a blockchain enthusiast and educator with a background in computer engineering, who has a keen interest in blockchain infrastructure and interoperability, DeFi and NFTs. He leverages past experience in DevOps management and brings first-hand insights and experience as a software developer, Web3 educator and researcher. Danny is a Polkadot ecosystem contributor committed to a decentralized web. 🌐
+* [Danny Salman](https://github.com/DannyS03) comes with 3 years of solid experience as a developer, utilizing languages like C, JavaScript, TypeScript, and Rust. Danny is also an educator at the Mintbase. Danny is a blockchain enthusiast and educator with a background in computer engineering, who has a keen interest in blockchain infrastructure and interoperability, DeFi and NFTs. He leverages past experience in DevOps management and brings first-hand insights and experience as a software developer, Web3 educator and researcher. Danny is a Polkadot ecosystem contributor committed to a decentralized web. 🌐
 
 * [Kresna Sucandra](https://github.com/SHA888) is a dedicated programmer and Parity/Substrate enthusiast. Kusandra has been dedicated for the past year learning everything there is to know about the Web3 ecosystem. Kresna is a medical doctor turned programmer with a background in Substrate blockchain development focusing on multi-chain interoperability, DeFi, NFTs, and the Metaverse. He brings first-hand insights and experience as a former blockchain startup co-founder and developer with a history focusing on JavaScript and Rust programming. Kresna is a Polkadot ecosystem contributor who loves entrepreneurship. 🚀
 
@@ -174,7 +174,7 @@ experience developing applications for the Substrate ecosystem and as a Polkadot
 * [Brunk Škvorc](https://www.linkedin.com/in/swader) is one of the most knowledgeable programmers in the Polkadot/Kusama ecosystem as a former Web3 educator, Polkadot Council member, and the founder of the RMRK standard. 
 
 * [Sonja Prstec](https://www.linkedin.com/in/sonja-prstec-mag-iur-89a0b324) is one of the most informed legal experts in the blockchain field, having served as a 
-legal advisor for the Web3 Foundation, and as an active advisor for NEAR protocol.
+legal advisor for the Mintbase, and as an active advisor for NEAR protocol.
 
 ### Team Code Repos
 
@@ -281,6 +281,6 @@ Goal - Develop and deliver the DEV Pallets & Standards for the InvArch Chain/Inv
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** 
-Web3 Foundation Website
+Mintbase Website
 
 Only the InvArch team has financially contributed at this time.

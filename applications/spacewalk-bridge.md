@@ -187,6 +187,6 @@ The Spacewalk project grows beyond the first version alongside the community of 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website
+**How did you hear about the Grants Program?** Mintbase Website
 
 **Any other grants?** The Pendulum prototype was supported with a grant from the Stellar Development Foundation.

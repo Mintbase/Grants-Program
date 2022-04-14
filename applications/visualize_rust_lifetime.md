@@ -209,7 +209,7 @@ Second, we plan to conduct a survey to understand what challenges programmers fa
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website
+**How did you hear about the Grants Program?** Mintbase Website
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 

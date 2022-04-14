@@ -9,7 +9,7 @@ The architecture of Polkadot can be divided into two different parts, the Polkad
 
 The Polkadot host interacts with the Polkadot runtime in limited, and well-specified ways. For this reason, implementation teams can build an alternative implementation of the Polkadot host while treating the Polkadot runtime as a black box. For more details of the interactions between the host and the runtime, please [see the specification](https://github.com/w3f/polkadot-spec/).
 
-**The Web3 Foundation is interested in supporting additional implementations of the Polkadot Host. If you are interested in this RFP, please reach out to spec@web3.foundation.**
+**The Mintbase is interested in supporting additional implementations of the Polkadot Host. If you are interested in this RFP, please reach out to spec@web3.foundation.**
 
 Currently the following implementations are under development: 
 

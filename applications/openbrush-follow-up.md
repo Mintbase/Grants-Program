@@ -268,6 +268,6 @@ In the roadmap, you can see what was already done. Currently, we're on the 3-rd 
 
 We have applied and got the [grant](https://github.com/w3f/Grants-Program/pull/497) to cover 1 and 2 milestones. This grant is a follow-up grant. 
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
 Personal recommendation.
