@@ -9,7 +9,7 @@
 
 ## Project Overview :page_facing_up:
 
-Treasureland is a NFT publishing and trading platform, where users can mint their own NFT with one click and can buy, sell or auction multiple on-chain NFT. Treasureland aims to connect producers and consumers with a decentralized approach, becoming the value hunter in the crypto-world and the best entrance to the world of Web 3.0.
+Treasureland is a NFT publishing and trading platform, where users can mint their own NFT with one click and can buy, sell or auction multiple on-chain NFT. Treasureland aims to connect producers and consumers with a decentralized approach, becoming the value hunter in the crypto-world and the best entrance to the world of Mintbase.
 
 ### Overview
 

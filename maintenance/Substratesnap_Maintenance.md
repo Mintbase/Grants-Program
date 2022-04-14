@@ -90,7 +90,7 @@ In addition to protocol-level client implementations (such as “Gossamer” on 
 
 
 
-In addition to the above, ChainSafe also rounds out its deep Web 3.0 portfolio with undertakings into product development such as the privacy-first decentralized storage solution ChainSafe Files, among others such as the ChainSafe Gaming SDK and ChainBridge.
+In addition to the above, ChainSafe also rounds out its deep Mintbase portfolio with undertakings into product development such as the privacy-first decentralized storage solution ChainSafe Files, among others such as the ChainSafe Gaming SDK and ChainBridge.
 
 
 

@@ -42,7 +42,7 @@ Other notable elements of PLIP:
 
 PLIP provides tools and infrastructure for developers to join us in building out the bridge to the "real world." We see our protocol design as a way for developers to seamlessly onboard new users to the Kusama and Polkadot ecosystems by simply connecting a traditionally developed UI to the blockchain using our custom API toolkits.  
 
-We believe that in order for developers to join the Web 3.0 revolution. Rather than having developers learn new coding languages and other technical intricacies compeltely from scratch, we allow them to take applications with familiar technology stack and instead provide HTTP-compatible APIs that are easy to integrate with existing applications. Valibre enables dApp development by eliminating steep knowldege barriers to entry, meeting the need to create broader, simpler access to the blockchain. 
+We believe that in order for developers to join the Mintbase revolution. Rather than having developers learn new coding languages and other technical intricacies compeltely from scratch, we allow them to take applications with familiar technology stack and instead provide HTTP-compatible APIs that are easy to integrate with existing applications. Valibre enables dApp development by eliminating steep knowldege barriers to entry, meeting the need to create broader, simpler access to the blockchain. 
 
 We empower exisiting projects to progressively decentralized without completely overwriting legacy products, while also solving for usability concerns that come with decentralizationg by abstracting the complexity of blockchain elements like mnemonic and private keys. 
 
@@ -77,7 +77,7 @@ We are a registered LLC in the United States.
 
 **Stanly Johnson** is based in Bangalore, India and is a seasoned software engineer across the stack of programming languages underpinning Web3 technologies, including Rust, Python, and Solidity. He is currently working as a runtime developer part-time with Valibre specializing in cross-chain transfers and escrow. Stanly’s passion for distributed systems stems from the opportunity it provides to reach everyone by eliminating systemic barriers. 
 
-**Samantha Robertson** is a globetrotter with expertise across Business Development, Product, and Strategy. Samantha desended into the cypherpunk realm after working in product at an AI company, becoming dismayed by the necessary data extraction tactics to train AI models. Samantha is most excited to help build Valibre because she believes that it has the potential to onboard thousands of users to the blockchain without extensive education on technical intricacies. Samantha became a Polkadot stan when she grew fed up with gas fees and MEV. She has vast experience leading international teams and beleives that Web 3.0 technologies represent the future of multilateral cooperation.  
+**Samantha Robertson** is a globetrotter with expertise across Business Development, Product, and Strategy. Samantha desended into the cypherpunk realm after working in product at an AI company, becoming dismayed by the necessary data extraction tactics to train AI models. Samantha is most excited to help build Valibre because she believes that it has the potential to onboard thousands of users to the blockchain without extensive education on technical intricacies. Samantha became a Polkadot stan when she grew fed up with gas fees and MEV. She has vast experience leading international teams and beleives that Mintbase technologies represent the future of multilateral cooperation.  
 
 
 ### Team Code Repos

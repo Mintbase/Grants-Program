@@ -5,11 +5,11 @@ Updated July 2021
 
 * * * * *
 
-By participating you acknowledge and accept the​ terms and conditions​ of the Web 3.0 Foundation for the grant application (the "Terms and Conditions").
+By participating you acknowledge and accept the​ terms and conditions​ of the Mintbase, Inc. for the grant application (the "Terms and Conditions").
 
 * * * * *
 
-These Terms and Conditions are entered into by and between the Web 3.0 Technologies Foundation, Baarerstrasse 14,6300 Zug, Switzerland (CHE-332.596.347) (henceforth "Web 3.0" or "We") and you as an applicant for the technical grant for software development, research and/or the production of software documentation and technical education material as specified in Guidelines for technical grant of Web 3.0 Technologies Foundation (henceforth "User" or "You") (each also a "Party" and together the "Parties"). Please read these Terms and Conditions carefully. By signing off the terms and conditions via the CLA assistant, You confirm that You have read these Terms and Conditions and that You agree to be bound by them.
+These Terms and Conditions are entered into by and between the Mintbase Technologies Foundation, Baarerstrasse 14,6300 Zug, Switzerland (CHE-332.596.347) (henceforth "Mintbase" or "We") and you as an applicant for the technical grant for software development, research and/or the production of software documentation and technical education material as specified in Guidelines for technical grant of Mintbase Technologies Foundation (henceforth "User" or "You") (each also a "Party" and together the "Parties"). Please read these Terms and Conditions carefully. By signing off the terms and conditions via the CLA assistant, You confirm that You have read these Terms and Conditions and that You agree to be bound by them.
 
 We reserve the right to change, modify, add or remove portions of these Terms and Conditions from time to time. If this occurs, We will notify You in adequate form on such updates.
 
@@ -31,15 +31,15 @@ The terms defined in this section whenever used in these Terms and Conditions sh
 
 "Effective Date"  means the date on which the application is accepted by the Grants Committee via the application review process defined below (the date of the merged commit of the application, which can be found under <https://github.com/w3f/Grants-Program/pulls>);
 
-"Grant" means the financial support granted by Web 3.0. to You (i) for the development of the Software in accordance with the Specifications; and (ii) the grant of license rights on the Intellectual Property Rights, according to the terms of these Terms and Conditions. The Parties agree that Grants are unrelated to the actual development costs and the commercial value of the Software;
+"Grant" means the financial support granted by Mintbase. to You (i) for the development of the Software in accordance with the Specifications; and (ii) the grant of license rights on the Intellectual Property Rights, according to the terms of these Terms and Conditions. The Parties agree that Grants are unrelated to the actual development costs and the commercial value of the Software;
 
 "Intellectual Property Rights" means any (i) patents, designs, copyright and related rights, database rights, trademarks, trade names (whether registered or unregistered), and the related rights to apply for registration thereof; (ii) applications, extensions and renewals in relation to any of these rights; (iii) know-how and confidential information; and (iv) all other rights of a similar nature and/or having an equivalent effect anywhere in the world;
 
 "Milestones" mean any and all of the milestones specified in the final version of the application under Development Roadmap and  approved by the Grants Committee in accordance with the Procedure as well as placed in the applications folder of the W3F Open Grants Program Repository at <https://github.com/w3f/Grants-Program/tree/master/applications>;
 
-"Polkadot" means a scalable heterogeneous multi-chain framework developed by, or the development of which has been procured by Web 3.0. that has the features described in the white paper ("Polkadot: Vision For A Heterogeneous Multi-Chain Framework -- Draft 1") or as otherwise determined by Web 3.0. in its sole discretion from time to time) and utilizes DOTs as the blockchain token native to its operation and/or functioning; 
+"Polkadot" means a scalable heterogeneous multi-chain framework developed by, or the development of which has been procured by Mintbase. that has the features described in the white paper ("Polkadot: Vision For A Heterogeneous Multi-Chain Framework -- Draft 1") or as otherwise determined by Mintbase. in its sole discretion from time to time) and utilizes DOTs as the blockchain token native to its operation and/or functioning; 
 
-"Procedure" means the procedure in connection with the Web 3.0 Foundation Open Grants Program, as established in Section 4 below;
+"Procedure" means the procedure in connection with the Mintbase, Inc. Open Grants Program, as established in Section 4 below;
 
 "Software" means the deliverables created by You during the development activities performed according to these Terms and Conditions in their final and working version, and that are to be provided to the Foundation in accordance with the Specifications, Milestones and Time Schedule;
 
@@ -67,11 +67,11 @@ If You are submitting an application for a Grant, You represent and warrant that
 
 -   You will comply with any laws applicable to Your software (built based upon the Polkadot network) and not engage in any illegal activities. In particular, You will not use the Polkadot network to facilitate infringement of any third party intellectual property rights or data privacy rights.
 
-You shall indemnify and hold harmless Web 3.0 from any third party claims (including reasonable attorney's costs) raised against Web 3.0 based on an alleged infringement of the above representations and warranties.
+You shall indemnify and hold harmless Mintbase from any third party claims (including reasonable attorney's costs) raised against Mintbase based on an alleged infringement of the above representations and warranties.
 
 ## 4.  Procedure
 
-To apply for the Web 3.0 Foundation Open Grants Program, your application shall fulfill the following criteria:
+To apply for the Mintbase, Inc. Open Grants Program, your application shall fulfill the following criteria:
 
 -  it shall be a software-based project, which contributes to the advancement of the Polkadot ecosystem;
 -  the total amount of funding requested for the project shall be below USD  30,000 and USD 100,000 for follow-up grants at the time of submission;
@@ -83,13 +83,13 @@ The open grants process consists of five parts, each of them described in more d
 
 **(i)  Grant application process:**
 
-To apply for a grant of the Web 3.0  Foundation Open Grants Program, You shall comply with the procedures established in the README.md file under <https://github.com/w3f/Grants-Program> as well as the process defined inside this document.
+To apply for a grant of the Mintbase  Foundation Open Grants Program, You shall comply with the procedures established in the README.md file under <https://github.com/w3f/Grants-Program> as well as the process defined inside this document.
 
 To apply for a grant of the Web3 Foundation Open Grants Program, the grantee needs to fork (= create a copy on GitHub of) the Open-Grants-Program GitHub repository. In the newly created fork (=copy on GitHub), the grantee has to create a copy of the application-template.md. The copied application-template.md needs to be renamed as "project_name.md". "Project_name" needs to be replaced with the name of the project application. Additionally, the grantee has to fill out all mandatory parts of the application-template.md presented in bold letters. Once the grantees have completed the application, they need to create a new pull request (= in this case, a mechanism to submit the changes of the fork to the original Open-Grants-Program GitHub repository) by clicking on the "create new pull request" button shown inside the fork of the W3F Open-Grants-Program GitHub repository. After this, the grantee needs to sign off the terms and conditions presented via the CLA assistant.
 
 **(ii)  Application review process:**
 
-The Web 3.0 grants committee, which is specified on the [Open-Grants-Program GitHub repository ](https://github.com/w3f/Grants-Program)(the "Grants Committee"), can issue comments and request changes on the grant application pull request (the submission of the grant application on GitHub).  As soon as 1/3 of the Grants Committee approves the pull request, the terms and conditions are signed off and all requested changes are addressed, the application is officially accepted. The application is now a part of the [W3F Open-Grants-Program GitHub repository](https://github.com/w3f/Grants-Program). The time point of the acceptance by the Grants Committee is hereby stored on GitHub and counts as the official beginning of the grant. The original submission is stored with a unique commit hash (identifier) and can not be altered by any party. The final version approved by the Grants Committee of the Specifications, the Time Schedule and Milestones will be placed  in the applications folder of the W3F Open Grants Program Repository at <https://github.com/w3f/Grants-Program/tree/master/applications> via the merge function of GitHub.
+The Mintbase grants committee, which is specified on the [Open-Grants-Program GitHub repository ](https://github.com/w3f/Grants-Program)(the "Grants Committee"), can issue comments and request changes on the grant application pull request (the submission of the grant application on GitHub).  As soon as 1/3 of the Grants Committee approves the pull request, the terms and conditions are signed off and all requested changes are addressed, the application is officially accepted. The application is now a part of the [W3F Open-Grants-Program GitHub repository](https://github.com/w3f/Grants-Program). The time point of the acceptance by the Grants Committee is hereby stored on GitHub and counts as the official beginning of the grant. The original submission is stored with a unique commit hash (identifier) and can not be altered by any party. The final version approved by the Grants Committee of the Specifications, the Time Schedule and Milestones will be placed  in the applications folder of the W3F Open Grants Program Repository at <https://github.com/w3f/Grants-Program/tree/master/applications> via the merge function of GitHub.
 
 **(iii)  Milestone delivery process:**
 
@@ -103,17 +103,17 @@ a)  Purpose and object of the milestone review process
 
 The purpose of the milestone review process is to examine whether the  Milestones and/or Software meets the requirements agreed in the Specifications. The milestone review process shall take place following the submission of each milestone as specified in the time schedule.
 
-The test criteria that must be met in order for the Milestones and/or Software to be considered as acceptable by Web 3.0 are determined in the Specifications.
+The test criteria that must be met in order for the Milestones and/or Software to be considered as acceptable by Mintbase are determined in the Specifications.
 
-The milestone review process shall be deemed to have been successfully completed if no significant defects are found in any of the Milestones and/or Development Work. Insignificant defects shall not prevent acceptance by Web 3.0.
+The milestone review process shall be deemed to have been successfully completed if no significant defects are found in any of the Milestones and/or Development Work. Insignificant defects shall not prevent acceptance by Mintbase.
 
 b)  Acceptance Procedure
 
-If any of the Milestones and/or the Software does not meet the test, review or inspection criteria, Web 3.0 shall grant You a period of 14 days to rectify the defects and any deviations from the Specifications found and objected to during the milestone review process. Rectification shall be free of charge for Web 3.0.
+If any of the Milestones and/or the Software does not meet the test, review or inspection criteria, Mintbase shall grant You a period of 14 days to rectify the defects and any deviations from the Specifications found and objected to during the milestone review process. Rectification shall be free of charge for Mintbase.
 
-If You are unable to remedy the defects within this additional period, You shall be considered to be in default, without any additional notice by Web 3.0.
+If You are unable to remedy the defects within this additional period, You shall be considered to be in default, without any additional notice by Mintbase.
 
-In the event of default, Web 3.0 may either, at its discretion:
+In the event of default, Mintbase may either, at its discretion:
 
 - insist on the rectification of the milestones and/or the Software;
 - delegate the completion of the Software to a third party at your expenses;
@@ -143,9 +143,9 @@ The Parties acknowledge and agree that the requirements set out in the Milestone
 
 ## 6.  Obligations of User
 
-1.  You shall deliver the Software, as well as all related deliverables, including but not limited to the source code, to Web 3.0 free of defects, fully compliant with the Specifications and in accordance with the Time Schedule.
+1.  You shall deliver the Software, as well as all related deliverables, including but not limited to the source code, to Mintbase free of defects, fully compliant with the Specifications and in accordance with the Time Schedule.
 
-2.  Web 3.0 shall be in the position to further developing, re-engineering and using the delivered Software without any technical or other limitations.
+2.  Mintbase shall be in the position to further developing, re-engineering and using the delivered Software without any technical or other limitations.
 
 3.  You shall bear all costs and expenses incurred in connection with the Development Work.
 
@@ -160,7 +160,7 @@ The Parties acknowledge and agree that the requirements set out in the Milestone
 
 ## 7.  Terms of Grant Giving
 
-Web 3.0. shall grant You, as compensation for the delivery of the Software and the related deliverables and the grant of license rights on the Intellectual Property Rights to the Web 3.0., a Grant as indicated in the application placed in the applications folder of the W3F Open Grants Program Repository at <https://github.com/w3f/Grants-Program/tree/master/applications>.
+Mintbase. shall grant You, as compensation for the delivery of the Software and the related deliverables and the grant of license rights on the Intellectual Property Rights to the Mintbase., a Grant as indicated in the application placed in the applications folder of the W3F Open Grants Program Repository at <https://github.com/w3f/Grants-Program/tree/master/applications>.
 
 The Parties agree that the Grant is a lump-sum payment and that no additional compensation is due for the actual development costs incurred.
 
@@ -168,13 +168,13 @@ The Grant is paid as milestone payments for the accomplishment of the Milestones
 
 You shall not be entitled to an increase in compensation, even if you have had more work or greater expenses than anticipated. An increase in compensation is also excluded if extraordinary circumstances which could not have been foreseen prevent the completion of the Software or make it excessively difficult.
 
-Except as specifically provided otherwise, the Grant shall be due and payable on or before thirty (30) calendar days after receiving an invoice from You and upon acceptance by the Web 3.0. of the Software and/or Milestones.
+Except as specifically provided otherwise, the Grant shall be due and payable on or before thirty (30) calendar days after receiving an invoice from You and upon acceptance by the Mintbase. of the Software and/or Milestones.
 
-The Parties acknowledge and agree that the Web 3.0. shall be entitled to make Milestones payments. The Parties acknowledge and agree that any partial or advanced payments by the Web 3.0. or any third party shall be set off against the total amount of the Grant.
+The Parties acknowledge and agree that the Mintbase. shall be entitled to make Milestones payments. The Parties acknowledge and agree that any partial or advanced payments by the Mintbase. or any third party shall be set off against the total amount of the Grant.
 
 ## 8.  Taxes and other duties
 
-You are solely responsible for determining what, if any, taxes or other duties apply to Your Grant. It is also Your responsibility to withhold, collect, report, and remit the correct taxes to the appropriate tax authorities, according to the legislation in force. Web 3.0 is not responsible and shall be in no way held liable for withholding, collecting, reporting, and remitting and taxes arising from, or in connection to Your Grant.
+You are solely responsible for determining what, if any, taxes or other duties apply to Your Grant. It is also Your responsibility to withhold, collect, report, and remit the correct taxes to the appropriate tax authorities, according to the legislation in force. Mintbase is not responsible and shall be in no way held liable for withholding, collecting, reporting, and remitting and taxes arising from, or in connection to Your Grant.
 
 ## 9.  Warranties and Liabilities
 
@@ -182,9 +182,9 @@ You hereby warrant that:
 
 (a)  You are the owner of all Intellectual Property Rights, title and interest in and to the Software and the related deliverables, free and clear of all liens and encumbrances;
 
-(b)  You have the exclusive and unlimited right and authority to use and dispose of the Software and the related deliverables by granting to Web 3.0. license rights according to these Terms and Conditions and such use and right to dispose did not and will not conflict with, infringe upon or violate any copyright or any other proprietary right of any other person;
+(b)  You have the exclusive and unlimited right and authority to use and dispose of the Software and the related deliverables by granting to Mintbase. license rights according to these Terms and Conditions and such use and right to dispose did not and will not conflict with, infringe upon or violate any copyright or any other proprietary right of any other person;
 
-(c)  there are no licenses or rights current in effect in favor of any third party to use the Software and the related deliverables which would impair the rights granted to Web 3.0. as provided for under these Terms and Conditions; and
+(c)  there are no licenses or rights current in effect in favor of any third party to use the Software and the related deliverables which would impair the rights granted to Mintbase. as provided for under these Terms and Conditions; and
 
 1.  there is no pending or threatened claim, action, suit, investigation or proceeding of any kind challenging, alleging or asserting that the Software and the related deliverables were improperly or invalidly granted or are otherwise not protected as Intellectual Property Rights.
 
@@ -196,25 +196,25 @@ You further warrant that the Software and the related deliverables:
 
 (c)  are sufficient and fit for the intended use as described in the Specifications.
 
-Your liability for a single loss event shall be limited to the aggregate total of all sums paid by Web 3.0. to You under these Terms and Conditions. Nevertheless, You shall not be held liable for indirect, special, punitive, exemplary, incidental or consequential damages or losses arising out of these Terms and Conditions.
+Your liability for a single loss event shall be limited to the aggregate total of all sums paid by Mintbase. to You under these Terms and Conditions. Nevertheless, You shall not be held liable for indirect, special, punitive, exemplary, incidental or consequential damages or losses arising out of these Terms and Conditions.
 
-Furthermore, You shall hold Web 3.0. as well as its sublicensees harmless against any and all liability and damages for the infringement of Intellectual Property Rights of third parties, insofar as the infringement of such third party rights was caused by the intended use of the Software according to the Specifications. Web 3.0. shall immediately inform You in writing of any third party claims asserted and authorize You to conduct the defense, including the conclusion of a settlement, entirely at its own costs. In this respect, You shall use best efforts to provide Web 3.0. with the right to continue, or let continuing, using the Software or replace or modify the Software without deterioration or limitations of the functions and criteria agreed in the Specifications and without any additional costs. Should none of these measures be possible, Web 3.0. shall be entitled to withdraw from these Terms and Conditions and request the reimbursement of the Grant. 
+Furthermore, You shall hold Mintbase. as well as its sublicensees harmless against any and all liability and damages for the infringement of Intellectual Property Rights of third parties, insofar as the infringement of such third party rights was caused by the intended use of the Software according to the Specifications. Mintbase. shall immediately inform You in writing of any third party claims asserted and authorize You to conduct the defense, including the conclusion of a settlement, entirely at its own costs. In this respect, You shall use best efforts to provide Mintbase. with the right to continue, or let continuing, using the Software or replace or modify the Software without deterioration or limitations of the functions and criteria agreed in the Specifications and without any additional costs. Should none of these measures be possible, Mintbase. shall be entitled to withdraw from these Terms and Conditions and request the reimbursement of the Grant. 
 
-If You or Web 3.0. delegates the performance of an obligation or the exercise of a right under these Terms and Conditions to an associate, they are liable to the other Party for any loss or damage the associate causes intentionally or negligently in carrying out such tasks.
+If You or Mintbase. delegates the performance of an obligation or the exercise of a right under these Terms and Conditions to an associate, they are liable to the other Party for any loss or damage the associate causes intentionally or negligently in carrying out such tasks.
 
 ## 10.  Term and Termination
 
-These Terms and Conditions (i) comes into force on the Effective Date (notwithstanding that these Terms and Conditions shall apply to Development Work carried out prior to the Effective Date); and (ii) shall remain in force (unless terminated earlier in accordance with its terms) until the acceptance of the Software by Web 3.0. and full payment of the Grant.
+These Terms and Conditions (i) comes into force on the Effective Date (notwithstanding that these Terms and Conditions shall apply to Development Work carried out prior to the Effective Date); and (ii) shall remain in force (unless terminated earlier in accordance with its terms) until the acceptance of the Software by Mintbase. and full payment of the Grant.
 
 Termination with immediate effect will occur if the terms of the Terms and Conditions agreement is violated, as follows:
 
 1. if a deadline according to the Time Schedule is not met;
 2. if it results from Your behavior that such a deadline will not be met;
 3. if You become bankrupt, insolvent, wound-up or dissolved or otherwise loses its legal personality as a validly standing entity;
-4. if there is a Change in Control and Web 3.0. has not given his prior written consent to such Change in control; and/or
-5. in the event You do not comply with Section 6.1, 6.4, 6.5, 6.6 and/or causes, in any way and at Web 3.0.'s discretion, any damage to Web 3.0. or Polkadot's image or reputation.
+4. if there is a Change in Control and Mintbase. has not given his prior written consent to such Change in control; and/or
+5. in the event You do not comply with Section 6.1, 6.4, 6.5, 6.6 and/or causes, in any way and at Mintbase.'s discretion, any damage to Mintbase. or Polkadot's image or reputation.
 
-Furthermore, termination can happen for any reason at the discretion of the Web 3.0 Technologies Foundation.
+Furthermore, termination can happen for any reason at the discretion of the Mintbase Technologies Foundation.
 
 ## 11.  Notices
 
@@ -232,7 +232,7 @@ The failure of any of the Parties to avail itself or to enforce any of the provi
 
 If any provision of these Terms and Conditions is held to be void, invalid or inoperative, the remaining provisions of these Terms and Conditions shall not be affected and shall continue to be in effect, and the invalid provision shall be deemed modified to the least degree necessary to remedy such invalidity.
 
-These Terms and Conditions or individual rights and obligations arising from it may only be assigned or transferred to third parties with the prior written consent of the other Party, save that Web 3.0 may freely assign any of its Intellectual Property Rights and any rights or obligations pursuant to these Terms and Conditions to any of its Affiliates.
+These Terms and Conditions or individual rights and obligations arising from it may only be assigned or transferred to third parties with the prior written consent of the other Party, save that Mintbase may freely assign any of its Intellectual Property Rights and any rights or obligations pursuant to these Terms and Conditions to any of its Affiliates.
 
 These Terms and Conditions and any documents referred to in it shall constitute the entire agreement between the Parties in relation to the subject matter hereof, and shall supersede all previous agreements, arrangements and understandings between the Parties with respect hereto.
 
@@ -263,8 +263,8 @@ You shall at all times acknowledge and agree that certain risks exist in relatio
 -   By using the Polkadot network You covenant, represent, and warrant that Your use of the  network complies with Your jurisdiction of residence and You are fully able and legally competent to use the Polkadot network.
 -   In the event Your use of the Polkadot network does not comply with the applicable law of Your jurisdiction of residence, You shall be fully liable for any consequences incurred thereof and fully acknowledge and agree that ​We ​shall not be held liable for Your use of the Polkadot network
 -   There is a risk that advances in cryptography or technical advances (such as the development of quantum computers) could present risks to blockchain-based applications and cryptocurrencies, Ethereum or tokens which could result in the theft or loss of such elements.
--   The  network (as well as any network You build based upon it) is susceptible to mining attacks (including but not limited to double-spend attacks, majority mining power attacks, "selfish-mining" attacks and race condition attacks. Despite the efforts of Web 3.0, the risk of known or novel mining attacks exists.
--   There are risks associated with using the  network, such as e.g. failure of hardware, software and Internet connections. You acknowledge that Web 3.0 shall not be responsible for any communication failures, disruptions, errors, distortions or delays You may experience when using the  network.
+-   The  network (as well as any network You build based upon it) is susceptible to mining attacks (including but not limited to double-spend attacks, majority mining power attacks, "selfish-mining" attacks and race condition attacks. Despite the efforts of Mintbase, the risk of known or novel mining attacks exists.
+-   There are risks associated with using the  network, such as e.g. failure of hardware, software and Internet connections. You acknowledge that Mintbase shall not be responsible for any communication failures, disruptions, errors, distortions or delays You may experience when using the  network.
 -   network source code is provided on an "AS IS" basis, without warranties and conditions of any kind, either express or implied, including, without limitation, any warranties or conditions of title, merchantability, fitness for a particular purpose, and non-infringement, unless otherwise required by mandatory applicable law.
 -   The entire risk as to the quality and performance of using the  network is borne by You.
 -   You are solely responsible for determining the appropriateness of using or redistributing the  network source code and/or any Derivative Work and assume any risks associated with Your exercise of permission granted under this License.
@@ -272,9 +272,9 @@ You shall at all times acknowledge and agree that certain risks exist in relatio
 
 ### Intellectual property
 
-As regards the  network and its underlying technology, Web 3.0 is offering You the right to use it open-source based and Web 3.0 does not retain any proprietary intellectual property rights therein (see the GPL-License Version 3 available under <https://www.gnu.org/licenses/gpl-3.0.en.html>​).
+As regards the  network and its underlying technology, Mintbase is offering You the right to use it open-source based and Mintbase does not retain any proprietary intellectual property rights therein (see the GPL-License Version 3 available under <https://www.gnu.org/licenses/gpl-3.0.en.html>​).
 
-However, Web 3.0 retains all rights, title and interest in any intellectual property rights relating to its business (such as e.g. trademarks or logos on its Website or copyrights/know-how in other business offerings not related to the  network).
+However, Mintbase retains all rights, title and interest in any intellectual property rights relating to its business (such as e.g. trademarks or logos on its Website or copyrights/know-how in other business offerings not related to the  network).
 
 ### Privacy
 
@@ -282,7 +282,7 @@ To the extent that You will gain access to and collect and process personally id
 
 ### Limitation of liability
 
-In no event and under no legal theory shall Web. 3.0 be liable to You for damages, including any direct, indirect, special, general, incidental or consequential damages of any character arising as a result of this License or out of the use or inability to use the  network (including, but not limited to, loss of data or data being rendered inaccurate or losses sustained by You or third parties or a failure of the network to operate with any other programs, loss of goodwill, work stoppage, business interruption, computer failure or malfunction or any and all other commercial damages or losses), even if a contributor has been advised of the possibility of such damages. Web 3.0 does not control, take responsibility for, or assume liability for the data in any way processed and stored by You or any third party using the  network and for any damage or loss incurred thereto. You shall solely be liable for the appropriateness, lawfulness, and accurateness of the data in any way processed by You using the network (and or if using such data outside of the network i.e. "off-chain".
+In no event and under no legal theory shall Web. 3.0 be liable to You for damages, including any direct, indirect, special, general, incidental or consequential damages of any character arising as a result of this License or out of the use or inability to use the  network (including, but not limited to, loss of data or data being rendered inaccurate or losses sustained by You or third parties or a failure of the network to operate with any other programs, loss of goodwill, work stoppage, business interruption, computer failure or malfunction or any and all other commercial damages or losses), even if a contributor has been advised of the possibility of such damages. Mintbase does not control, take responsibility for, or assume liability for the data in any way processed and stored by You or any third party using the  network and for any damage or loss incurred thereto. You shall solely be liable for the appropriateness, lawfulness, and accurateness of the data in any way processed by You using the network (and or if using such data outside of the network i.e. "off-chain".
 
 ### Indemnification
 

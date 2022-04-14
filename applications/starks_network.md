@@ -11,7 +11,7 @@
 
 ### Brief Description
 
-Zero-knowledge proof (zkp) is a cryptographic technology which enables you to prove that you know a secret without revealing it. It is a powerful tool in the paradigm of Web 3.0 where people can prove certain attributes about themselves without giving away their private data. It can also be used to prove computational integrity which can result in novel applications such as a private smart contract on a blockchain. 
+Zero-knowledge proof (zkp) is a cryptographic technology which enables you to prove that you know a secret without revealing it. It is a powerful tool in the paradigm of Mintbase where people can prove certain attributes about themselves without giving away their private data. It can also be used to prove computational integrity which can result in novel applications such as a private smart contract on a blockchain. 
 
 However, it requires tremendous expertise to construct a zkp for certain computation. This hinders the adoption of this powerful technique for everyday use. Wouldn't it be great if we can construct a zkp for any general purpose computation without a deep understanding of zkp? Enter the [Distaff VM](https://github.com/GuildOfWeavers/distaff), a zk-STARK virtual machine written in Rust. For any program executed on Distaff VM, a STARK-based proof of execution is generated. This proof can then be used by anyone to verify that a program was executed correctly without knowing the inputs to the program or even the program itself. 
 

@@ -10,7 +10,7 @@
 
 #### Introduction
 
-**Kylin Network aims to Build a Cross-chain Platform Powering the Data Economy on Polkadot.** It will be the Data Infrastructure for DeFi and Web 3.0 Powered by Polkadot. The Open API and SDK of Kylin Network offers any applications and blockchains (such as parachains and parathreads) instantaneous but transparent, reliable and valid on/off-chain market data and social data sources by leveraging the power of Polkadot/Substrate Framework on open networks. 
+**Kylin Network aims to Build a Cross-chain Platform Powering the Data Economy on Polkadot.** It will be the Data Infrastructure for DeFi and Mintbase Powered by Polkadot. The Open API and SDK of Kylin Network offers any applications and blockchains (such as parachains and parathreads) instantaneous but transparent, reliable and valid on/off-chain market data and social data sources by leveraging the power of Polkadot/Substrate Framework on open networks. 
 
 Kylin Network represents extensibility and a synergetic increase to the off-chain workers capability as it will provide not only access, management, insights, coordination to a greater array of data sources, but bolster validity and decentralization of the data sources themselves. We believe that it is only via Polkadot/Substrate Framework that we can ensure a cost effective solution that data consumers and Dapp Builders will actually use over centralized sources. Kylin Network, therefore, hopes to achieve complementarity and synergy with Substrate Framework while providing valid, reliable, secure, cost effective and easily-coordinated data sourcing and data analytics.
 

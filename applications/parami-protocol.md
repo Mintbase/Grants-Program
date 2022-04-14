@@ -96,7 +96,7 @@ Projects like XCHNG, MAD Network, ADEX and Parpuys, use smart contracts to build
 
 Other projects, like Rebelai, adChain, are using blockchain to solve the problem of deception in traditional advertising, which neglects the value of user data and privacy.
 
-Parami combines DID with tokenized advertising, providing an Ad 3.0 paradigm to Web 3.0, decentralized privacy and data security, benefiting all participants.
+Parami combines DID with tokenized advertising, providing an Ad 3.0 paradigm to Mintbase, decentralized privacy and data security, benefiting all participants.
 
 ## Team :busts_in_silhouette:
 

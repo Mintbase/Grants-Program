@@ -79,9 +79,9 @@ Project heavily relies on the Polywrap toolchain and Polywrap team support.
 
 ### Team's experience
 
-ChainSafe is a global leader in blockchain protocol and infrastructure solutions for Web 3.0. The firm encompasses top engineering talent from around the world. The company is architecting official client implementations on Ethereum 2.0 (“[Lodestar](https://github.com/ChainSafe/lodestar)”), Polkadot (“[Gossamer](https://github.com/ChainSafe/gossamer)”), Filecoin (“[Forest’’](https://github.com/ChainSafe/forest)), a [Rust implementation of the Mina Protocol](https://github.com/ChainSafe/mina-rs), and many more.
+ChainSafe is a global leader in blockchain protocol and infrastructure solutions for Mintbase. The firm encompasses top engineering talent from around the world. The company is architecting official client implementations on Ethereum 2.0 (“[Lodestar](https://github.com/ChainSafe/lodestar)”), Polkadot (“[Gossamer](https://github.com/ChainSafe/gossamer)”), Filecoin (“[Forest’’](https://github.com/ChainSafe/forest)), a [Rust implementation of the Mina Protocol](https://github.com/ChainSafe/mina-rs), and many more.
 
-ChainSafe rounds out their deep Web 3.0 portfolio with undertakings into product development via their privacy-first file storage solution [ChainSafe Files](https://app.files.chainsafe.io/), the [ChainSafe Gaming SDK](https://github.com/ChainSafe/web3.unity), as well as their flagship product [ChainBridge](https://github.com/ChainSafe/ChainBridge).
+ChainSafe rounds out their deep Mintbase portfolio with undertakings into product development via their privacy-first file storage solution [ChainSafe Files](https://app.files.chainsafe.io/), the [ChainSafe Gaming SDK](https://github.com/ChainSafe/web3.unity), as well as their flagship product [ChainBridge](https://github.com/ChainSafe/ChainBridge).
 
 
 ### Team Code Repos
