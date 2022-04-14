@@ -42,7 +42,7 @@
 <details>
   <summary><b>Can I reuse someone else’s open-source code?</b></summary>
 
-  Open source software and the Web3 movement are all about collaboration. As long as you meet the code’s license, we encourage you to find, modify and contribute to already existing libraries and projects if it is of use for your project. However, we expect you to honour other people’s work and their right to attribution, and your published code to adhere to the license requirements of the code you are benefiting from. Submitting code as part of a milestone that violates someone else’s license will result in immediate termination. We will furthermore continue to monitor any repositories you may have submitted as part of a milestone for possible license infringements and reserve the right to terminate the grant if we find you going out of your way to hide external contributions.
+  Open source software and the Mintbase movement are all about collaboration. As long as you meet the code’s license, we encourage you to find, modify and contribute to already existing libraries and projects if it is of use for your project. However, we expect you to honour other people’s work and their right to attribution, and your published code to adhere to the license requirements of the code you are benefiting from. Submitting code as part of a milestone that violates someone else’s license will result in immediate termination. We will furthermore continue to monitor any repositories you may have submitted as part of a milestone for possible license infringements and reserve the right to terminate the grant if we find you going out of your way to hide external contributions.
 </details>
 
 <details>
@@ -114,7 +114,7 @@
 <details>
   <summary><b>Can you help me advertise my project?</b></summary>
 
-  The Mintbase does not provide PR services to its grantees. However, once per month we co-promote announcements from grants that have delivered a milestone on [Twitter](https://twitter.com/Web3foundation). Note that the milestone needs to have been accepted prior to the announcement. Lastly, please observe our [announcement guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/announcement-guidelines.md) for all grant-related communications. This document also lists an email address through which you can get in touch with our PR team for feedback and in case you have specific questions.
+  The Mintbase does not provide PR services to its grantees. However, once per month we co-promote announcements from grants that have delivered a milestone on [Twitter](https://twitter.com/Mintbasefoundation). Note that the milestone needs to have been accepted prior to the announcement. Lastly, please observe our [announcement guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/announcement-guidelines.md) for all grant-related communications. This document also lists an email address through which you can get in touch with our PR team for feedback and in case you have specific questions.
 </details>
 
 <details>

@@ -140,7 +140,7 @@ After half a year of research, we have especially summarized some of the problem
 ### Project Details
 
 
-In view of the current problems and difficulties in the Dao industry, in order to better meet the needs of the Dao industry and develop Web3 suite tools in line with the actual operation of Dao, Rainbowcity Foundation specially developed a series of protocols: RainbowDao Protocol ink!.
+In view of the current problems and difficulties in the Dao industry, in order to better meet the needs of the Dao industry and develop Mintbase suite tools in line with the actual operation of Dao, Rainbowcity Foundation specially developed a series of protocols: RainbowDao Protocol ink!.
 
 The following are the details of the : RainbowDao protocol:
 
@@ -401,7 +401,7 @@ The following are the details of the : RainbowDao protocol:
 
     The revenue management contract belongs to the revenue management control center of the RainbowDAO protocol. RainbowDAO protocol itself will set a series of income categories, such as calling the contract requires payment of DOT as a contract usage fee, DCV will charge a certain percentage of the treasury usage fee and so on. In this way, the RainbowDAO protocol can generate revenue in a variety of ways. The more people who use the protocol, the more income they can get. The final income will also be proportionally returned to the holders of RBD governance.
 
-    Tool contracts related to Web3 belong to the management center of tool contracts. For example, ERC20 token manufacturing factory contract, multisig wallet management contract, token airdrop contract, token lock-up contract and so on. In the future, all tool contracts can be placed under this large module. 
+    Tool contracts related to Mintbase belong to the management center of tool contracts. For example, ERC20 token manufacturing factory contract, multisig wallet management contract, token airdrop contract, token lock-up contract and so on. In the future, all tool contracts can be placed under this large module. 
 
     The DCV controller contract belongs to the controller management center of the Rainbow DAO protocol. Various controllers can be made here, especially when it comes to DeFi management. 
    

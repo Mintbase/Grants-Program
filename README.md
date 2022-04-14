@@ -28,7 +28,7 @@
 
 ## :wave: Introduction
 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and [graphQL indexer!](https://docs.mintbase.io/dev/getting-started)**. For more information about the Mintbase Foundation, please visit the [About page](https://mintbase.io) on our website.
+As part of our commitment to promoting the Mintbase ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and [graphQL indexer!](https://docs.mintbase.io/dev/getting-started)**. For more information about the Mintbase Foundation, please visit the [About page](https://mintbase.io) on our website.
 
 ### Guidelines
 
@@ -220,15 +220,11 @@ Please note that:
 
 ### Real-time conversation
 
-We have Matrix/Element channels for real-time discussions on Web3 and Polkadot. Join the conversation.
+We have Telegram channels for real-time discussions on Mintbase. Join the conversation.
 
-- [Mintbase Chat](https://matrix.to/#/#w3f:matrix.org)
-- [Polkadot Space](https://matrix.to/#/#polkadot:web3.foundation)
-- [Kusama Space](https://matrix.to/#/#kusama:web3.foundation)
+- [Mintbase Grants Chat](https://t.me/mintgrants)
+- [Mintbase Open](https://t.me/mintbase)
 
-Besides, we also have a **community room for all grant recipients**. Head over to that room to share your experience with other grantees, ask grants-related questions or simply hang out:
-
-- [Mintbase Grants Community](https://matrix.to/#/!XpynPDLusWUWfDpaqr:matrix.org?via=web3.foundation&via=matrix.org)
 
 ## :rocket: Alternative Funding Sources
 

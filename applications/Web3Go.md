@@ -1,8 +1,8 @@
 # Mintbase Grant Proposal
 
 
-* **Project Name:** Web3Go
-* **Team Name:** Web3Go
+* **Project Name:** MintbaseGo
+* **Team Name:** MintbaseGo
 * **Payment Address:** 0xD57e28773c92E6fB9D9Fb164889886cd360074BE(USDT)
 * **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
 
@@ -11,13 +11,13 @@
 
 ### Overview
 
-Web3Go is an open data platform that focuses on the formatting, visualization, sharing, and collaborative analysis of the on-chain data generated in the Polkadot ecosystem.
+MintbaseGo is an open data platform that focuses on the formatting, visualization, sharing, and collaborative analysis of the on-chain data generated in the Polkadot ecosystem.
 
 Due to the explosion of Defi, NFT, and metaverse, there is massive amount of data generated on the blockchain every day, which is very important information for the media companies, investment institutions, and blockchain participants. However, it is difficult for non-professionals to obtain and understand these data. Beyond all doubt, data is valuable. Our project is to build a data platform for the Polkadot ecosystem and provide a series of toolsets so that everyone can easily create visualized results of data analysis. We are able to track smart contracts on-chain, and various parameters like stakings and CDPs of different Defi protocols, NFT circulation, and cross-chain assets on Polkadot ecosystem, and make these data formatted and persisted. With the help of the smart contract on Substrate parachain,   non-professionals can publish their data needs on the platform and use rewards to motivate professionals to help them perform data analysis; for professionals, they can publish their own professional analysis for everyone to use paid or for free. In the second situation,  they can get the reputation from the community.  In the end, we broke the monopoly of some existing companies on data analysis and interpretation, so that everyone can truly enjoy the true value behind blockchain data.
 
 
 
-We believe that with the development of Polkadot ecosystem, more on-chain data will be generated and the value behind the data is giant. Currently, there is still a gap between professional users and common participants in terms of the technical know-how of data. Using the infrastructure and tools provided by Web3Go, everyone can easily create, publish and share their point of view in the form of nice charts  based on the real data which has been formatted from the blockchain.
+We believe that with the development of Polkadot ecosystem, more on-chain data will be generated and the value behind the data is giant. Currently, there is still a gap between professional users and common participants in terms of the technical know-how of data. Using the infrastructure and tools provided by MintbaseGo, everyone can easily create, publish and share their point of view in the form of nice charts  based on the real data which has been formatted from the blockchain.
 
 The interpretation and analysis of data should not be in the hands of certain centralized professionals, but rather all users should have a say and benefit from it. Our vision is to build a Polkadot-based data analytics infrastructure, toolset, and incentive system where everyone can publish and be rewarded for related data tasks. Finally, an open and free data platform will be built to surface the signals of what is happening in the Polkadot system.
 
@@ -39,7 +39,7 @@ data board is the visualization result of data analysis created by analysts or c
 
 
 3. **Contract on Substrate:**
-We will use smart contracts on the Substrate nodes to demand, publish, share and reward the data activities within Web3Go. There are primarily two kinds of players involved in the smart contract: data demander, who has a need of professional, visualized results of data analysis regarding events that happened on the blockchain. Data demanders will publish the needs through the contract with bounty to incentive whoever fulfill these needs; on the other hand, data analyst, who has professional knowledge and skills can take on data tasks, or they can publish and share any data board they have created to the community in a paid or free manner. This smart contract will incentive more people to contribute to the data activities in the ecosystem since those who create more valuable data boards will gain a higher reputation.
+We will use smart contracts on the Substrate nodes to demand, publish, share and reward the data activities within MintbaseGo. There are primarily two kinds of players involved in the smart contract: data demander, who has a need of professional, visualized results of data analysis regarding events that happened on the blockchain. Data demanders will publish the needs through the contract with bounty to incentive whoever fulfill these needs; on the other hand, data analyst, who has professional knowledge and skills can take on data tasks, or they can publish and share any data board they have created to the community in a paid or free manner. This smart contract will incentive more people to contribute to the data activities in the ecosystem since those who create more valuable data boards will gain a higher reputation.
 
 
 
@@ -122,13 +122,13 @@ What makes us different is,as a part of Web 3 community and Polkadot ecosystem:
 
 ### Team's experience
 
-All team members of Web3Go are from Litentry. Litentry is a DID (distributed identity) solution provider in the Polkadot ecosystem. Litentry has been granted a grant from the Mintbase.
+All team members of MintbaseGo are from Litentry. Litentry is a DID (distributed identity) solution provider in the Polkadot ecosystem. Litentry has been granted a grant from the Mintbase.
 
-Web3Go team members have strong engineering background: Han Zhao, Yifei Wu and Minqi Wang are responsible for the development of Litentry's parachain (https://github.com/litentry/litentry-parachain), Hao ding and Yunjian Bian are responsible for the on-chain data indexing And front-end and back-end development. (https://github.com/litentry/data-analysis)
+MintbaseGo team members have strong engineering background: Han Zhao, Yifei Wu and Minqi Wang are responsible for the development of Litentry's parachain (https://github.com/litentry/litentry-parachain), Hao ding and Yunjian Bian are responsible for the on-chain data indexing And front-end and back-end development. (https://github.com/litentry/data-analysis)
 
 ### Team Code Repos
 
-* https://github.com/web3go-xyz Web3Go official repository
+* https://github.com/web3go-xyz MintbaseGo official repository
 * https://github.com/web3go-xyz/web3go  Backend and UI of web3go
 * https://github.com/web3go-xyz/Indexer Indexer of Moonriver staking
 
@@ -154,7 +154,7 @@ Web3Go team members have strong engineering background: Han Zhao, Yifei Wu and M
 * [Data board-Karura CDP](https://web3go.xyz/#/CDPProfiler): This data board tracks and visualizes the real-time CDP information of Karura, and provides the historical analytics and real-time CDP status of each participant. 
 * [Data board-KSM crowdloan](https://web3go.xyz/#/ParaChainProfiler): This data board tracks and visualizes the real-time Kusama crowdloan on each lease, including the total amount of each project, address, and amount of each contribution.
 * [Data board-ERC20 Token](http://106.52.138.224:8080/#/WalletProfiler?data=%7B%22type%22%3A%22ERC20%22,%22name%22%3A%22LIT%20Analysis%22,%22description%22%3A%22Sample%20Analysis%20For%20LIT%20To%20View%20The%20Details%20And%20Trends%22,%22created%22%3A%22Litentry%20Offical%20Team%22,%22data%22%3A%7B%22contractAddress%22%3A%220xb59490ab09a0f526cc7305822ac65f2ab12f9723%22%7D%7D): This data board tracks and visualizes the real-time and historical transactions, amounts,  and addresses of ERC20 tokens including LIT, ATA, and POLS with analysis. 
-* [UI Mock-ups](https://drive.google.com/drive/folders/1NIEB0Tbj7tIcf7Q2CRzuMwbkU95ADnH4?usp=sharing): here saved the UI design and mock-up of Web3Go, it is keep updating.
+* [UI Mock-ups](https://drive.google.com/drive/folders/1NIEB0Tbj7tIcf7Q2CRzuMwbkU95ADnH4?usp=sharing): here saved the UI design and mock-up of MintbaseGo, it is keep updating.
 * [Semi-automatic chart generation](https://web3go.xyz/#/CustomQuery?editSupport=true): This module is to let users can generate visualized charts automatically by simply writing SQL language based on our existing indexed and formatted data. Currently the supported chart is bar chart, line chart, and pie chart. The word "semi-automatic" means that the user has to write SQL to generate the chart.
 
 
@@ -179,12 +179,12 @@ Web3Go team members have strong engineering background: Han Zhao, Yifei Wu and M
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can use the existing data board, and use the UI to create/publish their own customized data board|
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains the concept and vision of Web3Go
+| 0e. | Article | We will publish an **article**/workshop that explains the concept and vision of MintbaseGo
 | 1.a | Indexer| We will develop our customized indexer on the top of Subquery to make it more compatible to our scenario in below two areas: 1. Handle data/event and extract the result to external storage: currently the indexed data is saved in the built-in Postgres database due to the design of the framework of Subquery.  And we have to retrieve the data from Postgres to our database again, it is very inefficient.  We are going to build two new modules: the post-process module and the logic handling module, which can directly save the data to our database directly according to our logic module. in this way,  the data and logic part can be decoupled.  | 
 | 1.b | Indexer| 2. Enable HTTP/HTTPS module to retrieve external data when fetching block: currently, the framework does not support retrieving data externally during fetching the block.  But this case happens from time to time: retrieving the NFT metadata from IPFS can be one example.  We will implement this module on top of the Subqeruy existing framework. |  
 | 2. | UI Module:general WebApp| We will continue on the development of the web application to implement: user sign-in/sign-up, categorization of data board,  social interactions functionality including like and share,  subscription of a specific event comes from a specific data board,  UI redesign and refinement, documentation and tutorial. |  
 | 3. | 3 more Data Boards:| We will create 3 more data boards of other projects in Polkadot ecosystem that have already won the bid in the Kusama auction(or Polkadot auction if it happens), so we will have more valuable data boards on our platform and user collect their board basing on our data and tools. Three projects are planned to index: [RMRK](https://www.rmrk.app/)(NFT circulation), [Moonriver](https://moonbeam.network/networks/moonriver/)(stake tracking) and [Parallel](https://parallel.fi/index.html)(Defi tracking).  (The projects might be changed but the number of data boards is fixed)|  
-| 4. | UI Module: semi-automatic chart generation| This part is the core value of Web3Go, which can help users generate charts based on existing data. We will optimize the UI and make the chart more charming and easy to use. | 
+| 4. | UI Module: semi-automatic chart generation| This part is the core value of MintbaseGo, which can help users generate charts based on existing data. We will optimize the UI and make the chart more charming and easy to use. | 
 | 5. | Support more Kusama Token:| We will support the token analysis for KSM, MOVR, KAR, kUSD, Heiko instead of ERC20 token.|   
 
 
@@ -201,7 +201,7 @@ Web3Go team members have strong engineering background: Han Zhao, Yifei Wu and M
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can use the existing data board, and use the UI to create/publish their own customized data board|
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains the concept and vision of Web3Go
+| 0e. | Article | We will publish an **article**/workshop that explains the concept and vision of MintbaseGo
 | 1. | UI Module:support more charts in semi-automatic chart generation | we will continue optimizing the automatic generation of charts, to make it support more kinds of charts like scatter charts, area charts, and tables.|  
 | 2. | UI Module:fully-automatic chart generation| We will enhance the user interaction of generating charts, provide the "drag and create" module for the user to generate charts. In this case, the user can generate charts with the same complexity as writing SQL can do. This functionality will provide a more easy way for the user to generate complicated charts who does not know program with SQL.|  
 | 3. |UI and backend Module: labling system | With more data we have accumulated, we will create a new UI to present the labeled address. we will give the address different labels basing on its historical activities on the blockchain, e.g. cross-chain transfer,  Karura  CDP participation, etc. The labeled addresses are a very good dataset that can be monitored to signal what is happening on the blockchain. 

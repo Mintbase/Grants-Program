@@ -10,7 +10,7 @@
 
 #### Introduction
 
-**SubDAO is a Cross-chain Platform built by SubDAO Labs to link DAO and DApp on Polkadot.**  It will be the infrastructure to maintain DAO and to connect DApp with DAO in the world of Web3.0 powered by Substrate and Polkadot.
+**SubDAO is a Cross-chain Platform built by SubDAO Labs to link DAO and DApp on Polkadot.**  It will be the infrastructure to maintain DAO and to connect DApp with DAO in the world of Mintbase.0 powered by Substrate and Polkadot.
 
 The SubDAO will run as a parachain to provide specific services. The various DAO templates and SubDAO Airfone will alleviate the burden on developers to maintain DAOs and to create very DApps linked with DAOs. 
 
@@ -22,7 +22,7 @@ SubDAO is a customized chain based on the Substrate 2.0 Framework and will run a
 
 #### Team Interest
 
-The initial members of the SubDAO Labs team are big fans of Web3.0 technology. They come from different areas, ranging from full-stack developer, product manager, project management to cryptocurrency early adopters. DAO is the ideal governance model in the mind of the team. Creating and maintain a DAO is not so easy, especially to make a DAO working across different chains. But with the help of Substrate 2.0 and Polkadot, the team thinks it is the time now.
+The initial members of the SubDAO Labs team are big fans of Mintbase.0 technology. They come from different areas, ranging from full-stack developer, product manager, project management to cryptocurrency early adopters. DAO is the ideal governance model in the mind of the team. Creating and maintain a DAO is not so easy, especially to make a DAO working across different chains. But with the help of Substrate 2.0 and Polkadot, the team thinks it is the time now.
 
 Creating a DAO is not a new thing to the guys involved in the blockchain world, just like shooting a man to the Moon is not news to the fiction novel readers nor people. But the opportunity for everyone to easily travel forth and back between the Moon and the earth is making a big difference! All the team trying to do is to build a cheap, reliable, and fast enough vessel for people to travel between the Moon and the earth even further between Mars and the Earth. The team wants to provide a cheap, reliable, and fast enough way to let everyone being able to create DAOs and DApps across different chains.
 

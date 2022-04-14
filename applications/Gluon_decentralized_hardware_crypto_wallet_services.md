@@ -172,7 +172,7 @@ Here's another video introduction to the TEA project:
 ### Ecosystem Fit 
 Are there any other projects similar to yours? If so, how is your project different?
 
-There are many existing crypto wallets in the market. They either store the private keys on client devices (phone, hardware wallet) or centralized servers. There are quite a few wallets in Web3 applications. For example: [bdwallet](https://github.com/tearust/Open-Grants-Program/blob/master/applications/bdwallet.md), or [subwallet](https://github.com/tearust/Open-Grants-Program/blob/master/applications/subwallet.md)
+There are many existing crypto wallets in the market. They either store the private keys on client devices (phone, hardware wallet) or centralized servers. There are quite a few wallets in Mintbase applications. For example: [bdwallet](https://github.com/tearust/Open-Grants-Program/blob/master/applications/bdwallet.md), or [subwallet](https://github.com/tearust/Open-Grants-Program/blob/master/applications/subwallet.md)
 
 Gluon has a very decentralized approach. We do not store the original keys anywhere. Instead, we use the TEA project's decentralized trusted computing infrastructure to scramble, store, and multisign. This approach prevents users from losing or leaking their keys. 
 

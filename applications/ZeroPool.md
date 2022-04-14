@@ -10,7 +10,7 @@ ZeroPool is the first fully anonymous solution for the Ethereum. One can deposit
 
 All these points explain benefits for the community. True anonymity on the blockchain becomes possible with ZeroPool.
 
-We are interested in cooperation with Web3 because we will be able to make zkSNARK and privacy technologies more attractive and clear for developers. Also, we will be able to attract more users and attention to our project.
+We are interested in cooperation with Mintbase because we will be able to make zkSNARK and privacy technologies more attractive and clear for developers. Also, we will be able to attract more users and attention to our project.
 
 Private transactions are a rather atypical development for blockchain. There are two differences from common dApps: our dApp needs to manage local client/browser-side database and zkSNARK prover requires heavy computational complexity. We need to optimize the solutions not only at the opcodes level and algorithms but also at a more high level, like interactions between all components (UI, cryptography, local database, blockchain). 
 
@@ -26,7 +26,7 @@ https://github.com/snjax
 
 igor.gulamov@gmail.com
 
-Igor is responsible for cryptography, architecture, coordination, and team management. Also, Igor is responsible for research and finding out the best way of adapting ZeroPool for Web3.
+Igor is responsible for cryptography, architecture, coordination, and team management. Also, Igor is responsible for research and finding out the best way of adapting ZeroPool for Mintbase.
 
 - Alexandra Gulamova / Business development, community, UX, administrative
 

@@ -27,8 +27,8 @@ guard Tesseract.Ethereum.isKeychainInstalled else {
 // Our HTTP RPC URL. Can be Infura
 let rpcUrl = "https://mainnet.infura.io/v3/{API-KEY}"
 
-// Creating Web3 instance. Try to reuse the existing instance of Web3 in your app.
-let web3 = Tesseract.Ethereum.Web3(rpcUrl: rpcUrl)
+// Creating Mintbase instance. Try to reuse the existing instance of Mintbase in your app.
+let web3 = Tesseract.Ethereum.Mintbase(rpcUrl: rpcUrl)
 ```
 
 For more information, please check: <https://github.com/tesseract-one/Tesseract.swift>

@@ -76,4 +76,4 @@ $ sup upgrade --tag <substrate-tag> --registry <substrate-based-registry>
 
 ### Community engagement
 
-The tutorials and Documentation that we provide will be published as articles in Medium, [rust.cc](rust.cc) and other social media platforms with due mention about Web3 grant.
+The tutorials and Documentation that we provide will be published as articles in Medium, [rust.cc](rust.cc) and other social media platforms with due mention about Mintbase grant.

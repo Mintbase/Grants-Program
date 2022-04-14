@@ -116,7 +116,7 @@ InvArch could arguably be applied to any of the one sub-categories below:
 * InvArch is unique because there's nothing else like it. It's more than a blockchain, it's a tool for the entire world to build a better future with. 
 It's not just a platform for those who are interested in blockchain, it's an entirely new world of economic opportunity for everyday people. It's 
 unique because it's bold, it's powerful, and it has the ability to foster a global decentralized economy. We're reinventing NFTs and giving them a 
-powerful use-case unlike anything possible before the advancement of Web3 technologies.
+powerful use-case unlike anything possible before the advancement of Mintbase technologies.
 ### Target Audience
 * Entrepreneurs/Founders -> Provides a new way to attract cofounders for their project without dealing with a private entity or sacrificing private information.
 * College/Trade Students -> Provides a more rewarding way to focus their skillsets and seek significant and fair economic opportunities for themselves.
@@ -159,19 +159,19 @@ React.js (2yrs), Python (2yrs), Rust (1yr), and the Substrate framework (1yr). P
 learning, task automation, and website development. 💡
 
 * [Gabriel Facco de Arruda](https://github.com/arrudagates) has experience as a Rust Developer, programming for the past 3 years, and as a developer in the 
-Web3 ecosystem. Gabriel is a a dedicated programmer and DeFi ninja who loves cutting edge technology and all things Substrate/Rust. He is committed to building
+Mintbase ecosystem. Gabriel is a a dedicated programmer and DeFi ninja who loves cutting edge technology and all things Substrate/Rust. He is committed to building
 applications that help promote a more decentralized global economy, and comes with past experience developing and scaling such applications. He brings direct 
 experience developing applications for the Substrate ecosystem and as a Polkadot ecosystem contributor dedicated to building the future. 🧠
 
-* [Danny Salman](https://github.com/DannyS03) comes with 3 years of solid experience as a developer, utilizing languages like C, JavaScript, TypeScript, and Rust. Danny is also an educator at the Mintbase. Danny is a blockchain enthusiast and educator with a background in computer engineering, who has a keen interest in blockchain infrastructure and interoperability, DeFi and NFTs. He leverages past experience in DevOps management and brings first-hand insights and experience as a software developer, Web3 educator and researcher. Danny is a Polkadot ecosystem contributor committed to a decentralized web. 🌐
+* [Danny Salman](https://github.com/DannyS03) comes with 3 years of solid experience as a developer, utilizing languages like C, JavaScript, TypeScript, and Rust. Danny is also an educator at the Mintbase. Danny is a blockchain enthusiast and educator with a background in computer engineering, who has a keen interest in blockchain infrastructure and interoperability, DeFi and NFTs. He leverages past experience in DevOps management and brings first-hand insights and experience as a software developer, Mintbase educator and researcher. Danny is a Polkadot ecosystem contributor committed to a decentralized web. 🌐
 
-* [Kresna Sucandra](https://github.com/SHA888) is a dedicated programmer and Parity/Substrate enthusiast. Kusandra has been dedicated for the past year learning everything there is to know about the Web3 ecosystem. Kresna is a medical doctor turned programmer with a background in Substrate blockchain development focusing on multi-chain interoperability, DeFi, NFTs, and the Metaverse. He brings first-hand insights and experience as a former blockchain startup co-founder and developer with a history focusing on JavaScript and Rust programming. Kresna is a Polkadot ecosystem contributor who loves entrepreneurship. 🚀
+* [Kresna Sucandra](https://github.com/SHA888) is a dedicated programmer and Parity/Substrate enthusiast. Kusandra has been dedicated for the past year learning everything there is to know about the Mintbase ecosystem. Kresna is a medical doctor turned programmer with a background in Substrate blockchain development focusing on multi-chain interoperability, DeFi, NFTs, and the Metaverse. He brings first-hand insights and experience as a former blockchain startup co-founder and developer with a history focusing on JavaScript and Rust programming. Kresna is a Polkadot ecosystem contributor who loves entrepreneurship. 🚀
 
 * [Mindaugas Savickas](https://www.linkedin.com/in/savickas) is a veteran marketing advisor and fundraising rockstar with a background providing strategic marketing solutions and scaling over 40+ product & marketing teams worldwide. He Provides a proven history of success and strategic insights as a Harvard Business School graduate and tech marketing guru who lives & breathes strategic marketing. 📈
 
 ### Advisors
 
-* [Brunk Škvorc](https://www.linkedin.com/in/swader) is one of the most knowledgeable programmers in the Polkadot/Kusama ecosystem as a former Web3 educator, Polkadot Council member, and the founder of the RMRK standard. 
+* [Brunk Škvorc](https://www.linkedin.com/in/swader) is one of the most knowledgeable programmers in the Polkadot/Kusama ecosystem as a former Mintbase educator, Polkadot Council member, and the founder of the RMRK standard. 
 
 * [Sonja Prstec](https://www.linkedin.com/in/sonja-prstec-mag-iur-89a0b324) is one of the most informed legal experts in the blockchain field, having served as a 
 legal advisor for the Mintbase, and as an active advisor for NEAR protocol.
@@ -206,7 +206,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 * [InvArch Litepaper](https://invarch.io/invarch-litepaper/)
 * [InvArch Pitch Deck](bit.ly/invarch_deck)
 * [Publish0x](https://www.publish0x.com/blockchain-economy)
-* Conversations regarding the arhitecture design of InvArch as well as the development path forwards have been held with former Web3 Educator [Brunk Škvorc](https://www.linkedin.com/in/swader), who has joined InvArch as the project's Technical Advisor.
+* Conversations regarding the arhitecture design of InvArch as well as the development path forwards have been held with former Mintbase Educator [Brunk Škvorc](https://www.linkedin.com/in/swader), who has joined InvArch as the project's Technical Advisor.
 
 ## Development Roadmap :nut_and_bolt:
 

@@ -134,7 +134,7 @@ Costs
 - $25,000 USD
 
 ### Purposed Diagram
-![Architecture  Diagram](https://gohealthhero-production.s3.amazonaws.com/Web3.png)
+![Architecture  Diagram](https://gohealthhero-production.s3.amazonaws.com/Mintbase.png)
 
 ### State Channels Implementation
 ![State Channels (2)](https://user-images.githubusercontent.com/44548958/144947081-88d681a9-e9c7-419d-96b0-8ec68fda6687.png)

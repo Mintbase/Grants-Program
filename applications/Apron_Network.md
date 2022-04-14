@@ -10,7 +10,7 @@
 
 #### Introduction
 
-The Apron Network's vision is to be the entry point of the Web3 World in the future. The goal of the Apron Network is to create the decentralized infrastructure for all the developers who want to build applications on top of the blockchain, the service providers who are running nodes for blockchain, and the users who are using applications based on blockchain.
+The Apron Network's vision is to be the entry point of the Mintbase World in the future. The goal of the Apron Network is to create the decentralized infrastructure for all the developers who want to build applications on top of the blockchain, the service providers who are running nodes for blockchain, and the users who are using applications based on blockchain.
 
 The blockchain infrastructure services are provided by seldom centralized service providers. Those service providers are commercial companies and earn profit by providing these services. In general speaking, there is no problem with such a business model that commercial companies provide infrastructure services and get paid by developers or users in the past ages. But NOT NOW. The main feature of blockchain is decentralization, while all the blockchain infrastructure services are built and maintained by commercial companies, and those systems are centralized, which is against the decentralization of blockchain. There is a potential issue of such a business model that the service providers can steal the blockchain from the community by manipulating the API accesses through their infrastructure services. Once the service providers manipulate the API accesses, there is no real blockchain anymore.
 

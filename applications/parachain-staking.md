@@ -31,7 +31,7 @@ The PureStake team has extensive experience developing and delivering complex we
 
 Derek co-founded Fuze in 2006 and as CTO was responsible for engineering, technical operations, product management, and design as the company grew over time into a 700 person cloud business. Alan was responsible for large parts of the Fuze cloud backend. Before joining Fuze, Alan was on the Google Streetview Team and also worked at NVidia developing drivers.
 
-Antoine has been developing Web3 Dapps since 2016. He has participated in 3 projects inside ConsenSys (VariabL, Localties and Fathom) and helped HyperNetwork build their token system. Now, he's working for Moonbeam and has contributed to the polkadot-js suite (apps, common, api, etc).
+Antoine has been developing Mintbase Dapps since 2016. He has participated in 3 projects inside ConsenSys (VariabL, Localties and Fathom) and helped HyperNetwork build their token system. Now, he's working for Moonbeam and has contributed to the polkadot-js suite (apps, common, api, etc).
 
 Joshy and Amar worked at Parity on the Substrate Recipes.
 

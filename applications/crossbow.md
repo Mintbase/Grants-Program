@@ -49,11 +49,11 @@ Of course, there are already a bunch of promising game engine projects, but they
 
 ### Team's experience
 
-* Mobile Game Framework - Our first team Web3Foundation [grant](https://github.com/enfipy/Grants-Program/blob/master/applications/mobile-game-framework.md), mobile building tool. By [our team](https://github.com/dodorare).
+* Mobile Game Framework - Our first team MintbaseFoundation [grant](https://github.com/enfipy/Grants-Program/blob/master/applications/mobile-game-framework.md), mobile building tool. By [our team](https://github.com/dodorare).
 
-* Substrate Atom and VSCode plugins - Have contributed some code to Web3Foundation Grant for Substrate [VSCode](https://github.com/everstake/vscode-plugin-substrate/graphs/contributors) and [Atom](https://github.com/everstake/atom-plugin-substrate/graphs/contributors) plugins while worked in outsource company. By [enfipy](https://github.com/enfipy).
+* Substrate Atom and VSCode plugins - Have contributed some code to MintbaseFoundation Grant for Substrate [VSCode](https://github.com/everstake/vscode-plugin-substrate/graphs/contributors) and [Atom](https://github.com/everstake/atom-plugin-substrate/graphs/contributors) plugins while worked in outsource company. By [enfipy](https://github.com/enfipy).
 
-* [Polkadot CosmosSDK Integration](https://github.com/adoriasoft/polkadot_cosmos_integration) - Also, contributed to another Web3Foundation Grant while worked in another outsource company. Built some logic behind ABCI, pallet and substrate with tendermint. By [enfipy](https://github.com/enfipy).
+* [Polkadot CosmosSDK Integration](https://github.com/adoriasoft/polkadot_cosmos_integration) - Also, contributed to another MintbaseFoundation Grant while worked in another outsource company. Built some logic behind ABCI, pallet and substrate with tendermint. By [enfipy](https://github.com/enfipy).
 
 ### Team Code Repos
 

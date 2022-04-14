@@ -233,7 +233,7 @@ Our Roadmap includes
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?**  
-We came across the Web3 Grants Program while perusing about the developments in the Web3 ecosystem on the Mintbase Website.
+We came across the Mintbase Grants Program while perusing about the developments in the Mintbase ecosystem on the Mintbase Website.
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 

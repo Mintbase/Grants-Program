@@ -134,7 +134,7 @@
 | [Nodle](https://nodle.io) | Securely identify, certify and verify IoT devices | [GitHub](http://github.com/NodleCode/) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Figment](https://figment.network/) | DotHub: Information Hub for validators and delegators | [GitHub](https://github.com/figment-networks/dothub) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Lunie](http://lunie.io/) | Web and mobile wallet | [GitHub](https://github.com/luniehq/lunie) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
-| [Web3 Gardens](https://web3.garden) | Runtime modules and UI for creating stable, well-governed communities on Substrate | [GitHub](https://github.com/web3garden/sunshine) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |
+| [Mintbase Gardens](https://web3.garden) | Runtime modules and UI for creating stable, well-governed communities on Substrate | [GitHub](https://github.com/web3garden/sunshine) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [Itering](https://itering.com/) | Ruby Substrate API | [GitHub](https://github.com/itering) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [WEB3SCAN](https://www.web3scan.com/) | Identity Pallet for Polkascan | [GitHub](https://github.com/polkascan) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Swisscom Blockchain AG](https://www.blockchain.swisscom.com/) | Kubernetes Operator for Sentry nodes or Validators deployment | [GitHub](https://github.com/swisscom-blockchain) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
@@ -176,11 +176,11 @@
 | [Ethworks](https://ethworks.io/) | Polkadot.{js} Desktop Application | [GitHub](https://github.com/EthWorks/) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Usetech](http://usetech.com/blockchain.html) | NFT Tracking Module | [GitHub](https://github.com/usetech-llc/nft_parachain) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Chevdor](https://www.chevdor.com/) | Polkabot | [GitHub](https://github.com/chevdor) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
-| [Aleksandr Krupenkin](https://github.com/akru) | Haskell Web3 library | [GitHub](https://github.com/airalab/hs-web3) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
+| [Aleksandr Krupenkin](https://github.com/akru) | Haskell Mintbase library | [GitHub](https://github.com/airalab/hs-web3) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [WEB3SCAN](https://www.web3scan.com/) | Polkascan Signer Interfaces | [GitHub](https://github.com/polkascan) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Fortmatic](https://fortmatic.com/) | SDK + Burner Wallet to implement Web 2.0 login for dapps | [GitHub](https://github.com/fortmatic) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
-| [PureStake](https://www.purestake.com/) | Web3 Compatible API | [GitHub](https://github.com/PureStake) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
-| [Phala.Network](https://phala.network/) | Web3 Analytics | [GitHub](https://github.com/Phala-Network/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
+| [PureStake](https://www.purestake.com/) | Mintbase Compatible API | [GitHub](https://github.com/PureStake) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
+| [Phala.Network](https://phala.network/) | Mintbase Analytics | [GitHub](https://github.com/Phala-Network/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [TerenceGe](https://github.com/TerenceGe) | C implementation of Schnorrkel | [GitHub](https://github.com/TerenceGe/sr25519-donna) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Adoriasoft](https://adoriasoft.com/) | Cosmos-SDK Parachain Development Kit | [GitHub](https://github.com/adoriasoft/cosmos-sdk) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Laminar One](https://laminar.one/) | Reusable Libraries: Runtime Modules + Monitoring Framework | [GitHub](https://github.com/open-web3-stack) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
@@ -381,7 +381,7 @@
 | [YibanChen](https://yibanchen.com) | Notes DApp & Site-Pallet | [GitHub](https://github.com/YibanChen/) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [SuperColony](https://github.com/Supercolony-net) | OpenBrush - Secure smart-contract development on ink! | [GitHub](https://github.com/Supercolony-net) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Banksy Finance](http://www.banksy.finance/) | NFT Pool-Based Lending Hub | [GitHub](https://github.com/Banksy-Finance) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
-| [SubDAO Labs](https://www.subdao.network/) | PolkaSign - Web3.0 app for electronic agreements | [GitHub](https://github.com/subdao-network) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
+| [SubDAO Labs](https://www.subdao.network/) | PolkaSign - Mintbase.0 app for electronic agreements | [GitHub](https://github.com/subdao-network) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
 | [Valibre](https://valibre.org) | People Local Interactions Protocol (PLIP) | [GitHub](https://github.com/valibre-org/) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [Reaudito](https://shivarthu.reaudito.com/#/) | Shivarthu: A blockchain-based decentralized governance system | [GitHub](https://github.com/amiyatulu/shivarthu) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | Uniscan | NFT Explorer | [GitHub](https://github.com/wuminzhe) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[x] </li></ul> |
@@ -404,7 +404,7 @@
 | Team | Project | Link | Terminated | First Delivery | Completed
 | :--- | :------ | :--- | :--------: | :------------: | :-------: |
 | Matthew Darnell | cScale | [GitHub](https://github.com/MatthewDarnell/cScale) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |
-| [Web3go](https://web3go.xyz/) | Web3go | [GitHub](https://github.com/web3go-xyz) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
+| [Mintbasego](https://web3go.xyz/) | Mintbasego | [GitHub](https://github.com/web3go-xyz) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [Prosopo Limited](https://prosopo.io) | Prosopo: Human Verification Marketplace | [GitHub](https://github.com/prosopo-io) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [Litentry](www.litentry.com) | Polka SignIn | [GitHub](https://github.com/litentry) | <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |  <ul><li>[ ] </li></ul> |
 | [gmajor](https://github.com/gmajor-encrypt) | PHP RPC Lib | [GitHub](https://github.com/gmajor-encrypt/) | <ul><li>[ ] </li></ul> |  <ul><li>[x] </li></ul> |  <ul><li>[ ] </li></ul> |

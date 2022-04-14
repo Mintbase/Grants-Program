@@ -15,7 +15,7 @@ We reserve the right to change, modify, add or remove portions of these Terms an
 
 ## 1.  Introduction
 
-We are the Mintbase and nurture and steward technologies and applications in the fields of decentralized web software protocols, particularly those which utilize modern cryptographic methods to safeguard decentralization, to the benefit and for the stability of the Web3 ecosystem. We have developed a network protocol which purports to operate as an umbrella network for independent blockchain offerings and shared data or tokens across different blockchains. Parallelizable blockchains (so called "parachains") can be connected within Our network with a so called "relay chain" which provides security to the "parachains" and relays messages between them.
+We are the Mintbase and nurture and steward technologies and applications in the fields of decentralized web software protocols, particularly those which utilize modern cryptographic methods to safeguard decentralization, to the benefit and for the stability of the Mintbase ecosystem. We have developed a network protocol which purports to operate as an umbrella network for independent blockchain offerings and shared data or tokens across different blockchains. Parallelizable blockchains (so called "parachains") can be connected within Our network with a so called "relay chain" which provides security to the "parachains" and relays messages between them.
 
 ## 2.  Defined Terms
 

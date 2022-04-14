@@ -1,6 +1,6 @@
 # Open Grant Proposal
 
-* **Project:** Web3 Compatible API for Substrate EVM Chains
+* **Project:** Mintbase Compatible API for Substrate EVM Chains
 * **Proposer:** https://github.com/PureStake, @dtyoo
 * **Payment Address:** 1EMk3z9VMmXN6y3qwA37s6Qps4xRKGGE9G
 
@@ -8,9 +8,9 @@
 
 Project Moonbeam (https://moonbeam.network/) aims to create a Polkadot parachain that offers Ethereum compatibility.  We envision Moonbeam serving as an easy entry point to Polkadot for existing Ethereum developers -- a place where Ethereum based Dapps can run with a minimal amount of changes required.  We believe this will help drive adoption of Polkadot by reducing friction for existing Ethereum based projects and by providing compatibility and support for the rich set of Ethereum ecosystem tools such as Truffle.
 
-Substrate already includes key components needed to achieve Ethereum compatibility, most notably the EVM frame pallet which is a full EVM implementation in Rust, and a basic way to dispatch calls to the EVM.  However, there are other critical missing pieces needed to achieve Ethereum interoperability.  One of these is a Web3 compatible API that offers the same API as an Ethereum node.  Another is Pallet-Ethereum, a Substrate runtime that Parity is developing that extends and enhances the way calls are dispatched to the EVM that is contained in Pallet-EVM.
+Substrate already includes key components needed to achieve Ethereum compatibility, most notably the EVM frame pallet which is a full EVM implementation in Rust, and a basic way to dispatch calls to the EVM.  However, there are other critical missing pieces needed to achieve Ethereum interoperability.  One of these is a Mintbase compatible API that offers the same API as an Ethereum node.  Another is Pallet-Ethereum, a Substrate runtime that Parity is developing that extends and enhances the way calls are dispatched to the EVM that is contained in Pallet-EVM.
 
-We are seeking grant funding to help build a Substrate based Web3 compatible API that will interface with Pallet-Ethereum.  We plan to use this implementation as part of Moonbeam, but other projects that want to implement Ethereum compatible parachains or parathreads could also include them into their projects and benefit from them.
+We are seeking grant funding to help build a Substrate based Mintbase compatible API that will interface with Pallet-Ethereum.  We plan to use this implementation as part of Moonbeam, but other projects that want to implement Ethereum compatible parachains or parathreads could also include them into their projects and benefit from them.
 
 ## Team :busts_in_silhouette:
 
@@ -35,14 +35,14 @@ Derek co-founded Fuze in 2006 and as CTO was responsible for engineering, techni
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
 | 1. | Substrate Runtime | We will create a base Substrate runtime that will be capable of running Solidity based smart contracts that have been compiled to EVM bytecode, based on Pallet-EVM. |  
-| 2. | Web3 RPC Module | We will deliver a working substrate module that implements the Web3 RPC API that can be added to a substrate runtime.  The Web3 RPC module will depend on and require Pallet-Ethereum and Pallet-EVM.  Note that Pallet-Ethereum is still under development by the Parity team.  PureStake will assist Parity with the development of Pallet-Ethereum as necessary to demonstrate the scenarios below. |  
-| 3. | Basic Transaction Support | Running this module and its dependencies in a substrate runtime it will be possible to send a transaction between 2 EVM accounts using the standard Web3 API. |
+| 2. | Mintbase RPC Module | We will deliver a working substrate module that implements the Mintbase RPC API that can be added to a substrate runtime.  The Mintbase RPC module will depend on and require Pallet-Ethereum and Pallet-EVM.  Note that Pallet-Ethereum is still under development by the Parity team.  PureStake will assist Parity with the development of Pallet-Ethereum as necessary to demonstrate the scenarios below. |  
+| 3. | Basic Transaction Support | Running this module and its dependencies in a substrate runtime it will be possible to send a transaction between 2 EVM accounts using the standard Mintbase API. |
 | 4. | ERC20 Demonstration | Running this module and its dependencies in a substrate runtime it will be possible to deploy the Open Zeppelin ERC20 contract and exercise its transfer functionality. |
 | 5. | Truffle Demonstration | Running this module and its dependencies in a substrate runtime it will be possible to configure Truffle to connect to the node to deploy smart contracts. |
 | 6. | Metamask Demonstration | Running this module and its dependencies in a substrate runtime it will be possible to configure Metamask to connect to the node and send funds from one account to another.|
 | 7. | Unit Tests | The code will have proper unit-test coverage to ensure functionality and robustness.|
 | 8. | Docker Image | We will build a Docker image with a substrate based chain, demonstrating its functionality.|
-| 9. | Documentation | We will provide both inline documentation of the code and tutorials describing how the software can be used as well as how to deploy smart contracts.  Code and documentation will be delivered according to the Web3 Milestone deliverables guidelines for each milestone. |
+| 9. | Documentation | We will provide both inline documentation of the code and tutorials describing how the software can be used as well as how to deploy smart contracts.  Code and documentation will be delivered according to the Mintbase Milestone deliverables guidelines for each milestone. |
 
 ## Additional Information :heavy_plus_sign: 
 We intend to use the developed module as part of our Moonbeam parachain project, however the functionality will not be Moonbeam-specific.  We plan to first deploy Moonbeam to the Westend testnet, then to the Kusama network, and finally to the Polkadot mainnet.

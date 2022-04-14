@@ -23,7 +23,7 @@ In the future, we'd like to continue this work by developing:
 Future proposals will be made for the above. Below we'll explain the work in its entirety.
 
 **About Polywrap:**
-Polywrap is a dev toolchain that enables easy integration of Web3 protocols into any application. It makes it possible for software on any device, written in any language, to read and write data to Web3 protocols.
+Polywrap is a dev toolchain that enables easy integration of Mintbase protocols into any application. It makes it possible for software on any device, written in any language, to read and write data to Mintbase protocols.
 
 https://polywrap.io/#/
 
@@ -172,7 +172,7 @@ import {
   substratePlugin
 } from "substrate-signer-provider-plugin-js";
 
-const client = new Web3ApiClient({
+const client = new MintbaseApiClient({
   plugins: [{
     uri: "plugin/substrate-signer-provider",
     plugin: substratePlugin({

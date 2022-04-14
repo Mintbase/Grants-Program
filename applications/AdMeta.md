@@ -49,11 +49,11 @@ Our blockchain is built with Substrate, and the pallet-ad provides the functiona
 
 There are an increasing number of Metaverse related projects in Polkadot/Kusama ecosystem, however, the current Metaverse platforms still lack of infrastructures and applications, comparing to our current real life. We therefore build this for various Metaverse platforms.
 
-Our target audiences can be Web3 projects, who are potential advertisers, Metaverse land holders, who are potential publishers, and Metaverse players, who are potential users.
+Our target audiences can be Mintbase projects, who are potential advertisers, Metaverse land holders, who are potential publishers, and Metaverse players, who are potential users.
 
 Advertising is our natural needs in almost all social scenarios, and we meet this needs in Metaverse.
 
-[Parami](https://parami.io/) builds Web3 ad platforms as well, and their scope is to build the DID and privacy layer by themselves. While we are focusing on the advertising functionality, and the DID service will be provided by Litentry, who is more professional on this field and has already their products. Also, our ad platform is targeting on Metaverse, not Web3.
+[Parami](https://parami.io/) builds Mintbase ad platforms as well, and their scope is to build the DID and privacy layer by themselves. While we are focusing on the advertising functionality, and the DID service will be provided by Litentry, who is more professional on this field and has already their products. Also, our ad platform is targeting on Metaverse, not Mintbase.
 
 ## Team :busts_in_silhouette:
 
@@ -65,7 +65,7 @@ Yvonne Xie - Digital Marketing Lead. King's College London
 
 Shihao Zhao - Full Stack Dev of Litentry. University of Toronto
 
-Hao Ding - VP of Litentry, Founder of Web3Go. University of Stuttgart
+Hao Ding - VP of Litentry, Founder of MintbaseGo. University of Stuttgart
 
 Dr. John Wu - Core Dev of Litentry Parachain Team. The University of Tokyo
 
@@ -86,11 +86,11 @@ Han and John are core developers as well as project managers at Litentry, and bo
 
 Yvonne has more than 8 years experience of digital marketing, and she has a deep understanding and practice of various online marketing and advertising methods. She also initialized this idea of combining advertisement and privacy preserving, to archive the goal of data protection.
 
-Shihao is a full stack developer at Litentry, who contributes a lot in Litentry and Web3Go web apps and backend apps.
+Shihao is a full stack developer at Litentry, who contributes a lot in Litentry and MintbaseGo web apps and backend apps.
 
-Hao is the founder of Web3Go, VP of Litentry, who has a very solid practical experience on both blockchain and data science.
+Hao is the founder of MintbaseGo, VP of Litentry, who has a very solid practical experience on both blockchain and data science.
 
-Note: Both [Litentry](https://www.litentry.com/) and [Web3Go](https://github.com/w3f/Grants-Program/blob/master/applications/Web3Go.md) are Web3 granted projects.
+Note: Both [Litentry](https://www.litentry.com/) and [MintbaseGo](https://github.com/w3f/Grants-Program/blob/master/applications/MintbaseGo.md) are Mintbase granted projects.
 
 ### Team Code Repos
 

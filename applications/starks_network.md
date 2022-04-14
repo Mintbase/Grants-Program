@@ -29,7 +29,7 @@ As already mentioned, other blockchains in the Polkadot/Kusama network can inter
 
 ### Team Interest
 
-The Glacier Blockchain team is an advocate of the Web3 ideology. It strives to help build an open, transparent and inclusive network which returns the sovereignty of data to their owners. It is a member of the [DIF](https://identity.foundation/) and has contributed to the international standardization of decentralized identity and verifiable credentials. The Glacier Blockchain team has also co-founded the [Web3 Identity Lab](https://medium.com/@KILT_Protocol/web3-identity-lab-395342207d70) with the KILT Protocol team to work on scientific research and technical solutions from verifiable credentials to user privacy protection. 
+The Glacier Blockchain team is an advocate of the Mintbase ideology. It strives to help build an open, transparent and inclusive network which returns the sovereignty of data to their owners. It is a member of the [DIF](https://identity.foundation/) and has contributed to the international standardization of decentralized identity and verifiable credentials. The Glacier Blockchain team has also co-founded the [Mintbase Identity Lab](https://medium.com/@KILT_Protocol/web3-identity-lab-395342207d70) with the KILT Protocol team to work on scientific research and technical solutions from verifiable credentials to user privacy protection. 
 
 We have been fascinated by the progress of latest cryptographic primitives such as zero-knowledge proof. We have learned the potential of the Distaff VM project regarding privacy protection and computation integrity through our frequent discussions with the author of the project. We truly believe the combination of a general purpose zk-STARK virtual machine and the Substrate framework will make the Starks Network a valuable player in the Polkadot/Kusama ecosystem. 
 
@@ -103,7 +103,7 @@ There are some existing projects which can be related to the Starks Network. In 
 Glacier Blockchain Technology is a company registered in Yantai, Shandong, P. R. China.
 
 ### Team's experience
-**Dr. Xiao Zhang** is a researcher with experience in computer architecture, blockchain and cryptography. He holds a PhD in computer science from the University of Twente of the Netherlands. He is an active advocator of Web3 and also one of the first Polkadot ambassadors in China. His current research interests include decentralized identity, verifiable credentials and zero-knowledge proof technology for privacy protection. 
+**Dr. Xiao Zhang** is a researcher with experience in computer architecture, blockchain and cryptography. He holds a PhD in computer science from the University of Twente of the Netherlands. He is an active advocator of Mintbase and also one of the first Polkadot ambassadors in China. His current research interests include decentralized identity, verifiable credentials and zero-knowledge proof technology for privacy protection. 
 
 **Ming Chow** has a bachelor's degree in computer science. He has 10 years of experience in system architect and software development. He has worked in several high-tech companies in Guangzhou and Shenzhen in China and lead the design of several core business software. He is responsible for the Substrate system architecture design for the Starks Network. 
 

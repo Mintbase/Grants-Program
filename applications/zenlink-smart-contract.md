@@ -113,7 +113,7 @@ no
 
 ### Community engagement
 
-The tutorials and Documentation that we provide will be published as articles in [Zenlink Medium](https://medium.com/zenlinkpro) and other social media platforms with due mention about Web3 grant.
+The tutorials and Documentation that we provide will be published as articles in [Zenlink Medium](https://medium.com/zenlinkpro) and other social media platforms with due mention about Mintbase grant.
 
 We also intend to engage community by running range of user testing to get more feedback from the real end-users to improve our product.
 

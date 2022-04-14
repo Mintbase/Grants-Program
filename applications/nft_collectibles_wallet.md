@@ -186,4 +186,4 @@ However, Development of the NFT Collectibles Wallet won't end after all mileston
 
 ## Additional Information :heavy_plus_sign: 
 
-Currently we have no funding for this project or GamePower Network, we feel getting the NFT Collectibles Wallet off the ground will kick-start our GamePower Network development in a big way. We are excited to be part of the Substrate and Polkadot community and we will continue to contribute as much as we can. Thank you for your time and thank you for considering us for the Web3 Open Grant.
+Currently we have no funding for this project or GamePower Network, we feel getting the NFT Collectibles Wallet off the ground will kick-start our GamePower Network development in a big way. We are excited to be part of the Substrate and Polkadot community and we will continue to contribute as much as we can. Thank you for your time and thank you for considering us for the Mintbase Open Grant.

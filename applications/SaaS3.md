@@ -10,7 +10,7 @@
 ## Project Overview :page_facing_up:
 
 ### Overview
-#### Dilemma of web3 Ecosystem - With functionalities yet to become full-fledged, Web3.0 applications need a rethink of development stacks. 
+#### Dilemma of web3 Ecosystem - With functionalities yet to become full-fledged, Mintbase.0 applications need a rethink of development stacks. 
 For instance, most of the web2 projects and dependencies are based on Java, C++, PHP, etc., while web3 requires another totally different technical stacks such as Solidity, Motoku, or Substrate on EVM / WASM which hinders web2 developers to build web3 applications. 
 
 ![image](https://user-images.githubusercontent.com/95557343/157393726-c22c47d2-a4d0-4335-b890-29d6fad4417c.png)
@@ -30,7 +30,7 @@ SaaS3 as a part of Polkadot / Kusama / web 3 Ecosystem and has the following pro
 
   - Bridge - Monetize abundant web2 projects as decentralized web3 services in a very short time with extremely cheap cost. 
   - No Middleman - Cheap fee for dAPI users or Dapp developers compare with centralized SaaS products.
-  - Security - Improve the security for a system by PoS consensus and zero knowledge proof for miner network. Web3 dAPI are backed by token stakers (DPoS) with a reward and punishment mechanism.
+  - Security - Improve the security for a system by PoS consensus and zero knowledge proof for miner network. Mintbase dAPI are backed by token stakers (DPoS) with a reward and punishment mechanism.
   - Reliability - Strengthen robustness for dAPI by computation decentralization and dRuntime redundancy of miners.
   - Green - Save energy and reduce the cost by making use of spare computation resources for API computation.
   

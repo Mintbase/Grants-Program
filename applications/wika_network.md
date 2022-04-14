@@ -426,7 +426,7 @@ Mintbase Website
 **Context of our request**
 
 Beyond the financial aspect of the grant, which will help motivate and reward contributors, 
-one of our key objectives is to introduce our project to Web3 / Polkadot / Substrate communities.
+one of our key objectives is to introduce our project to Mintbase / Polkadot / Substrate communities.
 
 Also, though  all team members have proven track records of expertise and success in their particular fields, 
 we are aware that we are still "beginners" when it comes to blockchain and Substrate. 

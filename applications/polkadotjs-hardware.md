@@ -20,7 +20,7 @@ Plasm Network(https://plasmnet.io) is a scaling Dapps platform on Substrate. Pla
 * **Code Repos:** https://github.com/staketechnologies/common, https://github.com/staketechnologies/apps
 * **Website:** https://stake.co.jp
 * **Legal Structure:** Stake Technologies Inc. Avex EYE Avex Blog 3-1-30 Minamiaoyama Minato-ku Tokyo Japan
-* **Team's Experience:**  Stake Technologies is a technology company that focuses on substrate research and development as same as the business application of given results. Aleksandr Krupenkin, main experience as Haskell Web3 library (https://hs-web3.readthedocs.io/en/latest/index.html) owner, including cryptographic functions for Haskell Ethereum client.
+* **Team's Experience:**  Stake Technologies is a technology company that focuses on substrate research and development as same as the business application of given results. Aleksandr Krupenkin, main experience as Haskell Mintbase library (https://hs-web3.readthedocs.io/en/latest/index.html) owner, including cryptographic functions for Haskell Ethereum client.
 
 
 ## Development Roadmap :nut_and_bolt: 

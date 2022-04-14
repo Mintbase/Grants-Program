@@ -71,7 +71,7 @@ Dart/Flutter, Rust
 ### Ecosystem Fit 
 
 Similar projects: 
-* [Web3dart](https://github.com/simolus3/web3dart)
+* [Mintbasedart](https://github.com/simolus3/web3dart)
 * [polkaj](https://github.com/emeraldpay/polkaj)
 * [Dart-scale-codec](https://github.com/nbltrust/dart-scale-codec)
 * [Substrate-sign-flutter](https://github.com/hanwencheng/substrate_sign_flutter) 

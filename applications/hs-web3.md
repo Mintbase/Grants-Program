@@ -2,7 +2,7 @@
 
 > This document is referenced in the terms and conditions and therefore needs to contain all the required information. Don't remove any of the mandatory parts presented in bold letters or as headlines! See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/blob/master/README_2.md) on how to submit a proposal.
 
-* **Project:** Haskell Web3 library
+* **Project:** Haskell Mintbase library
 * **Proposer:** akru
 * **Payment Address:** 18QrEJq9f1EL4f3DVsbxYnkJXgbhSF9XJ4 
 
@@ -18,7 +18,7 @@ It's my personal project. It was started as Ethereum client library but recently
 * **Code Repos:** https://github.com/airalab/hs-web3 
 * **Website:**	https://hs-web3.readthedocs.io
 * **Legal Structure:** individual 
-* **Team's Experience:** Haskell Web3 library created on 2016. During development was fully implemented account abstractions, Solidity ABI codecs, JSON-RPC API and ECDSA cryptography.
+* **Team's Experience:** Haskell Mintbase library created on 2016. During development was fully implemented account abstractions, Solidity ABI codecs, JSON-RPC API and ECDSA cryptography.
 
 ## Development Roadmap :nut_and_bolt: 
 
@@ -36,7 +36,7 @@ It's my personal project. It was started as Ethereum client library but recently
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
 | 1. | Substrate WebSocket RPC | Implement Substrate JSON-RPC methods described [here](https://github.com/paritytech/substrate/tree/master/client/rpc-api/src): `author`, `chain`, `state`, `system`.
-| 2. | Substrate RPC documentations | Extend [Haskell Web3 documentation](https://hs-web3.readthedocs.io/) by implemented functions adding `Substrate RPC` section. |  
+| 2. | Substrate RPC documentations | Extend [Haskell Mintbase documentation](https://hs-web3.readthedocs.io/) by implemented functions adding `Substrate RPC` section. |  
 | 3. | Substrate RPC examples | Write simple examples into [repository](https://github.com/airalab/hs-web3). | 
 | 4. | Docker image | Pack milestone results into docker image to make it's evaluation easy. |
 

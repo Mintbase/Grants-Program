@@ -108,7 +108,7 @@ Besides, she has been working as data analyst in global IT firms for more than
 Virto Network.  
 
 **Stanly Johnson** is based in Bangalore, India and is a seasoned software
-engineer across the stack of programming languages underpinning Web3
+engineer across the stack of programming languages underpinning Mintbase
 technologies, including Rust, Python, and Solidity. He is currently working as
 a runtime developer part-time with Valibre specializing in cross-chain
 transfers and escrow. Stanly’s passion for distributed systems stems from the

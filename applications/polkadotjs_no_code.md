@@ -39,7 +39,7 @@ Currently, the plugin will be available in the frontend only, it will not have a
 The main target of this plugin is every potential user of the Substrate / Polkadot / Kusama ecosystem. No-Code requires much less time to start work with, making it very easy for everyone that wants to experiment with it to bring their ideas to life.
 
 We see it as a big potential for the Polkadot ecosystem and Bubble ecosystem, since currently there are no similar plugins that could do this for Polkadot without code.
-So far we have to build a few Web3 plugins for other networks like Ethereum or Solana, and from the activity on those plugins forum thread, turns out there are a lot of no-code developers interested in building something with it even if they are paid.
+So far we have to build a few Mintbase plugins for other networks like Ethereum or Solana, and from the activity on those plugins forum thread, turns out there are a lot of no-code developers interested in building something with it even if they are paid.
 So the potential for a free plugin that will bring the Polkadot ecosystem to no-code is big.
 
 ## Team :busts_in_silhouette:
@@ -67,7 +67,7 @@ https://snapshot.org/#/rarible.eth/proposal/Qmcy5SxiJRHDW8vrcjVZdJm3BngENjdGsM4K
 Rarible SDK plugin
 https://bubble.io/plugin/rarible-sdk---nft-marketplace-1627909974342x941739732723564500
 
-First of its kind, Web3.js No-Code plugin:
+First of its kind, Mintbase.js No-Code plugin:
 https://bubble.io/plugin/web3--metamask-1612784921335x464807902025875460
 
 ### Team Code Repos
@@ -87,7 +87,7 @@ PoC
 We did a basic integration into a plugin, you can see it in work here:
 https://polkadotjs.bubbleapps.io/version-test/simple_connect
 
-We can send an invitation to the plugin editor page for anyone from Web3 that will review this proposal. It is not available to the public yet since it is not deployed, that's how the Bubble plugins works) after deployment in Milestone 1, it will be available for everyone.
+We can send an invitation to the plugin editor page for anyone from Mintbase that will review this proposal. It is not available to the public yet since it is not deployed, that's how the Bubble plugins works) after deployment in Milestone 1, it will be available for everyone.
 
 Features that are already implemented and you can see them in the demo:
 - Detects if any extensions are installed.
@@ -162,7 +162,7 @@ https://twitter.com/bubble/status/1408451614415937543
 https://bubble.io/blog/bubble-series-a-100m/ 
 
 All our crypto-related plugins 
-- Web3: https://bubble.io/plugin/web3--metamask-1612784921335x464807902025875460
+- Mintbase: https://bubble.io/plugin/web3--metamask-1612784921335x464807902025875460
 - Rarible SDK: https://bubble.io/plugin/rarible-sdk---nft-marketplace-1627909974342x941739732723564500
 - Phantom - Solana wallet: https://bubble.io/plugin/phantom---solana-wallet-1632210886040x530006335001722900
 - WalletConnect: https://bubble.io/plugin/walletconnect-1636974372019x518724777637576700

@@ -246,7 +246,7 @@ IOST | TOMOCHAIN | SOLANA | ELROND | NULS | MOONSTAKE | INJECTIVE PROTOCOL | CRU
 
 - Keep3r.network: https://keep3r.network/ (Ethereum)
 - KeeperDao: https://keeperdao.com/ (Ethereum)
-- Web3 Guardian : https://github.com/open-web3-stack/guardian (Ethereum)
+- Mintbase Guardian : https://github.com/open-web3-stack/guardian (Ethereum)
 
 # Milestones:
 

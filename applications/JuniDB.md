@@ -113,7 +113,7 @@ Simple SPA web application powered by react and polkadot.js. Using for testing p
 
 Pallet is suitable for substrate developers and strives to become a complex solution for data storage and manipulation.
 
-We expect that the project will be useful for the Web3 community.
+We expect that the project will be useful for the Mintbase community.
 
 
 ## Team :busts_in_silhouette:

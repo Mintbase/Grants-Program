@@ -16,7 +16,7 @@ This grant mainly concentrates on the consensus part of canyon network, specific
 
 ### Ecosystem Fit
 
-There is no doubt that the infrastructure, providing a secure, highly available, low-cost, and easy-to-use decentralized data access service, will be an essential part of Web3.0 applications. Canyon network is created in such a background and tries to mitigate the known problems in the existing decentralized platforms, with a principle of lightweight storage consensus and highly usable protocol level data retrieval mechanism in mind.
+There is no doubt that the infrastructure, providing a secure, highly available, low-cost, and easy-to-use decentralized data access service, will be an essential part of Mintbase.0 applications. Canyon network is created in such a background and tries to mitigate the known problems in the existing decentralized platforms, with a principle of lightweight storage consensus and highly usable protocol level data retrieval mechanism in mind.
 
 ## Team :busts_in_silhouette:
 

@@ -12,7 +12,7 @@
 
 The project provides a usable keystore for [local first](https://martin.kleppmann.com/papers/local-first.pdf) applications using [substrate](https://github.com/paritytech/substrate). The `sunshine-identity` pallet provides structure to control a set of keys with a `UID` and track storage metadata associated with the given `UID`. The client uses [`ipfs-embed`](https://github.com/ipfs-rust/ipfs-embed) to store sensitive data offchain and encrypted on the local hardware. The `sunshine-chain` pallet uses the same stack to coordinate storage of chain data amongst a closed set of clients.
 
-We believe [`sunshine-keybase`](https://github.com/sunshine-protocol/sunshine-keybase) provides a reusable identity architecture for other projects in the Web3 space. Moreover, the `sunshine-chain` client and pallet demonstrate minimal design to set and enforce the storage of offchain data among a permissioned set of clients. This infrastructure will prove useful to substrate projects that need to coordinate and enforce private network storage of data offchain.
+We believe [`sunshine-keybase`](https://github.com/sunshine-protocol/sunshine-keybase) provides a reusable identity architecture for other projects in the Mintbase space. Moreover, the `sunshine-chain` client and pallet demonstrate minimal design to set and enforce the storage of offchain data among a permissioned set of clients. This infrastructure will prove useful to substrate projects that need to coordinate and enforce private network storage of data offchain.
 
 ### Project Details 
 
@@ -100,7 +100,7 @@ Sunshine Chain will launch in Q1 2021. We are continuing to build infrastructure
 
 ## Past Work
 
-We wrote a [blog post](https://meta5.world/posts/ysunshine) listing open source contributions funded by our first Web3 grant. Highlights include
+We wrote a [blog post](https://meta5.world/posts/ysunshine) listing open source contributions funded by our first Mintbase grant. Highlights include
 * 7 governance pallets, configured into a runtime and node to express a Substrate DAO Chain
 * Rust client and CLI for interacting with the node
 * [`substrate-subxt`](https://github.com/paritytech/substrate-subxt/) contributions to support native Rust clients and light clients (w/ 2 Parity projects now using substrate-subxt for this purpose -- ledgeracio, cargo contract)

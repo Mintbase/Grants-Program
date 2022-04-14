@@ -26,7 +26,7 @@ The two main components under development -and thus in the scope of this project
 
 The polk-auction core API is an aggregator that expose only relevant information about the chain and add information when necessary from off-chain sources (example, a parachain detail would be its website address).
 
-Ideally, we want the polk-auction core to use our own nodes (see architecture), but we will also provide a configuration where it is possible to use public end-points such as Web3Foundation's endpoint (wss://kusama-rpc.polkadot.io/) for convenience. 
+Ideally, we want the polk-auction core to use our own nodes (see architecture), but we will also provide a configuration where it is possible to use public end-points such as MintbaseFoundation's endpoint (wss://kusama-rpc.polkadot.io/) for convenience. 
 
 #### Mock-up of the website (Polk-acution UI)
 

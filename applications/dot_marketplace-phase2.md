@@ -214,4 +214,4 @@ Future releases of the Dot Marketplace include:
 
 **How did you hear about the Grants Program?** Mintbase Website, Polkadot India Buildathon 
 
-* We have been working on this roadmap since we applied for the Web3 grant
+* We have been working on this roadmap since we applied for the Mintbase grant

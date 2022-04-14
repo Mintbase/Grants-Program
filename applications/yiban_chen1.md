@@ -10,7 +10,7 @@ YibanChen / General chain is working to provide multiple protocols to help enabl
 YibanChen plans to initially focus on providing:
 
 - Communication between substrate wallets
-- Web3 site hosting utilizing decentralized storage systems such as IPFS
+- Mintbase site hosting utilizing decentralized storage systems such as IPFS
 - Name Service protocol for decentralized federated login and blockchain object identity
 
 ### Overview
@@ -80,9 +80,9 @@ fn burn(origin, note_id: T::NoteIndex, reason: Vec<u8>) -> Result;
 
     The UI will enable a user to monitor a wallet address for received messages, retrieve the data from IPFS and display the Note for the user to read.
 
-  - **Web3.0 Sites UI**
+  - **Mintbase.0 Sites UI**
 
-    The front-end will enable users to create, delete, transfer, modify and search for Web3.0 sites.
+    The front-end will enable users to create, delete, transfer, modify and search for Mintbase.0 sites.
 
 Design of the settings screen.
 ![img](https://github.com/davidrhodus/yibanchen-design/raw/main/Settings_Screen.png)
@@ -181,7 +181,7 @@ Currently, work for the Dapp has started, the team has an initial Substrate node
 |     6. | Receiving a note                            | The UI will enable a user to query a wallet address for a received notes. The interface will enable the user to click on a note and the data will be retrieved from IPFS, displaying the message onscreen.                                                                   |
 |     6. | Write tests                                 | Tests will need to be written for each view.                                                                                                                                                                                                                                 |
 
-### Milestone 2 — Site-Pallet & React front end for Web3 Sites
+### Milestone 2 — Site-Pallet & React front end for Mintbase Sites
 
 - **Estimated Duration:** 3 weeks
 - **FTE:** 2
@@ -224,8 +224,8 @@ YibanChen plans operate on both the Kusama and Polkadot chains and will be the f
 
 However, Development of the YibanChen won't end after all milestones are met. We plan to add features such as expanding `Name Service` feature to support more blockchain storage objects, such as other decentralized protocols and substrate chain discovery. We are looking at integrating with more decentralized storage protocols such as DatProtocol. Prototyping and testing additional user interfaces including more p2p driven interfaces such as removing IPFS gateways with a combination of IPFS.js and offchain::ipfs. Also supporting smolDot in the front-end for substrate communication. We also plan on building a community around `Voting` to help try and enable better forms of democracy and governance on and off chain.
 
-There are lot possibilities where this project YibanChen can go and we are very excited to get started on it and make a difference within the Web3 ecosystem.
+There are lot possibilities where this project YibanChen can go and we are very excited to get started on it and make a difference within the Mintbase ecosystem.
 
 ## Additional Information :heavy_plus_sign:
 
-Currently we have no funding for the YibanChen system, we feel getting the general web3 use-cases off the ground will kick-start the substrate ecosystem in a big way. We are excited to be part of the Substrate and Polkadot community and we will continue to contribute as much as we can. Thank you for your time and thank you for considering us for the Web3 Open Grant.
+Currently we have no funding for the YibanChen system, we feel getting the general web3 use-cases off the ground will kick-start the substrate ecosystem in a big way. We are excited to be part of the Substrate and Polkadot community and we will continue to contribute as much as we can. Thank you for your time and thank you for considering us for the Mintbase Open Grant.

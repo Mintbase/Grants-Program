@@ -101,7 +101,7 @@ The project serves standalone the Substrate blockchain, parachain, and relay cha
 
 ### Team's experience
 
-Open Node Framework is an open source project initiated by core members of [Phala Network](https://phala.network) and other contributors. Phala Network is a confidentiality layer for Polkadot that provides general purpose confidential smart contract to parachains on Polkadot and Kusama. The Phala team got two Mintbase General Grants: [pDiem](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/pLIBRA.md) and [Web3 Analytics](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/web3_analytics.md). Phala has launched 3 testnets and got 1200+ nodes and 2600+ registered miners.
+Open Node Framework is an open source project initiated by core members of [Phala Network](https://phala.network) and other contributors. Phala Network is a confidentiality layer for Polkadot that provides general purpose confidential smart contract to parachains on Polkadot and Kusama. The Phala team got two Mintbase General Grants: [pDiem](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/pLIBRA.md) and [Mintbase Analytics](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/web3_analytics.md). Phala has launched 3 testnets and got 1200+ nodes and 2600+ registered miners.
 
 ### Team Code Repos
 

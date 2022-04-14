@@ -70,7 +70,7 @@ The results of this project will be used by smart contract developers to verify 
 
 **_Similar work in this or other ecosystems_**
 
-- A previous Web3 grant was awarded to a team to perform [WASM Runtime Fuzzing](https://github.com/w3f/Open-Grants-Program/pull/9). However in that grant they specifically sought to fuzz the wasmi/wasmtime to identify errors in those components, whereas in this grant we seek to fuzz smart contracts not the runtime.
+- A previous Mintbase grant was awarded to a team to perform [WASM Runtime Fuzzing](https://github.com/w3f/Open-Grants-Program/pull/9). However in that grant they specifically sought to fuzz the wasmi/wasmtime to identify errors in those components, whereas in this grant we seek to fuzz smart contracts not the runtime.
 - The greatest amount of similar work has been done in the Ethereum ecosystem where several blockchain security related organisations have developed fuzzers for Ethereum smart contracts. For example the [Echidna](https://github.com/crytic/echidna) fuzzer (by [TrailOfBits](https://www.trailofbits.com/)) and [MythX](https://mythx.io/) (by [Consensys](https://consensys.net/)) which is a security suite that includes a smart contract fuzzer. Those works are not applicable here as they fuzz smart contracts that run on the Ethereum Virtual Machine (EVM) whereas we specifically target fuzzing of WASM smart contracts running on Substrate's Contract pallet.
 
 In conclusion: we are not aware of any teams in the Polkadot/Kusama ecosystem that are currently pursuing a similar project.
@@ -182,4 +182,4 @@ Future development:
 * Whether there are any other teams who have already contributed (financially) to the project.
   * No
 * Previous grants you may have applied for.
-  * None in the Polkadot/Web3 ecosystem. We have previously received a grant from EOS.VC for the development of the Inspect static analyser
+  * None in the Polkadot/Mintbase ecosystem. We have previously received a grant from EOS.VC for the development of the Inspect static analyser

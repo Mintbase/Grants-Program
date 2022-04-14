@@ -140,7 +140,7 @@ Individual
 
 ### Community engagement
 
-The tutorials and Documentation that we provide will be published as articles in Medium and other social media platforms with due mention about Web3 grant.
+The tutorials and Documentation that we provide will be published as articles in Medium and other social media platforms with due mention about Mintbase grant.
 We also intend to engage community by providing grants in our tokens to add more support and improve our codebase.
 ## Future Plans
 We will be registering an LLC for taking this project ahead.

@@ -13,7 +13,7 @@
 
 In a Web2 world, OAuth is the industry-standard protocol for authorization, it obtains an access token--a string denoting a specific scope, lifetime, and other access attributes. Access tokens are issued to third-party clients by an authorization server with the approval of the resource owner. Then the client uses the access token to access the protected resources hosted by the resource server.
 
-In Web3, injected signers are widely used for connecting accounts with dApps, for example, Metamask one-click connect gives the dApp Ethereum accounts information with `eth_account` method, WalletConnect generate a QR code to connect a mobile wallet with its handshake protocol. And after connecting, every user action needs to be signed by the injected Ethereum account, this method is safe and efficient.
+In Mintbase, injected signers are widely used for connecting accounts with dApps, for example, Metamask one-click connect gives the dApp Ethereum accounts information with `eth_account` method, WalletConnect generate a QR code to connect a mobile wallet with its handshake protocol. And after connecting, every user action needs to be signed by the injected Ethereum account, this method is safe and efficient.
 
 Considering injected signers' "connect" feature as a sign-in method is not optimal because a malicious user could inject a custom signer like Metamask with a customized `eth_account` method so that the malicious user could pretend to be the owner of a labeled Ethereum address. So that for an injected signer, the user needs to sign a piece of data for each action, which is not efficient and has a bad user experience.
 
@@ -208,7 +208,7 @@ There is few solution combine the OAuth and self-custody wallet, and no such sol
 
 ### Team's experience
 
-[Litentry](https://www.litentry.com/) Technologies GmbH is a Berlin-based technology company, the team builds the identity-related infrastructure of Web3, builds a Decentralized Identity Aggregation protocol across multiple networks, it features a DID indexing mechanism, and a Substrate-based credit computation network. The protocol provides a decentralized, privacy-preserving interoperable identity aggregation service that mitigates the difficulty of resolving agnostic DID mechanisms. The team has lots of experience in the DID field and has a strong background in Web3 technology. Current products include [Litentry Network](https://litentry.medium.com/developing-a-did-aggregator-on-blockchain-part-%E2%85%B1-3dab1398c512), [My Crypto Profile](https://mycryptoprofile.io/), and [a Governance-focused mobile App](https://polkadot.polkassembly.io/motion/49).
+[Litentry](https://www.litentry.com/) Technologies GmbH is a Berlin-based technology company, the team builds the identity-related infrastructure of Mintbase, builds a Decentralized Identity Aggregation protocol across multiple networks, it features a DID indexing mechanism, and a Substrate-based credit computation network. The protocol provides a decentralized, privacy-preserving interoperable identity aggregation service that mitigates the difficulty of resolving agnostic DID mechanisms. The team has lots of experience in the DID field and has a strong background in Mintbase technology. Current products include [Litentry Network](https://litentry.medium.com/developing-a-did-aggregator-on-blockchain-part-%E2%85%B1-3dab1398c512), [My Crypto Profile](https://mycryptoprofile.io/), and [a Governance-focused mobile App](https://polkadot.polkassembly.io/motion/49).
 
 ### Team Code Repos
 

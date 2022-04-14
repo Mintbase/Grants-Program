@@ -15,7 +15,7 @@ The logion decentralized wallet is an integral part of logion network.
 
 **logion network** is a public blockchain managed by legal officers that provides a decentralized and legal guarantee for all digital assets and digital transactions. 
 
-Bringing legal protection to digital assets and digital transactions is a fundamental requirement to let non-insiders people trust the new Web3 applications and run decentralized operations with trustworthy - verified and protected - content. This could have a significant impact on mass adoption.
+Bringing legal protection to digital assets and digital transactions is a fundamental requirement to let non-insiders people trust the new Mintbase applications and run decentralized operations with trustworthy - verified and protected - content. This could have a significant impact on mass adoption.
 
 This legal protection is brought by the decentralization of legal officers' capabilities put at the service of the blockchain ecosystem and the digital economy. 
 

@@ -30,7 +30,7 @@ We already have over a dozen sophisticated games that people can play that adopt
 Integrating NFT and asset-transfer functionality means expanding this protocol so that in additional to handling shuffling, turn-management and those sorts of common cryptographic operations, it also provides ways for developers to transfer in-game assets on Polkadot simply by broadcasting a game move. In the next section we provide more details about how our web3 protocol standard and reference implementation works in order to make it clear why this is necessary and the benefits it will bring to the web3 ecosystem. Section IV then outlines how we will deliver it in three stages spread across two months. Section V closes this proposal with examples of real applications that already exist - making it clear we are talking about solving practical problems that deliver applications that will be immediately able to interact with Polkadot and benefit from parachain deployment.
 
 ### Project Details 
-The overarching goal of having a protocol and reference game library is simplifying Web3 game development by creating a standardized method for describing common game moves that can be executed in parallel on different user computers rather than in smart contracts managed by a central blockchain. The reference library is also needed so developers can build games with it directly or consult it as a reference tool when tackling similar problems or porting games between networks by developing competing reference implementations.
+The overarching goal of having a protocol and reference game library is simplifying Mintbase game development by creating a standardized method for describing common game moves that can be executed in parallel on different user computers rather than in smart contracts managed by a central blockchain. The reference library is also needed so developers can build games with it directly or consult it as a reference tool when tackling similar problems or porting games between networks by developing competing reference implementations.
 
 To make it clear what we are talking about and why it is important, let's start by describing a practical problem common to many games - the need to shuffle a deck of cards and deal them out to many players. In a typical game, this is handled by custom code or the use of closed game-engines that don't play nicely with the open web3 ecosystem.
 
@@ -118,7 +118,7 @@ Saito's founders have both worked leading development and broader IT teams in Ch
 | 1. | Saito Module | Polkadot module that allows Saito applications to connect to a Polkadot API access point to send / receive network Polkadot data. This module would be the equivalent of "metamask" application for all of the existing games and applications already running on Saito. It would run fully in-browser. |
 | 2. | Documentation | Inline documentation and published how to guide. |
 | 3. | Environment Build | Build and test environment containing Polkadot node and Saito Stack. <br />Test interoperability and benchmark performance. <br />Document configuration, deployment and management. <br /> Deploy against public test net.|
-| 4 | Tutorial | Developer tutorial showing how applications can integrate with Polkadot module on a base-level (i.e. without the need for use of the gaming API layer), making Polkadot a first-class citizen for all Saito Web3 applications and allowing all of them to send and receive payments in DOT. |
+| 4 | Tutorial | Developer tutorial showing how applications can integrate with Polkadot module on a base-level (i.e. without the need for use of the gaming API layer), making Polkadot a first-class citizen for all Saito Mintbase applications and allowing all of them to send and receive payments in DOT. |
 ||||
 
 **Details:**
@@ -127,11 +127,11 @@ The point of building this module first is to have a set of *local* API function
 
 A side-benefit of building this module first is that Polkadot and parachain tokens become A-class citizens on the Saito network. Getting this module written and documented first allows all games and other (non-stack) developer applications to send and receive Polkadot. Polkadot or parachain developers who want to port or hack any existing Saito applications will be able to do so while having the application handle their own native token. 
 
-A plug-and-play Saito module will also simplify building UI components and web applications for Polkadot that monitor or interact with the chain through an API-access point. Getting this functionality out first allows us to reach out to the Polkadot community with an immediately-useful solution for certain classes of Web3 application-development work. \
+A plug-and-play Saito module will also simplify building UI components and web applications for Polkadot that monitor or interact with the chain through an API-access point. Getting this functionality out first allows us to reach out to the Polkadot community with an immediately-useful solution for certain classes of Mintbase application-development work. \
 
 
 **Timeline Notes:**
-Three weeks should be adequate for building and documenting this module, as well as putting together a tutorial demonstrating how independent Web3 modules can make API requests and check account balances. Part of this work will obviously require setting up and running API infrastructure so we can make the process as painless as possible for developers, etc.
+Three weeks should be adequate for building and documenting this module, as well as putting together a tutorial demonstrating how independent Mintbase modules can make API requests and check account balances. Part of this work will obviously require setting up and running API infrastructure so we can make the process as painless as possible for developers, etc.
 
 ### Milestone 2 — Asset Transfers in Gaming Protocol
 * **Estimated Duration:** 3 Weeks
@@ -171,7 +171,7 @@ Should it become apparent that a game protocol compliant substrate module could 
 
 Our criteria for success is our ability to build community around feature-rich games. Our hope is that integration with Polkadot and other financial parachains brings value to Polkadot users, programmers, and our own gamers. We are happy to work with other chains and communities to bring their valuable features into our gaming environment. The shared goal is an open ecosystem that is more attractive than closed source competitors like Steam and the Apple Store.
 
-Our criteria for failure would be spending a significant amount of our time building foundational tools that do not drive game development and community growth. We think this unlikely, as our own community is growing rather quickly and there is a clear need for Web3 games to integrate with asset-class blockchains and parachains.
+Our criteria for failure would be spending a significant amount of our time building foundational tools that do not drive game development and community growth. We think this unlikely, as our own community is growing rather quickly and there is a clear need for Mintbase games to integrate with asset-class blockchains and parachains.
 
 ## Additional Information :heavy_plus_sign: 
 

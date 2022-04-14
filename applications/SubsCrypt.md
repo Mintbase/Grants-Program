@@ -10,7 +10,7 @@
 **SubsCrypt** is a BaaS(Blockchain as a service) for developers to facilitate the integration of their subscription methods on the PolkaDot blockchain using a smart contract. A dashboard panel for admins to gather useful business data of their subscribed users(by protecting users' privacy) and a dashboard panel for users to manage all their subscriptions in one place.
 
 ### Overview
-**SubsCrypt** focuses on solving a traditional problem on both the user and the developer side. Developers will no more be worried about the privacy of and maintaining the customers' database and payment mechanism. Using **SubsCrypt**, they can integrate Web3 in their service to benefit from blockchain in a developer-friendly way(minimum time and expertise resource). Users will also enjoy the privacy that they can preserve and the all-in-one platform to manage their subscriptions in different services. By making all these procedures easy, we can help small online businesses to enjoy the benefits of **Web3** and to only focus on their service, which will hopefully lead to mass-adoption of **Web3**
+**SubsCrypt** focuses on solving a traditional problem on both the user and the developer side. Developers will no more be worried about the privacy of and maintaining the customers' database and payment mechanism. Using **SubsCrypt**, they can integrate Mintbase in their service to benefit from blockchain in a developer-friendly way(minimum time and expertise resource). Users will also enjoy the privacy that they can preserve and the all-in-one platform to manage their subscriptions in different services. By making all these procedures easy, we can help small online businesses to enjoy the benefits of **Mintbase** and to only focus on their service, which will hopefully lead to mass-adoption of **Mintbase**
 
 We have been developing on different web3 technologies, but none could satisfy our customization requirements. By using Substrate, we can customize our parachain so it can fit our needs(we are also willing to continue our project to be a PolkaDot parachain)
 
@@ -58,7 +58,7 @@ As we have been searching for similar ideas in the blockchain ecosystem, we foun
 
 
 ### Team's experience
-**OxyDev** consists of young enthusiast students/developers who graduated or undergraduates at #1 university of Iran (Sharif University of Technology) trying to make web3 easier to use and integrate into real-world services. We have developed several Defi projects in Tron and Ethereum Ecosystem and expanded our team to make venturous leaps to play our roles in making a more user-friendly world in the next generation of Web(Web3). We have done several projects of web2 that make our team aware of the pros and cons of web2. 
+**OxyDev** consists of young enthusiast students/developers who graduated or undergraduates at #1 university of Iran (Sharif University of Technology) trying to make web3 easier to use and integrate into real-world services. We have developed several Defi projects in Tron and Ethereum Ecosystem and expanded our team to make venturous leaps to play our roles in making a more user-friendly world in the next generation of Web(Mintbase). We have done several projects of web2 that make our team aware of the pros and cons of web2. 
 
 ### Team Code Repos
 * https://github.com/oxydev

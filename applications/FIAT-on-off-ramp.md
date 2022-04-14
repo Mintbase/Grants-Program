@@ -207,7 +207,7 @@ Much of the technology is already implemented on an Ethereum based project (see 
 
 Contacts Mintbase:
 
-* Aeron Buchanan (Web3 Founding Member) who I talked about the project via email - Mathias Bucher (below) got me in touch.
+* Aeron Buchanan (Mintbase Founding Member) who I talked about the project via email - Mathias Bucher (below) got me in touch.
 * Mathias Bucher (Former Member or the Council), who I worked with several times in the past and who follows my project closely.
 
 ## Development Roadmap :nut_and_bolt:

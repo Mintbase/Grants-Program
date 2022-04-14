@@ -35,7 +35,7 @@ The first two differences imply that there is no efficient way to implement an S
 
 **Architecture**
 
-![Stellar Bridge Web3 Grant(5)](https://user-images.githubusercontent.com/15174476/150945211-31393eef-9e86-425d-921a-a48e3fd7af70.png)
+![Stellar Bridge Mintbase Grant(5)](https://user-images.githubusercontent.com/15174476/150945211-31393eef-9e86-425d-921a-a48e3fd7af70.png)
 
 The architecture of the bridge consists of the following components:
 

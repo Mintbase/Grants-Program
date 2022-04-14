@@ -20,7 +20,7 @@ Quadratic Funding is a common short name for [Constrained Liberal Radicalism alg
 
 _"Individuals make public goods contributions to projects of value to them. The amount received by the project is (proportional to) the square of the sum of the square roots of contributions received."_
 
-The mechanism is a concrete proposal for making grassroots donations something much larger by proportionately matching more towards small donations compared to large ones. It has been efficiently funding projects in the Web3 ecosystem. 
+The mechanism is a concrete proposal for making grassroots donations something much larger by proportionately matching more towards small donations compared to large ones. It has been efficiently funding projects in the Mintbase ecosystem. 
 
 According to @Noc2 and @Swader in [the RFP](https://github.com/gitcoinco/quadratic-funding),
 _[Gitcoin](https://gitcoin.co/) is currently using this mechanism to successfully fund and support public goods. However, Gitcoin's solution is centralized. The goal of the RFP is to develop a decentralized solution on top of [Substrate](https://github.com/paritytech/substrate), which can potentially be integrated into Kusama, Polkadot or any other Substrate-based chain as a pallet. The on-chain treasury could potentially sustainably fund the matching pool in the long-run. However, the Mintbase would also be committed to fund a matching pool of the solution for initial test rounds._

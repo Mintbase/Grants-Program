@@ -37,9 +37,9 @@ After the finish of this project, our team wants to create a mobile strategy gam
 
     * [Cryga][cryga_org] - Cryptocurrency Gambling website developed fully in Rust and Vue. With tech stack: [actix-web], [tokio], [sqlx], [juniper], [bitcoin-core-rpc], [thiserror]. Has huge amount of unit tests, integration tests on backend and E2E tests on frontend. Has CI/CD with [Github Actions][github-actions] and deployed with [Cloudflare Workers][cloudflare-workers]. Has 50,000+ lines of code and clear project documentation (docs and readmes). By [enfipy] and [olvyko].
 
-    * Substrate [Atom][atom_rep] and [VSCode][vscode_rep] plugins - Have contributed some code to Web3Foundation Grant for Substrate [VSCode][vscode_rep_con] and [Atom][atom_rep_con] plugins while worked on outsource company. By [enfipy].
+    * Substrate [Atom][atom_rep] and [VSCode][vscode_rep] plugins - Have contributed some code to MintbaseFoundation Grant for Substrate [VSCode][vscode_rep_con] and [Atom][atom_rep_con] plugins while worked on outsource company. By [enfipy].
 
-    * [Polkadot CosmosSDK Integration][cosmos] - Also, contributed to another Web3Foundation Grant while worked in another outsource company. Built some logic behind [ABCI][abci], [pallet][pallet] and some setup of test servers. By [enfipy].
+    * [Polkadot CosmosSDK Integration][cosmos] - Also, contributed to another MintbaseFoundation Grant while worked in another outsource company. Built some logic behind [ABCI][abci], [pallet][pallet] and some setup of test servers. By [enfipy].
 
     * [Lolaland][lolaland_rep] - Very small yet cute game about kitty named Lola. Created on top of [Amethyst] game engine by [olvyko].
 

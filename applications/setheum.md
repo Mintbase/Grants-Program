@@ -159,7 +159,7 @@ Please include the team's long-term plans and intentions.
 11. **Cross-Chain Swap** with Ethereum, EOS, Stellar, Tezos and Cosmos.
 
 ## Additional Information :heavy_plus_sign: 
-We are planning to be the gateway to Polkadot in Africa and the Middle East (especially Nigeria, Ghana, Saudi Arabia and the UAE) with ecosystem growth and development strategies that we are planning to apply and foster the adoption on the Web3 Ecosystem. Our plan includes a Blockchain Development Incubation Hub and our Ecosystem Fund. We are planning to be Polkadot's embassy in Africa and the Middle East.
+We are planning to be the gateway to Polkadot in Africa and the Middle East (especially Nigeria, Ghana, Saudi Arabia and the UAE) with ecosystem growth and development strategies that we are planning to apply and foster the adoption on the Mintbase Ecosystem. Our plan includes a Blockchain Development Incubation Hub and our Ecosystem Fund. We are planning to be Polkadot's embassy in Africa and the Middle East.
 
 Possible additional information to include:
 * What work has been done so far?

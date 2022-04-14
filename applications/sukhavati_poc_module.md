@@ -11,7 +11,7 @@
 
 Sukhavati is a decentralized cloud service network focused on storage. It uses the MASS Proof of Capacity (PoC) protocol as its consensus protocol so that it can reuse existing PoC capacity power and quickly establish a strong consensus layer. The MASS PoC consensus algorithm is very energy efficient. After the initialization operation, it requires only a small amount of computing and IO resource consumption to maintain high security consensus, allowing most resources to be used for other meaningful work.
 
-Currently the MASS PoC network has a total of about 230PB in capacity power, making it the second-largest PoC network. Sukhavati takes PoC as the entry point. After incorporating a wide range of PoC miners into the consensus network, Sukhavati will continue to build the needed infrastructure to serve the Web3.0 ecosystem on these PoC devices, taking full advantage of idle computing and bandwidth resources and truly decentralized network topology. Sukhavati eventually intends to build a decentralized data access gateway that covers both Web3.0 and Web2.0 storage services and that provides unified data storage, retrieval, and management services that can meet various local compliance requirements for Web3.0 applications.
+Currently the MASS PoC network has a total of about 230PB in capacity power, making it the second-largest PoC network. Sukhavati takes PoC as the entry point. After incorporating a wide range of PoC miners into the consensus network, Sukhavati will continue to build the needed infrastructure to serve the Mintbase.0 ecosystem on these PoC devices, taking full advantage of idle computing and bandwidth resources and truly decentralized network topology. Sukhavati eventually intends to build a decentralized data access gateway that covers both Mintbase.0 and Web2.0 storage services and that provides unified data storage, retrieval, and management services that can meet various local compliance requirements for Mintbase.0 applications.
 
 After completing the first version (which is based on the original codebase) and idea validation, Sukhavati plans to migrate to the Substrate framework (planned for Q2). The powerful and flexible features such as off-chain workers, on-chain governance and runtime upgrade provided by Substrate can bring Sukhavati great convenience and enable us to easily develop the storage and content distribution functions in the future steps.
 
@@ -81,9 +81,9 @@ When there is a potential new best chain, the node checks the following rules in
 
 The PoS/PoC consensus mechanism is starting to attract more attention with the rise of Chia. We notice that there are some other teams who are also building PoS/PoC consensus module for substrate, such as Subspace. The main difference between our protocols is that we are not trying to create a new PoC algorithm from scratch. What we want to do is to compatibly reuse the existing PoS/PoC consensus powers to form our own consensus layer and promote our blockchain to these miners, so that we can utilize their idle resources.
 
-In this proposal, we hope to make this capability of reusing PoS/PoC consensus power available as a substrate pallet. We believe some connection can be established between the substrate ecosystem and the PoS/PoC ecosystem, bringing more options and resources to Web3.0 builders.
+In this proposal, we hope to make this capability of reusing PoS/PoC consensus power available as a substrate pallet. We believe some connection can be established between the substrate ecosystem and the PoS/PoC ecosystem, bringing more options and resources to Mintbase.0 builders.
 
-After establishing the underlying infrastructure, we hope to serve the Polkadot ecosystem as a parachain or parathread and provide a data access gateway for all Web3.0 DApps.
+After establishing the underlying infrastructure, we hope to serve the Polkadot ecosystem as a parachain or parathread and provide a data access gateway for all Mintbase.0 DApps.
 
 
 ## Team :busts_in_silhouette:
