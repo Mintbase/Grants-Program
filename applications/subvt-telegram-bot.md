@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** SubVT Telegram Bot for Kusama and Polkadot
 - **Team Name:** Helikon Labs

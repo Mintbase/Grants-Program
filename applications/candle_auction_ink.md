@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Candle Auctions on Ink!
 - **Team Name:** [@agryaznov](https://github.com/agryaznov)
@@ -158,4 +158,4 @@ A comprehensive tutorial\workshop to be added to [Substrate Developer Hub](https
 
 **How did you hear about the Grants Program?** 
 
-I came across its repository while surfing Parity's and W3F resources on Github. 
+I came across its repository while surfing Parity's and Mintbase resources on Github. 

@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 
 * **Project Name:** Cumulus Encrypted Storage System (CESS)
@@ -26,33 +26,33 @@ Mockups/designs of any UI components
 
 * Global nodes: Display the global map and the number of global nodes of distributed storage network, and mark the location distribution of nodes according to coordinates; Display node list.
 
-![Image](https://raw.githubusercontent.com/Cumulus2021/W3F-illustration/main/img1.png)
+![Image](https://raw.githubusercontent.com/Cumulus2021/Mintbase-illustration/main/img1.png)
 
 * My cloud disk: Personal storage space to view the files uploaded to the storage network; The list can be sorted by upload time, file name, file type and file size; Supports file download, share, property setting, deletion and other operations.
-![Image](https://raw.githubusercontent.com/Cumulus2021/W3F-illustration/main/img2.png)
+![Image](https://raw.githubusercontent.com/Cumulus2021/Mintbase-illustration/main/img2.png)
 
 * File upload: Select the files to be stored and set the relevant storage parameters.
 
-![Image](https://raw.githubusercontent.com/Cumulus2021/W3F-illustration/main/img3.png)
+![Image](https://raw.githubusercontent.com/Cumulus2021/Mintbase-illustration/main/img3.png)
 
 * Search for file: Search the whole network through keywords, and download the search results.
-![Image](https://raw.githubusercontent.com/Cumulus2021/W3F-illustration/main/img4.png)
+![Image](https://raw.githubusercontent.com/Cumulus2021/Mintbase-illustration/main/img4.png)
 
 Documentation of core components, protocols, architecture, etc. to be deployed
 
 * CESS is a high-speed, secure, scalable and decentralized cloud storage system. It can handle tens of thousands of transactions per second through parallel technology. Through Data slicing technology, it can achieve the secure storage of massive data, and it has the functions of Data confirmation and Data rights protection, which provides powerful data service ability. It provides DAPP with unlimited scalable storage capacity and perfect Data rights protection capability.
 
 * Data storage workflow: When a client requests to store a data file, the CESS platform pre-processes the data file to obtain and store its meta-data and data fingerprints. The pre-process software also performs data file replication and fault tolerant erasure coding. The meta-data includes info of data owner, data keywords, and etc. The data fingerprints are for subsequent data rights confirmation. 
-<div align=center><img width="72%" height="72%" src="https://raw.githubusercontent.com/Cumulus2021/W3F-illustration/main/img5.png"/></div>
+<div align=center><img width="72%" height="72%" src="https://raw.githubusercontent.com/Cumulus2021/Mintbase-illustration/main/img5.png"/></div>
 
 * CESS client-platform interactions: A typical CESS data client and platform interaction flow is as follows: first, a data storage client interrogates CESS chain to get current storage price. The client then places an order for his/her data file via extrinsics on blockchain. Once the payment is made and order is approved, the client then uploads the data file using API provided by CESS platform. The data file is not directly uploaded to storage nodes, instead it is uploaded to a CESS storage scheduling node. The scheduling nodes are the ones with secure hardware environment (Trusted Execution Environment or TEE) and the data file will be pre-processed, encrypted, and sharded. Finally, the scheduling node distributes data segments to storage nodes to store. CESS storage miners do not make deal directly with clients, and they get rewarded from CESS system by providing storage space. Miners’ storage resources are uniformly managed by CESS system, which fairly distributes data files. Miners have the responsibility to maintain the integrity of clients’ data. Any malicious behavior will be punished (CESS token deduction).
-<div align=center><img width="65%" height="65%" src="https://raw.githubusercontent.com/Cumulus2021/W3F-illustration/main/img6.png"/></div>
+<div align=center><img width="65%" height="65%" src="https://raw.githubusercontent.com/Cumulus2021/Mintbase-illustration/main/img6.png"/></div>
 
 * Overall system architecture: CESS adopts a layered and loosely coupled system architecture, which is divided into blockchain service layer, distributed storage resource layer, distributed content delivery layer and application layer.
-<div align=center><img width="68%" height="68%" src="https://raw.githubusercontent.com/Cumulus2021/W3F-illustration/main/img7.png"/></div>
+<div align=center><img width="68%" height="68%" src="https://raw.githubusercontent.com/Cumulus2021/Mintbase-illustration/main/img7.png"/></div>
 
 * CESS MDRC mechanism workflow: CESS have designed a unique **Multi-format Data Rights Confirmation Mechanism (MDRC)**, which extracts data fingerprint from each data file to generate data certificate ID. By comparing similarities between data fingerprints, the system identifies data lineages of data files, and may take appropriate actions to prevent possible violations, and to provide strong evidences for owners’ data rights protection.
-<div align=center><img width="68%" height="68%" src="https://raw.githubusercontent.com/Cumulus2021/W3F-illustration/main/img8.png"/></div>
+<div align=center><img width="68%" height="68%" src="https://raw.githubusercontent.com/Cumulus2021/Mintbase-illustration/main/img8.png"/></div>
 
 ### Ecosystem Fit
 

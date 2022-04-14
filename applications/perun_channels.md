@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 * **Project Name:** Perun Channels
 * **Team Name:** Perun@PolyCrypt

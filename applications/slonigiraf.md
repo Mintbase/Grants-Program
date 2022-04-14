@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** SLON - a recommendation letter system
 - **Team Name:** Slonigiraf

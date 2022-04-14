@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** On-chain cash exchange
 - **Team Name:** Bela Supernova

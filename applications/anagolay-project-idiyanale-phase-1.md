@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Project Idiyanale - Phase 1
 - **Team Name:** Anagolay

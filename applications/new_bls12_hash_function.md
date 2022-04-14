@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Implementation of the new hash function to BLS12 curves
 - **Team Name:** Dmitrii Koshelev

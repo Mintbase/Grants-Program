@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 * **Project Name:** Fennel Protocol
 * **Team Name:** Fennel Labs

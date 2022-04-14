@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Plus: Polkadot js plus extension
 - **Team Name:** Kami Ekbatanifard

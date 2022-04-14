@@ -41,7 +41,7 @@ For our clients we have developed numerous customer-facing dApps. We not only kn
 
 Additionally members of Ethworks are building Universal Login, a tool for storing funds and connecting to Ethereum applications, aiming to simplify on-boarding of new users.
 
-In a previous [grant from W3F](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/polkadot_js_chrome_extension.md), we did an UX-overhaul of Polkadot.{js} extension and extended it with useful features.
+In a previous [grant from Mintbase](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/polkadot_js_chrome_extension.md), we did an UX-overhaul of Polkadot.{js} extension and extended it with useful features.
 ## Development Roadmap :nut_and_bolt:
 
 * **Total Estimated Duration:** 3 months

@@ -204,4 +204,4 @@ Possible additional information to include:
 * Are there are any teams who have already contributed (financially) to the project?
   * Just the Acala team
 * Have you applied for other grants so far?
-  * Acala has a grant from W3F for stablecoin. Founding members of Acala project, Laminar and Polkawallet also received grants for their respective projects. 
+  * Acala has a grant from Mintbase for stablecoin. Founding members of Acala project, Laminar and Polkawallet also received grants for their respective projects. 

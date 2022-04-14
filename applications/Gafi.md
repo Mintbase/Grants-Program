@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 
 - **Project Name:** Gafi Network - The Network of Game Finance

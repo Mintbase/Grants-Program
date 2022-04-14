@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 * **Project Name:** Subsembly - Support for GRANDPA 
 * **Team Name:** [LimeChain](https://github.com/LimeChain)

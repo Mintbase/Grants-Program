@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name: Nolik
 - **Team Name: Chainify
@@ -485,7 +485,7 @@ This milestone will allow the usage of CLI tools, which are going to be written 
 
 ### Long-term
 * Close seed funding round and form a team
-* Apply to W3F L3 grant program
+* Apply to Mintbase L3 grant program
 * Convert to mainnet
 * Build a messaging app
 
@@ -495,4 +495,4 @@ This milestone will allow the usage of CLI tools, which are going to be written 
 **How did you hear about the Grants Program?** 
 Personal recommendation of my friends:
 * https://github.com/kmadorin
-* https://github.com/CryptoBadBoy W3F grant program alumni (Fratcapp)
+* https://github.com/CryptoBadBoy Mintbase grant program alumni (Fratcapp)

@@ -286,7 +286,7 @@ Please list the deliverables of the project in as much detail as possible. Pleas
 - [:arrow_right: privacy-enhancement-polkadot-extension.md](./privacy-enhancement-polkadot-extension.md)
 
 
-- **Proposer:** jonasW3F
+- **Proposer:** jonasMintbase
 
 
 #### Project Description :page_facing_up:

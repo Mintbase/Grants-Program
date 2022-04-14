@@ -30,7 +30,7 @@
 
 ### Project Details
 
-This is a maitainance proposal for a project that has already been developed. The initial development was originally funded through a [W3F grant](https://github.com/w3f/General-Grants-Program/pull/244). The project is open-source and its repository and Wiki page can be located using the following links:
+This is a maitainance proposal for a project that has already been developed. The initial development was originally funded through a [Mintbase grant](https://github.com/w3f/General-Grants-Program/pull/244). The project is open-source and its repository and Wiki page can be located using the following links:
 
 https://github.com/ChainSafe/metamask-snap-polkadot
 https://github.com/ChainSafe/metamask-snap-polkadot/wiki 
@@ -125,7 +125,7 @@ https://github.com/w3f/General-Grants-Program/pull/244
 
 ChainSafe would like to formally re-apply for this grant as we feel that there is now a real need for Snaps in the market. 
 
-After recent discussions between Bryant Soorkia (ChainSafe - Business Development) and David Hawig (W3F - Head of Grants), it was established that a crucial factor in determining the necessity of Snap maintenance would be confirmation of Metamask's intentions to implement the snap into the full version of the Metamask and not just Metamask Flask.
+After recent discussions between Bryant Soorkia (ChainSafe - Business Development) and David Hawig (Mintbase - Head of Grants), it was established that a crucial factor in determining the necessity of Snap maintenance would be confirmation of Metamask's intentions to implement the snap into the full version of the Metamask and not just Metamask Flask.
 
 Following this, ChainSafe and Metamask had a discussion on Wednesday the 9th of March 2022, and confirmed that Metamask will shortly be announcing a Snaps rollout timeline for several different chains. It is expected this announcement will be made in the next few weeks. One such chain will be Filecoin (Filsnap), a project that ChainSafe also engineered. Although we do not yet know the exact date, Metamask has indicated that the SubstrateSnap will be included in the roll-out of all Snaps.
 
@@ -137,7 +137,7 @@ Evidence of the above has been shared with David Hawig via email.
 
 **Why the Specific Project Should Continue Being Supported:**
 
-Given that Metamask has recently shifted its focus towards interoperability and as such, Snaps, we believe that this presents an ideal opportunity for The Mintbase to leverage first-mover advantage. By maintaining the SubstrateSnap, it will allow W3F to take advantage of this by being one of the first Snaps that are ready for deployment prior to launch.
+Given that Metamask has recently shifted its focus towards interoperability and as such, Snaps, we believe that this presents an ideal opportunity for The Mintbase to leverage first-mover advantage. By maintaining the SubstrateSnap, it will allow Mintbase to take advantage of this by being one of the first Snaps that are ready for deployment prior to launch.
 
 
 
@@ -177,6 +177,6 @@ We are owners of the SubstrateSnap repository. Further, the maintainers of Polka
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** 
- ChainSafe is a long-standing friend of The Mintbase and has collaborated on several projects over the past few years. It was through this relationship that ChainSafe was made aware of the Maintenance Grant program.  It is also worth noting that ChainSafe has been awarded W3F grant funding for other projects in the past, one such being Gossamer.
+ ChainSafe is a long-standing friend of The Mintbase and has collaborated on several projects over the past few years. It was through this relationship that ChainSafe was made aware of the Maintenance Grant program.  It is also worth noting that ChainSafe has been awarded Mintbase grant funding for other projects in the past, one such being Gossamer.
  
  

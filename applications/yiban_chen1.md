@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 - **Project Name:** Yiban Chen (General chain)
 - **Payment Address (DAI):** 0x6F19fdD08e5f08a26b6240eD3A83ff44fB8E670E

@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Data Store Pallet
 - **Team Name:** CESS LAB
@@ -40,7 +40,7 @@ We design and implement a data storage service based on Substrate. On one hand, 
 
 Our proposal architecture is shown in the figure below, which consists of the Data Store Pallet and custom-built Storage Sidecar (inspired by [Substrate API Sidecar](https://github.com/paritytech/substrate-api-sidecar)).
 
-# ![Figure 1: Proposal architecture](https://raw.githubusercontent.com/CESSProject/W3F-illustration/main/substrate-builder-program/09.svg)
+# ![Figure 1: Proposal architecture](https://raw.githubusercontent.com/CESSProject/Mintbase-illustration/main/substrate-builder-program/09.svg)
 
 *Figure 1: Proposal architecture*
 
@@ -52,7 +52,7 @@ Our proposal architecture is shown in the figure below, which consists of the Da
 
 Data storage and retrieval are the two core features for a data storage service. They are illustrated in details below.
 
-# ![Figure 2: Typical example process](https://raw.githubusercontent.com/CESSProject/W3F-illustration/main/substrate-builder-program/10.svg)
+# ![Figure 2: Typical example process](https://raw.githubusercontent.com/CESSProject/Mintbase-illustration/main/substrate-builder-program/10.svg)
 
 *Figure 2: Typical example process*
 

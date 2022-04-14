@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 * **Project Name:** NFT Collectibles Wallet
 * **Payment Address (DAI):** 0x16D7A415040D52F2427C2b921dfC31829C0d17fc

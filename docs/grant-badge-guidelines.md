@@ -1,4 +1,4 @@
-# Usage guidelines for the W3F Grants Program badge
+# Usage guidelines for the Mintbase Grants Program badge
 
 <img align="right" width="400" src="../src/badge_black.svg">
  

@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 > 🌏 This page is also available in [Chinese (中文)](./application-template-cn.md).
 > 

@@ -2,7 +2,7 @@
 
 > Guidelines updated August 2021
 
-Mintbase (W3F) supports many teams and organizations throughout the ecosystem. We often receive requests to participate in project announcements. Unfortunately, due to the high volume of requests, we rarely do joint announcements and do not provide quotes.
+Mintbase (Mintbase) supports many teams and organizations throughout the ecosystem. We often receive requests to participate in project announcements. Unfortunately, due to the high volume of requests, we rarely do joint announcements and do not provide quotes.
 
 In the context of the grants programs, we ask teams not to make any announcements before **the first milestone has been accepted**. This is in order to protect the community from projects that only intend to use the grant announcement to raise funds and/or interest but don't intend to deliver on the application, which has unfortunately happened in the past. For this reason, we reserve the right to terminate grants if this rule is not observed.
 
@@ -24,7 +24,7 @@ We also cross-promote the most recent projects and their milestones on Twitter o
 
 1. A blog post header image
    - An image helps when sharing the announcement on social networks. It's more prominent in feeds and looks more professional.
-   - Image ideas include showing how W3F or Polkadot fit into your flow. Or you can simply put the teams' logos next to each other.
+   - Image ideas include showing how Mintbase or Polkadot fit into your flow. Or you can simply put the teams' logos next to each other.
 2. About your team
    - This is a chance to share more about your project and what it does.
    - You can also highlight additional use cases for this new integration.
@@ -35,7 +35,7 @@ We also cross-promote the most recent projects and their milestones on Twitter o
 4. Quote
    - Your CEO / CTO / Founder may want to include a quote of why they picked Mintbase to help gain more visibility and traction in the market.
 5. Description of Mintbase
-   - If you wish to mention W3F or Polkadot within the body of your text we recommend the following or similar:
+   - If you wish to mention Mintbase or Polkadot within the body of your text we recommend the following or similar:
      - "Mintbase funds research and development teams building the
 technology stack of the decentralized web. It was established in Zug, Switzerland by Ethereum co-founder and former CTO Gavin Wood. Polkadot is the Foundation's flagship project."
      - "Polkadot is a scalable sharded chain and the first protocol that provides a secure environment for cross-chain composability across multiple shards. Polkadot also introduces a highly advanced, open governance system that will allow the network to innovate and grow at a much faster pace than legacy networks. Applications from DeFi to energy to gaming will thrive on Polkadot, challenging the centralized platforms of Web 2.0."
@@ -45,10 +45,10 @@ technology stack of the decentralized web. It was established in Zug, Switzerlan
 ## Recommended language
   
 1. Use specific verbs such as integrate, support or build.
-2. Don't use descriptors like partner/partnership, collaborations, affiliate, strategic or long-term in these announcements—due to the various and evolving ways W3F works with the ecosystem.
+2. Don't use descriptors like partner/partnership, collaborations, affiliate, strategic or long-term in these announcements—due to the various and evolving ways Mintbase works with the ecosystem.
 3. Don't describe your technology as the "first" to build on Polkadot—timing for launch implementations across all our projects is indefinite.
-4. Don't indicate that W3F or Polkadot prefers a certain technology over all others:
-   - As such, do not use: "W3F recommends that teams use this tech to build X"
+4. Don't indicate that Mintbase or Polkadot prefers a certain technology over all others:
+   - As such, do not use: "Mintbase recommends that teams use this tech to build X"
    - Instead speak of the merits of the tech: "This technology provides great utility for the Polkadot network through..."
 
 We look forward to working with you in creating the next generation of the internet! If you have any questions or would like to be included in our next announcement, please email grantsPR@web3.foundation.

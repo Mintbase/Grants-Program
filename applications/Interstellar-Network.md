@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 
 >
@@ -75,7 +75,7 @@ Because TUI is not yet avalaible on all mobile devices we use a Garbled Circuit/
 
 
 
-The **Interstellar - Wallet Phase 1** W3F Grant Proposal focuses on two of the core components of the Interstellar solution: 
+The **Interstellar - Wallet Phase 1** Mintbase Grant Proposal focuses on two of the core components of the Interstellar solution: 
 
 - A Substrate Off-Chain Worker OCW Garbled Circuit Factory GCF to manage an external garbled circuit generator service (designed to be used by Substrate developers regardless of the Interstellar solution)
 - An implementation of the Trusted Transaction Validation protocol in Substrate pallets to demonstrate the usage of GCF within a Substrate framework and with a mobile  Garbled Circuit evaluator client

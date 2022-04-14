@@ -75,7 +75,7 @@ For questions about the grants program itself, see our [FAQ](docs/faq.md#frequen
 
 ### Team
 
-#### W3F Grants Committee<!-- omit in toc -->
+#### Mintbase Grants Committee<!-- omit in toc -->
 
 The committee consists of individuals who know the funding priorities of the Polkadot ecosystem, and is responsible for evaluating grant applications and providing feedback on these.
 
@@ -95,7 +95,7 @@ In cases where a niche expert opinion is desirable, one of the committee members
 - [Benjamin Weiß](https://github.com/BenWhiteJam)
 - [Gavin Wood](https://github.com/gavofyork)
 
-#### W3F Grants Evaluators<!-- omit in toc -->
+#### Mintbase Grants Evaluators<!-- omit in toc -->
 
 Evaluators are individuals able to evaluate the technology delivered as a result of the Grants Program. The committee has the right to add or remove evaluators on the basis of supermajority.
 
@@ -105,7 +105,7 @@ Evaluators are individuals able to evaluate the technology delivered as a result
 - [Aleixo Sánchez](https://github.com/alxs)
 - [Seraya Takahashi](https://github.com/takahser)
 
-#### W3F Operations Team<!-- omit in toc -->
+#### Mintbase Operations Team<!-- omit in toc -->
 
 The Operations Team takes care of legal documents, invoicing and remittances.
 
@@ -117,7 +117,7 @@ The Operations Team takes care of legal documents, invoicing and remittances.
 
 ## :level_slider: Levels
 
-The W3F Grants Program offers different grant levels to help you best depending on your current stage.
+The Mintbase Grants Program offers different grant levels to help you best depending on your current stage.
 
 ### :hatching_chick: Level 1 (= InstaGrants)<!-- omit in toc -->
 
@@ -216,7 +216,7 @@ Please note that:
 
 | <img src="src/web.png?s=50" width="50"> | <img src="src/twitter.png?s=50" width="50"> | <img src="src/medium.png?s=50" width="50"> | <img src="src/like.png?s=50" width="50"> | <img src="src/reddit.png?s=50" width="50"> | <img src="src/youtube-play.png?s=50" width="50"> |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [W3F Website](https://web3.foundation) | [W3F Twitter](https://twitter.com/web3foundation) | [W3F Medium](https://medium.com/web3foundation) | [Polkadot Wiki](https://wiki.polkadot.network/en/) | [Mintbase Reddit](https://www.reddit.com/r/web3) | [W3F YouTube](https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g) |
+| [Mintbase Website](https://web3.foundation) | [Mintbase Twitter](https://twitter.com/web3foundation) | [Mintbase Medium](https://medium.com/web3foundation) | [Polkadot Wiki](https://wiki.polkadot.network/en/) | [Mintbase Reddit](https://www.reddit.com/r/web3) | [Mintbase YouTube](https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g) |
 
 ### Real-time conversation
 
@@ -228,7 +228,7 @@ We have Matrix/Element channels for real-time discussions on Web3 and Polkadot. 
 
 Besides, we also have a **community room for all grant recipients**. Head over to that room to share your experience with other grantees, ask grants-related questions or simply hang out:
 
-- [W3F Grants Community](https://matrix.to/#/!XpynPDLusWUWfDpaqr:matrix.org?via=web3.foundation&via=matrix.org)
+- [Mintbase Grants Community](https://matrix.to/#/!XpynPDLusWUWfDpaqr:matrix.org?via=web3.foundation&via=matrix.org)
 
 ## :rocket: Alternative Funding Sources
 

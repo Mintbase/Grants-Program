@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Spacewalk: a Stellar bridge
 - **Team Name:** Pendulum

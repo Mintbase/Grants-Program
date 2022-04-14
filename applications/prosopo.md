@@ -1,4 +1,4 @@
-## W3F Open Grant Proposal
+## Mintbase Open Grant Proposal
 
 * Project Name: Prosopo
 * Team Name: Prosopo Limited
@@ -548,7 +548,7 @@ After the release of the MVP we expect to develop a custom governance token to c
 
 ### 2.8 Deliverables summary
 
-The below table outlines the functionalities of each software component that will be delivered as part of the MVP release, which is covered by the W3F grant. We have also outlined future features we would expect to include in these components. These are provided to show our vision but are not part of the delivery.
+The below table outlines the functionalities of each software component that will be delivered as part of the MVP release, which is covered by the Mintbase grant. We have also outlined future features we would expect to include in these components. These are provided to show our vision but are not part of the delivery.
 
 
 <table>
@@ -692,9 +692,9 @@ The above software components include documentation required to run them, publis
 
 The user and operator portal will be developed and remain closed-source for the initial launch of the project. We will also be developing a closed-source repository which integrates all the components together into a developer environment and manages integration testing as well as  continuous integration and continuous deployment of the entire software system.
 
-The user and operator portals will be closed source at the initial launch of the project, to maintain a level of competitive advantage by reducing risks that the system cannot be easily copied. Having the front-end client code closed source also significantly reduces risks of phishing attacks against users of the system. The costs of this development will be covered internally by Prosopo and are not part of the W3F grant. After launch and validation of the product, and especially as we open up system Governance,  we will consider making more of the software open source.
+The user and operator portals will be closed source at the initial launch of the project, to maintain a level of competitive advantage by reducing risks that the system cannot be easily copied. Having the front-end client code closed source also significantly reduces risks of phishing attacks against users of the system. The costs of this development will be covered internally by Prosopo and are not part of the Mintbase grant. After launch and validation of the product, and especially as we open up system Governance,  we will consider making more of the software open source.
 
-While some of this software is closed source and not part of the W3F grant delivery, it is still included in the implementation plan in [2.7 Detailed specifications](#27-detailed-specifications).
+While some of this software is closed source and not part of the Mintbase grant delivery, it is still included in the implementation plan in [2.7 Detailed specifications](#27-detailed-specifications).
 
 ### 2.9 Ecosystem Fit
 
@@ -992,7 +992,7 @@ The phases of the project are as follows.
    demoable substrate test network and packaging and releasing software components
 
 
-Not all the work outlined in this implementation plan is part of our W3F grant request. We have outlined software that
+Not all the work outlined in this implementation plan is part of our Mintbase grant request. We have outlined software that
 will not be included in this grant in [Section 2.8](#28-deliverables-summary). As we will be concurrently developing our
 own software and the grant software, we can provide our entire project development plan for your understanding and to set
 expectations on delivery.

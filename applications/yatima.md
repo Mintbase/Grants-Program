@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 * **Project Name:** Yatima
 * **Team Name:** [Yatima Inc](https://github.com/yatima-inc/yatima).

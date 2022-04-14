@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 * **Project Name:** Klevoya - Substrate WASM Smart Contract Fuzzer
 * **Team Name:** Klevoya

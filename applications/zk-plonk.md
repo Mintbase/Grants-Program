@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 * **Project Name:** zk plonk
 * **Team Name:** Plasm Network (Shinsaku Ashizawa, Sota Watanabe)

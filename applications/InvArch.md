@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 * **Project Name:** InvArch - IP Infrastructure for Substrate
 * **Team Name:** InvArchitects

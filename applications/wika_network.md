@@ -1,4 +1,4 @@
-# W3F Open Grant Request
+# Mintbase Open Grant Request
 
 
 * **Project Name:** Wika Network (temporary prototype name)
@@ -435,7 +435,7 @@ As such, being able to present our project to a panel of experts, gather feedbac
 So if our Grant request were to be approved, 
 it would generate the right connections; and we would be set up for success to improve our blockchain codebase and graduate to mainnet afterwards.
 
-For these reasons, we are looking forward to starting a conversation with W3F, 
+For these reasons, we are looking forward to starting a conversation with Mintbase, 
 and as we learn, we are very open to re-visiting this request's scope and form together. 
 
    

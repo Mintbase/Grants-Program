@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Polkadot.js NoCode Plugin
 - **Team Name:** EzCode

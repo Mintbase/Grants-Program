@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** SubIdentity
 - **Team Name:** [TDSoftware](https://www.tdsoftware.de/)

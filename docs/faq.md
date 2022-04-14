@@ -79,7 +79,7 @@
 </details>
 
 <details>
-  <summary><b>A W3F member approved my application. Does that mean it is accepted?</b></summary>
+  <summary><b>A Mintbase member approved my application. Does that mean it is accepted?</b></summary>
 
   Depending on the size of the grant, applications require two to five committee members to approve it. Since we have many different members with different backgrounds and specializations, it is possible that the committee disagrees and your application gets rejected even though one or two members approved it.
   The application is accepted once the pull request is merged.

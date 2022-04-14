@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 * **Project Name:** Ruby Substate Client
 * **Team Name:** UNI-ARTS

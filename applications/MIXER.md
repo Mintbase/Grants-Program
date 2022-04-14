@@ -14,7 +14,7 @@
 - We like zkps and deploying tech.
 
 ### Project Details 
-https://www.notion.so/hicommonwealth/W3F-Open-Grants-1-4a26651baefb488ba5db3734920f8de0
+https://www.notion.so/hicommonwealth/Mintbase-Open-Grants-1-4a26651baefb488ba5db3734920f8de0
 
 ### Ecosystem Fit 
 Everyone else is doing some DeFi stuff (with respect to ZKP). I think the innovations that can be made here are more interesting.

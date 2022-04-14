@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 * **Project Name:** YieldScan 
 * **Team Name:** Find Signal PTE. LTD. 
@@ -7,7 +7,7 @@
 
 ## Project Overview :page_facing_up:
 
-This is a follow-up grant for the previous successfully delivered [YieldScan grant](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/YieldScan.md) under [W3F's General Grants Program](https://github.com/w3f/General-Grants-Program/).
+This is a follow-up grant for the previous successfully delivered [YieldScan grant](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/YieldScan.md) under [Mintbase's General Grants Program](https://github.com/w3f/General-Grants-Program/).
 
 
 ### Overview

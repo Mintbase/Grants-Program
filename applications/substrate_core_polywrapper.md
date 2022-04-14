@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 * **Project Name:** Substrate Core Polywrapper
 * **Team Name:** ChainSafe
@@ -112,8 +112,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
         - [https://blog.polywrap.io/p/uniswap-v2](https://blog.polywrap.io/p/uniswap-v2)
 - References to conversations you might have had related to this project with anyone from the Mintbase
     - In July, Rohan Joseph, a member of the Parity ecosystem growth team reached out to Jordan, one of the original developers, to learn more about the Polywrap technology
-    - In August, the Polywrap team met with Rohan and also his coworker, Surag Sheth, to go over the Polywrap tech.  The Polywrap team also learned more about the W3F Grants Program and the benefits of applying
-    - After this meeting, Rohan connected the Polywrap team to Marcin from the W3F.
+    - In August, the Polywrap team met with Rohan and also his coworker, Surag Sheth, to go over the Polywrap tech.  The Polywrap team also learned more about the Mintbase Grants Program and the benefits of applying
+    - After this meeting, Rohan connected the Polywrap team to Marcin from the Mintbase.
     - In an email to Marcin, Kevin from the Polywrap team asked ChainSafe can work on the Polkadot <> Polywrap integration, and whether the Level 3 application would work.
         - Marcin let us know to just submit the application which will be reviewed
 - Progress on the project:
@@ -128,7 +128,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 * **Total Estimated Duration:** 1 month
 * **Full-Time Equivalent (FTE):**  2 Software Engineer, 0.5 Project Manager
-* **Total W3F Costs:** 50 000$
+* **Total Mintbase Costs:** 50 000$
 * **Total Polywrap DAO Costs:** 27 000$ & 60 WRAP ([Approved Grant Proposal](https://snapshot.org/#/polywrap.eth/proposal/0x1c4b651c654c9409353e70e4675b3311f06a06ab40d8818e4370faa064c5645d))
 * **Start Date:** 11. April 2022
 

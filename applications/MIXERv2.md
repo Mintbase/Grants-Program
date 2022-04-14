@@ -167,6 +167,6 @@ The team's plans are to keep extending the mixer to support newer backends and a
 - We have previously delivered a grant that builds out mixer modules using the bulletproofs zero-knowledge proving system.
 
 ### Are there are any teams who have already contributed (financially) to the project?
-- W3F
+- Mintbase
 ### Have you applied for other grants so far?
-- Previous W3F grant and grant from Edgeware to integrate the previously delivered pallets into Edgeware.
+- Previous Mintbase grant and grant from Edgeware to integrate the previously delivered pallets into Edgeware.

@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Project Aurras - MVP - Phase 2
 - **Team Name:** HugoByte AI Labs Private Limited

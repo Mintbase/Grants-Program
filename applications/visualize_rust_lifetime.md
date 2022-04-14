@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Avoiding Rust Deadlocks via Visualizing Lifetime
 - **Team Name:** Song's research group at Pennsylvania State University

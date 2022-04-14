@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 - **Project Name:** Canyon Network
 - **Team Name:** Canyon Labs
@@ -118,4 +118,4 @@ The long term plans:
 
 ## Additional Information :heavy_plus_sign:
 
-The earlier successful W3F grant name is `Canyon Network`, which is mainly about the early research problems on the decentralized storage network and can be considered the starting point of works afterward.
+The earlier successful Mintbase grant name is `Canyon Network`, which is mainly about the early research problems on the decentralized storage network and can be considered the starting point of works afterward.

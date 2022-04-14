@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Hamster
 - **Team Name:** [Hamster](https://github.com/orgs/hamster-shared)

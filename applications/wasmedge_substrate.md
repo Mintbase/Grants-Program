@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** WasmEdge for Substrate
 - **Team Name:** Second State
@@ -9,7 +9,7 @@
 
 ### Overview
 
-Supporting WasmEdge as an alternative Substrate WebAssembly runtime. The project increases the Substrate ecosystem's node software diversity by supporting an alternative high-performance WebAssembly Runtime implementation. The project team are the maintainers of the WasmEdge WebAssembly Runtime project, and had successfully completed W3F projects in the past.
+Supporting WasmEdge as an alternative Substrate WebAssembly runtime. The project increases the Substrate ecosystem's node software diversity by supporting an alternative high-performance WebAssembly Runtime implementation. The project team are the maintainers of the WasmEdge WebAssembly Runtime project, and had successfully completed Mintbase projects in the past.
 
 ### Project Details
 
@@ -56,7 +56,7 @@ Antonio Yang is the lead developer of the Rust SewUp crate, which enables Rust d
 
 The team consists of maintainers and core developers of the open source WasmEdge project.
 
-The team has successfully completed a W3F grant in the past to adapt WasmEdge (previously known as SSVM) as an on-chain VM to execute Ethereum flavored WebAssembly (Ewasm) smart contracts.
+The team has successfully completed a Mintbase grant in the past to adapt WasmEdge (previously known as SSVM) as an on-chain VM to execute Ethereum flavored WebAssembly (Ewasm) smart contracts.
 
 ### Team Code Repos
 
@@ -155,5 +155,5 @@ Our goal is to continuously improve WasmEdge's compatibility and performance in 
 
 **How did you hear about the Grants Program?** Mintbase Website / Past grantee
 
-As discussed, the team has extensive experience with WebAssembly runtimes. We are the maintainers of CNCF's WasmEdge project, and had successfully completed past W3F grant projects in adopting WebAssembly for on-chain smart contracts.
+As discussed, the team has extensive experience with WebAssembly runtimes. We are the maintainers of CNCF's WasmEdge project, and had successfully completed past Mintbase grant projects in adopting WebAssembly for on-chain smart contracts.
 

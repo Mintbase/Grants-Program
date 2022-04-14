@@ -1,8 +1,8 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Substrate Client for Java
 - **Team Name:** Doken  
-- **Payment Address:** Information provided in the "W3F Technical Grant Application Form"  
+- **Payment Address:** Information provided in the "Mintbase Technical Grant Application Form"  
 
 ## Project Overview :page_facing_up:
 
@@ -286,7 +286,7 @@ The current version of the substrate-client-java is available at https://github.
 
 - **Total Estimated Duration:** 7 months
 - **Full-Time Equivalent (FTE):**  2.9 FTE
-- **Total Costs:** Information provided in the "W3F Technical Grant Application Form"
+- **Total Costs:** Information provided in the "Mintbase Technical Grant Application Form"
 
 ### Milestone 1 — Queries API
 
@@ -294,7 +294,7 @@ Implement a query api similar to the one of polkadot-js.
 
 - **Estimated duration:** 1 month
 - **FTE:**  3 FTE
-- **Costs:** Information provided in the "W3F Technical Grant Application Form"
+- **Costs:** Information provided in the "Mintbase Technical Grant Application Form"
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -308,7 +308,7 @@ Implement a query api similar to the one of polkadot-js.
 
 - **Estimated duration:** 1 month
 - **FTE:**  3 FTE
-- **Costs:** Information provided in the "W3F Technical Grant Application Form"
+- **Costs:** Information provided in the "Mintbase Technical Grant Application Form"
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -324,7 +324,7 @@ Implement a transactions api similar to `api.tx` of polkadot-js.
 
 - **Estimated duration:** 1 month
 - **FTE:**  3 FTE
-- **Costs:** Information provided in the "W3F Technical Grant Application Form"
+- **Costs:** Information provided in the "Mintbase Technical Grant Application Form"
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -340,7 +340,7 @@ Implement RPC sections and methods that remained unimplemented from the previous
 
 - **Estimated duration:** 1 month
 - **FTE:**  3 FTE
-- **Costs:** Information provided in the "W3F Technical Grant Application Form"
+- **Costs:** Information provided in the "Mintbase Technical Grant Application Form"
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -354,7 +354,7 @@ Implement RPC sections and methods that remained unimplemented from the previous
 
 - **Estimated duration:** 1 month
 - **FTE:**  3 FTE
-- **Costs:** Information provided in the "W3F Technical Grant Application Form"
+- **Costs:** Information provided in the "Mintbase Technical Grant Application Form"
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -368,7 +368,7 @@ Implement RPC sections and methods that remained unimplemented from the previous
 
 - **Estimated duration:** 1 month
 - **FTE:**  2.5 FTE
-- **Costs:** Information provided in the "W3F Technical Grant Application Form"
+- **Costs:** Information provided in the "Mintbase Technical Grant Application Form"
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -384,7 +384,7 @@ Implement Constants API similar to `api.consts` of polkadot-js that allows acces
 
 - **Estimated duration:** 1 month
 - **FTE:**  2.5 FTE
-- **Costs:** Information provided in the "W3F Technical Grant Application Form"
+- **Costs:** Information provided in the "Mintbase Technical Grant Application Form"
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |

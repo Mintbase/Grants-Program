@@ -1,7 +1,7 @@
 # Privacy Enhancement for Polkadot Extension
 
 * **Status:** Open
-* **Proposer:** jonasW3F
+* **Proposer:** jonasMintbase
 * **Projects you think this work could be useful for** [optional]: https://github.com/polkadot-js/extension
 * **Teams/People that could deliver the RFP:** @celrisen
 

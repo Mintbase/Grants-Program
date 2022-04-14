@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 * **Project Name:** OpenSquare off-chain voting for Polkadot ecosystem
 * **Team Name:** OpenSquare

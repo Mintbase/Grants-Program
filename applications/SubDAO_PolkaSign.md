@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 * **Project Name:** PolkaSign
 * **Team Name:** [SubDAO Labs](https://github.com/subdao-network)

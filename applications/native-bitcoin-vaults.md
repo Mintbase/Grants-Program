@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 - **Project Name:** Native Bitcoin Vaults (NBV)
 - **Team Name:** Hashed Systems (Max Gravitt)
 - **Payment Address:** bc1qcqzspw5ykm7rv4ph8ahzynvp6jmfdp8hvwevpv6xaqq9wt79vlasygls3w (BTC)
@@ -117,7 +117,7 @@ The unsigned transaction must be signed by a `threshold` number of signers, and 
 Spectre Desktop requires connecting to a Bitcoin Core node, which will be operated as part of the required stack.
 ## Tech Stack
 ### License
-Unless W3F has an opinion or there are other factors to consider with the dependencies, all deliverables will be licensed MIT.
+Unless Mintbase has an opinion or there are other factors to consider with the dependencies, all deliverables will be licensed MIT.
 ### Bitcoin Rust Libraries
 The pallet will be built with the premiere Bitcoin Rust libraries, including:
 - [rust-bitcoin/rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)

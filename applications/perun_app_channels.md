@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Name:** Perun App Channels
 - **Team Name:** [Perun](https://perun.network)@[PolyCrypt](https://polycry.pt)

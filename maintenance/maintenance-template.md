@@ -1,4 +1,4 @@
-# W3F Maintenance Grant Proposal
+# Mintbase Maintenance Grant Proposal
 
 > This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines! Lines starting with a `>` (such as this one) can be removed.
 >
@@ -14,7 +14,7 @@
 
 If this application is in response to an RFP, please indicate this on the first line of this section.
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
+If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
 
@@ -113,7 +113,7 @@ Our responsibilities:
 - **Max budget per sprint/period:** Requested max budget in USD per sprint/period (e.g. 7,000 USD). Cost for each period need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
 - **Hourly rate:** Amount of budget per hour, since it’s unlikely that the maintenance of the project requires the exact same workload each sprint. 
 
-> ⚠️ *Note that you will need to provide a comprehensive report of the work done at the end of each month, including the list of issues/bugs/pull requests worked on, time spent on each of these, & finally, the associated cost. The time allocation & price will likely vary from month to month, depending on the nature of the project you're contributing to. The report should be in the form of a Milestone Delivery, again like the typical procedure. W3F will make the payments only after the successful merge of each individual report.*
+> ⚠️ *Note that you will need to provide a comprehensive report of the work done at the end of each month, including the list of issues/bugs/pull requests worked on, time spent on each of these, & finally, the associated cost. The time allocation & price will likely vary from month to month, depending on the nature of the project you're contributing to. The report should be in the form of a Milestone Delivery, again like the typical procedure. Mintbase will make the payments only after the successful merge of each individual report.*
 
 ## Future Plans
 

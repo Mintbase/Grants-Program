@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 - **Project Code Name:** Crossbow (formerly `Creator`)
 - **Team Name:** DodoRare, Inc.

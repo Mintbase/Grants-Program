@@ -1,4 +1,4 @@
-# W3F Grant Proposal
+# Mintbase Grant Proposal
 
 * **Project Name:** [OpenBrush](https://github.com/Supercolony-net/openbrush-contracts)
 * **Team Name:** [SuperColony](https://github.com/Supercolony-net)

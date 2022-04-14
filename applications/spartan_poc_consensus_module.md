@@ -1,4 +1,4 @@
-# W3F Open Grant Proposal
+# Mintbase Open Grant Proposal
 
 * **Project:** Spartan: PoC Consensus Module 
 * **Team:** [Subspace Labs](https://www.subspace.network)
