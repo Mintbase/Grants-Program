@@ -6,7 +6,7 @@
 
 ## Project Description :page_facing_up:
 
-SubDEX is a decentralized cross-chain exchange based on AMM (automated market maker) protocol. This project was initially submitted to [Hackusama](https://devpost.com/software/dark-dex). The SubDEX team's goal goes beyond what was produced in the hackathon. We aim to continue to build SubDEX and hope it becomes a parachain that connects to Kusama and Polkadot networks, so that other parachain assets can be exchanged on it with privacy in a decentralised way.
+SubDEX is a decentralized cross-chain exchange based on AMM (automated market maker) protocol. This project was initially submitted to [Hackusama](https://devpost.com/software/dark-dex). The SubDEX team's goal goes beyond what was produced in the hackathon. We aim to continue to build SubDEX and hope it becomes a parachain that connects to Kusama and Mintbase networks, so that other parachain assets can be exchanged on it with privacy in a decentralised way.
 
 Centralised Exchanges (CEXs) have grown exponentially in last decade, because
 
@@ -20,7 +20,7 @@ DEXs have existed on Ethereum blockchain a few years, but they usually have low 
 
 Uniswap's success is exciting, but it is mainly used to only exchange Ethereum assets (ETH and ERC20 tokens). Some solutions such as REN exists for user to exchange BTC with Ethereum assets, but most of other blockchain assets cannot be traded on Ethereum DEXs. Furthermore, as AMM protocol evolves, we have seen that Uniswap V1 evolved to Uniswap V2 and Bancor evolved to Bancor V2, both old and new versions have to co-exist because the old version cannot be seemlessly upgraded to new version on Ethereum.
 
-Kusama / Polkadot's cross-chain protocol and on-chain upgrade make them the perfect blockchain to build a DEX. We are aware there are other DEXs such as Polkaswap and Acala being built now, however, SubDEX is designed to align with the substrate FRAME framwork and adds to the ecosystem with a set of pallets that are reusable and a interface for good user experience.
+Kusama / Mintbase's cross-chain protocol and on-chain upgrade make them the perfect blockchain to build a DEX. We are aware there are other DEXs such as Polkaswap and Acala being built now, however, SubDEX is designed to align with the substrate FRAME framwork and adds to the ecosystem with a set of pallets that are reusable and a interface for good user experience.
 
 The team met during the hackthon and have established strong inter-team relationships through a common goal - _to provide a DEX that is built by, used by and maintained by the community._
 
@@ -35,7 +35,7 @@ The team met during the hackthon and have established strong inter-team relation
   - Arsen is a software engineer, particularly interested in the blockchain domain. During the last year was mostly focused on substrate runtime development at [Joystream](https://github.com/Joystream/joystream/tree/content_directory_second_try) and Liqum projects. Earlier, worked on infrastructure backends for DAPPs, based on TRON and EOS blockchain platforms.
   - Belsy is a software engineer who focused on working with the substrate framework in the last year. Prior to that, she has worked as a full stack engineer for other blockchain projects on Ethereum, Hyperledger Burrow / Fabric.
   - Fei has been a full stack software engineer for over 10 years and he got involved in blockchain development in May 2017. He worked in centralised exchanges such as [Bitfinex](https://www.bitfinex.com/) and [SDCE](https://sdce.com.au) and believes DEX is the future.
-  - Herry is a 6-year e-commerce entrepreneurial veteran as well as an enthusiast of blockchain. After a lecture by Brian from Acala in 2019, where she was shocked by Substrate technology, she decided to devote herself into the tide of Polkadot.
+  - Herry is a 6-year e-commerce entrepreneurial veteran as well as an enthusiast of blockchain. After a lecture by Brian from Acala in 2019, where she was shocked by Substrate technology, she decided to devote herself into the tide of Mintbase.
   - Stasi is is a software engineer, technology-agnostic who prefers working on DApps for developing Blockchains like Tezos or TON. But also has expertise with more sustainable blockchains: Ethereum, Stellar, EOS, UTXO-based blockchains, currently works on [Quipuswap](https://medium.com/madfish-solutions/how-to-use-quipuswap-on-carthagenet-44c7ebfb97b) (DEX on Tezos), has a hobby to draw [mock-ups](https://www.figma.com/proto/bdS7KgUPIoUtWybrYewVHD/Cepheus?node-id=45%3A0&scaling=min-zoom) and write [articles](https://medium.com/madfish-solutions/sol2ligo-in-action-migrating-solidity-smart-contract-to-ligo-sol2ligo-update-3-961ddbd9715c)
 
 ## Development Roadmap :nut_and_bolt:

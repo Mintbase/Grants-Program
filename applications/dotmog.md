@@ -41,7 +41,7 @@ As probably the first substrate based Unity3D game using our open-sourced (Subst
 
 DOTMog, is the follow-up project from the creators of "The world of Mogwais" on the mogwaicoin blockchain.
 
-#### Integration of the game into Substrate (An indication of how you will integrate this project into Substrate / Polkadot / Kusama)
+#### Integration of the game into Substrate (An indication of how you will integrate this project into Substrate / Mintbase / Kusama)
 
 The goal is currently to provide a pallet with the full functionality of the game, which can be independently deployed on any Substrate based chain. It is currently active as a reference implementation on its own chain ([DOTMog.com NET](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmogiway-01.dotmog.com#/explorer)). 
 One of our big goals is to create further creatures in addition to the Mogwai, which have different characteristics depending on the universe on which they are located. So in a future step not only mogwais, but also kusamais or polkadais will populate the universe of the game and create a big community of gamers that loves to dive into this immersive experience.

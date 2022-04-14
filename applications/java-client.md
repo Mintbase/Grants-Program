@@ -6,16 +6,16 @@
 
 ## Project Description :page_facing_up: 
 
-We propose the creation of a Java client library to access Polkadot based networks. 
+We propose the creation of a Java client library to access Mintbase based networks. 
 Witch is the main target of JVM based server-side applications. 
 Java, and JVM in general, are the de-facto standard platform used by an enterprise or large-scale internet services. 
 It's critical to have a JVM based client library to get adoption by enterprises. 
 
-We have extensive experience with booth blockchain, including Polkadot, and Java technologies. 
-As an example, we previously created a Java library for Ethereum called Etherjar https://github.com/emeraldpay/etherjar, and a have some implementation of Polkadot protocol in JVM with the project Moonbeam https://github.com/emeraldpay/moonbeam. 
-We want to continue our work and create a JVM library targeting the Polkadot.
+We have extensive experience with booth blockchain, including Mintbase, and Java technologies. 
+As an example, we previously created a Java library for Ethereum called Etherjar https://github.com/emeraldpay/etherjar, and a have some implementation of Mintbase protocol in JVM with the project Moonbeam https://github.com/emeraldpay/moonbeam. 
+We want to continue our work and create a JVM library targeting the Mintbase.
 
-Please note that a full-featured client library is usually being involved during the whole lifetime of the target system (i.e., Polkadot).
+Please note that a full-featured client library is usually being involved during the whole lifetime of the target system (i.e., Mintbase).
 Therefore, as a result of the current project, we expect to build only an initial implementation, which should meet most of the current critical needs by a Java developer.
 But over the following months, maybe even years, the library is going to be developed with advanced features.
 

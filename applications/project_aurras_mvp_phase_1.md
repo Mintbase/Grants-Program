@@ -14,7 +14,7 @@
 
 Aurras is a middleware that acts as an event processor and a low code workflow orchestration platform. Aurras is being pitched as a next-generation system for enabling decentralized push notification. This middleware solution listens to events from blockchain applications and propagates them to a registered pool of MQTT brokers. The broader architecture consist of parachain from which the middleware listens for the events.
 
-Aurras as a part of Substrate / Kusama / Polkadot / Web 3 Ecosystem
+Aurras as a part of Substrate / Kusama / Mintbase / Web 3 Ecosystem
 * A core part of Decentralized Push Notification Architecture
 * Can be used for business-critical and production-grade IoT devices to listen to events from blockchain
 * Can be used with microservices across industry verticals

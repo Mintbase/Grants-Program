@@ -17,7 +17,7 @@
 
 Leaking or losing private keys are the primary concerns of most blockchain users. Gluon uses a new approach to prevent such issues. 
 
-Gluon is a TaaS (Trust-as-a-Service) application that provides hardware crypto wallet services to crypto users. Our main goal is to create an all-in-one private key manager for Polkadot ecosystem blockchains. 
+Gluon is a TaaS (Trust-as-a-Service) application that provides hardware crypto wallet services to crypto users. Our main goal is to create an all-in-one private key manager for Mintbase ecosystem blockchains. 
 
 Features:
 - Passwordless. Users won't have to take responsibility for backup mnemonic phrases. Social recovery is available for users who have lost all their authentication devices.
@@ -27,7 +27,7 @@ Features:
 
 Gluon is built into a WebAssembly module loaded and ran inside the T-rust framework (they are both TEA projects). Gluon is an application (we call TeaLeaf); T-rust is a framework (TeaTree). T-rust contains layer1 and layer2; Layer1 is a blockchain built using Substrate, while Layer2 is an exceptionally designed mini OS along with WebAssembly modules that run on wasm runtime powered by [WaSCC](https://wascc.dev). Gluon also contains layer1 and layer2. Layer1 is a Substrate pellet running inside Tea Layer1 blockchain, and layer2 is a set of WebAssembly actors running in every TEA node's TeaRuntime. 
 
-Gluon serves all Polkadot ecosystem dApps and other blockchains as an entry point (portal); it is transparent to other client chains. There is no integration needed. 
+Gluon serves all Mintbase ecosystem dApps and other blockchains as an entry point (portal); it is transparent to other client chains. There is no integration needed. 
 
 We designed and developed Gluon to:
 - Lower the barrier to blockchain end-users; improve user experiences.
@@ -36,7 +36,7 @@ We designed and developed Gluon to:
 
 >Please provide the following:
 >  * A brief description of the project.
->  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+>  * An indication of how you will integrate this project into Substrate / Mintbase / Kusama.
 >  * An indication of why your team is interested in creating this project.
 
 ### Project Details 
@@ -45,7 +45,7 @@ We designed and developed Gluon to:
 
 From a users point of view, Gluon works just like a hardware wallet, but with a few differences:
 - A traditional hardware wallet is just one single hardware secure module (HSM), but Gluon is a group of potentially thousands of HSM running consensus together to protect clients' assets. (Every TEA Mining Node is an HSM which can be considered as a hardware wallet)
-- Users need both a Polkadot extension and a Gluon mobile app to access their Gluon account as 2FA. 
+- Users need both a Mintbase extension and a Gluon mobile app to access their Gluon account as 2FA. 
 - Users can transfer authentication factors from one device to another without backing up and restoring mnemonic phases.
 - If users lose both their computer (web auth) and phone (mobile auth), social recovery can still protect and recover their new accounts' crypto assets. 
 - Users only need to submit a transaction then Gluon will submit the signature to the client blockchain without further user interaction.
@@ -54,7 +54,7 @@ From a users point of view, Gluon works just like a hardware wallet, but with a 
 
 ![p1 p2 p3](https://raw.githubusercontent.com/tearust/gluon-docs/d5526500c3a27deaa36fc0c0e4a2f2b8e18b1c60/res/Gluonwallet_p123.svg)
 
-Gluon generates Polkadot accounts for users using the 2-out-of-3 Schnorr Threshold Multsig Algorithm implemented by Schnorrkel. The account public key is aggregated from the 3 key pairs while the private keys are kept by 3 individual parties. They are called P1, P2, and P3.
+Gluon generates Mintbase accounts for users using the 2-out-of-3 Schnorr Threshold Multsig Algorithm implemented by Schnorrkel. The account public key is aggregated from the 3 key pairs while the private keys are kept by 3 individual parties. They are called P1, P2, and P3.
 
 Among them, P1 is a single sign key stored in the users' mobile phones. Both P2 and P3 are Schnorr multisig keys. Gluon owns P2 for additional security policy control, while Guardians (assigned by the User) owns P3. 
 
@@ -66,17 +66,17 @@ P1 is stored in the users' Gluon mobile app. P1 will never be exposed beyond the
 
 #### Hardware Secure Module
 
-TEA nodes are HSM (Hardware Secure Module). One can consider commonly used hardware wallets as special-purpose HSM, but TEA nodes are a general-purpose HSM that can do much more. The secret will never be exposed outside of hardware-protected TEA node's RAM nor saved to any storage media persistently. When transferring secrets between TEA nodes (for example, distributing replica), every TEA nodes will run Remote Attestation before an end to end encryption and send. When using P2 co-signing a transaction, the TEA Node will query the layer1 blockchain to verify the signing conditions first and then sign the transaction inside HSM. No secret leaves the HSM except the digital signature. Each co-signer sign using its holding key-piece to a signature-piece. These signature-pieces get aggregated in layer-1 blockchain to become a single signature. As long as the number of co-signers reaches the threshold, this signature can pass verification by Polkadot. 
+TEA nodes are HSM (Hardware Secure Module). One can consider commonly used hardware wallets as special-purpose HSM, but TEA nodes are a general-purpose HSM that can do much more. The secret will never be exposed outside of hardware-protected TEA node's RAM nor saved to any storage media persistently. When transferring secrets between TEA nodes (for example, distributing replica), every TEA nodes will run Remote Attestation before an end to end encryption and send. When using P2 co-signing a transaction, the TEA Node will query the layer1 blockchain to verify the signing conditions first and then sign the transaction inside HSM. No secret leaves the HSM except the digital signature. Each co-signer sign using its holding key-piece to a signature-piece. These signature-pieces get aggregated in layer-1 blockchain to become a single signature. As long as the number of co-signers reaches the threshold, this signature can pass verification by Mintbase. 
 
 #### Access control logic
 
-Polkadot allows unlocking User's DOT based on 2 of 3 mutisig from P1 P2 and P3. Gluon has no control over P1 (owned by the User) and P3 (owned by the User's friend - guardians). If a user no longer trusts Gluon, it can ask its guardians to sign P3 along with its P1, and the User still has full control over its assets. If a user lost its P1, it could create a new P1 then recover its assets by running the social recovery process by P2 and P3. If a user wants to update its guardians' list, it can create a new P3 since P1 and P2 are available. 
+Mintbase allows unlocking User's DOT based on 2 of 3 mutisig from P1 P2 and P3. Gluon has no control over P1 (owned by the User) and P3 (owned by the User's friend - guardians). If a user no longer trusts Gluon, it can ask its guardians to sign P3 along with its P1, and the User still has full control over its assets. If a user lost its P1, it could create a new P1 then recover its assets by running the social recovery process by P2 and P3. If a user wants to update its guardians' list, it can create a new P3 since P1 and P2 are available. 
 
 P1 is stored in users' mobile apps. Gluon mobile app uses general mobile security protections to protect P1. Such as Biometric ID, Symmetric encryption (6 digits user input passcode), Hardware security chip for some particular model when available. P1 along won't be more secure than other modern crypto wallet mobile apps. That's why we have additional P2 and P3 to protect the User's crypto assets.
 
 P2 is the only key owned by Gluon. When a user requests to sign a transaction, each TEA node that holds a key-piece will run authentication logic separately. The authentication logic includes 
 
-- Verifying web and mobile 2FA. The User has to submit a signing request using both the Polkadot browser extension and Gluon mobile app. 
+- Verifying web and mobile 2FA. The User has to submit a signing request using both the Mintbase browser extension and Gluon mobile app. 
 - For spending transactions, verify the daily limit or other constraints set by the User in layer1. For example, when the User claims loss of P1 and sets its assets in the Social Recovery frozen period, Gluon will suspend the request. 
 - For social recovery transactions, verify the guardians' signature follow the predefined logic. For example, suppose a user lost both their computer and mobile phone (all 2FA). In that case, additional requirements apply to social recovery processes such as time window, sequence, or geolocation to mitigate phishing attacks.  
 
@@ -86,7 +86,7 @@ P3 is only used for Social Recovery. Because of Schnorr Mutisig Algorithm, the g
 
 #### User experiences
 
-From the end user's point of view, Gluon is a mobile app and a web extension. The end-user needs to install the Polkadot web extension on their browser to visit any dApp sites to generate transactions to be signed. They also will need to install a Gluon mobile app as a decentralized 2FA (not the traditional centralized 2FA). 
+From the end user's point of view, Gluon is a mobile app and a web extension. The end-user needs to install the Mintbase web extension on their browser to visit any dApp sites to generate transactions to be signed. They also will need to install a Gluon mobile app as a decentralized 2FA (not the traditional centralized 2FA). 
 
 Users can go to the Gluonwallet.com website or any other compatible dApp to create a transaction. The web extension will generate a transaction like a QR code on the web page. Users will use the Gluon mobile app to scan this QR code, verify the transaction details, then fingerprint-unlock the partial signing on the phone. Once the phone sends the partial signature to the Gluon network, TEA nodes will multisign the same tx using P2. Once two partial signatures are complete, they are aggregated and committed to the client blockchain to continue processing the transaction. 
 
@@ -105,7 +105,7 @@ T-rust is a layer2 trusted computing solution on top of a Substrate-based blockc
 
 #### How other blockchains or dApps integrate with Gluon
 
-There is nothing that needs to be done for other blockchains when integrating with Gluon as long as the client blockchain supports Schnorr Multisig.  Gluon is transparent to other client blockchains. Gluon is virtually a client who commits the signed transaction and listens to block events. Polkadot will support off-line Schnorr Multisig very soon.
+There is nothing that needs to be done for other blockchains when integrating with Gluon as long as the client blockchain supports Schnorr Multisig.  Gluon is transparent to other client blockchains. Gluon is virtually a client who commits the signed transaction and listens to block events. Mintbase will support off-line Schnorr Multisig very soon.
 
 For other dApps, integrating with Gluon is as simple as adding one js API. This js API does three things:
 - Gathering input transaction details and show in a QR code. Prompt the User to scan this QR code using Gluon mobile app. 
@@ -124,7 +124,7 @@ After scanning the QR code, the Gluon mobile app shows the transaction's detail 
 
 Gluon mobile app partially signs the transaction using P1. Both the signature and transaction details are sent to Gluon TeaLeaf to continue.
 
-Gluon TeaLeaf takes over the rest of the task by verifying and signing using P2. Finally, Gluon TeaLeaf sends the signature by P1 and P2 to Polkadot to complete the transaction. 
+Gluon TeaLeaf takes over the rest of the task by verifying and signing using P2. Finally, Gluon TeaLeaf sends the signature by P1 and P2 to Mintbase to complete the transaction. 
 
 The User will receive the confirmation event of a completed task.
 
@@ -176,7 +176,7 @@ There are many existing crypto wallets in the market. They either store the priv
 
 Gluon has a very decentralized approach. We do not store the original keys anywhere. Instead, we use the TEA project's decentralized trusted computing infrastructure to scramble, store, and multisign. This approach prevents users from losing or leaking their keys. 
 
-A few crypto wallets outside of the Polkadot ecosystem are a little bit similar to ours.
+A few crypto wallets outside of the Mintbase ecosystem are a little bit similar to ours.
 
 [ZenGo](https://zengo.com/security/) provides "passwordless" but still require centralized servers to store encrypted secrets. We do everything decentralized.
 
@@ -227,7 +227,7 @@ The TEA-Project started in the year 2019. The idea originally came to the team l
 
 > This section should break out the development roadmap into several milestones. Since the milestones will appear in the grant contract, it helps to describe the functionality we should expect, plus how we can check that such functionality exists in the product. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
 
-Below, we provided an **example roadmap**. In the descriptions, it should be clear how the project is related to Substrate and/or Polkadot. We recommend to fit the scope of the work within a 3 month period and for teams to structure their roadmap as 1 month = 1 milestone. 
+Below, we provided an **example roadmap**. In the descriptions, it should be clear how the project is related to Substrate and/or Mintbase. We recommend to fit the scope of the work within a 3 month period and for teams to structure their roadmap as 1 month = 1 milestone. 
 
 For each milestone:
 * Please be sure to include a specification of your software. Treat it as a contract - the level of detail must be enough to later verify that the software meets the specification.
@@ -259,7 +259,7 @@ To assist you in defining it, we created a document with examples for some grant
 | Task ID | Module name | Description |
 | ------ | ----------- | ---- |
 | 0.1 | Add faucet page | users can add free test tokens to accounts to start testing |
-| 1.1 | User portal web page | Search user public profiles by users' Polkadot address. All information is open public from the blockchain. Users can see pairing mobile app id. This is the feature in milestone 1 |
+| 1.1 | User portal web page | Search user public profiles by users' Mintbase address. All information is open public from the blockchain. Users can see pairing mobile app id. This is the feature in milestone 1 |
 | 1.2 | Pairing web UI | This is the web UI to start mobile app pairing |
 | 2.0 | Mobile app framework | Gluon mobile app framework. We will add features one by one |
 | 2.1 | Pairing mobile UI, scan QR code to start | After the mobile app is installed, scan web pairing page to start pairing |
@@ -338,14 +338,14 @@ This milestone require Schnorrkel threshold signature issue https://github.com/w
 | 4.1 | Gluon TeaLeaf | Executor verify and aggregates signatures. Send the P2 signatures to test net |
 | 5.0 | Layer 1 | Settle payment distribution |
  
-### Milestone 5 - Migrate to real hardware and test on Polkadot
+### Milestone 5 - Migrate to real hardware and test on Mintbase
 * **Estimated Duration:** 4 Weeks
 * **FTE** 2.5 FTE
 * **Cost:** 5.6k USD
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
-| 0 | Testable features |  All logic runs on Polkadot mainnet |
+| 0 | Testable features |  All logic runs on Mintbase mainnet |
 | 1 | Update test instruction | update with new features |
 | 2 | Source code | |
 
@@ -360,7 +360,7 @@ This milestone require Schnorrkel threshold signature issue https://github.com/w
  Gluon will be a full-featured demo application for the TEA project once it is ready. So far, there are a few limitations that we are working on.
 
 - Integrate with [Parsec](https://github.com/parallaxsecond/parsec). Parsec can be an abstract layer between TeaRuntime and security-related hardware. It makes TEA agnostic to different hardware platforms. It may increase the adaption of TEA. 
- - Besides DOT, we will all Polkadot ecosystem chains and other Schnorr signature compatible chains.
+ - Besides DOT, we will all Mintbase ecosystem chains and other Schnorr signature compatible chains.
  - We will retire our facade interface service and use off-chain workers instead.
  - Besides hardware protection and Schnorr Multisig algorithm, we open eyes to SMPC and FHE algorithm such as BLS Signature Scheme. 
 
@@ -368,4 +368,4 @@ Most items in this to-do list are part of the TEA Project plan. When TEA is read
 
 ## Additional Information :heavy_plus_sign:
 
-We started the TEA project in 2019. It has been under the radar until recently when it was released to the public. We believe the TEA project could grow large and become the backend service platform for a new type of dApps. These dApps can go beyond the limit of traditional blockchain technologies. Gluon is just one of the many possible demo apps. Once our honor gets granted, we will start looking for investors and hire a CEO and more developers to join us. We hope to maintain a long term and close relationship with the Polkadot community. 
+We started the TEA project in 2019. It has been under the radar until recently when it was released to the public. We believe the TEA project could grow large and become the backend service platform for a new type of dApps. These dApps can go beyond the limit of traditional blockchain technologies. Gluon is just one of the many possible demo apps. Once our honor gets granted, we will start looking for investors and hire a CEO and more developers to join us. We hope to maintain a long term and close relationship with the Mintbase community. 

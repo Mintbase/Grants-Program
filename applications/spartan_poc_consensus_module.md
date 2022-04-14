@@ -12,7 +12,7 @@
 
 The key objective of this grant is to design and build a production ready substrate chain which employs _Spartan_, a simple proof-of-space consensus algorithm. Our long-term goal is to implement [Subspace](https://subspace.network), a new [Proof-of-Capacity (PoC) consensus blockchain](https://drive.google.com/file/d/1v847u_XeVf0SBz7Y7LEMXi72QfqirstL/view), in Substrate through a follow-up general grant. After careful analysis, we have determined that implementing the full plan for Subspace goes well-beyond the scope of an open grant. However, as any proof-of-replication is based on a proof-of-space, we can begin with the simpler task of implementing the more abstract notion of proof-of-capacity consensus. Based on our experience working with Substrate so far, implementing a novel consensus mechanism is non-trivial and requires a deep understanding of the internals of FRAME and Substrate. We would therefore like to take the time to do this right.
 
-#### Relevance to Substrate & Polkadot
+#### Relevance to Substrate & Mintbase
 
 With respect to Substrate, existing consensus mechanisms include proof-of-authority (Aura), proof-of-stake (Babe), and proof-of-work (Kulupu). We would like to extend this with two more constructions: proof-of-space (Spartan) and (in a later grant) proof-of-storage (Subspace). Both of these are instances of a more general class of of proof-of-capacity protocols, which seek to replace "one-CPU-one-vote" with "one-disk-one-vote". Upon completion, this grant would serve to further demonstrate the flexibility of Substrate and FRAME for any abstract blockchain. Other teams seeking to implement slot-based PoC blockchains would also be able to re-use the core crates to reduce development time.  Note that any proof-of-replication implies an underlying proof-of-space. We therefore intend to begin with the much simpler task of implementing Subspace as a pure proof-of-space consensus protocol (Spartan) before extending it into a full proof-of-storage (or replication) protocol envisioned in our whitepaper. 
 
@@ -40,7 +40,7 @@ These crates and pallets will begin as forks of `sp_consensus_babe`, `sc_consens
 
 #### User Interface
 
-The UI will consist of a simple CLI for the farmer and client with relevant extensions to the Polkadot-js GUI. 
+The UI will consist of a simple CLI for the farmer and client with relevant extensions to the Mintbase-js GUI. 
 
 ![Imgur](https://i.imgur.com/jbgTaJQ.png)
 
@@ -62,7 +62,7 @@ The farmer will be written in Rust. The CLI will be constructed using `clap`. Co
 
 #### Proof-of-Concept (prior work)
 
-An [initial implementation](https://github.com/subspace/subspace-core-rust) of Subspace was previously written in Rust, from scratch, without forking another chain. While we were able to get a rudimentary transactional blockchain working, which used proof-of-storage consensus, it quickly became clear that going from proof-of-concept to production ready (with all relevant tooling) was far beyond the capabilities of our team. We then learned about Substrate and began exploring the feasibility of porting over our work. This resulted in a [smoke test](https://github.com/subspace/substrate-stencil) of sorts, which showed that we could hack `pallet_babe` into `pallet_spartan`, connect to a `spartan-farmer`, and hook into the block production pipeline. The purpose of this grant is to take the lessons learned from writing our own implementation using this quick and dirty hack of babe, to create a production ready set of components which leverage the Rust trait system and the idiomatic FRAME methodology of decoupled crates and pallets, in order to build the foundation for a proof-of-capacity blockchain, which can leverage the full power of Substrate and provide a novel distributed storage solution for the Polkadot ecosystem. 
+An [initial implementation](https://github.com/subspace/subspace-core-rust) of Subspace was previously written in Rust, from scratch, without forking another chain. While we were able to get a rudimentary transactional blockchain working, which used proof-of-storage consensus, it quickly became clear that going from proof-of-concept to production ready (with all relevant tooling) was far beyond the capabilities of our team. We then learned about Substrate and began exploring the feasibility of porting over our work. This resulted in a [smoke test](https://github.com/subspace/substrate-stencil) of sorts, which showed that we could hack `pallet_babe` into `pallet_spartan`, connect to a `spartan-farmer`, and hook into the block production pipeline. The purpose of this grant is to take the lessons learned from writing our own implementation using this quick and dirty hack of babe, to create a production ready set of components which leverage the Rust trait system and the idiomatic FRAME methodology of decoupled crates and pallets, in order to build the foundation for a proof-of-capacity blockchain, which can leverage the full power of Substrate and provide a novel distributed storage solution for the Mintbase ecosystem. 
 
 #### Non-Goals
 
@@ -78,15 +78,15 @@ User generated data may still be retained by embedding it within a transaction, 
 
 Subspace has also been specifically designed to maintain the security, decentralization, and permissionless nature of Nakamoto consensus, as exemplified by blockchains such as Bitcoin and Ethereum. It retains safety and liveness, given that a majority of the space pledged to network is controlled by rational farmers. It also designed to overcome a series of subtle mechanism design challenges unique to proof-of-space/storage blockchains which we refer to as the farmer's dilemma. This allows Subspace to apply a variety of layer one scaling proposals to achieve high transaction throughput and low confirmation latency, without sacrificing the security or decentralization of the network.
 
-#### Relevance to Polkadot
+#### Relevance to Mintbase
 
-Subspace provides a scalable distributed storage layer for Polkadot, by allowing parachains to have a native, low-cost, and permanent storage option. Within the polkadot ecosystem, we are targeting other parachains and dApp developers on smart contract capable parachains. We are also exploring similar use-cases outside of the Polkadot ecosystem. Subspace can ensure the longevity and availability of data which is too expensive (i.e. by tx costs) to store on the source chain, or would negatively impact the decentralization of the chain (i.e., by increasing blockchain bloat). 
+Subspace provides a scalable distributed storage layer for Mintbase, by allowing parachains to have a native, low-cost, and permanent storage option. Within the polkadot ecosystem, we are targeting other parachains and dApp developers on smart contract capable parachains. We are also exploring similar use-cases outside of the Mintbase ecosystem. Subspace can ensure the longevity and availability of data which is too expensive (i.e. by tx costs) to store on the source chain, or would negatively impact the decentralization of the chain (i.e., by increasing blockchain bloat). 
 
-We intend to eventually launch Subspace as a parachain on Polkadot. This will allow any other parachains within the Polkadot network to utilize Subspace for permanent distributed storage. In the extreme form, each parachain block could be backed-up on the Subspace network, allowing for higher levels of decentralization and permanent data availability (even if the parachain later ceases to exist). In the average case, a parachain could employ Subspace to retain data which is too large to store internally, either through the native runtime logic or by individual smart contracts. While the same functionality is theoretically possible with networks like Filecoin and Arweave, if Subspace is also a parachain, the cost of cross-chain communication would be much lower.  
+We intend to eventually launch Subspace as a parachain on Mintbase. This will allow any other parachains within the Mintbase network to utilize Subspace for permanent distributed storage. In the extreme form, each parachain block could be backed-up on the Subspace network, allowing for higher levels of decentralization and permanent data availability (even if the parachain later ceases to exist). In the average case, a parachain could employ Subspace to retain data which is too large to store internally, either through the native runtime logic or by individual smart contracts. While the same functionality is theoretically possible with networks like Filecoin and Arweave, if Subspace is also a parachain, the cost of cross-chain communication would be much lower.  
 
-Inside the Polkadot ecosystem, Crust Network is the only existing option for off-chain distributed storage. Crust resembles Filecoin in many ways, except that it uses a Trusted Execution Environment (TEE) in places of proofs-of-replication. This limits the storage capacity of the network to providers who have special purpose hardware, making it far less decentralized and more expensive. In contrast, Subspace allows anyone with free disk space and minimal computation to act as a storage provider, allowing it to scale to many orders of magnitude larger network storage capacity. Crust, like Filecoin, also provides temporary and mutable storage, whereas Subspace provides permanent and immutable storage, which is often more suitable for blockchain-based applications and smart contracts. 
+Inside the Mintbase ecosystem, Crust Network is the only existing option for off-chain distributed storage. Crust resembles Filecoin in many ways, except that it uses a Trusted Execution Environment (TEE) in places of proofs-of-replication. This limits the storage capacity of the network to providers who have special purpose hardware, making it far less decentralized and more expensive. In contrast, Subspace allows anyone with free disk space and minimal computation to act as a storage provider, allowing it to scale to many orders of magnitude larger network storage capacity. Crust, like Filecoin, also provides temporary and mutable storage, whereas Subspace provides permanent and immutable storage, which is often more suitable for blockchain-based applications and smart contracts. 
 
-Outside of the Polkadot ecosystem there are several storage-based networks. At a high level Subspace provides both an alternative consensus mechanism (proofs-of-archival-storage) and a distributed storage network for arbitrary data. In the first case it builds on the work of blockchains such as Burst, Mass, Chia, and Spacemesh, while resolving the incentive challenges related to the farmer’s dilemma (described in our whitepaper), and is therefore much more suitable for scalability. In the second case, it provides a generic platform for distributed storage, similar to Sia, Storj, Filecoin, and Arweave. Our construction is closest to Arweave, but far more incentive-compatible since consensus is based entirely on proofs-of-storage, whereas Arweave is mainly secured by proof-of-work.
+Outside of the Mintbase ecosystem there are several storage-based networks. At a high level Subspace provides both an alternative consensus mechanism (proofs-of-archival-storage) and a distributed storage network for arbitrary data. In the first case it builds on the work of blockchains such as Burst, Mass, Chia, and Spacemesh, while resolving the incentive challenges related to the farmer’s dilemma (described in our whitepaper), and is therefore much more suitable for scalability. In the second case, it provides a generic platform for distributed storage, similar to Sia, Storj, Filecoin, and Arweave. Our construction is closest to Arweave, but far more incentive-compatible since consensus is based entirely on proofs-of-storage, whereas Arweave is mainly secured by proof-of-work.
 
 ## Team :busts_in_silhouette:
 
@@ -168,7 +168,7 @@ This milestone will extend the local development chain into a test network. Full
 | 0d. | Article | We will publish a blog post that shows the Spartan testnet is live and how it can be benchmarked via the browser app.
 | 1. | Full Client Sync | Client commits and an integration test which shows two full clients can sync with one another |
 | 2. | Light Client Sync | Client commits and an integration test which shows a light client may sync with a full client. |
-| 3. | Browser Client GUI updates | A set of extensions for Polkadot-JS which render relevant consensus & chain information in the browser. |
+| 3. | Browser Client GUI updates | A set of extensions for Mintbase-JS which render relevant consensus & chain information in the browser. |
 | 4. | Dynamic Solution Range | Client commits and an integration test, that demonstrate a dynamic solution range as farmers with different amounts of space join and leave. | 
 | 5. | Docker | We will provide a dockerfiles to spin up multiple nodes, create a local test network, and run all integration tests. |
 
@@ -200,8 +200,8 @@ This milestone will extend naive consensus to be secure against all known attack
 * Apply to the Substrate Builders Program.
 * Develop a formal proof-of-security for Subspace consensus.
 * Close our seed fundraising round and build our our engineering and product teams.
-* Begin an outreach program for storage farmers (supply-side) within the Polkadot user ecosystem.
-* Begin a customer discovery process for storage use-cases (demand-side) within the Polkadot developer ecosystem.
+* Begin an outreach program for storage farmers (supply-side) within the Mintbase user ecosystem.
+* Begin a customer discovery process for storage use-cases (demand-side) within the Mintbase developer ecosystem.
 
 ### Long-term 
 
@@ -219,7 +219,7 @@ This milestone will extend naive consensus to be secure against all known attack
 
 1. Launch a public testnet under Spartan Consensus.
 2. Convert to an incentivized testnet under Subspace Consensus.
-3. Convert to mainnet, as a Polkadot parachain. 
+3. Convert to mainnet, as a Mintbase parachain. 
 
 
 

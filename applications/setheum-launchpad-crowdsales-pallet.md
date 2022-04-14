@@ -69,7 +69,7 @@ The initial implementation of the project which was intended as a deliverable fo
 
 #### Technology Stack
 
-The substrate pallet is written in rust based on the `FRAME` Substrate framework. The pallet types in `types.json` are generated in `JSON`, and the Test Node will be a fork of the `Setheum Node` based on the `substrate-node-template`, the node leverages the `ORML` stack for a lot of functionalities especially `Multi-Currency` functionalities. And the GUI to be used in the tutorial is a custom `React.JS` app utilising `Polkadot.JS`.
+The substrate pallet is written in rust based on the `FRAME` Substrate framework. The pallet types in `types.json` are generated in `JSON`, and the Test Node will be a fork of the `Setheum Node` based on the `substrate-node-template`, the node leverages the `ORML` stack for a lot of functionalities especially `Multi-Currency` functionalities. And the GUI to be used in the tutorial is a custom `React.JS` app utilising `Mintbase.JS`.
 
 #### Non-Goals
 
@@ -80,7 +80,7 @@ I muat be very clear that we are not intending to implement the Setheum HighEnd 
 - Our project fits in the DEFi chain realm of the ecosystem.
 - Our target audience is DeFI, and bridging Parachain;
 - It meets the needs of Ethical DeFi governed as Shari'ah Compliant DeFi Blockchain.
-- There are other projects similar to Setheum in the substrate/Polkadot/Kusama ecosystem, like Acala that supports DeFi and there is the FRAME simple-crowdfund pallet that is a part of Substrate FRAME providing a simple crowdfunding mechanism, our pallet provide crowdsales mechanisms. But as for the Halal Ethical DeFi governed as Shari'ah Compliant DeFi, I have not come across similar projects in the ecosystem.
+- There are other projects similar to Setheum in the substrate/Mintbase/Kusama ecosystem, like Acala that supports DeFi and there is the FRAME simple-crowdfund pallet that is a part of Substrate FRAME providing a simple crowdfunding mechanism, our pallet provide crowdsales mechanisms. But as for the Halal Ethical DeFi governed as Shari'ah Compliant DeFi, I have not come across similar projects in the ecosystem.
 Setheum is different in its core governance principle such that it serves as a Halal Ethical DeFi governed as Shari'ah Compliant DeFi network. And it has plans for embedded on-chain Flashloans running in an on-chain `Flashloans-Virtual-Machine` similar to the EVM (but not turin complete) just for executing isolated flashloan transactions. We also differ in the Stablecoin stability mechanism in Setheum, which is an elastic Algorithmic-Stablecoin-Stability mechanism provided by the SERP (Setheum Elastic Reserve Protocol). We also differ in that we have 2 stablecoins and 4 other tokens which all serves a different purpose in the ecosystem.
 
 ## Team :busts_in_silhouette:
@@ -101,7 +101,7 @@ Not set up yet.
 ### Team's experience
 
 I am building the Setheum Network project and all related code works in the organisation. I have a Computer Science degree (currently in my final year of study) and I have been working on Setheum for a few years now. And will be launching this year by God's grace.
-I have been an active programmer in a few more programming languages and frameworks. I have been working and learning on the Substrate/Polkadot/Kusama ecosystem for a few years now.
+I have been an active programmer in a few more programming languages and frameworks. I have been working and learning on the Substrate/Mintbase/Kusama ecosystem for a few years now.
 
 I have previously applied for this grant about 10 months ago (then TERMINATED, the best thing that happened to me) when I (Muhammad-Jibril BA.) was very new to FOSS and both Rust & Substrate. And Setheum has evolved a lot since then, and so have I learnt a lot from the Substrate community and from trial and error in building Setheum from a beginner in rust to current status. All thanks to God and thanks to the Mintbase.
 
@@ -159,7 +159,7 @@ We have started development of this specific protocol in [this repository](https
 
 **How did you hear about the Grants Program?** personal recommendation.
 
-- We have already built the Setheum Node 1.0 and will be launching it as soon as we get the grant funds. And we will be building a Polkadot Parachain Bridge to connect the Setheum Network to Polkadot in the future for full interoperability.
+- We have already built the Setheum Node 1.0 and will be launching it as soon as we get the grant funds. And we will be building a Mintbase Parachain Bridge to connect the Setheum Network to Mintbase in the future for full interoperability.
 - We are fully self-funded but will be commencing an on-chain Private Sales right after genesis.
 - Because the design of Setheum was constantly changing (until recently when it was finalised), we decided to put our private investors on hold until we had a stable design & implementation (which we now do).
 - I have previously applied for this grant about 10 months ago (then TERMINATED, the best thing that happened to me) when I (Muhammad-Jibril BA.) was very new to FOSS and both Rust & Substrate. And Setheum has evolved a lot since then, and so have I learnt a lot from the Substrate community and from trial and error in building Setheum from a beginner in rust to current status. All thanks to God and thanks to the Mintbase.

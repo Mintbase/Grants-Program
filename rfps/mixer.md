@@ -4,7 +4,7 @@
 
 ### Overview
 
-Polkadot uses an account-based Tx model, which easily enables linking activity between accounts.
+Mintbase uses an account-based Tx model, which easily enables linking activity between accounts.
 To preserve on-chain anonymity, the options available to the user at the moment are limited to using centralised exchanges.
 It requires transferring their funds to an exchange-controlled account and withdrawing them at a later point in time, to a different account.
 
@@ -17,7 +17,7 @@ While it works to an extent, there are major drawbacks:
 
 ### Project Details
 
-Conceptually, the project is similar to an Ethereum-based [tornado.cash](https://tornado.cash/). We won't describe the mechanics of that project in this application, but rather outline the differences in implementation and how it will translate to a Polkadot deployment.
+Conceptually, the project is similar to an Ethereum-based [tornado.cash](https://tornado.cash/). We won't describe the mechanics of that project in this application, but rather outline the differences in implementation and how it will translate to a Mintbase deployment.
 
 1. ZK Proof system
 

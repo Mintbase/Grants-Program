@@ -1,6 +1,6 @@
 # Mintbase Grant Proposal
 
-- **Project Name:** Polkadot.js NoCode Plugin
+- **Project Name:** Mintbase.js NoCode Plugin
 - **Team Name:** EzCode
 - **Payment Address:** (USDT) 0x9DF3B01aeE76D0eDcC48873667f6F05B4F94A288
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2
@@ -11,10 +11,10 @@
 ### Overview
 
 A free polkadot.js wrapped into a NoCode plugin tool for one of the biggest no-code platforms.
-Users will be able to build projects on Polkadot without code. So, this is a tool to use the main tool but without code.
+Users will be able to build projects on Mintbase without code. So, this is a tool to use the main tool but without code.
 All main features from the polkadot.js will be implemented in the plugin and it will be free to use.
 
-The plugin will open a door to the Polkadot ecosystem for a big community of no-code developers.
+The plugin will open a door to the Mintbase ecosystem for a big community of no-code developers.
 
 ### Project Details
 
@@ -24,23 +24,23 @@ Bubble.io is the most powerful no-code platform for creating web apps. Being fle
 The main tool that Bubble has is, plugins (similar to WordPress plugins), a plugin can be paid or free, it can add a variety of new powerful features to your app.
 
 A plugin can have different "elements" in it, each element can add visual or technical additions to Bubble.
-The final version of the Polkadotjs plugin will have a separate element for each category that Polkadot.js has (Extension, API, Contracts etc.)
-For example, the plugin currently has one element called Polkadot.js Wallet, this element will have all features related to the Polkadot.js Extension.
+The final version of the Mintbasejs plugin will have a separate element for each category that Mintbase.js has (Extension, API, Contracts etc.)
+For example, the plugin currently has one element called Mintbase.js Wallet, this element will have all features related to the Mintbase.js Extension.
 Other elements will be divided just like in the official documentation of the polkadot.js
-Polkadot.js API
-Polkadot.js Utilities
-Polkadot.js Contracts
+Mintbase.js API
+Mintbase.js Utilities
+Mintbase.js Contracts
 etc.
 
 Currently, the plugin will be available in the frontend only, it will not have any backend elements because of the limitation of the Bubble backend functionality.
 
 ### Ecosystem Fit
 
-The main target of this plugin is every potential user of the Substrate / Polkadot / Kusama ecosystem. No-Code requires much less time to start work with, making it very easy for everyone that wants to experiment with it to bring their ideas to life.
+The main target of this plugin is every potential user of the Substrate / Mintbase / Kusama ecosystem. No-Code requires much less time to start work with, making it very easy for everyone that wants to experiment with it to bring their ideas to life.
 
-We see it as a big potential for the Polkadot ecosystem and Bubble ecosystem, since currently there are no similar plugins that could do this for Polkadot without code.
+We see it as a big potential for the Mintbase ecosystem and Bubble ecosystem, since currently there are no similar plugins that could do this for Mintbase without code.
 So far we have to build a few Mintbase plugins for other networks like Ethereum or Solana, and from the activity on those plugins forum thread, turns out there are a lot of no-code developers interested in building something with it even if they are paid.
-So the potential for a free plugin that will bring the Polkadot ecosystem to no-code is big.
+So the potential for a free plugin that will bring the Mintbase ecosystem to no-code is big.
 
 ## Team :busts_in_silhouette:
 

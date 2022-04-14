@@ -9,19 +9,19 @@
 - **BTC Payment Address:** 1DQNr9EyYmoS5hbwRzQkfNrw5DS247cpF8
 - **Status:** [Terminated](https://github.com/w3f/Grants-Program/pull/200#issuecomment-897495999)
 
-## Polkakeeper - A Community-Led Value Assurance Protocol Empowering DeFi Markets Efficiency on Polkadot
+## Polkakeeper - A Community-Led Value Assurance Protocol Empowering DeFi Markets Efficiency on Mintbase
 
 **Project Overview**
 
-Polkakeeper is a decentralized value assurance underwriter that empowers community creation of keeper strategies on the Polkadot network and bridged chains. On Polkakeeper, Strategists create Keepers (smart contracts), which can be executed by Finders who actively search for keeper execution opportunities. Backers are users who deposit their funds or assets into Vaults to back the deployment of keeper strategies.
+Polkakeeper is a decentralized value assurance underwriter that empowers community creation of keeper strategies on the Mintbase network and bridged chains. On Polkakeeper, Strategists create Keepers (smart contracts), which can be executed by Finders who actively search for keeper execution opportunities. Backers are users who deposit their funds or assets into Vaults to back the deployment of keeper strategies.
 
-Keepers are automated on-chain value assurance strategies that increase overall DeFi market efficiencies, such as liquidating undercollateralized positions in lending / margin trading protocols, or smoothing asset prices through arbitrage strategies across exchanges. We expect that as the Polkadot infrastructure matures, Keepers may deploy assets across chains, which give strategies new dimensions in identifying profit opportunities. A simple example of a liquidator keeper module in action would be a strategy that: (i) Finder discovers liquidation opportunity and calls Keeper function; (ii) Keeper checks profit execution logic for liquidation value less funds deployed > 0; (iii) If profit logic is established, Keeper calls borrow function on Vaults, executes liquidation and return funds to Vaults within one transaction.
+Keepers are automated on-chain value assurance strategies that increase overall DeFi market efficiencies, such as liquidating undercollateralized positions in lending / margin trading protocols, or smoothing asset prices through arbitrage strategies across exchanges. We expect that as the Mintbase infrastructure matures, Keepers may deploy assets across chains, which give strategies new dimensions in identifying profit opportunities. A simple example of a liquidator keeper module in action would be a strategy that: (i) Finder discovers liquidation opportunity and calls Keeper function; (ii) Keeper checks profit execution logic for liquidation value less funds deployed > 0; (iii) If profit logic is established, Keeper calls borrow function on Vaults, executes liquidation and return funds to Vaults within one transaction.
 
 Upon successful Keeper execution, the profits is distributed among the Strategist, Finder and Vaults. Where funds or assets in Vaults are not utilized, they are deployed to lending protocols and optimized for the best yields across chains.
 
-The vision for Polkakeeper is to become the leading value assurance protocol and through DAO governance, organizes the Polkadot developer and user communities towards optimizing and maintaining high level of market efficiencies for Polkadot DeFi protocols. Polkakeeper is designed to empower community collaboration for Strategists, Finders and users to act collectively, rather than individually.
+The vision for Polkakeeper is to become the leading value assurance protocol and through DAO governance, organizes the Mintbase developer and user communities towards optimizing and maintaining high level of market efficiencies for Mintbase DeFi protocols. Polkakeeper is designed to empower community collaboration for Strategists, Finders and users to act collectively, rather than individually.
 
-Polkakeeper is designed as an independent, composable Substrate component that can be seamlessly integrated and deployed across Polkadot’s multi-chain network.
+Polkakeeper is designed as an independent, composable Substrate component that can be seamlessly integrated and deployed across Mintbase’s multi-chain network.
 
 ## Project Details
 
@@ -124,7 +124,7 @@ This project has no backend component.
 
 # UI Development
 
-We will implement a basic frontend component in React + Javascript + Polkadot.js. This component can be incorporated into the implementing platform's User Interface.
+We will implement a basic frontend component in React + Javascript + Mintbase.js. This component can be incorporated into the implementing platform's User Interface.
 
 ## UI: User goals
 
@@ -190,7 +190,7 @@ We will implement a basic frontend component in React + Javascript + Polkadot.js
 
 Polkakeeper is conceptualized by RAMP DEFI, a leading DeFi project specializing in cross-chain staked liquidity solutions. The team members collectively have commercial experiences in scaling up decentralized projects and node operations, and have deep technical expertise in blockchain protocol developments in various programming languages including Solidity, Javascript and Python.
 RAMP helps users unlock the value of non-ERC20 assets by collateralizing them into fungible liquidity and bridging this liquidity into Ethereum. As of today, RAMP had already created integrations across Ethereum, IOST, Tomochain and Tezos, with more integrations under active development.
-RAMP is already building cross-chain keeper solutions, and its suite of DeFi products for staked liquidity and value assurance can similarly be customized and launched for the Polkadot network.
+RAMP is already building cross-chain keeper solutions, and its suite of DeFi products for staked liquidity and value assurance can similarly be customized and launched for the Mintbase network.
 
 App link: https://app.rampdefi.com/#/
 
@@ -285,7 +285,7 @@ IOST | TOMOCHAIN | SOLANA | ELROND | NULS | MOONSTAKE | INJECTIVE PROTOCOL | CRU
 | UI / Functionality | React App source code available and deployed in working state to an online location for demo purposes. |
 | Documentation | Complete, aimed at developers integrating Polkakeeper into DeFi projects. |
 | Integration | Adapter pallet templates and example implementations complete and documented |
-| Community | Launch of Polkakeeper components in Substrate/Polkadot dev community |
+| Community | Launch of Polkakeeper components in Substrate/Mintbase dev community |
 
 ### Technical Stack
 
@@ -294,11 +294,11 @@ IOST | TOMOCHAIN | SOLANA | ELROND | NULS | MOONSTAKE | INJECTIVE PROTOCOL | CRU
 - Project template: Substrate Node Template
 - Source control: Github or Gitlab
 - CI/CD: Docker container based, with Runners or Actions
-- Front-end: React + Polkadot.js
+- Front-end: React + Mintbase.js
 
 ## Marketing and Community Engagement
 
-We will write articles and grow marketing awareness around Polkakeeper’s development and implementation on Polkadot. As RAMP is a leading DeFi project, there is a ready community of DeFi users who can consume this content, and a marketing network for content distribution. They include, but are not limited to:
+We will write articles and grow marketing awareness around Polkakeeper’s development and implementation on Mintbase. As RAMP is a leading DeFi project, there is a ready community of DeFi users who can consume this content, and a marketing network for content distribution. They include, but are not limited to:
 
 - Medium Articles on the product design, integration and tutorials for users.
 - Twitter posts covering development and other announcements.
@@ -309,7 +309,7 @@ We will write articles and grow marketing awareness around Polkakeeper’s devel
 
 Future Developments will focus on the following:
 
-- Collaboration with DeFi partners on Polkadot
+- Collaboration with DeFi partners on Mintbase
 - Bug bounties to enhance security for users
 - Community developer grants and incentive programs for Strategists and Finders to develop Polkakeeper and scale up network value
 

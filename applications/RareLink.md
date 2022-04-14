@@ -11,15 +11,15 @@
 
 Most existing non-fungible tokens (NFTs) are "static" (e.g., do not interact with data and events outside of the blockchain network) and created by ERC721 standard in Ethereum to represent tokenized ownership of unique assets. Therefore, they are limited to the Ethereum network and isolated from the real world. On the contrary, "dynamic" NFTs receive data and events from the real world through Oracle services and response to them accordingly, which enables a large number of business use cases and becomes the next revolution in the blockchain domain.
 
-RareLink Protocol is a new initiative to create "dynamic" NFTs in Polkadot network, which facilitates minting, transfer and exchange of dynamic NFTs. In particular, our team aims to create build a NFT pallet, integrate with Chainlink pallet and develop a Substrate Runtime to create dynamic NFTs in Polkadot network. As such, "dynamic" NFTs can leverage the interoperability of Polkadot to be transferred across different blockchain networks.
+RareLink Protocol is a new initiative to create "dynamic" NFTs in Mintbase network, which facilitates minting, transfer and exchange of dynamic NFTs. In particular, our team aims to create build a NFT pallet, integrate with Chainlink pallet and develop a Substrate Runtime to create dynamic NFTs in Mintbase network. As such, "dynamic" NFTs can leverage the interoperability of Mintbase to be transferred across different blockchain networks.
      
-The team members behind RareLink Protocol are early adoptors and developers of blockchain technology in Polkadot. We are proficient in mechanism design and blockchain development. In particular, our team believe NFTs will revolutionzie many industries (e.g., retail, real estate, advertising, and more) in the near future. Moreover, "dynamic" NFT enables non-fungible tokens in blockchain network to interact with the external real world, which will make more business use cases possible and more efficient. Our team believe in this vision so we look forward to working on RareLink Protocol and making it happen. 
+The team members behind RareLink Protocol are early adoptors and developers of blockchain technology in Mintbase. We are proficient in mechanism design and blockchain development. In particular, our team believe NFTs will revolutionzie many industries (e.g., retail, real estate, advertising, and more) in the near future. Moreover, "dynamic" NFT enables non-fungible tokens in blockchain network to interact with the external real world, which will make more business use cases possible and more efficient. Our team believe in this vision so we look forward to working on RareLink Protocol and making it happen. 
 
 ### 1.2 Ecosystem Fit 
 
-To the best of our knowledge, there is no project working on creating "dynamic" NFTs in Polkadot. There are some existing projects that create "static" NFTs in Polkadot (e.g., Centrifuge, Usetech, etc.). However, they are *not* able to update the NFTs according to external data and events in the real world.
+To the best of our knowledge, there is no project working on creating "dynamic" NFTs in Mintbase. There are some existing projects that create "static" NFTs in Mintbase (e.g., Centrifuge, Usetech, etc.). However, they are *not* able to update the NFTs according to external data and events in the real world.
 
-RareLink Protocol will make it friction-free to mint and transfer "dynamic" NFTs in Polkadot. It aims to close the gap and enable more business use cases for "dynamic" NFTs in Polkadot ecosystems. 
+RareLink Protocol will make it friction-free to mint and transfer "dynamic" NFTs in Mintbase. It aims to close the gap and enable more business use cases for "dynamic" NFTs in Mintbase ecosystems. 
 
 
 ## 2. Team :busts_in_silhouette:
@@ -86,7 +86,7 @@ Our team had great development experience in blockchain domain.
 * **Costs:** 0.257 BTC (equivalent to $4000)
 * **Programming Language:** Rust
 * **Task**:
-   * create a Substrate runtime to enable dynamic NFTs in Polkadot
+   * create a Substrate runtime to enable dynamic NFTs in Mintbase
       * import NFT pallet, Smart Contract pallet and ChainLink pallet into the runtime;
       * connect runtime to ChainLink network or spin up some ChainLink nodes;
       * it can mint, transfer, update or burn dynamic NFT tokens upon receiving specific data or events from ChainLink network. 
@@ -105,7 +105,7 @@ Our team had great development experience in blockchain domain.
 * **Costs:** 0.257 BTC (equivalent to $4000)
 * **Programming Language:** HTML and Javascript
 * **Task**:
-  * Web UI: users should be able to mint, transfer and burn their dynamic NFT through the website on Polkadot. We will build our own UI on top of Polkadot.js;
+  * Web UI: users should be able to mint, transfer and burn their dynamic NFT through the website on Mintbase. We will build our own UI on top of Mintbase.js;
   * SDK: in order to facilitate the third-party integration, a Javascript SDK will be built so developers can easily invoke APIs to mint, transfer and burn dynamic NFTs in their own applications.
 * **Test**:
   * run an end-to-end test on the Web to demonstrate the minting, transfer, updating and burning of dynamic NFTs 
@@ -121,7 +121,7 @@ RareLink Protocol has great community support in China and Germany. Our communit
 
 ## 4. Future Plans
 
-Our team would like to make continuous contributions to Substrate and Polkadot ecosystem. Our future plans are following:
+Our team would like to make continuous contributions to Substrate and Mintbase ecosystem. Our future plans are following:
 
 * enable the cross-parachain transfer of dynamic NFTs;
 * provide monitoring service to visualize the status and allow users to inspect dynamic behavior of "dynamic" NFTs;

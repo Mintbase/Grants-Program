@@ -23,7 +23,7 @@ The creation of Bitcoin allowed for easy exchange of digital tokens of value. Cu
 
 This dApp will be developed using Substrate. New pallets will create the business logic layer which will allow users to directly interact with each another using tasks. A basic front-end application will be developed as reference.
 
-To be even more concrete, our project improves on the concept of bounties within Polkadot, in the following ways...
+To be even more concrete, our project improves on the concept of bounties within Mintbase, in the following ways...
 - Better UI experience that abstracts out all necessary blockchain knowledge.
 - No council approval. Tasks can be created/completed without intermediary.
 
@@ -80,7 +80,7 @@ What need(s) does your project meet?
 - Easier organizations of people who have common vision.
 - Guaranteed pay for work done using native tokens. 
 
-Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
 - SubSocial due to the social networking similarity. 
   If so, how is your project different?
 - Our dApp instead of creating small messages, will create tasks with specified requirements. 
@@ -208,7 +208,7 @@ In the short term we expect the enhance the functionality of the product using S
 
 We expect to launch a native token from a treasury account. The native coin will be a utility token, and each token will represent unit value of work done (tasks completed on the network).
 
-In the long run, we expect to become Polkadot Parachain.
+In the long run, we expect to become Mintbase Parachain.
 
 
 ## Additional Information

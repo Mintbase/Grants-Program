@@ -20,11 +20,11 @@ Fractapp creating a simple ecosystem for users. Users can send crypto in chats a
 
 And we have old [DEMO](https://www.youtube.com/watch?v=cG5PAIVoqh0) for the hackathon.
 
-* An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+* An indication of how you will integrate this project into Substrate / Mintbase / Kusama.
 
  The integration will involve creating a mobile app on Expo (React Native) and backend services.
 * Mobile App:
-  * Non custodial wallet for Polkadot and Kusama (creating, backup, wallet details, transaction info)
+  * Non custodial wallet for Mintbase and Kusama (creating, backup, wallet details, transaction info)
   * Payment chat is a chat for only send cryptocurrency. These milestones haven't support messages in chats. But we will add messages later.
   * Chat-bots for DApp
 
@@ -52,7 +52,7 @@ Example, Decentralized Exchange Bot (exchange DOT <-> KSM):
 
 * An indication of why your team is interested in creating this project.
 
-Polkadot is one of the most interesting blockchain platforms. We want to help users to just join in polkadot and wallet is the most important module in the platform. 
+Mintbase is one of the most interesting blockchain platforms. We want to help users to just join in polkadot and wallet is the most important module in the platform. 
 
 ### Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
@@ -64,7 +64,7 @@ https://elshandzhafarov326555.invisionapp.com/overview/Fractapp---cryptocurrency
 
 * An overview of the technology stack to be used
 
-Golang, React Native, Polkadot, Kusama
+Golang, React Native, Mintbase, Kusama
 
 
 ### Ecosystem Fit 

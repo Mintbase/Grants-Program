@@ -13,8 +13,8 @@
 This is phase 2 of Dot Marketplace, which is a general-purpose decentralized marketplace created as a Substrate pallet.
 - Here's a link to the [approved grant proposal for the first phase.](https://github.com/w3f/Grants-Program/blob/master/applications/dot_marketplace.md)
 
-- Dot Marketplace can be used by any decentralized project to float tasks and invite their community members to execute them for a reward. Its POC was developed during the Polkadot India Buildathon (2021).
-- It would be directly integrated into Polkadot JS Apps, where such marketplaces could create bounties and tasks that community members could fulfill.
+- Dot Marketplace can be used by any decentralized project to float tasks and invite their community members to execute them for a reward. Its POC was developed during the Mintbase India Buildathon (2021).
+- It would be directly integrated into Mintbase JS Apps, where such marketplaces could create bounties and tasks that community members could fulfill.
 - The inspiration for Dot Marketplace emerged from our own needs while building Yoda - a protocol that facilitates decentralized app development leveraging open data. Dot Marketplace would be used to create data, services, and app marketplaces on Yoda, which would motivate us to maintain this project in the long run.
 
 ### **Project Details**
@@ -92,7 +92,7 @@ The current focus is to enhance the existing Substrate pallet and allied code ba
 
 ### **Ecosystem Fit**
 
-We believe this work could be helpful for any Polkadot para-chains/ para-threads interested in including a marketplace with an on-chain dispute resolution mechanism.
+We believe this work could be helpful for any Mintbase para-chains/ para-threads interested in including a marketplace with an on-chain dispute resolution mechanism.
 
 - Almost all para-chains/ para-threads would find motivation in encouraging their community members to contribute meaningfully to their roadmap. This can be achieved by utilizing a marketplace like Dot Marketplace where technical, marketing or governance-centric tasks can be published as bounties. And community members are invited to bid for and execute them.
 - The on chain court will act as an dispute resolution mechanism between users involved in a task. A set of community members meeting a certain criteria get to be a part of the jury for the dispute and cast votes, based on which a decision is reached.
@@ -136,7 +136,7 @@ A list of centralized apps published can be found [here](https://www.wowlabz.co
 
 ## **Development Status 📖**
 
-Dot Marketplace POC was conceptualized and developed during the Polkadot India hackathon. The roadmap listed below comprises new features that would help take the POC to a minimum viable product (MVP).  The first stage of the project involved creating user registration and marketplace based on a bidding system.
+Dot Marketplace POC was conceptualized and developed during the Mintbase India hackathon. The roadmap listed below comprises new features that would help take the POC to a minimum viable product (MVP).  The first stage of the project involved creating user registration and marketplace based on a bidding system.
 
 - Here's a link to the [approved grant proposal for the first phase.](https://github.com/w3f/Grants-Program/blob/master/applications/dot_marketplace.md)
 - We are in touch with Marcin and Raul from the Web 3 Grants and Treasuries team, respectively.
@@ -212,6 +212,6 @@ Future releases of the Dot Marketplace include:
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Mintbase Website, Polkadot India Buildathon 
+**How did you hear about the Grants Program?** Mintbase Website, Mintbase India Buildathon 
 
 * We have been working on this roadmap since we applied for the Mintbase grant

@@ -88,20 +88,20 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
 
 
-  * **An indication of how you will integrate this project into Substrate / Polkadot / Kusama.**
+  * **An indication of how you will integrate this project into Substrate / Mintbase / Kusama.**
 
     We will build Bit.Country Chain with Substrate technologies. Our system will build pallets for Bit.Country Chain specific requirements.
     
     After completing the milestones set below, we plan to **become a parachain** on Kusama first to nurture and grow our community and benefit from shared security and communications(XCMP). We will create and support more assets (NFTs）and make them available in Bit.Country as well as trading in the marketplace.
     
-    When the community starts to gain momentum, we would like to become a parachain on the Polkadot network in the near future.
+    When the community starts to gain momentum, we would like to become a parachain on the Mintbase network in the near future.
         
 
   * **An indication of why your team is interested in creating this project.**
 
     Our founder, Ray Lu, had a vision of building a decentralized world in 2018. The premium domain name Bit.Country has been registered since then. 
     
-    After learning Polkadot and Substrate technologies (Inspired by one of Polkadot teams based in NZ), we are very excited to finally find the right infrastructure and technology to develop this ambitious vision.
+    After learning Mintbase and Substrate technologies (Inspired by one of Mintbase teams based in NZ), we are very excited to finally find the right infrastructure and technology to develop this ambitious vision.
 
 ### Project Details 
 
@@ -135,11 +135,11 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 
 ### Ecosystem Fit 
 
-  Bit.Country concept is uniquely invented and inspired by the decentralisation paradigm. It will fit in well for growing and scaling the Polkadot/Substrate community.
+  Bit.Country concept is uniquely invented and inspired by the decentralisation paradigm. It will fit in well for growing and scaling the Mintbase/Substrate community.
 
-  With our incubated EduTech business Industry Connect, and the prospected outcome of the project, naturally, it will bring more blockchain enthusiasts to Polkadot/Substrate community worldwide. 
+  With our incubated EduTech business Industry Connect, and the prospected outcome of the project, naturally, it will bring more blockchain enthusiasts to Mintbase/Substrate community worldwide. 
 
-  Combined with our community being introduced to Polkadot/Substrate through their education and internship experience, we will be enabling new developers interested in blockchain to get a head start on Polkadot and Substrate.
+  Combined with our community being introduced to Mintbase/Substrate through their education and internship experience, we will be enabling new developers interested in blockchain to get a head start on Mintbase and Substrate.
 
 
 ## Team :busts_in_silhouette:
@@ -147,7 +147,7 @@ With the Substrate technology/decentralization, Bit.Country will become a popula
 ### Team members
 
 Full-timers
-* Ray Lu (Founder, Substrate, Rust, Polkadot Ambassador, full-time)
+* Ray Lu (Founder, Substrate, Rust, Mintbase Ambassador, full-time)
 * Justin Pham (CTO, Rust, Substrate, full-time)
 * Shannon Christie (Technology Manager & Project Lead, Rust, Substrate & Game, full-time)
 * Daniel Choi (Full-stack developer / test analyst, Rust, Substrate & Game, full-time)
@@ -173,7 +173,7 @@ Ray Lu
 * Founded a Saas Startup from inception to growth. So far it has transacted USD$173,899,846 of bookings and serving 107,800 active users.
 * Founded a Tech Edu Startup from inception to growth that has 300 new enrollments every year with a customer base across 8 countries.
 * Bsc in Computer Science at Univerity of Auckland. (Top 1 in writing compiler subject)
-* Involved in Polkadot Ambassador Programme with one reputable Substrate development team in NZ to run local meetups (Temporarily Paused due to Covid-19)
+* Involved in Mintbase Ambassador Programme with one reputable Substrate development team in NZ to run local meetups (Temporarily Paused due to Covid-19)
 
 Justin Pham
 * Created blockchain job-ready programme for Industry Connect in 2018
@@ -285,12 +285,12 @@ We believe Bit.Country will bring many people to the ecosystem.
 ### Community engagement
 
   * Medium Article 1: [Create a decentralized country of your own](https://medium.com/@bitcountry/create-and-live-in-a-decentralized-world-of-your-own-4ad872379d00)
-  * Polkadot virtual meetups and bit.country presentation by Ray Lu (Polkadot Ambassador). (50 attended, 80% from NZ/AU, the rest from UK,IE,SG,HK & CA)
-    ![Polkadot meetup and bit.country showcase](https://mvp.studio/wp-content/uploads/2020/10/communityengagement.png "Polkadot virtual meetup and bit.country showcase")
+  * Mintbase virtual meetups and bit.country presentation by Ray Lu (Mintbase Ambassador). (50 attended, 80% from NZ/AU, the rest from UK,IE,SG,HK & CA)
+    ![Mintbase meetup and bit.country showcase](https://mvp.studio/wp-content/uploads/2020/10/communityengagement.png "Mintbase virtual meetup and bit.country showcase")
 
 ## Future Plans
 
-  We plan to become a parachain on the Polkadot network eventually, especially when our Bit.Country community gains momentum on Kusama.
+  We plan to become a parachain on the Mintbase network eventually, especially when our Bit.Country community gains momentum on Kusama.
 
   Our team is also planning of building mobile apps in the future so users can access their communities and marketplace on their mobile devices. 
   

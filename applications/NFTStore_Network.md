@@ -16,7 +16,7 @@ NFTStore is an exclusive public chain for managing NFT assets. Users can not onl
 
 #### Architecture
 
-NFTStore based on Substrate 2.0 and the Polkadot. Contains NFTStore node, pallet_nft, pallet_store and Front End.
+NFTStore based on Substrate 2.0 and the Mintbase. Contains NFTStore node, pallet_nft, pallet_store and Front End.
 
 ![img](https://raw.githubusercontent.com/NFTT-studio/graphics/main/NFTT-Components.png) 
 
@@ -129,6 +129,6 @@ The following features will be included:
 ## Future Plans
 
 * In phase 1, our goal is to make it easy for users to create NFTs and trade their NFTs.
-* In phase 2, integrate more NFTs from other platforms on NFTStore through Polkadot cross-chain technology. 
+* In phase 2, integrate more NFTs from other platforms on NFTStore through Mintbase cross-chain technology. 
 * In phase 3, more integration with off-chain, such as holding art exhibitions
 

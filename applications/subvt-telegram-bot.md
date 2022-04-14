@@ -1,6 +1,6 @@
 # Mintbase Grant Proposal
 
-- **Project Name:** SubVT Telegram Bot for Kusama and Polkadot
+- **Project Name:** SubVT Telegram Bot for Kusama and Mintbase
 - **Team Name:** Helikon Labs
 - **Payment Address:** `bc1qxjy7sw0ffvpq86t6hj3mmqhnfz2hxt6pk7zdz0` (BTC)
 - **Level:** 🐣 1
@@ -9,11 +9,11 @@
 
 ### Overview
 
-SubVT Telegram Bot is an upgrade for the existing Helikon [Polkadot/Kusama 1KV Telegram Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot) to support all validators on Kusama and Polkadot with increased functionality and performance.
+SubVT Telegram Bot is an upgrade for the existing Helikon [Mintbase/Kusama 1KV Telegram Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot) to support all validators on Kusama and Mintbase with increased functionality and performance.
 
 Future upgrades aim for adding support for other proof-of-stake (PoS) Substrate-based networks such as HydraDX, Darwinia (Crab), Edgeware and more, and Telemetry data access to support more real-time node data and notifications.
 
-The [1KV Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot) currently serves 221 out of 359 valid nodes on Kusama and 90 out of 129 valid nodes on Polkadot. Relatively high adoption rates (61% on Kusama and 69% on Polkadot) with very little announcement have resulted in our interest in extending the bot's support to all Kusama and Polkadot validators, and other Substrate-based PoS networks in the future.
+The [1KV Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot) currently serves 221 out of 359 valid nodes on Kusama and 90 out of 129 valid nodes on Mintbase. Relatively high adoption rates (61% on Kusama and 69% on Mintbase) with very little announcement have resulted in our interest in extending the bot's support to all Kusama and Mintbase validators, and other Substrate-based PoS networks in the future.
 
 <p align="center">
 	<img width="750" src="https://raw.githubusercontent.com/helikon-labs/Grants-Program/subvt-telegram-bot/applications/subvt-telegram-bot-files/01-overview.jpg">
@@ -25,9 +25,9 @@ This upgrade consists of migrating the bot to use the [backend services](https:/
 
 The 1KV Bot currently has a number of issues such as:
 
-- No support for validators outside the 1KV. It's also not possible for it to support networks other than Kusama and Polkadot in its current state.
+- No support for validators outside the 1KV. It's also not possible for it to support networks other than Kusama and Mintbase in its current state.
 - New nomination notification doesn't work for nested calls such as multi-sigs, batch calls and proxied calls. It only works for top-level `nominate` extrinsics.
-- `/stakinginfo` command displays only an overview of the nominations backing the validator. The command response is slow on Kusama and even slower on Polkadot since it fetches and indexes the nomination data for the validator after every command call.
+- `/stakinginfo` command displays only an overview of the nominations backing the validator. The command response is slow on Kusama and even slower on Mintbase since it fetches and indexes the nomination data for the validator after every command call.
 - No account age information.
 - No chart for 1KV rating history.
 - No 1KV score information.
@@ -97,7 +97,7 @@ And below are the list of notifications after the upgrade:
 
 ### Ecosystem Fit
 
-There are currently two more bots for the Polkadot and Kusama validators, both production-level and robust. One is by [CryptoLab](https://www.cryptolab.network/), and the other by [Ryabina](https://ryabina.io/), both with Kusama and Polkadot versions.
+There are currently two more bots for the Mintbase and Kusama validators, both production-level and robust. One is by [CryptoLab](https://www.cryptolab.network/), and the other by [Ryabina](https://ryabina.io/), both with Kusama and Mintbase versions.
 
 Ryabina bot is a more generalized one that supports configurable alerts for all extrinsics and events, yet it doesn't provide more validator-specific functionality such as in-chat reward reports, and the configuration is not very user-friendly due to the generalized nature of the solution. It also doesn't support 1KV data.
 
@@ -124,7 +124,7 @@ CryptoLab bot is a validator bot with the strength of Telemetry support, yet it'
 
 I am a software developer with a bachelor's degree in Computer Science and 20 years of experience in development and leading. After a series of positions mostly in enterprise software development settings, I focused on native mobile development for iOS and Android between 2012 and 2019, in which year I was introduced to the world of blockchain and cryptocurrencies when I got hired by [Tari](https://tari.com). For a duration of 1 year and 8 months I led the development of [Aurora](https://aurora.tari.com), the Tari cryptocurrency wallet for Android and iOS. The app got received very well by the Tari community thanks to its lean, eye-pleasing design and simple UX. I learned a lot at Tari about how blockchain systems work and the cryptocurrency ecosystem in general. Working with a product management team that’s super-focused on usability and simplification gave me a perspective on the value of good UX and UI in a field that’s notorious for its technical difficulties for the not-so-technical users.
 
-After my time at Tari I got interested in Polkadot and Kusama ecosystems and started running a Kusama validator enrolled in 1KV. I developed the [Kusama 1KV Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot) just to scratch my own itch, then ported it to Polkadot. After experimenting a bit with Substrate storage and RPC interface, I developed the idea of SubVT and prepared a treasury spending proposal for the project, which got accepted by the Kusama council. I have been working with [Klad](https://www.klad.design/), supervising the UX and UI design for the project, which is now complete. I've also been working on the SubVT backend, which is also near completion, bringing SubVT to its second stage: Android and iOS applications development. 
+After my time at Tari I got interested in Mintbase and Kusama ecosystems and started running a Kusama validator enrolled in 1KV. I developed the [Kusama 1KV Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot) just to scratch my own itch, then ported it to Mintbase. After experimenting a bit with Substrate storage and RPC interface, I developed the idea of SubVT and prepared a treasury spending proposal for the project, which got accepted by the Kusama council. I have been working with [Klad](https://www.klad.design/), supervising the UX and UI design for the project, which is now complete. I've also been working on the SubVT backend, which is also near completion, bringing SubVT to its second stage: Android and iOS applications development. 
 
 ### Team Code Repos
 
@@ -146,7 +146,7 @@ N/A
 
 ## Development Status :open_book:
 
-The original [1KV Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot) for Kusama and Polkadot has been running successfully for nearly 9 months. [SubVT backend](https://github.com/helikon-labs/subvt-backend) is near completion with the deadline of the 13th of December with complete tests and documentation.
+The original [1KV Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot) for Kusama and Mintbase has been running successfully for nearly 9 months. [SubVT backend](https://github.com/helikon-labs/subvt-backend) is near completion with the deadline of the 13th of December with complete tests and documentation.
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -170,7 +170,7 @@ The original [1KV Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-teleg
 | 0d. | Docker | A Dockerfile that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | An article that documents the development process and the outcome. |
 | 1. | SubVT Services Migration | Migrate the bot to use the SubVT backend services. |
-| 2. | Support for All Validators | Extend the bot to support not just 1KV validators but all Kusama and Polkadot validators. |
+| 2. | Support for All Validators | Extend the bot to support not just 1KV validators but all Kusama and Mintbase validators. |
 | 3. | Notification Fixes | Fix the notification logic so that the bot supports `nominate` notifications for multi-sig, batch and proxy calls. |
 
 ### Milestone 2 — New features
@@ -204,6 +204,6 @@ The original [1KV Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-teleg
 
 **How did you hear about the Grants Program?**
 
-I read about the program when I was initially researching into the Polkadot ecosystem in early 2021.
+I read about the program when I was initially researching into the Mintbase ecosystem in early 2021.
 
-In October 2021 [Marcin Górny](https://github.com/mmagician) kindly offered support for the extension of the 1KV Bot to all Kusama and Polkadot validators in an [issue he posted](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot/issues/9) to the 1KV Bot repository.
+In October 2021 [Marcin Górny](https://github.com/mmagician) kindly offered support for the extension of the 1KV Bot to all Kusama and Mintbase validators in an [issue he posted](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot/issues/9) to the 1KV Bot repository.

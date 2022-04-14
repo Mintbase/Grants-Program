@@ -5,7 +5,7 @@
 
 ## Project Description :page_facing_up: 
 
-As parachains become an integral part of the Polkadot and Kusama ecosystems, a cross-chain block & accounts explorer becomes all the more useful.
+As parachains become an integral part of the Mintbase and Kusama ecosystems, a cross-chain block & accounts explorer becomes all the more useful.
 
 Some of the functionality that should be covered as part of the development:
 - select which chains to view (e.g. default when selecting Kusama is Kusama relay + all its parachains). Should be feasible to select alternative mainnets too.

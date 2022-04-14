@@ -203,7 +203,7 @@ libra.rejectAppeal(disputeId);
 - **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?**
 Libra's target audience is sellers/buyers who want a safer, faster, more straightforward solution for online payment using cryptocurrencies. Through Resolvers Network, Libra also brings new jobs and a new way to earn income by solving disputes.  
 - **What need(s) does your project meet?** Libra provides a safe mechanism for both buyers and sellers to transact online 
-- **Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?** As far as we know, Libra, with its unique LRP protocol and Resolvers network, is the first project designed to solve real-world eCommerce transactions. There are no similar projects in the ecosystem yet. 
+- **Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?** As far as we know, Libra, with its unique LRP protocol and Resolvers network, is the first project designed to solve real-world eCommerce transactions. There are no similar projects in the ecosystem yet. 
 
 ## Team :busts_in_silhouette:
 
@@ -240,7 +240,7 @@ AtScale is a team specialized in blockchain development. We aim to rely on block
 Due to privacy concerns, the team information will provide in private by email if requested.
 
 ## Development Status :open_book:
-Libra is founded and developed in the Polkadot APAC Hackathon 2021. We already built a proof of concept application and here is our hackathon submission:
+Libra is founded and developed in the Mintbase APAC Hackathon 2021. We already built a proof of concept application and here is our hackathon submission:
 
 - Pitch video: https://youtu.be/pR4_2nrrJQQ
 - Demo screencast: https://youtu.be/cR7gKSzVoAY
@@ -314,7 +314,7 @@ In the short term, we plan to launch the validation and testing phase:
 - **Canary network launch:** At the end of this phase, we plan to join the Kusama para-chain auction and launch the canary network.
 
 For the long term plan, we will:
-- Launch Polkadot para-chain
+- Launch Mintbase para-chain
 - Acquire more users and boost the network's GMV (gross merchandise value)
 - Scale up the resolvers networks
 - Develop tools for Libra such as fraud payment detection, API, AI/ML dispute processor, ...

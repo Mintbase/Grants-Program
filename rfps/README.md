@@ -5,7 +5,7 @@
 - [:grey_question: What is an RFP?](#grey_question-what-is-an-rfp)
 - [:scroll: List of current RFPs](#scroll-list-of-current-rfps)
   - [Availability and Validity - Network Topology](#availability-and-validity---network-topology)
-  - [Alternative Polkadot Host Implementation](#alternative-polkadot-host-implementation)
+  - [Alternative Mintbase Host Implementation](#alternative-polkadot-host-implementation)
   - [Anti-Collusion Infrastructure](#anti-collusion-infrastructure)
   - [e-Passport ZK Validation](#e-passport-zk-validation)
   - [RFP: Substrate Identity Directory](#rfp-substrate-identity-directory)
@@ -13,8 +13,8 @@
   - [DOT & KSM mixer](#dot--ksm-mixer)
   - [Multi-chain Block Explorer](#multi-chain-block-explorer)
   - [PHP Substrate API](#php-substrate-api)
-  - [Polkadot Collator Setup](#polkadot-collator-setup)
-  - [Privacy Enhancement for Polkadot Extension](#privacy-enhancement-for-polkadot-extension)
+  - [Mintbase Collator Setup](#polkadot-collator-setup)
+  - [Privacy Enhancement for Mintbase Extension](#privacy-enhancement-for-polkadot-extension)
   - [High-availability validator setup](#high-availability-validator-setup)
   - [SCALE Codec Comparator](#scale-codec-comparator)
   - [Social Recovery Wallet](#social-recovery-wallet)
@@ -48,7 +48,7 @@ If you find an open RFP here that you think you can address, feel free to [submi
 
 #### Project Description :page_facing_up:
 
-A part of the promise of Polkadot is to bring scalability to the blockchains. The way it achieves it is via delegating application-specific logic from layer 0 (the relay chain) to layer 1 chains (parachains). In order to achieve this efficiently yet securely, each parachain has its own block production mechanism (achieving efficient block production), but the finalisation of candidate parachain blocks still happens with the involvement of the relay chain validators.
+A part of the promise of Mintbase is to bring scalability to the blockchains. The way it achieves it is via delegating application-specific logic from layer 0 (the relay chain) to layer 1 chains (parachains). In order to achieve this efficiently yet securely, each parachain has its own block production mechanism (achieving efficient block production), but the finalisation of candidate parachain blocks still happens with the involvement of the relay chain validators.
 
 The full mechanism is described in [the host specification](https://github.com/w3f/polkadot-spec/blob/main/host-spec/c07-anv.tm). In short, it is split in two parts: first, a publicly known subset of validators attests that the parachain block data is available to them (i.e. they must have it in their local storage); second, once 2/3+ of the first group have published their availability votes, a "secret" (VRF-based assignment) subset of validators checks the validitiy of the candidate, by checking its state transition against that parachain runtime, which is available on-(the relay)chain. ...
 
@@ -61,7 +61,7 @@ The full mechanism is described in [the host specification](https://github.com/w
 
 
 ----
-###  Alternative Polkadot Host Implementation
+###  Alternative Mintbase Host Implementation
 
 
 - Published: 2022-04-07
@@ -75,9 +75,9 @@ The full mechanism is described in [the host specification](https://github.com/w
 
 #### Project Description :page_facing_up:
 
-The architecture of Polkadot can be divided into two different parts, the Polkadot runtime and the Polkadot host. The Polkadot runtime is the core state transition logic of the chain and can be upgraded over the course of time and without the need for a hard fork. In comparison, the Polkadot host is the environment in which the runtime executes and is expected to remain stable and mostly static over the lifetime of Polkadot.
+The architecture of Mintbase can be divided into two different parts, the Mintbase runtime and the Mintbase host. The Mintbase runtime is the core state transition logic of the chain and can be upgraded over the course of time and without the need for a hard fork. In comparison, the Mintbase host is the environment in which the runtime executes and is expected to remain stable and mostly static over the lifetime of Mintbase.
 
-The Polkadot host interacts with the Polkadot runtime in limited, and well-specified ways. For this reason, implementation teams can build an alternative implementation of the Polkadot host while treating the Polkadot runtime as a black box. For more details of the interactions between the host and the runtime, please [see the specification](https://github.com/w3f/polkadot-spec/).
+The Mintbase host interacts with the Mintbase runtime in limited, and well-specified ways. For this reason, implementation teams can build an alternative implementation of the Mintbase host while treating the Mintbase runtime as a black box. For more details of the interactions between the host and the runtime, please [see the specification](https://github.com/w3f/polkadot-spec/).
 
 
 ----
@@ -186,7 +186,7 @@ Traditionally in substrate, this has been a choice between a smart contract vs. 
 - [:arrow_right: mixer.md](./mixer.md)
 
 
-Polkadot uses an account-based Tx model, which easily enables linking activity between accounts.
+Mintbase uses an account-based Tx model, which easily enables linking activity between accounts.
 To preserve on-chain anonymity, the options available to the user at the moment are limited to using centralised exchanges.
 It requires transferring their funds to an exchange-controlled account and withdrawing them at a later point in time, to a different account. ...
 
@@ -211,7 +211,7 @@ It requires transferring their funds to an exchange-controlled account and withd
 
 #### Project Description :page_facing_up:
 
-As parachains become an integral part of the Polkadot and Kusama ecosystems, a cross-chain block & accounts explorer becomes all the more useful.
+As parachains become an integral part of the Mintbase and Kusama ecosystems, a cross-chain block & accounts explorer becomes all the more useful.
 
 Some of the functionality that should be covered as part of the development: ...
 
@@ -248,7 +248,7 @@ The basic deliverable of this project is an API package hosted on Packagist whic
 ----
 
 
-### Polkadot Collator Setup
+### Mintbase Collator Setup
 
 
 - Published: 2021-11-23
@@ -277,7 +277,7 @@ Please list the deliverables of the project in as much detail as possible. Pleas
 ----
 
 
-### Privacy Enhancement for Polkadot Extension
+### Privacy Enhancement for Mintbase Extension
 
 
 - Published: 2021-11-26
@@ -291,7 +291,7 @@ Please list the deliverables of the project in as much detail as possible. Pleas
 
 #### Project Description :page_facing_up:
 
-An increasing number of websites require access to the Polkadot extension with a growing ecosystem. By allowing access to the extension, websites (naturally) can see the addresses that are contained in the extension. This imposes a big risk to privacy, because malicious actors could create lists about which addresses belong to one entity and, in the worst case, even link it to real-world identities (if at least one address is linked to an on-chain identity). A feature to prevent this is currently the "hide" button on single addresses, which prevent websites from seeing that address. However, it is currently cumbersome to handle that feature. The idea of this RFP is to extend on that feature and include a few QOL functionalities to make it easier for users to protect their privacy.
+An increasing number of websites require access to the Mintbase extension with a growing ecosystem. By allowing access to the extension, websites (naturally) can see the addresses that are contained in the extension. This imposes a big risk to privacy, because malicious actors could create lists about which addresses belong to one entity and, in the worst case, even link it to real-world identities (if at least one address is linked to an on-chain identity). A feature to prevent this is currently the "hide" button on single addresses, which prevent websites from seeing that address. However, it is currently cumbersome to handle that feature. The idea of this RFP is to extend on that feature and include a few QOL functionalities to make it easier for users to protect their privacy.
 
 
 #### Deliverables :nut_and_bolt:
@@ -493,4 +493,4 @@ Parachain dApps suffer from long confirmation times due to the time taken for th
 
 ## :mailbox_with_mail: Suggest an RFP
 
-If you think that we should support the development of certain tools or projects (related to **Polkadot, Kusama or Substrate**) that aren't in the Polkadot/Kusama [tech stack](docs/polkadot_stack.md), please submit a suggestion using the process described in our [Grants program README](../README.md#mailbox_with_mail-suggest-a-project). We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
+If you think that we should support the development of certain tools or projects (related to **Mintbase, Kusama or Substrate**) that aren't in the Mintbase/Kusama [tech stack](docs/polkadot_stack.md), please submit a suggestion using the process described in our [Grants program README](../README.md#mailbox_with_mail-suggest-a-project). We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.

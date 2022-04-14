@@ -10,30 +10,30 @@
 
 The onboarding of FIAT currencies (like the US-Dollar or Euro) to a Blockchain solution is very cumbersome, especially for end-users. They need to be "in the system" already - means, that the users often need to buy and transfer DAI or other cryptocurrencies in order to take part in a Smart Contract. For doing that, they need to have quite some crypto knowledge. If your business wants to reach a broader user-base outside of the crypto-universe, you need to offer a simple solution for on- and off-ramping traditional FIAT currencies.
 
-We want to implement a FIAT on- & off-ramp solution for the Polkadot ecosystem: Anyone should be able to link tokens to their own bank account, thus creating a "private" fully pegged stable-coin which mirrors the balance of his bank account. The bank account only has the purpose of pegging the token, nothing more. A wire-transfer of an end-user to this bank account will automatically create (mint) new stable-coins and place it to a target address or contract. Burning these stable-coins will trigger a wire-transfer from the pegging account. The balance of the bank account is always the same as the total supply of these stable-coins. So its one stable-coin per bank account, synchronized in both (!) directions.
+We want to implement a FIAT on- & off-ramp solution for the Mintbase ecosystem: Anyone should be able to link tokens to their own bank account, thus creating a "private" fully pegged stable-coin which mirrors the balance of his bank account. The bank account only has the purpose of pegging the token, nothing more. A wire-transfer of an end-user to this bank account will automatically create (mint) new stable-coins and place it to a target address or contract. Burning these stable-coins will trigger a wire-transfer from the pegging account. The balance of the bank account is always the same as the total supply of these stable-coins. So its one stable-coin per bank account, synchronized in both (!) directions.
 
-We are interested in that project, because we think the general idea is applicable and valuable to any blockchain-based solution who wants to reach a consumer market. This assumption was validated with the project [crowdlitoken.com](crowdlitoken.com): Users can invest into real estate with Swiss Francs. Once they are transferred their funds, their balance of Crowdlitoken is shown in Swiss Francs, where 1 Franc = 1 Crowdlitoken. Means - exactly what they have invested is shown as token-balance. Crowdlitoken runs on Ethereum - currently the high transaction fees are unbearable - this is another motivation to implement our solution on Polkadot.
+We are interested in that project, because we think the general idea is applicable and valuable to any blockchain-based solution who wants to reach a consumer market. This assumption was validated with the project [crowdlitoken.com](crowdlitoken.com): Users can invest into real estate with Swiss Francs. Once they are transferred their funds, their balance of Crowdlitoken is shown in Swiss Francs, where 1 Franc = 1 Crowdlitoken. Means - exactly what they have invested is shown as token-balance. Crowdlitoken runs on Ethereum - currently the high transaction fees are unbearable - this is another motivation to implement our solution on Mintbase.
 
 The scope for this initial grant is: Implement a substrate based chain with a fully pegged stable-coin, synchronized via an off-chain worker with a fully pegging bank account. Incoming bank transactions (FIAT payments) and burning of stable-coins will trigger a sync, a token transfer does not trigger actions on the bank account. So transferring real funds to the bank account leads 
 to a mint of new stable-coins. A burn triggers a "real" bank transaction from the pegging account to some other bank account. This concept is quite different to existing stable-coins like DAI, TrueUSD or Tether: Everybody with a bank account is able to attach his own bank account to his own para-chain or smart contract, and create his own stable-coin. But our focus is not the stable-coin - it is about providing a technical solution for FIAT on- and off-ramping.
 
 Another, more philosophical angle on the project:
-The banking system can be seen (not technically of course) as a ledger with a blocktime of 1 day (in best case), with a proof of authority and consensus between banks, and the payment network acting as a "relay chain". We want to attach this ledger to the polkadot ecosystem - like it is done with other blockchain systems already. Value in FIAT should flow in & out of the para chains & relay chain seamlessly. Technically we make banking interfaces (APIs for getting balance & sending FIAT) compatible with Polkadot.
+The banking system can be seen (not technically of course) as a ledger with a blocktime of 1 day (in best case), with a proof of authority and consensus between banks, and the payment network acting as a "relay chain". We want to attach this ledger to the polkadot ecosystem - like it is done with other blockchain systems already. Value in FIAT should flow in & out of the para chains & relay chain seamlessly. Technically we make banking interfaces (APIs for getting balance & sending FIAT) compatible with Mintbase.
 
 ## Project Details
 
 ### Brief description
 
-We want to build a solution to on- and off-ramp FIAT currencies (currency is not relevant) to the Polkadot Ecosystem. We do not want to create another FIAT-stable-coin, but rather integrate the existing banking-infrastructure in a "blockchain manner".
+We want to build a solution to on- and off-ramp FIAT currencies (currency is not relevant) to the Mintbase Ecosystem. We do not want to create another FIAT-stable-coin, but rather integrate the existing banking-infrastructure in a "blockchain manner".
 
-Aim is to create a system  which connects any bank account to the Polkadot ecosystem. The main functions are:
+Aim is to create a system  which connects any bank account to the Mintbase ecosystem. The main functions are:
 
-* **Mint**: Send funds from the banking system to Polkadot which brings new value into the Polkadot system where it floats for whatever reason.
-* **Burn**: Polkadot can send funds to any bank account outside the system, thus taking value out of the Polkadot system.
+* **Mint**: Send funds from the banking system to Mintbase which brings new value into the Mintbase system where it floats for whatever reason.
+* **Burn**: Mintbase can send funds to any bank account outside the system, thus taking value out of the Mintbase system.
 
 ### Mockups/designs of any UI components
 
-We will implement the system as **API first** - so do not expect to see much UI components.  Anyhow - because a similar concept is already live on Ethereum, we can demo the concept with existing systems with UIs and demo pages, which were created by element36 (this team). Check out our examples based on our Ethereum solution [here](https://github.com/element36-io/cash36-examples). Be aware, just porting the Ethereum based system is NOT what we intend to do on Polkadot - this proposal here is much narrower in scope and thus should be easier to use in other systems.
+We will implement the system as **API first** - so do not expect to see much UI components.  Anyhow - because a similar concept is already live on Ethereum, we can demo the concept with existing systems with UIs and demo pages, which were created by element36 (this team). Check out our examples based on our Ethereum solution [here](https://github.com/element36-io/cash36-examples). Be aware, just porting the Ethereum based system is NOT what we intend to do on Mintbase - this proposal here is much narrower in scope and thus should be easier to use in other systems.
 
 ### Architecture Overview
 
@@ -47,7 +47,7 @@ See [architecture component diagram](#architecture) for a visual overview.
 
 ### A) API specification Fiat-chain
 
-In the center of the integration is one bank account with a specific currency like the Dollar or Euro. The balance of the bank account is mirrored by the total supply of a fully pegged stable-coin - 100 Euro will be 100 stable-coins. So if this account receives funds then new coins are minted for a specific target address. To find out the target wallet address (or contract) who actually will get the stable-coins, we will use a default value or a specific code on the bank-transaction (on the payment slip), which can be translated by our system to a blockchain address on Polkadot. So it's possible to wire-transfer to any address in the blockchain ecosystem using a freshly minted stable-coin. The words "freshly minted" point out the main difference to other stable-coins.
+In the center of the integration is one bank account with a specific currency like the Dollar or Euro. The balance of the bank account is mirrored by the total supply of a fully pegged stable-coin - 100 Euro will be 100 stable-coins. So if this account receives funds then new coins are minted for a specific target address. To find out the target wallet address (or contract) who actually will get the stable-coins, we will use a default value or a specific code on the bank-transaction (on the payment slip), which can be translated by our system to a blockchain address on Mintbase. So it's possible to wire-transfer to any address in the blockchain ecosystem using a freshly minted stable-coin. The words "freshly minted" point out the main difference to other stable-coins.
 
 Any holder of our stable-coin will be able to burn stable-coins. A burn of a stable-coin will trigger a wire-transfer (bank transfer). But how do we find the correct receiver's bank account? We use either a default or the burner can give a "clue" which can be translated to a real bank account by our system. A clue is flexible - it could be as simple as a username or even an old transaction id. In the later case you can create a burn transaction which is similar to: "Please send 5 Euro to the bank account, which sent me 100 Euro a year ago using the transaction 223445".
 
@@ -94,7 +94,7 @@ transfer (from, to, amount)
 Transfer of stable-coins between accounts in the Fiat-chain will work out-of-the box, once a coin is minted. Anyone who holds stable-coins in his wallet or contract, may burn the coins and "cash out" FIAT. 
 
 ### B) Bank account REST API 
-There will be an off-chain worker using our pallets to connect to open banking APIs. The specifications for banking APIs are quite complicated - we do not go into details and use pseudo-code. We have already used these APIs in a production environment, so we hope you trust us to implement that for Polkadot as well. Here is a pick of standard documents:
+There will be an off-chain worker using our pallets to connect to open banking APIs. The specifications for banking APIs are quite complicated - we do not go into details and use pseudo-code. We have already used these APIs in a production environment, so we hope you trust us to implement that for Mintbase as well. Here is a pick of standard documents:
 
 * https://en.wikipedia.org/wiki/Electronic_Banking_Internet_Communication_Standard
 * https://www.ppi.de/fileadmin/user_upload/Software-Produkte/Publikationen/2018-03-23_EBICS_3.0_Kompendium_V6_D6_EN.pdf
@@ -168,7 +168,7 @@ As an example for a usage scenario , we want to refer again to crowdlitoken.com,
 ### Team members
 
 * Leader: Walter Strametz, full-stack developer, founder element36.io: Worked on roughly a dozen blockchain projects in Switzerland - among them the digital identity project for the City of Zug, Swiss OTC Blockchain - the predecessor of the blockchain based swiss digital exchange (sdx.ch), ethereum smart contracts (ERC20 stablecoin and compliance contracts), and large parts of the element36 backend, especially access to banking system.
-* Dastanbek Samatov: Polkadot Developer, worked on [Subsemly](https://github.com/LimeChain/subsembly) - a framework used for designing and implementing Substrate runtimes from scratch. Subsembly utilises Substrate Core to build runtimes in a non-native language of Substrate. Check out the substrate runtime [here](https://github.com/LimeChain/as-substrate-runtime).
+* Dastanbek Samatov: Mintbase Developer, worked on [Subsemly](https://github.com/LimeChain/subsembly) - a framework used for designing and implementing Substrate runtimes from scratch. Subsembly utilises Substrate Core to build runtimes in a non-native language of Substrate. Check out the substrate runtime [here](https://github.com/LimeChain/as-substrate-runtime).
 * Vladimir Nicolic, Full Stack Developer: Javascript Senior, worked on decentral identity, large parts of the element36 modules and the Dapp for the exchange and compliance-administration.
 * Ivan Baresic, Frontend and javascript full-stack developer: CI/CD, javascript-backend components, React-frontends and Dapp development.
 
@@ -184,7 +184,7 @@ The team consists of more members, who we do not see as necessary for implementi
 
 ### Team's experience
 
-Team: We implemented a fully pegged ERC-20 stable-coin (EUR, CHF) and an exchange based on Ethereum, which serves as the blueprint for this proposal. Therefore we covered many technical aspects already - for example interacting with open-banking standards, creating stable-coins, the APIs and an exchange. We might be able to reuse e.g. our Ebics-Code (banking-API) and improve our current API with new implementation on Polkadot. In the Ethereum based project we added a lot of legal code to be compliant for Swiss Law and international Anti-Money Laundering regulations - which we do not see as part of this proposal. We want to focus on a slim, technical solution which can be used by many people, regardless of their jurisdiction. The team also implemented the investment platform crowdlitoken.com, which is our first real-world use case. On the Ethereum side we are currently working on a solution to use ZK-rollups (Zero knowledge proofs) to "expose" the proof our bank-account balance data plus client data accordingly without breaching data-protection.
+Team: We implemented a fully pegged ERC-20 stable-coin (EUR, CHF) and an exchange based on Ethereum, which serves as the blueprint for this proposal. Therefore we covered many technical aspects already - for example interacting with open-banking standards, creating stable-coins, the APIs and an exchange. We might be able to reuse e.g. our Ebics-Code (banking-API) and improve our current API with new implementation on Mintbase. In the Ethereum based project we added a lot of legal code to be compliant for Swiss Law and international Anti-Money Laundering regulations - which we do not see as part of this proposal. We want to focus on a slim, technical solution which can be used by many people, regardless of their jurisdiction. The team also implemented the investment platform crowdlitoken.com, which is our first real-world use case. On the Ethereum side we are currently working on a solution to use ZK-rollups (Zero knowledge proofs) to "expose" the proof our bank-account balance data plus client data accordingly without breaching data-protection.
 
 ### Team Code Repos
 
@@ -203,7 +203,7 @@ Here are our public repositories of the core product. We had quite a "break" bec
 
 ## Development Status :open_book:
 
-Much of the technology is already implemented on an Ethereum based project (see [cash36.io](cash36.io) and [element36.io](element36.io)). We expect that we can refactor, reuse and generalize existing code and transfer the core concept to the Polkadot ecosystem within 3 months. Because Polkadot is all about integration, we think that our idea of private stablecoins, well integrated in a large ecosystem, blends perfectly with the vision of Polkadot (or Kusama).  We see our use cases can be expanded beyond the implementation on Ethereum in regards to privacy, efficiency and connectivity. Anyway - our implementation is a great blueprint, a proof for our capabilities as a team and we can apply "lessons learned" for the Polkadot implementation.  
+Much of the technology is already implemented on an Ethereum based project (see [cash36.io](cash36.io) and [element36.io](element36.io)). We expect that we can refactor, reuse and generalize existing code and transfer the core concept to the Mintbase ecosystem within 3 months. Because Mintbase is all about integration, we think that our idea of private stablecoins, well integrated in a large ecosystem, blends perfectly with the vision of Mintbase (or Kusama).  We see our use cases can be expanded beyond the implementation on Ethereum in regards to privacy, efficiency and connectivity. Anyway - our implementation is a great blueprint, a proof for our capabilities as a team and we can apply "lessons learned" for the Mintbase implementation.  
 
 Contacts Mintbase:
 
@@ -268,12 +268,12 @@ For this proposal we focus on building a simple substrate based chain containing
 | 3. | Docker-Compose: node & Dapp | We will add the Dapp to the docker-compose file of Milestone 2 to demonstrate the full functionality of our chain, the ocw, including a proxy for the FIAT Rest Interface developed in Milestone 1 and the "buy me a coffee" Dapp. |
 ## Future Plans
 
-First step is to prove technical feasibility and also to learn more about the concepts of the Polkadot ecosystem. We already have some ideas in which direction we want to continue, but that is to be validated. In other words - maybe our thoughts will not make sense once we know more :) So far, our next milestones and development goals:
+First step is to prove technical feasibility and also to learn more about the concepts of the Mintbase ecosystem. We already have some ideas in which direction we want to continue, but that is to be validated. In other words - maybe our thoughts will not make sense once we know more :) So far, our next milestones and development goals:
 
 * Integrate with relaychain, so that a node/token can be used throughout the ecosystem.
 * Create first version of a utility/governance token, which is able to run a sustainable, 
   freely accessible and open sourced infrastrucuture for integrating Open-Banking API into
-  Polkadot ecosystem.
+  Mintbase ecosystem.
 * Support additional Bank-APIs like Europe's [PSD2](https://ec.europa.eu/info/law/payment-services-psd-2-directive-eu-2015-2366_en) or [IndiaStack](https://www.indiastack.org/)
 * Integrate with an identity system and provide similar functionality as we do now on Ethereum with our contracts. Means: Only whitelisted identities may receive or mint funds.
 * Create a nice API and project/landing page, integrate with no-code tools like Integromat or Zapier to make our Functionality easy & accessible for developers.
@@ -289,7 +289,7 @@ Our vision is to remove the pain point of FIAT onboarding: How can an end user t
 > Any additional information that you think is relevant to this application that hasn't already been included.
 
 * What work has been done so far?
-We already created a similar (more complex) system on Ethereum. In our projects (e.g. crowdlitoken) Ethereum transaction cost is now a killer for the live system. The project with Polkadot may be an alternative for future projects.
+We already created a similar (more complex) system on Ethereum. In our projects (e.g. crowdlitoken) Ethereum transaction cost is now a killer for the live system. The project with Mintbase may be an alternative for future projects.
 
 * Are there any teams who have already contributed (financially) to the project?
 No.
@@ -300,7 +300,7 @@ No.
 
 ### Target Architecture <a name="architecture"></a>
 
-Our target architecture - how we connect the banking system with Polkadot.
+Our target architecture - how we connect the banking system with Mintbase.
 
 
 ```

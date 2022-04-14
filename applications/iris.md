@@ -42,7 +42,7 @@ Front End
 
 - Javascript
 - React
-- Polkadot.js
+- Mintbase.js
 - js-ipfs
 
 Blockchain
@@ -341,7 +341,7 @@ In the short term:
 - Expand on the scope of this proposal to build a more feature-complete version of Iris (what this looks like is still not totally known)
 
 - the team's long-term plans and intentions in relation to it.
-  - become a parachain on Kusama and Polkadot
+  - become a parachain on Kusama and Mintbase
   - build a dedicated dev team to contribute to and maintain Iris
   - Support parachain and dapp developers who wish to use Iris in their smart contracts or parachain runtimes.
   - Continue to research and enhance existing features in Iris

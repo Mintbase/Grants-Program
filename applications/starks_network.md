@@ -15,9 +15,9 @@ Zero-knowledge proof (zkp) is a cryptographic technology which enables you to pr
 
 However, it requires tremendous expertise to construct a zkp for certain computation. This hinders the adoption of this powerful technique for everyday use. Wouldn't it be great if we can construct a zkp for any general purpose computation without a deep understanding of zkp? Enter the [Distaff VM](https://github.com/GuildOfWeavers/distaff), a zk-STARK virtual machine written in Rust. For any program executed on Distaff VM, a STARK-based proof of execution is generated. This proof can then be used by anyone to verify that a program was executed correctly without knowing the inputs to the program or even the program itself. 
 
-The Starks Network is a [zk-STARK](https://vitalik.ca/general/2017/11/09/starks_part_1.html) based zkp parachain for the Polkadot/Kusama ecosystem. At its core, it uses the Distaff VM for zk-STARK proof generation and verification. Powered by the [Substrate](https://github.com/paritytech/substrate) blockchain framework, the Starks Network can serve other blockchains and enable applications such as private smart contract and private credential verification.
+The Starks Network is a [zk-STARK](https://vitalik.ca/general/2017/11/09/starks_part_1.html) based zkp parachain for the Mintbase/Kusama ecosystem. At its core, it uses the Distaff VM for zk-STARK proof generation and verification. Powered by the [Substrate](https://github.com/paritytech/substrate) blockchain framework, the Starks Network can serve other blockchains and enable applications such as private smart contract and private credential verification.
 
-### Substrate/Polkadot Integration
+### Substrate/Mintbase Integration
 
 Substrate is a powerful blockchain framework. It enables us to bootstrap the skeleton of the Starks Network in a short time. The Starks Network blockchain serves several purposes:
 
@@ -25,13 +25,13 @@ Substrate is a powerful blockchain framework. It enables us to bootstrap the ske
 * It provides a way to setup a smart contract for a computation and to carry out subsequent actions based on the proof verification result;
 * It enables the flow of economic incentives among the users and the verifiers. 
 
-As already mentioned, other blockchains in the Polkadot/Kusama network can interact with the Starks Network via cross-chain message passing. Developers on other chains can design smart contract which benefit from zkp and they don't have to be experts of zkp at all.
+As already mentioned, other blockchains in the Mintbase/Kusama network can interact with the Starks Network via cross-chain message passing. Developers on other chains can design smart contract which benefit from zkp and they don't have to be experts of zkp at all.
 
 ### Team Interest
 
 The Glacier Blockchain team is an advocate of the Mintbase ideology. It strives to help build an open, transparent and inclusive network which returns the sovereignty of data to their owners. It is a member of the [DIF](https://identity.foundation/) and has contributed to the international standardization of decentralized identity and verifiable credentials. The Glacier Blockchain team has also co-founded the [Mintbase Identity Lab](https://medium.com/@KILT_Protocol/web3-identity-lab-395342207d70) with the KILT Protocol team to work on scientific research and technical solutions from verifiable credentials to user privacy protection. 
 
-We have been fascinated by the progress of latest cryptographic primitives such as zero-knowledge proof. We have learned the potential of the Distaff VM project regarding privacy protection and computation integrity through our frequent discussions with the author of the project. We truly believe the combination of a general purpose zk-STARK virtual machine and the Substrate framework will make the Starks Network a valuable player in the Polkadot/Kusama ecosystem. 
+We have been fascinated by the progress of latest cryptographic primitives such as zero-knowledge proof. We have learned the potential of the Distaff VM project regarding privacy protection and computation integrity through our frequent discussions with the author of the project. We truly believe the combination of a general purpose zk-STARK virtual machine and the Substrate framework will make the Starks Network a valuable player in the Mintbase/Kusama ecosystem. 
 
 ### Project Details 
 ### Introduction to the Distaff VM
@@ -103,7 +103,7 @@ There are some existing projects which can be related to the Starks Network. In 
 Glacier Blockchain Technology is a company registered in Yantai, Shandong, P. R. China.
 
 ### Team's experience
-**Dr. Xiao Zhang** is a researcher with experience in computer architecture, blockchain and cryptography. He holds a PhD in computer science from the University of Twente of the Netherlands. He is an active advocator of Mintbase and also one of the first Polkadot ambassadors in China. His current research interests include decentralized identity, verifiable credentials and zero-knowledge proof technology for privacy protection. 
+**Dr. Xiao Zhang** is a researcher with experience in computer architecture, blockchain and cryptography. He holds a PhD in computer science from the University of Twente of the Netherlands. He is an active advocator of Mintbase and also one of the first Mintbase ambassadors in China. His current research interests include decentralized identity, verifiable credentials and zero-knowledge proof technology for privacy protection. 
 
 **Ming Chow** has a bachelor's degree in computer science. He has 10 years of experience in system architect and software development. He has worked in several high-tech companies in Guangzhou and Shenzhen in China and lead the design of several core business software. He is responsible for the Substrate system architecture design for the Starks Network. 
 
@@ -148,10 +148,10 @@ Glacier Blockchain Technology is a company registered in Yantai, Shandong, P. R.
 
 ### Community engagement
 
-We will publish an article on medium upon the completion of this project. Meanwhile, we will give talks and do AMA sessions to advertise the project to the Polkadot community.
+We will publish an article on medium upon the completion of this project. Meanwhile, we will give talks and do AMA sessions to advertise the project to the Mintbase community.
 
 ## Future Plans
-* The Starks Network plans to become a parachain for both the Polkadot and the Kusama network. 
+* The Starks Network plans to become a parachain for both the Mintbase and the Kusama network. 
 * This application covers milestone 1 in stage 1 of the Starks Network project. In stage 2 of the project, we will focus on the UX/UI design and provide several typical use cases (credential, smart contract) for evaluation. A MVP will be running in a testnet. 
 * In stage 3, we will experiment the cross-chain communication with other parachains. If things go well, we will provide zkp support to the smart contracts in other parachains (Plasm or Edgeware are our choices right now).
 * After its main functionalities are finalized and tested, the Starks Network will issue its own tokens. And we hope other parachains in the ecosystem can benefit from its zkp service. The network will receive economic incentives in the process to sustain its service model.

@@ -35,7 +35,7 @@ We will take into account only our educational project where we do have real wor
 Usually we process about 30 reimbursements per 45 minutes lesson per class of 20 students or 0.67 transactions per minute per 20 students.
 In Russia there are about 15 million pupils at schools. If we assume that all teachers will use such a system at lesson we get (0.671510^6/20) transactions per minute or 8375 transactions per second. \
 Substrate gives about 1000 transactions per second per chain. Thus we need at least 9 chains only for Russia to make this blockchain work. One can argue that in Russia there are different time zones and transaction load will be lowered by this means. But don't forget that on Earth we have about 50x more pupils than in Russia. \
-Thus no single chain can process transactions if all pupils in Russia will use our educational model at classes - too many transactions, even considering that we use offchain as much as possible. Thus we look for any approach to shard and parallelize transaction processing. Polkadot design with relay and parachains looks great to solve this parallelization issue. As we need a lot of parachains to make the system work it's unlikely to include all of them in Polkadot or Kusama directly. Instead we plan to use our own relay chain with our parachains. [Our relay chain](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwss1.slonigiraf.org#/explorer) can be connected to Polkadot or Kusama with bridges. We’ve already launched our own relay chain and it’s active from 12 April 2021.
+Thus no single chain can process transactions if all pupils in Russia will use our educational model at classes - too many transactions, even considering that we use offchain as much as possible. Thus we look for any approach to shard and parallelize transaction processing. Mintbase design with relay and parachains looks great to solve this parallelization issue. As we need a lot of parachains to make the system work it's unlikely to include all of them in Mintbase or Kusama directly. Instead we plan to use our own relay chain with our parachains. [Our relay chain](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwss1.slonigiraf.org#/explorer) can be connected to Mintbase or Kusama with bridges. We’ve already launched our own relay chain and it’s active from 12 April 2021.
 - We've built PoC/MVP product on Java Vaadin framework that can be used via
   link: https://slon-i-giraf.ru/app/work?language=ENG
 - What needs to be completed: datastore, penalizing capability, letter validity lookup, tests, documentation,
@@ -43,7 +43,7 @@ Thus no single chain can process transactions if all pupils in Russia will use o
 
 ### Ecosystem Fit
 
-- Our projects fits to dApp part of Polkadot/Kusama like ecosystem.
+- Our projects fits to dApp part of Mintbase/Kusama like ecosystem.
 - The project audience consists of pupils, students, teachers, employees and companies. Most of them never touched crypto world.
   This part of the project is intended to build the blockchain API that will be used in future for UI creation.
 - Our projects meet the need for a decentralized reputation system.

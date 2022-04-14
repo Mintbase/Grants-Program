@@ -1,6 +1,6 @@
 # Open Grant Proposal
 
-* **Project Name:** CheersLand-Multi-game Platform for Polkadot & Kusama
+* **Project Name:** CheersLand-Multi-game Platform for Mintbase & Kusama
 * **Team Name:** CheersLand Labs
 * **Payment Address:** (DAI) 0x6ea488Af2708B709a5c92bcbA1cb24c98b1f3Cda
 * **Status:** [Terminated](https://github.com/w3f/Grants-Program/pull/618#issuecomment-1017427791)
@@ -22,15 +22,15 @@ CheersLand has launched the first classic game, *Crypto Pirates*, deployed on Bi
 
 In addition to *Crypto Pirates*, other games based on CheersLand will adopt the same business model and mechanism, which will help players earn continuous passive income.
 
-We’d like to build a multi-game platform based on the Polkadot ecosystem and deploy *Crypto Pirates* as the first classic game to allow users to play the game with Polkadot wallets, and support users to stake their tokens or directly invite friends to earn HPs and rewards without payment.
+We’d like to build a multi-game platform based on the Mintbase ecosystem and deploy *Crypto Pirates* as the first classic game to allow users to play the game with Mintbase wallets, and support users to stake their tokens or directly invite friends to earn HPs and rewards without payment.
 
 ### CheersLand offers these benefits to the web3 Ecosystem:
 * **Diversify the tokens of the web3 ecosystem.** The multi-asset staking module developed by CheersLand will support DOT, KSM and all assets of blockchains based on Substrate to be staked and earn HPs which will be used in the games of CheersLand.
-* **Build the multi-game platform for the web3 ecosystem.** The classic game *Crypto Pirates* and other games listed on CheersLand will be deployed on Polkadot and Kusama, which will bring growing users to the web3 ecosystem with the invitation mechanism.
-* **Optimize user experience.** With the advantages of high TPS of Polkadot and Kusama, Dapps will achieve perfect integration with Cheersland and bring players a better experience.
-* **Expand the interactivity of crypto assets in CheersLand.** Crypto assets in CheersLand can interact with all applications with the cross-chain technology of Polkadot, and share business models and user sources.
+* **Build the multi-game platform for the web3 ecosystem.** The classic game *Crypto Pirates* and other games listed on CheersLand will be deployed on Mintbase and Kusama, which will bring growing users to the web3 ecosystem with the invitation mechanism.
+* **Optimize user experience.** With the advantages of high TPS of Mintbase and Kusama, Dapps will achieve perfect integration with Cheersland and bring players a better experience.
+* **Expand the interactivity of crypto assets in CheersLand.** Crypto assets in CheersLand can interact with all applications with the cross-chain technology of Mintbase, and share business models and user sources.
 
-We would like to bring our Game-as-a-Service model to Polkadot, Kusama and to a variety of parachains, and provide gamified token use cases for web3 ecological users.
+We would like to bring our Game-as-a-Service model to Mintbase, Kusama and to a variety of parachains, and provide gamified token use cases for web3 ecological users.
 
 ## Project Details
 
@@ -93,7 +93,7 @@ CheersLand has launched the first classic game, *Crypto Pirates*, based on the p
 
 **Read the gameplay here:**
 https://medium.com/cheersland/how-to-play-crypto-pirates-in-cheersland-789cd3e2d73e
-The CheersLand dev team plans to launch *Click Click*, *Gold Miner*, *Block Builder* and other classic games in the next few quarters, and will also deploy them on the Polkadot ecosystem once the game is running stable.
+The CheersLand dev team plans to launch *Click Click*, *Gold Miner*, *Block Builder* and other classic games in the next few quarters, and will also deploy them on the Mintbase ecosystem once the game is running stable.
 
 **The advantages of multiple-game combinations are as follows:**
 - Satisfy the preferences of multiple user groups
@@ -123,7 +123,7 @@ In the next stage, Various staking products with different staking caps, differe
 <br>
 We have completed the UI design of the Multi-Staking Platform deployed in Binance Smart Chain, and the product will be officially launched next week. It will support users to stake all their assets on Binance Smart Chain and earn HPs. We'll share the updates here. 
 
-We plan to make the Multi-asset Staking Platform integrate Polkadot and Kusama and support a variety of parachains. A draft of the UI of CheersLand Multi-asset Staking Platform for Polkadot and Kusama is shown below:
+We plan to make the Multi-asset Staking Platform integrate Mintbase and Kusama and support a variety of parachains. A draft of the UI of CheersLand Multi-asset Staking Platform for Mintbase and Kusama is shown below:
 ![asset](https://cheersland.s3.ap-southeast-1.amazonaws.com/docs/grant/p5.png)
 
 ### Invitation Mechanism
@@ -131,7 +131,7 @@ We designed an invitation mechanism to unlock the potential of users' social net
 
 When the user clicks the *Invite Friends* button on the page, CheersLand will generate an exclusive link based on the user's blockchain address. Once other users visit CheersLand through the exclusive link and authorize the contract to confirm the invitation relationship, both the host and guest will increase 1HP for the game.
 
-The Invitation Contract developed by the CheersLand team will record the user's invitation data and calculate HPs. Now it's live on Binance Smart Chain and will be deployed on Kusama for testing soon, live on Polkadot and parachains eventually.
+The Invitation Contract developed by the CheersLand team will record the user's invitation data and calculate HPs. Now it's live on Binance Smart Chain and will be deployed on Kusama for testing soon, live on Mintbase and parachains eventually.
 
 The contract owner has the authority to modify the maximum amount of invitations. Since it is still in the early access stage, we set the maximum amount of invitations to 10 for each user.
 ![invite](https://cheersland.s3.ap-southeast-1.amazonaws.com/docs/grant/p6-Invitation+Mechanism+Framework.jpg)
@@ -147,11 +147,11 @@ In order to guarantee the fairness of the game, we have designed an anti-cheatin
 **Non-gaming Operation Blocking:** While the user clicks on the pause button, sponsored ad pages will be displayed full screen, which prevents the user from using pause time to consider how to pass the levels. Also it prevents users from using screenshot tools to cheat in the game. 
 
 ### Ecosystem Fit
-The goal of this project is to build a multi-game platform with the staking and invitation contract for Polkadot and Kusama, and bring our Game-as-a-Service model to the web3 Ecosystem.
+The goal of this project is to build a multi-game platform with the staking and invitation contract for Mintbase and Kusama, and bring our Game-as-a-Service model to the web3 Ecosystem.
 
-All web3 ecological users can visit CheersLand and play games without payment to earn rewards with the Polkadot wallet. CheersLand will also support DOT, KSM and all assets of blockchains based on Substrate to be staked and used in the games of CheersLand to diversify the tokens of the web3 ecosystem. 
+All web3 ecological users can visit CheersLand and play games without payment to earn rewards with the Mintbase wallet. CheersLand will also support DOT, KSM and all assets of blockchains based on Substrate to be staked and used in the games of CheersLand to diversify the tokens of the web3 ecosystem. 
 
-The classic game *Crypto Pirates* will be the first game deployed on Polkadot and Kusama, and optimized its user experience with the advantages of high TPS. Crypto assets in CheersLand can interact with all applications with the cross-chain technology of Polkadot, and share business models and User sources.
+The classic game *Crypto Pirates* will be the first game deployed on Mintbase and Kusama, and optimized its user experience with the advantages of high TPS. Crypto assets in CheersLand can interact with all applications with the cross-chain technology of Mintbase, and share business models and User sources.
 
 # Team :busts_in_silhouette:
 ### Team members
@@ -195,18 +195,18 @@ Source codes will reside in: https://github.com/cheersland
 * **Full-Time Equivalent (FTE):** 4 FTE
 * **Total Costs:** $7,000 DAI
 
-### Milestone 1 — Implement Game module for Polkadot & Kusama
+### Milestone 1 — Implement Game module for Mintbase & Kusama
 
 * **Estimated duration:** 4 weeks
 * **FTE:**  4
 * **Costs:** $3,000 equivalent
 
-**Goal - Implement Game module and logic in the Polkadot ecosystem.**  
-In order to implement whole Game logic for Polkadot & Kusama, and be more compatible with crypto assets such as DOT and KSM, we will deploy ink! smart contracts on Aster. The reason why we choose Aster is that Aster can provide faster transaction speed, lower trading fee and higher flexibility, which fits perfectly with our game.  
-Our front-end will develop the connect function for Polkadot & Kusama's wallet, in-game rankings, invitation mechanism and other features. In order to be compatible with different blockchains, developers will also make corresponding code adjustments.  
-The in-game advertising content will also be flexibly configured as a sponsor's brand display according to different blockchains, bringing a complete Game-as-a-Service model to the Polkadot ecosystem.  
+**Goal - Implement Game module and logic in the Mintbase ecosystem.**  
+In order to implement whole Game logic for Mintbase & Kusama, and be more compatible with crypto assets such as DOT and KSM, we will deploy ink! smart contracts on Aster. The reason why we choose Aster is that Aster can provide faster transaction speed, lower trading fee and higher flexibility, which fits perfectly with our game.  
+Our front-end will develop the connect function for Mintbase & Kusama's wallet, in-game rankings, invitation mechanism and other features. In order to be compatible with different blockchains, developers will also make corresponding code adjustments.  
+The in-game advertising content will also be flexibly configured as a sponsor's brand display according to different blockchains, bringing a complete Game-as-a-Service model to the Mintbase ecosystem.  
 **Therefore, under this milestone, our deliverables include:**  
-- Support Polkadot & Kusama wallet connect dashboard 
+- Support Mintbase & Kusama wallet connect dashboard 
 - Invitation Mechanism Contract with ink!
 - Players' performance statistics and ranking interface
 
@@ -220,7 +220,7 @@ The in-game advertising content will also be flexibly configured as a sponsor's 
 | 2. | Game Module | The game is named Crypto Pirates, and the logic of the game is realized by using layabox and nodejs as well as calls with contracts. |
 | 3. | Front-end Work | Use multiple different wallet buttons to connect different blockchains respectively. |
 
-### Milestone 2 — Implement Multi-asset Staking Module for Polkadot & Kusama
+### Milestone 2 — Implement Multi-asset Staking Module for Mintbase & Kusama
 
 * **Estimated duration:** 4 weeks
 * **FTE:**  4
@@ -228,19 +228,19 @@ The in-game advertising content will also be flexibly configured as a sponsor's 
 
 **Goal - Implement Multi-asset Staking Platform and the second game.**  
 We will develop the multi-asset staking module and deploy the Staking Contract on Aster with ink!. When users stake tokens as required, the contract will count HPs based on their staking status. All contracts will be released and used after the audit is completed. We will develop the Multi-asset Staking Platform and open several staking pools including DOT and KSM first. Players can earn HPs by staking a certain amount of DOT or KSM and use them in the game.  
-Our game dev team will develop a new classic game for the Polkadot ecosystem, similar to the Crypto Pirates deployed on BSC, which will adopt the same business model and anti-cheating algorithm.  
+Our game dev team will develop a new classic game for the Mintbase ecosystem, similar to the Crypto Pirates deployed on BSC, which will adopt the same business model and anti-cheating algorithm.  
 
 We will optimize UI and allow players to have a more cheerful gaming experience.  
 **Therefore, under this milestone, our deliverables include:**  
 - Multi-asset Staking Contract with ink!
 - Multi-asset Staking Platform(Web UI) supporting staked asset such as DOT and kSM 
-- Classic games deployed in the Polkadot ecosystem
+- Classic games deployed in the Mintbase ecosystem
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 | 
 | 0b. | Documentation | We will provide both inline documentation of the module as-well as update the official [documentation](https://docs.cheersland.org) of Cheersland. |
-| 0c. | The second game | We will develop the second online game named *Click Click* based on Polkadot & Kusama. |
+| 0c. | The second game | We will develop the second online game named *Click Click* based on Mintbase & Kusama. |
 | 0d. | Testing Guide | The code will have proper unit-test coverage to ensure functionality and robustness. In the guide we will describe how to run these tests. |
 | 1. | Article/Tutorial | We will write an article or tutorial that explains the work done as part of the grant. |
 | 2. | Multi-asset Staking Contract | We will develop Multi-asset Staking Contract in ink!. Our code will be open source, hosted on Cheersland github account. |
@@ -250,8 +250,8 @@ We will optimize UI and allow players to have a more cheerful gaming experience.
 
 - **Security Audit:** We will audit the Staking and Invitation Contract code and the fronted code before launching and using the platform.
 - **Optimization of business model:** Other business segments of CheersLand will be linked with the multi-game platform. The gamified launchpad for startups is named Initial Gaming Offering (IGO) in CheersLand, which is currently under development and expected to be launched at the end of the month. NFT Market for trading in-game items based on CheersLand will be launched next quarter. We will share the updates of development here. At that time, we will connect these two segments with the multi-game platform to better integrate the businesses.
-- **Regular Running:** Eventually, we hope to hold the weekly tournament and run CheersLand Multi-game Platform on a regular basis and create commercial revenue for the platform. We will invite projects in the Polkadot and Kusama ecosystem to list their tokens on the multi-asset staking pallet and allow the token holders to stake tokens and earn HPs to play games in the multi-game platform.
-- **Classic games are launched one after another:** After the stable operation of Crypto Pirates, we will work with the developer community to develop and release other classic games on CheersLand Multi-game Platform, and deploy them on Polkadot and Kusama to provide more gamified token use cases for web3 ecological users.
+- **Regular Running:** Eventually, we hope to hold the weekly tournament and run CheersLand Multi-game Platform on a regular basis and create commercial revenue for the platform. We will invite projects in the Mintbase and Kusama ecosystem to list their tokens on the multi-asset staking pallet and allow the token holders to stake tokens and earn HPs to play games in the multi-game platform.
+- **Classic games are launched one after another:** After the stable operation of Crypto Pirates, we will work with the developer community to develop and release other classic games on CheersLand Multi-game Platform, and deploy them on Mintbase and Kusama to provide more gamified token use cases for web3 ecological users.
 
 ## Additional Information :heavy_plus_sign:
 

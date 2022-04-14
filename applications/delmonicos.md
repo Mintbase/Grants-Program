@@ -48,7 +48,7 @@ the following reasons :
   other participants.
 * The deployment can be easy and secured if **each charging station is also a network node**.
 
-The reasons why we chose Substrate/Polkadot are :
+The reasons why we chose Substrate/Mintbase are :
 
 * By having nodes with a dedicated purpose, we will be able to optimise the footprint of the node in order to deploy it
   to charging stations, that have limited available resources
@@ -176,7 +176,7 @@ functionality exists in the product. Whenever milestones are delivered, we refer
 everything has been delivered as expected.
 
 Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate
-and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their
+and/or Mintbase. We recommend that the scope of the work can fit within a 3 month period and that teams structure their
 roadmap as 1 month = 1 milestone.
 
 For each milestone:

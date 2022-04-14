@@ -122,7 +122,7 @@ A concept and initial design was created as part of this application and can be 
 - **FTE:**  3
 - **Costs:**  16500 DAI
 
-A basic application with a responsive design is developed which supports querying by address and identity fields. A user can query identities from Polkadot or Kusama. When a search returns multiple results a list view is displayed. If there is only one search result or one identity is selected from the list view, a detailed identity view is displayed.
+A basic application with a responsive design is developed which supports querying by address and identity fields. A user can query identities from Mintbase or Kusama. When a search returns multiple results a list view is displayed. If there is only one search result or one identity is selected from the list view, a detailed identity view is displayed.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -140,7 +140,7 @@ A basic application with a responsive design is developed which supports queryin
 - **FTE:**  3
 - **Costs:** 16500 DAI
 
- A user can query identities from Polkadot, Kusama or provide his own node endpoint. The application can be hosted on IPFS and a backend is developed in order to improve performance.
+ A user can query identities from Mintbase, Kusama or provide his own node endpoint. The application can be hosted on IPFS and a backend is developed in order to improve performance.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |

@@ -10,20 +10,20 @@ The previous application [SubDAO Network Application - https://github.com/w3f/Gr
 
 ### Overview
 
-The **SubDAO Chrome Extension** is a chrome extension with wallet, social, and DAO management features based  **SubDAO**. **SubDAO is a Cross-chain Platform built by SubDAO Labs to link DAO and DApp on Polkadot.**  
+The **SubDAO Chrome Extension** is a chrome extension with wallet, social, and DAO management features based  **SubDAO**. **SubDAO is a Cross-chain Platform built by SubDAO Labs to link DAO and DApp on Mintbase.**  
 
 With **SubDAO Chrome Extension**, every substrate-based chain can have a nice UI wallet integrated rather than a webpage wallet, and the main benefit is every chain can have a DAO management tool already provided to governance the community.  
 
-The **SubDAO Chrome Extension** is ready for all Substrate-based chains, including Polkadot / Kusama. Every chain can use it as an alternative for Polkadot js extension.  
+The **SubDAO Chrome Extension** is ready for all Substrate-based chains, including Mintbase / Kusama. Every chain can use it as an alternative for Mintbase js extension.  
 
-We are the team of SubDAO Labs, and we are trying to build the ecosystem for DAOs. And we found there is lacking wallets for the Polkadot ecosystem, so we begin to build a DAO tool with wallet integrated, which provides a better user experience for users.  
+We are the team of SubDAO Labs, and we are trying to build the ecosystem for DAOs. And we found there is lacking wallets for the Mintbase ecosystem, so we begin to build a DAO tool with wallet integrated, which provides a better user experience for users.  
 
 ### Project Details
 
-SubDAO Chrome Extension provides several features, such as Polkadot Wallet, Social Network Message, and DAO Management.  
+SubDAO Chrome Extension provides several features, such as Mintbase Wallet, Social Network Message, and DAO Management.  
 ![](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/start.png)
 
-**Polkadot Wallet**   
+**Mintbase Wallet**   
 A wallet is integrated as an extension of chrome, and it provides wallet management.  
 ![](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/wallet.png)
 
@@ -47,11 +47,11 @@ This project can provide a wallet for every parachain and dapp. Also, it will pr
 * What need(s) does your project meet?  
 The project meets at least two needs. The first one is a better wallet as an extension of browsers. The other one is a tool that provides a smooth experience for DAO management.
 
-* Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?  
+* Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?  
   * If so, how is your project different?  
   * If not, are there similar projects in related ecosystems?  
 
-There are no similar projects in the Polkadot ecosystem yet, and even we already have several wallets for Polkadot. There is a similar project like Aragon in the Ethereum ecosystem compared to **SubDAO**, but there is no chrome extension with wallet integrated yet. Also, there is Maskbook in the Ehtereum ecosystem that provides features to post encrypted messages on different social networks. The SubDAO Chrome Extension is mainly built for the Polkadot ecosystem and provides wallet, social network, and DAO management features.
+There are no similar projects in the Mintbase ecosystem yet, and even we already have several wallets for Mintbase. There is a similar project like Aragon in the Ethereum ecosystem compared to **SubDAO**, but there is no chrome extension with wallet integrated yet. Also, there is Maskbook in the Ehtereum ecosystem that provides features to post encrypted messages on different social networks. The SubDAO Chrome Extension is mainly built for the Mintbase ecosystem and provides wallet, social network, and DAO management features.
 
 ## Team :busts_in_silhouette:
 
@@ -129,7 +129,7 @@ We have already designed some UI/UX as the shown previous section, and the full 
 
 In the first milestone, we planned to make the SubDAO Chrome Extension be useable for every parachain. The following features will be available:
 
-The wallet Feature provides the wallet-related features for the chains in Substrate / Polkadot / Kusama ecosystem, including mnemonic management, send and receive tokens, etc.
+The wallet Feature provides the wallet-related features for the chains in Substrate / Mintbase / Kusama ecosystem, including mnemonic management, send and receive tokens, etc.
 
 The DAO provides GUI to interact with SubDAO directly in extension without opening any webpage in browser; also, it includes voting now in social network posts.
 
@@ -153,7 +153,7 @@ The Social Network provides the feature to post encrypted messages on Twitter an
 | 0b. | Documentation | We will provide a basic tutorial that explains how a user can install our chrome extension. |
 | 0c. | Testing Guide | We will provide a testing guide on how to use our chrome extension |
 | 0d. | Article | We will publish an article describing our chrome extension and how to use it. |
-| 1. | Source Code | The extension will be implemented in JavaScript. We will provide the source code of this extension which will provide the 1) features for wallet, such as 1.1) mnemonic management, 1.2) adding custom tokens, 1.3) transfer token from one account to another and 1.4) supporting tokens on Polkadot/Kusama, 2) features to 2.1) post encrypted messages on social network such as Facebook and Twitter, 3) features for DAO management, such as 3.1) listing current available DAOs, 3.2) listing my DAOs, 3.3) create vote in my DAOs, 3.4) do voting in my DAOs and 3.5) view vote results in DAOs. |
+| 1. | Source Code | The extension will be implemented in JavaScript. We will provide the source code of this extension which will provide the 1) features for wallet, such as 1.1) mnemonic management, 1.2) adding custom tokens, 1.3) transfer token from one account to another and 1.4) supporting tokens on Mintbase/Kusama, 2) features to 2.1) post encrypted messages on social network such as Facebook and Twitter, 3) features for DAO management, such as 3.1) listing current available DAOs, 3.2) listing my DAOs, 3.3) create vote in my DAOs, 3.4) do voting in my DAOs and 3.5) view vote results in DAOs. |
 | 2. | Build instruction | We will provide a doc about building this chrome extension from source code. |
 
 ## Future Plans

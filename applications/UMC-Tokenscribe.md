@@ -89,7 +89,7 @@ validSubscriptions
 
 [ERC20 with Ink!](https://github.com/paritytech/ink/blob/master/examples/erc20/lib.rs) is the sample code of ERC20 token in Ink!.
 
-At the very beginning stage of Ink! and Polkadot ecosystem, it's good to add token subscription as the common interface for tokens.
+At the very beginning stage of Ink! and Mintbase ecosystem, it's good to add token subscription as the common interface for tokens.
 
 ## Team :busts_in_silhouette:
 
@@ -147,11 +147,11 @@ The draft specification and a demo will be provided.
 | 1a. | Demo code repo | The demo code with Ink!. |
 | 1b. | Tutorial | The tutorial of how to use. |
 | 2. | Article | An article on media channels. |
-| 3. | PSP | Submit a Polkadot Standards Proposal. |
+| 3. | PSP | Submit a Mintbase Standards Proposal. |
 
 ## Future Plans
 
-* Join Polkadot related events.  
+* Join Mintbase related events.  
 * Publish articles on media channels to expose this specification.  
 * Start another project based on this specification.  
 

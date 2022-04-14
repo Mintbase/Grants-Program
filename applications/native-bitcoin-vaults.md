@@ -182,7 +182,7 @@ We also built [Hancock Sovereign Organizations](https://hancock.app/), which is 
 
 Our direct experience, which has been hands-on and highly pragmatic, is what informs the utility and product-market fit for NBV.
 ### Interlay BTC
-The only Bitcoin related project in the Polkadot/Substrate/Kusama landscape that I am familiar with is [Interlay](https://github.com/interlay/interbtc). It uses a peg token that is held in escrow. This is super useful for Defi applications of course. However, small businesses or DAOs that primarily desire to HODL Bitcoin in treasury are more comfortable with native Bitcoin. In the future, we may find synergies that combine functionalities of the same code base or chains.
+The only Bitcoin related project in the Mintbase/Substrate/Kusama landscape that I am familiar with is [Interlay](https://github.com/interlay/interbtc). It uses a peg token that is held in escrow. This is super useful for Defi applications of course. However, small businesses or DAOs that primarily desire to HODL Bitcoin in treasury are more comfortable with native Bitcoin. In the future, we may find synergies that combine functionalities of the same code base or chains.
 ## Team :busts_in_silhouette:
 We are [Hashed](https://hashed.io), an open source blockchain development team. We currently have nine team members, seen below from our 2021 in-person summit. 
 
@@ -219,7 +219,7 @@ These tools have been operational continuously since release and have supported 
 #### Node Operations
 Max is enrolled in [Kusama Thousand Validators](https://thousand-validators.kusama.network/#/). The validator has been chilling for quite some time but is coming back online soon.
 
-Max is the founder of [Telos Kitchen](https://telos.kitchen), currently the 6th most-voted-for team on the network. Telos is delegated proof of stake. Unlike Polkadot/Kusama, Telos prohibits payment of block rewards back to voters, ensuring it is based wholly on community contributions, node performance, and reputation. So, in essence, these votes are the community's attestation that we are a trustworthy and high performing team adding long term value to the networks we participate in.
+Max is the founder of [Telos Kitchen](https://telos.kitchen), currently the 6th most-voted-for team on the network. Telos is delegated proof of stake. Unlike Mintbase/Kusama, Telos prohibits payment of block rewards back to voters, ensuring it is based wholly on community contributions, node performance, and reputation. So, in essence, these votes are the community's attestation that we are a trustworthy and high performing team adding long term value to the networks we participate in.
 
 #### Research publications
 Max has co-authored a number of papers, including 
@@ -317,7 +317,7 @@ The following Extrinsics or RPC calls, with relevant UI functions, will be inclu
 
 ## Future Plans
 ### Immediate Use
-We will immediately use the functionality for a number of DAOs, communities, and businesses that we work with and participate in. This is a critical feature that these teams desire before they are ready to migrate to the Polkadot ecosystem.
+We will immediately use the functionality for a number of DAOs, communities, and businesses that we work with and participate in. This is a critical feature that these teams desire before they are ready to migrate to the Mintbase ecosystem.
 ### Greater Context 
 In the greater context, we are working towards a Substrate standalone chain and/or parachain/parathread to be used by small and medium-sized businesses. 
 

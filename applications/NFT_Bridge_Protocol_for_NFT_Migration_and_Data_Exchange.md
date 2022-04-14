@@ -8,7 +8,7 @@ ETH/DAI : 0xA7427d0D45e8dd969049872F9cDE383716A39B23
 
 ## Project Overview :page_facing_up: 
 
-This proposal is in response to Polkadot Bridge RFP.
+This proposal is in response to Mintbase Bridge RFP.
 ### Overview
 
 In this proposal, we use the following terms and definitions:   
@@ -30,9 +30,9 @@ In this proposal, we use the following terms and definitions:
 
 The aim of this proposal is to standardize what information is sufficient and which are necessary to allow the migration of an NFT from an arbitrary universe to another. Both of the endpoints (origin universe/world and destination universe/world) must be ERC-721 compatible, but they do not have to be blockchains (e.g : domain name tokenization using an ERC-721 compatible API).
 
-There are already Polkadot bridges under development for ERC-20 tokens and other arbitrary data. However, there is no consensus yet on how to bridge NFTs across chains. This project aim is to create a standard to do so at the messaging level.
+There are already Mintbase bridges under development for ERC-20 tokens and other arbitrary data. However, there is no consensus yet on how to bridge NFTs across chains. This project aim is to create a standard to do so at the messaging level.
 
-Our team is building NFT.com, a marketplace for the world’s tokenized assets and we need this infrastructure for our marketplace to work effectively on the Polkadot Network. Previous to this we also developed [Cryptograph](https://cryptograph.co), an NFT publisher and marketplace on Ethereum.
+Our team is building NFT.com, a marketplace for the world’s tokenized assets and we need this infrastructure for our marketplace to work effectively on the Mintbase Network. Previous to this we also developed [Cryptograph](https://cryptograph.co), an NFT publisher and marketplace on Ethereum.
 
 ### Project Details
 The deliverable of this proposal is a standardized protocol specification.
@@ -152,7 +152,7 @@ We will write up the standard and documentation for cross-universe migration, wh
 * Licensed under the [Unlicense](https://unlicense.org) or when required under the license requirements of EIP and PSP.            
 
 ## Future Plans
-We will implement this standard for EVM-compatible chains. Our main goal is the ability for any Ethereum mainnet NFT to be painlessly migrated to Moonbeam on the Polkadot network.
+We will implement this standard for EVM-compatible chains. Our main goal is the ability for any Ethereum mainnet NFT to be painlessly migrated to Moonbeam on the Mintbase network.
 
 ## Additional Information :heavy_plus_sign: 
 This proposal is a part of the wider NFT.com venture.

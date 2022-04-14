@@ -8,14 +8,14 @@
 
 We want to make it simple to create and build Android and iOS game projects and connect them with Substrate blockchain. Currently, setup build of rust game project with basic requirements (like 2D/3D rendering, sounds, touch events, textures, etc) for iOS and Android is a pretty hard task. So a lot of developers don't start projects on top of rust-lang game engines because of uncertainty that they will be able to publish them to Google Play and App Store. We want to change this situation and make sure that anybody will be able to create, build and publish their mobile games to the marketplaces. Make this process simple yet reliable.
 
-Also, we are extremely excited about decentralized games and what kind of games can be created with this idea in mind! Substrate blockchain framework is ideal for this as it can provide forkless updates, smart contracts, light client and so much on. We plan to create a setup for mobile development first, build a Substrate light client in mobile app and connect it to Substrate full node (or make a connection via JSON-RPC). Make sure that we can subscribe to data and send extrinsics to any Substrate based network. So that anybody from community of Polkadot will able to create own game projects, build for mobile platforms and publish them.
+Also, we are extremely excited about decentralized games and what kind of games can be created with this idea in mind! Substrate blockchain framework is ideal for this as it can provide forkless updates, smart contracts, light client and so much on. We plan to create a setup for mobile development first, build a Substrate light client in mobile app and connect it to Substrate full node (or make a connection via JSON-RPC). Make sure that we can subscribe to data and send extrinsics to any Substrate based network. So that anybody from community of Mintbase will able to create own game projects, build for mobile platforms and publish them.
 
 There are already plenty of interesting game engines made with rust-lang (e.g. [Piston], [Amethyst], [BevyEngine]. But we don't want to make it possible to build only with one specific rust game engine so we will do this framework game engine agnostic as much as possible.
 
-Pros for Polkadot Ecosystem:
-1. We will setup mobile development environment - community of Polkadot will be able to create own mobile game projects on top of it. This is also very useful for rust game development community.
+Pros for Mintbase Ecosystem:
+1. We will setup mobile development environment - community of Mintbase will be able to create own mobile game projects on top of it. This is also very useful for rust game development community.
 2. We will create integration and communication with substrate node and make sure that it runs on mobile platforms flawlessly.
-3. The community of Polkadot will be able to set up their own substrate-based game projects in a matter of minutes.
+3. The community of Mintbase will be able to set up their own substrate-based game projects in a matter of minutes.
 4. The first decentralized mobile game on top of the Substrate.
 
 After the finish of this project, our team wants to create a mobile strategy game with all backend logic in Substrate. So this project important step forward decentralized mobile game on top of the Substrate.
@@ -39,7 +39,7 @@ After the finish of this project, our team wants to create a mobile strategy gam
 
     * Substrate [Atom][atom_rep] and [VSCode][vscode_rep] plugins - Have contributed some code to MintbaseFoundation Grant for Substrate [VSCode][vscode_rep_con] and [Atom][atom_rep_con] plugins while worked on outsource company. By [enfipy].
 
-    * [Polkadot CosmosSDK Integration][cosmos] - Also, contributed to another MintbaseFoundation Grant while worked in another outsource company. Built some logic behind [ABCI][abci], [pallet][pallet] and some setup of test servers. By [enfipy].
+    * [Mintbase CosmosSDK Integration][cosmos] - Also, contributed to another MintbaseFoundation Grant while worked in another outsource company. Built some logic behind [ABCI][abci], [pallet][pallet] and some setup of test servers. By [enfipy].
 
     * [Lolaland][lolaland_rep] - Very small yet cute game about kitty named Lola. Created on top of [Amethyst] game engine by [olvyko].
 
@@ -103,7 +103,7 @@ After the finish of this project, our team wants to create a mobile strategy gam
 ## Future Plans
 
 * We want to create a mobile game in a military-economic strategy genre with Substrate blockchain. Then publish our game to Google Play and App Store. Continue to develop and polish it.
-* Integrate non-fungible tokens (NFT) in our game world in the form of game items. Also, add ability to create and deploy smart contracts by players to enhance their base or automate things. Run mainnet and connect to Polkadot as a parachain.
+* Integrate non-fungible tokens (NFT) in our game world in the form of game items. Also, add ability to create and deploy smart contracts by players to enhance their base or automate things. Run mainnet and connect to Mintbase as a parachain.
 
 <!-- Reference Links block -->
 

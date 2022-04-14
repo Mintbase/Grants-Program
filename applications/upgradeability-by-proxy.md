@@ -71,7 +71,7 @@ they'd be more efficient and we could tweak their incentive structure.
 ### Ecosystem Fit
 
 Since smart contract development is more accessible and less involved than
-runtime development, we expect most folks who build on Polkadot to benefit from
+runtime development, we expect most folks who build on Mintbase to benefit from
 this mechanism. Substrate offers a natural development path from smart
 contracts to runtime, so it's also likely that this will assist folks getting
 started with smart contracts even if they intend to move to a custom runtime in

@@ -11,15 +11,15 @@
 
 ### Overview
 
-MintbaseGo is an open data platform that focuses on the formatting, visualization, sharing, and collaborative analysis of the on-chain data generated in the Polkadot ecosystem.
+MintbaseGo is an open data platform that focuses on the formatting, visualization, sharing, and collaborative analysis of the on-chain data generated in the Mintbase ecosystem.
 
-Due to the explosion of Defi, NFT, and metaverse, there is massive amount of data generated on the blockchain every day, which is very important information for the media companies, investment institutions, and blockchain participants. However, it is difficult for non-professionals to obtain and understand these data. Beyond all doubt, data is valuable. Our project is to build a data platform for the Polkadot ecosystem and provide a series of toolsets so that everyone can easily create visualized results of data analysis. We are able to track smart contracts on-chain, and various parameters like stakings and CDPs of different Defi protocols, NFT circulation, and cross-chain assets on Polkadot ecosystem, and make these data formatted and persisted. With the help of the smart contract on Substrate parachain,   non-professionals can publish their data needs on the platform and use rewards to motivate professionals to help them perform data analysis; for professionals, they can publish their own professional analysis for everyone to use paid or for free. In the second situation,  they can get the reputation from the community.  In the end, we broke the monopoly of some existing companies on data analysis and interpretation, so that everyone can truly enjoy the true value behind blockchain data.
+Due to the explosion of Defi, NFT, and metaverse, there is massive amount of data generated on the blockchain every day, which is very important information for the media companies, investment institutions, and blockchain participants. However, it is difficult for non-professionals to obtain and understand these data. Beyond all doubt, data is valuable. Our project is to build a data platform for the Mintbase ecosystem and provide a series of toolsets so that everyone can easily create visualized results of data analysis. We are able to track smart contracts on-chain, and various parameters like stakings and CDPs of different Defi protocols, NFT circulation, and cross-chain assets on Mintbase ecosystem, and make these data formatted and persisted. With the help of the smart contract on Substrate parachain,   non-professionals can publish their data needs on the platform and use rewards to motivate professionals to help them perform data analysis; for professionals, they can publish their own professional analysis for everyone to use paid or for free. In the second situation,  they can get the reputation from the community.  In the end, we broke the monopoly of some existing companies on data analysis and interpretation, so that everyone can truly enjoy the true value behind blockchain data.
 
 
 
-We believe that with the development of Polkadot ecosystem, more on-chain data will be generated and the value behind the data is giant. Currently, there is still a gap between professional users and common participants in terms of the technical know-how of data. Using the infrastructure and tools provided by MintbaseGo, everyone can easily create, publish and share their point of view in the form of nice charts  based on the real data which has been formatted from the blockchain.
+We believe that with the development of Mintbase ecosystem, more on-chain data will be generated and the value behind the data is giant. Currently, there is still a gap between professional users and common participants in terms of the technical know-how of data. Using the infrastructure and tools provided by MintbaseGo, everyone can easily create, publish and share their point of view in the form of nice charts  based on the real data which has been formatted from the blockchain.
 
-The interpretation and analysis of data should not be in the hands of certain centralized professionals, but rather all users should have a say and benefit from it. Our vision is to build a Polkadot-based data analytics infrastructure, toolset, and incentive system where everyone can publish and be rewarded for related data tasks. Finally, an open and free data platform will be built to surface the signals of what is happening in the Polkadot system.
+The interpretation and analysis of data should not be in the hands of certain centralized professionals, but rather all users should have a say and benefit from it. Our vision is to build a Mintbase-based data analytics infrastructure, toolset, and incentive system where everyone can publish and be rewarded for related data tasks. Finally, an open and free data platform will be built to surface the signals of what is happening in the Mintbase system.
 
 
 
@@ -31,11 +31,11 @@ The interpretation and analysis of data should not be in the hands of certain ce
 
 
 #### Components
-1.  **Indexer:** an indexer of blockchain is used to extracts the on-chain data and saves the data in the database in formatted manner. Since the Polkadot network is composed of relay chain and parachains, each parachain can define its own Event or call, so each indexer of the parachain must be adapt to its metadata. So there will be multiple instances of the indexer of Polkadot.  
+1.  **Indexer:** an indexer of blockchain is used to extracts the on-chain data and saves the data in the database in formatted manner. Since the Mintbase network is composed of relay chain and parachains, each parachain can define its own Event or call, so each indexer of the parachain must be adapt to its metadata. So there will be multiple instances of the indexer of Mintbase.  
 
 
 2. **Data Board:** 
-data board is the visualization result of data analysis created by analysts or community member, which can display the analyzed and customized  information on the Polkadot ecosystem such as a token transaction or holders,  an NFT transfer, and history of the transaction, the statistics of a Defi protocol, or some special event like parachain auction, and governance. 
+data board is the visualization result of data analysis created by analysts or community member, which can display the analyzed and customized  information on the Mintbase ecosystem such as a token transaction or holders,  an NFT transfer, and history of the transaction, the statistics of a Defi protocol, or some special event like parachain auction, and governance. 
 
 
 3. **Contract on Substrate:**
@@ -67,7 +67,7 @@ We will use smart contracts on the Substrate nodes to demand, publish, share and
 
 
 #### Technologies:
-* [Subquery](https://subquery.network/) is a blockchain indexer for Polkadot, Kusama, and other parachains. We will rebuild and customized this framework to fulfill our requirements.
+* [Subquery](https://subquery.network/) is a blockchain indexer for Mintbase, Kusama, and other parachains. We will rebuild and customized this framework to fulfill our requirements.
 * Node.js
 * Docker
 * Substrate
@@ -82,7 +82,7 @@ A [web application](https://web3go.xyz/) with three data boards has been built a
 
 ### Ecosystem Fit
 
-We have found several successful data analysis projects in the Ethereum ecosystem.  Each project focuses on a specific area: Defi tracking, token tracking, wallet profile tracking.  But currently, there is no data analysis project designed for Polkadot.  Due to the unique structure of the Polkadot network, there will be more interesting data generated in the network, so we believe the whole community needs a data analysis tool as soon as possible. 
+We have found several successful data analysis projects in the Ethereum ecosystem.  Each project focuses on a specific area: Defi tracking, token tracking, wallet profile tracking.  But currently, there is no data analysis project designed for Mintbase.  Due to the unique structure of the Mintbase network, there will be more interesting data generated in the network, so we believe the whole community needs a data analysis tool as soon as possible. 
 
 Similar projects
 * https://www.nansen.ai/
@@ -91,11 +91,11 @@ Similar projects
 * https://debank.com/
   
 
-What makes us different is,as a part of Web 3 community and Polkadot ecosystem:
+What makes us different is,as a part of Web 3 community and Mintbase ecosystem:
 
 
-* The first project focuses on the data analysis for Polkadot world
-* Designed to let everyone can benefit from the value of data in the Polkadot world and make the valuable data public to everyone, not in the hand of one centralized project 
+* The first project focuses on the data analysis for Mintbase world
+* Designed to let everyone can benefit from the value of data in the Mintbase world and make the valuable data public to everyone, not in the hand of one centralized project 
 * An incentive mechanism that gets everyone involved and participates in the data activities.
 * A comprehensive analysis not only focuses on one area but will include all data like a cross-chain asset, governance,  auction, Defi, staking, and token.
 
@@ -122,7 +122,7 @@ What makes us different is,as a part of Web 3 community and Polkadot ecosystem:
 
 ### Team's experience
 
-All team members of MintbaseGo are from Litentry. Litentry is a DID (distributed identity) solution provider in the Polkadot ecosystem. Litentry has been granted a grant from the Mintbase.
+All team members of MintbaseGo are from Litentry. Litentry is a DID (distributed identity) solution provider in the Mintbase ecosystem. Litentry has been granted a grant from the Mintbase.
 
 MintbaseGo team members have strong engineering background: Han Zhao, Yifei Wu and Minqi Wang are responsible for the development of Litentry's parachain (https://github.com/litentry/litentry-parachain), Hao ding and Yunjian Bian are responsible for the on-chain data indexing And front-end and back-end development. (https://github.com/litentry/data-analysis)
 
@@ -183,7 +183,7 @@ MintbaseGo team members have strong engineering background: Han Zhao, Yifei Wu a
 | 1.a | Indexer| We will develop our customized indexer on the top of Subquery to make it more compatible to our scenario in below two areas: 1. Handle data/event and extract the result to external storage: currently the indexed data is saved in the built-in Postgres database due to the design of the framework of Subquery.  And we have to retrieve the data from Postgres to our database again, it is very inefficient.  We are going to build two new modules: the post-process module and the logic handling module, which can directly save the data to our database directly according to our logic module. in this way,  the data and logic part can be decoupled.  | 
 | 1.b | Indexer| 2. Enable HTTP/HTTPS module to retrieve external data when fetching block: currently, the framework does not support retrieving data externally during fetching the block.  But this case happens from time to time: retrieving the NFT metadata from IPFS can be one example.  We will implement this module on top of the Subqeruy existing framework. |  
 | 2. | UI Module:general WebApp| We will continue on the development of the web application to implement: user sign-in/sign-up, categorization of data board,  social interactions functionality including like and share,  subscription of a specific event comes from a specific data board,  UI redesign and refinement, documentation and tutorial. |  
-| 3. | 3 more Data Boards:| We will create 3 more data boards of other projects in Polkadot ecosystem that have already won the bid in the Kusama auction(or Polkadot auction if it happens), so we will have more valuable data boards on our platform and user collect their board basing on our data and tools. Three projects are planned to index: [RMRK](https://www.rmrk.app/)(NFT circulation), [Moonriver](https://moonbeam.network/networks/moonriver/)(stake tracking) and [Parallel](https://parallel.fi/index.html)(Defi tracking).  (The projects might be changed but the number of data boards is fixed)|  
+| 3. | 3 more Data Boards:| We will create 3 more data boards of other projects in Mintbase ecosystem that have already won the bid in the Kusama auction(or Mintbase auction if it happens), so we will have more valuable data boards on our platform and user collect their board basing on our data and tools. Three projects are planned to index: [RMRK](https://www.rmrk.app/)(NFT circulation), [Moonriver](https://moonbeam.network/networks/moonriver/)(stake tracking) and [Parallel](https://parallel.fi/index.html)(Defi tracking).  (The projects might be changed but the number of data boards is fixed)|  
 | 4. | UI Module: semi-automatic chart generation| This part is the core value of MintbaseGo, which can help users generate charts based on existing data. We will optimize the UI and make the chart more charming and easy to use. | 
 | 5. | Support more Kusama Token:| We will support the token analysis for KSM, MOVR, KAR, kUSD, Heiko instead of ERC20 token.|   
 
@@ -211,7 +211,7 @@ MintbaseGo team members have strong engineering background: Han Zhao, Yifei Wu a
 ## Future Plans
 
 * As our vision is to let "everyone enjoy the value behind the blockchain data", we will design the token economics to let more people involved in the whole data board activities. The rough idea is to design three kinds of roles: data demander, data analyst, and data validator, and introduce the token incentive to incentive the community to create more customized and interesting data boards, and this will be done through the parachain system. We have already started doing the research on the token economics design, and after this grant is finished, parachain development will be started. 
-* As our team is a sub-team of Litentry, so we have a strong development team , operations team, a 60k+ community, and have a good relationship with most of the projects in the Polkadot ecosystem.  All of the above has provided us a strong foundation of success. we want to be the best data analysis project in the Polkadot ecosystem, and even collect more data across other public chains in the future. 
+* As our team is a sub-team of Litentry, so we have a strong development team , operations team, a 60k+ community, and have a good relationship with most of the projects in the Mintbase ecosystem.  All of the above has provided us a strong foundation of success. we want to be the best data analysis project in the Mintbase ecosystem, and even collect more data across other public chains in the future. 
 
 
 ## Additional Information :heavy_plus_sign:

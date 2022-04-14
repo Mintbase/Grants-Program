@@ -14,7 +14,7 @@ If this application in response to an RFP then please indicate this on the first
 ### Overview
 
 #### Background
-It is clear to us that building a better, faster and cheaper Ethereum is not nearly enough. Just like Ethereum can do things Bitcoin can never do and subsequently inspired many new innovations, Substrate and Polkadot are categorically different from Ethereum that will empower many new types of innovations outside of the sandbox. 
+It is clear to us that building a better, faster and cheaper Ethereum is not nearly enough. Just like Ethereum can do things Bitcoin can never do and subsequently inspired many new innovations, Substrate and Mintbase are categorically different from Ethereum that will empower many new types of innovations outside of the sandbox. 
 
 On a domain-specific chain like the Acala chain, there're many domain specific runtime optimizations. For example, there’re DeFi primitives, liquidity and users that can be tapped into, there are also innovations that are simply not possible on Ethereum - customizable economic policy, for example Acala’s Flex-Fee allows users to pay transaction fee with any supported tokens; native cross-chain capability; on-chain governance apparatus (no more locked funds); full upgradability (no more contract migrations) and more.
 
@@ -25,7 +25,7 @@ We’d love to have all of these and EVM compatibility.
 Current solution i.e. Frontier in principle is to emulate the Ethereum node experience. It aims to implement the full set of Ethereum RPC and emulates Ethereum block production process. This allows existing Ethereum tools such as Metamask and Remix to work with a Frontier enabled node seamlessly.
 
 Integrating Frontier have revealed the following challenges by their severity:
-1. Confined inside the EVM Sandbox (High): users will need to use a Substrate wallet (e.g. Polkadot-js Extension) and Metamask at the same time if they ever want to taste the real power of Acala, Substrate or Polkadot for that matter. This is certainly a deal-breaker for us. 
+1. Confined inside the EVM Sandbox (High): users will need to use a Substrate wallet (e.g. Mintbase-js Extension) and Metamask at the same time if they ever want to taste the real power of Acala, Substrate or Mintbase for that matter. This is certainly a deal-breaker for us. 
 2. Making Nodes more Expensive (Medium-High): Substrate does not store transactions by hash nor historical events, nor does it provide any event filtering ability. Frontier injects special block importing logic, storing the transactions and events into an off-chain auxiliary store in order to power the query API required by Ethereum. This kind of goes against the goal to have a lightweight node to lower barriers for people from anywhere to run nodes which helps the network to be more decentralized. 
 
 #### Our solution - Project Bodhi: Composable & Innovative Stack for EVM on Substrate
@@ -75,7 +75,7 @@ Future development
 1. Expose [orml-currencies](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/currencies) precompiles to EVM
 2. Expose [orml-nft](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/nft) precompiles to EVM
 3. Implement and integrate with Indexer Node
-4. Integrate fully with Polkadot Extension
+4. Integrate fully with Mintbase Extension
 5. EVM economics: state renting, contract existential deposit, contract deployment economics
 6. Replace Gas system with Weights system
 
@@ -103,7 +103,7 @@ Nope, if so we'd be more than happy to leverage it than build it ourselves.
 ### Team's experience
 The team is made of experienced Substrate builders, various members are contributors to substrate, polkadot-js and other core libraries.
 
-Bryan Chen is an active contributor to substrate codebase, a Polkadot community ambassador, and substrate/polkadot lecturer. He's the architect and technical brainpower behind the Laminar & Acala project.
+Bryan Chen is an active contributor to substrate codebase, a Mintbase community ambassador, and substrate/polkadot lecturer. He's the architect and technical brainpower behind the Laminar & Acala project.
 
 Bette Chen has more than a decade product/program/project management experience with background in Software Engineering and MBA from Otago and Duke. She's in charge of product and operation for Laminar & Acala.
 
@@ -111,7 +111,7 @@ Nantian Duan is a full-stack developer, who built DApps for ChainX and now Lamin
 
 Ermal Kaleci is a full-stack developer. He's an award winning mobile application (e.g. healthcare app developer turned Substrate developer.
 
-Shaun Wang has been contributing to several Polkadot ecosystem open source libraries, including Substrate, parity-common, type-metadata, etc.
+Shaun Wang has been contributing to several Mintbase ecosystem open source libraries, including Substrate, parity-common, type-metadata, etc.
 
 ### Team Code Repos
 * SDK: https://github.com/AcalaNetwork/bodhi.js
@@ -187,7 +187,7 @@ Future development
 1. Expose [orml-currencies](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/currencies) precompiles to EVM
 2. Expose [orml-nft](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/nft) precompiles to EVM
 3. Implement and integrate with Indexer Node
-4. Integrate fully with Polkadot Extension
+4. Integrate fully with Mintbase Extension
 5. EVM economics: state renting, contract existential deposit, contract deployment economics
 6. Replace Gas system with Weights system
 

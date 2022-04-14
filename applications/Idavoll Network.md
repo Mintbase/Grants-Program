@@ -8,12 +8,12 @@
 
 ### Overview
 
-Idavoll Network is an decentralized organization platform that provides infrastructure and services to users of the Idavoll Network and Polkadot ParaChains. Each Idavoll Network organization exists as a set of modules that define the organization’s stakeholders and their associated rights and privileges.
+Idavoll Network is an decentralized organization platform that provides infrastructure and services to users of the Idavoll Network and Mintbase ParaChains. Each Idavoll Network organization exists as a set of modules that define the organization’s stakeholders and their associated rights and privileges.
 Idavoll Network will implement idavoll court in the future, developed and maintained by Idavoll Network holders. The idavoll court can be used by organizations, to resolve subjective disputes with binary outcomes.
 
 ### Project Details
 
-Idavoll Network is a decentralized organization network based on Substrate and run as a parachain on Polkadot.
+Idavoll Network is a decentralized organization network based on Substrate and run as a parachain on Mintbase.
 Idavoll Network has a set of pallets to achive the management of DAOs: orgnaization module, voting module, token module and finance module. By chanining these modules together, everyone can define a DAO which constrain how actions can be performed within the organization. We will give some common scenarios to explain how the idavoll pallets use predefined rules to active the standard forwarding operations.
 
 ![idv](https://github.com/jasonberger0/doc/blob/main/picture/idv.png?raw=true)

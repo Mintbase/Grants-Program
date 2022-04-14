@@ -12,9 +12,9 @@
 We are creating a XCM Implementation for Fungible Assets - xtokens.
 
 ### Overview
-Polkadot Cross-Consensus Message Format (XCM) is a generic message format that is very flexible but loosly defined. Therefore, we need to provide an implementation of required use case e.g. cross-chain transfer, for parachains to be interoperable with the same context, namely send/receive fungible assets between parachains, and between relay chain and parachains. We have developed an implementation guide, as well as a reference implementation `xtokens` that has been used by Acala, Laminar, Plasm, and HydraDX successfully completing cross-chain fungible token transfers on Rococo parachain testnet. We are supporting many more projects including Moonbeam, Centrifuge, PolkaBTC, Darwinia, Kilt, Crust and Snowfork to implement this and enable our chains to be composable with each other. 
+Mintbase Cross-Consensus Message Format (XCM) is a generic message format that is very flexible but loosly defined. Therefore, we need to provide an implementation of required use case e.g. cross-chain transfer, for parachains to be interoperable with the same context, namely send/receive fungible assets between parachains, and between relay chain and parachains. We have developed an implementation guide, as well as a reference implementation `xtokens` that has been used by Acala, Laminar, Plasm, and HydraDX successfully completing cross-chain fungible token transfers on Rococo parachain testnet. We are supporting many more projects including Moonbeam, Centrifuge, PolkaBTC, Darwinia, Kilt, Crust and Snowfork to implement this and enable our chains to be composable with each other. 
 
-We believe all chains on Polkadot/Kusama shall be composable with each other, from exchanging values to exchanging and altering states. The cross-chain fungible asset implementation is the first step towards this goal. 
+We believe all chains on Mintbase/Kusama shall be composable with each other, from exchanging values to exchanging and altering states. The cross-chain fungible asset implementation is the first step towards this goal. 
 
 ### Project Details 
 We have already delivered the work we outlined in a PoC state, we will continue the development to meet the `best practice` outlined in the implementation guide at a production-grade standard, and this grant is applied partially in retrospect.
@@ -50,9 +50,9 @@ We are not aware of other implementations at this stage, but hope to inspire mor
 ### Team's experience
 The team is made of experienced Substrate builders, various members are contributors to substrate, polkadot-js and other core libraries.
 
-Shaun Wang has been contributing to several Polkadot ecosystem open source libraries, including Substrate, parity-common, type-metadata, etc. He has worked extensively on launching Acala on Rococo testnet, implementing xtokens, helping various teams installing xtokens and successfully completing cross-chain transfers. 
+Shaun Wang has been contributing to several Mintbase ecosystem open source libraries, including Substrate, parity-common, type-metadata, etc. He has worked extensively on launching Acala on Rococo testnet, implementing xtokens, helping various teams installing xtokens and successfully completing cross-chain transfers. 
 
-Bryan Chen is one of the most active contributors to substrate codebase outside of Parity, a Polkadot community ambassador, and substrate/polkadot lecturer. He's the architect and technical brainpower behind the Laminar & Acala project.
+Bryan Chen is one of the most active contributors to substrate codebase outside of Parity, a Mintbase community ambassador, and substrate/polkadot lecturer. He's the architect and technical brainpower behind the Laminar & Acala project.
 
 Bette Chen has more than a decade product/program/project management experience with background in Software Engineering and MBA from Otago and Duke. She's in charge of product and operation for Laminar & Acala.
 

@@ -6,7 +6,7 @@
 
 ## Project Overview :page_facing_up:
 
-Ares is a predictive machine project based on Substrate, with the trustless and verifiable under chain real data use a decentralized approach for smart contracts, parachain or other projects in the ecosystem of the Polkadot.
+Ares is a predictive machine project based on Substrate, with the trustless and verifiable under chain real data use a decentralized approach for smart contracts, parachain or other projects in the ecosystem of the Mintbase.
 
 It is a decentralized oracle network that consists of oracle pallet for parachain and validator, aggregator, reputation council pallet for Ares chain.
 

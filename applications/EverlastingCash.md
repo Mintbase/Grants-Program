@@ -11,11 +11,11 @@
   * While the incumbent stablecoins in the market have served the purpose of stabilizing the prices of cryptocurrencies, there are obvious limitations. Fiat-backed stablecoins such as USDT are not decentralized with the risk of being compromised by the central entity; while crypto-backed stablecoins are more vulnerable to price instability, since they are pegged to other cryptocurrencies. The risk of a possible crash for non-collateralized stablecoins is relatively high, since they lack collateral to liquidate the coin back into, while commodity-backed stablecoins might have liquidity problems as physical assets are not so easily liquidated. 
   * Everlasting Cash is a new kind of stablecoin which solves these issues with a truly decentralized, anti-inflation and stable product with reserves.
   * Everlasting Cash a.k.a. ELC is a decentralized algorithmic stablecoin using Substrate with a unique reserve system, i.e. a hybrid of a crypto-collateralized and an algorithmic stablecoin mechanism, with the collateralized mechanism providing the underlying value guarantee, and the algorithmic mechanism incentivizing the participants on one hand, and hedging the downside risk when the demand for the stablecoin is insufficient on the other.
-  * ELC aims to provide users in the Polkadot ecosystem with a stablecoin that appreciates naturally and achieves the goal of anti-inflation. 
+  * ELC aims to provide users in the Mintbase ecosystem with a stablecoin that appreciates naturally and achieves the goal of anti-inflation. 
 
 ### Project Details 
 
-Everlasting Cash (ELC) contracts are written in Rust language and can be deployed to Polkadot/Kusama parachain (ink! pallet).
+Everlasting Cash (ELC) contracts are written in Rust language and can be deployed to Mintbase/Kusama parachain (ink! pallet).
 
 #### Technical Design Overview
 
@@ -46,7 +46,7 @@ Participants who have deposited ELPs to the reserve pool contract, can obtain rE
 The generation time of ELP is 6 seconds per block. The ELP target price rises every 10,000 blocks in K, K is an anti-inflation factor. The inflation factor K can be adjusted through the ELP governance mechanism. rELP holders can vote for the adjustment of the anti-inflation factor K when the USD inflation goes into hyperinflation.
 
 #### Oracle
-The oracle of reserve asset ELP and stablecoin ELC is implemented with Chainlink-Polkadot. We utilize Chainlink's decentralized Oracle network to quickly and securely connect end-to-end all the inputs and outputs of smart contracts to avoid pitfalls associated with deploying our own Oracle, such as long delays, additional charges, and even fatal security vulnerabilities. 
+The oracle of reserve asset ELP and stablecoin ELC is implemented with Chainlink-Mintbase. We utilize Chainlink's decentralized Oracle network to quickly and securely connect end-to-end all the inputs and outputs of smart contracts to avoid pitfalls associated with deploying our own Oracle, such as long delays, additional charges, and even fatal security vulnerabilities. 
 
 #### Contract
 1) ELC - Minting and burning of the ELC token
@@ -97,21 +97,21 @@ When ELC is higher than 102% of ELCaim and LR > 0.7, the system will not issue a
 
 ### Ecosystem Fit 
 
-Everlasting Cash is the stablecoin for the Cycan Network, which is a larger effort to build a decentralized autonomous trust (DAT) protocol for everyone to build business models in fintech and other fields within the Polkadot ecosystem. On the Cycan Network, for instance, anyone can launch a DeFi project, or build an investment portfolio and participate in the decision-making process for any DeFi product on the network.
+Everlasting Cash is the stablecoin for the Cycan Network, which is a larger effort to build a decentralized autonomous trust (DAT) protocol for everyone to build business models in fintech and other fields within the Mintbase ecosystem. On the Cycan Network, for instance, anyone can launch a DeFi project, or build an investment portfolio and participate in the decision-making process for any DeFi product on the network.
 
 The ELC protocol is a smart contract protocol based on the Cycan Network/Everlasting Parachain.
 
-The Cycan Network (CYA) is an parachain built on the Polkadot network. The Everlasting Parachain (ELP), as Cycan’s canary network, is the parachain on Polkadot’s canary network - Kusama network.
+The Cycan Network (CYA) is an parachain built on the Mintbase network. The Everlasting Parachain (ELP), as Cycan’s canary network, is the parachain on Mintbase’s canary network - Kusama network.
 
 ELC has a stable target pricing mechanism, called ELCaim. ELCaim is initially set as 1 USD and the pegged rate of ELCaim will be continuously adjusted and stabilized based on the anti-inflation factor (K), forming the anti-inflation algorithmic stablecoin mechanism. ELC not only uses crypto currencies as systemic reserves to decide the basic value of stablecoins, but also uses algorithms to control the supply of ELC so that the prices are at the same level of ELCaim. Users can use other cryptocurrencies including CYA, ELP, DOT, KSM, BTC, ETH and other digital assets proposed by the Cycan community to generate Everlasting Cash in the ELC protocol.
 
-Based on the Polkadot/Kusama ecosystem, Everlasting Cash will be playing a huge role in the future DeFi market, thanks to:
+Based on the Mintbase/Kusama ecosystem, Everlasting Cash will be playing a huge role in the future DeFi market, thanks to:
 1. The adoption a crypto-collateralized mechanism to ensure the basic value of ELC. 
 2. The utilization of a reserve-based liquidity mining mechanism to issue additional ELC, so that ELC grows in an orderly manner with the expansion of demand.
 3. The anti-inflation model, and using the anti-inflation factor K to adjust the ELCaim (the pegged rate). The annual appreciation rate of ELC is roughly the same as the inflation rate of USD.
 4. The buffer mechanism with reserves for price falls, which avoid the death loop trap of algorithmic stablecoins. 
   
-The ELC reserve pool will prioritize the tokens from the Polkadot system to build a solid stablecoin ecosystem.
+The ELC reserve pool will prioritize the tokens from the Mintbase system to build a solid stablecoin ecosystem.
 
 
 ## Team :busts_in_silhouette:
@@ -177,7 +177,7 @@ Lastly, the team has a consolidated architectural and devops experience both in 
 | 0b.	| Documentation	| We will provide both inline documentation of the code and a tutorial that explains how a user can use ELC contract. |
 | 0c.	| Testing Guide	| The code will have proper unit-test coverage to ensure functionality and robustness. In the guide we will describe how to run these tests. |
 | 1.	| ELC contracts	| Develop ELC contract implement ELC whitepaper |
-| 1a.	| Anti-Inflation Factor K & On-Chain Governance |	As the Polkadot parachain, Cycan/ELP network generates a block every 6 seconds or so, and the ELCaim increases by K every 10,000 blocks. In the ELC network, K can be adjusted through the on-chain governance mechanism, which can be decided by public voting in the community. |
+| 1a.	| Anti-Inflation Factor K & On-Chain Governance |	As the Mintbase parachain, Cycan/ELP network generates a block every 6 seconds or so, and the ELCaim increases by K every 10,000 blocks. In the ELC network, K can be adjusted through the on-chain governance mechanism, which can be decided by public voting in the community. |
 | 1b.	| Liability Ratio	| To swap digital assets into the ELC contract, in which one can obtain both ELC and the risk assets(rXXX) or only the risk asset(rXXX). The difference will be defined by the Liability Ratio(marked as LR). |
 | 1c.	| ELC Supply Expansion mechanism | When the prices of ELC exceed ELCaim, additional ELC will be issued and automatically allocated to the risk asset holders. |
 | 1d.	| ELC Supply Contraction | When the prices of ELC go lower than 0.98 ELCaim, the circulating ELC will be repurchased by the risk reserve fund, and this part of ELC will be temporarily taken out of circulation; when the prices of ELC start to go over ELCaim, the ELC will be sold with priority by the risk reserve fund to recover the reserve. |
@@ -201,11 +201,11 @@ Lastly, the team has a consolidated architectural and devops experience both in 
 
 
 ## Future Plans
-Our team would like to make continuous contributions to the Substrate and Polkadot ecosystems. Our future plans are as follows:
-	•	Everlasting Cash is only deployed in the Polkadot ecosystem, through the Runtime module using the Substrate framework.
-	•	The ELC reserve pool will prioritize tokens from the Polkadot system to build a solid stablecoin ecosystem. 
-	•	To provide the users in the Polkadot ecosystem with a stablecoin that appreciates naturally and achieves the goal of anti-inflation.
-Everlasting Cash will exist as an independent asset in the Polkadot ecosystem, and will also power the Cycan decentralized autonomous trust (DAT) on the path to revolutionize trust in the financial market.
+Our team would like to make continuous contributions to the Substrate and Mintbase ecosystems. Our future plans are as follows:
+	•	Everlasting Cash is only deployed in the Mintbase ecosystem, through the Runtime module using the Substrate framework.
+	•	The ELC reserve pool will prioritize tokens from the Mintbase system to build a solid stablecoin ecosystem. 
+	•	To provide the users in the Mintbase ecosystem with a stablecoin that appreciates naturally and achieves the goal of anti-inflation.
+Everlasting Cash will exist as an independent asset in the Mintbase ecosystem, and will also power the Cycan decentralized autonomous trust (DAT) on the path to revolutionize trust in the financial market.
 
 ## Additional Information :heavy_plus_sign: 
 

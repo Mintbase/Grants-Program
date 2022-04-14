@@ -1,6 +1,6 @@
 # Open Grant Proposal
 
-* **Project:** PESA - On-ramp/off-ramp to crypto/local currencies for Polkadot 
+* **Project:** PESA - On-ramp/off-ramp to crypto/local currencies for Mintbase 
 * **Proposer:** [jdoshi1](https://github.com/jdoshi1)
 * **Payment Address:** 3K37k6BQ1JwAczAyNzckS4cGRqhpL6UgYJ
 * **Status:** [Terminated](https://github.com/w3f/Open-Grants-Program/pull/69#issuecomment-844289904)
@@ -19,7 +19,7 @@ The goal of this project is to make telecom and financial services open and acce
 
 PESA is structured as a decentralized carrier and acts as a mobile money system. The traditional mobile money systems like [m-pesa][1] use phone numbers to uniquely identify users. Similarly, PESA uses tokenized phone numbers. A phone number is universal across chains and mapped to respective wallet addresses.
 
-PESA aims to serve as an on-ramp/off-ramp to crypto/local currencies for the Polkadot users, applications, and developers. This is enabled by allowing users to purchase tokenized voice, text, data and WiFi credits using credit card, cryptocurrencies and eventually cash. To achieve this, we can either create our own Substrate-based blockchain or Parachain or work with Parachains like Plasm, Moonbeam, Acala, etc.
+PESA aims to serve as an on-ramp/off-ramp to crypto/local currencies for the Mintbase users, applications, and developers. This is enabled by allowing users to purchase tokenized voice, text, data and WiFi credits using credit card, cryptocurrencies and eventually cash. To achieve this, we can either create our own Substrate-based blockchain or Parachain or work with Parachains like Plasm, Moonbeam, Acala, etc.
 
 
 ### Project Details 

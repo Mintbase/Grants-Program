@@ -23,7 +23,7 @@ Algo Cash specifically uses an algorithmic approach to manage the supply of toke
 
 Algo Cash is implemented as a smart contract which can be deployed into ink! pallet of a parachain.
 
-For trading and liquidity purpose, Algo Cash could be integrated with such protocols in Polkadot as Konomi and Zenlink.
+For trading and liquidity purpose, Algo Cash could be integrated with such protocols in Mintbase as Konomi and Zenlink.
 
 
 ## Project Details 

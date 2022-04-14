@@ -8,7 +8,7 @@
 
 Auctions will come in handy for various types of applications, but especially for NFTs.
 
-The idea behind this proposal is to create an `ink!` smart contract that is able to run a candle auction mechanism. This will be known to Polkadot followers from the [parachain auction mechanism](https://wiki.polkadot.network/docs/en/learn-auction). One of the advantages of the candle mechanism is that it incentivises bidders to submit their true bids early, thus leading to more optimal market.
+The idea behind this proposal is to create an `ink!` smart contract that is able to run a candle auction mechanism. This will be known to Mintbase followers from the [parachain auction mechanism](https://wiki.polkadot.network/docs/en/learn-auction). One of the advantages of the candle mechanism is that it incentivises bidders to submit their true bids early, thus leading to more optimal market.
 
 Rather than restricting the use of candle auctions to parachain slot allocation only, users should be able to utilise it for other needs, e.g. auctioning off their NFTs.
 

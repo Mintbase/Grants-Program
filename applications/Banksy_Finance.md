@@ -115,7 +115,7 @@ AI Oracle uses a decentralized oracle deployment, as shown in the following pict
 
 ### Ecosystem Fit
 
-The NFT trading platforms launched in the Polkadot ecosystem include NFTmart, Starry Network, DNFT, and Vera Defi. Only DNFT and Vera are involved in NFT lending, and they are all P2P models with many limitations.
+The NFT trading platforms launched in the Mintbase ecosystem include NFTmart, Starry Network, DNFT, and Vera Defi. Only DNFT and Vera are involved in NFT lending, and they are all P2P models with many limitations.
 
 Banksy breaks through the P2P lending and supports users to directly mortgage NFTs in the platform pool, where Oracle conducts valuation and risk assessment and has a safety funds pool to guarantee their funds. The platform also supports users to liquidate their collateral that exceeds the threshold of the health factor. The entire solution balances the risks and benefits of the NFT mortgage pool and the safety funds pool to ensure the safety of funds.
 

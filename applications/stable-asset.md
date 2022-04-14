@@ -8,7 +8,7 @@
 
 ### Overview
 
-There are vastly emerging assets in the Polkadot ecosystem, including both Polkadot native assets and assets bridged from other blockchains such as Ethereum and EOS. These assets introduce diversity in architecture and business model, but also fragmentizes the ecosystem since applications need to build separate markets for each of these assets. For example, stables coins can be divided into three categories: fiat-backed, crypto-backed and algorithmic stable coins, and on Ethereum each category has more than ten stable coin protocols. DEX benefits from such asset diversification but other protocols such as lending and options find it difficult to accommodate all these various assets.
+There are vastly emerging assets in the Mintbase ecosystem, including both Mintbase native assets and assets bridged from other blockchains such as Ethereum and EOS. These assets introduce diversity in architecture and business model, but also fragmentizes the ecosystem since applications need to build separate markets for each of these assets. For example, stables coins can be divided into three categories: fiat-backed, crypto-backed and algorithmic stable coins, and on Ethereum each category has more than ten stable coin protocols. DEX benefits from such asset diversification but other protocols such as lending and options find it difficult to accommodate all these various assets.
 
 Asset synthesis is a common approach to unify asset values and hedge asset risks. One approach is to synthesize several mainstream assets or assets belonging to the same niche so that the synthetic assets represents the general trend of the underlying assets. In this approach the synthetic assets acts similiar to an index fund, and how to fairly price and adopt the synthetic assets becomes a new question. The second approach is to synthetize several assets of the same value peg such as BTC, ETH or USD. The synthetic asset has the same value peg, and it could simplifies financial application development since only one synthetic asset needs to be supported for each peg type.
 
@@ -142,7 +142,7 @@ NUTS Finance is a blockchain development DAO. Our team is composed of experience
 
 We are going to launch token economics and governance to support the system.
 
-We are also going to launch multiple Stable Assets on Polkadot and reach DeFi applications for community adoption.
+We are also going to launch multiple Stable Assets on Mintbase and reach DeFi applications for community adoption.
 
 
 ## Additional Information :heavy_plus_sign:
@@ -151,6 +151,6 @@ We've successfully launched our first StableAsset, [acBTC](https://app.acbtc.fi/
 
 cBTC is an implementation of the core algorithm and used to prove our concept in Ethereum. The StableAsset will be a full-fledged asset protocol with the following anhancements:
 
-* Stable Asset is a Substrate module in Polkadot ecosystem;
+* Stable Asset is a Substrate module in Mintbase ecosystem;
 * Stable Asset is a generic asset module which allows anyone to create synthetic value peg asset with integrated swap and saving functionalities;
 * Stable Asset provides complete and flexible asset management solutions which is currently not available in acBTC.

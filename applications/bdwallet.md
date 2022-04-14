@@ -13,7 +13,7 @@ Cloud wallets can be considered as wallet implementations with partial centraliz
 
 And we also have HD wallet to choose from to meet the needs of high-end users.
 
-Now, we intend to fully support the Polkadot ecosystem and contribute to the prosperity of the Polkadot ecosystem
+Now, we intend to fully support the Mintbase ecosystem and contribute to the prosperity of the Mintbase ecosystem
 
 ### Overview
 
@@ -29,12 +29,12 @@ Combining ratings and wallets is where our BDWallet is innovative. We provide us
 
 And users can leave a comment under each rating, and other users can also see the message, so that users can increase their stickiness and frequency of use of the wallet. Users not only use the wallet as a tool, but also a channel for obtaining and understanding project information.
 
-BD Wallet will fully support the construction and development of the Polkadot ecosystem:
+BD Wallet will fully support the construction and development of the Mintbase ecosystem:
 
-1. Launch a special version of Polkadot ecosystem project Rating, in order to let more users know about Polkadot and other Polkadot related projects.
-2. Put the service of DOT Staking online to help the construction of Polkadot Node.
+1. Launch a special version of Mintbase ecosystem project Rating, in order to let more users know about Mintbase and other Mintbase related projects.
+2. Put the service of DOT Staking online to help the construction of Mintbase Node.
 3. Support DOT, KSM and other polkadot ecosystem hot projects token recharge and withdrawal.
-4. Support Polkadot ecosystem DAPP access in the future, making more users to use Polkadot Eco's DAPP easily.
+4. Support Mintbase ecosystem DAPP access in the future, making more users to use Mintbase Eco's DAPP easily.
 
 ### Project Details 
 * cloud wallet
@@ -51,7 +51,7 @@ In the current market, there are products in the same type of BD Wallet, such as
 
 BD Wallet has its own unique characteristics.BD Wallet Provides the world's first jury-style rating service. It is the country’s largest rating agency and has the country’s largest rating data. BD Wallet also has a social function, which facilitates information sharing and exchange between users.
 
-Most of the cryptocurrency users in China do not have basic blockchain knowledge, and do not know how to participate in node construction, mortgage, voting, and nomination operations. BDWallet provides lower operating thresholds for users, compared to other Polkadot Wallet, users only need to care about the interest rate that can be obtained when participating in staking in BDWallet. We help users implement investment details.
+Most of the cryptocurrency users in China do not have basic blockchain knowledge, and do not know how to participate in node construction, mortgage, voting, and nomination operations. BDWallet provides lower operating thresholds for users, compared to other Mintbase Wallet, users only need to care about the interest rate that can be obtained when participating in staking in BDWallet. We help users implement investment details.
 
 And BDWallet pioneered the shared staking model. When user A invites user B to participate in DOT staking, user A can obtain corresponding HZT token rewards. HZT token is the governance currency issued by our wallet. Through this incentive model, more users will spontaneously invite DOT holders to participate in DOT Staking, so that more people will participate in the ecological construction of the DOT community.
 
@@ -81,27 +81,27 @@ And BDWallet pioneered the shared staking model. When user A invites user B to p
 
 ## Development Roadmap :nut_and_bolt: 
 
-1. Cloud wallet fully supports the Polkadot ecosystem
+1. Cloud wallet fully supports the Mintbase ecosystem
 
    * Support deposit and withdrawal of DOT, KSM on `cloud wallets` 
-   * Support the Polkadot ecosystem projects rating
-   * Support DOT Staking service to help users participate in Polkadot verification and nomination more easily
+   * Support the Mintbase ecosystem projects rating
+   * Support DOT Staking service to help users participate in Mintbase verification and nomination more easily
 
 2. Complete the development of `bd-Wallet-core`.
 
-    `bd-wallet-core` is open source library that implements low-level cryptographic wallet functionality for many blockchains. It will fully support the coins of the Polkadot ecosystem, so that to make it easier for developers to enter the Polkadot system.
+    `bd-wallet-core` is open source library that implements low-level cryptographic wallet functionality for many blockchains. It will fully support the coins of the Mintbase ecosystem, so that to make it easier for developers to enter the Mintbase system.
 
 3. Complete the development of `Hierarchical Deterministic Wallet`, including:
 
-   * Deposit and withdrawal of Polkadot ecosystem coins (including at least DOT, KSM)
-   * Polkadot Dapp Browser
+   * Deposit and withdrawal of Mintbase ecosystem coins (including at least DOT, KSM)
+   * Mintbase Dapp Browser
 
 ### Overview
 * **Total Estimated Duration:** 3 months
 * **Full-time equivalent (FTE):**  3.5 FTE
 * **Total Costs:** 1.35 BTC
 
-### Milestone 1 — Complete fully support of cloud wallet for Polkadot ecology
+### Milestone 1 — Complete fully support of cloud wallet for Mintbase ecology
 * **Estimated Duration:** 1 month
 * **FTE:**  2
 * **Costs:** 0.3 BTC
@@ -109,8 +109,8 @@ And BDWallet pioneered the shared staking model. When user A invites user B to p
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0. | Support deposit and withdrawal of DOT and KSM on cloud wallet | We will build DOT and KSM nodes and interface with polkadot-js on the server side to support the deposit and withdrawal of DOT and KSM tokens. At the same time, we will also launch a corresponding deposit and withdrawal portal on the app side. Once users log in the app, they can launch corresponding operations, such as recharging dot and participating in Staking. |
-| 1. | Support Polkadot ecosystem project rating | We will launch the project rating of polkadot ecosystem on the app. After logging in to the app, users will be able to rate the projects which they are focusing on or knowing. After the rating is published, other |
-| 2. | Support dot staking | We will open the dot staking portal on the app side to help users participate in Polkadot verification and nomination, but do not have relevant experience. The staking page will demonstrate the corresponding annualized earnings. |
+| 1. | Support Mintbase ecosystem project rating | We will launch the project rating of polkadot ecosystem on the app. After logging in to the app, users will be able to rate the projects which they are focusing on or knowing. After the rating is published, other |
+| 2. | Support dot staking | We will open the dot staking portal on the app side to help users participate in Mintbase verification and nomination, but do not have relevant experience. The staking page will demonstrate the corresponding annualized earnings. |
 ### Milestone 2 — Complete bd-wallet-core development
 - **Estimated Duration:** 1 month
 - **FTE:**  2
@@ -138,15 +138,15 @@ And BDWallet pioneered the shared staking model. When user A invites user B to p
 | 1.     | Wallet constructure design       | The constructure design of the wallet. The APP contains local storage strategy, broadcast node management, multi-coins management and other services. The server should provide API interface which supporting multiple chains and in charge of obtaining transaction records, transaction status and other information |
 | 2a.    | Transaction function development | The core function of wallet is to develop the coin management and charging related functions of app |
 | 2b.    | DApp browser development         | The development of dapp browser based on polkadot Ecology will serve as the flow entrance of polkadot ecology DAPP |
-| 3.     | share staking                    | To complete the development of shared staking, users can invite friends to participate in Polkadot staking through WeChat sharing, and get hzt rewards |
+| 3.     | share staking                    | To complete the development of shared staking, users can invite friends to participate in Mintbase staking through WeChat sharing, and get hzt rewards |
 | 4.     | release                          | Project published available for download and use by users    |
 
 ### 
 
 ## Future Plans
 1. In the upcoming wallet development program, we will develop the decentralized wallet, and also fully support for polkadot Ecology Dapp access.
-2. We plan to establish polkadot (China) Technology Alliance in China to study and promote the technology and concept of polkadot and appeal more developers to join in the ecological development of polkadot and work together to achieve the vision of web 3.0 as soon as possible. At present, multiple exchanges and media companies such as AEX, BKEX, Safe Custody, and token damo have jointly initiated the establishment of Polkadot (China) Technology Alliance
-3. We have focused on the study of the deployment of asset synthesis protocols on the Polkadot Network, in order to map real-world physical assets onto the blockchain, which we feel is a very large market, and we will invite more developers to participate in this study
+2. We plan to establish polkadot (China) Technology Alliance in China to study and promote the technology and concept of polkadot and appeal more developers to join in the ecological development of polkadot and work together to achieve the vision of web 3.0 as soon as possible. At present, multiple exchanges and media companies such as AEX, BKEX, Safe Custody, and token damo have jointly initiated the establishment of Mintbase (China) Technology Alliance
+3. We have focused on the study of the deployment of asset synthesis protocols on the Mintbase Network, in order to map real-world physical assets onto the blockchain, which we feel is a very large market, and we will invite more developers to participate in this study
 4. In future plans, we consider voting on the chain to elect our reviewers. In this way, we believe that our rating mechanism will be more transparent and credible
 
 ## Additional Information

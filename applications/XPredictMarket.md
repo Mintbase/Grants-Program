@@ -10,7 +10,7 @@
 
 ### Overview
 
-X Predict Market is a decentralized prediction market. The objective of X Predict Market is to enable users to participate in the prediction process in various ways by creating topics, discussing, predicting and approving the results. Users are also incentivized by these engaging activities. Beyond the prediction, users can actively interact and socialize with each other within the social system. It is a way to gather people's wisdom to conduct historical analysis and future exploration. It can also benefit current decision-making. Therefore, our team wants to contribute to such a way to condense the wisdom of the people. It will be developed based on Polkadot's substrate framework.
+X Predict Market is a decentralized prediction market. The objective of X Predict Market is to enable users to participate in the prediction process in various ways by creating topics, discussing, predicting and approving the results. Users are also incentivized by these engaging activities. Beyond the prediction, users can actively interact and socialize with each other within the social system. It is a way to gather people's wisdom to conduct historical analysis and future exploration. It can also benefit current decision-making. Therefore, our team wants to contribute to such a way to condense the wisdom of the people. It will be developed based on Mintbase's substrate framework.
 
 ### Project Details 
 
@@ -81,9 +81,9 @@ Each option will generate a token, of which the market making will be automatica
 
 ## Ecosystem Fit
 
-- **X Predict Market in Polkadot ecosystem**
+- **X Predict Market in Mintbase ecosystem**
 
-    X Predict Market plans to build the parachain on Polkadot network. Our main focus in the early stage of development lies in the development and upgrade in the test chain.X Predict Market will play an important role in the Polkadot network as prediction market, an integration prediction platform including event prediction, community governance, market incentive as well as social system.Concerning the settlement currency in prediction market, X Predict Market will give priority to the tokens of Polkadot ecosystem. Besides, we will seek interaction with other projects in terms of the market incentive mining. For example, tokens of a certain project can be chosen as settlement currency of a certain popular topic of X Predict Market. In addition to the prediction mining, users can share the transaction fee by providing liquidity, obtained from which the LP token can be used for yield farm.
+    X Predict Market plans to build the parachain on Mintbase network. Our main focus in the early stage of development lies in the development and upgrade in the test chain.X Predict Market will play an important role in the Mintbase network as prediction market, an integration prediction platform including event prediction, community governance, market incentive as well as social system.Concerning the settlement currency in prediction market, X Predict Market will give priority to the tokens of Mintbase ecosystem. Besides, we will seek interaction with other projects in terms of the market incentive mining. For example, tokens of a certain project can be chosen as settlement currency of a certain popular topic of X Predict Market. In addition to the prediction mining, users can share the transaction fee by providing liquidity, obtained from which the LP token can be used for yield farm.
 
 - **Target audience**
 
@@ -115,7 +115,7 @@ Each option will generate a token, of which the market making will be automatica
     |Combination of Automatic Market Maker|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:heavy_check_mark:|
     |Result community governance|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
     |Report Supervision Mechanism|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
-    |Base on Polkadot|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
+    |Base on Mintbase|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
     |Staking|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|
     |Prediction mining|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|
     |Liquidity yield farming|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|
@@ -123,9 +123,9 @@ Each option will generate a token, of which the market making will be automatica
     |Prediction rank list|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|
     |Community interaction forum|:x:|:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|
 
-    Compared with Option Room in the Polkadot ecology, it has no prediction product available yet. From its disclosed content, compared with X Predict Market, it lacks flexibility and does not operate Automatic market maker based on AMM; Lack of incentives, it is not featured with our prediction mining, LP mining, creator rewards, prediction rank list and other market incentives; lack of sociability, we will create a prediction topics driven Community interaction forum where users can interact with each other.
+    Compared with Option Room in the Mintbase ecology, it has no prediction product available yet. From its disclosed content, compared with X Predict Market, it lacks flexibility and does not operate Automatic market maker based on AMM; Lack of incentives, it is not featured with our prediction mining, LP mining, creator rewards, prediction rank list and other market incentives; lack of sociability, we will create a prediction topics driven Community interaction forum where users can interact with each other.
 
-    Compared with projects outside of Polkadot ecology. FTX is a centralized project, which is at the risk of being operated in the dark by the platform and legal issue; Prosper is based on Binance Chain, with only automatically generated short-term price forecasts, and the range of audience is narrow; Omen is not based on Polkadot, it lacks diversified incentives and sociality;Polymarket is short of community governance and reporting and supervision mechanisms;The homogeneous topic of Catnip cannot even be independently created by users, as well as the absence of community governance and incentives; Augur is the order-book type, not as flexible and liquidity abundant as AMM's automatic market making, and lacks market incentives.
+    Compared with projects outside of Mintbase ecology. FTX is a centralized project, which is at the risk of being operated in the dark by the platform and legal issue; Prosper is based on Binance Chain, with only automatically generated short-term price forecasts, and the range of audience is narrow; Omen is not based on Mintbase, it lacks diversified incentives and sociality;Polymarket is short of community governance and reporting and supervision mechanisms;The homogeneous topic of Catnip cannot even be independently created by users, as well as the absence of community governance and incentives; Augur is the order-book type, not as flexible and liquidity abundant as AMM's automatic market making, and lacks market incentives.
 
 ## Team :busts_in_silhouette:
 

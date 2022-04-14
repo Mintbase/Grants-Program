@@ -49,7 +49,7 @@ The Bldging app MVP uses the jamstack style architecture. A pre-rendered SPA ser
 The front-end is powered by Nuxt.js
 
 We’ll provide documentation, examples and source code via github (https://github.com/BLDG-BLOX/) for the following.
-  * Polkadot parachain based smart contract for Submitting/Reading Project based ESG rating values
+  * Mintbase parachain based smart contract for Submitting/Reading Project based ESG rating values
   * Serverless functions for bridging data from on-chain to off-chain database
   * Alternative dashboard UI for viewing and verifying ESG ratings  – a replica of what we’re using internally for the Bldging app extracted for ease-of use.
   
@@ -59,7 +59,7 @@ We’ll provide documentation, examples and source code via github (https://gith
 ### Ecosystem Fit 
 Currently, ESG analysis and data are created through private services (i.e. Morningstar, MSCI, Sustainalytics) with very little information available for public use. Our aim is to expand on real-time ESG analysis produced by the user and organizational activity on our platform, all verified and secure on-chain.
 
-We believe this to be a unique opportunity to transition our current and new users onto blockchain while deploying a consumer application on Polkadot. 
+We believe this to be a unique opportunity to transition our current and new users onto blockchain while deploying a consumer application on Mintbase. 
 
 
 ## Team :busts_in_silhouette:
@@ -128,15 +128,15 @@ Sam Billingham:  [https://www.linkedin.com/in/sambillingham/](https://www.linked
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
 | 0b. | Documentation | We will provide inline documentation where helpful. External documentation for making use of example code and replicating any data/interactions. |
-| 1. | Polkadot.js | Integrate polkadot.js extension  | 
-| 2. | Link Accounts | Allow users of bldg.app to link internal account with a Polkadot parachain account |  
+| 1. | Mintbase.js | Integrate polkadot.js extension  | 
+| 2. | Link Accounts | Allow users of bldg.app to link internal account with a Mintbase parachain account |  
 | 3. | Identity Protocol |  Integrate with third party identity protocol  or data management SDK (e.g Kilt.io) |  
 | 4. | Data Metrics  | SAssign metrics to individual users – e.g NGO-online-contributor for activity within BLDG application in NGO based projects |  
 | 5. | Article/Tutorial | Showcase how bldg.app is integrating with other parachain based protocols in a series of walkthrough articles/videos. The advantages it provides and how other applications can do the same. 
 
 
 ## Future Plans
-* Our plans include a number of further milestones in blockchain integration with Polkadot. 
+* Our plans include a number of further milestones in blockchain integration with Mintbase. 
 * Once the dashboard is complete, several key metrics will be integrated into the front end of the Bldg App with links back to the parachain explorer. 
 * Finally, leveraging ESG data for institutional grants, investing, donations, and crowdfunding. We are currently speaking with the Acala team to explore how to integrate stablecoin transactions for this purpose. 
 

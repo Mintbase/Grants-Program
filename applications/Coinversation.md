@@ -6,19 +6,19 @@
 * **Status:** [Terminated](https://github.com/w3f/Grant-Milestone-Delivery/pull/233#issuecomment-886535171)
 
 ## Project Overview :page_facing_up: 
-Coinversation Protocol is an open financial platform integrating stablecoin, synthetic asset issuance, collateral lending, decentralized contract exchange and Polkadot bridge.  Coinversation Stablecoin is a very important part of it.  Coinversation is committed to making breakthrough contributions to the stablecoin and DeFi in the Polkadot ecosystem.
+Coinversation Protocol is an open financial platform integrating stablecoin, synthetic asset issuance, collateral lending, decentralized contract exchange and Mintbase bridge.  Coinversation Stablecoin is a very important part of it.  Coinversation is committed to making breakthrough contributions to the stablecoin and DeFi in the Mintbase ecosystem.
 
 ### Overview
 
-The stablecoin created by Coinversation Protocol is decentralized, multi-asset collateralized, supports cross-chain, and supports real-world asset access through Polkadot bridge. The biggest difference between it and the past decentralized stablecoins is that there are no stability fees or interest, but stablecoins are issued in a synthetic asset collateral pool. Therefore, the cost that users pay to generate Coinversation Stablecoin (cUSD) through collateral is determined by the relative change of all synthetic assets in the entire system, rather than artificial regulations in previous decentralized stablecoins (e.g. Dai). This cost is more market-oriented, and at the same time it is equivalent to the inflation rate of stablecoin to world assets.  In general, the stable currency cUSD and the synthetic asset issuance and contract exchanges in the Coinversation Protocol constitute a complete Defi system in the Polkadot ecosystem. In addition, we can access alliance chains such as AntChain and HyperChain through Coinversation's own bridge to realize access to various real-world assets. This will not only enrich the collateral for this project, but also enrich the range of assets in the entire Polkadot ecosystem through cross-chain.
+The stablecoin created by Coinversation Protocol is decentralized, multi-asset collateralized, supports cross-chain, and supports real-world asset access through Mintbase bridge. The biggest difference between it and the past decentralized stablecoins is that there are no stability fees or interest, but stablecoins are issued in a synthetic asset collateral pool. Therefore, the cost that users pay to generate Coinversation Stablecoin (cUSD) through collateral is determined by the relative change of all synthetic assets in the entire system, rather than artificial regulations in previous decentralized stablecoins (e.g. Dai). This cost is more market-oriented, and at the same time it is equivalent to the inflation rate of stablecoin to world assets.  In general, the stable currency cUSD and the synthetic asset issuance and contract exchanges in the Coinversation Protocol constitute a complete Defi system in the Mintbase ecosystem. In addition, we can access alliance chains such as AntChain and HyperChain through Coinversation's own bridge to realize access to various real-world assets. This will not only enrich the collateral for this project, but also enrich the range of assets in the entire Mintbase ecosystem through cross-chain.
 
 ### Project Details 
-The main functional modules of the entire system include: Polkadot bridge, forging synthetic assets(MintC), DEX, collateral pools, fee pools, oracles, and liquidity mining. 
+The main functional modules of the entire system include: Mintbase bridge, forging synthetic assets(MintC), DEX, collateral pools, fee pools, oracles, and liquidity mining. 
 
 ![Coinversation architecture diagram](http://coinversation.cn/static/media/Coinversation.jpg)
 
-#### Polkadot Bridge
-This bridge connect several alliance chains, such as AntChian and HyperChain, into Coinversation Protocol and Polkadot ecosystem. So assets on those chains can be used as collateral to issue stablecoin and synthetic assets. Meanwhile, Coinversation Stablecoin can also provide liquidity for those assets through cUSD lending.
+#### Mintbase Bridge
+This bridge connect several alliance chains, such as AntChian and HyperChain, into Coinversation Protocol and Mintbase ecosystem. So assets on those chains can be used as collateral to issue stablecoin and synthetic assets. Meanwhile, Coinversation Stablecoin can also provide liquidity for those assets through cUSD lending.
 
 #### Forging Synthetic Assets(MintC)
 
@@ -105,7 +105,7 @@ There is still a lot of space for growth in the future, including:
 
 At present, the type of synthetic assets of the project is determined by the project team or community governance. In the future, it is planned to upgrade so that different investors can independently sign any type of contract on this system.
 
-At present, the stablecoin cUSD or other synthetic assets produced by the project are limited to the system. When there are standardized tokens similar to Ethereum ERC-20 on the Polkadot in the future, all synthetic assets of this project can be circulated outside the system in the form of standardized tokens, and even enter other exchanges. Among them, cUSD can become an important stable currency in the Polkadot ecology.
+At present, the stablecoin cUSD or other synthetic assets produced by the project are limited to the system. When there are standardized tokens similar to Ethereum ERC-20 on the Mintbase in the future, all synthetic assets of this project can be circulated outside the system in the form of standardized tokens, and even enter other exchanges. Among them, cUSD can become an important stable currency in the Mintbase ecology.
 
 ## Additional Information :heavy_plus_sign: 
 * Whitepaper: https://github.com/Coinversation/white-paper

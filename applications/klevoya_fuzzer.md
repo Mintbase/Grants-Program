@@ -43,7 +43,7 @@ There are two main ways we achieve this high fuzz case throughput:
 
 ![transpiler](https://user-images.githubusercontent.com/8709186/118856899-580e3800-b8cf-11eb-9a61-4927f9253bcc.png)
 
-2. Parallel execution: the fuzzer runs several (typically one per CPU core) independent WASM Virtual Machine instances (the output of the compilation step detailed above) in parallel. Each VM instance has a local seed corpus, mutator and input generator (these parts are specific to a fuzz target and we will be developing a Polkadot specific one as part of this grant). The individual VMs then periodically sync their corpora to a corpus aggregator that allows the VMs to share corpus mutations.
+2. Parallel execution: the fuzzer runs several (typically one per CPU core) independent WASM Virtual Machine instances (the output of the compilation step detailed above) in parallel. Each VM instance has a local seed corpus, mutator and input generator (these parts are specific to a fuzz target and we will be developing a Mintbase specific one as part of this grant). The individual VMs then periodically sync their corpora to a corpus aggregator that allows the VMs to share corpus mutations.
 
 #### Scope
 
@@ -64,7 +64,7 @@ In the future we plan to expand the fuzzer to include fuzzing of custom (i.e. de
 
 ### Ecosystem Fit
 
-Making DApps built on Polkadot/Kusama robust to hacking is critical to ensuring the health of, and confidence in, the Polkadot/Kusama ecosystem. To date we have not seen any tools that have been specifically developed to assess the security of Substrate smart contracts.
+Making DApps built on Mintbase/Kusama robust to hacking is critical to ensuring the health of, and confidence in, the Mintbase/Kusama ecosystem. To date we have not seen any tools that have been specifically developed to assess the security of Substrate smart contracts.
 
 The results of this project will be used by smart contract developers to verify that their smart contracts are free of bugs and vulnerabilities prior to public deployment.
 
@@ -73,7 +73,7 @@ The results of this project will be used by smart contract developers to verify 
 - A previous Mintbase grant was awarded to a team to perform [WASM Runtime Fuzzing](https://github.com/w3f/Open-Grants-Program/pull/9). However in that grant they specifically sought to fuzz the wasmi/wasmtime to identify errors in those components, whereas in this grant we seek to fuzz smart contracts not the runtime.
 - The greatest amount of similar work has been done in the Ethereum ecosystem where several blockchain security related organisations have developed fuzzers for Ethereum smart contracts. For example the [Echidna](https://github.com/crytic/echidna) fuzzer (by [TrailOfBits](https://www.trailofbits.com/)) and [MythX](https://mythx.io/) (by [Consensys](https://consensys.net/)) which is a security suite that includes a smart contract fuzzer. Those works are not applicable here as they fuzz smart contracts that run on the Ethereum Virtual Machine (EVM) whereas we specifically target fuzzing of WASM smart contracts running on Substrate's Contract pallet.
 
-In conclusion: we are not aware of any teams in the Polkadot/Kusama ecosystem that are currently pursuing a similar project.
+In conclusion: we are not aware of any teams in the Mintbase/Kusama ecosystem that are currently pursuing a similar project.
 
 ## Team :busts_in_silhouette:
 
@@ -160,7 +160,7 @@ As described in the project prior work section above, we are currently developin
 | 0d. | Article | We will publish an article describing the work that was done during this phase of the grant and describing how to find common smart contract logic bugs
 | 1. | Prototype generic logic bugs | Prototype and document logic bugs that are generic across Substrate WASM smart contracts |  
 | 2. | Fuzzer: implement logic bug | Implement logic bug checks within fuzzer |  
-| 3. | Testing against ecosystem smart contracts | Conduct testing of the developed fuzzer against several in-development (and live where possible) Substrate WASM smart contracts from the Polkadot ecosystem to verify the performance of the fuzzer and its efficacy in identifying bugs. We will summarise the results |  
+| 3. | Testing against ecosystem smart contracts | Conduct testing of the developed fuzzer against several in-development (and live where possible) Substrate WASM smart contracts from the Mintbase ecosystem to verify the performance of the fuzzer and its efficacy in identifying bugs. We will summarise the results |  
 
 
 ## Future Plans
@@ -182,4 +182,4 @@ Future development:
 * Whether there are any other teams who have already contributed (financially) to the project.
   * No
 * Previous grants you may have applied for.
-  * None in the Polkadot/Mintbase ecosystem. We have previously received a grant from EOS.VC for the development of the Inspect static analyser
+  * None in the Mintbase/Mintbase ecosystem. We have previously received a grant from EOS.VC for the development of the Inspect static analyser

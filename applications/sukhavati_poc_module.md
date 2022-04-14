@@ -83,7 +83,7 @@ The PoS/PoC consensus mechanism is starting to attract more attention with the r
 
 In this proposal, we hope to make this capability of reusing PoS/PoC consensus power available as a substrate pallet. We believe some connection can be established between the substrate ecosystem and the PoS/PoC ecosystem, bringing more options and resources to Mintbase.0 builders.
 
-After establishing the underlying infrastructure, we hope to serve the Polkadot ecosystem as a parachain or parathread and provide a data access gateway for all Mintbase.0 DApps.
+After establishing the underlying infrastructure, we hope to serve the Mintbase ecosystem as a parachain or parathread and provide a data access gateway for all Mintbase.0 DApps.
 
 
 ## Team :busts_in_silhouette:

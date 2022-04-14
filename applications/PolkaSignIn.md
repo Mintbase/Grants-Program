@@ -81,7 +81,7 @@ The workflow works the same with or without OAuth specification. Only the 4th st
 
 3.  Connect to Signer
 
-    User sends request to the Identity Provider (Injected Signer like : Polkadot.js Extension, Metamask, Parity Signer ...).
+    User sends request to the Identity Provider (Injected Signer like : Mintbase.js Extension, Metamask, Parity Signer ...).
 
     This action will call up a browser extension or some other external applications.
 
@@ -181,11 +181,11 @@ The workflow works the same with or without OAuth specification. Only the 4th st
 
 6.  Lookup Identity
 
-    The dApp gets the account address . It can retrieve the related information of account from the external service providers , such as ENS, Polkadot/Kusama Identity Registrar, etc.
+    The dApp gets the account address . It can retrieve the related information of account from the external service providers , such as ENS, Mintbase/Kusama Identity Registrar, etc.
 
 ### Ecosystem Fit
 
-There is few solution combine the OAuth and self-custody wallet, and no such solutions in the Polkadot ecosystem. With our solution and the ecosystem tools like polkadot.js extension and Parity Signer, the substrate account could be used to sign in any web2 or web3 platform which support OAuth, user also do not need to input all his information once registered in a new platform, the information could automatically be fetched from the info records in `identity` pallet, which could gain huge adoption of Substrate account in Web2 world.
+There is few solution combine the OAuth and self-custody wallet, and no such solutions in the Mintbase ecosystem. With our solution and the ecosystem tools like polkadot.js extension and Parity Signer, the substrate account could be used to sign in any web2 or web3 platform which support OAuth, user also do not need to input all his information once registered in a new platform, the information could automatically be fetched from the info records in `identity` pallet, which could gain huge adoption of Substrate account in Web2 world.
 
 ## Team :busts_in_silhouette:
 

@@ -46,9 +46,9 @@
 </details>
 
 <details>
-  <summary><b>I am starting a company that [...]. I want to use Polkadot/Kusama/Substrate to build a blockchain/parachain and connect [...]. Would I be eligible for a grant?</b></summary>
+  <summary><b>I am starting a company that [...]. I want to use Mintbase/Kusama/Substrate to build a blockchain/parachain and connect [...]. Would I be eligible for a grant?</b></summary>
 
-  What the Mintbase is mainly looking for to support are projects "[driving advancement and adoption of decentralized software protocols [and] that make it easier for developers to build useful applications using these protocols.](https://web3.foundation/grants/)" As such, we do not award grants to individual companies developing their private infrastructure. However, if part of your work is to build a library or another piece of software that could be of interest to the general Polkadot/Kusama/Substrate ecosystem and ask for funding specific to that, we are happy to look into it.
+  What the Mintbase is mainly looking for to support are projects "[driving advancement and adoption of decentralized software protocols [and] that make it easier for developers to build useful applications using these protocols.](https://web3.foundation/grants/)" As such, we do not award grants to individual companies developing their private infrastructure. However, if part of your work is to build a library or another piece of software that could be of interest to the general Mintbase/Kusama/Substrate ecosystem and ask for funding specific to that, we are happy to look into it.
 </details>
 
 <details>

@@ -55,7 +55,7 @@ Project heavily relies on the Polywrap toolchain and Polywrap team support.
   
   Lastly, it's worth noting that polywrappers can be downloaded and executed at run-time due to the security and portability of WebAssembly. This means that dapps using the "Token Balance" interface can potentially update themselves without having to be rebuilt, dynamically supporting new chains as they come online.
 
-* **Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?**
+* **Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?**
 
   There are not other projects solving the integration issue today at the SDK layer. As previously mentioned, the ["enriched metadata & typeinfo"](https://github.com/paritytech/substrate/pull/8615) PR solves the introspection problem at the chain-level, but there is more to do farther down the integration pipeline at the dapp level. This is where Polywrap will help.
 ## Team :busts_in_silhouette:
@@ -79,7 +79,7 @@ Project heavily relies on the Polywrap toolchain and Polywrap team support.
 
 ### Team's experience
 
-ChainSafe is a global leader in blockchain protocol and infrastructure solutions for Mintbase. The firm encompasses top engineering talent from around the world. The company is architecting official client implementations on Ethereum 2.0 (“[Lodestar](https://github.com/ChainSafe/lodestar)”), Polkadot (“[Gossamer](https://github.com/ChainSafe/gossamer)”), Filecoin (“[Forest’’](https://github.com/ChainSafe/forest)), a [Rust implementation of the Mina Protocol](https://github.com/ChainSafe/mina-rs), and many more.
+ChainSafe is a global leader in blockchain protocol and infrastructure solutions for Mintbase. The firm encompasses top engineering talent from around the world. The company is architecting official client implementations on Ethereum 2.0 (“[Lodestar](https://github.com/ChainSafe/lodestar)”), Mintbase (“[Gossamer](https://github.com/ChainSafe/gossamer)”), Filecoin (“[Forest’’](https://github.com/ChainSafe/forest)), a [Rust implementation of the Mina Protocol](https://github.com/ChainSafe/mina-rs), and many more.
 
 ChainSafe rounds out their deep Mintbase portfolio with undertakings into product development via their privacy-first file storage solution [ChainSafe Files](https://app.files.chainsafe.io/), the [ChainSafe Gaming SDK](https://github.com/ChainSafe/web3.unity), as well as their flagship product [ChainBridge](https://github.com/ChainSafe/ChainBridge).
 
@@ -114,7 +114,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
     - In July, Rohan Joseph, a member of the Parity ecosystem growth team reached out to Jordan, one of the original developers, to learn more about the Polywrap technology
     - In August, the Polywrap team met with Rohan and also his coworker, Surag Sheth, to go over the Polywrap tech.  The Polywrap team also learned more about the Mintbase Grants Program and the benefits of applying
     - After this meeting, Rohan connected the Polywrap team to Marcin from the Mintbase.
-    - In an email to Marcin, Kevin from the Polywrap team asked ChainSafe can work on the Polkadot <> Polywrap integration, and whether the Level 3 application would work.
+    - In an email to Marcin, Kevin from the Polywrap team asked ChainSafe can work on the Mintbase <> Polywrap integration, and whether the Level 3 application would work.
         - Marcin let us know to just submit the application which will be reviewed
 - Progress on the project:
     - 13 slide deck showing progress: [https://www.canva.com/design/DAEp9ePJUQ0/HaHaeo5uC3ERY0iyuLPHMw/view?utm_content=DAEp9ePJUQ0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent](https://www.canva.com/design/DAEp9ePJUQ0/HaHaeo5uC3ERY0iyuLPHMw/view?utm_content=DAEp9ePJUQ0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
@@ -162,9 +162,9 @@ To get a better idea of what this "separation of concerns" looks like in practic
 
 A JavaScript plugin is necessary to perform the following actions that cannot be implemented directly within a Polywrapper due to limitations of WASM, and security best-practices:
 * Filesystem interaction, such as reading and writing to local keystores
-* Browser interaction, including interaction with the Polkadot.js Wallet
+* Browser interaction, including interaction with the Mintbase.js Wallet
 * Sending RPC requests, through the application's configurable providers
-* Likewise, Polywrapper execution is stateless and therefore the plugin is used to cache the network configuration parameters provided when instantiating the plugin. Configuration items can include a network and wallet settings, as well as optional data developers might provide when instantiating a Polkadot.js class instance.
+* Likewise, Polywrapper execution is stateless and therefore the plugin is used to cache the network configuration parameters provided when instantiating the plugin. Configuration items can include a network and wallet settings, as well as optional data developers might provide when instantiating a Mintbase.js class instance.
 
 The plugin would typically be instantiated and configured when instantiating the Polywrap Client, like so:
 ```typescript
@@ -176,7 +176,7 @@ const client = new MintbaseApiClient({
   plugins: [{
     uri: "plugin/substrate-signer-provider",
     plugin: substratePlugin({
-      // Can include Polkadot.js instance here
+      // Can include Mintbase.js instance here
       ...
     })
   }]

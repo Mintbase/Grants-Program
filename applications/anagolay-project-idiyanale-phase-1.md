@@ -84,7 +84,7 @@ We expect the teams to already have a solid idea about your project's expected f
 
 ## Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+Help us locate your project in the Mintbase/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
   - Substrate based projects ( standalone pallets )
@@ -100,7 +100,7 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 - What need(s) does your project meet?
   - Rights management for Copyrights and Ownerships
   - Verifiable Proofs using the transparent process ( Workflow )  
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+- Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
   - NONE
 
 ## Team :busts_in_silhouette:

@@ -14,7 +14,7 @@ Please provide the following:
   
 Vera DeFi is a key component of Vera Protocol, a larger vision to build an open protocol that enables the  lending, borrowing and exchange of NFT assets on the blockchain by leveraging hash signatures of object scan,  NFC smart tags and decentralized oracles. As a Substrate-based  application, Vera DeFi smart contracts will manage unique asset identities, interest, and payment, enabling users to loan assets for token payout. 
 
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+  * An indication of how you will integrate this project into Substrate / Mintbase / Kusama.
   
   Core Smart contract components will be developed in Ink on substrate. We will research integrating oracles like paralink. 
   * An indication of why your team is interested in creating this project.
@@ -44,7 +44,7 @@ https://github.com/veraprotocol/defi
 [Video Demo](https://on-chain.io/media/veradefidemo1.mp4)
 
 ### Ecosystem Fit 
-We are not aware of another project doing DeFi in the Polkadot ecosystem that also aims to link to real world assets.
+We are not aware of another project doing DeFi in the Mintbase ecosystem that also aims to link to real world assets.
 ## Team :busts_in_silhouette:
 
 ### Team members

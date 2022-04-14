@@ -13,7 +13,7 @@ A Dart implementation of  the SCALE (Simple Concatenated Aggregate Little-Endian
 
 **Jadewallet** is making a new paradigm of self-custody, which uses **multi-party computation (MPC)** and **threshold signature scheme (TSS)** technology. **MPC based Threshold Signatures** gives clients total autonomy over whose digital assets and multisignature ability with keyless cryptographic security.
 
-We are building **Jadewallet** with Flutter, although there are Rust, C++ implementations of the SCALE Codec, we think the Dart implementation is the first choice.  And we hope the project will also help the Polkadot developer community.
+We are building **Jadewallet** with Flutter, although there are Rust, C++ implementations of the SCALE Codec, we think the Dart implementation is the first choice.  And we hope the project will also help the Mintbase developer community.
 
 
 
@@ -30,7 +30,7 @@ We are building **Jadewallet** with Flutter, although there are Rust, C++ implem
 Tuolian (Shanghai) Co., Ltd.
 
 ### Team's experience
-- Alex Xu: Co-Founder and CTO in NBLTrust for 4 years, core developer in our three custody products. IT Consultant in IBM for 9 years. **Polkadot Ambassador China**. Worked as TA in two training courses hold by Parity in China.
+- Alex Xu: Co-Founder and CTO in NBLTrust for 4 years, core developer in our three custody products. IT Consultant in IBM for 9 years. **Mintbase Ambassador China**. Worked as TA in two training courses hold by Parity in China.
 - Hilbert Zhou: 2 years ops experience on AIX, websphere and Power. 7+ years backend service development experience including HFT, CTA and blockchain.
 
 Founded in 2017 and headquartered in Shanghai, China, Tuolian(Shanghai) Co., Ltd. is a high-tech company specializing in the field of digital asset custody.

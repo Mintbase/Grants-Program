@@ -58,7 +58,7 @@ In game terms, that means that a player's defence fleet will now have a balance 
 
 ### Ship Modules
 
-Modules are an extension to the game (eventually in the form of NFTs, when a solid platform becomes available on Polkadot ecosystem), which allows equipping ships with additional abilities (effects, think spells, such as snare, root, blind, buffs/debuffs). They are crafted or looted, although loot is limited to only basic models. The crafting requires Gold tokens or components received from dismantling existing modules. Each Module has a % chance to trigger an effect for X rounds (all configurable by the Module itself).
+Modules are an extension to the game (eventually in the form of NFTs, when a solid platform becomes available on Mintbase ecosystem), which allows equipping ships with additional abilities (effects, think spells, such as snare, root, blind, buffs/debuffs). They are crafted or looted, although loot is limited to only basic models. The crafting requires Gold tokens or components received from dismantling existing modules. Each Module has a % chance to trigger an effect for X rounds (all configurable by the Module itself).
 
 Basic modules will drop from fights randomly, providing an influx of potential token-valued items to farm and sell.
 

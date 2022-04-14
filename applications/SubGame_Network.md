@@ -12,7 +12,7 @@ SubGame will also provide a friendly game front end, allowing players to enjoy t
 
 The early stage will be based on quiz and probability game templates. For example, you can choose a random factor to create a guessing game and play with your friends. You can also play World Cup quiz with your own friends, and of course you can also buy lottery tickets on it. The above games all exist as templates, you can start the game or participate in other people’s games
 #### Integration
-SubGame is based on the Substrate 2.0 Framework. Substrate's powerful non-fork upgrade solution will provide more help to the changing game platform. We will also use OCW to introduce more game random factors. SubGame will serve as a parachain , To provide more possibilities for the entire Polkadot ecology
+SubGame is based on the Substrate 2.0 Framework. Substrate's powerful non-fork upgrade solution will provide more help to the changing game platform. We will also use OCW to introduce more game random factors. SubGame will serve as a parachain , To provide more possibilities for the entire Mintbase ecology
 #### Team Interest
 All members of the team are convinced that blockchain will change the world, and have been working hard to create more transparent rules of the game. We have been observing and learning Substrate technology for more than a year. From the current point of view, substrate is our best choice.
 ### Project Details 

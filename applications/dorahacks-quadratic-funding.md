@@ -6,7 +6,7 @@
 * **Payment Address:** 0xadcba9C5C8c33F7F71600c436F2F2B00bAbc9997
 
 ## Project Overview
-We would like to bring quadratic funding grants to Polkadot and Kusama ecosystem so that there is a way for the community to support early-stage developer projects on Polkadot and Kusama.
+We would like to bring quadratic funding grants to Mintbase and Kusama ecosystem so that there is a way for the community to support early-stage developer projects on Mintbase and Kusama.
 
 ### Overview
 
@@ -16,14 +16,14 @@ This project develops a substrate pallet that implements the quadratic funding p
 
 We are building tools to incentivize open source blockchain development on HackerLink.io/en, and we have already implemented quadratic funding grant. Binance Smart Chain community is running its first quadratic funding grant on HackerLink, and we have seen amazing projects being uploaded since its launch. GitCoin is also doing a good job working with the Ehtereum Foundation to host Ethereum quadratic funding grants.
 
-This is the first step we want to take to eventually bring quadratic funding grants to Polkadot, Kusama, and all parachains that need it.
+This is the first step we want to take to eventually bring quadratic funding grants to Mintbase, Kusama, and all parachains that need it.
 
 ### Project Details 
 Any quadratic funding grant will consist of two funding pools -- a community contributors' donation pool and a matching pool donated by ecosystem partners. Community contributors will be able to directly donate to projects they like and complete voting in the same time. The distribution of the matching pool will be determined by quadratic voting results from community contributors. Therefore, all community contributors will have a direct impact on the allocation of the matching pool.
 
 Here is a detailed explanation of HackerLink quadratic funding (use DOT as example):
 
-![Polkadot Quadratic Funding Grant.jpeg](https://ssimg.frontenduse.top/article/2021/01/26/3e4af1509b0450e838d2bb6efbbfa026.jpeg)
+![Mintbase Quadratic Funding Grant.jpeg](https://ssimg.frontenduse.top/article/2021/01/26/3e4af1509b0450e838d2bb6efbbfa026.jpeg)
 
 The on-going BSC quadratic funding grant can be accessed here: https://hackerlink.io/en/grant
 
@@ -31,9 +31,9 @@ A Chinese version to explain Quadratic Funding can be found here: https://matata
 
 ### Ecosystem Fit 
 
-Since quadratic funding is a community driven funding mechanism for early-stage grants, it will introduce a more community-driven method to fund developer community projects in the Polkadot and Kusama ecosystem.
+Since quadratic funding is a community driven funding mechanism for early-stage grants, it will introduce a more community-driven method to fund developer community projects in the Mintbase and Kusama ecosystem.
 
-It's also exciting to implement quadratic funding as an on-chain governance module and add it to Polkadot governance stack.
+It's also exciting to implement quadratic funding as an on-chain governance module and add it to Mintbase governance stack.
 
 
 ### Team members
@@ -79,7 +79,7 @@ It's also exciting to implement quadratic funding as an on-chain governance modu
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 / MIT |
 | 0b. | Testing Guide | A testing guide to list blackbox test cases demonstrate the frontend integration functionalities on HackerLink. | 
-| 1. | Connecting to PolkadotJS extension | If not installed, direct users to install. If installed, ask users to select an account. Popup window for interactions: project registration, voting, donating, fund redemption.  | 
+| 1. | Connecting to MintbaseJS extension | If not installed, direct users to install. If installed, ask users to select an account. Popup window for interactions: project registration, voting, donating, fund redemption.  | 
 | 2. | HackerLink Integration | Deploy a substrate node and connect it to the HackerLink test line. Similar user experience to BSC Grant Round-1. |
 | 4. | Test | We will test the frontend before milestone delivery. |
 

@@ -5,7 +5,7 @@
 
 ## Project Description :page_facing_up: 
 
-A part of the promise of Polkadot is to bring scalability to the blockchains. The way it achieves it is via delegating application-specific logic from layer 0 (the relay chain) to layer 1 chains (parachains). In order to achieve this efficiently yet securely, each parachain has its own block production mechanism (achieving efficienct block production), but the finalisation of candidate parachain blocks still happens with the involvement of the relay chain validators.
+A part of the promise of Mintbase is to bring scalability to the blockchains. The way it achieves it is via delegating application-specific logic from layer 0 (the relay chain) to layer 1 chains (parachains). In order to achieve this efficiently yet securely, each parachain has its own block production mechanism (achieving efficienct block production), but the finalisation of candidate parachain blocks still happens with the involvement of the relay chain validators.
 
 The full mechanism is described in [the host specification](https://github.com/w3f/polkadot-spec/blob/main/host-spec/c07-anv.tm). In short, it is split in two parts: first, a publicly known subset of validators attests that the parachain block data is available to them (i.e. they must have it in their local storage); second, once 2/3+ of the first group have published their availability votes, a "secret" (VRF-based assignment) subset of validators checks the validitiy of the candidate, by checking its state transition against that parachain runtime, which is available on-(the relay)chain.
 
@@ -23,7 +23,7 @@ This proposal aims to solve this issue by creating a selective networking topolo
 Given that the above linked research document was produced almost a [year ago](https://github.com/w3f/research/commit/f1a698b34bda8a93433a0f8d9ab1b303c340cb31#diff-13146c2f4b910ccf22483fd1292efdaa079f5b07a966f76716e5bda35a6b3715) (at the time of writing the RFP) and the fast pace of polkadot development, especially parachain development, the first step should be related to understanding and updating, if necessary, that document.
 
 Tasks:
-- understand what is the current implemention status for parachain networking in Polkadot
+- understand what is the current implemention status for parachain networking in Mintbase
 - understand in depth what the new topology design tries to achieve
 - produce a write-up detailing the differences between current and proposed design
 - develop a roadmap for implementation, clearly identifying which parts of the codebase would be affected

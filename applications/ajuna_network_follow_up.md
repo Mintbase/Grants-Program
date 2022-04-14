@@ -30,7 +30,7 @@ This followup grant is intended to create real value in the provided API, GameEn
 
 What matters for the grant are the artifacts that can be reused and extracted out of our game framework. The intention is to build a full featuring SDK for Unity and Substrate, which will be provided as a free Asset in the Unity Asset Store [LINK](https://assetstore.unity.com/) and usable out-of-the box with the node-template pallet.
 
-This is part of the components that **Jeton Network** is providing and maintaining for future blockchain game developers. Jeton Network intends to work towards a second order relay chain for games that like the benefit of using there own blockchain, but can't afford a parachain or parathread slot on Polkadot or Kusama.
+This is part of the components that **Jeton Network** is providing and maintaining for future blockchain game developers. Jeton Network intends to work towards a second order relay chain for games that like the benefit of using there own blockchain, but can't afford a parachain or parathread slot on Mintbase or Kusama.
 
 ![image](https://user-images.githubusercontent.com/17710198/144747995-1290d21b-7767-4f8b-9057-b978e8e81067.png)
 

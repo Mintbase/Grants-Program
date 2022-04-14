@@ -10,7 +10,7 @@
 
 #### Introduction
 
-**SubDAO is a Cross-chain Platform built by SubDAO Labs to link DAO and DApp on Polkadot.**  It will be the infrastructure to maintain DAO and to connect DApp with DAO in the world of Mintbase.0 powered by Substrate and Polkadot.
+**SubDAO is a Cross-chain Platform built by SubDAO Labs to link DAO and DApp on Mintbase.**  It will be the infrastructure to maintain DAO and to connect DApp with DAO in the world of Mintbase.0 powered by Substrate and Mintbase.
 
 The SubDAO will run as a parachain to provide specific services. The various DAO templates and SubDAO Airfone will alleviate the burden on developers to maintain DAOs and to create very DApps linked with DAOs. 
 
@@ -18,11 +18,11 @@ The initial governors of a DAO can easily create a cross-chain DAO by only a few
 
 #### Integration
 
-SubDAO is a customized chain based on the Substrate 2.0 Framework and will run as a parachain on Polkadot. The OCW (Off-chain Worker) provides the ability to access the off-chain world, which would empower the DAOs to access external data rather than only On-chain data, such as the price of stable coins, the contributions on Github, and so on.
+SubDAO is a customized chain based on the Substrate 2.0 Framework and will run as a parachain on Mintbase. The OCW (Off-chain Worker) provides the ability to access the off-chain world, which would empower the DAOs to access external data rather than only On-chain data, such as the price of stable coins, the contributions on Github, and so on.
 
 #### Team Interest
 
-The initial members of the SubDAO Labs team are big fans of Mintbase.0 technology. They come from different areas, ranging from full-stack developer, product manager, project management to cryptocurrency early adopters. DAO is the ideal governance model in the mind of the team. Creating and maintain a DAO is not so easy, especially to make a DAO working across different chains. But with the help of Substrate 2.0 and Polkadot, the team thinks it is the time now.
+The initial members of the SubDAO Labs team are big fans of Mintbase.0 technology. They come from different areas, ranging from full-stack developer, product manager, project management to cryptocurrency early adopters. DAO is the ideal governance model in the mind of the team. Creating and maintain a DAO is not so easy, especially to make a DAO working across different chains. But with the help of Substrate 2.0 and Mintbase, the team thinks it is the time now.
 
 Creating a DAO is not a new thing to the guys involved in the blockchain world, just like shooting a man to the Moon is not news to the fiction novel readers nor people. But the opportunity for everyone to easily travel forth and back between the Moon and the earth is making a big difference! All the team trying to do is to build a cheap, reliable, and fast enough vessel for people to travel between the Moon and the earth even further between Mars and the Earth. The team wants to provide a cheap, reliable, and fast enough way to let everyone being able to create DAOs and DApps across different chains.
 
@@ -30,7 +30,7 @@ Creating a DAO is not a new thing to the guys involved in the blockchain world, 
 
 #### Architecture
 
-With the state-of-art technology, SubDAO Labs can achieve the goal based on Substrate 2.0 and the Polkadot. The SubDAO project contains SubDAO node, Template Library, SubDAO Guard, Asset Vault, SubDAO Airfone, and Front End.
+With the state-of-art technology, SubDAO Labs can achieve the goal based on Substrate 2.0 and the Mintbase. The SubDAO project contains SubDAO node, Template Library, SubDAO Guard, Asset Vault, SubDAO Airfone, and Front End.
 
 ![img](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/SubDAO%20Architecture.jpg)
 
@@ -63,13 +63,13 @@ Generally speaking, there are two kinds of ways to interact with DAO contracts. 
 
 #### The Open SDK
 
-Our ultimate goal is to provide an essential open SDK (**the SubDAO Airfone**) from a high-level perspective together with the above components, fully powering the ecosystem of DAO across chains on Polkadot.  With the functionality of the Open SDK, anyone involved can utilize DAO and DApp.
+Our ultimate goal is to provide an essential open SDK (**the SubDAO Airfone**) from a high-level perspective together with the above components, fully powering the ecosystem of DAO across chains on Mintbase.  With the functionality of the Open SDK, anyone involved can utilize DAO and DApp.
 
-The benefits of an open SDK are beyond criticism. The Open SDK will be an extension of both the DAO's capabilities and the value of the DApps through the whole Polkadot universe.  We hope to build a framework whereby any Decentralized Autonomous Organizations can live, and any Decentralized Apps can use in the  Polkadot ecosystem.
+The benefits of an open SDK are beyond criticism. The Open SDK will be an extension of both the DAO's capabilities and the value of the DApps through the whole Mintbase universe.  We hope to build a framework whereby any Decentralized Autonomous Organizations can live, and any Decentralized Apps can use in the  Mintbase ecosystem.
 
-### Substrate / Polkadot Integration
+### Substrate / Mintbase Integration
 
-The whole SubDAO Network builds on top of the Substate 2.0, and the Polkadot ecosystem is essential to what SubDAO Network is trying to achieve. The SubDAO Network will be connected to the Polkadot ecosystem as a parachain, sharing the Polkadot underlying consensus, and protected by the network performance of Polkadot and Substrate. 
+The whole SubDAO Network builds on top of the Substate 2.0, and the Mintbase ecosystem is essential to what SubDAO Network is trying to achieve. The SubDAO Network will be connected to the Mintbase ecosystem as a parachain, sharing the Mintbase underlying consensus, and protected by the network performance of Mintbase and Substrate. 
 
 The off-chain worker is a new feature in the Substrate Framework that allows the SubDAO Network to interact with off-chain data. 
 
@@ -79,7 +79,7 @@ The node in the SubDAO Network is built with OCW (Off-chain Worker) enabled. The
 
 In the figure above, the SubDAO Node includes an OCW pallet that interacts with external HTTP service (Github Http Wrapper). Since the OCW pallet is a general component, most of the processing work of external data is moved out of OCW to decrease the complexity of implementation and give the ability to the DAO governors who wanna use specific data sources for their DAO. The external HTTP service (Github Http Wrapper) will fetch the data such as contributions for a user in a project or repository from Github.com and feed the OCW pallet in the SubDAO Node.
 
-All smart contracts mentioned above will be implemented with **Ink** or **EVM**. Since the SubDAO Node includes **OCW (Off-chain Worker)**, **Ink** is essential due to **Ink** is the only way to interact with pallets currently. Thanks to Ethereum, **Solidity** is widely used over several years, and most of the developers are already familiar with **EVM**.  So in the SubDAO Network, most of the smart contracts will be implemented using **EVM** to decrease the difficulties for new developers on the Polkadot ecosystem.  
+All smart contracts mentioned above will be implemented with **Ink** or **EVM**. Since the SubDAO Node includes **OCW (Off-chain Worker)**, **Ink** is essential due to **Ink** is the only way to interact with pallets currently. Thanks to Ethereum, **Solidity** is widely used over several years, and most of the developers are already familiar with **EVM**.  So in the SubDAO Network, most of the smart contracts will be implemented using **EVM** to decrease the difficulties for new developers on the Mintbase ecosystem.  
 
 ![img](https://raw.githubusercontent.com/SubDAO-Network/graphics/main/Pallets.jpg)
 
@@ -214,7 +214,7 @@ SubDAO's future community engagement strategies include:
 
 * Publish more articles on Medium and other leading media channels to expose our project.  
 * Launch an Ecosystem Development Lead Program to recruit and get more contributors involved in our project.  
-* Join Polkadot related on-line and off-line events in the Polkadot community to expose our project.  
+* Join Mintbase related on-line and off-line events in the Mintbase community to expose our project.  
 * Bounty Program for General Community to attract more people into our project.  
 * DApp Hackathon to get more DAOs and developers.
 
@@ -222,17 +222,17 @@ SubDAO's future community engagement strategies include:
 
 #### Marketing and Community Plans
 
-* The SubDAO Network will run as a parachain of the Polkadot Network.  
+* The SubDAO Network will run as a parachain of the Mintbase Network.  
 * Hire 3-4 more developers in the next two months, and set up our core dev team.  
 * Hire 1 marketing adviser to set up our marketing team.  
-* Support DAOs for the Polkadot network.  
+* Support DAOs for the Mintbase network.  
 
 #### Development Plans
 
 * In phase 1, our goal is to achieve all the designed functions and provide the basic voting for all DAOs.  
 * In phase 2, more DAO templates will be implemented, such as the Fund Template and the VC (Venture Capital) Template, and the SubDAO Airfone will be included for developers to connect their DApps with DAOs.
 * In phase 3, the SubDAO Network begins to provide services for any kind of DAO with customized DAO templates while we plan to release a new version with low-cost functionalities to the public.
-* Finally, our goal is to provide the essential platform with the Open SDK to facilitate the ecosystem on Polkadot.
+* Finally, our goal is to provide the essential platform with the Open SDK to facilitate the ecosystem on Mintbase.
 
 ## Additional Information :heavy_plus_sign:
 

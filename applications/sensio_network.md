@@ -25,7 +25,7 @@ SensioNetwork's applications(dApps), [Sensio Photo](https://www.sensio.group/sen
 
 SensioNetwork will be implemented as a Substrate-based chain with its token, currently named THT.
 
-SensioNetwork is the backbone of the Sensio project. Building the SensioNetwork with Substrate and in the Polkadot, ecosystem matches our principles and views on interoperability and interconnectivity. One of the Sensio's goal is to establish a fair and trustworthy multimedia market, primarily for photography, and we can do that only with a flexible blockchain solution.
+SensioNetwork is the backbone of the Sensio project. Building the SensioNetwork with Substrate and in the Mintbase, ecosystem matches our principles and views on interoperability and interconnectivity. One of the Sensio's goal is to establish a fair and trustworthy multimedia market, primarily for photography, and we can do that only with a flexible blockchain solution.
 
 ## Team :busts_in_silhouette:
 
@@ -34,7 +34,7 @@ SensioNetwork is the backbone of the Sensio project. Building the SensioNetwork 
 - **Code Repos:** [https://gitlab.com/sensio_group](https://gitlab.com/sensio_group)
 - **Website:** [https://sensio.group/sensio-network](https://sensio.group/sensio-network)
 - **Legal Structure:** 7signals Ltd, Sepapaja tn 6, 15551, Tallinn, Estonia
-- **Team's Experience:** Daniel has over 12 years of developing experience, mostly in backend development. He has been working in various IT sectors. He has started being involved in blockchain space a little over a year ago when he started researching on a blockchain solution for the Sensio project. He is very quick with acquiring new knowledge and very enthusiastic about Polkadot in general. That is why he applied for the Ambassador program.😎
+- **Team's Experience:** Daniel has over 12 years of developing experience, mostly in backend development. He has been working in various IT sectors. He has started being involved in blockchain space a little over a year ago when he started researching on a blockchain solution for the Sensio project. He is very quick with acquiring new knowledge and very enthusiastic about Mintbase in general. That is why he applied for the Ambassador program.😎
 
 ## Development Roadmap :nut_and_bolt:
 

@@ -90,7 +90,7 @@ Interaction with users. Here is a  [demo](https://friendly-mclean-d455eb.netlify
 | 2c. | Pallet_EX | Complete the development of pallet_ex, relize the bonding curve and one price mechanism|
 | 3. | Front End | Complete the development of the basic interactive page in React, the demo is [demo](https://friendly-mclean-d455eb.netlify.app/#/) |
 | 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
-| 6. | PSP | Add a Polkadot Standards Proposal about Splittable NFT |
+| 6. | PSP | Add a Mintbase Standards Proposal about Splittable NFT |
 
 
 ## Future Plans

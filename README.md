@@ -24,7 +24,6 @@
 - [:rocket: Alternative Funding Sources](#rocket-alternative-funding-sources)
   - [Treasury](#treasury)
   - [Hackathons](#hackathons)
-  - [Other Grant Programs](#other-grant-programs)
 
 ## :wave: Introduction
 
@@ -77,42 +76,16 @@ For questions about the grants program itself, see our [FAQ](docs/faq.md#frequen
 
 #### Mintbase Grants Committee<!-- omit in toc -->
 
-The committee consists of individuals who know the funding priorities of the Polkadot ecosystem, and is responsible for evaluating grant applications and providing feedback on these.
+The committee consists of individuals who know the funding priorities of the Mintbase ecosystem, and is responsible for evaluating grant applications and providing feedback on these.
 
 In cases where a niche expert opinion is desirable, one of the committee members may request such a review.
 
-- [Santiago Balaguer](https://github.com/SBalaguer)
-- [Aeron Buchanan](https://github.com/aeronbuchanan)
-- [Gautam Dhameja](https://github.com/gautamdhameja)
-- [David Hawig](https://github.com/Noc2)
-- [Ashley Grevelink](https://github.com/cruikshankss)
-- [Sebastian Müller](https://github.com/semuelle)
-- [Bill Laboon](https://github.com/laboon)
-- [Raul Romanutti](https://github.com/rrtti)
-- [Aleixo Sánchez](https://github.com/alxs)
-- [Seraya Takahashi](https://github.com/takahser)
-- [Reto Trinkler](https://github.com/retotrinkler)
-- [Benjamin Weiß](https://github.com/BenWhiteJam)
-- [Gavin Wood](https://github.com/gavofyork)
+- [Till](https://github.com/tifrel)
+- [Rui Santiago](https://github.com/sainthiago)
+- [Luís Freitas](https://github.com/microchipgnu)
+- [Ben Ipsen](https://github.com/cif)
+- [Nate Geier](https://github.com/nategeier)
 
-#### Mintbase Grants Evaluators<!-- omit in toc -->
-
-Evaluators are individuals able to evaluate the technology delivered as a result of the Grants Program. The committee has the right to add or remove evaluators on the basis of supermajority.
-
-- [Ashley Grevelink](https://github.com/cruikshankss)
-- [David Hawig](https://github.com/Noc2)
-- [Sebastian Müller](https://github.com/semuelle)
-- [Aleixo Sánchez](https://github.com/alxs)
-- [Seraya Takahashi](https://github.com/takahser)
-
-#### Mintbase Operations Team<!-- omit in toc -->
-
-The Operations Team takes care of legal documents, invoicing and remittances.
-
-- [Melanie Diener](https://github.com/meldien)
-- [Federica Dubbini](https://github.com/fededubbi)
-- [Kasper Mai Jørgensen](https://github.com/KasperJor)
-- [Rouven Pérez](https://github.com/RouvenP)
 
 
 ## :level_slider: Levels
@@ -173,7 +146,7 @@ The Mintbase Grants Program offers different grant levels to help you best depen
 
 ## :mailbox_with_mail: Suggest a Project
 
-If you think that we should support the development of certain tools or projects that aren't in the Polkadot/Kusama [tech stack](docs/polkadot_stack.md), feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
+If you think that we should support the development of certain tools or projects that aren't in the Mintbase/Kusama [tech stack](docs/polkadot_stack.md), feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
 
 **Submit an idea:**
 
@@ -192,7 +165,7 @@ Ideas generally have better chances of being implemented if they're presented in
 
 ## :hammer_and_wrench: Maintenance Grants
 
-Maintenance Grants are yet another idea to get involved with the Polkadot community. If you are a user of an open-source library that has gone out of date, or you simply want to work on small new features/fix bugs in these repos, we can support your contributions via a grant. We are happy to award rolling grants on a monthly basis, as long as the work done within each time period is performed to a quality standard deemed satisfactory by the grant evaluators.
+Maintenance Grants are yet another idea to get involved with the Mintbase community. If you are a user of an open-source library that has gone out of date, or you simply want to work on small new features/fix bugs in these repos, we can support your contributions via a grant. We are happy to award rolling grants on a monthly basis, as long as the work done within each time period is performed to a quality standard deemed satisfactory by the grant evaluators.
 
 The process of applying for a Maintenance Grant is similar to what was already outlined above, but instead of defining very detailed deliverables for each milestone upfront, we will ask you to specify, where possible:
 
@@ -216,7 +189,7 @@ Please note that:
 
 | <img src="src/web.png?s=50" width="50"> | <img src="src/twitter.png?s=50" width="50"> | <img src="src/medium.png?s=50" width="50"> | <img src="src/like.png?s=50" width="50"> | <img src="src/reddit.png?s=50" width="50"> | <img src="src/youtube-play.png?s=50" width="50"> |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [Mintbase Website](https://web3.foundation) | [Mintbase Twitter](https://twitter.com/web3foundation) | [Mintbase Medium](https://medium.com/web3foundation) | [Polkadot Wiki](https://wiki.polkadot.network/en/) | [Mintbase Reddit](https://www.reddit.com/r/web3) | [Mintbase YouTube](https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g) |
+| [Mintbase Website](https://mintbase.io) | [Mintbase Twitter](https://twitter.com/mintbase) | [Mintbase Medium](https://medium.com/mintbase) | [Docs](https://docs.mintbase.io) | [Mintbase Reddit](https://www.reddit.com/r/mintbase) | [Mintbase YouTube](https://www.youtube.com/channel/AZNC_VfPvxiA3k8Vg) |
 
 ### Real-time conversation
 
@@ -232,31 +205,17 @@ Some funding sources might be more and some less suitable for your project throu
 
 ### Treasury
 
-The treasury is a pot of on-chain funds collected through transaction fees, slashing, staking inefficiencies, etc. The funds held in the treasury can be spent on spending proposals. Both [Polkadot](https://polkadot.network/) and [Kusama](https://kusama.network/) offer everyone the opportunity to apply for funding via the treasury. See:
+The treasury is a pot of on-chain funds collected through transaction fees, slashing, staking inefficiencies, etc. The funds held in the treasury can be spent on spending proposals. [Mintbase](https://mintbase.io) offer everyone the opportunity to apply for funding via the treasury. See:
 
-- [Treasury Wiki](https://wiki.polkadot.network/docs/en/learn-treasury)
-- [Polkadot Treasury Guide](https://docs.google.com/document/d/1IZykdp2cyQavcRyZd_dgNj5DcgxgZR6kAqGdcNARu1w)
-- [Kusama Treasury Guide](https://docs.google.com/document/d/1p3UQUjph5t8TVaWnTkfrI5mE-BABnM9Xvtuhdlhl6JE)
+- [Mintbase Treasury Account](https://explorer.near.org/accounts/mintgrants.near)
 
 ### Hackathons
 
-From time to time, Mintbase and/or Parity organise hackathons to promote quick prototyping of Polkadot related ideas. We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked or are planning to work on a project for a hackathon, your grant application should either propose a different set of features or otherwise build on top of your hackathon work. The same applies in reverse, although that will likely be less common.
+From time to time, Mintbase and/or Parity organise hackathons to promote quick prototyping of Mintbase related ideas. We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked or are planning to work on a project for a hackathon, your grant application should either propose a different set of features or otherwise build on top of your hackathon work. The same applies in reverse, although that will likely be less common.
 
-The best way to find out about upcoming hackathons is by following Polkadot on the various social channels, such as Element or Twitter.
+The best way to find out about upcoming hackathons is by following Mintbase on the various social channels, such as Element or Twitter.
 
-### Other Grant Programs
 
-Below is a list of other grant programs in the Polkadot/Substrate ecosystem:
-
-- [Darwinia Grants Program](https://docs.darwinia.network/developers/dev-bounty)
-- [Moonbeam Grants Program](https://moonbeam.foundation/grants/)
-- [Edgeware Grants and Bounties](https://github.com/edgeware-builders/construction-projects)
-- [Crust Grants Program](https://github.com/crustio/Crust-Grants-Program)
-- [HydraDX Grants and Bounties](https://docs.hydradx.io/new_deal/)
-- [Astar / Shiden Network Builders Program](https://github.com/PlasmNetwork/Builders-Program)
-- [Picasso / Composable Grants Program](https://grants.composable.finance)
-- [SubQuery Grants Programme](https://subquery.network/grants)
-- [Acala Grants Program](https://github.com/AcalaNetwork/Acala-Grants-Program)
 
 ## :information_source: License<!-- omit in toc -->
 

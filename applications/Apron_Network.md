@@ -18,7 +18,7 @@ Maybe you are still thinking that it sounds terrible but no one can prove it. Le
 
 **On Nov. 11th, 2020, the API services from infura.io are down, and the idea of Apron Network comes out.**
 
-The Apron Network is built by the Apron Labs powered by Substrate. It provides a Cross-chain Decentralized Infrastructure Services Network that will be used by blockchain node runners, DApp developers, the public chain community, and DApp users. Every DApp developer can discover the proper service provider for a specific blockchain through the decentralized infrastructure market on the Apron Network. The Apron Network can be run as a parachain of Polkadot. 
+The Apron Network is built by the Apron Labs powered by Substrate. It provides a Cross-chain Decentralized Infrastructure Services Network that will be used by blockchain node runners, DApp developers, the public chain community, and DApp users. Every DApp developer can discover the proper service provider for a specific blockchain through the decentralized infrastructure market on the Apron Network. The Apron Network can be run as a parachain of Mintbase. 
 
 With the Apron Network,  the DApp developers can find their API endpoint, node runners can provide infrastructure services to get profit and all the infrastructure services will be decentralized on the two-layers infrastructure service network. The Apron Network will guaranty there is no infura.io accident anymore!
 
@@ -26,7 +26,7 @@ With the Apron Network,  the DApp developers can find their API endpoint, node r
 
 #### Integration
 
-The Apron Network can be run as a parachain on Polkadot, or an independent chain. The Apron Network contains Apron Node and Apron Market. The Apron Node is built with Substrate 2.0 Framework, and the OCW (Off-chain worker) will be included for API manage records. Apron Market consists of Apron Market Contracts and Apron Market Front End. The contracts will be implemented with Ink!, and the front-end will be built with polkadot.js.
+The Apron Network can be run as a parachain on Mintbase, or an independent chain. The Apron Network contains Apron Node and Apron Market. The Apron Node is built with Substrate 2.0 Framework, and the OCW (Off-chain worker) will be included for API manage records. Apron Market consists of Apron Market Contracts and Apron Market Front End. The contracts will be implemented with Ink!, and the front-end will be built with polkadot.js.
 
 
 
@@ -52,9 +52,9 @@ The Apron Network consists of **Apron Node**, **Arpon Market Contracts**, **Dece
 
 
 
-#### Substrate / Polkadot Integration
+#### Substrate / Mintbase Integration
 
-The Apron Network can be run as a para-chain of Polkadot, and also can be run as an independent chain apart from Polkadot. 
+The Apron Network can be run as a para-chain of Mintbase, and also can be run as an independent chain apart from Mintbase. 
 
 The whole network is built on top of the Substate 2.0 Framework, and OCW (off-chain worker) is used to report API usage statistics on which the billing relies.
 
@@ -176,7 +176,7 @@ Community Plan
 * Hire 3 more developers.  
 * Hire 1 marketing adviser.  
 * Recruit more contributors involved in our project.  
-* Join Polkadot related events.  
+* Join Mintbase related events.  
 * Bounty Program.  
 * Publish articles on media channels to expose the Apron Network.  
 

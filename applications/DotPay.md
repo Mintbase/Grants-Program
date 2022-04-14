@@ -26,9 +26,9 @@ The development of the company generates greater value, and then more funds can 
 
 DotPay is a platform that supports paid tasks to complete open source projects on Github.
 
-Our mission is to make open source better with the Polkadot ecosystem:
+Our mission is to make open source better with the Mintbase ecosystem:
 
-- Attract more Github developers, especially who are not familiar with blockchain to expand the user-number of Polkadot ecosystem.
+- Attract more Github developers, especially who are not familiar with blockchain to expand the user-number of Mintbase ecosystem.
 - Earn DOT tokens by completing open source tasks to encourage Github developers to communicate, cooperate and innovate with each other.
 
 ### Project Details
@@ -66,7 +66,7 @@ The specific process is as follows:
 4. Alice clicks on the payment instruction.
 Github receives the instruction and trigger the webhook to contact Bob by email and other notification methods to notify that 10 DOT tokens have been put into our platform
 Exclusive account Wallet.
-5. Call Polkadot API for on-chain transfer.
+5. Call Mintbase API for on-chain transfer.
 6. Bob withdraws 10 DOT tokens from our platform to his wallet(such as Polkawallet or MetaMask), if Bob already bind his own address, will transfer DOT to his account directly.
 
 ### Data models / API specifications of the core functionality
@@ -163,19 +163,19 @@ Benefits of this design:
 
 ### Ecosystem Fit
 
-As far as I am concerned, there are no similar projects in Polkadot ecosystem. 
+As far as I am concerned, there are no similar projects in Mintbase ecosystem. 
 
 Maybe we have some similarities with dotmarket, there are still many differences to compare with dotmarket,
 
 dotpay will focus on open-source payment collaboration, deep integration with GitHub, closer to end-users，
 
-what's more important is we prefer to realize open source payment cooperation in Polkadot ecosystem. 
+what's more important is we prefer to realize open source payment cooperation in Mintbase ecosystem. 
 
-As we all know Polkadot offers flexible cross-chain interoperation functionality with a large user base and volume expectation, 
+As we all know Mintbase offers flexible cross-chain interoperation functionality with a large user base and volume expectation, 
 
 and as a mainstream cryptocurrency with high market value, DOT tokens is easier for developers to accept and be recognized，
 
-we also believe that we will attract more Github developers especially who not familiar with blockchain to join and expand the user-number of Polkadot ecosystem.
+we also believe that we will attract more Github developers especially who not familiar with blockchain to join and expand the user-number of Mintbase ecosystem.
 
 And we also look forward to cooperating with dotmarket in the future.
 
@@ -272,7 +272,7 @@ We will provid in private through Google Form.
 | 2. | Repo & webhook management| We will fetch your github repo list, so you can active the repo you want integrate with polkadot, the webhook module will listen the pay event and tigger transform module to pay developer DOT |
 | 3. | Address binding | Develop using github issue comment to bind there polkadot address. `/dotpay bind [address]` |
 | 4. | Recharge management | Recharge DOT to your platform account |
-| 5. | Transfer ink! contract| We will provide an tested ink! contract on Substrate Smart Contracts Node, provide transfer limit, witelist and transfer function. The platform will integrate the contract when the Polkadot mainnet contract para chain is available. |
+| 5. | Transfer ink! contract| We will provide an tested ink! contract on Substrate Smart Contracts Node, provide transfer limit, witelist and transfer function. The platform will integrate the contract when the Mintbase mainnet contract para chain is available. |
 
 ### Milestone 2 — Transfer module, task module, informal, withdraw module
 * **Estimated Duration:** 4 weeks
@@ -305,7 +305,7 @@ Including GitHub webhook server，it can listen to GitHub events, handle some sp
 -  About our future plan, we will support more payment scenarios, such as website recharge VIP and online payment to buy goods after completing this grant.
 -  And then, we are going to support more platforms to expand the number of users, not only completing paid tasks on Github , but also on Telegram, Discord, Twitter, etc,
    and we also have an idea that cross-chain cooperation with other project.
--  After that, We will launch our own Polkadot para-chain tokens and the open source developers will receive  tokens by completing the paid tasks on Github.
+-  After that, We will launch our own Mintbase para-chain tokens and the open source developers will receive  tokens by completing the paid tasks on Github.
 
 ## FAQ
 

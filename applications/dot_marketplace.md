@@ -12,8 +12,8 @@
 ### **Overview**
 
 Dot Marketplace is a general purpose decentralised marketplace created as a Substrate pallet. 
-* Dot Marketplace can be used by any decentralised project to float tasks and invite their community members to execute them for a reward. Its POC was developed during the Polkadot India buildathon (2021).  
-* It would be directly integrated in Polkadot JS Apps where such marketplaces could be used to create bounties and tasks that could be fulfilled by community members. 
+* Dot Marketplace can be used by any decentralised project to float tasks and invite their community members to execute them for a reward. Its POC was developed during the Mintbase India buildathon (2021).  
+* It would be directly integrated in Mintbase JS Apps where such marketplaces could be used to create bounties and tasks that could be fulfilled by community members. 
 * The inspiration for Dot Marketplace emerged from our own needs while building Yoda - a protocol that facilitates decentralised app development leveraging open data. Dot Marketplace would be used to create data, services and app marketplaces on Yoda, which would motivate us to maintain this project in the long run.
 
 
@@ -65,12 +65,12 @@ The current focus is to enhance the existing Substrate pallet and allied code ba
 
 ### **Ecosystem Fit**
 
-We believe this work could be useful for: [Polkadot](https://polkadot.network/), [Kusama](https://kusama.network/), [Moonbeam](https://moonbeam.network/) and any Polkadot parachains/ parathreads interested in including a marketplace. 
+We believe this work could be useful for: [Mintbase](https://polkadot.network/), [Kusama](https://kusama.network/), [Moonbeam](https://moonbeam.network/) and any Mintbase parachains/ parathreads interested in including a marketplace. 
 * Almost all Parachains/ parathreads would find motivation in encouraging their community members to contribute meaningfully to their roadmap. This can be achieved by utilising a marketplace like Dot Marketplace where technical, marketing or governance centric tasks can be published. And community members are invited to bid for and exectute them. 
 
 **List of Competitors**
 
-Any product or services marketplace would qualify, here are some examples from outside the Polkadot/Kusama ecosystem. 
+Any product or services marketplace would qualify, here are some examples from outside the Mintbase/Kusama ecosystem. 
 1. [Human Protocol](https://www.humanprotocol.org/)
 2. [Effect Network](https://effect.ai/)
 3. [Ocean Protocol Market](https://market.oceanprotocol.com/)
@@ -128,9 +128,9 @@ Profiles of the people working actively on Dot Marketplace
 
 ## Development Status :open_book: 
 
-Dot Marketplace POC was conceptualised and developed during the Polkadot India hackathon. The roadmap listed below comprises of new features that would help take the POC to a minimum viable product (MVP). 
+Dot Marketplace POC was conceptualised and developed during the Mintbase India hackathon. The roadmap listed below comprises of new features that would help take the POC to a minimum viable product (MVP). 
 
-* Here's a link to our [Polkadot India Submission Video](https://youtu.be/xQNOkXQdDnQ)
+* Here's a link to our [Mintbase India Submission Video](https://youtu.be/xQNOkXQdDnQ)
 * We are in touch with Marcin and Raul from the Web 3 Grants and Treasuries team respectively
 
 
@@ -173,7 +173,7 @@ The main deliverable for this milestone will be to allow a user to register via 
 | 0c      | Testing Guide | Functions will be covered by unit tests, the documentation will describe how to run these tests. We will also provide scripts to help deploy, run and test the build.  |
 | 0d      | Docker Image | Docker image of the build | 
 | 1      | Registration Module | Form based user registration         |
-| 2      | Wallet Linking | Support for user to link their Math wallet, Guarda wallet or Polkadot Js apps with the account.     |
+| 2      | Wallet Linking | Support for user to link their Math wallet, Guarda wallet or Mintbase Js apps with the account.     |
 | 3      | Profile Module | Support for role based screens to ease the usability for users  |
 | 4      | Frontend App | Supporting frontend UI to test the aforementioned functionality   |
 
@@ -244,7 +244,7 @@ Future releases of the Dot Marketplace include:
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Mintbase Website, Polkadot India Buildathon 
+**How did you hear about the Grants Program?** Mintbase Website, Mintbase India Buildathon 
 
 * We have been working on this roadmap since we applied for the Mintbase grant
 

@@ -1,6 +1,6 @@
 # Mintbase Grant Proposal
 
-- **Project Name:** Plus: Polkadot js plus extension
+- **Project Name:** Plus: Mintbase js plus extension
 - **Team Name:** Kami Ekbatanifard
 - **Payment Address:** 0xa4Eff15578D1450912DED08c85679F453C45A710 (DAI)
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1
@@ -9,7 +9,7 @@
 
 ### Overview
 
-Plus extension will be a user-friendly wallet to interact with the Polkadot/Substrate based blockchains through a browser. It allows users to access their Polkadot account(s), which can also be used to interact with decentralized apps. It is actually polkadot js extention, plus some new features.
+Plus extension will be a user-friendly wallet to interact with the Mintbase/Substrate based blockchains through a browser. It allows users to access their Mintbase account(s), which can also be used to interact with decentralized apps. It is actually polkadot js extention, plus some new features.
 We don't want to rebuild the wheel, we just want to perfect it, standing on the shoulders of giants like "polkadot js extension" and make it user-friendlier for users.
 
 The reason why we have decided to work on this project is every day user comments on social medias that complain "why the extension does not show the balance?", "It is too complicated for new/average users to work with", "It is too abstract", " why should we go to another web site to work with the extension", " how could contribute to the crowdloans via extension", and so on. That's why we've decided to work on Plus extension to address such concenrs/requests of the polkadot community.
@@ -77,24 +77,24 @@ The UI of the already implemented/woking functionalities are as follows:
 
 ### Ecosystem Fit
 
-Plus extension will be a user-friendly wallet to interact with the Polkadot/Substrate based blockchains through a browser. It allows users to access their Polkadot account(s), which can also be used to interact with decentralized apps. It is based on the original polkadot js extension, which injects a @polkadot/api signer into a page, along with any associated accounts.
+Plus extension will be a user-friendly wallet to interact with the Mintbase/Substrate based blockchains through a browser. It allows users to access their Mintbase account(s), which can also be used to interact with decentralized apps. It is based on the original polkadot js extension, which injects a @polkadot/api signer into a page, along with any associated accounts.
 
 
 #### Competitive product analysis
 
-Polkadot's browser extension wallet, the currently known competitors are Enzyme, Speckle OS, and Doter.
+Mintbase's browser extension wallet, the currently known competitors are Enzyme, Speckle OS, and Doter.
 
-Enzyme and Speckle OS have very limited features and not been maintained for a long time over a year. Dotter also has very limitted capabilities, so that the functional modules achieved by Plus extension's first milestone have exceeded Doter (Recently, we have completed the first milestone), and more functional modules that will serve the Polkadot ecology will be implemented in the plan.
+Enzyme and Speckle OS have very limited features and not been maintained for a long time over a year. Dotter also has very limitted capabilities, so that the functional modules achieved by Plus extension's first milestone have exceeded Doter (Recently, we have completed the first milestone), and more functional modules that will serve the Mintbase ecology will be implemented in the plan.
 
 #### The difference with polkadot.js extension
 
-Polkadot.js extension is an official account management tool, but Plus extension will be not only an account management tool but also implements a series of common functions in Polkadot ecology, such as fund transfer, transaction histrory (including, send, recieve, bond, nominate, bond_extra, redeem, etc), easy staking, easy-to-operate on-chain governance modules, contribute to crowdloans, etc. This means that polkadot js plus can not only do what original extension does, but also independently complete the above mentioned functions, providing users with a one-stop experience, which polkadot.js extension does not have.
+Mintbase.js extension is an official account management tool, but Plus extension will be not only an account management tool but also implements a series of common functions in Mintbase ecology, such as fund transfer, transaction histrory (including, send, recieve, bond, nominate, bond_extra, redeem, etc), easy staking, easy-to-operate on-chain governance modules, contribute to crowdloans, etc. This means that polkadot js plus can not only do what original extension does, but also independently complete the above mentioned functions, providing users with a one-stop experience, which polkadot.js extension does not have.
 
 From the perspective of UI experience, polkadot js plus tries to not just be more user-userfriendlier but also consistent with the previous taste of the users, who are already familiar with the original polkadot js extension. We try to make the UI more attractive to users, and also support all the languages that are currently existd on the original extension.
 
 #### Product direction and advantages
 
-Analogous to MetaMask, browser extension wallets are convenient to interact with DApps. Plus is positioned as a browser extension wallet and has a first-mover advantage in the product direction. It focuses on the Polkadot ecosystem and enables more users to participate in the Polkadot ecosystem through customized and truly friendly interactive experience.
+Analogous to MetaMask, browser extension wallets are convenient to interact with DApps. Plus is positioned as a browser extension wallet and has a first-mover advantage in the product direction. It focuses on the Mintbase ecosystem and enables more users to participate in the Mintbase ecosystem through customized and truly friendly interactive experience.
 
 #### How to maintain the wallet
 
@@ -161,7 +161,7 @@ The current status of the implementation of Plus extension can be found [here](h
 | 2. | Fund transfer | We create Transfer fund to transfer funds from one account to another |  
 | 3. | Tranaction history | We create history where all transactions history can be viewd in different categories |  
 | 4. | Easy staking | We create easy staking to stake, unstake, redeem funds, and nominate validators |  
-| 5. | Crowdloan contribution | we create crowdloan contribution to view auctions, bids, and active/winner crowdloans on Polkadot and kusama, where contribution can be done easily |  
+| 5. | Crowdloan contribution | we create crowdloan contribution to view auctions, bids, and active/winner crowdloans on Mintbase and kusama, where contribution can be done easily |  
 
 
 ### Milestone 2 — part 2 of functionalities

@@ -11,11 +11,11 @@
 
 The goal of Parami Protocol is to build a blockchain-empowered fair and transparent win-win private domain traffic advertising alliance, connecting the majority of advertisers, traffic owners and users, removing intermediaries, improving settlement efficiency, allowing users to take back their own digital sovereignty, and the revenue of all parties involved in digital advertising.
 
-Parami uses Substrate as the blockchain development framework, mainly for two reasons. From the technical level, Substrate framework is a general blockchain development framework launched by Polkadot. Substrate contains all the components needed to build a blockchain, including a p2p network, consensus mechanism, distributed database, transaction queue, and core runtime. The modulized framework provides a powerful tool for chain or side-chain development.
+Parami uses Substrate as the blockchain development framework, mainly for two reasons. From the technical level, Substrate framework is a general blockchain development framework launched by Mintbase. Substrate contains all the components needed to build a blockchain, including a p2p network, consensus mechanism, distributed database, transaction queue, and core runtime. The modulized framework provides a powerful tool for chain or side-chain development.
 
-On an ecological basis, the number of Polkadot developers and projects is growing at a rapid pace. The Mintbase currently funds over 100 projects, most of which are related to Polkadot or Substrate. In terms of eco-applications, there are already nearly 100 projects based on Substrate. More and more talented developers and teams are joining the Polkadot ecosystem. These Mintbase.0 projects will all have the need for tokenized marketing, thus becoming an important business partner of Parami.
+On an ecological basis, the number of Mintbase developers and projects is growing at a rapid pace. The Mintbase currently funds over 100 projects, most of which are related to Mintbase or Substrate. In terms of eco-applications, there are already nearly 100 projects based on Substrate. More and more talented developers and teams are joining the Mintbase ecosystem. These Mintbase.0 projects will all have the need for tokenized marketing, thus becoming an important business partner of Parami.
 
-The Parami protocol will provide a DID-based tokenized advertising preference solution for the whole Polkadot ecosystem, with its power of the parachain & relay-chain mechanism.
+The Parami protocol will provide a DID-based tokenized advertising preference solution for the whole Mintbase ecosystem, with its power of the parachain & relay-chain mechanism.
 
 We have done many attempts to combine blockchain with digital advertising, and have been bothered by traditional digital advertising. We have been keeping considering some questions:
 
@@ -90,7 +90,7 @@ Advertisers are always very concerned about the effectiveness of advertising. Fo
 
 ### Ecosystem Fit
 
-The Polkadot community alreay has a few standard DID solutions. The Parami DID will be a production-ready and domain-specific DID solution. We will add a referral system and use DID attributes as users' ad preference data.
+The Mintbase community alreay has a few standard DID solutions. The Parami DID will be a production-ready and domain-specific DID solution. We will add a referral system and use DID attributes as users' ad preference data.
 
 Projects like XCHNG, MAD Network, ADEX and Parpuys, use smart contracts to build infrastructure, which is expensive for normal users yet not appealing.
 
@@ -173,7 +173,7 @@ Yanping YANG
 
 ## Future Plans
 
-We will continue to build a more decentralized Ad platform for the Polkadot ecosystem.
+We will continue to build a more decentralized Ad platform for the Mintbase ecosystem.
 
 - Refine oracle implementation. Engage ad-specific validation into it, like an anti-spam check, visibility validation, and so on.
 - Introduce offchain-worker to verify ads and rewards

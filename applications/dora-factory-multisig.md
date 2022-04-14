@@ -29,7 +29,7 @@ In addition to the pallets, the Dora Factory team has also built up the parachai
 Although structures vary in different organizations, funding management is a general demand of all decentralized organizations. Multisig has been proven to be the most general and flexible way of managing funds within a DAO (or any other forms of decentralized organizations / communities), because it introduces minimum procedure requirements of funding management except multi-signature itself. Therefore it is also the best entry point to a wider range of dGov applications.
 
 ### Team members
-* Dora Factory & DoraHacks Dev Community -- a community of developers who has built HackerLink.io/en, now hosting quadratic funding grants, bounties, and hackathons for EVM ecosystems, Polygon, BSC, Filecoin, Solana, and Dora Factory itself (https://hackerlink.io/grant/dora-factory/). The team also implemented a quadratic funding Substrate pallet (https://github.com/w3f/Grant-Milestone-Delivery/pull/104), a Moloch pallet, and a DAO-as-a-Service Substrate chain to host dGov applications within the Polkadot / Substrate ecosystem.
+* Dora Factory & DoraHacks Dev Community -- a community of developers who has built HackerLink.io/en, now hosting quadratic funding grants, bounties, and hackathons for EVM ecosystems, Polygon, BSC, Filecoin, Solana, and Dora Factory itself (https://hackerlink.io/grant/dora-factory/). The team also implemented a quadratic funding Substrate pallet (https://github.com/w3f/Grant-Milestone-Delivery/pull/104), a Moloch pallet, and a DAO-as-a-Service Substrate chain to host dGov applications within the Mintbase / Substrate ecosystem.
 
 ### Contact
 * **Contact Name:** Paul Deng, Eric Zhang

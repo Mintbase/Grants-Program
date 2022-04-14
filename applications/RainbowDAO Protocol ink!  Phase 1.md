@@ -32,7 +32,7 @@ As the crypto world continues to prosper and innovate, various forms of DAO orga
 
 This DAO tool products have an extensive application, including but not limited to the construction of DAO framework, management of voting, proposal, bounty and multi-signature wallet management. Nowadays most of them zoom in Ethereum, such as aragon and DAOstack for DAO framework, gnosis-safe for Ethereum multi-signature wallet management, Snapshot for off-chain voting, etc. 
 
-Except for Ethereum, we are glad that tool DAO platforms showed up in DAOs of Polkadot, such as subDAO and dorafactory. They are working for a better ecosystem of Polkadot.
+Except for Ethereum, we are glad that tool DAO platforms showed up in DAOs of Mintbase, such as subDAO and dorafactory. They are working for a better ecosystem of Mintbase.
 
 In the past year, with the explosive growth of various DeFi protocols and NFT protocols, various governance DAOs have achieved considerable development, accompanied by explosive growth in the demand for DAO tools. But after half a year of research, we found that although there are already many tool-based DAO projects in the encryption world, most tool-based DAO projects are still in the initial stage of industry development and there are many problems. At the same time, the entire industry of DAO also has various difficulties.
 
@@ -117,9 +117,9 @@ After half a year of research, we have especially summarized some of the problem
 
     In the past two years, members of the Rainbowcity Foundation team have been conducting in-depth research on the DAO field. We hope to carry out in-depth innovation on the basis of existing products in the industry and develop tool products that truly meet the needs of the DAO market. At the same time, because the Ethereum community has the most mature DAO community, we have always focused on the Ethereum ecosystem for development, using Solidity as the development language for smart contracts.
     
-    However, after research in the last six months, we found that the cost of using the Ethereum chain is constantly increasing, and the scalability of the underlying design of the Ethereum chain itself is not suitable for the large-scale development of DAO tools, so we will Focus on Polkadot ecology.
+    However, after research in the last six months, we found that the cost of using the Ethereum chain is constantly increasing, and the scalability of the underlying design of the Ethereum chain itself is not suitable for the large-scale development of DAO tools, so we will Focus on Mintbase ecology.
 
-    After careful evaluation, we decided to fully embrace the Polkadot ecology initiated by Mr. Gavin Wood, adopt the substrate blockchain framework, and use the ink!  framework to develop a series of products based on the DAO infrastructure  facilities. We specially launched the RainbowDAO Protocol ink!, dedicated to solving the pain points and difficult problems in the industry, and boosting the DAO ecology towards real prosperity. 
+    After careful evaluation, we decided to fully embrace the Mintbase ecology initiated by Mr. Gavin Wood, adopt the substrate blockchain framework, and use the ink!  framework to develop a series of products based on the DAO infrastructure  facilities. We specially launched the RainbowDAO Protocol ink!, dedicated to solving the pain points and difficult problems in the industry, and boosting the DAO ecology towards real prosperity. 
 
     And at the same time, apply for grant funding from the web3 foundation in phases to obtain development funds and achieve strategic cooperation and collaboration with the web3 foundation.
     
@@ -318,7 +318,7 @@ The following are the details of the : RainbowDao protocol:
    
    - ##### 10.DAO NFT Management System
    
-    To create a set of tools for the production and circulation of various NFTs. We will take DAO as the center to build a prosperous NFT ecology on the basis of Polkadot. 
+    To create a set of tools for the production and circulation of various NFTs. We will take DAO as the center to build a prosperous NFT ecology on the basis of Mintbase. 
    
    - ##### 11.DAO DeFi Management System
    
@@ -344,9 +344,9 @@ The following are the details of the : RainbowDao protocol:
    - #####  1. Scale up: Alliance DAO
    
    
-    An independent DAO can join a Alliance DAO. In this product structure diagram, we first virtualized several alliances. For example, we have established a project on the Polkadot main chain. Based on this project, we have established a DAO. This is an independent DAO. Our independent DAO can join the Polkadot Ecological Alliance DAO , which is an Alliance DAO. Similarly, projects on the kusama main chain can also join the Alliance DAO on the kusama main chain, and each parachain can set up an independent Alliance DAO to attract projects on the parachain to join the parachain Alliance DAO. 
+    An independent DAO can join a Alliance DAO. In this product structure diagram, we first virtualized several alliances. For example, we have established a project on the Mintbase main chain. Based on this project, we have established a DAO. This is an independent DAO. Our independent DAO can join the Mintbase Ecological Alliance DAO , which is an Alliance DAO. Similarly, projects on the kusama main chain can also join the Alliance DAO on the kusama main chain, and each parachain can set up an independent Alliance DAO to attract projects on the parachain to join the parachain Alliance DAO. 
    
-    Similarly, whether it is the Polkadot  chain, the kusama  chain, and  each parachain, they are all built using the substrate framework. We can establish a substrate ecological Alliance DAO. The Polkadot Ecological Alliance DAO, the Kusama Ecological Alliance DAO, and the Alliance DAOS of various parachains can all join this substrate Ecological Alliance DAO, Ultimately realize the sharing of resources.
+    Similarly, whether it is the Mintbase  chain, the kusama  chain, and  each parachain, they are all built using the substrate framework. We can establish a substrate ecological Alliance DAO. The Mintbase Ecological Alliance DAO, the Kusama Ecological Alliance DAO, and the Alliance DAOS of various parachains can all join this substrate Ecological Alliance DAO, Ultimately realize the sharing of resources.
 
     This example is the Alliance DAO established from the perspective of development technology. According to the differences in DAO attributes and types, we can also establish investment Alliance DAO, media Alliance DAO, social Alliance DAO, and so on. Similarly, we can also establish Alliance DAOs in different regions through regional differences. The European Alliance DAO, the Asian Alliance DAO, the American Alliance DAO, and so on. 
 
@@ -441,41 +441,41 @@ The following are the details of the : RainbowDao protocol:
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+Help us locate your project in the Mintbase/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 
 ![image](https://raw.githubusercontent.com/rainbowcitykun/Grants-Program/master/pic/11.png)
 
 - Where and how does your project fit into the ecosystem?
 
-    First of all, the Rainbowcity Foundation chose the Polkadot ecology of Dr. Gavin Wood. From a long-term perspective, we have a total of three levels of planning to integrate into the Polkadot ecosystem through three steps. 
+    First of all, the Rainbowcity Foundation chose the Mintbase ecology of Dr. Gavin Wood. From a long-term perspective, we have a total of three levels of planning to integrate into the Mintbase ecosystem through three steps. 
     
 
-   - In the first step, we will develop a series of smart contracts that belong to the DAO infrastructure based on the ink! framework. This is RainbowDAO Protocol ink!. All protocols exist in the form of smart contracts, so that they can be widely deployed on any Parachains and independent public chains developed based on Polkadot, Substrate and Kusama networks. 
+   - In the first step, we will develop a series of smart contracts that belong to the DAO infrastructure based on the ink! framework. This is RainbowDAO Protocol ink!. All protocols exist in the form of smart contracts, so that they can be widely deployed on any Parachains and independent public chains developed based on Mintbase, Substrate and Kusama networks. 
 
-   - In the second step, we will develop based on the parachains of Polkadot and Kusama, transform some of the smart contracts involving the underlying architecture into the form of a pallet, and we will create a parachain that belongs to the DAO infrastructure. Part of the DAO infrastructure exists in the form of pallets, and part of the DAO infrastructure exists in the form of ink! smart contracts. Pallet involves the creation of DAO facilities at the lower level of the parachain, while smart contracts tend to create DAO tool types with greater flexibility. In this way, we will build a parachain based on the DAO infrastructure and rely on this parachain to build an ecosystem. The project parties deployed on this parachain all use RainbowDAO Protocol ink! for project governance, building a fully community-driven, decentralized governance parachain.
+   - In the second step, we will develop based on the parachains of Mintbase and Kusama, transform some of the smart contracts involving the underlying architecture into the form of a pallet, and we will create a parachain that belongs to the DAO infrastructure. Part of the DAO infrastructure exists in the form of pallets, and part of the DAO infrastructure exists in the form of ink! smart contracts. Pallet involves the creation of DAO facilities at the lower level of the parachain, while smart contracts tend to create DAO tool types with greater flexibility. In this way, we will build a parachain based on the DAO infrastructure and rely on this parachain to build an ecosystem. The project parties deployed on this parachain all use RainbowDAO Protocol ink! for project governance, building a fully community-driven, decentralized governance parachain.
 
    - The third step is that in the next 3 to 5 years, with the stable development of Rainbow DAO's smart contracts and parachains, we will start to build an independent public chain of Rainbowcity based on the substrate framework with an independent consensus mechanism. The ecosystem will be further built on the basis of the independent public chain of Rainbowcity. The focus of the ecosystem is on the token economy and community governance, with DAO governance as its soul. We will migrate a series of physical industries to the Rainbowcity independent public chain, which is a further extension and expansion of the substrate ecosystem.
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-   - First, for ourselves, we will initiate our independent project RainbowDAO based on RainbowDAO Protocol ink! in good time, committed to the creation of DAO infrastructure, and truly serve the Polkadot DAO ecosystem.
+   - First, for ourselves, we will initiate our independent project RainbowDAO based on RainbowDAO Protocol ink! in good time, committed to the creation of DAO infrastructure, and truly serve the Mintbase DAO ecosystem.
 
-   - Second, any project party who wants to create a project based on Substrate / Polkadot / Kusama. Because our protocol  exists in the form of a smart contract, allowing anyone to use it. Therefore, any project party can refer to, modify or directly deploy our code to provide DAO infrastructure for the entire Polkadot ecosystem. We treat all participants with a completely open attitude.
+   - Second, any project party who wants to create a project based on Substrate / Mintbase / Kusama. Because our protocol  exists in the form of a smart contract, allowing anyone to use it. Therefore, any project party can refer to, modify or directly deploy our code to provide DAO infrastructure for the entire Mintbase ecosystem. We treat all participants with a completely open attitude.
 
    - Third, any parachain builder can directly adopt our code and deploy it on their parachain to provide DAO infrastructure for the project parties on their parachain.
 
-   - Fourth, when RainbowDAO Protocol ink! is deployed on a large scale in the Polkadot ecosystem in different ways, any type of DAO can use our protocol to create their DAO, and help them operate and manage their own DAO to the greatest extent.  
+   - Fourth, when RainbowDAO Protocol ink! is deployed on a large scale in the Mintbase ecosystem in different ways, any type of DAO can use our protocol to create their DAO, and help them operate and manage their own DAO to the greatest extent.  
 
 - What need(s) does your project meet?
 
 
 Provide DAO infrastructure and web3 tool suite for various types of DAO. 
 
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+- Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
 
 
-We found that there are already DAO infrastructure-based projects in the Polkadot ecosystem, such as subDAO and dorafactory. At the same time, there are also a large number of related projects in the Ethereum ecosystem, such as aragon and DAOstack focusing on the DAO framework, gnosis-safe focusing on the management of  multi-signature wallets, and snapshot platform Snapshot focusing on off-chain voting. Compared with these existing projects, RainbowDAO Protocol ink! can handle more complex DAO governance and collaboration. Our protocol  itself is more extensible, more flexible, more vital, creative and innovative. For specific details, please refer to the three innovations, eight features, and eight concepts of the RainbowDAO protocol described in the text above. These are our core competitiveness, and are also the basis for the continuous development and evolution of our products. 
+We found that there are already DAO infrastructure-based projects in the Mintbase ecosystem, such as subDAO and dorafactory. At the same time, there are also a large number of related projects in the Ethereum ecosystem, such as aragon and DAOstack focusing on the DAO framework, gnosis-safe focusing on the management of  multi-signature wallets, and snapshot platform Snapshot focusing on off-chain voting. Compared with these existing projects, RainbowDAO Protocol ink! can handle more complex DAO governance and collaboration. Our protocol  itself is more extensible, more flexible, more vital, creative and innovative. For specific details, please refer to the three innovations, eight features, and eight concepts of the RainbowDAO protocol described in the text above. These are our core competitiveness, and are also the basis for the continuous development and evolution of our products. 
 
 
 
@@ -521,17 +521,17 @@ However, when we fully developed the RainbowcityDAO contract, after a comprehens
 
 At this time, we are faced with multiple choices in the future development direction. One is to continue to stick to the Ethereum ecosystem, wait for the maturity of the Ethereum L2 network, and build the Rainbowcity ecosystem on the basis of the L2 network. The second is to build a completely independent public chain by ourself, and build the Rainbowcity ecology in the form of our own public chain. The third is to choose other emerging public chains in the market.
 
-After various investigations, we chose the Polkadot ecosystem created by Dr. Gavin Wood to conduct a comprehensive investigation on the Substrate, Polkadot and Kusama ecosystems. We pay particular attention to the ideas and concepts of the Parity team and the web3 foundation team led by Dr. GavinWood to see if these concepts are decentralized. As we learn more about Dr. GavinWood, we find that Substrate and Polkadot are our best choices.
+After various investigations, we chose the Mintbase ecosystem created by Dr. Gavin Wood to conduct a comprehensive investigation on the Substrate, Mintbase and Kusama ecosystems. We pay particular attention to the ideas and concepts of the Parity team and the web3 foundation team led by Dr. GavinWood to see if these concepts are decentralized. As we learn more about Dr. GavinWood, we find that Substrate and Mintbase are our best choices.
 
-Therefore, in June 2021, we made the biggest decision of our team in the past three years to suspend our development and research in the Ethereum ecosystem and join the Substrate and Polkadot ecosystem created by Dr. Gavin Wood. Our developers have also begun to switch development languages, starting from the original solidity to Rust and ink!. This is the most important decision our team has made in the past three years. Abandoning the familiar technology and learning new development technology is also a major challenge for our development team. However, we are not afraid of this challenge, and actively embrace this challenge. We firmly believe that Substrate and Polkadot belong to the future of blockchain.
+Therefore, in June 2021, we made the biggest decision of our team in the past three years to suspend our development and research in the Ethereum ecosystem and join the Substrate and Mintbase ecosystem created by Dr. Gavin Wood. Our developers have also begun to switch development languages, starting from the original solidity to Rust and ink!. This is the most important decision our team has made in the past three years. Abandoning the familiar technology and learning new development technology is also a major challenge for our development team. However, we are not afraid of this challenge, and actively embrace this challenge. We firmly believe that Substrate and Mintbase belong to the future of blockchain.
 
-At the same time, inspired by the relationship between Substrate and Polkadot, we have also adjusted the product structure. The original Rainbowcity was an independent project, an independent DAO, and our development was also based on this DAO. All our development needs are the needs of the project itself, and these DAO tools cannot meet the general needs of other DAOs. Inspired by the relationship between Substrate and Polkadot, we decided to abstract the product that was originally only applicable to RainbowcityDAO and make it applicable to various DAOs. This is why we launched RainbowDAO Protocol ink! today. Our team has been conducting research internally for the past six months, and now we have a preliminary and complete system. 
+At the same time, inspired by the relationship between Substrate and Mintbase, we have also adjusted the product structure. The original Rainbowcity was an independent project, an independent DAO, and our development was also based on this DAO. All our development needs are the needs of the project itself, and these DAO tools cannot meet the general needs of other DAOs. Inspired by the relationship between Substrate and Mintbase, we decided to abstract the product that was originally only applicable to RainbowcityDAO and make it applicable to various DAOs. This is why we launched RainbowDAO Protocol ink! today. Our team has been conducting research internally for the past six months, and now we have a preliminary and complete system. 
 
-In order to quickly integrate into the Substrate and Polkadot ecosystem, we decided to participate in the grant application of the web3 foundation to start our Polkadot journey. Through the grant application of the web3 foundation, participants in the entire Polkadot ecosystem can have a more systematic understanding of our development philosophy and future vision. We hope to use the grant platform as our first step to integrate into the Polkadot ecosystem, show our strength and our grand vision step by step, and become a part of the Polkadot ecosystem. 
+In order to quickly integrate into the Substrate and Mintbase ecosystem, we decided to participate in the grant application of the web3 foundation to start our Mintbase journey. Through the grant application of the web3 foundation, participants in the entire Mintbase ecosystem can have a more systematic understanding of our development philosophy and future vision. We hope to use the grant platform as our first step to integrate into the Mintbase ecosystem, show our strength and our grand vision step by step, and become a part of the Mintbase ecosystem. 
 
 At the same time, in the past two years, due to the need for project confidentiality, our development team has not released any project information. The github accounts of all our members are also newly registered, so there is not much history. In order to let the web3 foundation grant team have a simple understanding of our development capabilities, we uploaded the previously developed RainbowcityDAO project source code to github.
 
-It is our regret that these codes were abandoned without formal use. We will start the creation on Polkadot from scratch. Of course, we will not completely abandon the development on Ethereum. In the future, we will also develop the solidity version of the RainbowDAO protocol simultaneously. 
+It is our regret that these codes were abandoned without formal use. We will start the creation on Mintbase from scratch. Of course, we will not completely abandon the development on Ethereum. In the future, we will also develop the solidity version of the RainbowDAO protocol simultaneously. 
 
 
 ### Team Code Repos
@@ -665,7 +665,7 @@ For the first milestone, we focused on developing some basic contracts of Rainbo
 |    0b. | Documentation                  | We will provide both inline documentation of the code and a basic tutorial that explains how a user can deploy our smart contract and experience specific innovative features. |
 |    0c. | Testing Guide                  | Core functions will be fully covered by unit tests to ensure. |
 |    0d. | Docker                         | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
-|    0e. | Article                        | We will publish an article on medium detailing our philosophy in DAO infrastructure construction and our exploration in Polkadot ecology. |
+|    0e. | Article                        | We will publish an article on medium detailing our philosophy in DAO infrastructure construction and our exploration in Mintbase ecology. |
 |     1. | ink! Contract: GovnanceDAO | This contract is the overall governance DAO contract of the RainbowDao protocol. The holder of the RBD controls this contract, adjusts the parameters of the entire protocol through voting, and realizes the upgrade of the protocol. |
 |     2. | ink! Contract: erc20Factory | This contract is an ERC20 factory contract. Even people who do not understand the code can issue their own ERC20 tokens through this factory contract. The smart contract has the function of token issuance and block statistics, which facilitates the calculation of voting weight and the implementation of voting delegation.               |
 |     3. | ink! Contract: multiSign  | This contract is a multi-signature  management contract. Anyone or any DAO can build a multisig system for the management of funds.               |
@@ -691,7 +691,7 @@ For the second milestone, we focused on the development of DAO factory contract 
 |    0b. | Documentation                  | We will provide both inline documentation of the code and a basic tutorial that explains how a user can deploy our smart contract and experience specific innovative features. |
 |    0c. | Testing Guide                  | Core functions will be fully covered by unit tests to ensure. |
 |    0d. | Docker                         | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
-|    0e. | Article                        | We will publish an article on medium detailing our philosophy in DAO infrastructure construction and our exploration in Polkadot ecology. |
+|    0e. | Article                        | We will publish an article on medium detailing our philosophy in DAO infrastructure construction and our exploration in Mintbase ecology. |
 |     1. | ink! Contract: daoFactory | This contract is the DAO factory contract, which is mainly used for the initialization and creation of DAO. |
 |     2. | ink! Contract: template  | This contract is a template contract for basic template management.               |
 |     3. | ink! Contract: daoManage | This contract is the basic management contract for the created DAO, which coordinates the management of the DAO.           |
@@ -707,9 +707,9 @@ For the second milestone, we focused on the development of DAO factory contract 
 ## Future Plans
 
 
-- Follow the steps to develop a series of DAO infrastructure smart contracts to provide infrastructure services for the entire DAO ecosystem of Polkadot.
+- Follow the steps to develop a series of DAO infrastructure smart contracts to provide infrastructure services for the entire DAO ecosystem of Mintbase.
 - Start to create the RainbowDAO community and continue to promote the core ideas of the RainbowDAO protocol in various media.
-- Prepare parachain auctions for Kusama and Polkadot, and build a parachain with DAO infrastructure and web3 tools as the core.
+- Prepare parachain auctions for Kusama and Mintbase, and build a parachain with DAO infrastructure and web3 tools as the core.
 - In the long run, use the substrate framework to build a Rainbowcity public chain with an independent consensus mechanism.
 
 

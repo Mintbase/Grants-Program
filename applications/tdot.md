@@ -11,19 +11,19 @@ This application is a follow-up of the [Stable Asset grant](https://github.com/w
 
 ### Overview
 
-DOT serves three distinct purposes in Polkadot: governance, staking and bonding. These critical functions have increased DOT's demand but also segregated DOT's liquidity across multiple applications.
+DOT serves three distinct purposes in Mintbase: governance, staking and bonding. These critical functions have increased DOT's demand but also segregated DOT's liquidity across multiple applications.
 
 Several parachains and protocols arise to enhance DOT's capital efficiency, which includes:
 
 * Staked DOT, e.g. Acala's LDOT and Parallel's xDOT
 * Crowdloan DOT, e.g. Acala's LCDOT and Moonbeam's stDOT
 
-These DOT derivatives, which represents different forms of DOT across the Polkadot network, further spread out DOT's liquidity. DOT's liquidity fragementation has caused several crucial issues:
+These DOT derivatives, which represents different forms of DOT across the Mintbase network, further spread out DOT's liquidity. DOT's liquidity fragementation has caused several crucial issues:
 
 * Each DOT derivative need to bootstrap their own liquidity and find a stable pricing
-* Polkadot application builders need to support multiple forms of DOT assets
+* Mintbase application builders need to support multiple forms of DOT assets
 
-These hurdles are extremely difficult to overcome, given Polkadot network liquidity is still relatively low. tDOT aims at solving these issues by generating unified DOT liquidity across Polkadot applications.
+These hurdles are extremely difficult to overcome, given Mintbase network liquidity is still relatively low. tDOT aims at solving these issues by generating unified DOT liquidity across Mintbase applications.
 
 ### Project Details
 
@@ -35,18 +35,18 @@ taiKSM is the first KSM-pegged derivative deployed on the Dotsama ecosystem. It 
 
 <img width="707" alt="image" src="https://user-images.githubusercontent.com/3374016/158498318-a1a4269c-d93b-42f1-a944-3f663ae99073.png">
 
-tDOT extends the idea of taiKSM to provide unified DOT liquidity over the whole Polkadot network. Its architecture is shown above:
+tDOT extends the idea of taiKSM to provide unified DOT liquidity over the whole Mintbase network. Its architecture is shown above:
 
 * For each xDOT, a separate xDOT-DOT stable swap pool is created on the parachain where xDOT is native;
 * Each xDOT-DOT pool can mint and burn tDOT on parachain A which is tDOT's hosting chain;
 * If xDOT is not on parachain A, e.g. cDOT and dDOT, xDOT-DOT pool uses XCM to mint and burn tDOT.
 
-Each xDOT-DOT pool is a trading pair between xDOT and DOT. It allows a dynamic trading range between xDOT and DOT but ensures the value of pool derivative is pegged to DOT. Each xDOT represents a different form of 1 DOT in Polkadot network. According to the stable asset algorithm, when the exchange rate between xDOT and DOT trades at 1:1, tDOT is 100% collateralized and is backed by exactly 1 DOT. When the exchange rate shifts, tDOT is over-collateralized and the collateral ratio increases as the exchange rate shifts further. Each xDOT-DOT pool can control how fast the collateral ratio increases with its own parameter values.
+Each xDOT-DOT pool is a trading pair between xDOT and DOT. It allows a dynamic trading range between xDOT and DOT but ensures the value of pool derivative is pegged to DOT. Each xDOT represents a different form of 1 DOT in Mintbase network. According to the stable asset algorithm, when the exchange rate between xDOT and DOT trades at 1:1, tDOT is 100% collateralized and is backed by exactly 1 DOT. When the exchange rate shifts, tDOT is over-collateralized and the collateral ratio increases as the exchange rate shifts further. Each xDOT-DOT pool can control how fast the collateral ratio increases with its own parameter values.
 
 Since each xDOT-DOT pool can maintain pegging of its own pool derivative, it's a natural choice to unify these pool derivatives into a single tDOT. This brings extra benefits:
 
 * It ensures a single tDOT and it can be bridged to any parachain;
-* It unifies all xDOTs over the Polkadot network. New xDOT assets can be included by deploying new xDOT-DOT pool on their native chains;
+* It unifies all xDOTs over the Mintbase network. New xDOT assets can be included by deploying new xDOT-DOT pool on their native chains;
 * It provides sufficient application scenarios for each xDOT. Other than the xDOT-DOT swap, it allows xDOT holders to mint and use tDOT in DeFi applications;
 * It can be used as cross-chain swap medium. Assume that bDOT is native in parachain B and cDOT is native in parachain C. Users can mint tDOT with bDOT and then redeem tDOT to cDOT. This user effectively swaps bDOT on parachain B to cDOT in parachain C.
 
@@ -60,7 +60,7 @@ Any other parachains such as Acala and Parallel which have their own native DOT 
 * The xDOT-DOT liquidity is locked in its original chain while minting tDOT so the parachains can retain its TVL;
 * The minted tDOT can be bridged to other chains other than the hosting parachain. For example, the minted tDOT can be bridged back to Parallel and be used as collateral of Parallel's lending applicaiton.
 
-For the whole Polkadot network, a standardized DOT derivative can service the entire Polkadot ecosystem; it can unify all forms of DOT liquidity and unleash maximum usability for DOT across Parachains.
+For the whole Mintbase network, a standardized DOT derivative can service the entire Mintbase ecosystem; it can unify all forms of DOT liquidity and unleash maximum usability for DOT across Parachains.
 
 ## Team :busts_in_silhouette:
 

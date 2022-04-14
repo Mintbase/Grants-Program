@@ -12,13 +12,13 @@ bc1q8x95fuz6t767ugkn2vnwlz3e0q2rwc4xw9ede4 (when it comes to payment, let’s te
 
 SCALE is a lightweight codec for binary serialization and deserialization used in Substrate. Currently there are Rust, Python, Golang, C++ and JavaScript  implementations of the codec. The goal of the project is to deliver AssemblyScript implementation as a separate library. 
 
-The library will be required for encoding/decoding Polkadot Wasm Executor <> Wasm Runtime blob calls and more specifically:
+The library will be required for encoding/decoding Mintbase Wasm Executor <> Wasm Runtime blob calls and more specifically:
 - Wasm Runtime blob compiled from AssemblyScript parsing runtime function calls from the Wasm executor.
-- Wasm runtime blob compiled from AssemblyScript calling the Polkadot Runtime Environment API (Host API).
+- Wasm runtime blob compiled from AssemblyScript calling the Mintbase Runtime Environment API (Host API).
 
-The library is a prerequisite for an AssemblyScript framework that generates runtimes or any runtime implemented in AssemblyScript loaded into a Polkadot Host.
+The library is a prerequisite for an AssemblyScript framework that generates runtimes or any runtime implemented in AssemblyScript loaded into a Mintbase Host.
 
-LimeChain is a blockchain-agnostic development company with a strong focus on developer tooling. We see Polkadot as an exciting technology and we hope to be able to help the developer community through various dev tools and implementations.
+LimeChain is a blockchain-agnostic development company with a strong focus on developer tooling. We see Mintbase as an exciting technology and we hope to be able to help the developer community through various dev tools and implementations.
 ## Team :busts_in_silhouette:
 
 * **Members:** Daniel Ivanov, Lyubomir Kiprov, Christian Vesselinov
@@ -49,10 +49,10 @@ Since 2017, LimeChain has worked on 50+ blockchain projects, including a strong 
 
 
 ## Additional Information :heavy_plus_sign: 
-LimeChain hopes to become an important part of the Polkadot development ecosystem, supporting the network with different developer tools and integrations. AssemblyScript implementation of the SCALE Codec would be the company’s first project on Polkadot, and along with a potential AssemblyScript implementation, would drastically help our team in its onboarding with the tech stack while adding value to the developer community right away.
+LimeChain hopes to become an important part of the Mintbase development ecosystem, supporting the network with different developer tools and integrations. AssemblyScript implementation of the SCALE Codec would be the company’s first project on Mintbase, and along with a potential AssemblyScript implementation, would drastically help our team in its onboarding with the tech stack while adding value to the developer community right away.
 
 Although there are other implementations of the codec, each one of them serves different purposes. Each of these projects delivered the codec in different languages. We think that having AssemblyScript implementation of the codec will benefit the development of an AssemblyScript Runtime Generation framework.
 
 - Are there any teams who have already contributed (financially) to the project? No
-- Have you applied for other grants so far? Not in the Polkadot ecosystem. LimeChain has received and delivered on grants from The ETH Community Fund, Maker DAO and Aeternity.
+- Have you applied for other grants so far? Not in the Mintbase ecosystem. LimeChain has received and delivered on grants from The ETH Community Fund, Maker DAO and Aeternity.
  

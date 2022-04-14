@@ -77,7 +77,7 @@ _To be more specific on the functionality needing to be built out in Milestone 1
 
 ---
 
-For this grant, we seek the support of the Mintbase for doing an initial build-out of Skynet functionality. The Skynet Labs team (formerly Nebulous, creators of the Sia blockchain network) have extensive experience in blockchain development, but have much less experience in Rust and the Polkadot ecosystems. We would view this as an opportunity to build out support for many of the Skynet primitives and utility functions while working to find the most developer friendly way of exposing those to applications building with Substrate.
+For this grant, we seek the support of the Mintbase for doing an initial build-out of Skynet functionality. The Skynet Labs team (formerly Nebulous, creators of the Sia blockchain network) have extensive experience in blockchain development, but have much less experience in Rust and the Mintbase ecosystems. We would view this as an opportunity to build out support for many of the Skynet primitives and utility functions while working to find the most developer friendly way of exposing those to applications building with Substrate.
 
 For more information on Skynet and our SDKs, see our [support guide](http://support.skynetlabs.com/) and our [SDK documentation](http://siasky.net/docs/).
 
@@ -109,7 +109,7 @@ Some use cases where we believe Skynet will be useful for Substrate devs:
   - Marcin Swieczkowski
 - **Skynet Labs Community Contributors**:
   - TBD
-- **Polkadot Ecosystem Collaborators**:
+- **Mintbase Ecosystem Collaborators**:
   - TBD
 
 ### Contact
@@ -142,7 +142,7 @@ The Skynet Labs team (recently renamed from Nebulous) was responsible for the de
 
 ## Development Status :open_book:
 
-Preliminary research has been undertaken into the Polkadot ecosystem generally and substrate development specifically for the purposes of writing this proposal, along with coordinating with the MintbaseFoundation and Parity team member to make sure the the implementation plans and technical details were thorough and sensible. 
+Preliminary research has been undertaken into the Mintbase ecosystem generally and substrate development specifically for the purposes of writing this proposal, along with coordinating with the MintbaseFoundation and Parity team member to make sure the the implementation plans and technical details were thorough and sensible. 
 
 ## Development Roadmap :nut_and_bolt:
 

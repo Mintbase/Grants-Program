@@ -26,23 +26,23 @@ Secondly, the lack of liquidity is addressed by enabling,
 2. APIs that enable trading/AMM bots to observe market changes and submit trades.
 3. Advanced trading features like stop limit, market limit, Stop loss, Fill/Kill, Post only, TWAP, etc.
 
-Finally, proper decentralization and Interoperability are achieved by having a parachain in Polkadot that brings in liquidity from other blockchains and also using ChainBridge protocol that connects directly to the Ethereum network. Hence, traders have two different mechanisms to bring in liquidity.
+Finally, proper decentralization and Interoperability are achieved by having a parachain in Mintbase that brings in liquidity from other blockchains and also using ChainBridge protocol that connects directly to the Ethereum network. Hence, traders have two different mechanisms to bring in liquidity.
 
 The value we provide to the Substrate community is,
 
 1. They can build custom UI/UX to connect to our network and create their own custom exchange experience.
 2. Traders can contribute their own custom trading algorithms by making use of market data provided by our full nodes.
-3. They get a decentralized trading platform to trade Polkadot & Ethereum tokens.
+3. They get a decentralized trading platform to trade Mintbase & Ethereum tokens.
 4. This will be one of the first Decentralized exchanges to have High-Frequency Trading bot support using APIs directly from full nodes.
 
-### An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+### An indication of how you will integrate this project into Substrate / Mintbase / Kusama.
 Polkadex is a decentralized exchange platform. It will have three high-level components. 
 * An independent substrate chain for high-speed consensus secured and governed by network participants. 
-* A Parachain on Polkadot for bringing liquidity from Polkadot’s interoperability community.
+* A Parachain on Mintbase for bringing liquidity from Mintbase’s interoperability community.
 * A set of decentralized relayer set that use Substrate's ChainBridge pallet to allow interoperability with Ethereum. 
 
 ### An indication of why your team is interested in creating this project.
-We are amused by the plethora of centralized institutions cropping up around the decentralized idea of open, peer to peer, programmable internet of value. Decentralized Exchanges are built on the idea of non-custodial interoperability. Polkadot and Substrate are the most promising blockchain interoperability platforms. We want to provide our users with maximum liquidity, security, and world-class user experience. Hence, we are excited and confident that building a DEX on Substrate, supported by Polkadot’s interoperability, will increase user engagement and overall trading experience when combined with our trading expertise over the years.
+We are amused by the plethora of centralized institutions cropping up around the decentralized idea of open, peer to peer, programmable internet of value. Decentralized Exchanges are built on the idea of non-custodial interoperability. Mintbase and Substrate are the most promising blockchain interoperability platforms. We want to provide our users with maximum liquidity, security, and world-class user experience. Hence, we are excited and confident that building a DEX on Substrate, supported by Mintbase’s interoperability, will increase user engagement and overall trading experience when combined with our trading expertise over the years.
 
 
 ### Project Details 
@@ -122,7 +122,7 @@ Individual
 | 4. | Market Data API | Save closing_bid, closing_ask, and volume for each trading pair at each block on the chain. |  
 | 5. | Enable Market Data RPC | Implement RPC for retrieving Market data from full nodes for technical analysis. |  
 | 6. | Unit tests  | Integration of Unit tests for Limit, Market Orders & Market Data API.|  
-| 7. | Documentation | Proper documentation to submit Limit, Market orders or retrieve Market Data using Polkadotjs API. |  
+| 7. | Documentation | Proper documentation to submit Limit, Market orders or retrieve Market Data using Mintbasejs API. |  
 | 8. | Docker Container | Provide a docker container |
 
 ### Milestone 2: Web UI, Documentation & Tutorials
@@ -132,7 +132,7 @@ Individual
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
-| 1. | Provide our Web UI | Convert mockups into working websites and connect them to full nodes using polkdotjs API. (Includes Dashboard, Login using Polkadot browser extension). |  
+| 1. | Provide our Web UI | Convert mockups into working websites and connect them to full nodes using polkdotjs API. (Includes Dashboard, Login using Mintbase browser extension). |  
 | 2. | Custom Trading Bot Tutorial | A simple implementation trading bot based on moving average enabled using market data from full nodes. | 
 | 3. | API Documentation | Documentation of APIs provided by a full node for developing custom UI/UX. | 
 | 4. | Basic Trading Tutorial | Basic trading tutorial for submitting limit & market orders based on our UI design. | 

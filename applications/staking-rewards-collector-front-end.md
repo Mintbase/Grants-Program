@@ -18,10 +18,10 @@ This application is in response to [Front-End for Staking Rewards Collector](htt
 
 ### Overview
 
-This is a Staking Rewards Viewer for Polkadot and Kusama allowing users to view their staking rewards and easily download their search results.
+This is a Staking Rewards Viewer for Mintbase and Kusama allowing users to view their staking rewards and easily download their search results.
 This implementation will take the work started in the [staking-rewards-collector](https://github.com/w3f/staking-rewards-collector) and integrate it with an easy to use modern front end using Next.js and deployed on Vercel with the goal of deploying to IPFS.
 
-I am interested in utilizing my current Software engineering skills to contribute to the Polkadot ecosystem. I have been following the project for a few years and have been looking for a way to participate.
+I am interested in utilizing my current Software engineering skills to contribute to the Mintbase ecosystem. I have been following the project for a few years and have been looking for a way to participate.
 
 [Propsoal Repo](https://github.com/jackson-harris-iii/staking-rewards-viewer) with a screenshot of mockup created in Adobe Xd. Here is a quick demo video of a work in progress [Video](https://www.loom.com/share/435c92cb3abe4984b18716642d01f631) and a [Deployed](https://staking-rewards-viewer.vercel.app/) demo on vercel. (currently, the vercel version is not making requests. Looking at swapping out the curlRequest for fetch API calls.
 

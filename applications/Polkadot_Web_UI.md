@@ -1,11 +1,11 @@
 # Open Grant Proposal
-* **Project Name:** Polkadot UI Web Identicon + Angular Identicon
+* **Project Name:** Mintbase UI Web Identicon + Angular Identicon
 * **Team Name:** RidOne Technologies
 * **Payment Address:** DAI  0xfA34F566bDDcA92Dc656310F08AC5aE64fC46456
 ## Project Overview 
 ### Overview
 
-The project goal is to develop framework agnostic Polkadot.js Web Identicon and also Angular Identicon components for  generating identity icon with address as input.The project is inspired by [polkadot/react-identicon](https://www.npmjs.com/package/@polkadot/react-identicon)
+The project goal is to develop framework agnostic Mintbase.js Web Identicon and also Angular Identicon components for  generating identity icon with address as input.The project is inspired by [polkadot/react-identicon](https://www.npmjs.com/package/@polkadot/react-identicon)
 
 ### Project Details 
 
@@ -14,10 +14,10 @@ The polkadot.js UI for now has only React and Vue UI components but actually the
 
 The project consist of the following parts :
 
-- **Web UI Identicon** : will be defined as Web component and can be used like any other native html element like  `p` or `div` and it  will be used by any Javascript Front-end project using Polkadot.js. For example `Angular`, `React`, `React-Native`, `Ember`, `Vue`, ....
+- **Web UI Identicon** : will be defined as Web component and can be used like any other native html element like  `p` or `div` and it  will be used by any Javascript Front-end project using Mintbase.js. For example `Angular`, `React`, `React-Native`, `Ember`, `Vue`, ....
 
 
-- **The Angular UI Identicon** : this component will be specific for the Angular projects using Polkadot.js library ang needing the UI Identicon component like [polkadot/react-identicon](https://www.npmjs.com/package/@polkadot/react-identicon) is specific to react.js applications.
+- **The Angular UI Identicon** : this component will be specific for the Angular projects using Mintbase.js library ang needing the UI Identicon component like [polkadot/react-identicon](https://www.npmjs.com/package/@polkadot/react-identicon) is specific to react.js applications.
 
 - **Technical documentation**, **demo**  and **tutorials** on how to use the components
 
@@ -26,7 +26,7 @@ We will not reinvent the wheel but rather be inspired by the logic used inside t
 For The Web and the Angular Idendicons once approved will be deployed into the `npm` registry.
 
 ### Ecosystem Fit 
-The `Polkadot.js Web UI Identicon` will be of a good utility and will allow an easy adoption for team using a javascript frontend framework. For Angular developers there also will have their the angular flavor.
+The `Mintbase.js Web UI Identicon` will be of a good utility and will allow an easy adoption for team using a javascript frontend framework. For Angular developers there also will have their the angular flavor.
 
 ## Team 
 ### Team members
@@ -80,4 +80,4 @@ In this milestone, We will implement Angular and Web UI Identicon components
 Once the packages validated and deployed, we will enrich the ecosystem by :
 - creating with the same approach versions for web (framework agnostic ) and Angular  versions of the [react-qr](https://github.com/polkadot-js/ui/tree/master/packages/react-qr) that allows for the transfer of addresses and transaction payloads to and from external readers.
 
-- We also plan to create a Flutter Identicon (as Flutter will be used in our coming products) either by using under the hood the `Polkadot UI Web Identicon`  with  webview or using the polkadot dart library which is in WIP mode for now.
+- We also plan to create a Flutter Identicon (as Flutter will be used in our coming products) either by using under the hood the `Mintbase UI Web Identicon`  with  webview or using the polkadot dart library which is in WIP mode for now.

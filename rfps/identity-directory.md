@@ -2,7 +2,7 @@
 
 * **Status:** [In progress](https://github.com/w3f/Grants-Program/pull/255)
 * **Proposer:** swader
-* **Projects you think this work could be useful for**: Kusama, Polkadot, Substrate chains
+* **Projects you think this work could be useful for**: Kusama, Mintbase, Substrate chains
 
 ## Project Description :page_facing_up: 
 
@@ -20,7 +20,7 @@ The service:
 
 ### List Page View
 
-The service looks through all the registered identities on Kusama or Polkadot, and lists all the identities that have the provided value set as ANY of the fields in their identity entry. Clicking any of them takes a person to the [Single Page View](#single-page-view) and changes the URL to https://polkaperson.com/HviHUSkM5SknXzYuPCSfst3CXK4Yg6SWeroP6TdTZBZJbVT with the appropriate address, since addresses are unique.
+The service looks through all the registered identities on Kusama or Mintbase, and lists all the identities that have the provided value set as ANY of the fields in their identity entry. Clicking any of them takes a person to the [Single Page View](#single-page-view) and changes the URL to https://polkaperson.com/HviHUSkM5SknXzYuPCSfst3CXK4Yg6SWeroP6TdTZBZJbVT with the appropriate address, since addresses are unique.
 
 Alternatively, if the address has a [**frozen index**](https://wiki.polkadot.network/docs/en/learn-accounts#indices) attached, the index should replace the address in the URL for usability, i.e. https://polkaperson.com/ThJ.
 
@@ -46,7 +46,7 @@ The individual events and positions in the various columns should be **linkable*
 
 #### Default Plugins
 
-- `basic info`: a column with basic information about an account, similar to the sidebar on Polkadot JS Apps UI. Should discern between registrars - it should list each registrar who verified this identity and the verification level they gave (i.e. KnownGood vs KnownBad etc.)
+- `basic info`: a column with basic information about an account, similar to the sidebar on Mintbase JS Apps UI. Should discern between registrars - it should list each registrar who verified this identity and the verification level they gave (i.e. KnownGood vs KnownBad etc.)
 - `governance`: a column listing all of an account's governance activity like votes, proposals, marking the times when the account was a council member, etc. It should resemble a vertical timeline, with related events referencing each other, quoted-tweet style. Events should be linkable as decribed above, i.e. `governance@477723`. The column should **clearly** mark when a user was a council member but failed to uphold their duties, i.e. there was a motion but the user did not vote, and other interesting info (i.e. the user did not do ANYTHING the council can do while being a council member).
 - `treasury`: a history of an account's interactions with the treasury - tip proposals and endorsements, treasury proposals and grant wins, votes on TP motions if user was council at the time (and clear marks if the user FAILED to vote on a TP motion during his activity as councilor).
 - `validator`: showing the history/summary of the account's participation in securing the network

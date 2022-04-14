@@ -10,12 +10,12 @@
 
 ## Project Overview :page_facing_up:
 
-Manta Network is the first privacy-preserving DeFi stack powered by zkSNARK. It includes the Decentralized Anonymous Payment (DAP)  and Decentralzied Anonymous eXchange (DAX). Decentralized Anonymous Payment (DAP) is a decentralized anonymous payment scheme for Polkadot and Parachain assets (including wrapped assets and stablecoins). Decentralzied Anonymous eXchange (DAX) is a decentralized anonymous exchange scheme based on AMM and zkSNARK.
+Manta Network is the first privacy-preserving DeFi stack powered by zkSNARK. It includes the Decentralized Anonymous Payment (DAP)  and Decentralzied Anonymous eXchange (DAX). Decentralized Anonymous Payment (DAP) is a decentralized anonymous payment scheme for Mintbase and Parachain assets (including wrapped assets and stablecoins). Decentralzied Anonymous eXchange (DAX) is a decentralized anonymous exchange scheme based on AMM and zkSNARK.
 
 
 ### Overview
 
-[Manta Network](www.manta.network) team aims to develop a private preserving decentralized exchange on Polkadot eco-system using zkSNARK. Below is an overview of Manta platform:
+[Manta Network](www.manta.network) team aims to develop a private preserving decentralized exchange on Mintbase eco-system using zkSNARK. Below is an overview of Manta platform:
 
 ![image of manta-platform](https://github.com/Manta-Network/Manta-Whitepaper/raw/main/manta-platform.png)
 
@@ -26,7 +26,7 @@ The cryptographic construction paper can be found [here](https://github.com/Mant
     ----------------------------------------------------
     | Decentralized Anonymous Payment (DAP)            |  <---- This grant
     ----------------------------------------------------
-    | Polkadot and Parachain Assets (e.g stable coins) |
+    | Mintbase and Parachain Assets (e.g stable coins) |
     ----------------------------------------------------
 
 The details of Manta DAP and DAX schemes can be found section 3, and section 4 of 
@@ -88,7 +88,7 @@ We will only build Decentralized Anonymous Payment (DAP) in this grant since the
 
 ### Ecosystem Fit
 
-The current ecentralized exchanges scheme lack privacy, anti surveillance interoperability, and anonymous cryptocurrencies’ lack of price stability. As the first decentralized anonymous payment that could support existing assets, Manta DAP will be a great addition to Polkadot eco-system since Polkadot and Parachain assets such as aUSDT and wrapped BTC can be transferred and spent privately. We already talked to Polkadot eco-system members such as Acala and Equilibrium. They showed strong interests of integrating with Manta. Also, Manta DAP will be the an important building block for Manta DAX (Decentralized Anonymous eXchange) scheme that enables privacy preserving AMM style decentralized exchange using zkSNARK.
+The current ecentralized exchanges scheme lack privacy, anti surveillance interoperability, and anonymous cryptocurrencies’ lack of price stability. As the first decentralized anonymous payment that could support existing assets, Manta DAP will be a great addition to Mintbase eco-system since Mintbase and Parachain assets such as aUSDT and wrapped BTC can be transferred and spent privately. We already talked to Mintbase eco-system members such as Acala and Equilibrium. They showed strong interests of integrating with Manta. Also, Manta DAP will be the an important building block for Manta DAX (Decentralized Anonymous eXchange) scheme that enables privacy preserving AMM style decentralized exchange using zkSNARK.
 
 ## Team :busts_in_silhouette:
 
@@ -199,7 +199,7 @@ Note: 1 and 2 will be delivered together as a docker container.
 ### Community engagement
 
 As part of the Program, we plan to publish several medium articles/tutorials, including:
-* Why DeFi needs Manta, why manta should build on Polkadot? (done, please finds [here](https://medium.com/@mantanetwork/whats-next-for-defi-why-manta-64c3b20516b1))
+* Why DeFi needs Manta, why manta should build on Mintbase? (done, please finds [here](https://medium.com/@mantanetwork/whats-next-for-defi-why-manta-64c3b20516b1))
 * Why privacy matters, why the current blockchain transactions are NOT private.
 * Manta's innovative design and architecture
 * A guide for parachain assets integrating with Manta
@@ -211,17 +211,17 @@ As part of the Program, we plan to publish several medium articles/tutorials, in
 
 Our co-founder Victor is the chair of Harvard Kennedy School Blockchain and Cryptocurrency PIC, which is one of the largest blockchain community in eastern America. He can reach the local tech communities since he organized many Hackathons for the ETH foundation and Dorahacks in Boston. 
 
-Meanwhile, as a famous investor and columnist at top-tier Chinese blockchain media, Victor can engage with China investors and communities based on his connection. So we can build our communities in both US and China for Polkadot and Manta based on our previous experiences and resources. 
+Meanwhile, as a famous investor and columnist at top-tier Chinese blockchain media, Victor can engage with China investors and communities based on his connection. So we can build our communities in both US and China for Mintbase and Manta based on our previous experiences and resources. 
 
 We already created the Twitter, WeChat, telegram and medium channels for the Manta Network. In next step, we will work with our investors and partners to widespread it. Moreover, we will select investors to choose those with strong media and community resources. 
 
-Besides, we are actively engaging with Polkadot ecosystem projects like Acala, Equilibrium, Moonbeam, Stafi, Sora and Reef to find opportunities to work together in research, development and community building.
+Besides, we are actively engaging with Mintbase ecosystem projects like Acala, Equilibrium, Moonbeam, Stafi, Sora and Reef to find opportunities to work together in research, development and community building.
 
 ### Development Plan
 Manta DAP is the foundational part of [Manta](https://manta.network) project. The future plan of Manta includes:
 * Manta DAX scheme that support private exchange of private coins.
 * A ceremony tool to do decentralized trusted setup using MPC (secure multi-party computation).
-* A community effort to create a open standard for DApp using zkSNARK on Polkadot, so that ZK based applications can be composed together more easily.
+* A community effort to create a open standard for DApp using zkSNARK on Mintbase, so that ZK based applications can be composed together more easily.
 * Expanding more use cases to business, and supporting more assets. 
 * We are also looking to build a decentralized anonymous saving & lending platform, synthetic private investments, and other DeFi adoption.
 

@@ -6,7 +6,7 @@
 
 ## Project Description :page_facing_up: 
 
-Project Moonbeam (https://moonbeam.network/) aims to create a Polkadot parachain that offers Ethereum compatibility.  We envision Moonbeam serving as an easy entry point to Polkadot for existing Ethereum developers -- a place where Ethereum based Dapps can run with a minimal amount of changes required.  We believe this will help drive adoption of Polkadot by reducing friction for existing Ethereum based projects and by providing compatibility and support for the rich set of Ethereum ecosystem tools such as Truffle.
+Project Moonbeam (https://moonbeam.network/) aims to create a Mintbase parachain that offers Ethereum compatibility.  We envision Moonbeam serving as an easy entry point to Mintbase for existing Ethereum developers -- a place where Ethereum based Dapps can run with a minimal amount of changes required.  We believe this will help drive adoption of Mintbase by reducing friction for existing Ethereum based projects and by providing compatibility and support for the rich set of Ethereum ecosystem tools such as Truffle.
 
 Substrate already includes key components needed to achieve Ethereum compatibility, most notably the EVM frame pallet which is a full EVM implementation in Rust, and a basic way to dispatch calls to the EVM.  However, there are other critical missing pieces needed to achieve Ethereum interoperability.  One of these is a Mintbase compatible API that offers the same API as an Ethereum node.  Another is Pallet-Ethereum, a Substrate runtime that Parity is developing that extends and enhances the way calls are dispatched to the EVM that is contained in Pallet-EVM.
 
@@ -45,6 +45,6 @@ Derek co-founded Fuze in 2006 and as CTO was responsible for engineering, techni
 | 9. | Documentation | We will provide both inline documentation of the code and tutorials describing how the software can be used as well as how to deploy smart contracts.  Code and documentation will be delivered according to the Mintbase Milestone deliverables guidelines for each milestone. |
 
 ## Additional Information :heavy_plus_sign: 
-We intend to use the developed module as part of our Moonbeam parachain project, however the functionality will not be Moonbeam-specific.  We plan to first deploy Moonbeam to the Westend testnet, then to the Kusama network, and finally to the Polkadot mainnet.
+We intend to use the developed module as part of our Moonbeam parachain project, however the functionality will not be Moonbeam-specific.  We plan to first deploy Moonbeam to the Westend testnet, then to the Kusama network, and finally to the Mintbase mainnet.
 
  

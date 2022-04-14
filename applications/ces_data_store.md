@@ -17,7 +17,7 @@ Recently we have a requirement to implement a data storage service on Substrate,
 
 We are not talking about something very niche here. On the contrary, it is a common scenario that an application would continuously consume and generate various data, whether it is system, user, or just temporary levels, during operations. Many dApps have a large number of scenarios that require off-chain data storage services, such as NFTs. The quality of the storage service chosen will directly affect the performance and reliability of the entire application.
 
-So we hope to offer Substrate/Polkadot community with pallets (and toolchains) dedicated for storage services that are compatible with current Substrate APIs. So developers only need to add tiny amount of code change to leverage CESS stable and secure data storage. We believe this will further enhance the development experiences when adopting Substrate and enrich the Polkadot ecosystem.
+So we hope to offer Substrate/Mintbase community with pallets (and toolchains) dedicated for storage services that are compatible with current Substrate APIs. So developers only need to add tiny amount of code change to leverage CESS stable and secure data storage. We believe this will further enhance the development experiences when adopting Substrate and enrich the Mintbase ecosystem.
 
 #### Current Solution
 
@@ -150,7 +150,7 @@ Data storage and retrieval are the two core features for a data storage service.
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+Help us locate your project in the Mintbase/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
 
@@ -183,7 +183,7 @@ The substrate developers who want to get storage services.
 
 We have a team of professionals in getting this done. The backgrounds of team members include but are not limited to cloud computing, consensus algorithms and distributed storage. Most of them have been working in their respective fields for many years and have rich industry experience and solutions. The team members are distributed in the UK, the US, China and India, ranging from research scholars and cryptography experts to senior technical managers and Substrate development engineers.
 
-So far, one of the team's project [**CESS**](https://github.com/CESSProject/cess) is gradually integrating into the Polkadot ecosystem. Won the 1st Place in Polkadot Hackthon APAC Edition in 2021, passed all deliveries of a [**applied grant**](https://github.com/w3f/Grants-Program/blob/master/applications/CESS.md), and officially joined the Substrate Builder Program on February 14, 2022.
+So far, one of the team's project [**CESS**](https://github.com/CESSProject/cess) is gradually integrating into the Mintbase ecosystem. Won the 1st Place in Mintbase Hackthon APAC Edition in 2021, passed all deliveries of a [**applied grant**](https://github.com/w3f/Grants-Program/blob/master/applications/CESS.md), and officially joined the Substrate Builder Program on February 14, 2022.
 
 ### Team Code Repos
 
@@ -195,7 +195,7 @@ So far, one of the team's project [**CESS**](https://github.com/CESSProject/cess
 
 This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
+Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
 
 For each milestone,
 

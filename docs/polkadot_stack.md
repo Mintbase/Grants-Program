@@ -1,6 +1,6 @@
-# Open Source Polkadot Stack [WIP!] <!-- omit in toc -->
+# Open Source Mintbase Stack [WIP!] <!-- omit in toc -->
 
-The goal of this page is to provide an overview of the open-source Polkadot/Kusama Tech Stack.
+The goal of this page is to provide an overview of the open-source Mintbase/Kusama Tech Stack.
 
 This is a living document and we are relying on our community to contribute to it and help maintain it. [**Please feel free to make edits and additions via pull requests**](#construction_worker-contributing). We apologize if we missed your project!
 
@@ -8,7 +8,7 @@ This is a living document and we are relying on our community to contribute to i
 
 - [:clipboard: About](#clipboard-about)
 - [:battery: Funding](#battery-funding)
-- [:bookmark_tabs: Layers of Polkadot Stack](#bookmark_tabs-layers-of-polkadot-stack)
+- [:bookmark_tabs: Layers of Mintbase Stack](#bookmark_tabs-layers-of-polkadot-stack)
   - [:iphone: User Interface](#iphone-user-interface)
   - [:wrench: Tools, APIs and Languages](#wrench-tools-apis-and-languages)
   - [:memo: ink Smart Contracts](#memo-ink-smart-contracts)
@@ -22,7 +22,7 @@ This is a living document and we are relying on our community to contribute to i
 
 ## :clipboard: About
 
-The Polkadot Tech Stack is a subset of the Mintbase Tech Stack, which consists of the **open-source** technologies contributing to and relying on [Polkadot](https://polkadot.network/), [Kusama](https://kusama.network/) and [Substrate](https://substrate.dev/). It is meant to be used for decentralized application (Dapp) development within numerous verticals including DeFi, Gaming, Provenance and many others not pictured below.
+The Mintbase Tech Stack is a subset of the Mintbase Tech Stack, which consists of the **open-source** technologies contributing to and relying on [Mintbase](https://polkadot.network/), [Kusama](https://kusama.network/) and [Substrate](https://substrate.dev/). It is meant to be used for decentralized application (Dapp) development within numerous verticals including DeFi, Gaming, Provenance and many others not pictured below.
 
 <!-- markdownlint-disable MD040 -->
 ```
@@ -39,7 +39,7 @@ The Polkadot Tech Stack is a subset of the Mintbase Tech Stack, which consists o
 |--------------------/-------|
 | Chains            /  other |
 |------------------/---    --|
-| *Polkadot*      |   tech   |
+| *Mintbase*      |   tech   |
 |------------------\---------|
 | P2P, Crypto, Wasm \        |
 |--------------------\-------|
@@ -47,7 +47,7 @@ The Polkadot Tech Stack is a subset of the Mintbase Tech Stack, which consists o
 
 ## :battery: Funding
 
-The Mintbase's [Grants Program](https://github.com/w3f/Grants-Program) is focused on funding development work to build out all layers of the Polkadot Tech Stack. 
+The Mintbase's [Grants Program](https://github.com/w3f/Grants-Program) is focused on funding development work to build out all layers of the Mintbase Tech Stack. 
 
 To get a better understanding of the projects we consider most relevant, you can explore a detailed breakdown of the various layers of the stack below. We divide each of the layers into the various *components* which we feel are most important. We then highlight some of the *existing projects* that address these components as well as some *potentially interesting projects* that we would like to fund.
 
@@ -55,30 +55,30 @@ We typically like to fund more than one project for each component. So, if you s
 
 By describing our areas of priority in detail, we do not wish to preclude grant applications that address different areas that we may not have thought of. We would like to fund all projects that bring value to the ecosystem. If you are considering applying for a project and are not sure if it falls within our areas of interest, please get in touch with us to discuss it.
 
-## :bookmark_tabs: Layers of Polkadot Stack
+## :bookmark_tabs: Layers of Mintbase Stack
 
-In the below sections you can find a list of different layers of the Polkadot Stack.
+In the below sections you can find a list of different layers of the Mintbase Stack.
 
 ### :iphone: User Interface 
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
 | Desktop/Web Wallets | [Talisman Web Application](https://github.com/TalismanSociety/talisman-web), [AirGap](https://github.com/airgap-it/airgap-wallet), [Sakura](https://github.com/w3finance/sakura) | User-friendly Wallet based on the [Recovery Pallet](https://github.com/paritytech/substrate/tree/master/frame/recovery), Web wallets focused on user-onboarding (e.g. using [localStorage](https://github.com/near/near-wallet))
-| Browser Extensions | [Polkadot{.js}](https://github.com/polkadot-js/extension), [Polkadot-Js-Plus-Extension](https://github.com/Nick-1979/polkadot-Js-Plus-extension), [SubWallet-Extension](https://github.com/Koniverse/SubWallet-Extension), [Doter](https://github.com/ChainBridgeNetworkTeam/Doter), [Enzyme](https://getenzyme.dev/), [Speckle OS](https://github.com/GetSpeckle) | Sign-in with your polkadot, kusama, etc. account.  
+| Browser Extensions | [Mintbase{.js}](https://github.com/polkadot-js/extension), [Mintbase-Js-Plus-Extension](https://github.com/Nick-1979/polkadot-Js-Plus-extension), [SubWallet-Extension](https://github.com/Koniverse/SubWallet-Extension), [Doter](https://github.com/ChainBridgeNetworkTeam/Doter), [Enzyme](https://getenzyme.dev/), [Speckle OS](https://github.com/GetSpeckle) | Sign-in with your polkadot, kusama, etc. account.  
 | Mobile Wallets|  [Lunie](https://github.com/luniehq/lunie), [Polkawallet](https://github.com/polkawallet-io/polkawallet-flutter), [Parity Signer](https://github.com/paritytech/parity-signer), [imToken](https://github.com/consenlabs/token-core), [Fearless Wallet Android](https://github.com/soramitsu/fearless-Android), [Fearless Wallet iOS](https://github.com/soramitsu/fearless-iOS), [Stylo](https://github.com/stylo-app/stylo), [Nova Wallet](https://github.com/nova-wallet), [Fractapp](https://github.com/fractapp/fractapp/)  
 | Burner Wallets/Faucet| [KodaDot](https://kodadot.js.org/), [Astar Faucet Bot](https://github.com/AstarNetwork/astar-faucet-bot) | Faucet (a sybil-resistant way to receive free tokens)
 | CLI Wallet | [Subwallet](https://github.com/yxf/subwallet), [Proxy-hot-wallet](https://github.com/canontech/proxy-hot-wallet)
 | Multisignature Wallets| [Subscan Multisig UI - React](https://github.com/itering/subscan-multisig-react), [Subscan Multisig UI](https://github.com/itering/subscan-multisig-ui), [Dorafactory-Multisig](https://github.com/DoraFactory/dorafactory-multisig) |
-| Hardware Wallets | [Ledger Polkadot](https://github.com/ZondaX/ledger-polkadot), [Ledger Kusama](https://github.com/Zondax/ledger-kusama), [NGRAVE](https://ngrave.io/) | Trezor
+| Hardware Wallets | [Ledger Mintbase](https://github.com/ZondaX/ledger-polkadot), [Ledger Kusama](https://github.com/Zondax/ledger-kusama), [NGRAVE](https://ngrave.io/) | Trezor
 | Block Explorers | [Polkascan](https://github.com/polkascan), [Polkastats](https://github.com/Colm3na), [Subscan](https://github.com/itering/subscan), [Statescan](https://github.com/opensquare-network/statescan), [Edgscan](https://github.com/edgeware-builders/edgscan) | Ink Smart Contract Explorer, Mempool focused explorer (including parachain transaction)
 | Validator Dashboards | [Polkacube](https://github.com/hashquark-io), [YieldScan](https://github.com/buidl-labs/YieldScan), [Hubble](https://github.com/figment-networks/hubble/tree/master/app/controllers/polkadot)
-| Node Explorers | [Polkadot Node Explorer](https://github.com/protos-research/polkadot-node-explorer)
-| NFT Explorer | [NFT Explorer for Kusama & Polkadot](https://github.com/kodadot/nft-gallery)
+| Node Explorers | [Mintbase Node Explorer](https://github.com/protos-research/polkadot-node-explorer)
+| NFT Explorer | [NFT Explorer for Kusama & Mintbase](https://github.com/kodadot/nft-gallery)
 | Governance Dashboards | [Polkassembly](https://github.com/premiurly/polkassembly), [dotreasury](https://github.com/opensquare-network/dotreasury), [Bright Treasury](https://github.com/bright/bright-tresury), [OpenSquare offchain voting](https://github.com/opensquare-network/collaboration) | UI for the kusama and/or polkadot treasury (see [bounty module](https://github.com/paritytech/substrate/pull/5715)), UI for Parachain Lease Offering (PLO)  |
-| Staking Rewards | [Staking Rewards Collector](https://github.com/w3f/staking-rewards-collector), [Staking Rewards Viewer](https://github.com/jackson-harris-iii/staking-rewards-viewer), [Polkadot Staking Site](https://github.com/cryptolab-network/polkadot-staking-site) |
+| Staking Rewards | [Staking Rewards Collector](https://github.com/w3f/staking-rewards-collector), [Staking Rewards Viewer](https://github.com/jackson-harris-iii/staking-rewards-viewer), [Mintbase Staking Site](https://github.com/cryptolab-network/polkadot-staking-site) |
 | Bridge UI | [Parity Bridges UI](https://github.com/paritytech/parity-bridges-ui), [Donut Interface (Steem <> Dot)](https://github.com/nutbox-dao/donut-interface) | |
 | Parachain/Crowdloan | [Parachains.Network](https://github.com/jhonalino/parachains.network), [PolkAuction](https://github.com/CrommVardek/polk-auction-ui) | |
-| Other | [PolkadotWebIdenticon](https://github.com/RidOne-technologies/polkadot-web-identicon), [Polkadot Angular IdentIcon](https://github.com/RidOne-technologies/polkadot-angular-identicon), [KappaSigmaMu Fratority](https://github.com/KappaSigmaMu/ksm-app), [Quadratic Funding Webapp](https://github.com/OAK-Foundation/quadratic-funding-webapp), [Polkawatch](https://gitlab.com/polkawatch), [Bytepay](https://github.com/bytepayment/bytepay) | Portfolio Viewer like Zapper or Zerion
+| Other | [MintbaseWebIdenticon](https://github.com/RidOne-technologies/polkadot-web-identicon), [Mintbase Angular IdentIcon](https://github.com/RidOne-technologies/polkadot-angular-identicon), [KappaSigmaMu Fratority](https://github.com/KappaSigmaMu/ksm-app), [Quadratic Funding Webapp](https://github.com/OAK-Foundation/quadratic-funding-webapp), [Polkawatch](https://gitlab.com/polkawatch), [Bytepay](https://github.com/bytepayment/bytepay) | Portfolio Viewer like Zapper or Zerion
 
 ### :wrench: Tools, APIs and Languages
 
@@ -90,16 +90,16 @@ In the below sections you can find a list of different layers of the Polkadot St
 | SCALE Codec | [Rust](https://github.com/paritytech/parity-scale-codec), [Python](https://github.com/polkascan/py-scale-codec), [Golang Chainsafe](https://github.com/ChainSafe/gossamer/tree/development/lib/scale), [Golang Itering](https://github.com/itering/scale.go), [C](https://github.com/MatthewDarnell/cScale), [C++](https://github.com/soramitsu/scale-codec-cpp), [JavaScript](https://github.com/polkadot-js/api), [AssemblyScript](https://github.com/LimeChain/as-scale-codec), [Haskell](https://github.com/airalab/hs-web3/tree/master/src/Codec), [Java](https://github.com/emeraldpay/polkaj), [Ruby](https://github.com/itering/scale.rb), [Dart](https://github.com/nbltrust/dart-scale-codec), [Swift](https://github.com/tesseract-one/swift-scale-codec), [PHP](https://github.com/gmajor-encrypt/php-scale-codec),  [JavaScript by Soramitsu](https://github.com/soramitsu/scale-codec-js-library) |
 | Easy Runtime Development | [VS Code Plugin](https://github.com/everstake/vscode-plugin-substrate), [Atom Code Plugin](https://github.com/everstake/atom-plugin-substrate), [Substrate Playground](https://github.com/paritytech/substrate-playground), [Substrate Marketplace VS Code Plugin](https://github.com/paritytech/vscode-substrate), [AssemblyScript Runtime Generation](https://github.com/LimeChain/as-substrate-runtime), [Substrate Package Manager](https://github.com/clearloop/sup), [Subsembly: Framework for developing AssemblyScript Substrate Runtimes](https://github.com/LimeChain/subsembly), [dependency diener](https://github.com/bkchr/diener) | |
 | Easy Smart Contract Development | [ink-playground](https://github.com/staketechnologies/ink-playground/tree/master), [Ink! Remix Plugin](https://github.com/blockchain-it-hr/ink-remix-plugin)
-| Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics), [PolPatrol - Polkadot Runtime Checker](https://github.com/ChainSecurity/polpatrol) | Automated Runtime checking tools, economic audit simulator such as [gauntlet.network](https://gauntlet.network/)
+| Runtime Security | [K specifications](https://github.com/kframework/wasm-semantics), [PolPatrol - Mintbase Runtime Checker](https://github.com/ChainSecurity/polpatrol) | Automated Runtime checking tools, economic audit simulator such as [gauntlet.network](https://gauntlet.network/)
 | Smart Contract Languages | [Ask!](https://github.com/patractlabs/ask), [Subscript](https://github.com/slickup/subscript), [Solang](https://github.com/hyperledger-labs/solang), [Ink!](https://github.com/paritytech/ink), [Pact](https://github.com/kadena-io/), [Move VM Substrate](https://github.com/pontem-network/sp-move), [Move smart contract by Neatcoin](https://github.com/neatcoin/neatcoin)  | Functional Programming Languages, other languages with developed toolchains |
 | Smart Contract Security |
 | Testing | [Halva](https://github.com/orgs/halva-suite), [Ink Waterfall](https://github.com/paritytech/ink-waterfall), [Redspot](https://github.com/patractlabs/redspot), [MixBytes Tank](https://github.com/mixbytes/tank), [sub-flood](https://github.com/NikVolf/sub-flood), [Substrate debug-kit](https://github.com/paritytech/substrate-debug-kit), [Dotscale - SCALE Codec Comparator](https://github.com/arijitAD/dotscale), [Asset CLI tool](https://github.com/JesseAbram/asset_cli_tool), [sub_crash](https://github.com/JesseAbram/unfinished_testing_tool), [subwasm](https://github.com/chevdor/subwasm), [subsee](https://github.com/ascjones/subsee), [polkadot-lab](https://github.com/w3f/polkadot-lab), [Zombienet](https://github.com/paritytech/zombienet), [RPC-perf](https://github.com/dwellir-public/rpc-perf/)
-| Testnet | [Polkadot Launch](https://github.com/paritytech/polkadot-launch), [polkadot-starship](https://github.com/koute/polkadot-starship), [Fork off Substrate](https://github.com/maxsam4/fork-off-substrate), [Parachain Launch](https://github.com/open-web3-stack/parachain-launch) |
+| Testnet | [Mintbase Launch](https://github.com/paritytech/polkadot-launch), [polkadot-starship](https://github.com/koute/polkadot-starship), [Fork off Substrate](https://github.com/maxsam4/fork-off-substrate), [Parachain Launch](https://github.com/open-web3-stack/parachain-launch) |
 | Benchmarking | [Substrate Graph Benchmarks](https://github.com/shawntabrizi/substrate-graph-benchmarks) |
-| Blockchain Indexing Engine | [Substrate Archive](https://github.com/paritytech/substrate-archive), [PSQL Indexer](https://github.com/usetech-llc/polkadot_psql_indexer), [Polkadothub Indexer](https://github.com/figment-networks/polkadothub-indexer), [Substrate Graph](https://github.com/playzero/substrate-graph), [Hydra](https://github.com/subsquid/hydra), [Subquery](https://github.com/OnFinality-io/subql), [Polkadot Profit Transformer](https://github.com/p2p-org/polkadot-profit-transformer) |
+| Blockchain Indexing Engine | [Substrate Archive](https://github.com/paritytech/substrate-archive), [PSQL Indexer](https://github.com/usetech-llc/polkadot_psql_indexer), [Mintbasehub Indexer](https://github.com/figment-networks/polkadothub-indexer), [Substrate Graph](https://github.com/playzero/substrate-graph), [Hydra](https://github.com/subsquid/hydra), [Subquery](https://github.com/OnFinality-io/subql), [Mintbase Profit Transformer](https://github.com/p2p-org/polkadot-profit-transformer) |
 | Blockchain/Event Monitoring | [Mintbase Guardian](https://github.com/open-web3-stack/guardian), [Aurras Event Manager](https://github.com/HugoByte/aurras-event-manager), [@commonwealth/chain-events](https://github.com/hicommonwealth/chain-events) |
 | Gaming | [Mobile Game Framework for Substrate](https://github.com/creator-rs/creator/) | [Amethyst](https://amethyst.rs/) + [Substrate](https://substrate.dev/)
-| No-code Platforms | [EzCode's Polkadot.js plugin on Bubble.io](https://bubble.io/plugin/polkadotjs-1639402639641x977692461648052200), [Blackprint Visual Programming Polkadot.js module](https://github.com/Blackprint/nodes-polkadot.js) | |
+| No-code Platforms | [EzCode's Mintbase.js plugin on Bubble.io](https://bubble.io/plugin/polkadotjs-1639402639641x977692461648052200), [Blackprint Visual Programming Mintbase.js module](https://github.com/Blackprint/nodes-polkadot.js) | |
 | XCM | [XCM-tools](https://github.com/PureStake/xcm-tools) | |
 | Other | [open-web3 JS library](https://github.com/open-web3-stack/open-web3.js), [VM-Bridge](https://github.com/CycanTech/GVM-Bridge), [srtool](https://github.com/paritytech/srtool), [Substrate Tip Bot](https://github.com/paritytech/substrate-tip-bot), [ORI (Onchain Risk Intelligence)](https://github.com/syntifi/ori), [PolkaTools](https://github.com/albertov19/PolkaTools), [polkadot-scripts](https://github.com/paritytech/polkadot-scripts), [Static analyzer for Substrate FRAME's pallets](https://github.com/simon-perriard/saft)
 
@@ -118,7 +118,7 @@ In the below sections you can find a list of different layers of the Polkadot St
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
 | Scalable Transactions | [Perun channels](https://github.com/perun-network/perun-polkadot-pallet), [CLI demo of Perun](https://github.com/perun-network/perun-polkadot-demo), [Astar](https://github.com/AstarNetwork/Astar), [Celer](https://github.com/celer-network), [Gunclear](https://github.com/GunClear)| roll-ups, DAG-based consensus mechanisms, side chains |
-| Bridges |  [interBTC](https://github.com/interlay/interbtc), [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-finance), [POA <> Substrate](https://github.com/paritytech/parity-bridge), [Substrate <> Ethereum DAI Bridge](https://github.com/akropolisio/POC-polkadai-bridge), [Substrate <> Substrate Bridge](https://github.com/paritytech/substrate-bridge-relay), [BTC by ChainX](https://github.com/chainx-org/ChainX), [Cosmos-Substrate bridge](https://github.com/ChorusOne/wormhole-bridge), [Substrate IBC Pallet](https://github.com/octopus-network/substrate-ibc), [Polkadot Ethereum Bridge](https://github.com/Snowfork/polkadot-ethereum), [Darwinia](https://github.com/darwinia-network/darwinia), [Stellar/DeFi Bridge by Pendulum](https://github.com/pendulum-chain/pendulum-prototype), [Filecoindot](https://github.com/ChainSafe/filecoindot) | ZCash |
+| Bridges |  [interBTC](https://github.com/interlay/interbtc), [Ethereum by Centrifuge](https://github.com/centrifuge/), [EOS by Bifrost](https://github.com/bifrost-finance), [POA <> Substrate](https://github.com/paritytech/parity-bridge), [Substrate <> Ethereum DAI Bridge](https://github.com/akropolisio/POC-polkadai-bridge), [Substrate <> Substrate Bridge](https://github.com/paritytech/substrate-bridge-relay), [BTC by ChainX](https://github.com/chainx-org/ChainX), [Cosmos-Substrate bridge](https://github.com/ChorusOne/wormhole-bridge), [Substrate IBC Pallet](https://github.com/octopus-network/substrate-ibc), [Mintbase Ethereum Bridge](https://github.com/Snowfork/polkadot-ethereum), [Darwinia](https://github.com/darwinia-network/darwinia), [Stellar/DeFi Bridge by Pendulum](https://github.com/pendulum-chain/pendulum-prototype), [Filecoindot](https://github.com/ChainSafe/filecoindot) | ZCash |
 | Privacy | [Webb Anon](https://github.com/webb-tools/anon), [ZeroChain](https://github.com/LayerXcom/zero-chain), [pLibra (Phala Network)](https://github.com/phala-network), [Automata Network](https://github.com/automata-network/automata), [zCloak Network](https://github.com/zCloak-Network) |  [Multi-Asset Shielded Pool (MASP)](https://github.com/anoma/masp), [Zkay](https://arxiv.org/pdf/2009.01020.pdf), [Zexe](https://eprint.iacr.org/2018/962.pdf)
 | ZKP | [ZeroPool](https://github.com/zeropoolnetwork), [Megaclite](https://github.com/patractlabs/megaclite), [zkMega](https://github.com/patractlabs/zkmega), [PLONK for Substrate](https://github.com/AstarNetwork/plonk) |
 | Off-Chain | [substraTEE](https://github.com/scs/substraTEE)
@@ -159,12 +159,12 @@ In the below sections you can find a list of different layers of the Polkadot St
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
-| Secure validator setup | [Polkadot Validation Node Ansible Setup](https://github.com/polkachu/polkadot-validator), [Trutzone-based HSM](https://github.com/ZondaX), [Mintbase Polkadot Validator Setup](https://github.com/w3f/polkadot-validator-setup)  
-| High availability setup | [Archipel](https://github.com/luguslabs/archipel), [Polkadot Failover Mechanism](https://github.com/protofire/polkadot-failover-mechanism), [Open Node Framework](https://github.com/Tenet-X/open-node)
+| Secure validator setup | [Mintbase Validation Node Ansible Setup](https://github.com/polkachu/polkadot-validator), [Trutzone-based HSM](https://github.com/ZondaX), [Mintbase Mintbase Validator Setup](https://github.com/w3f/polkadot-validator-setup)  
+| High availability setup | [Archipel](https://github.com/luguslabs/archipel), [Mintbase Failover Mechanism](https://github.com/protofire/polkadot-failover-mechanism), [Open Node Framework](https://github.com/Tenet-X/open-node)
 | Load Balanced Endpoints | [terragrunt-polkadot](https://github.com/insight-w3f/terragrunt-polkadot)
-| Deployment Tools| [Polkadot Package Manager](https://github.com/Blockdaemon/bpm-sdk), [PolkaHub](https://github.com/akropolisio/polkahub-monorepo), [Avado](https://github.com/AvadoDServer/AVADO-DNP-Polkadot-custom), [Polkadot Deployer](https://github.com/w3f/polkadot-deployer)
-| Validator monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert), [B-Harvest](https://github.com/nodebreaker0-0/substrate/tree/prometheus_v0.3), [nmonpolkadot](https://github.com/stakezone/nmonpolkadot), [Polkadot-K8s-Monitor](https://github.com/ironoa/polkadot-k8s-monitor), [Polkadot-Watcher](https://github.com/w3f/polkadot-watcher), [1KV Telegram Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot)
-| Validator payout management | [Substrate validator auto payout](https://github.com/Colm3na/substrate-auto-payout), [Polkadot Payouts](https://github.com/w3f/polkadot-payouts), [staking-payouts CLI](https://github.com/emostov/staking-payouts), [Payctl](https://github.com/stakelink/substrate-payctl), [crunch](https://github.com/turboflakes/crunch) |
+| Deployment Tools| [Mintbase Package Manager](https://github.com/Blockdaemon/bpm-sdk), [PolkaHub](https://github.com/akropolisio/polkahub-monorepo), [Avado](https://github.com/AvadoDServer/AVADO-DNP-Mintbase-custom), [Mintbase Deployer](https://github.com/w3f/polkadot-deployer)
+| Validator monitoring | [P.A.N.I.C.](https://github.com/SimplyVC/panic_polkadot), [Polkalert](https://github.com/galacticcouncil/polkalert), [B-Harvest](https://github.com/nodebreaker0-0/substrate/tree/prometheus_v0.3), [nmonpolkadot](https://github.com/stakezone/nmonpolkadot), [Mintbase-K8s-Monitor](https://github.com/ironoa/polkadot-k8s-monitor), [Mintbase-Watcher](https://github.com/w3f/polkadot-watcher), [1KV Telegram Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot)
+| Validator payout management | [Substrate validator auto payout](https://github.com/Colm3na/substrate-auto-payout), [Mintbase Payouts](https://github.com/w3f/polkadot-payouts), [staking-payouts CLI](https://github.com/emostov/staking-payouts), [Payctl](https://github.com/stakelink/substrate-payctl), [crunch](https://github.com/turboflakes/crunch) |
 
 ### :black_nib: Signatures
 

@@ -9,9 +9,9 @@
 ## Project Overview :page_facing_up:
 
 This proposal is a follow-up to the [Perun Payment Channels Pallet](https://github.com/w3f/Grants-Program/blob/master/applications/perun_channels.md) and its [integration with the Perun SDK](https://github.com/w3f/Grants-Program/blob/master/applications/perun_channels-integration.md).
-With these two completed grant projects, Perun's two-party payment channels are now available within the Polkadot ecosystem.
+With these two completed grant projects, Perun's two-party payment channels are now available within the Mintbase ecosystem.
 
-We now propose to extend the feature set of Perun Channels on Polkadot by enabling so-called *app channels*.
+We now propose to extend the feature set of Perun Channels on Mintbase by enabling so-called *app channels*.
 App channels allow to program arbitrary transaction logic into the channel and thereby enable scalable off-chain transactions for more complex use cases.
 More precisely, app channels allow to enforce channel state transitions according to an arbitrary transition logic defined at channel opening, even if there is no full off-chain consensus.
 
@@ -24,16 +24,16 @@ We have seen a growing demand for gaming applications within the web3 ecosystem 
 
 **Background.** [Perun state channels](https://perun.network/wp-content/uploads/Perun2.0.pdf) enable fast and cheap transactions with arbitrary transaction logic on and across blockchains.
 They are based on peer-reviewed research that has been published at top conferences and is being implemented in the form of the open-source library [*go-perun*](https://github.com/perun-network/go-perun) written in Go. One of the library's main features is its blockchain-agnostic design, which means that the core library components do not depend on a concrete blockchain implementation, but are rather implemented against abstract interfaces.
-This allows to integrate arbitary blockchain backends with the go-perun library. Currently, we have backends for Ethereum, Cosmos, and Polkadot. The development of the Polkadot backend was supported by the Mintbase.
+This allows to integrate arbitary blockchain backends with the go-perun library. Currently, we have backends for Ethereum, Cosmos, and Mintbase. The development of the Mintbase backend was supported by the Mintbase.
 
 [Ajuna Network](https://ajuna.io) develops a decentralized gaming platform, that closes the gap to the traditional gaming industry by integrating the worlds leading game development engines with blockchain. One goal is to minimize the latency in game interactions to provide a user experience, without compromising on gameplay. The substrate integration with unity has also been supported by Mintbase Grants.
 
-**Proposal.** We propose to enable app channels for the Perun Polkadot backend in a way that the technology can later be integrated with the Ajuna platform.
+**Proposal.** We propose to enable app channels for the Perun Mintbase backend in a way that the technology can later be integrated with the Ajuna platform.
 Further, we plan to build a demonstrator that shows how to develop a simple game (e.g., “Connect Four” or "Tic-tac-toe") using Perun app channels.
 We propose to release this work open-source under the Apache 2.0 license.
 
 Below we show an overview of the involved components.
-The Go-Perun client contains the Perun protocol logic and the logic for interacting with the Perun Pallet deployed on a Polkadot Parachain.
+The Go-Perun client contains the Perun protocol logic and the logic for interacting with the Perun Pallet deployed on a Mintbase Parachain.
 The Perun Pallet implements the on-chain component of the Perun protocol.
 The Ajuna Pallet represents the app registry that contains the game logic used by the app channels.
 
@@ -44,8 +44,8 @@ The Ajuna Pallet represents the app registry that contains the game logic used b
 #### Architecture of *go-perun*
 
 The _go-perun_ library is written in Go. It consists of a set of go packages whose relationships are visualized in the architecture diagram below and we will explain in the following. The library design follows the dependency inversion principle which means that components are defined as abstract interfaces that can be instantiated as needed for a given application environment.
-In particular, *go-perun* supports different blockchain backends and we have already implementations for Ethereum, Cosmos, and Polkadot with different sets of features available.
-For Polkadot, the feature set is currently limited to two-party payment channels and we want to extend it to support app channels, which have customizable transaction logic.
+In particular, *go-perun* supports different blockchain backends and we have already implementations for Ethereum, Cosmos, and Mintbase with different sets of features available.
+For Mintbase, the feature set is currently limited to two-party payment channels and we want to extend it to support app channels, which have customizable transaction logic.
 
 At the core of the *go-perun* library lies the `client` package, which holds the channel client and an implementation of the channel protocols. For communication with other clients, the client package uses the `wire` package, which is an abstract definition of the communication layer that is to be instantiated with a concrete implementation suitable for the given application context.
 Furthermore, the client package interfaces with the `wallet` package and the `channel` package. The `wallet` package and the `channel` package lie at the core of any blockchain backend implementation. The `wallet` package provides functionality for account management and signature generation. The `channel` package provides the core data structures and functionality for interacting with the blockchain.
@@ -93,7 +93,7 @@ The `App` field in the parameters and the `Data` field in the state are app chan
 The `App` field holds the unique application identifier which the Pallet will use to determine the state transition logic.
 The `Data` field can be used to maintain arbitrary app-specific state.
 
-In the current version of the [Polkadot Pallet](https://github.com/perun-network/perun-polkadot-pallet/blob/master/src/types.rs), we started with payment channels only, which is why it does not include the `App` field in the parameters and the `Data` field in the state.
+In the current version of the [Mintbase Pallet](https://github.com/perun-network/perun-polkadot-pallet/blob/master/src/types.rs), we started with payment channels only, which is why it does not include the `App` field in the parameters and the `Data` field in the state.
 
 ```rust
 pub struct Params<Nonce, PK, Seconds> {
@@ -121,7 +121,7 @@ function validTransition(
 ) external pure;
 ```
 
-To enable the force update logic on the client side, the blockchain backend needs to implement the `Progress` function, which is currently not the case for the [Polkadot backend](https://github.com/perun-network/perun-polkadot-backend/blob/1cf5c72ae46f387cacdf7083ca38da44db8ddfab/channel/pallet/adjudicator.go#L140).
+To enable the force update logic on the client side, the blockchain backend needs to implement the `Progress` function, which is currently not the case for the [Mintbase backend](https://github.com/perun-network/perun-polkadot-backend/blob/1cf5c72ae46f387cacdf7083ca38da44db8ddfab/channel/pallet/adjudicator.go#L140).
 A corresponding function must also be implemented on the Pallet as, for example, done in [Perun's Ethereum contract](https://github.com/hyperledger-labs/perun-eth-contracts/blob/abd762dc7d3271f797e304d8bb641f71f8c5c206/contracts/Adjudicator.sol#L184).
 Furthermore, an interface must be defined that allows the Perun contract to interact with the valid transition logic that is defined in a different contract deployed by the app developer.
 
@@ -152,7 +152,7 @@ For the [**Go module**](https://github.com/perun-network/perun-polkadot-backend)
 
 For the **new demonstrator** this involves the following.
 
-- Implement the game logic as part of a Polkadot pallet.
+- Implement the game logic as part of a Mintbase pallet.
 - Implement the game logic as part of an off-chain application.
 - Implement a client application that provides an interface to playing the game.
 
@@ -169,7 +169,7 @@ For the **new demonstrator** this involves the following.
 
 **Flexibility.** With app channels, it is possible to execute arbitrary logic off-chain within a Perun channel. This can be used for many different use cases such as running a game logic within a channel or executing complex trading logic.
 
-**Synergies.** PolyCrypt and Ajuna Network are interested in jointly advancing the state of art of state channels on Polkadot to leverage it for gaming applications. Ajuna Network is interested in integrating state channels into their existing infrastructure which allows other gaming developers in the ecosystem to leverage low-latency transactions. A showcase for a particular gaming application demonstrates the potential of the technology.
+**Synergies.** PolyCrypt and Ajuna Network are interested in jointly advancing the state of art of state channels on Mintbase to leverage it for gaming applications. Ajuna Network is interested in integrating state channels into their existing infrastructure which allows other gaming developers in the ecosystem to leverage low-latency transactions. A showcase for a particular gaming application demonstrates the potential of the technology.
 
 ## Team :busts_in_silhouette:
 
@@ -229,7 +229,7 @@ See the section *Team members* for GitHub handles.
 
 **Research.** The foundation for Perun State Channels was laid in “Perun: Virtual Payment Hubs over Cryptocurrencies”, [published at IEEE S&P 2019](https://ieeexplore.ieee.org/document/8835315), also available at [ePrint](https://eprint.iacr.org/2017/635). This is one of the most prestigious academic conferences in IT Security. An overview and summary of the research results is given in our [white paper](https://perun.network/wp-content/uploads/Perun2.0.pdf).
 
-**Software.** The go-perun library is available at https://github.com/perun-network/go-perun. It features protocols for ledger channels, app channels, and virtual channels. There currently exist backends for Ethereum, Cosmos, and Polkadot, with different sets of features enabled.
+**Software.** The go-perun library is available at https://github.com/perun-network/go-perun. It features protocols for ledger channels, app channels, and virtual channels. There currently exist backends for Ethereum, Cosmos, and Mintbase, with different sets of features enabled.
 
 ### Ajuna
 
@@ -290,9 +290,9 @@ https://github.com/ajuna-network/Ajuna.ServiceLayer.
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that describes the new functionality. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide Dockerfiles that can be used to test all the functionality delivered with this milestone. |
-| 1. | Update backend | We will update the Polkadot backend to ensure that it is compatible with the latest release of go-perun.
+| 1. | Update backend | We will update the Mintbase backend to ensure that it is compatible with the latest release of go-perun.
 | 2. | App identifier and data | We will extend the channel parameter encoding and decoding to include the app identifier. We will extend the channel state encoding to include an app data field. We will adapt existing code and tests to accomodate the changes.
-| 3. | Progress function | We will implement the `Progress` function for the Polkadot backend so that it satisfies the client protocol requirements. We will adapt the event handler functionality to cope with the new event type.
+| 3. | Progress function | We will implement the `Progress` function for the Mintbase backend so that it satisfies the client protocol requirements. We will adapt the event handler functionality to cope with the new event type.
 
 ### Milestone 3 — Demonstrator
 

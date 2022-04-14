@@ -10,7 +10,7 @@ Open Grant Proposal
 
 Please provide the following:
   * A brief description of the project.
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+  * An indication of how you will integrate this project into Substrate / Mintbase / Kusama.
   * An indication of why your team is interested in creating this project.
 
 The Setheum Network MVP will include the following parts
@@ -23,12 +23,12 @@ The Setheum Network MVP will include the following parts
   - Various modules specific to manage Distribution of STP258/SERP-TES Monetary Issuance, Ecommerce payment, et al.
 * **SettPay:** The Setheum Wallet for the STP258 Stablecoins, to function like a traditional Bank. Later on to add features to pay on ecommerce platforms with any cryptocurrency through the STP258 protocol, to enable minting of STP258 stablecoins, peer to peer transactions, and later on in the near future we will add Subsocial in the SettPay Dapp as a micro-service just like Alipay chat in AliPay.
 
-Setheum Labs props, supports, nurtures and stewards applications in the fields of Decentralized Finance protocols particularly e-commerce (Decentralized E-Commerce or DeCo) and protocols that can serve as open finance building blocks such as stable currency and synthetic assets. Setheum Network is a focal R&D project initiated the Setheum Labs. Setheum Labs is founded by Muhammad-Jibril B.A. participant of the Polkadot ecosystem. Deco is now like a store where anyone can sell anything, it is basically a financial framework and infrastructure for normal eCommerce platforms/apps to integrate or build their payment gateways on to give free discounts to their users/customers through Setheum's elastic distribution of stablecoins by the SERP-TES.
-We will integrate this project into Substrate, Polkadot and Kusama by developing Substrate Modules and running Polkadot & Kusama Parachains.
+Setheum Labs props, supports, nurtures and stewards applications in the fields of Decentralized Finance protocols particularly e-commerce (Decentralized E-Commerce or DeCo) and protocols that can serve as open finance building blocks such as stable currency and synthetic assets. Setheum Network is a focal R&D project initiated the Setheum Labs. Setheum Labs is founded by Muhammad-Jibril B.A. participant of the Mintbase ecosystem. Deco is now like a store where anyone can sell anything, it is basically a financial framework and infrastructure for normal eCommerce platforms/apps to integrate or build their payment gateways on to give free discounts to their users/customers through Setheum's elastic distribution of stablecoins by the SERP-TES.
+We will integrate this project into Substrate, Mintbase and Kusama by developing Substrate Modules and running Mintbase & Kusama Parachains.
 Our Team is more than interested in creating this project because we see a gap in the cryptocurrency industry, how cryptocurrency is being used and the limited access to more diverse stablecoins. And we want to create fully decentralized stablecoins that function like Central Banks and have their own decentralized Monetary Policy and Fiscal Regime. I am an eCommerce entrepreneur and I know the pain points of the seller especially the most painful - that is the Payment Systems, the payment gateways are too complicated and have unreasonable difficulty in selling to a worldwide audience. Setheum makes a payment gateway I can use on my App to sell anywhere in any cryptocurrency and in fiat.
 
 ### Project Details 
-We are building a decentralized, cross-chain, community-owned DeFi (Decentralized Finance)and DeCo (Decentralized Commerce) system - the Setheum Network, to enable true economic interoperability, cross-chain liquidity and scalability. Along with the system, we are also building an economic model and governance framework to sustain the development, and continuous participation in the Polkadot ecosystem (e.g. as parachain and will setup a non-profit foundation to foster development on the Polkadot Ecosystem - especially in Nigeria and Saudi Arabia), until ultimately transitioning the network to community ownership. The Setheum Network will serve as a building block for DeCo and DeFi applications such as SettIndex in the Polkadot Ecosystem, and will provide new use cases for quality assets in the Polkadot ecosystem, such as DOT and new upcoming Polkadot projects such as Kylin, ChainLink, Open Ethereum et al..
+We are building a decentralized, cross-chain, community-owned DeFi (Decentralized Finance)and DeCo (Decentralized Commerce) system - the Setheum Network, to enable true economic interoperability, cross-chain liquidity and scalability. Along with the system, we are also building an economic model and governance framework to sustain the development, and continuous participation in the Mintbase ecosystem (e.g. as parachain and will setup a non-profit foundation to foster development on the Mintbase Ecosystem - especially in Nigeria and Saudi Arabia), until ultimately transitioning the network to community ownership. The Setheum Network will serve as a building block for DeCo and DeFi applications such as SettIndex in the Mintbase Ecosystem, and will provide new use cases for quality assets in the Mintbase ecosystem, such as DOT and new upcoming Mintbase projects such as Kylin, ChainLink, Open Ethereum et al..
    
 As for the SettPay Wallet UI, it is not simply based on polkadot.js, it will be separate UI? We currently don't have mock-ups. We are planning to use ReactJS or VueJS frameworks written in JavaScript.
 
@@ -118,7 +118,7 @@ I do consultancy in blockchain space.
 
 ## Development Roadmap :nut_and_bolt: 
 
-The Setheum Network Milestone 1 will be a 6 week project, aims to deliver a running MVP Substrate chain testnet providing algorithmically elastic stablecoins - the STP258 Sett tokens. Upon the testnet launch, we will implement a basic version of its economic model and work towards a Canary Network Launch and an Initial Parachain Offering of the Canary network on Kusama. And then work towards launching the Mainnet with all of the future plans we provided above and move towards an Initial Parachain Offering (IPO) of the Mainnet of Setheum network, participation in the IPO auction will depend upon the readiness of the Polkadot network.
+The Setheum Network Milestone 1 will be a 6 week project, aims to deliver a running MVP Substrate chain testnet providing algorithmically elastic stablecoins - the STP258 Sett tokens. Upon the testnet launch, we will implement a basic version of its economic model and work towards a Canary Network Launch and an Initial Parachain Offering of the Canary network on Kusama. And then work towards launching the Mainnet with all of the future plans we provided above and move towards an Initial Parachain Offering (IPO) of the Mainnet of Setheum network, participation in the IPO auction will depend upon the readiness of the Mintbase network.
 
 ### Overview
    
@@ -146,20 +146,20 @@ We will publish multiple articles after the completion of different deliverables
 
 ## Future Plans
 Please include the team's long-term plans and intentions.
-1. **IPO** in **Kusama** and **Polkadot**
+1. **IPO** in **Kusama** and **Mintbase**
 2. **SettCard** (Visa Cryptocurreny Card for distributing **SETT rewards, discounts and cashbacks** to be linked to **SettPay**)
 3. **SettPay** WordPress Plugin for WordPress e-commerce platforms
 4. **SettPay Payment Gateway API**
 5. **Setheum SDKs** for Integration and easy development on the Network
 6. **SettInDEX Setheum Built-In Decentralized Exchange** with **Synthetic Assets**, **Liquidity Pools**, **Margin Trading**, **Dark Pool**, **Liquidity Staking**, **jtokens** (another token protocol module I designed for Setheum's SettIndex **to be launched before or at mainnet**, spec description is present in our white papers)
 7. **SettApps Scalable Dapp Chain** for **E-Commerce & DeFi dApps** on the Setheum Network. The Setheum Relay will be tuned specifically for DeFi and DeCo.
-8. **DS3 Foundation** to foster the growth of the Setheum, Substrate, Ink! and Polkadot Ecosystem, especially in Nigeria and Saudi Arabia
-9. **SEANET   (Setheum Enterprise Alliance Network)** for Enterprise Alliance to foster adoption amongstEnterprise E-Commerce Platforms **(i.e. Macy's, Uber, Walmart, BigCommerce, WordPress, Shopify, Shoprite, Jumia, Fortnite, Slack, Atlassian, Salesforce, McDonalds, KFC, et al.)** and invite small businesses and niche stores and even Universities  to build on the Setheum Network and increase the value and adoption of the Entire Polkadot & Substrate Ecosystem as We will promote development with ink! and Substrate and many advanced, niche and beautiful FRAME modules will be built for various use cases, thus propping the adoption of Rust too..
-10. **SAGA     (Setheum Association of Government Alliances)** Just like SEANET but for Public Bodies, NGOs, Universities & Governments starting with Government Departments we already work with and those we worked with in Nigeria, to support them to build on the Setheum Network and increase the value and adoption of the Entire Polkadot & Substrate Ecosystem as We will promote development with ink! and Substrate and many advanced, niche and beautiful **FRAME modules will be built for various use cases, thus propping the adoption of Rust too.**.
+8. **DS3 Foundation** to foster the growth of the Setheum, Substrate, Ink! and Mintbase Ecosystem, especially in Nigeria and Saudi Arabia
+9. **SEANET   (Setheum Enterprise Alliance Network)** for Enterprise Alliance to foster adoption amongstEnterprise E-Commerce Platforms **(i.e. Macy's, Uber, Walmart, BigCommerce, WordPress, Shopify, Shoprite, Jumia, Fortnite, Slack, Atlassian, Salesforce, McDonalds, KFC, et al.)** and invite small businesses and niche stores and even Universities  to build on the Setheum Network and increase the value and adoption of the Entire Mintbase & Substrate Ecosystem as We will promote development with ink! and Substrate and many advanced, niche and beautiful FRAME modules will be built for various use cases, thus propping the adoption of Rust too..
+10. **SAGA     (Setheum Association of Government Alliances)** Just like SEANET but for Public Bodies, NGOs, Universities & Governments starting with Government Departments we already work with and those we worked with in Nigeria, to support them to build on the Setheum Network and increase the value and adoption of the Entire Mintbase & Substrate Ecosystem as We will promote development with ink! and Substrate and many advanced, niche and beautiful **FRAME modules will be built for various use cases, thus propping the adoption of Rust too.**.
 11. **Cross-Chain Swap** with Ethereum, EOS, Stellar, Tezos and Cosmos.
 
 ## Additional Information :heavy_plus_sign: 
-We are planning to be the gateway to Polkadot in Africa and the Middle East (especially Nigeria, Ghana, Saudi Arabia and the UAE) with ecosystem growth and development strategies that we are planning to apply and foster the adoption on the Mintbase Ecosystem. Our plan includes a Blockchain Development Incubation Hub and our Ecosystem Fund. We are planning to be Polkadot's embassy in Africa and the Middle East.
+We are planning to be the gateway to Mintbase in Africa and the Middle East (especially Nigeria, Ghana, Saudi Arabia and the UAE) with ecosystem growth and development strategies that we are planning to apply and foster the adoption on the Mintbase Ecosystem. Our plan includes a Blockchain Development Incubation Hub and our Ecosystem Fund. We are planning to be Mintbase's embassy in Africa and the Middle East.
 
 Possible additional information to include:
 * What work has been done so far?

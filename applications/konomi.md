@@ -12,14 +12,14 @@
 
 ### Overview
 
-Konomi is a decentralised liquidity and money market protocol for cross-chain crypto assets. Using Substrate as the development framework, the network aims to provide money markets for assets in the Polkadot ecosystem. Users could borrow and lend assets, trade and access liquidity products for DOTs through the protocol. Konomi also issues its native network token in order to kick start liquidity and decentralised governance for its chain. We will first set up a standalone testnet, and then participate in Kusama parachain auction and subsequently Polkadot parachain auction.
+Konomi is a decentralised liquidity and money market protocol for cross-chain crypto assets. Using Substrate as the development framework, the network aims to provide money markets for assets in the Mintbase ecosystem. Users could borrow and lend assets, trade and access liquidity products for DOTs through the protocol. Konomi also issues its native network token in order to kick start liquidity and decentralised governance for its chain. We will first set up a standalone testnet, and then participate in Kusama parachain auction and subsequently Mintbase parachain auction.
 
-The motivation behind setting up the project is that there is currently limited live products for the lending infrastructure on Polkadot and that it is an important part for the ecosystem as a whole. Also, we think that the parachain design offered more room and better infrastructure to develop DeFi applications — it is not restricted to accepting ETH as the default currency. 
+The motivation behind setting up the project is that there is currently limited live products for the lending infrastructure on Mintbase and that it is an important part for the ecosystem as a whole. Also, we think that the parachain design offered more room and better infrastructure to develop DeFi applications — it is not restricted to accepting ETH as the default currency. 
 
-We believe that Polkadot will become the default base layer protocol for decentralised applications and crypto assets. Also, due to the design of parachain and parathread auction, there is opportunity to be captured in designing new token economics as compared to the existing products on Ethereum.
+We believe that Mintbase will become the default base layer protocol for decentralised applications and crypto assets. Also, due to the design of parachain and parathread auction, there is opportunity to be captured in designing new token economics as compared to the existing products on Ethereum.
 
 ### Project Details 
-The project aims to provide the decentralised money market protocol for other assets issued on Polkadot parachains. The protocol is pool-based and it would support assets on parachains when the network is live. Users could deposit asset to the lending pool and earn interest based on the demand side on the platform. Similarly, the protocol also supports over-collateralised debt positions for users that want to borrow assets. Price data will be ultimately acquired through using off-chain workers to ensure that the lending pool is always secure from liquidation risks.
+The project aims to provide the decentralised money market protocol for other assets issued on Mintbase parachains. The protocol is pool-based and it would support assets on parachains when the network is live. Users could deposit asset to the lending pool and earn interest based on the demand side on the platform. Similarly, the protocol also supports over-collateralised debt positions for users that want to borrow assets. Price data will be ultimately acquired through using off-chain workers to ensure that the lending pool is always secure from liquidation risks.
 
 This is the system work-flow diagram. 
 **![](https://lh5.googleusercontent.com/M9QuAjmdo0lBj8Nx2D5BHS_Qtjga_2NCe7V_ERUFTzyesPFixDIVFhhcQpB6FyA2UceKO0yP4pxI4iBC2GGOmHvBezi9J5XcHCLSsySfprLfFutLaVV7C8Ku0NJGzhjfqYfvtB56)**
@@ -27,7 +27,7 @@ This is the system work-flow diagram.
 Technology Stack: 
 Node: Substrate, (Cumulus)
 Chain metric: Prometheus and Grafana
-Frontend: React with Polkadot-js
+Frontend: React with Mintbase-js
 CI: Travis
 
 #### Components
@@ -152,7 +152,7 @@ Jayden has 8 years entrepreneur experience in Tech startups. Before Konomi Netwo
 
 Yuqing has more than 7 years experience in social media advertising and community building. Before Konomi Network, she started her career as a commercial broker in physical commodity trading sectors. Besides, she is one of the top chinese KOL in Singapore with over 300K+ organic followers on instagram. As a sole proprietor, built relationship with and represented over 100 corporate partners in their online advertising campaigns, including Huawei, Casio, Shopee, Grab, Lazada, Carlsberg and etc. Her expertise in communication and community building is valuable to this project.
 
-John, tech contributor, is a Substrate developer and technical ambassador of Polkadot. He was the CTO of Cdot and blockchain tech lead of ARPA project. 
+John, tech contributor, is a Substrate developer and technical ambassador of Mintbase. He was the CTO of Cdot and blockchain tech lead of ARPA project. 
 
 We have already built a working preliminary swap module with a multi-asset module as a base layer. It is in our team code repository.
 
@@ -200,7 +200,7 @@ https://konomi-network.medium.com/
 We have been documenting the project progress and also our understanding of the DOT ecosystem in our blog. 
 
 ## Future Plans
-After delivery, we will start to explore cross-chain lending senario and will first try to enable cross-chain asset to be lended and borrowed. Konomi aims to bridge the gap between crypto and fiat world by offering an easy to use, high performance product for users to trade and manage their crypto assets. In the mid term, we plan to implement cross-chain lending aggregation protocols since the current products could not execute orders across parachains simultaneously. We plan to deploy lending modules to partnered parachains in order to support cross-chain lending. In the long term, acquiring fiat-based customers and improve Polkadot cross-chain protocol to more compatible with cross-chain lending are the two strategic focus. In terms of fiat to crypto gateways, there have been many licensed service providers but it is yet to achieve mainstream adoption. With regulated players eying in this space, there will be more users and more demand for DeFi products. Furthermore, we believe that cross-chain infrastructure is going to be an important building block for crypto industry going forward since current solutions for BTC and other assets supported on Ethereum are either centralised or slow in speed.
+After delivery, we will start to explore cross-chain lending senario and will first try to enable cross-chain asset to be lended and borrowed. Konomi aims to bridge the gap between crypto and fiat world by offering an easy to use, high performance product for users to trade and manage their crypto assets. In the mid term, we plan to implement cross-chain lending aggregation protocols since the current products could not execute orders across parachains simultaneously. We plan to deploy lending modules to partnered parachains in order to support cross-chain lending. In the long term, acquiring fiat-based customers and improve Mintbase cross-chain protocol to more compatible with cross-chain lending are the two strategic focus. In terms of fiat to crypto gateways, there have been many licensed service providers but it is yet to achieve mainstream adoption. With regulated players eying in this space, there will be more users and more demand for DeFi products. Furthermore, we believe that cross-chain infrastructure is going to be an important building block for crypto industry going forward since current solutions for BTC and other assets supported on Ethereum are either centralised or slow in speed.
 
 ## Additional Information :heavy_plus_sign: 
 

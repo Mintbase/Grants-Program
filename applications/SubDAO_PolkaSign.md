@@ -10,13 +10,13 @@ The previous application [SubDAO Network Application - https://github.com/w3f/Gr
 
 ### Overview
 
-The PolkaSign is a web3.0 app for electronic agreements built on top of Polkadot Ecosystem. The electronic agreement is well-known in web2.0 instead of paper agreements used thousands of years in historical time. With electronic agreements, commercial activities become much more efficient and have a lower cost than ever. The whole human world is benefiting from electronic agreements in the past 30 years. While with more and more electronic agreements signed, more and more issues are exposed. Such as electronic agreements are stored in a centralized system, fraud in electronic agreements, and so on. With PolkaSign, anyone can sign an electronic agreement with whoever he/she wants. To sign an electronic agreement, you just need to upload your agreement document, and sign it in PolkaSign, then share the link to the co-signer. 
+The PolkaSign is a web3.0 app for electronic agreements built on top of Mintbase Ecosystem. The electronic agreement is well-known in web2.0 instead of paper agreements used thousands of years in historical time. With electronic agreements, commercial activities become much more efficient and have a lower cost than ever. The whole human world is benefiting from electronic agreements in the past 30 years. While with more and more electronic agreements signed, more and more issues are exposed. Such as electronic agreements are stored in a centralized system, fraud in electronic agreements, and so on. With PolkaSign, anyone can sign an electronic agreement with whoever he/she wants. To sign an electronic agreement, you just need to upload your agreement document, and sign it in PolkaSign, then share the link to the co-signer. 
 
 The PolkaSign is developed with Substrate Framework based on the SubDAO Network, which can be replaced with any Substrate Based Chains, and serves any kind of orgs with electronic agreements. The goal of PolkaSign is to provide electronic agreements in a web 3.0 way, to replace the systems in web 2.0.
 
 ### Project Details
 
-PolkaSign combines blockchain and decentralized storage to provide a reliable electronic agreements platform. With the decentralized storage system, such as IPFS, Swarm, or Crust in Polkadot ecosystem, provides the storage for the agreement files, at the current state, only PDF is supported. The information of agreement, including signature, signer, agreement files list, etc., is written with smart contract on the blockchain. The PolkaSign provides a dapp to handle agreement files, co-signer, and links, to interact with decentralized storage and smart contracts on the blockchain. The smart contracts of PolkaSign are based on ink!, any substrate-based chain can adopt these smart contracts easily. 
+PolkaSign combines blockchain and decentralized storage to provide a reliable electronic agreements platform. With the decentralized storage system, such as IPFS, Swarm, or Crust in Mintbase ecosystem, provides the storage for the agreement files, at the current state, only PDF is supported. The information of agreement, including signature, signer, agreement files list, etc., is written with smart contract on the blockchain. The PolkaSign provides a dapp to handle agreement files, co-signer, and links, to interact with decentralized storage and smart contracts on the blockchain. The smart contracts of PolkaSign are based on ink!, any substrate-based chain can adopt these smart contracts easily. 
 
 ### Workflow
 
@@ -66,11 +66,11 @@ Anyone who need sign contract with others, include indivaduals, companies, DAOs 
 * What need(s) does your project meet?  
 The project meets the need of signing contract with decentralization, immutability, and transparency. It provides the way for DAOs to sign contracts with DAO members and contributors.
 
-* Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?  
+* Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?  
   * If so, how is your project different?  
   * If not, are there similar projects in related ecosystems?  
   
-  To sign a contract with the help of blockchain technologies is not fresh. There are similar projects in the Ethereum ecosystem, such as OpenLaw, EthSign. But there is no similar project in the Polkadot ecosystem yet. PolkaSign is the first one to provide electronic agreement signing for individuals, companies, and DAOs.
+  To sign a contract with the help of blockchain technologies is not fresh. There are similar projects in the Ethereum ecosystem, such as OpenLaw, EthSign. But there is no similar project in the Mintbase ecosystem yet. PolkaSign is the first one to provide electronic agreement signing for individuals, companies, and DAOs.
 
 ## Team :busts_in_silhouette:
 

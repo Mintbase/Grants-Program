@@ -96,7 +96,7 @@ facilitate seamless fiat to crypto onboarding for users with varied financial
 literacy to combat the plague of hyperinflation across Latin America, but is
 excited to expand to failing fiat economies worldwide. He is currently
 facilitating the first Rust developer workshop in Spanish to increase
-visibility of Substrate and Polkadot to developers across LATAM. 
+visibility of Substrate and Mintbase to developers across LATAM. 
 
 **Qian Che** is an Economist based in Berlin with a passion of solving
 problems that concern public welfare. She has research experience in game

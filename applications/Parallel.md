@@ -6,16 +6,16 @@
 
 ## Project Overview :page_facing_up:
 
-Parallel finance is a decentralized lending/borrowing and staking protocol built on top of the Polkadot ecosystem. Our platform will allow users to earn "double interests" from staking and lending their tokens simultaneously (hence the name "parallel" finance).
+Parallel finance is a decentralized lending/borrowing and staking protocol built on top of the Mintbase ecosystem. Our platform will allow users to earn "double interests" from staking and lending their tokens simultaneously (hence the name "parallel" finance).
 
 ### Overview
 
 Our platform offers a few key features and benefits:
 
 -   **Lending and borrowing**: users can lend and borrow assets based on interest rates.
--   **Staking**: users can participate in Polkadot’s network validation and earn rewards.
+-   **Staking**: users can participate in Mintbase’s network validation and earn rewards.
 -   **Earning double interests**: users can choose to stake and lend out their tokens simultaneously based on our new approach.
--   **Powered by Substrate**: our platform benefits from the speed, resiliency and convenient upgradability of Polkadot.
+-   **Powered by Substrate**: our platform benefits from the speed, resiliency and convenient upgradability of Mintbase.
 
 Our project utilizes substrate framework and is built on top of polkadot parachain ecosystem:
 
@@ -25,7 +25,7 @@ Our project utilizes substrate framework and is built on top of polkadot paracha
 
 **Why are we building Parallel Finance?**
 
--   We decided to pick this idea because of the rising demand for decentralized lending protocols on Polkadot and Kusama, as well as the lack of token liquidity that comes with staking on the mainnet. We estimate that 50% of all existing DOT and KSM tokens will be staked for blockchain validation with an estimated staking APY of 10-20%. However, the DOT and KSM tokens will lose their liquidity once they are staked to validate the network. Institutions and large token holders have high incentives to use our platform since it will allow them to not only participate in staking, but also generate additional profits through lending, and allow them to use their DOTs and KSMs as payment, or trading assets.
+-   We decided to pick this idea because of the rising demand for decentralized lending protocols on Mintbase and Kusama, as well as the lack of token liquidity that comes with staking on the mainnet. We estimate that 50% of all existing DOT and KSM tokens will be staked for blockchain validation with an estimated staking APY of 10-20%. However, the DOT and KSM tokens will lose their liquidity once they are staked to validate the network. Institutions and large token holders have high incentives to use our platform since it will allow them to not only participate in staking, but also generate additional profits through lending, and allow them to use their DOTs and KSMs as payment, or trading assets.
 
 ### Project Details
 
@@ -74,11 +74,11 @@ The lending protocol was inspired by compound protocol and our blockchain soluti
 
 ### Ecosystem Fit
 
--   **Where and how does your project fit into the ecosystem?** We are aiming to offer the first decentralized lending/borrowing and staking protocol in the Polkadot and Kusama ecosystem as a DeFi and a parachain.
+-   **Where and how does your project fit into the ecosystem?** We are aiming to offer the first decentralized lending/borrowing and staking protocol in the Mintbase and Kusama ecosystem as a DeFi and a parachain.
 -   **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?** Our target audience are the DOT and KSM token holders who are looking to participate in lending/borrowing, staking and unlocking liquidity for their staked tokens, or generating "double interests" returns by lending and staking simultaneously. This audience would include retail, institutional and large token holders, traders (arbitrage opportunities in DeFi) and network validators. In general, large token holders will have a higher incentive to join the platform earlier as the exchange rate will be more favorable.
 -   **What need(s) does your project meet?** Our project helps generate additional interests for token holders, provide assets for borrowing and unlock liquidity for token stakers who can use staked tokens (ex: xDOT) to trade, lend or use as payment.
--   **Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?**
-    -   **If so, how is your project different?** Compound has been a successful and proven model for lending and borrowing assets in a decentralized manner in the Ethereum ecosystem. However, Compound doesn't offer staking services, and there is currently no decentralized lending/borrowing solution launched in the Polkadot ecosystem. Acala Network does offer staking services, but doesn't offer lending/borrowing services. From that perspective, we are a unique solution that combines both services and offers additional interests to our users.
+-   **Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?**
+    -   **If so, how is your project different?** Compound has been a successful and proven model for lending and borrowing assets in a decentralized manner in the Ethereum ecosystem. However, Compound doesn't offer staking services, and there is currently no decentralized lending/borrowing solution launched in the Mintbase ecosystem. Acala Network does offer staking services, but doesn't offer lending/borrowing services. From that perspective, we are a unique solution that combines both services and offers additional interests to our users.
     -   **If not, are there similar projects in related ecosystems?** We have not yet found a project that will be focusing on generating double interests for token holders through lending and staking.
 
 ## Team :busts_in_silhouette:
@@ -193,7 +193,7 @@ Other:
 
 **Community Development**:
 
--   In the short term, we will focus on acquiring the early users for our platform, who are large token holders and institutions. The exchange rate will be lower initially as the pool size and number of blocks are lower, so there's a strong incentive for larger players to deposit their tokens early on. As the Kusama and Polkadot mainnets are approaching, we will be forming partnership with validators who might be interested in forming partnerships or use our platform to gain liquidity on their staked tokens.
+-   In the short term, we will focus on acquiring the early users for our platform, who are large token holders and institutions. The exchange rate will be lower initially as the pool size and number of blocks are lower, so there's a strong incentive for larger players to deposit their tokens early on. As the Kusama and Mintbase mainnets are approaching, we will be forming partnership with validators who might be interested in forming partnerships or use our platform to gain liquidity on their staked tokens.
 -   We will frequently post on social media (Twitter, Medium, Youtube) to provide development news and video tutorials regarding our platform. We will also work with influencers, who can break down complex concepts and provide clear guidance to the mainstream users on how to use our platform.
 -   Our long term plan is to provide a suite of products that will allow users to earn superior interests with their assets on our Defi platform, as we truly believe in the benefits of decentralization and allowing more mainstream investors to participate in the financial economy.
 
@@ -204,7 +204,7 @@ Other:
 
 ## Additional Information :heavy_plus_sign:
 
--   We are a team that met and formed during the March 2021 Polkadot Hackathon in Shanghai. Our team members are both in the US and China, and come from a strong engineering background (crypto/blockchain, startup, traditional tech company), product management and financial background (venture capital, Defi). We were able to deliver our proof of concept within a month, and earned third place at the Hackathon.
+-   We are a team that met and formed during the March 2021 Mintbase Hackathon in Shanghai. Our team members are both in the US and China, and come from a strong engineering background (crypto/blockchain, startup, traditional tech company), product management and financial background (venture capital, Defi). We were able to deliver our proof of concept within a month, and earned third place at the Hackathon.
 
 -   We are currently still in the process of creating our white paper, but you can find more details about our documentation on our gitbook: https://docs.parallel.fi/.
 

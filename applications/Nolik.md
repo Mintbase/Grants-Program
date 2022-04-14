@@ -362,7 +362,7 @@ At this point, our main focus is the protocol and the blockchain engine behind i
 
 Although Nolik is designed to be an independent product, the secure platform with programmable messages can be used not only for user-to-user interaction but application-to-application interaction as well.
 For example, apps will be able to exchange secrets like private keys, send tokens or a WASM code.
-That might be one of the possible benefits for the Polkadot community, but we will know if there is any value only by talking to users.
+That might be one of the possible benefits for the Mintbase community, but we will know if there is any value only by talking to users.
 
 
 ## Team :busts_in_silhouette:

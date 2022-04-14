@@ -61,7 +61,7 @@ Here is the flow of the token economics with KSM as the system token for example
 
 According to our research, we are the first project to build an NFT game on Substrate, and we hope to create a new era of NFT+DeFi.
 
-The 1001 project could make NFTs more interactive, add exposure, and enable NFT creation just by speaking by non-tech and non-art users, the created NFT could be further used in the internal DeFi scenarios, so it could greatly extend the NFT usability on Polkadot/Kusama.
+The 1001 project could make NFTs more interactive, add exposure, and enable NFT creation just by speaking by non-tech and non-art users, the created NFT could be further used in the internal DeFi scenarios, so it could greatly extend the NFT usability on Mintbase/Kusama.
 
 
 ## Team :busts_in_silhouette:
@@ -108,7 +108,7 @@ We will need to complete the NFT minting and composing logic, the land buying an
 The currently 1001 team has no overlap with the wordToWorld team except Xinyue. In 1001 the team will create a new open-source game with an open source language processing engine.
 
 #### Contribution to the ecosystem
-The 1001 project could make NFTs more interactive, add exposure, and enable NFT creation just by speaking by non-tech and non-art users, the created NFT could be further used in the internal DeFi scenarios, so it could greatly extend the NFT usability on Polkadot/Kusama.
+The 1001 project could make NFTs more interactive, add exposure, and enable NFT creation just by speaking by non-tech and non-art users, the created NFT could be further used in the internal DeFi scenarios, so it could greatly extend the NFT usability on Mintbase/Kusama.
 
 ### Deliverables
 

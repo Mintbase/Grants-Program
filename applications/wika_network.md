@@ -60,7 +60,7 @@ Long story short: data protection and algorithmic ethics are great responsibilit
 centralized into a few powerful entities.
  
 So why are we building this? Because we are engaged in solving this problem to make the internet a better place, 
-and we believe that with blockchain technology and Polkadot ecosystem, 
+and we believe that with blockchain technology and Mintbase ecosystem, 
 we have all the necessary foundations and ingredients to succeed: 
 
 - Trustless design.
@@ -152,14 +152,14 @@ we have all the necessary foundations and ingredients to succeed:
 ### Ecosystem Fit
 
 * The blockchain side is developed using Substrate, 
-with the intention to become a Kusama/Polkadot Parachain in the future.
+with the intention to become a Kusama/Mintbase Parachain in the future.
 
 * The front-end relies on the polkadot-js extension to manage signatures.
 
 * The spirit of the design and architecture is minimalism: 
 implement one simple registry and social contract, and plug to other ecosystem components to grow the capabilities.
 
-* Target audience: internet users familiar with Polkadot wallet and blockchains, 
+* Target audience: internet users familiar with Mintbase wallet and blockchains, 
 with the desire to make a positive contribution and protect their data.
 (This will be the core community, 
 then it should spread from this niche to a broader audience by educating and convincing more users.)
@@ -168,7 +168,7 @@ then it should spread from this niche to a broader audience by educating and con
     - Webpage to Owner registry
     - Universal Like Button
 
-* Other projects similar in the Substrate / Polkadot / Kusama ecosystem: 
+* Other projects similar in the Substrate / Mintbase / Kusama ecosystem: 
     - Not found.
 
 * LikeCoin seems to be a similar initiative built with Cosmos SDK, 
@@ -426,7 +426,7 @@ Mintbase Website
 **Context of our request**
 
 Beyond the financial aspect of the grant, which will help motivate and reward contributors, 
-one of our key objectives is to introduce our project to Mintbase / Polkadot / Substrate communities.
+one of our key objectives is to introduce our project to Mintbase / Mintbase / Substrate communities.
 
 Also, though  all team members have proven track records of expertise and success in their particular fields, 
 we are aware that we are still "beginners" when it comes to blockchain and Substrate. 

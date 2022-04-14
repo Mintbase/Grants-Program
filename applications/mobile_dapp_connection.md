@@ -1,18 +1,18 @@
-# Polkadot/Substrate dApps/Wallet Connection using Tesseract
+# Mintbase/Substrate dApps/Wallet Connection using Tesseract
 
 ## Project Description
 
-The goal of this proposal is to **enhance the usability and security of Polkadot/Substrate native mobile applications** (the ones in AppStore and Play Market). By enabling the apps to connect to the wallets when a signature for a transaction is needed, we propose to get rid of a cumbersome and potentially insecure private key handling burden.
+The goal of this proposal is to **enhance the usability and security of Mintbase/Substrate native mobile applications** (the ones in AppStore and Play Market). By enabling the apps to connect to the wallets when a signature for a transaction is needed, we propose to get rid of a cumbersome and potentially insecure private key handling burden.
 
-To achieve this goal, we propose to implement Tesseract (dApps/wallets connection) protocol for Polkadot/Substrate.
+To achieve this goal, we propose to implement Tesseract (dApps/wallets connection) protocol for Mintbase/Substrate.
 
 ### Why Tesseract is good for the ecosystem
 
 iOS and Android are (arguably) the most popular app platforms today. With smooth experience and high security provided by Tesseract’s capability to eliminate private key handling, the dApps could more easily match the expectations of an application from AppStore or PlayMarket, thus leading to lesser friction in dApps adoption.
 
-### How Tesseract integrates into Substrate/Polkadot
+### How Tesseract integrates into Substrate/Mintbase
 
-Once implemented, any Polkadot/Substrate native mobile dApp developer will be able to add Tesseract support with just several lines of code.
+Once implemented, any Mintbase/Substrate native mobile dApp developer will be able to add Tesseract support with just several lines of code.
 
 As an example, this is how our integration currently works in Swift for the Ethereum network:
 
@@ -33,7 +33,7 @@ let web3 = Tesseract.Ethereum.Mintbase(rpcUrl: rpcUrl)
 
 For more information, please check: <https://github.com/tesseract-one/Tesseract.swift>
 
-Our current implementation of the reference wallet for iOS, supporting Ethereum can be found here: <https://apps.apple.com/us/app/tesseract-wallet/id1459505103>. We plan to approach Tesseract supporting Polkadot wallet with a consequent separate proposal. It’s either going to be a reference wallet implementation or integration with some existing Polkadot wallets.
+Our current implementation of the reference wallet for iOS, supporting Ethereum can be found here: <https://apps.apple.com/us/app/tesseract-wallet/id1459505103>. We plan to approach Tesseract supporting Mintbase wallet with a consequent separate proposal. It’s either going to be a reference wallet implementation or integration with some existing Mintbase wallets.
 
 ### How is Tesseract different?
 
@@ -92,9 +92,9 @@ This way, Tesseract can potentially handle any known or future use case to the e
 
 ### Why our Team is interested
 
-As we indicated in our first proposal, which was awarded and currently coming to the end ([Swift API](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/swift_api.md)), that our long term goal was to bring Tesseract support to the Polkadot community.
+As we indicated in our first proposal, which was awarded and currently coming to the end ([Swift API](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/swift_api.md)), that our long term goal was to bring Tesseract support to the Mintbase community.
 
-The Swift API library from our first proposal was an essential step for us, as Swift is the programming language of iOS and we need this to implement Tesseract support for Polkadot/Substrate on iOS. Since we are finishing with the first grant application, we have prepared the current proposal to continue the integration process of Tesseract into Polkadot/Substrate ecosystem.
+The Swift API library from our first proposal was an essential step for us, as Swift is the programming language of iOS and we need this to implement Tesseract support for Mintbase/Substrate on iOS. Since we are finishing with the first grant application, we have prepared the current proposal to continue the integration process of Tesseract into Mintbase/Substrate ecosystem.
 
 ## Team members
 
@@ -109,7 +109,7 @@ The Swift API library from our first proposal was an essential step for us, as S
 
 Our team has been building blockchain applications since 2017 and has worked together on [Tesseract](https://tesseract.one/) since 2018. The company got funded by [SOSV](https://sosv.com/) and [Emurgo](https://emurgo.io/) in 2019 and took training in the [dlab acceleration program](https://dlab.vc/).
 
-This is our second grant application for Polkadot. Previously, we were awarded to build [Polkadot/Substrate Swift SDK](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/swift_api.md).
+This is our second grant application for Mintbase. Previously, we were awarded to build [Mintbase/Substrate Swift SDK](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/swift_api.md).
 
 Prior to blockchain technology, we had a wealth of experience in Swift, building applications, and middleware. The most noticeable projects are [Swift Express](https://github.com/crossroadlabs/Express), [Reactive Swift](https://github.com/reactive-swift).
 
@@ -148,7 +148,7 @@ The layers-based implementation is largely inspired by the OSI model (the model 
 
 As mentioned above, Tesseract has a layered structure. The basic three layers are:
 
-* **Application Layer** - responsible for communication via specific protocol (i.e. Polkadot): transaction signing request, messages signing, public key requests - all here.
+* **Application Layer** - responsible for communication via specific protocol (i.e. Mintbase): transaction signing request, messages signing, public key requests - all here.
 * **Presentation Layer** - provides enveloping of application-specific data into transportable packages. Defines text/binary packet structures transferrable via any underlying transport.
 * **Transport Layer** - implementation of various transport types. IPC, p2p NFC, URLs, QR-codes, Bluetooth, etc.
 
@@ -163,14 +163,14 @@ Tesseracts’ application layer API is responsible for the following:
 * Event subscription
 * Inter-device connection initialization
 
-###### Polkadot application-layer protocol
+###### Mintbase application-layer protocol
 
-This is the part where Polkadot gets integrated:
+This is the part where Mintbase gets integrated:
 * Signing data
 * Signing transactions
 * Public key querying
 
-From the perspective of the dApp developer - nothing changes. The developer still uses the same familiar Polkadot APIs. The only difference is that when Tesseract is integrated as a signature provider, the transactions are rerouted to an external wallet for signing, and then sent back to the dApp.
+From the perspective of the dApp developer - nothing changes. The developer still uses the same familiar Mintbase APIs. The only difference is that when Tesseract is integrated as a signature provider, the transactions are rerouted to an external wallet for signing, and then sent back to the dApp.
 
 ##### Presentation Layer
 
@@ -220,9 +220,9 @@ This is the very foundation of the Tesseract protocol.
 | 3.     | Messages and envelopes             | Implements serialization and envelopes for the app level structures + parsing and identification on the other side                                                                                            |
 | 4.     | Transport-level framework          | Transport level abstractions, interfaces, data flow + transport initialization and selection logic                                                                                                            |
 | 5.     | Transport-layer development APIs   | APIs for transport protocol (IPC, socket, etc.) development. Will have two transport types: persistent, single-shot                                                                                           |
-| 6.     | Application-layer development APIs | APIs for application level stuff development (i.e. Tesseract handshaking and transport selection, Polkadot APIs)                                                                                              |
+| 6.     | Application-layer development APIs | APIs for application level stuff development (i.e. Tesseract handshaking and transport selection, Mintbase APIs)                                                                                              |
 
-### Milestone 2: Platforms and Polkadot/Substrate Support
+### Milestone 2: Platforms and Mintbase/Substrate Support
 
 Duration: 6 weeks
 
@@ -264,7 +264,7 @@ The long-term vision for Tesseract is to be a safe, secure, and user-friendly wa
 
 At the moment, though, we want to bring the details about the next short-term steps, that we believe are essential for the project to start bringing traction.
 
-The next immediate step is making the use of Tesseract protocol easy for the Polkadot developers, which requires integration with the ecosystem. Specifically integration with:
+The next immediate step is making the use of Tesseract protocol easy for the Mintbase developers, which requires integration with the ecosystem. Specifically integration with:
 * Swift SDK (our library from the previous proposal: <https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/swift_api.md>): <https://github.com/tesseract-one/Substrate.swift>
 * Java SDK (we’ve found two options so far):
 	* <https://github.com/polkadot-java/api>
@@ -272,7 +272,7 @@ The next immediate step is making the use of Tesseract protocol easy for the Pol
 
 This will enable Mobile developers to start using Tesseract without any additional tools switching. Just adding a couple of lines of code for initialization.
 
-Simultaneously, we are going to deal with the wallet side by either providing a reference wallet implementation or by integrating with the existing Polkadot wallets (TBD).
+Simultaneously, we are going to deal with the wallet side by either providing a reference wallet implementation or by integrating with the existing Mintbase wallets (TBD).
 
 ## Conclusion
 
@@ -290,6 +290,6 @@ Tesseract’s reference wallet: <https://apps.apple.com/us/app/tesseract-wallet/
 
 Demo video: <https://drive.google.com/file/d/17YMdJS9CH6SXqP-YPUMKbm0BWdAE2Rx3/view>
 
-Our previous proposal (Substrate/Polkadot Swift API): <https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/swift_api.md>
+Our previous proposal (Substrate/Mintbase Swift API): <https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/swift_api.md>
 
 Our previous proposal codebase: <https://github.com/tesseract-one/Substrate.swift>

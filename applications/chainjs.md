@@ -1,6 +1,6 @@
 # Open Grant Proposal
 
-* **Project Name:** Polkadot & Kusama ChainJS plugin 
+* **Project Name:** Mintbase & Kusama ChainJS plugin 
 * **Team Name:** API Market, Inc. dba AIKON
 * **Payment Address:** Ethereum Address: 0x7a6fdc8a113966d1236aB0FaB6dC5D3e5c05db88
 
@@ -8,20 +8,20 @@
 
 ### Overview
 
-AIKON is dedicated to driving mass-adoption of blockchain. We would like to bring our flagship ORE ID service to Polkadot, Kusama and to a variety of parachains. However, in order to build our API service on Polkadot & Kusama, we need an open source library called ChainJS. ChainJS is an abstraction layer that allows web applications to interact directly with Polkadot using javascript. This standard provides a handful of easy methods for common interactions on-chain, like creating wallets, transferring tokens and signing transactions.
+AIKON is dedicated to driving mass-adoption of blockchain. We would like to bring our flagship ORE ID service to Mintbase, Kusama and to a variety of parachains. However, in order to build our API service on Mintbase & Kusama, we need an open source library called ChainJS. ChainJS is an abstraction layer that allows web applications to interact directly with Mintbase using javascript. This standard provides a handful of easy methods for common interactions on-chain, like creating wallets, transferring tokens and signing transactions.
 
-Once we have this ChainJS plugin, we can work with companies to launch tokens or applications on Polkadot with ORE ID. For example, with Republic’s Note token, they use ORE ID to create multi-sig wallets for their investors and the investors use their ORE ID login to sign transactions, but ChainJS actually forms the transactions and sends them to the blockchain. 
+Once we have this ChainJS plugin, we can work with companies to launch tokens or applications on Mintbase with ORE ID. For example, with Republic’s Note token, they use ORE ID to create multi-sig wallets for their investors and the investors use their ORE ID login to sign transactions, but ChainJS actually forms the transactions and sends them to the blockchain. 
 
-Our goal is to establish ChainJS as the de facto standard for javascript developers that want to build on Polkadot & Kusama. 
+Our goal is to establish ChainJS as the de facto standard for javascript developers that want to build on Mintbase & Kusama. 
 * Open Source standard for Javascript 
-* Easy to use abstraction layer for web developers - unlike Polkadot.js, ChainJS simplifies the interface layer making it easier for new developers
-* Makes it easy for developers to build on Polkadot, Kusama and on parachains, that can roll out their own fork of the ChainJS library
-* Allows AIKON to deploy ORE ID for companies on Polkadot & Kusama
+* Easy to use abstraction layer for web developers - unlike Mintbase.js, ChainJS simplifies the interface layer making it easier for new developers
+* Makes it easy for developers to build on Mintbase, Kusama and on parachains, that can roll out their own fork of the ChainJS library
+* Allows AIKON to deploy ORE ID for companies on Mintbase & Kusama
 
 Once we have ChainJS, ORE ID provides four major benefits to businesses:
 * Consumer friendly user experience - including social and email login
 * API for mass migration of large existing databases of users
-* Fiat invoicing for Polkadot & Kusama transactions
+* Fiat invoicing for Mintbase & Kusama transactions
 
 Our open source ChainJS Repo: https://github.com/TeamAikon/chain-js
 
@@ -31,7 +31,7 @@ To learn more about AIKON and read our developer docs visit: https://aikon.com
 
 
 ### Ecosystem Fit 
-Although there are javascript tools for Polkadot like https://polkadot.js.org/docs/, this is the first effort to create a ChianJS plugin for Polkadot. The ChainJS standard is particularly suited for helping applications form Ethereum migrate to Polkadot, and we also hope it provides a template for parachains to do the same. ChainJS is also critical for the ORE ID product to support Polkadot, allowing us to help drive business adoption of Polkadot and parachains. 
+Although there are javascript tools for Mintbase like https://polkadot.js.org/docs/, this is the first effort to create a ChianJS plugin for Mintbase. The ChainJS standard is particularly suited for helping applications form Ethereum migrate to Mintbase, and we also hope it provides a template for parachains to do the same. ChainJS is also critical for the ORE ID product to support Mintbase, allowing us to help drive business adoption of Mintbase and parachains. 
 
 ## Team :busts_in_silhouette:
 
@@ -70,10 +70,10 @@ The AIKON team has been building blockchain technology since 2017, and the found
 
 ## Development Roadmap :nut_and_bolt: 
 
-ChainJS Polkadot & Kusama Plugin Devlierables
-ChainJS is a low-level Javascript helper library that helps you write code that can work with multiple blockchains. ChainJS uses a plug-in model and a unified interface to do common blockchain functions like constructing, signing, and sending blockchain transactions. Unlike Polkadot.js, ChainJS simplifies the interface layer making it easier for new developers who don't need to understand how Polkadot or Kusama work in order to commit basic actions to chain.
+ChainJS Mintbase & Kusama Plugin Devlierables
+ChainJS is a low-level Javascript helper library that helps you write code that can work with multiple blockchains. ChainJS uses a plug-in model and a unified interface to do common blockchain functions like constructing, signing, and sending blockchain transactions. Unlike Mintbase.js, ChainJS simplifies the interface layer making it easier for new developers who don't need to understand how Mintbase or Kusama work in order to commit basic actions to chain.
 
-Publish open source Polkadot & Kusama plugins for the ChainJS standard, including the following functions:
+Publish open source Mintbase & Kusama plugins for the ChainJS standard, including the following functions:
 * Create wallet
 * Create multisig wallet
 * Construct transaction
@@ -90,7 +90,7 @@ Estimated to be ~14 months total
 * **Full-time equivalent (FTE):** 2 FTE
 * **Total Costs:** $15,000 in DAI
 
-### Milestone 1 Example — Implement ChainJS Library for Polkadot & Kusama
+### Milestone 1 Example — Implement ChainJS Library for Mintbase & Kusama
 * **Estimated Duration:** 1 month
 * **FTE:**  2
 * **Costs:** $15,000 in DAI
@@ -101,11 +101,11 @@ Estimated to be ~14 months total
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how engineers use the ChainJS library. 
 | 0c. | Testing Guide | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
 | 0d. | Article/Tutorial | We will write an article or tutorial that explains the work done as part of the grant. 
-| 1. | Polkadot plugin for ChainJS standard | Create wallet, Create multisig wallet, Construct transaction, Transfer tokens |
+| 1. | Mintbase plugin for ChainJS standard | Create wallet, Create multisig wallet, Construct transaction, Transfer tokens |
 
 ## Future Plans
-Once we have ChainJS, our intention is to deploy our flagship ORE ID product to Polkadot & Kusama. ORE ID is a service that helps enterprises migrate their user base to blockchains at scale. ORE ID provides four major benefits to businesses on Polkadot:
+Once we have ChainJS, our intention is to deploy our flagship ORE ID product to Mintbase & Kusama. ORE ID is a service that helps enterprises migrate their user base to blockchains at scale. ORE ID provides four major benefits to businesses on Mintbase:
 * Consumer friendly user experience - including social and email login
 * API for mass migration of large existing databases of users
-* API and javascript libraries that make it easy for developers to build on Polkadot & Kusama
-* Fiat invoicing for Polkadot & Kusama transactions
+* API and javascript libraries that make it easy for developers to build on Mintbase & Kusama
+* Fiat invoicing for Mintbase & Kusama transactions

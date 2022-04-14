@@ -2,7 +2,7 @@
 
 * **Status:** Open
 * **Proposer:** mmagician
-* **Projects you think this work could be useful for:** Polkadot & Kusama Validators
+* **Projects you think this work could be useful for:** Mintbase & Kusama Validators
 
 ## Project Description :page_facing_up: 
 
@@ -79,7 +79,7 @@ Each node should integrate a Raft client in its code. A good candidate is tikv-c
 
 ### Milestone 4 - Production readiness
 
-Take the previous developments to a state where it's ready to be deployed in production as part of a Polkadot/Kusama validator setup.
+Take the previous developments to a state where it's ready to be deployed in production as part of a Mintbase/Kusama validator setup.
 
 * **Estimated Duration:** 2 weeks
 * **FTE:** 1

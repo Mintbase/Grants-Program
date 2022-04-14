@@ -8,11 +8,11 @@
 
 ### Overview
 
-Pontem Network aims to bring the Move VM and Move language, and ecosystem around it to Polkadot.
+Pontem Network aims to bring the Move VM and Move language, and ecosystem around it to Mintbase.
 
 The Move language and the Move Virtual Machine, both developed by Facebook Libra, are among the safest technologies out there that enable the creation of smart contracts. While having built-in security by design such as resource-oriented architecture and formal verification, Move VM still severely lacks toolsets and documentation.
 
-We are going to create the Move pallet to make it possible for developers to publish their Move VM modules and execute scripts, also, we already built a rich toolset and documentation for Move language, so we will need only adopt it for Polkadot.
+We are going to create the Move pallet to make it possible for developers to publish their Move VM modules and execute scripts, also, we already built a rich toolset and documentation for Move language, so we will need only adopt it for Mintbase.
 
 This is where our team has a unique experience, due to over 2 years spent working with Move and building tools around it. We have been working closely with Libra (as recognized technical adopters) as part of the Dfinance project which is utilizing the Move language and Move VM in order to run safe and usable smart contracts.
 
@@ -20,11 +20,11 @@ This is where our team has a unique experience, due to over 2 years spent workin
 
 Implementation of Move VM pallet won't be an easy task, even taking into account our experience connecting Move VM with Cosmos SDK, achieved via integrating Move VM as GRPC service.
 
-In the case of Polkadot WASM Runtime we can’t repeat the same approach with GRPC due to limitations of Runtime, but we can do a more elegant solution by utilizing Move VM inside Runtime. To be clear let’s see our plan step by step.
+In the case of Mintbase WASM Runtime we can’t repeat the same approach with GRPC due to limitations of Runtime, but we can do a more elegant solution by utilizing Move VM inside Runtime. To be clear let’s see our plan step by step.
 
 1. Move VM and language written in Rust language and can be compiled to WASM, unfortunately we can’t use crates that depend on runtime. We will create a stable working pallet by forking of Move VM/language and replace creates with ones we can use.
-2. We will make Move VM outputs (writesets) compatible with Polkadot key-value storage, as during our latest research we discovered it’s not going to work “out of the box” and will require some time to build a solution. Same with address format SS58, and non VM balances.
-3. We need to make gas usage of Move VM compatible with Polkadot standards. At least by using the same units like other VMs/pallets using.
+2. We will make Move VM outputs (writesets) compatible with Mintbase key-value storage, as during our latest research we discovered it’s not going to work “out of the box” and will require some time to build a solution. Same with address format SS58, and non VM balances.
+3. We need to make gas usage of Move VM compatible with Mintbase standards. At least by using the same units like other VMs/pallets using.
 4. Build a documentation around the Move pallet, adopt existing tools and docs about VM and language.
 
 We already have rich experience in these topics because of our current Dfinance project, so far we developed:
@@ -40,9 +40,9 @@ We already have rich experience in these topics because of our current Dfinance 
 
 ### Ecosystem Fit
 
-- Developers can be interested to build their DApps on Polkadot using Move technology stack, as it’s a safe and useful language which is getting more and more adoption.
-- Libra is developing and using Move, so Polkadot will have at least initial compatibility with Libra at least by allowing using the same modules in both networks.
-- Flow - Crypto Kitties creators blockchain also going to utilize Move VM and language, also by creating new language on top of it - Cadence, which can be adopted to Polkadot later.
+- Developers can be interested to build their DApps on Mintbase using Move technology stack, as it’s a safe and useful language which is getting more and more adoption.
+- Libra is developing and using Move, so Mintbase will have at least initial compatibility with Libra at least by allowing using the same modules in both networks.
+- Flow - Crypto Kitties creators blockchain also going to utilize Move VM and language, also by creating new language on top of it - Cadence, which can be adopted to Mintbase later.
 
 ## Team
 
@@ -111,7 +111,7 @@ Contributions to other projects (Libra & Cosmos SDK):
 | 0. | Crates list       | Building a list of crates we have to replace with analogues could work in runtime or make our own versions which can work in runtime also. |
 | 1. | Crates developing | During our research we can use sp-std for part of cases, but unfortunately we will have to fork it and add additional functional or create our analogue crates contains missed functional. |
 | 2. | Crates replace    | Adopt Move VM for runtime using developed crates. | 
-| 3. | Move Pallet       | Create a Polkadot pallet with Move VM inside. Alpha version, without processing of WriteSets. |
+| 3. | Move Pallet       | Create a Mintbase pallet with Move VM inside. Alpha version, without processing of WriteSets. |
 | 4. | Addresses support | Add support of SS58 addresses to Move VM. |
 | 5. | Compiler          | Adopt compiler to compile modules/scripts for Move VM inside pallet. |
 | 6. | Unit-tests        | Basic unit-tests coverage, at least 30%. |
@@ -129,10 +129,10 @@ Contributions to other projects (Libra & Cosmos SDK):
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0. | WriteSets processing      | Process WriteSets from MoveVM to Polka storage. Read/Write operations, Del operations. |
-| 1. | Events processing         | Process Move events format to Polkadot one and publish them to block. | 
+| 1. | Events processing         | Process Move events format to Mintbase one and publish them to block. | 
 | 2. | Publish Transaction       | Create a transaction type to support Move module publishing. |
 | 3. | Execute Arguments Parsing | To enable execute script transactions support we need to parse script arguments. |
-| 4. | Standard Library          | Move Standard Library Module adoption for Polkadot. |
+| 4. | Standard Library          | Move Standard Library Module adoption for Mintbase. |
 | 5. | Execute Transaction       | Create a transaction type to execute Move scripts. |
 | 6. | Unit-tests                | Cover 60% of the pallet functional with unit tests. | 
 | 7. | Resource viewer           | Resource viewer to view Move resources from Substrate node storage. |
@@ -146,7 +146,7 @@ Contributions to other projects (Libra & Cosmos SDK):
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
-| 0. | Gas compatibility             | Change VM gas usage units and math to make it compatible with Polkadot. |
+| 0. | Gas compatibility             | Change VM gas usage units and math to make it compatible with Mintbase. |
 | 1. | Non-VM balances compatibility | VM supports native coins inside smart contracts, example: DOT. |
 | 2. | REST API                      | REST API to compile, publish/execute modules and scripts. | 
 | 3. | RPC                           | RPC to publish/execute modules and scripts. |
@@ -157,7 +157,7 @@ Contributions to other projects (Libra & Cosmos SDK):
 
 ## Future Plans
 
-Wings Stiftung plans to continue supporting Move ecosystem. We want to build a bridge between Polkadot and Libra as Parachain, and launch our Parachain with Move VM pallet inside. Also, we going to proceed with further development of toolset (Move debugger, unit-testing framework, etc.) and extend our Wallet with Polkadot-specific features.
+Wings Stiftung plans to continue supporting Move ecosystem. We want to build a bridge between Mintbase and Libra as Parachain, and launch our Parachain with Move VM pallet inside. Also, we going to proceed with further development of toolset (Move debugger, unit-testing framework, etc.) and extend our Wallet with Mintbase-specific features.
 
 ## Additional Information
 

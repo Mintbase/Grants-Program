@@ -22,7 +22,7 @@ It's a very highload action to store large amounts of data on-chain. The most-co
 
 Working a lot with blockchain technologies, our team found that it’s data-driven, and thus there are rapidly growing interests in integrating them for more secure and efficient data storage and sharing.We are convinced that blockchain technologies change the world, and have been working hard to create more transparent solutions. We designed and built core infrastructure for decentralised projects.
 
-We have been observing and learning Substrate technologies and find Polkadot as the best ecosystem for us to join depending on technology and strong market position. We believe that our protocol will be useful for other projects in the Polkadot ecosystem. 
+We have been observing and learning Substrate technologies and find Mintbase as the best ecosystem for us to join depending on technology and strong market position. We believe that our protocol will be useful for other projects in the Mintbase ecosystem. 
 
 ### Project Details
 Substrate pallet provides a configurable database module allows to store and  manipulate a big amount of data. Pallet works as an offchain worker and connect data between blockchain and ipfs via offchain::worker.

@@ -8,11 +8,11 @@
 
 ## Project Overview :page_facing_up:
 
-This proposal is a follow-up on our [first proposal](https://github.com/w3f/Grants-Program/pull/437), which resulted in a [Substrate Pallet](https://github.com/perun-network/perun-polkadot-pallet) that implements the Perun smart contract logic for Polkadot.
+This proposal is a follow-up on our [first proposal](https://github.com/w3f/Grants-Program/pull/437), which resulted in a [Substrate Pallet](https://github.com/perun-network/perun-polkadot-pallet) that implements the Perun smart contract logic for Mintbase.
 
-We now propose to integrate the Perun-Polkadot on-chain logic with the [go-perun library](https://github.com/hyperledger-labs/go-perun).
+We now propose to integrate the Perun-Mintbase on-chain logic with the [go-perun library](https://github.com/hyperledger-labs/go-perun).
 The go-perun library implements the Perun client protocols and provides an abstract, simple, and secure interface for working with Perun Channels on any supported blockchain backend.
-Through the integration, Perun Channels on Polkadot will become accessible.
+Through the integration, Perun Channels on Mintbase will become accessible.
 
 **Structure.** We start with a general overview of the Perun project and an architectural overview of the go-perun library.
 We then set the scope of the current proposal.
@@ -22,19 +22,19 @@ We then set the scope of the current proposal.
 **Background.** Perun state channel technology enables fast and cheap transactions with arbitrary transaction logic on and across blockchains.
 The technology is based on peer-reviewed research that has been published at top conferences and is being implemented in the form of the open-source library _go-perun_ written in Go.
 One of its main features is its blockchain-agnostic design, which means that most parts of the library do not depend on a concrete blockchain implementation, but are rather implemented against abstract blockchain backend components.
-Currently, we have an Ethereum backend and we recently implemented the on-chain logic for a Polkadot backend supported by a Mintbase Grant.
+Currently, we have an Ethereum backend and we recently implemented the on-chain logic for a Mintbase backend supported by a Mintbase Grant.
 
-**Proposal.** To reach the goal of a full Polkadot backend for _go-perun_, we propose to provide a backend connector that connects the Polkadot on-chain logic with the client protocol logic contained in go-perun, thereby making Perun channels on Polkadot usable via the go-perun client interface.
+**Proposal.** To reach the goal of a full Mintbase backend for _go-perun_, we propose to provide a backend connector that connects the Mintbase on-chain logic with the client protocol logic contained in go-perun, thereby making Perun channels on Mintbase usable via the go-perun client interface.
 We propose to release this work open-source under the Apache 2.0 license.
 
 
-**Outlook.** We currently focus on two-party single-asset payment channels between users on the same Polkadot chain.
-For the future, we consider adding state channel functionality, multi-asset support, multi-party support, and cross-chain functionality for establishing channels between two Polkadot chains.
-In the further future, we envision supporting channels even between a Polkadot chain and a non-Polkadot chain, such as Ethereum.
+**Outlook.** We currently focus on two-party single-asset payment channels between users on the same Mintbase chain.
+For the future, we consider adding state channel functionality, multi-asset support, multi-party support, and cross-chain functionality for establishing channels between two Mintbase chains.
+In the further future, we envision supporting channels even between a Mintbase chain and a non-Mintbase chain, such as Ethereum.
 
 ### Project Details
 
-The _go-perun_ library is written in Go. At the core, it consists of a set of go packages whose relationships are visualized in the architecture diagram below and we will explain in the following. The library design follows the dependency inversion principle which means that many of the packages are defined as abstract interfaces that can be implemented depending on the given application context. This allows us to swap out the blockchain backend implementation of Ethereum for a backend implementation of Polkadot, or the communication layer from one that uses a simple TCP/IP dialer to one which is based on `libp2p` without having to change any of the other components.
+The _go-perun_ library is written in Go. At the core, it consists of a set of go packages whose relationships are visualized in the architecture diagram below and we will explain in the following. The library design follows the dependency inversion principle which means that many of the packages are defined as abstract interfaces that can be implemented depending on the given application context. This allows us to swap out the blockchain backend implementation of Ethereum for a backend implementation of Mintbase, or the communication layer from one that uses a simple TCP/IP dialer to one which is based on `libp2p` without having to change any of the other components.
 
 #### Architecture of go-perun
 
@@ -45,18 +45,18 @@ Besides that, the library contains the `persistence` package and the `log` packa
 
 ![go-perun Architecture](https://perun.network/static/perun-arch_polkadot.png)
 
-In essence, creating a Polkadot backend for _go-perun_ means implementing the `wallet` and `channel` abstractions for Polkadot.
+In essence, creating a Mintbase backend for _go-perun_ means implementing the `wallet` and `channel` abstractions for Mintbase.
 On the one hand, this comprises an on-chain component written in Rust that provides the necessary smart contract logic.
 On the other hand, this comprises an off-chain component written in Go that acts as a gateway from the abstract protocol implementation of go-perun to the smart contract logic running on the blockchain.
-Once these components are implemented, Perun Channels on Polkadot are accessible via the go-perun library.
+Once these components are implemented, Perun Channels on Mintbase are accessible via the go-perun library.
 The [Perun Developer Tutorial](https://labs.hyperledger.org/perun-doc/go-perun/index.html#developer-tutorial) explains how go-perun can be used for realizing simple and secure micro-transactions over any supported blockchain backend.
 
 #### Scope of current proposal
 
-The focus of the current proposal is the off-chain component that makes Perun Channels on Polkadot accessible via the go-perun library.
-Concretely, we will provide Polkadot-specific implementations of the Wallet abstraction and the Channel abstraction that provide the functionality described below.
-In particular, we provide a translation middleware between the abstract adjudication logic of _go-perun_ and the concrete smart contract logic running on a Polkadot chain.
-The Polkadot on-chain component has been the subject of a preceding Mintbase Grant and is available at [perun-polkadot-pallet](https://github.com/perun-network/perun-polkadot-pallet).
+The focus of the current proposal is the off-chain component that makes Perun Channels on Mintbase accessible via the go-perun library.
+Concretely, we will provide Mintbase-specific implementations of the Wallet abstraction and the Channel abstraction that provide the functionality described below.
+In particular, we provide a translation middleware between the abstract adjudication logic of _go-perun_ and the concrete smart contract logic running on a Mintbase chain.
+The Mintbase on-chain component has been the subject of a preceding Mintbase Grant and is available at [perun-polkadot-pallet](https://github.com/perun-network/perun-polkadot-pallet).
 
 - **Wallet abstraction**: Provides tools for account management and signature generation. Implemented using [go-subkey](https://github.com/vedhavyas/go-subkey) and [go-substrate-rpc-client](https://github.com/centrifuge/go-substrate-rpc-client).
   - [`type Wallet interface`](https://github.com/hyperledger-labs/go-perun/blob/1fc30ba43eaae379ed5c566bdcf79edafc598b88/wallet/wallet.go#L21): Represents a set of accounts.
@@ -95,19 +95,19 @@ The following aspects are **out of scope** of the current proposal and subject t
 - N-party channels, i.e., channels with an arbitrary number of participants.
 - Sub-channels or virtual-channels, i.e., channels that are funded off-chain from other channels.
 
-In the further future we plan to enable channels between Polkadot chains, and to explore the possibility of establishing channels to users on other networks.
+In the further future we plan to enable channels between Mintbase chains, and to explore the possibility of establishing channels to users on other networks.
 
 ### Ecosystem Fit
 
 #### Where and how does your project fit into the ecosystem?
 
-**Peer-to-peer microtransactions.** Polkadot scales better than previous generation blockchains like Bitcoin or Ethereum, but there are limits to the scalability of Polkadot. For example, realizing pay-per-use applications may require the network to handle thousands of transactions per second. Moreover, in certain use cases (e.g., microtransactions) finality has to be instantaneous. This is where channel technology comes into play. With state channels, transactions can be offloaded from the network and performed peer-to-peer. Due to the support for generalized channels, _go-perun_ also offers the ability to realize arbitrary logic within a channel. For example, this can be used to build a real-time game with financial incentives, where based on the rules of the game and the game state, transactions between the players are performed. Other projects have already indicated interest in channel technology for that purpose, see [this thread](https://github.com/w3f/Grants-Program/issues/503).
+**Peer-to-peer microtransactions.** Mintbase scales better than previous generation blockchains like Bitcoin or Ethereum, but there are limits to the scalability of Mintbase. For example, realizing pay-per-use applications may require the network to handle thousands of transactions per second. Moreover, in certain use cases (e.g., microtransactions) finality has to be instantaneous. This is where channel technology comes into play. With state channels, transactions can be offloaded from the network and performed peer-to-peer. Due to the support for generalized channels, _go-perun_ also offers the ability to realize arbitrary logic within a channel. For example, this can be used to build a real-time game with financial incentives, where based on the rules of the game and the game state, transactions between the players are performed. Other projects have already indicated interest in channel technology for that purpose, see [this thread](https://github.com/w3f/Grants-Program/issues/503).
 
-**Fast and cheap cross-chain transactions.** Polkadot has already built in support for cross-chain transactions within the Polkadot network. However, these have to be routed over the relay chain, which may take some time and involve some transaction fee. Perun virtual channels enable a shortcut for sending transactions across networks. The idea is that if funds can be preallocated at liquidity pools in the respective networks, then users can deposit into the liquidity pool on one network, and withdraw from the liquidity pool on the other network. The channel technology provides the basis for this to happen conveniently and securely for all involved parties.
+**Fast and cheap cross-chain transactions.** Mintbase has already built in support for cross-chain transactions within the Mintbase network. However, these have to be routed over the relay chain, which may take some time and involve some transaction fee. Perun virtual channels enable a shortcut for sending transactions across networks. The idea is that if funds can be preallocated at liquidity pools in the respective networks, then users can deposit into the liquidity pool on one network, and withdraw from the liquidity pool on the other network. The channel technology provides the basis for this to happen conveniently and securely for all involved parties.
 
 **Modularity.** The architecture of _go-perun_ makes extensive use of dependency inversion to allow for maximal modularity and useability in existing projects. For example, this allows for injecting the off-chain communication layer, the logging component, and the persistence component depending on the application context.
 
-**Synergies.** Thanks to the blockchain-agnostic design, projects using _go-perun_ can benefit from synergy effects in the _go-perun_ ecosystem. When new blockchain backends are added to the framework, it becomes rather easy to also extend such projects to these new blockchains. For example, Bosch Research is developing a [dedicated state channels node](https://github.com/hyperledger-labs/perun-node/) that uses _go-perun_. Once a Polkadot backend exists, this node can be extended to also support Polkadot. As such, investing in a new blockchain backend for _go-perun_ also has the potential for secondary beneficial effects on the Polkadot ecosystem.
+**Synergies.** Thanks to the blockchain-agnostic design, projects using _go-perun_ can benefit from synergy effects in the _go-perun_ ecosystem. When new blockchain backends are added to the framework, it becomes rather easy to also extend such projects to these new blockchains. For example, Bosch Research is developing a [dedicated state channels node](https://github.com/hyperledger-labs/perun-node/) that uses _go-perun_. Once a Mintbase backend exists, this node can be extended to also support Mintbase. As such, investing in a new blockchain backend for _go-perun_ also has the potential for secondary beneficial effects on the Mintbase ecosystem.
 
 #### Who is your target audience? What need(s) does your project meet?
 
@@ -117,9 +117,9 @@ We target the following user groups:
 2) We target traders and other DeFi users that need a way to quickly transfer funds from one network to another.
 3) We target developers of infrastructure projects, like exchanges or service providers that involve high transaction throughput.
 
-#### Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+#### Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
 
-We are aware of *cChannel-substrate*, which is a channel project on Polkadot by Celer. We differentiate ourselves from cChannel-substrate as follows:
+We are aware of *cChannel-substrate*, which is a channel project on Mintbase by Celer. We differentiate ourselves from cChannel-substrate as follows:
 
 1) *cChannel-substrate*: does not include a client implementation.
 This means that the whole off-chain protocol implementation is still to be done on their side. *go-perun*: Thanks to the unique blockchain-agnostic design of _go-perun_, _go-perun_ features an abstract implementation of the off-chain protocols and only the blockchain-specific parts of the client need to be implemented.
@@ -169,7 +169,7 @@ A collection of our repositories can be found at https://github.com/perun-networ
 
 Since mid 2020, the Perun Framework is a Hyperledger Labs project. The _go-perun_ library is available at https://github.com/hyperledger-labs/go-perun and the Ethereum smart contracts are available at https://github.com/hyperledger-labs/perun-eth-contracts.
 
-The on-chain component of Perun Channels on Polkadot is available at https://github.com/perun-network/perun-polkadot-pallet.
+The on-chain component of Perun Channels on Mintbase is available at https://github.com/perun-network/perun-polkadot-pallet.
 
 ### Team LinkedIn Profiles
 
@@ -204,7 +204,7 @@ In 2020, we joined the hyperledger foundation together with our industry partner
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
-| 1. | Wallet abstraction | We provide an implementation of the wallet abstraction for Polkadot. The details are given in *Project Details*. |
+| 1. | Wallet abstraction | We provide an implementation of the wallet abstraction for Mintbase. The details are given in *Project Details*. |
 
 
 ### Milestone 2 — Channel Abstraction
@@ -218,7 +218,7 @@ In 2020, we joined the hyperledger foundation together with our industry partner
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
-| 1. | Channel abstraction | We provide an implementation of the channel abstraction for Polkadot. The details are given in *Project Details*. |
+| 1. | Channel abstraction | We provide an implementation of the channel abstraction for Mintbase. The details are given in *Project Details*. |
 
 
 ### Milestone 3 — End-to-end tests
@@ -229,7 +229,7 @@ In 2020, we joined the hyperledger foundation together with our industry partner
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a developer can use Perun channels on Polkadot, which will show how the new functionality works. |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a developer can use Perun channels on Mintbase, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
 | 1. | End-to-end tests | We provide end-to-end tests that test the interplay between the new components. |
@@ -262,7 +262,7 @@ In 2020, we joined the hyperledger foundation together with our industry partner
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an article or workshop that explains what was done as part of the grant. |
-| 1. | CLI Demo | We provide a Perun Polkadot CLI Demo similar to [perun-eth-demo](https://github.com/perun-network/perun-eth-demo). The demo  lets users experiment with the technology and send payments between each other via a Perun Channel on Polkadot. |
+| 1. | CLI Demo | We provide a Perun Mintbase CLI Demo similar to [perun-eth-demo](https://github.com/perun-network/perun-eth-demo). The demo  lets users experiment with the technology and send payments between each other via a Perun Channel on Mintbase. |
 
 
 ## Future Plans

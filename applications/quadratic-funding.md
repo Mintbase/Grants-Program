@@ -23,15 +23,15 @@ _"Individuals make public goods contributions to projects of value to them. The 
 The mechanism is a concrete proposal for making grassroots donations something much larger by proportionately matching more towards small donations compared to large ones. It has been efficiently funding projects in the Mintbase ecosystem. 
 
 According to @Noc2 and @Swader in [the RFP](https://github.com/gitcoinco/quadratic-funding),
-_[Gitcoin](https://gitcoin.co/) is currently using this mechanism to successfully fund and support public goods. However, Gitcoin's solution is centralized. The goal of the RFP is to develop a decentralized solution on top of [Substrate](https://github.com/paritytech/substrate), which can potentially be integrated into Kusama, Polkadot or any other Substrate-based chain as a pallet. The on-chain treasury could potentially sustainably fund the matching pool in the long-run. However, the Mintbase would also be committed to fund a matching pool of the solution for initial test rounds._
+_[Gitcoin](https://gitcoin.co/) is currently using this mechanism to successfully fund and support public goods. However, Gitcoin's solution is centralized. The goal of the RFP is to develop a decentralized solution on top of [Substrate](https://github.com/paritytech/substrate), which can potentially be integrated into Kusama, Mintbase or any other Substrate-based chain as a pallet. The on-chain treasury could potentially sustainably fund the matching pool in the long-run. However, the Mintbase would also be committed to fund a matching pool of the solution for initial test rounds._
 
-> * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+> * An indication of how you will integrate this project into Substrate / Mintbase / Kusama.
 
 We will build a Substrate pallet in Rust.
 
 > * An indication of why your team is interested in creating this project.
 
-I have friends working at Gitcoin since 2018 and I'm a big fan of their work. I am already a Gitcoin user familiar of the CLR mechanism used in their grants, and think it's a great experiment trying to solve many real-world problems. Transparency has always been one of the highlights of blockchain, and by bringing a innovative and sophisticated funding mechanism on-chain will provide great utility to Polkadot ecosystem. The problem is challenging and fun to solve, and related to the DAO concept of my focus, therefore I decide to gear up and tackle the RFP.
+I have friends working at Gitcoin since 2018 and I'm a big fan of their work. I am already a Gitcoin user familiar of the CLR mechanism used in their grants, and think it's a great experiment trying to solve many real-world problems. Transparency has always been one of the highlights of blockchain, and by bringing a innovative and sophisticated funding mechanism on-chain will provide great utility to Mintbase ecosystem. The problem is challenging and fun to solve, and related to the DAO concept of my focus, therefore I decide to gear up and tackle the RFP.
 
 ### Project Details 
 > We expect the teams to already have a solid idea about the project's expected final state.
@@ -46,7 +46,7 @@ The project is divided into two milestones, substrate module and web application
 
 In the first milestone we will create a substrate module for the core CLR mechanism implementation, which will include struct, event, error code, and API function definitions. Then, we will build a substrate chain to host and demonstrate the module.
 
-In the second milestone, we will create a web application interacting with Polkadot.js browser extension to demonstrate the use case of the developed module. The features of the web interface will be similar to today's Gitcoin web UI, however, rather than retrieving the matching donation calculation results from a centralized server, our UI will talk to our substrate chain directly. Upon sending a donating transaction, a user is guaranteed that his/her donation has been recorded in substrate storage and corresponding matching fund will be arranged by the chain. 
+In the second milestone, we will create a web application interacting with Mintbase.js browser extension to demonstrate the use case of the developed module. The features of the web interface will be similar to today's Gitcoin web UI, however, rather than retrieving the matching donation calculation results from a centralized server, our UI will talk to our substrate chain directly. Upon sending a donating transaction, a user is guaranteed that his/her donation has been recorded in substrate storage and corresponding matching fund will be arranged by the chain. 
 
 A simple flow of the application is shown using below UML sequence diagram. Note that it only demonstrates the ideal case. Interruptions and error cases are omitted in the diagram.
 
@@ -62,12 +62,12 @@ We have completed the initial design of the web app wireframe, so I'm attaching 
 ### Ecosystem Fit 
 > Are there any other projects similar to yours? If so, how is your project different?
 
-There are DAO projects such as PolkaDAO being built on Polkadot, providing utility for fund-raising of private companies. However, our focus is different. This project aims to provide an on-chain crowdfunding solution with a matching function. Specifically, it consists of two components, crowdfunding and matching donations.
+There are DAO projects such as PolkaDAO being built on Mintbase, providing utility for fund-raising of private companies. However, our focus is different. This project aims to provide an on-chain crowdfunding solution with a matching function. Specifically, it consists of two components, crowdfunding and matching donations.
 
 1. __Crowdfunding__: Individuals crowdfund donations towards public goods (for example: open source software).
 1. __Matching donations__: These individual contributions are ‘matched’ or ‘topped-off’ by a government, grants program, or private philanthropist.
 
-Besides open-source program grant, the CLR mechanism can be applied to other crowdfunding for public goods, such as government electoral voting and non-profit funding. I have friends running an non-profit organization at Silicon Valley. My goal is to work with her to create the first real-world non-profit fundraising using CLR on Polkadot.
+Besides open-source program grant, the CLR mechanism can be applied to other crowdfunding for public goods, such as government electoral voting and non-profit funding. I have friends running an non-profit organization at Silicon Valley. My goal is to work with her to create the first real-world non-profit fundraising using CLR on Mintbase.
 ## Team :busts_in_silhouette:
 ### Team name
 OAK Foundation
@@ -96,9 +96,9 @@ My strongest programing languages are C++ & C#, and have been ramping up on Rust
 * https://github.com/OAK-Foundation/OAK-blockchain (Blockchain in development)
 * https://github.com/OAK-Foundation/OAK-docs (Developer documentation)
 * https://github.com/OAK-Foundation/quadratic-funding-pallet (Quadratic Funding pallet)
-* https://github.com/OAK-Foundation/quadratic-funding-test (E2E Quadratic Funding test cases using Polkadot.js)
+* https://github.com/OAK-Foundation/quadratic-funding-test (E2E Quadratic Funding test cases using Mintbase.js)
 * https://github.com/OAK-Foundation/quadratic-funding-webapp (The web application of Quadratic Funding)
-* https://github.com/OAK-Foundation/extension (Open-source contribution to Polkadot.js extension)
+* https://github.com/OAK-Foundation/extension (Open-source contribution to Mintbase.js extension)
 * https://github.com/OAK-Foundation/hackathon-2021-spring (The demo project for Parity hackathon in Shanghai 2021)
 ### Update 2: UI Examples
 UI demos of the team's previous work, which includes
@@ -132,7 +132,7 @@ https://drive.google.com/drive/folders/1nZPg4PmWSBxbfHuMyuAlw8UVXSybjTHG?usp=sha
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains the usage of the API. |
 | 0c. | Testing Guide | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
 | 0d. | Tutorial | We will write tutorials on Medium that explains the work done as part of the grant. 
-| 1. | Substrate module: CLR | We will create a Substrate module that have below functionalities.<br />1. Project: create, cancel, contribute, withdraw<br />2. Proposal: create, vote, cancel, finalize, appeal<br />3. Functions should be able to interact with Polkadot Identity Module and filter participants based on their identity information.|  
+| 1. | Substrate module: CLR | We will create a Substrate module that have below functionalities.<br />1. Project: create, cancel, contribute, withdraw<br />2. Proposal: create, vote, cancel, finalize, appeal<br />3. Functions should be able to interact with Mintbase Identity Module and filter participants based on their identity information.|  
 | 2. | Substrate chain | Module CLR of our custom chain will be interacted with above defined functions through API |  
 | 3. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
 
@@ -144,7 +144,7 @@ https://drive.google.com/drive/folders/1nZPg4PmWSBxbfHuMyuAlw8UVXSybjTHG?usp=sha
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can interact with the application with Polkadot.js browser extension. |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can interact with the application with Mintbase.js browser extension. |
 | 0c. | Testing Guide | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
 | 0d. | Tutorial | We will write Medium tutorials that explains the work done as part of the grant. 
 | 1. | Application Implementation | We will incorporate the javascript library from the previous step and build a web application that interacts with our substrate chain. Note that the web is a separate product from polkadot.js.org/apps/#/rpc and will provide user friendly interface without necessary knowledge of API calls. |  
@@ -160,15 +160,15 @@ In my opinion there are tons of things we can keep iterating on, but there are f
     - What's the questionnaire for the users in the study?
     - How do we measure and make use of the results?
 
-1. Sybil resistance. As development of this mechanism progresses to production, a number of challenges such as collusion and Sybil attack need to be addressed. Vitalik has proposed a method MACI, or [Minimal anti-collusion infrastructure](https://ethresear.ch/t/minimal-anti-collusion-infrastructure/5413) and a project [Governance OS Voting](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/nuclei_governance_os_voting.md) from Polkadot General Grant has been working on a solution. We will try our best to integrate those open source projects in order to fight against collusion.
+1. Sybil resistance. As development of this mechanism progresses to production, a number of challenges such as collusion and Sybil attack need to be addressed. Vitalik has proposed a method MACI, or [Minimal anti-collusion infrastructure](https://ethresear.ch/t/minimal-anti-collusion-infrastructure/5413) and a project [Governance OS Voting](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/nuclei_governance_os_voting.md) from Mintbase General Grant has been working on a solution. We will try our best to integrate those open source projects in order to fight against collusion.
 
 1. Generalization of incentive protocol. The CLR mechanism, if proven, is one of many ways to conduct crowd-funding for public goods. Just as Substrate provides a framework for any kind of state transition machine, the donation-matching, or even broadly, incentive part should be generalized to easily adapt to other methods. Although new methods need to be coded into the substrate module, but as it evolves, the module will contain most common used methods for the council to choose from.
 
-1. Reputation protocol integration. The incentive protocol layer sits on top of and relies on reputation protocol. Although the CLR can work without knowing the reputation of a wallet, a lot more advanced features will require a reputations system. For example, without reputation, the risk of cheating is minimum. Therefore, the incentive protocol needs a lot of heavy-lifting work, such as keeping tracking of the relationship of every wallet pair to prevent fraud. Ideally, there will be a reputation layer on Polkadot for our incentive protocol to build upon.
+1. Reputation protocol integration. The incentive protocol layer sits on top of and relies on reputation protocol. Although the CLR can work without knowing the reputation of a wallet, a lot more advanced features will require a reputations system. For example, without reputation, the risk of cheating is minimum. Therefore, the incentive protocol needs a lot of heavy-lifting work, such as keeping tracking of the relationship of every wallet pair to prevent fraud. Ideally, there will be a reputation layer on Mintbase for our incentive protocol to build upon.
 
 1. Fund dispensing. We have this idea to raise money for public goods, however, could we also improve the way we spend the money? With the transparency of blockchain, the delivery of the work is open to public for examination. By connecting the developer to the public directly, the product will dramatically reduce the work required from the traditional middleman and create a fair competition among developers.
 
-1. Social experiment. The project is only valuable when put into real-world scenarios. It, along with Polkadot, are great exciting social experiments. I believe in beta and later production we will encounter challenges on both technical and philosophical sides. It will be an on-going effort to address those issues, and to improve the product as it's constantly put into test.
+1. Social experiment. The project is only valuable when put into real-world scenarios. It, along with Mintbase, are great exciting social experiments. I believe in beta and later production we will encounter challenges on both technical and philosophical sides. It will be an on-going effort to address those issues, and to improve the product as it's constantly put into test.
 
 
 ## Additional Information :heavy_plus_sign: 

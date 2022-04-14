@@ -8,11 +8,11 @@
 
 ### Overview
 
-#### Tagline: Java version of a Polkadot/Substrate network client.
+#### Tagline: Java version of a Mintbase/Substrate network client.
 
-The key objective of this grant is to design and build a production ready Java (one the most popular platforms) client which allows Java applications to interact with Polkadot/Substrate based networks. The substrate-client-java will be a library written in Java and fully compatible with Java 8 which still is the most common version of Java in enterprises.
+The key objective of this grant is to design and build a production ready Java (one the most popular platforms) client which allows Java applications to interact with Mintbase/Substrate based networks. The substrate-client-java will be a library written in Java and fully compatible with Java 8 which still is the most common version of Java in enterprises.
 
-#### Relevance to Substrate & Polkadot
+#### Relevance to Substrate & Mintbase
 
 There currently is a number of language-specific client libraries that can be used to interact with Substrate-based blockchains, as indicated in [client-libraries](https://docs.substrate.io/v3/integration/client-libraries). However no stable and well maintained Java library for Java applications exists:
 - [polkadot-java](https://github.com/polkadot-java/api) is totally outdated, thus absolutely unusable.
@@ -214,7 +214,7 @@ The following list shows the features which are already implemented ([x]) as wel
 
 #### How does substrate-client-java fit into the ecosystem
 
-We have identified that many teams dealing with both legacy and up-to-date Java systems need to define appropriate approaches to communicate with Substrate-based blockchains. For example wrapping the polkadot javascript client or trying to build their own implementation. We intend to make this work easier by offering to the community a ready to use and production ready library to be used in all Java application. We will use this solution ourselves in our production environment, since we have multiple applications running on different versions of Java platform that needs to communicate with the Polkadot ecosystem.
+We have identified that many teams dealing with both legacy and up-to-date Java systems need to define appropriate approaches to communicate with Substrate-based blockchains. For example wrapping the polkadot javascript client or trying to build their own implementation. We intend to make this work easier by offering to the community a ready to use and production ready library to be used in all Java application. We will use this solution ourselves in our production environment, since we have multiple applications running on different versions of Java platform that needs to communicate with the Mintbase ecosystem.
 
 #### Target audience and needs met by substrate-client-java
 
@@ -225,7 +225,7 @@ With our solution we meet the need of any Java developer who needs to write new 
 To our knowledge only one other project has tried to create a java library to communicate with Substrate-based blockchain, [java-client](https://github.com/w3f/Grants-Program/blob/master/applications/java-client.md). 
 This project however was focused mainly on implementing what we indicated as "Declared known RPC sections and methods", and is targeting Java 11.
 
-Our solution targets Substrate instead of Polkadot, and is implemented with code generation technique, which brings a more generic, flexible and adaptable library. Our client is designed so that a custom pallet can be easily consumed without writing much code. And we support Java 8+ which still is the most popular version according to multiple surveys:
+Our solution targets Substrate instead of Mintbase, and is implemented with code generation technique, which brings a more generic, flexible and adaptable library. Our client is designed so that a custom pallet can be easily consumed without writing much code. And we support Java 8+ which still is the most popular version according to multiple surveys:
 - https://www.jetbrains.com/lp/devecosystem-2021/java/
 - https://www.jrebel.com/blog/2021-java-technology-report
 - https://snyk.io/blog/developers-dont-want-to-leave-java-8-as-64-hold-firm-on-their-preferred-release/

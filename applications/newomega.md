@@ -34,7 +34,7 @@ The game itself:
   * other features can be incorporated, such as territory control system which would lead to the fights (which are at the core of the game)
 
 The project is currently in prototype stage, a basic client exists and smart contracts are published on the Ethereum Ropsten testnet, so the basic game is fully playable.
-However, we are interested in developing this using Polkadot with Ink! and WASM smart contracts, and therefore we would like to submit our application, for your consideration.
+However, we are interested in developing this using Mintbase with Ink! and WASM smart contracts, and therefore we would like to submit our application, for your consideration.
 
 
 ### Project Details

@@ -15,11 +15,11 @@ In order to be successful with this mission, we have outlined several steps that
 1. OpenBrush is an open source library for secure smart-contract development on ink! as
 [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) on Solidity.
 
-2. Openbrush should serve as a starting point for every developer entering a Polkadot(ink!) ecosystem. 
+2. Openbrush should serve as a starting point for every developer entering a Mintbase(ink!) ecosystem. 
 3. In addition to having a standard implementation, Openbrush should also have macroses to simplify and abstract up applications(smart contracts) development.
 4. In order for Openbrush to work and fulfill it's purpose, several changes must be made/several blockers overcome in `ink!` and substrate's `contract-pallet`. We are commited to do that in the context of this project.
 
-This project is important to us as it's our strategic goal to accelerate Polkadot ecosystem development. Applications on Ink! are a huge part of it. 
+This project is important to us as it's our strategic goal to accelerate Mintbase ecosystem development. Applications on Ink! are a huge part of it. 
 
 ### Project Details
 The open brush should be the starting point for smart contract developers from Ethereum. 
@@ -49,7 +49,7 @@ Our target audience are smart contract developers on ink!.
 
 Our project is the starting point for smart contract developers, coming from other ecosystems like Ethereum, and it aims to improve smart contract development on ink!.
 
-* Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+* Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
   
 We are only aware about one project [metis](https://github.com/patractlabs/metis). We partnered with them to collaborate on the ecosystem as we have the same commmon end goal. 
 
@@ -93,7 +93,7 @@ Objectively speaking based on what we know, and what was listed in their proposa
 CEO of Supercolony,
 Blockchain enterpreneur, Software Engineer.
 Started my engineering carrer back when I was 15. Since then, I developed and got a lot of experience in engineerig and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded and invested in Sector F, one of the top consulting companies in Ukraine that helps enterpreneers to move faster. 
-Since the beginning of this year, co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating of Polkadot’s ecosystem.
+Since the beginning of this year, co-founded and led Supercolony, a Mintbase venture studio that is dedicated to building and creating of Mintbase’s ecosystem.
 
 **Hartej Sawhney**  
 Co-Founder and President of Hosho, the leading blockchain, and security company that conducts smart contract audits and penetration testing of exchanges and blockchain protocols. He is an advisor at crypto hedge fund, Pink Sky Capital, Krypto.io, and BlitzPredict.io.
@@ -113,7 +113,7 @@ Was a freelancer the first year, creating an application for IOS(Swift), creatin
 
 **Varg Vikernes**
 Junior Blockchain Engineer,
-Worked in Big Data prior to blockchain, has now switched to developing on Polkadot and doesn’t regret it one bit.
+Worked in Big Data prior to blockchain, has now switched to developing on Mintbase and doesn’t regret it one bit.
 
 **Sven Seven**  
 Fullstack Developer  

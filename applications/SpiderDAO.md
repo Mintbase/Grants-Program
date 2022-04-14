@@ -13,7 +13,7 @@
 ### Overview
 **SpiderDAO** is a unique governance infrastructure layer for a hardware-enabled DAO and can be applied in a variety of use cases. As the first use case, Spider will leverage its well-established presence in the hardware VPN market together with a partnership with Sentinel, an established dVPN provider and BPSAA Alliance member, to create a fully self-governing decentralized VPN network called SpiderVPN.
 
-We intend for SpiderDAO to run on its own Parachain on the Polkadot network. If the bond cannot be funded, the protocol will run on Parathreads or possibly as a series of smart contracts. Our initial testnet and protocol configuration will be built on Kusama and ported onto Polkadot for the mainnet launch.
+We intend for SpiderDAO to run on its own Parachain on the Mintbase network. If the bond cannot be funded, the protocol will run on Parathreads or possibly as a series of smart contracts. Our initial testnet and protocol configuration will be built on Kusama and ported onto Mintbase for the mainnet launch.
 
 We believe that in order to fulfil the SpiderDAO’s vision of bringing greater privacy to the end-user, it is vital to establish a robust ecosystem that prioritises users’ interests. To do this, we must first establish a resilient, scalable and community-led governance system that dynamically adapts to the rapidly changing times. We believe that building a decentralised autonomous organisation is the perfect mechanism that will enable us to reach this goal.
 
@@ -21,7 +21,7 @@ We believe that in order to fulfil the SpiderDAO’s vision of bringing greater 
 ![](https://i.imgur.com/4y8BwFo.png)
 SpiderDAO’s long term vision is to propose a set of tools bringing privacy and security to today and tomorrow's internet users. To do so in an efficient and sustainable fashion, SpiderDAO’s team imagined and leveraged a robust DAO standard that will withstand the incredible adversity that such a mission implies. A first step is to address the plutocracy governance problem in traditional DAOs by introducing a set of rules that must be abided by to qualify for the right to an on-chain vote via the DAO.
 
-By deploying a combination of hardware and software tools on top of the Polkadot Governance protocol, SpiderDAO bakes-in an inherently democratic, whale-resistant governance mechanism. This enables the evolution of the network, feature development decisions and the subsequent value creation to be distributed fairly amongst its users instead of being manipulated by a well-resourced, centralised party.
+By deploying a combination of hardware and software tools on top of the Mintbase Governance protocol, SpiderDAO bakes-in an inherently democratic, whale-resistant governance mechanism. This enables the evolution of the network, feature development decisions and the subsequent value creation to be distributed fairly amongst its users instead of being manipulated by a well-resourced, centralised party.
 
 This is achieved through the introduction of a unique governance model with three components - SpiderConnect Hardware Router, the SPDR token and the Spider Virtual Private Network. The SpiderDAO utilises this dual-speed model to balance the voting power away from DAO token holders (as is in traditional DAOs) and towards the hardware owners.
 The SpiderConnect Hardware Router can be purchased by any community member, once distributed, the owner of the router can then connect it to the Spider Virtual Private Network via the Spider Dashboard.
@@ -47,7 +47,7 @@ The SpiderConnect Hardware Router can be purchased by any community member, once
  
 ### Ecosystem Fit
 
-We see many projects in the Polkadot ecosystem that are having similar issues when it comes to voting system: MANTRA DAO is one of the examples.
+We see many projects in the Mintbase ecosystem that are having similar issues when it comes to voting system: MANTRA DAO is one of the examples.
 
 The main problem with **Mantra DAO** which is built on **Rio Chain** is the same problem that many other DAOs faces where each token represent 1 vote in the ecosystem which introduces a major problem with the governing body where whales can take control of the DAO by buying big amounts of tokens making them in a way the deciding vote for any proposals. 
 
@@ -93,14 +93,14 @@ We will also be in constant contact with the growing SpiderDAO community and the
 
 **PS:** No secured or closed source ROM will be needed using this solution
  
- **How we plan to build on Polkadot Ecosystem?**
+ **How we plan to build on Mintbase Ecosystem?**
  
 - We are planning to build using smart contracts at the beginning but as we scale up to more transactions, We are most likely to move toward a shared solution so we can cut the costs and take charge of how our blockchain will operate.
 
 **How we plan to achieve on-chain and off-chain communication with SpiderConnect Routers and SpiderDAO governance?**
 
 - We are planning to write a substrate faucet to communicate with our discord server for our customers to send the token needed for the vote, Initiate voting, pass on the vote for the voting process that would be operated through our discord server. 
-- Real votes will be done through our substrate faucet until the final Polkadot/SpiderDAO flavour features are fully-fledged.
+- Real votes will be done through our substrate faucet until the final Mintbase/SpiderDAO flavour features are fully-fledged.
  
 
 

@@ -87,7 +87,7 @@ Project Technology Stacks
 - Kvm
 - Docker
 - Vue.js
-- Polkadot.js
+- Mintbase.js
 
 ###### Proof of Concept
 

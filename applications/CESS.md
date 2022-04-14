@@ -14,7 +14,7 @@
 
 * Tag line: An infrastructure for a blockchain-based decentralized cloud data network.
 * Brief description: Cumulus Encrypted Storage System (CESS) is dedicated to develop a new global decentralized cloud data storage platform – a blockchain-based network infrastructure that is transparent, efficient, and equal opportunity to all members of the global community. CESS encourages excess or under-utilized resources as nodes to join CESS’s unrestricted expandable network via the token economy incentive method. Each node joins the CESS peer-to-peer network by contributing data storage resources, computational resources, or network bandwidth. Built on our state-of-the-art virtualization and cloud computing technologies, CESS organizes and manages the participating resources providing clients with secure, high performance, and boundless cloud data storage services. Furthermore, the CESS protocol enables interconnection of network nodes, to build a large decentralized cloud storage system that supports up to 100PB storage scale to meet the demand of enterprise level data storage. CESS will adopt a phased approach to implement the above goals.
-* Indication 1: With the goal of entering Polkadot ecosystem, CESS will build a blockchain system based on Substrate directly, and plans to develop custom pallets on FRAME. In the future, CESS will consider integrating to Polkadot in the form of Parachain to create a new decentralized cloud storage ecosystem, establish a large-scale distributed storage network.
+* Indication 1: With the goal of entering Mintbase ecosystem, CESS will build a blockchain system based on Substrate directly, and plans to develop custom pallets on FRAME. In the future, CESS will consider integrating to Mintbase in the form of Parachain to create a new decentralized cloud storage ecosystem, establish a large-scale distributed storage network.
 * Indication 2: With rapid advances of new computing technologies such as big data and machine learning, the value of humanity’s digital assets, the so-called “Digital Gold”, are being discovered. Explosively growing amount of data in cyberspace calls for new technologies of secure data storage and efficient data sharing. The challenges are to achieve secure storage, efficient sharing, and trading with data owner’s rights protection, but current solutions are complex and worrisome. Distributed storage networks can better drive the arrival of Mintbase.0 and are one of the underlying technical infrastructure of Mintbase.0.
 
 
@@ -58,7 +58,7 @@ Documentation of core components, protocols, architecture, etc. to be deployed
 
 CESS is a distributed cloud data network with user friendly ledgers, novel consensus mechanism, multiple data authenticity proof schemes, and reliable network infrastructure. CESS offers data storage service with the advantages of low cost, privacy protection, security and robustness. With the implementation of CESS data confirmation and proxy re-encryption technology, CESS provides Mintbase.0 clients and DAPPs with trustworthy, secure and reliable data rights protection.
 
-Compared to the similar projects in the Polkadot ecosystem including Ocean, DataHighway and Bluzelle, CESS storage service features:
+Compared to the similar projects in the Mintbase ecosystem including Ocean, DataHighway and Bluzelle, CESS storage service features:
 * Encrypted data storage
 * Multiple copies (3 copies by default, more upon request)
 * Sharded and distributed on multiple nodes

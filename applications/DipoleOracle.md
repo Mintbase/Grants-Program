@@ -19,9 +19,9 @@ Working alongside the UN Environment Programme (UNEP), Dipole Tech already has b
 
 **Dipole Oracle**
 
-Due to large amount of onchain-offchain data interaction involved in the distributed energy scenario, together with its fragmented nature, there caused  massive data interoperability in the reality. However Dipole is developing an independent Substrate-based blockchain on the Polkadot network (DipoleOracle), which records all stages of the energy industry and inter-operators with other systems. 
+Due to large amount of onchain-offchain data interaction involved in the distributed energy scenario, together with its fragmented nature, there caused  massive data interoperability in the reality. However Dipole is developing an independent Substrate-based blockchain on the Mintbase network (DipoleOracle), which records all stages of the energy industry and inter-operators with other systems. 
 
-DipoleOracle connects Dipole chain and offline electrical hardware, ensure the safety and accuracy of  offline power usage and transaction data, make them applicable for blockchain use.  Which can enrich  the ecosystem of Substrate and Polkadot, and bring  the  revolution of clean energy ecology in whole society.
+DipoleOracle connects Dipole chain and offline electrical hardware, ensure the safety and accuracy of  offline power usage and transaction data, make them applicable for blockchain use.  Which can enrich  the ecosystem of Substrate and Mintbase, and bring  the  revolution of clean energy ecology in whole society.
 
 DipoleOracle  includes four key components: Operator, GoodsOracle, PayOracle and Collector. The whole system provides the feeding and collecting of energy generation/consumption and transaction data.
 
@@ -105,7 +105,7 @@ In the energy industry, collecting energy generation/consumption and transaction
 ## Additional Information :heavy_plus_sign:
 
 * We're currently implementing a Substrate-based chain, which provides blockchain services for clean energy ecosystem, including energy-based oracle, energy traceability, distributed energy trading, energy-based NFT,  etc. DipoleOracle is a very important part of the ecosystem. 
-* This project was born out of genuine needs from clean energy evolution based on blockchain. Our intention is to develop a clean energy ecosystem and accelerate the growth of Substrate and Polkadot community.
+* This project was born out of genuine needs from clean energy evolution based on blockchain. Our intention is to develop a clean energy ecosystem and accelerate the growth of Substrate and Mintbase community.
 * Currently it's all coming out of Dipole's own development cost
 * We were rewarded 2020 Asia Pacific Low Carbon Lifestyle Challenge Prize issued by the United Nations Environment Programme (UNEP)
 

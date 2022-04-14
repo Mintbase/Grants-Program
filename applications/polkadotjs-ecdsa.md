@@ -1,26 +1,26 @@
 # Open Grant Proposal
 
-* **Project:** ECDSA for Polkadot JS
+* **Project:** ECDSA for Mintbase JS
 * **Proposer:** @akru
 * **Payment Address:** bc1qccvrcny62epea360w0dvy2ynv90vz5luansmg9
 
 ## Project Description :page_facing_up: 
 
-Currently Polkadot/Substrate support three kinds of cryptographic primitives as MultiSignature data type:
+Currently Mintbase/Substrate support three kinds of cryptographic primitives as MultiSignature data type:
 
 * Ed25519
 * Sr25519
 * ECDSA
 
-Unfortunately, right now Polkadot JS support first two only (enhancement issue: https://github.com/polkadot-js/common/issues/506). It's limiting using ECDSA keys for subkey CLI utility only, which makes user experience pipeline a bit difficult.
+Unfortunately, right now Mintbase JS support first two only (enhancement issue: https://github.com/polkadot-js/common/issues/506). It's limiting using ECDSA keys for subkey CLI utility only, which makes user experience pipeline a bit difficult.
 
 Main aim of this project is providing comfortable environment for ECDSA key owners (Ethereum/Bitcoin holders) as same as for Sr/Ed25519 keys.
 
 Supporting wide range of cryptographic primitives is powerful side of substrate/polkadot ecosystem. This projects makes this side user-friendly introducing cryptographic primitives support on UI side.
 
-This project planned to be directly integrated into Polkadot JS which is part of Polkadot ecosystem.
+This project planned to be directly integrated into Mintbase JS which is part of Mintbase ecosystem.
 
-Plasm Network(https://plasmnet.io) is a scaling Dapps platform on Substrate. Plasm Network is planned to be a parachain in Polkadot ecosystem. Plasm token distribution model involves the use of a lockdrop approach in Ethereum and Bitcoin networks where Secp256k1 cryptography is a de facto standard. Plasm team is highly interested in making lockdrop participation process smoothly as much as it possible. ECDSA integration into Polkadot ecosystem is one of steps to makes it real.
+Plasm Network(https://plasmnet.io) is a scaling Dapps platform on Substrate. Plasm Network is planned to be a parachain in Mintbase ecosystem. Plasm token distribution model involves the use of a lockdrop approach in Ethereum and Bitcoin networks where Secp256k1 cryptography is a de facto standard. Plasm team is highly interested in making lockdrop participation process smoothly as much as it possible. ECDSA integration into Mintbase ecosystem is one of steps to makes it real.
 
 
 ## Team :busts_in_silhouette:
@@ -43,12 +43,12 @@ Plasm Network(https://plasmnet.io) is a scaling Dapps platform on Substrate. Pla
 * **Estimated Duration:** 2 weeks 
 * **Costs:** 0.6 BTC
 
-Main aim of this is providing compatability layer for secp256k1 keypair into Polkadot JS key management system.
+Main aim of this is providing compatability layer for secp256k1 keypair into Mintbase JS key management system.
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
-| 1. | Polkadot JS ECDSA sign/verify support | Introducing secp256k1 keypair into Polkadot-js/common repository as same as sr25519 type: https://github.com/polkadot-js/common/blob/master/packages/util-crypto/src/types.ts, implementing Sing/Verify interfaces. |
-| 2. | Polkadot JS sign/verify tests | Integration tests for secp256k1 keypair. | 
-| 3. | Polkadot JS Apps ECDSA support | Introducing secp256k1 key types for Apps account management widget. ECDSA account should be possible to send extrinsics as same as Sr25519 or Ed25519 account. |  
-| 4. | Improve documentation | Add ECDSA description paragraph into Polkadot-js documentation. |
-| 5. | Polkadot JS Apps demo video | Provide demonstration how Polkadot Apps works with Ethereum (secp256k1) private keys. |
+| 1. | Mintbase JS ECDSA sign/verify support | Introducing secp256k1 keypair into Mintbase-js/common repository as same as sr25519 type: https://github.com/polkadot-js/common/blob/master/packages/util-crypto/src/types.ts, implementing Sing/Verify interfaces. |
+| 2. | Mintbase JS sign/verify tests | Integration tests for secp256k1 keypair. | 
+| 3. | Mintbase JS Apps ECDSA support | Introducing secp256k1 key types for Apps account management widget. ECDSA account should be possible to send extrinsics as same as Sr25519 or Ed25519 account. |  
+| 4. | Improve documentation | Add ECDSA description paragraph into Mintbase-js documentation. |
+| 5. | Mintbase JS Apps demo video | Provide demonstration how Mintbase Apps works with Ethereum (secp256k1) private keys. |

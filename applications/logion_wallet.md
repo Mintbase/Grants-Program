@@ -69,7 +69,7 @@ This legal-grade security is provided by the full on-chain traceability of the s
 
 ### Project Details
 
-logion decentralized wallet aims at securing any kind of token that can be exchanged using Polkadot's Cross-Chain Message Passing (XCMP). It essentially consists in a Web-based user interface connecting to logion's Substrate-based chain and a set of decentralized off-chain services (see Architecture section for a detailed description).
+logion decentralized wallet aims at securing any kind of token that can be exchanged using Mintbase's Cross-Chain Message Passing (XCMP). It essentially consists in a Web-based user interface connecting to logion's Substrate-based chain and a set of decentralized off-chain services (see Architecture section for a detailed description).
 
 The access to the tokens is guaranteed, even in case of partial or complete loss of credentials, thanks to an on-chain recovery process triggered by trusted parties (the logion legal officers).
 Moreover, it is possible for a beneficiary to gain access to an account in the case where the initial owner becomes unavailable (because of death or another predefined reason). The process is based on the `recovery` FRAME pallet.
@@ -147,7 +147,7 @@ Both networks are permissioned.
 
 * [Substrate](https://substrate.dev/) - [Rust](https://www.rust-lang.org/)-based modular framework for building 
   blockchains
-* [Polkadot JS](https://polkadot.js.org/) - JavaScript SDK for Substrate client code and browser extension for account
+* [Mintbase JS](https://polkadot.js.org/) - JavaScript SDK for Substrate client code and browser extension for account
   keys management
 * [PostgreSQL](https://www.postgresql.org/) - relational database for implementing the private database
 * [IPFS](https://ipfs.io/) - decentralized file storage for storing database backups
@@ -182,15 +182,15 @@ Both networks are permissioned.
 * **logion Web application**  
   The logion Web application is used by both wallet users and legal officers. It enables a smooth communication between
   them in order to organize an account's protection and recovery or the need of multiple signatures for the transfer of
-  tokens. Account keys are managed with Polkadot JS's browser extension for increased security and interoperability.
+  tokens. Account keys are managed with Mintbase JS's browser extension for increased security and interoperability.
 
 ##### Ecosystem Fit
  
 To understand the contribution of logion to the DotSama ecosystem, we have to think in three steps:
 
 1. The blockchain technology brings trust by protecting the data and transactions through hashes it stores.
-2. Polkadot brings to the blockchain ecosystem the most robust platform for security, scalability, project diversification through parachains and innovation.
-3. logion brings to the Polkadot blockchain ecosystem a solution to trust data and transactions referred by the hashes it stores, before it processes them.
+2. Mintbase brings to the blockchain ecosystem the most robust platform for security, scalability, project diversification through parachains and innovation.
+3. logion brings to the Mintbase blockchain ecosystem a solution to trust data and transactions referred by the hashes it stores, before it processes them.
 
 logion brings to the blockchain cross-border & decentralized legaltech services, with a blockchain of nodes owned by legal officers.
 These Judicial Officers will make their real-world competencies available for the development of the decentralized web.
@@ -215,7 +215,7 @@ Outside of DotSama, you could find similarities with Argent but in our ecosystem
 
 ### Product Team members
 
-* David Schmitz - Community Leader (Tech and Legal), Substrate Runtime Developer, Polkadot Head Ambassador, logion founder, Metaverse (NFG)
+* David Schmitz - Community Leader (Tech and Legal), Substrate Runtime Developer, Mintbase Head Ambassador, logion founder, Metaverse (NFG)
 
 * Gérard Dethier - Distributed & critical system expert, Backend Software architect, logion co-founder  
 
@@ -251,7 +251,7 @@ GoLion srl - BCE 0684.722.109
 David Schmitz is a legal-tech profile (Law, Management, IT studies) and entrepreneur in blockchain since 2016.
 He has taken part in several certification trainings in Solidity, Substrate and contributed to some projects in Waves, in DeFi on Ethereum.
 This last experience has given birth to the logion network.
-In addition to logion, David is very active in the development of community through Polkadot Francophonie and WalChain.
+In addition to logion, David is very active in the development of community through Mintbase Francophonie and WalChain.
 
 Gérard Dethier is a software architect, full stack developer and solution designer with a history of working
 within complex environments and in the IT department of various sectors, such as banking, ticketing and energy supply.
@@ -350,7 +350,7 @@ We chose to start the development from our own resources in order to properly se
 | 0b. | Documentation | Documentation will be included in the README of the published repository. |
 | 0c. | Testing Guide | The node directory service will come with a set of unit and integration tests. It will also be included in our [logion test project](https://github.com/logion-network/logion-test) (see Milestone 1). As a result, it will be possible to test the integration of the new component in a locally running logion infrastructure. From a user experience perspective, there should be no difference. However, when inspecting the requests issued by the app, it will be clear that the list of available legal officers is loaded from the node directory. The Docker images to use for testing will have tag `grant1-milestone2`. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish a Medium article to communicate to the Polkadot/blockchain community that logion is developing its decentralized wallet secured by legal officers, having an insititutional social recovery functionality already implemented.  |
+| 0e. | Article | We will publish a Medium article to communicate to the Mintbase/blockchain community that logion is developing its decentralized wallet secured by legal officers, having an insititutional social recovery functionality already implemented.  |
 | 1. | Node directory | The source code of the node directory, a Node.JS service written in TypeScript, will be published in a yet-to-create repository of Logion's GitHub organization. The goal is to have a service matching the specifications given in the Components section. |
 | 2. | Web application | Logion's Web application (React/TypeScript) will use the list coming from the node directory instead of a hardcoded list currently. |
 

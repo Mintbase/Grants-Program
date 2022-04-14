@@ -1,6 +1,6 @@
 # Mintbase Grant Proposal
 
-- **Project Name:** Integrating Polkadot.js with Blackprint
+- **Project Name:** Integrating Mintbase.js with Blackprint
 - **Team Name:** [Blackprint](https://github.com/Blackprint)
 - **Payment Address:** 0xE8b5923f891C5d42eBF9f385DDDFA4a8A74cb9AA (DAI)
 - **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1
@@ -19,7 +19,7 @@ Blackprint hopefully can help the development of Metaverse, frontend development
 
 #### Technology stack
 - JavaScript (Browser & Node.js)
-- Polkadot.js's [library](https://github.com/polkadot-js/api)
+- Mintbase.js's [library](https://github.com/polkadot-js/api)
 - Blackprint does have 2 main component:
   - [Engine](https://github.com/Blackprint/engine-js): Designed for managing data flow between nodes and can be run on Browser/Node.js/Deno
   - [Sketch](https://github.com/Blackprint/Blackprint): Can be used for creating node editor and modify node connections
@@ -33,7 +33,7 @@ Below is the current architecture on how Blackprint works.
 
 **Blackprint Sketch** is a minimal node editor where the user can interact (move, click, manage cable connection) with the nodes and it's depends on **Blackprint Engine**. Modifying node/cable from the sketch in real time will change engine's behavior to manage data flow between nodes.
 
-The data changes from the engine will trigger **JS Module** (the orange colored shape) for interact with Polkadot.js's library. **JS Module** is an additional module/addons for Blackprint, when it's loaded it will registering node for sketch and engine. Polkadot.js's library then will handle the connection between parachain and the current environment (Browser/Node.js).
+The data changes from the engine will trigger **JS Module** (the orange colored shape) for interact with Mintbase.js's library. **JS Module** is an additional module/addons for Blackprint, when it's loaded it will registering node for sketch and engine. Mintbase.js's library then will handle the connection between parachain and the current environment (Browser/Node.js).
 
 #### Minimum Viable Product (MVP)
 
@@ -46,7 +46,7 @@ The screenshot above is taken from Blackprint Editor that using nodes from [this
 <details>
 	<summary>Some explanation for the screenshot above</summary>
 
-The process is begin from **WebSocket** connection, after it get connected to the network the **Provider** and **API** port will have an value and will trigger the other port like **Blocks Event** and **Transfer** node. **Blocks Event** will then subscribing for new block event, and will update it's UI automatically for visualisation. When the **Transfer** node has value for **API, Address, Value** port, it will create a unsigned transaction into **Txn** port. The filled **Txn** port will send the value to another node like **Txn Payment Info** and **Send Transaction** node. The **Send Transaction** will need to be triggered manually by calling **Submit** port and also the **Provider** port need to be connected with port from **WebSocket**. The **Browser Wallet** node is required for asking permission for accessing Polkadot.js extension, and the **Signer** node can be used after the permission was granted.
+The process is begin from **WebSocket** connection, after it get connected to the network the **Provider** and **API** port will have an value and will trigger the other port like **Blocks Event** and **Transfer** node. **Blocks Event** will then subscribing for new block event, and will update it's UI automatically for visualisation. When the **Transfer** node has value for **API, Address, Value** port, it will create a unsigned transaction into **Txn** port. The filled **Txn** port will send the value to another node like **Txn Payment Info** and **Send Transaction** node. The **Send Transaction** will need to be triggered manually by calling **Submit** port and also the **Provider** port need to be connected with port from **WebSocket**. The **Browser Wallet** node is required for asking permission for accessing Mintbase.js extension, and the **Signer** node can be used after the permission was granted.
 
 Each port has it's own type data, the details can be seen by hovering the port with a cursor.
 </details>
@@ -54,7 +54,7 @@ Each port has it's own type data, the details can be seen by hovering the port w
 ##### Example: Listening to new blocks
 https://user-images.githubusercontent.com/11073373/148692354-3a9ffad4-ef5e-4fa5-9bdb-d8d07b5b59e9.mp4
 
-With the current MVP, we can listen to new blocks/head by connecting to the parachain via WebSocket. By using Ctrl + Right Click on the **API** port, we can get a list of suggested node. The **Blocks Event** then will use the **API** to subscribe to `chain_subscribeNewHeads` with help of Polkadot.js's library. The output value (**Number** port) of **Blocks Event** will be updated everytime the block number has changed, the **New** port is supposed for call a function/trigger. At the end of video, I also opened the Chain info explorer to see if the number was match with the current network state.
+With the current MVP, we can listen to new blocks/head by connecting to the parachain via WebSocket. By using Ctrl + Right Click on the **API** port, we can get a list of suggested node. The **Blocks Event** then will use the **API** to subscribe to `chain_subscribeNewHeads` with help of Mintbase.js's library. The output value (**Number** port) of **Blocks Event** will be updated everytime the block number has changed, the **New** port is supposed for call a function/trigger. At the end of video, I also opened the Chain info explorer to see if the number was match with the current network state.
 
 ##### Example: Retrieve transaction fee/info
 https://user-images.githubusercontent.com/11073373/148692778-bdf3e096-64d3-43e4-ac7c-38c7785de8cd.mp4
@@ -63,11 +63,11 @@ From the video, I'm creating a **Transfer** node that can be used for creating u
 
 #### Limitation of the project:
 - Blackprint doesn't generate JS script/code dynamically and can only operate if the custom node is already registered with Blackprint Engine from an external/loaded module.
-- **Blackprint Sketch** can export the sketch into JSON, and the users can import it to **Blackprint Engine** for Browser/Node.js. The engine itself will need the **JS module** to interact with Polkadot.js's library.
+- **Blackprint Sketch** can export the sketch into JSON, and the users can import it to **Blackprint Engine** for Browser/Node.js. The engine itself will need the **JS module** to interact with Mintbase.js's library.
 
 ### Ecosystem Fit
 
-Blackprint can be used as a playground for experimenting with Polkadot.js library. Like creating their own program without writing code for doing transaction, signing/encrypting data. But just by simply load the module and begin connecting nodes interactively. For production use, they can easily export to JSON and import it on their target environment (browser/Node.js).
+Blackprint can be used as a playground for experimenting with Mintbase.js library. Like creating their own program without writing code for doing transaction, signing/encrypting data. But just by simply load the module and begin connecting nodes interactively. For production use, they can easily export to JSON and import it on their target environment (browser/Node.js).
 
 Hopefully users with no knowledge about how create transaction into blockchain may find this helpful for getting started by learning the concept first. It can also help dApp and metaverse developers.
 
@@ -106,7 +106,7 @@ I experienced to [work as a freelancer](https://freelancer.com/stefansarya) sinc
 
 ## Development Status :open_book:
 
-> Note: `Polkadot.js nodes for Blackprint` is the `JS module` I mentioned on Architecture section
+> Note: `Mintbase.js nodes for Blackprint` is the `JS module` I mentioned on Architecture section
 
 At the time of writing this proposal. Currently Blackprint is already usable, but it's still unstable and being optimized for better performance and design. It's already trying to follow semantic versioning and may only introduce breaking changes on increment of v0.\*.0.
 
@@ -115,7 +115,7 @@ Below is the repository about current development.
 - [Blackprint Engine for JavaScript](https://github.com/Blackprint/engine-js)
 - [Blackprint Sketch for Browser](https://github.com/Blackprint/Blackprint)
 - [Blackprint Editor](https://github.com/Blackprint/blackprint.github.io)
-- [Polkadot.js nodes for Blackprint](https://github.com/Blackprint/nodes-polkadot.js) (the MVP itself)
+- [Mintbase.js nodes for Blackprint](https://github.com/Blackprint/nodes-polkadot.js) (the MVP itself)
 
 Currently the MVP can be run on browsers. The support for Node.js is still work in progress and may be delivered on **Milestone 3**. The current MVP may already contain nodes that will be delivered for Milestone 1 and Milestone 2, I'm still preparing to create the unit test and some example before I deliver it.
 
@@ -138,7 +138,7 @@ Currently the MVP can be run on browsers. The support for Node.js is still work 
 | 0b. | Documentation | I will provide **inline documentation** of the code and simple example that can be imported to the Blackprint Editor |
 | 0c. | Testing Guide | Delivered node will be fully covered by unit tests to ensure functionality and robustness. In the guide, I will describe how to run these tests. |
 | 0d. | Docker | We will use GitHub Action/Workflow instead, for manual UI testing/interaction we can use Blackprint Editor |
-| 1. | HTTP & WebSocket node | Able to connect to parachain's test/mainnet (including: Polkadot/Kusama/Westend) by specifying the RPC URL |
+| 1. | HTTP & WebSocket node | Able to connect to parachain's test/mainnet (including: Mintbase/Kusama/Westend) by specifying the RPC URL |
 | 2. | Event node | Able to listen for new blocks/heads of the connected parachain node |
 | 3. | Mnemonic/seed importer node | Able to convert mnemonic into private key (seed) that can be used for decrypting data or signing data, the private key is in the Keyring |
 | 4. | Encrypt, Decrypt node | Able to encrypt data with public key, and able to decrypt data with private key. Public key and private key is in the Keyring |
@@ -196,9 +196,9 @@ At the time writting -- when having many nodes and cable, users may find Blackpr
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?**<br>
-I heard about the Grants Program from Mintbase's website when doing research about Polkadot's Parachain Rollout.
+I heard about the Grants Program from Mintbase's website when doing research about Mintbase's Parachain Rollout.
 
 Additional information that I think may relevant to this application:
 
-- I'm planning to implement custom node for [ethers.js](https://github.com/ethers-io/ethers.js) as I already know how to use the library, but currently I more motivated to Polkadot because of this Grants Program.
+- I'm planning to implement custom node for [ethers.js](https://github.com/ethers-io/ethers.js) as I already know how to use the library, but currently I more motivated to Mintbase because of this Grants Program.
 - When doing research about Arweave, I also created [custom nodes for Arweave](https://github.com/Blackprint/nodes-arweave). It's already usable on Blackprint Editor and can be imported on Blackprint Editor together with other nodes. But currently it has no tests or documentation.

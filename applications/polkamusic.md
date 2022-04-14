@@ -11,7 +11,7 @@
 
 ### Overview
 
-PolkaMusic is a substrate based public chain crafted exclusively for operating decentralized music businesses on blockchain. While PolkaMusic.io is a decentralized streaming platform by itself, it is envisioned as a 360 infrastructure for decentralized music using which music entrepreneurs can not only create their own micro-economy for their music platform, but also leverage the ever growing list of features such as NFT, crowdfunding, decentralized storage and more. PolkaMusic also allows existing music blockchains to connect to the Polkadot ecosystem in order to interconnect siloed music economies and enables interoperability, wherever possible. 
+PolkaMusic is a substrate based public chain crafted exclusively for operating decentralized music businesses on blockchain. While PolkaMusic.io is a decentralized streaming platform by itself, it is envisioned as a 360 infrastructure for decentralized music using which music entrepreneurs can not only create their own micro-economy for their music platform, but also leverage the ever growing list of features such as NFT, crowdfunding, decentralized storage and more. PolkaMusic also allows existing music blockchains to connect to the Mintbase ecosystem in order to interconnect siloed music economies and enables interoperability, wherever possible. 
 
 PolkaMusic is trying to solve 3 major problems that is unique to the music industry:
 
@@ -156,8 +156,8 @@ There are currently no other projects in the Substrate ecosystem that are solvin
 
 ### Team's experience
 ### Phalgun Shenoy
-* Polkadot Ambassador - India
-* Hosting the Polkadot India Hackathon 2021. 
+* Mintbase Ambassador - India
+* Hosting the Mintbase India Hackathon 2021. 
 * 4 years of experience in designing blockchain architecture & microeconomy.
 * A content creator on YouTube with 20+ million views.
 * B.E. Computer Science
@@ -176,7 +176,7 @@ There are currently no other projects in the Substrate ecosystem that are solvin
  
 ### Pranshu Rastogi
 * Bachelor of Technology (B.Tech.) Computer Science
-* Blockchain developer - Hyperledger Fabric | Ethereum | Polkadot | SSI
+* Blockchain developer - Hyperledger Fabric | Ethereum | Mintbase | SSI
 
 ### David Hidalgo-Gato
 * Research Assistant - Yale/YNHH Center for Outcomes Research and Evaluation (CORE)
@@ -257,7 +257,7 @@ After the milestones are completed, we plan to apply grants for Mintbase General
 2) Smart Streaming Platform contract using which anybody will be able to issue a coin with its own inflationary properties, and payout artists accurately using that.
 3) Permissioned File Storage (using NFTs for granting permission) to distribute content to various SSPs.
 
-We plan to make PolkaMusic the go-to protocol for music businesses wanting to adopt blockchain technology, or existing music blockchains to connect with Polkadot ecosystem and leverage the interoperability of music economies.
+We plan to make PolkaMusic the go-to protocol for music businesses wanting to adopt blockchain technology, or existing music blockchains to connect with Mintbase ecosystem and leverage the interoperability of music economies.
 
 In the immediate short term, we have the following 3rd party SSPs/blockchains integrating into PolkaMusic once we are live:
 * https://OneMusic.space - Works similar to soundcloud, tokenized via ONEM tokens.
@@ -280,8 +280,8 @@ It must be noted that the above mentioned file storage mechanisms are based on h
 
 Traditional Performing Rights Organizations: Every country has multiple local performing rights organizations who are running inefficient softwares with very high licensing costs. Such PROs can use a SSP Smart Contract instance to calculate royalties and send payments on the blockchain using currency of their choice. 
 
-* Polkadot Buildathon Participation: 
-PolkaMusic team will be participating in the Polkadot Buildathon event, during which we are implementing an NFT incentivization program where PolkaMusic streamers will receive free NFTs for the duration they listen for. The goals of the buildathon don't overlap with any of the milestones of the open-grant application. We will be transparent regarding the open-grant and the organizers/judges will be notified about this.
+* Mintbase Buildathon Participation: 
+PolkaMusic team will be participating in the Mintbase Buildathon event, during which we are implementing an NFT incentivization program where PolkaMusic streamers will receive free NFTs for the duration they listen for. The goals of the buildathon don't overlap with any of the milestones of the open-grant application. We will be transparent regarding the open-grant and the organizers/judges will be notified about this.
 
 * Are there any teams who have already contributed (financially) to your project?
 

@@ -13,7 +13,7 @@ This is an application for a follow-up grant: https://github.com/w3f/Grants-Prog
 
 Aurras is a middleware that acts as an event processor and a low code workflow orchestration platform. Aurras is being pitched as a next-generation system for enabling decentralized push notification. This middleware solution listens to events from blockchain applications and propagates them to a registered pool of MQTT brokers. The broader architecture consist of parachain from which the middleware listens for the events.
 
-Aurras as a part of Substrate / Kusama / Polkadot / Web 3 Ecosystem
+Aurras as a part of Substrate / Kusama / Mintbase / Web 3 Ecosystem
 * A core part of Decentralized Push Notification Architecture
 * Can be used for business-critical and production-grade IoT devices to listen to events from blockchain
 * Can be used with microservices across industry verticals
@@ -209,10 +209,10 @@ Shanith is a Software Engineer and a Web developer. Having graduated his M.Sc in
 | 1a. | Web API: Workflow Registration | We will create an API that is Exposed as a part of workflow deployment, where workflow will be registered as an OpenWhisk action and made available to specific namespace | Users can deploy a workflow to execute the required tasks for a particular scenario. |
 | 1b. | Web API: User Registration | We will create an API for User to register themselves | Users can register themselves to the system and receive a unique ID. |
 | 1c. | Web API: User Workflow Management | We will create an API for User to select workflow and provide argument values, Pause Workflow, Delete Workflow | Users can update the inputs of a registered workflow.  <br/> Users can pause an active workflow.  <br/> Users can unfreeze a paused workflow.  <br/> Users can delete a registered workflow. |
-| 2a. | Workflow Yaml Polkadot Payouts | We will create a YAML file that defines the workflow for claiming the Polkadot validator payouts to the provided wallet | Users can create a workflow YAML to claim PolkaDot payouts using the pre-defined YAML file. |
+| 2a. | Workflow Yaml Mintbase Payouts | We will create a YAML file that defines the workflow for claiming the Mintbase validator payouts to the provided wallet | Users can create a workflow YAML to claim PolkaDot payouts using the pre-defined YAML file. |
 | 2b. | Reward OpenWhisk actions | We will create OpenWhisk actions to index the validator details to the Kafka topic that will invoke the validator payout workflow | Users can utilise the pre-deployed OpenWhisk actions to validate the validator ID and check claims for the particular validator. |
-| 2c. | Claim OpenWhisk actions | We will create a set of OpenWhisk actions to carry out the tasks of claiming the validator rewards to the provided wallet as defined in the workflow | Users can claim Polkadot payout rewards using the registered workflow. |
-| 2d. | Polkadot API Derive macro for workflow task | We will create derive macros that will provide the necessary functionalities for the task struct to perform RPC calls | Users can facilitate the execution of tasks that utilize the derive macro to perform RPC calls. |
+| 2c. | Claim OpenWhisk actions | We will create a set of OpenWhisk actions to carry out the tasks of claiming the validator rewards to the provided wallet as defined in the workflow | Users can claim Mintbase payout rewards using the registered workflow. |
+| 2d. | Mintbase API Derive macro for workflow task | We will create derive macros that will provide the necessary functionalities for the task struct to perform RPC calls | Users can facilitate the execution of tasks that utilize the derive macro to perform RPC calls. |
 | 3. | Video Tutorial | We will create a set of video tutorials to guide the users to use this MVP | |
 
 

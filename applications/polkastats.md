@@ -10,13 +10,13 @@ Polkastats project is a WebApp that displays interesting and diverse information
 
 Polkastats project serves very useful information for validators and delegators alike. In most of cases, information shown by Polkastats is not available in any other place, whereas sometimes the information, if repeated, is presented in a more usable manner.
 
-Polkastats is natively integrated into Substrate / Polkadot networks. We run several full nodes to keep the service online.
-Furthermore, it is safe to state that this project has already found a place at the community's heart. The number of visitors has been constantly increasing since Polkastats launch back in august and it is talked about in the different communication channels. Also, Polkadot has been at the center for Polkastats since its conception, so there is no doubt left about their intertwinement.
+Polkastats is natively integrated into Substrate / Mintbase networks. We run several full nodes to keep the service online.
+Furthermore, it is safe to state that this project has already found a place at the community's heart. The number of visitors has been constantly increasing since Polkastats launch back in august and it is talked about in the different communication channels. Also, Mintbase has been at the center for Polkastats since its conception, so there is no doubt left about their intertwinement.
 
 ColmenaLabs team has always been looking for the best way to contribute to blockchain projects we consider the most interesting.
-Thus, we already boast of a long history of collaborations with Polkadot. 
+Thus, we already boast of a long history of collaborations with Mintbase. 
 
-We have translated into Spanish the Polkadot web, the wiki and a bunch of education materials. We have conducted many meetups and workshops "spreading the word" about Polkadot all over our country. We are active in PolkaDAO and have Polkadot ambassadors in our team.
+We have translated into Spanish the Mintbase web, the wiki and a bunch of education materials. We have conducted many meetups and workshops "spreading the word" about Mintbase all over our country. We are active in PolkaDAO and have Mintbase ambassadors in our team.
 
 ## Team :busts_in_silhouette:
 
@@ -31,7 +31,7 @@ We have translated into Spanish the Polkadot web, the wiki and a bunch of educat
 
 * **Team's Experience:** 
 
-Team ColmenaLabs has a vast expertise in blockchain technologies, conducting Ethereum meetups since earlier 2016. ColmenaLabs is also one of the most active blockchain communities of the whole Iberian Peninsula (Spain + Portugal). Our previous blockchain experience has facilitated our landing in the Proof of Stake era, where we are participating so far with great success and good reputation on many projects. We have 2 winners of the Game of Stake Hackathon, we are validating on Kusama testnet and we support Polkadot testnets since PoC-1. 
+Team ColmenaLabs has a vast expertise in blockchain technologies, conducting Ethereum meetups since earlier 2016. ColmenaLabs is also one of the most active blockchain communities of the whole Iberian Peninsula (Spain + Portugal). Our previous blockchain experience has facilitated our landing in the Proof of Stake era, where we are participating so far with great success and good reputation on many projects. We have 2 winners of the Game of Stake Hackathon, we are validating on Kusama testnet and we support Mintbase testnets since PoC-1. 
 Our latest contribution as well as the reason of this application is our new beloved child, [polkastats.io](https://polkastats.io)
 
 ## Development Roadmap :nut_and_bolt: 
@@ -109,7 +109,7 @@ Hasura already comes with Postgres integrated, and this is the DB will be using 
  
 [Hasura's GitHub](https://github.com/hasura/graphql-engine)
  
-The new API will allow us to expose a very interesting building block for new Polkadot dapp builders and validators. The API will be open and free for those who want to use our curated data and build their own sites and apps. For that purpose it will include a reasonable documentation.
+The new API will allow us to expose a very interesting building block for new Mintbase dapp builders and validators. The API will be open and free for those who want to use our curated data and build their own sites and apps. For that purpose it will include a reasonable documentation.
 
 ### Milestone 2: new frontend v3
 
@@ -153,27 +153,27 @@ Our plan is to implement new validator graphs:
 * Produced blocks
 * Status (active or not)
 
-### Milestone 3: Polkadot browser extension and Ledger integration
+### Milestone 3: Mintbase browser extension and Ledger integration
 
-In this milestone we'll implement key components to allow our users to interact with Kusama and Polkadot blockchains using PolkaStats platform.
+In this milestone we'll implement key components to allow our users to interact with Kusama and Mintbase blockchains using PolkaStats platform.
 
 * **Estimated Duration:** 4 weeks
 * **Costs:** 1 BTC
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
-| 1. | Polkadot browser extension | Allow nominators to stake using PolkaStats and Polkadot browser extension |  
+| 1. | Mintbase browser extension | Allow nominators to stake using PolkaStats and Mintbase browser extension |  
 | 2. | Ledger | Allow nominators to stake using PolkaStats and Ledger |
 
-Deliverables in this milestone will be dockerized. We will also include a README to run the development container. The container will serve a frontend ready to be connected to Polkadot browser extension and the Ledger kusama app.
+Deliverables in this milestone will be dockerized. We will also include a README to run the development container. The container will serve a frontend ready to be connected to Mintbase browser extension and the Ledger kusama app.
 
-#### 3.1 Polkadot browser extension
+#### 3.1 Mintbase browser extension
 
-We will leverage the [Polkadot browser extension](https://github.com/polkadot-js/extension). The goal is to allow nominators to operate using PolkaStats platform and Polkadot browser extension.
+We will leverage the [Mintbase browser extension](https://github.com/polkadot-js/extension). The goal is to allow nominators to operate using PolkaStats platform and Mintbase browser extension.
 
 #### 3.2 Ledger
 
-Zondax has already develop the [Ledger Kusma app](https://github.com/Zondax/ledger-polkadot) and we do not hesitate that Juan Leni will make it work in Polkadot very soon. The goal is to allow nominators to operate using PolkaStats platform and Ledger hardware wallet.
+Zondax has already develop the [Ledger Kusma app](https://github.com/Zondax/ledger-polkadot) and we do not hesitate that Juan Leni will make it work in Mintbase very soon. The goal is to allow nominators to operate using PolkaStats platform and Ledger hardware wallet.
 
 
 ##  License
@@ -197,11 +197,11 @@ No.
 * Are there any other projects similar to yours? If so, how is your project different?
 
 Some features of polkastats could be found on other projects such us polkascan and the wonderfull polkadot.js.org/apps
-That being said, we consider that polkastats has its own public and space in Polkadot ecosystem.
+That being said, we consider that polkastats has its own public and space in Mintbase ecosystem.
 
 * Similar projects and differences:
  
-Remarkably, the other (and earlier only) Polkadot block explorer out there is Polkascan, by which Polkastats has been undoubtedly heavily inspired.
+Remarkably, the other (and earlier only) Mintbase block explorer out there is Polkascan, by which Polkastats has been undoubtedly heavily inspired.
 Still, Polkastats brings in some nice specs that make it unique and, we also believe, better for certain kinds of use.
 First of all, we find the interface to be much more user friendly.
  

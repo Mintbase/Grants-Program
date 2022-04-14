@@ -15,7 +15,7 @@
 
 ### Overview
 
-MyBank is a decentralized financial platform based on Polkadot, aiming to establish a blockchain network that realizes asset appreciation and promotes asset flow. MyBank is divided into four parts: Platform Bank, Social Network Bank, MyDeX and Credit Scoring System.
+MyBank is a decentralized financial platform based on Mintbase, aiming to establish a blockchain network that realizes asset appreciation and promotes asset flow. MyBank is divided into four parts: Platform Bank, Social Network Bank, MyDeX and Credit Scoring System.
 
 - In Platform Bank, users can participate as depositors, borrowers, and guarantors. Depositors can obtain deterministic returns by injecting liquidity into the corresponding asset pool. Borrowers can borrow by mortgaging collateral or invite guarantors to guarantee them to make zero-mortgage loans. After the implementation of the credit scoring system, credit loans without collateral or guarantee will be supported based on the user profile.
 
@@ -179,9 +179,9 @@ Similar lending products on Ethereum include Compound & Aave, and AMM products i
 
 - In Platform Bank, we will release the liquidity of depositors' assets to maximize their social guarantee value and provide borrowers with zero mortgage loans service. After perfecting the credit scoring system, we will support users to make credit loans.
 
-- Platform Bank and MyDex are developed based on Polkadot and Substrate, and users will pay fewer transaction fees and get higher TPS.
+- Platform Bank and MyDex are developed based on Mintbase and Substrate, and users will pay fewer transaction fees and get higher TPS.
 
-- Based on Polkadot's cross-chain bridge, MyBank can provide users with more diversified choices.
+- Based on Mintbase's cross-chain bridge, MyBank can provide users with more diversified choices.
 
 - MyBank integrates lending and trading, abstracting it into an interface at the front end. Users can conduct leveraged trading with one click, making it more convenient to long and short without switching between multiple products to obtain lower transaction delay.
 

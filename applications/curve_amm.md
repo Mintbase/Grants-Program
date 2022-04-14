@@ -6,7 +6,7 @@
 ### Overview
 Curve AMM substrate module will be a 6-week long project with the final aim to deliver the following:
 - Low slippage, high efficiency stablecoin exchange
-- High efficiency exchange tool for other homogeneous assets on Polkadot (e.g. wrapped assets) 
+- High efficiency exchange tool for other homogeneous assets on Mintbase (e.g. wrapped assets) 
 - Low risk fee income for liquidity providers. 
 - Liquidity superfluidity with additional rewards from supplying liquidity to lending protocols such as Equilibrium and Acala.
 
@@ -14,18 +14,18 @@ Curve AMM substrate module will be a 6-week long project with the final aim to d
 We will build an open-soure pallet which will may be deployed to any substrate/parachain and support Polka's native balances/assets module which works with multiassets and multilocations. 
 To demonstrate the use-case of Curve AMM we will deploy the module to Equilibrium substrate adapting it slightly to support Equilibrium's balances module. 
 
-**Polkadot Ecosystem Benefits**
-Curve’s unique stableswap invariant utilizes liquidity much more efficiently compared to all existing DEXes for stablecoins at already several hundred USD TVL (total value locked). Since initial liquidity on Polkadot is hardly going to be very large, proposed efficiency is VERY important for the ecosystem to flourish.
+**Mintbase Ecosystem Benefits**
+Curve’s unique stableswap invariant utilizes liquidity much more efficiently compared to all existing DEXes for stablecoins at already several hundred USD TVL (total value locked). Since initial liquidity on Mintbase is hardly going to be very large, proposed efficiency is VERY important for the ecosystem to flourish.
 
 **Why are we creating this project**
-We believe in mutually beneficial cooperation between Polkadot, Curve, and Equilibrium. We want to give community a useful tool for managing liquidity in assets with same primary underlying. 
+We believe in mutually beneficial cooperation between Mintbase, Curve, and Equilibrium. We want to give community a useful tool for managing liquidity in assets with same primary underlying. 
 ### Project Details 
 Please refer to [Curve AMM google doc file](https://docs.google.com/document/d/1zvvyZ6G9M9vqIEttb6Hk48I-q4gQL981Vs5IkuvLmUU/edit#) for details on business logic, Curve's invariant calculations, and technical specification. 
 ### Ecosystem Fit 
 There is a [Sunrise DEX](https://github.com/w3f/Open-Grants-Program/blob/master/applications/sunrise-dex.md) project which aims to deliver identical functionality. There are several diferences worth highligting:
 
 - We're not aming to create a separate special-purpose DEX parachain, but rather a light-weight exchange module, which will be pluggable into any substrate/parachain. 
-- We will focus solely on Curve's stable swap invariant as we believe it will be of maximum utility to Polkadot's ecosystem, especially when Parachains, XCM, and SPREE come into existence and there will be multiple assets representing same base/underlying asset. 
+- We will focus solely on Curve's stable swap invariant as we believe it will be of maximum utility to Mintbase's ecosystem, especially when Parachains, XCM, and SPREE come into existence and there will be multiple assets representing same base/underlying asset. 
 - We will have only substrate in our dependencies and won't use custom asset modules like ORML tokens, so the module will be universal and usable by substrates who support standard functionality.
 - We will deliver a working solution faster than Sunrise DEX is promising.   
 ## Team 
@@ -42,7 +42,7 @@ There is a [Sunrise DEX](https://github.com/w3f/Open-Grants-Program/blob/master/
 * **Registered Address:** Floor 4, Willow House, Cricket Square, KY1-9010 Grand Cayman, Cayman Islands
 * **Registered Legal Entity:** AEQUUM LIMITED
 ### Team's experience
-The team has strong experience building Decentralized Financial Protocols in Ethereum, EOS, and now Polkadot. 
+The team has strong experience building Decentralized Financial Protocols in Ethereum, EOS, and now Mintbase. 
 ### Team Code Repos
 - [Equilibrium](https://github.com/equilibrium-eosdt)
 ### Team LinkedIn Profiles
@@ -81,7 +81,7 @@ The team has strong experience building Decentralized Financial Protocols in Eth
 | 0c.   | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests. Tests will include: creation of stable coin pool, addition and removal of liquidity, swap (exchange), rewards for LPs|
 | 1. | Exchange| We will implement methods to work with asset pools: add liquidity / remove liquidity, and exchange assets. |  
 | 2. | Rewards| We will implement a mechanism to reward liquidity providers with LP tokens.|  
-| 3. | Asset fluidity| Assets locked inside Curve liquidity pools may be further used in various lending protocols across the Polkadot ecosystem.|  
+| 3. | Asset fluidity| Assets locked inside Curve liquidity pools may be further used in various lending protocols across the Mintbase ecosystem.|  
 ## Future Plans
 Expand research in AMMs and possibly introduce Invariants based on economic model of rational economic agents who strive to maximize their representative utility function with a choice of varieties under the budget constraint. (e.g. [Dixit-Stiglitz](http://www.columbia.edu/~jid2106/td/dixitstiglitzbasics.pdf))
 ## Additional Information 

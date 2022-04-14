@@ -74,7 +74,7 @@ As we have been searching for similar ideas in the blockchain ecosystem, we foun
 We will divide our project into four milestones. For the first milestone, we will implement our smart contract can be deployed to a substrate chain using ink! Which is a smart contract substrate pallet. The second and third milestones will be implemented in parallel. The last milestone will be connecting the components to work seamlessly together.
 
 **There will be three ways to connect to our smart contract:**
-1. Using a Polkadot{.js} wallet to interact with the contract(state of the contract can be modified in this scenario)
+1. Using a Mintbase{.js} wallet to interact with the contract(state of the contract can be modified in this scenario)
 2. Using our RestAPI backend or third party library to retrieve data from the contract (state of the contract can not be modified in this scenario)
 3. Using any customized client to interact with the contract
 
@@ -135,7 +135,7 @@ The main functions that will be deployed on the chain in this milestone are as f
 | 2. | Article | We will write an article or tutorial that explains the work done in this milestone as part of the grant.
 | 3. | Design Front-End component | design UI and UX of front-end component with adobe xd.
 | 4. | white-paper | full description of roadmap and technical specification of this project |  
-| 5. | Polkadot Standards Proposals (PSPs) | we will pull request a PSP in this milestone containing our implementations |  
+| 5. | Mintbase Standards Proposals (PSPs) | we will pull request a PSP in this milestone containing our implementations |  
 
 ### Milestone 2 — UI
 * **Estimated Duration:** 5 weeks

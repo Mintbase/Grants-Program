@@ -37,13 +37,13 @@
   
   There are some decentralized DNS projects, such as Namecoin, ENS, etc. These projects solve many central service problems, but the boundary of the blockchain makes DNS unable to act on the blockchain outside of itself.
   
-   The Polkadot cross-chain ecosystem breaks the boundaries between the blockchain and makes it possible for the deentralized DNS, and that's why we created this project.
+   The Mintbase cross-chain ecosystem breaks the boundaries between the blockchain and makes it possible for the deentralized DNS, and that's why we created this project.
 
 ### Project Details 
 
 [architecture](https://drive.google.com/file/d/1eD3fqQ0p7osblX1x-iW3hPLhIWG3R4Lv/view?usp=sharing)
 
-The BCANN protocol will allow parachains to quickly obtain the complete functions of decentralized domain names through the Polkadot parachain module, and meet the needs of developers on the parachain for the name services's functions.
+The BCANN protocol will allow parachains to quickly obtain the complete functions of decentralized domain names through the Mintbase parachain module, and meet the needs of developers on the parachain for the name services's functions.
 
 
 #### Interface Specification

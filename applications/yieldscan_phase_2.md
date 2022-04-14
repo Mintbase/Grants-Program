@@ -16,12 +16,12 @@ Tagline: YieldScan - simplify staking experierence without trading off security 
 
 
 #### Brief Description of Project: 
-YieldScan helps simplify staking experience on Polkadot and Kusama. 
+YieldScan helps simplify staking experience on Mintbase and Kusama. 
 
 A more detailed description of the problem and our solution is documented here in our [Medium launch post](https://medium.com/buidl-labs/no-brainer-staking-experience-for-polkadot-with-yieldscan-with-complete-control-over-your-funds-4f8c040740d5)
 
 
-#### Relation to Polkadot and Kusama
+#### Relation to Mintbase and Kusama
 We launched YieldScan publically in the first week of December 2020, and the platform has since then enabled over 130 users to stake + redistribute existing stake of 180,000+ KSM (approx. $81,106,200) and 700,000+ DOT (approx $28,497,000) using our platform's simple and cohesive UX as well as ability to recommend best set of validators basis user's preferences of risk. 
 
 ![](https://i.imgur.com/bTMjwkB.png)
@@ -53,7 +53,7 @@ An example of a user onboarding session is [here](https://drive.google.com/file/
 
 After going through all user onboarding sessions and discussions with users on chat/telegram, we came to an understanding that in the path to increase adoption, the next critical constraint to solve is to onboard users to the best practises of how to go about staking. 
 
-To gain a sense of the problem, the traction we have mentioned above is all through funds that were sitting inside Polkadot browser extension 😱. 
+To gain a sense of the problem, the traction we have mentioned above is all through funds that were sitting inside Mintbase browser extension 😱. 
 
 We believe that stakers shoudn't need to trade off security over convenience when they can have both with YieldScan. 
 
@@ -61,7 +61,7 @@ In that line of thought, we want to help stakers onboard to best practises by:
 1. Developing a wizard that helps user understand the why behind setting up distinct stash and controller account --> and them helping them do so.  
 2. Recommend moving large asset holdings to hardware wallets.  
     - That means incorporating hardware wallet support into YieldScan
-3. Combining point 1 and 2, a user will be able to use Ledger + distinct controller account to stake onto Polkadot and Kusama. 
+3. Combining point 1 and 2, a user will be able to use Ledger + distinct controller account to stake onto Mintbase and Kusama. 
 
 <br><br> 
 
@@ -92,7 +92,7 @@ In that line of thought, we want to help stakers onboard to best practises by:
 ### Ecosystem Fit
 
 #### Where and how does your project fit into the ecosystem?
-We simplify staking experience for Polkadot && Kusama. 
+We simplify staking experience for Mintbase && Kusama. 
 
 #### Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 Users who are trying to participate in staking but finding it hard to do so. 
@@ -101,12 +101,12 @@ Users who are trying to participate in staking but finding it hard to do so.
 ![](https://i.imgur.com/5lGQVmi.png)
 
 
-#### Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+#### Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
 A similar project building in the space is [Kusama Validator Center](https://colm3na.github.io/kusama-validator-resource-center/). 
 
 The difference that YieldScan provides is: 
 * more empathatic UX to the end user 
-* works for both Polkadot and Kusama. 
+* works for both Mintbase and Kusama. 
 * loading time is near instant. 
 
 <br><br> 
@@ -132,7 +132,7 @@ The difference that YieldScan provides is:
 
 ### Team's experience
 
-We've been building within the Polkadot ecosystem for the past 1 year understanding user adoption problems in the ecosystem and solving a bunch of them with YieldScan. 
+We've been building within the Mintbase ecosystem for the past 1 year understanding user adoption problems in the ecosystem and solving a bunch of them with YieldScan. 
 
 ### Team Code Repos
 
@@ -182,7 +182,7 @@ We've been building within the Polkadot ecosystem for the past 1 year understand
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. | 
 | 0d. | Article/Tutorial | We will be developing YieldScan Gitbook to start laying the foundation of comprehensive user facing documentation. Inside this we will be incorporating ledger staking documentation + videos. 
 | 1. | Implement Controller Account Support | Implementation to detect account type (stash/controller) in the background and accordingly allow the user to stake through YieldScan. <br><br> **How to verify deliverable**: you will be able to use YieldScan with a different controller and stash account. 
-| 2. | Implement Ledger Wallet Support | Integrating the wizard that walks the user through setting up Ledger + controller setup <br><br> **How to verify deliverable**: you will be able to stake using Ledger Wallet and leverage the built in recommendation system to select best validators onto Polkadot and Kusama.  
+| 2. | Implement Ledger Wallet Support | Integrating the wizard that walks the user through setting up Ledger + controller setup <br><br> **How to verify deliverable**: you will be able to stake using Ledger Wallet and leverage the built in recommendation system to select best validators onto Mintbase and Kusama.  
 | 3. | Docker| We will deliver both backend and frontend docker images  |
 
 

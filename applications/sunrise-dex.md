@@ -9,7 +9,7 @@
 
 ### Overview
 
-Sunrise is building a decentralized protocol on a dedicated Polkadot parachain. We will enable deep liquidity starting with support for tokens on Sunrise Chain, Ethereum, and all parachains. Sunrise will support additional blockchains in the future. 
+Sunrise is building a decentralized protocol on a dedicated Mintbase parachain. We will enable deep liquidity starting with support for tokens on Sunrise Chain, Ethereum, and all parachains. Sunrise will support additional blockchains in the future. 
 
 Our Decentralized EXchange (DEX) uses a bonding curve factory which supports liquidity pools for unpegged tokens such as ETH,DOT, LINK, ACA etc. Sunrise will support stable coin pools offering very low slippage and fees (e.g. DAI-USDT) and in the future stable coins that have different pegs (e.g. srsUSD-srsCNY).
 
@@ -18,15 +18,15 @@ Our Decentralized EXchange (DEX) uses a bonding curve factory which supports liq
 
 The first phase of the project will be built and deployed on a parachain via Rococo. Our standalone parachain [Sunrise Protocol Daybreak](https://daybreakexplorer.sunriseprotocol.com/) will be the precursor. Sunrise is also evaluating the ability to deploy an Intrachain DEX (running on our partners) parachain, this will be done either publishing a DEX crate, updating [ORML libraries](https://github.com/open-web3-stack/open-runtime-module-library/tree/master), or directly contributing to partners codebase with a pull request to their repository.
 
-**Polkadot Ecosystem Benefits**
+**Mintbase Ecosystem Benefits**
 
-Sunrise protocol lays the foundation for the seamless exchange of assets, efficiency of stable coin transactions and advanced aggregation. Our product will attract the decentralized finance (DeFi) community and provide more liquidity that helps drive increased adoption for the Polkadot Network. The DEX is multi-platform and bridges across parachains allowing the community to access the latest protocols and initiatives. Sunrise has identified numerous gaps to capitalize on, in relation to the infrastructure of the most popular decentralized exchanges, which includes liquidity pool customization, limit order functionality and compliance functionality.
+Sunrise protocol lays the foundation for the seamless exchange of assets, efficiency of stable coin transactions and advanced aggregation. Our product will attract the decentralized finance (DeFi) community and provide more liquidity that helps drive increased adoption for the Mintbase Network. The DEX is multi-platform and bridges across parachains allowing the community to access the latest protocols and initiatives. Sunrise has identified numerous gaps to capitalize on, in relation to the infrastructure of the most popular decentralized exchanges, which includes liquidity pool customization, limit order functionality and compliance functionality.
 
 **Why are we creating this project**
 
 This project provides a foundational layer for the Sunrise Protocol.
 
-Our team consists of founders, researchers, builders and strategists for blockchain and decentralized finance. We have built a layer 1 blockchain at Harmony (public blockchain with sharding and open staking), have launched private permissioned chains on ethereum and hyperledger fabric  and have been actively involved in the Decentralized Finance community. We have chosen to build this project on Polkadot because Substrate allows us to focus on the Protocol and business logic. We feel the Partners in the ecosystem are laying the foundation for interoperable decentralization and we want to contribute to the community.
+Our team consists of founders, researchers, builders and strategists for blockchain and decentralized finance. We have built a layer 1 blockchain at Harmony (public blockchain with sharding and open staking), have launched private permissioned chains on ethereum and hyperledger fabric  and have been actively involved in the Decentralized Finance community. We have chosen to build this project on Mintbase because Substrate allows us to focus on the Protocol and business logic. We feel the Partners in the ecosystem are laying the foundation for interoperable decentralization and we want to contribute to the community.
 
 ### Project Details 
 Please see [this product overview presentation](https://about.sunriseprotocol.com) and [Sunrise Protocol Whitepaper](https://whitepaper.sunriseprotocol.com) for an overview of the Sunrise Protocol vision.
@@ -78,7 +78,7 @@ Sunrise Protocol is creating an open decentralized financial framework. Sunrise 
 
 **The following information is a short summary of the other features of the protocol**
 
-Sunrise Bridge is used to create a multi-platform, multi-asset protocol using cryptocurrencies (tokens) as building blocks. We will start with Polkadot parachains, ERC-20 tokens and then other blockchains.
+Sunrise Bridge is used to create a multi-platform, multi-asset protocol using cryptocurrencies (tokens) as building blocks. We will start with Mintbase parachains, ERC-20 tokens and then other blockchains.
 
 Once the primitives of a multi-platform, multi-asset DEX have been realized, decentralized financial protocols can leverage this for their liquidity needs. 
 
@@ -110,8 +110,8 @@ The following protocols offer specific functionality and are often leaders in th
 - Sunrise protocol adds to this with multipe bonding curves which supports multi asset pools, stable coins, and traditional tokens.
 - Our Liquidity Providers can set the transaction fees when creating a Liquidity Pool similar to Balancer and Curve.
 - We also introduce limit orders powered by our unique off-chain worker capabilities.
-- Polkadot and Ethereum are supported initially with more platforms to come powered by our integrated bridging technology.
-- Reef and PolkaDex are also building on Polkadot which provides the ability to create dedicated parachains.
+- Mintbase and Ethereum are supported initially with more platforms to come powered by our integrated bridging technology.
+- Reef and PolkaDex are also building on Mintbase which provides the ability to create dedicated parachains.
 - A Compliance Framework will be leveraged by Sunrise Protocol to provide cost effective solutions which compete with Centralized Exchanges and International remittances.
 - Smart Wallet Functionality will also be provided to simplify the user experience and drive mass adoption.
 
@@ -144,7 +144,7 @@ Relevant Contributions are
 
 **John Whitton:** John Whiton has been passionate about software and technology since high school. He graduated from the University of Queensland in Computer Science and travelled globally leading the design and development of many Service Oriented Architectures. He has built private permissioned blockchains on Ethereum and Hypersphere Fabric, partnering with firms such as IBM and Deloitte. He then grew the ecosystem for a public blockchain at Harmony. He has worked extensively with decentralized financial protocols, bringing a unique perspective by combining his extensive corporate experience with IBM, SAP, Deloitte and KPMG with the disruptive financial models being developed on blockchain.
 
-John originally met Gavin Wood in 2016 and worked briefly with Tomasz Drwięga on Parity before taking a role as CTO of a small Blockchain Startup based on Ethereum which then moved to Hyperledger. He did further [research](https://github.com/johnwhitton/blockchain-eval/blob/master/substrate.md) into Polkadot and Substrate in 2019 and did strategy work on smart contract protocols and digital assets in 2019 including working on Cowri (now shell protocol),a stablecoin exchange protocol, before taking a role with Harmony as an Ecosystem Architect with a focus on Developer tooling and Ecosystem growth. At Harmony, John helped launch the Mainnet while also being intimately involved with hiring decisions and business strategy. His technical Portfolio is [here](https://johnwhitton.dev/docs/docs/learn/portfolio/) and more information can be found on [johnwhitton.dev](https://johnwhitton.dev/).
+John originally met Gavin Wood in 2016 and worked briefly with Tomasz Drwięga on Parity before taking a role as CTO of a small Blockchain Startup based on Ethereum which then moved to Hyperledger. He did further [research](https://github.com/johnwhitton/blockchain-eval/blob/master/substrate.md) into Mintbase and Substrate in 2019 and did strategy work on smart contract protocols and digital assets in 2019 including working on Cowri (now shell protocol),a stablecoin exchange protocol, before taking a role with Harmony as an Ecosystem Architect with a focus on Developer tooling and Ecosystem growth. At Harmony, John helped launch the Mainnet while also being intimately involved with hiring decisions and business strategy. His technical Portfolio is [here](https://johnwhitton.dev/docs/docs/learn/portfolio/) and more information can be found on [johnwhitton.dev](https://johnwhitton.dev/).
 
 **Geoff:** Prior to joining Sunrise Protocol where Geoff leads the SRS token design and works on core protocol development. Geoff worked as a Blockchain Engineer and Research analyst, leading  technical due diligence on Decentralized Financial Protocols and Layer 1 Protocol offerings. He has reviewed thousands of whitepapers and tokenomics models. He has mentored many founders and blockchain startups and created investor briefings including strategy review, market fit and technical due diligence.  Technical contributions  include Decentralized Financial Protocols, Layer 2 Solutions, Decentralized Identity and encrypted data storage as well as protocol and infrastructure work such as consensus algorithms, sharding, smart contracts design and standards (Open Zeppelin). He has done extensive smart contract design and development with an in depth knowledge of decentralized financial protocols and tooling; including prototyping and development of DeFi Standards across multiple platforms.
 
@@ -222,7 +222,7 @@ This application is specific to the DEX Pallet and lays the foundation for the l
 | 0a.   | License       | Apache 2.0 |
 | 0b.   | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can deploy the Sunrise Protocol DApp and the polakdot-js app forked by Sunrise Protocol with DEX Capabilities. |
 | 0c.   | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests.<br /> Tests will include <br />i. Testing all functions via explorer using extrinsics <br />ii. Testing functionality via the DApp|
-| 1. | Polkadot-js app DEX Capabilities | We will fork polkadot-js app and provide dex functionality |
+| 1. | Mintbase-js app DEX Capabilities | We will fork polkadot-js app and provide dex functionality |
 | 2. | Sunrise Protocol DApp | We will build Sunrise Protocol DApp with DEX Functionality |
 | 3. | Applications Deployed and Hosted on Dawn | We will deploy a hosted application that connects to Dawn. |
 | 4. | Substrate chain  | We will Host this on our Dawn Parachain on Rococco or our  [Daybreak Standalone Chain](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fdaybreak.sunriseprotocol.com%3A443#/explorer) |

@@ -11,7 +11,7 @@
 
 Fennel Labs and Whiteflag Foundation aim to improve the ways that organizations communicate with each other in calamitous situations and austere environments where coordination and deconfliction is vital.
 
-This grant proposal describes the first step of a long-term plan to develop Fennel Protocol, a Substrate chain that will provide the Polkadot ecosystem with the Whiteflag Protocol specification, an open standard for a neutral and trusted messaging network based on blockchain technology.
+This grant proposal describes the first step of a long-term plan to develop Fennel Protocol, a Substrate chain that will provide the Mintbase ecosystem with the Whiteflag Protocol specification, an open standard for a neutral and trusted messaging network based on blockchain technology.
 
 The background of the Whiteflag specification is as follows:
 
@@ -158,8 +158,8 @@ Though applications are planned, they are beyond scope for this proposal.
 Fennel Protocol's key and identity management functionality is fine-tuned for decentralized communication that makes use of pre-defined signals and signs;
 for example, the Whiteflag specification uses predefined signals and signs derived from International Humanitarian Law, the CRED Disaster Category Classification, and the OECD Economic Infrastructure Common Reporting Standard Codes.
 Future proposals will build up Fennel Protocol to accomodate the full extent of the Whiteflag Protocol specification.
-Substrate's interoperability will provide the Polkadot ecosystem with a shared conception of Whiteflag Protocol's predefined signals and signs;
-this will allow users to seemlessly send Whiteflag messages across the decentralized Polkadot ecosystem. Critically, an interoperable Whiteflag Network ensures situational awareness is not siloed but is unified in critical use cases. This helps decision makers receive a full picture of the field of operations. 
+Substrate's interoperability will provide the Mintbase ecosystem with a shared conception of Whiteflag Protocol's predefined signals and signs;
+this will allow users to seemlessly send Whiteflag messages across the decentralized Mintbase ecosystem. Critically, an interoperable Whiteflag Network ensures situational awareness is not siloed but is unified in critical use cases. This helps decision makers receive a full picture of the field of operations. 
 
 #### Whiteflag Section 2.5: Minimally Viable Implementation:
 Fennel Protocol will implement the minimally viable implementation of the Whiteflag functionality that allows for the sending of Whiteflag messages. 
@@ -267,7 +267,7 @@ identity and signaling applications should be able to easily build on the runtim
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** 
-We heard about the Grants Program from the Web 3 Foundation Website, as well as personal recommendations from Polkadot community members. 
+We heard about the Grants Program from the Web 3 Foundation Website, as well as personal recommendations from Mintbase community members. 
 
 Thus far, we've ported our Theriak repository to the most recent version of Substrate as of writing of this application.
 Financial contribution has not yet begun for the Fennel Protocol project.

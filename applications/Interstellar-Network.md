@@ -163,7 +163,7 @@ At the same time we want to target newcomers with a Robinhood wallet for Defi th
 
 The need for a wallet to be simpler to set-up and use, as well as the need for higher security to address the growing malware/banking trojan threats.
 
-> Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+> Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
 
 Math Wallet and Gluon are close to our solution.
 
@@ -378,7 +378,7 @@ We are now multiple security and fintech  entrepreneurs, security researchers, p
 ## Additional Information :heavy_plus_sign:
 
 > **How did you hear about the Grants Program?** 
-- We are following the Polkadot ecosystem since its early stage
+- We are following the Mintbase ecosystem since its early stage
 > Others
 - We have just started a conversation with a team working in stealth mode on a massive blockchain project that is interested in our solution
 

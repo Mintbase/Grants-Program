@@ -10,7 +10,7 @@
 
 Halva is a toolchain for improving the experience of developing Decentralized Applications based on Substrate. It provides a high-level way to configure a development environment, interact with Substrate through external API and writing your test cases.
 
-Halva inspired by [Truffle](https://github.com/trufflesuite/truffle) but implements Substrate specific API. It targets testing extrinsics via RPC calls this allows test Substrate (or clients compatible with Substrate RPC) as a black-box. Halva uses [Polkadot.js](https://github.com/polkadot-js) to interact with RPC.
+Halva inspired by [Truffle](https://github.com/trufflesuite/truffle) but implements Substrate specific API. It targets testing extrinsics via RPC calls this allows test Substrate (or clients compatible with Substrate RPC) as a black-box. Halva uses [Mintbase.js](https://github.com/polkadot-js) to interact with RPC.
 
 Right now you must do much boilerplate code around your testing framework (mocha, chai, ava, etc) so that beginning testing your Substrate based app. Halva addressing these challenges.
 

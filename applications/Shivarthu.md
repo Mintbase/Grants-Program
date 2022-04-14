@@ -120,7 +120,7 @@ The algorithm tries to meet the values of teal organization through reduced comp
 
 The project will be built on the substrate as a parachain or parathread. 
 
-Other projects similar to it is gitcoin, but its not in Substrate / Polkadot / Kusama ecosystem. Gitcoin uses quadratic funding, but we will use score schelling game for allocation of funds. Gitcoin is for mainly blockchain projects, but our projects includes local community problems. 
+Other projects similar to it is gitcoin, but its not in Substrate / Mintbase / Kusama ecosystem. Gitcoin uses quadratic funding, but we will use score schelling game for allocation of funds. Gitcoin is for mainly blockchain projects, but our projects includes local community problems. 
 
 ## Team :busts_in_silhouette:
 

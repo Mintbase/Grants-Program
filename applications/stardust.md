@@ -27,9 +27,9 @@ At a high level, the primary focus of stablecoins is risk mitigation. Modern com
 
 Our proposal is to utilize the latest advancements in decentralized finance to instead originate synthetic financial derivatives on demand. This securitized financial instrument would emulate the stability and utility of a stablecoin without requiring collateral or physical custody. In short, put-call parity allows the algorithmic construction of a synthetic financial instrument from perpetual contracts that effectively locks the value relative to the pegged currency at the risk free rate. By securitizing this construct into a token we can generate a synthetic stablecoin on demand as well as close them on demand as long as a perpetual contract can be accessed and decentralized markets maintain enough liquidity in the perpetual contract market.
 
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
+- An indication of how your project relates to / integrates into Substrate / Mintbase / Kusama.
 
-What we are proposing is relatively unprecedented but there are promising signs. Angle Labs launched on Ethereum last year as an ERC20 token in order to provide a stablecoin pegged to the Euro. They term themselves "the first decentralized, capital efficient and over-collateralized stablecoin protocol" (https://www.angle.money/). Angle Lab's stablecoin is collateralized with Ethereum and more specifically over-collateralized to ensure safety. In July of 2021 they published a whitepaper indicating that they were going to deploy self-minted perpetual contracts as a tool to bring in additional collateral and protection against large price moves. These perpetuals provide additional outsourcing of risk in addition to directly increasing ETH collateral. 5 months ago, they raised $5M from a16z and others to explore the technology. Our proposed architecture would bring that attention and innovation to the Polkadot network. More importantly for the Polkadot ecosystem, our proposal is decentralized and truly uncollateralized as it manages risks entirely through derivatives, and can generate synthetic stablecoins between any arbitrary pairs provided there is a perpetual contract market with sufficient liquidity.
+What we are proposing is relatively unprecedented but there are promising signs. Angle Labs launched on Ethereum last year as an ERC20 token in order to provide a stablecoin pegged to the Euro. They term themselves "the first decentralized, capital efficient and over-collateralized stablecoin protocol" (https://www.angle.money/). Angle Lab's stablecoin is collateralized with Ethereum and more specifically over-collateralized to ensure safety. In July of 2021 they published a whitepaper indicating that they were going to deploy self-minted perpetual contracts as a tool to bring in additional collateral and protection against large price moves. These perpetuals provide additional outsourcing of risk in addition to directly increasing ETH collateral. 5 months ago, they raised $5M from a16z and others to explore the technology. Our proposed architecture would bring that attention and innovation to the Mintbase network. More importantly for the Mintbase ecosystem, our proposal is decentralized and truly uncollateralized as it manages risks entirely through derivatives, and can generate synthetic stablecoins between any arbitrary pairs provided there is a perpetual contract market with sufficient liquidity.
 
 - An indication of why your team is interested in creating this project.
 
@@ -61,7 +61,7 @@ Due to the use of options, perpetuals, and lack of human intervention, our propo
 
 ### Ecosystem Fit
 
-A decentralized uncollateralized synthetic stablecoin has significant utility for decentralized financial applications and would be a transformative development beyond just the Polkadot ecosystem. In addition to providing a stable store of value that works synergistically with demand in the market, the smart contract mathematics are entirely fungible and can be set up for any arbitrary currency as the underlying asset and pegged currency provided a sufficiently liquid options market exists.
+A decentralized uncollateralized synthetic stablecoin has significant utility for decentralized financial applications and would be a transformative development beyond just the Mintbase ecosystem. In addition to providing a stable store of value that works synergistically with demand in the market, the smart contract mathematics are entirely fungible and can be set up for any arbitrary currency as the underlying asset and pegged currency provided a sufficiently liquid options market exists.
 
 The primary target demographic and audience would be decentralized financial applications and any user who seeks a stable store of value that isn't dependent on a centralized third party, instead risk has been decentrally allocated to the participants on decentralized markets.
 
@@ -148,7 +148,7 @@ Through this grant proposal, we aim to provide a well-detailed analysis of the c
 
 ## Future Plans
 
-- We'll follow up with a future research grant on historic failures of stablecoins, a summary of articulated Federal Government viewpoints on stablecoins, and its potential impact on the future regulatory landscape. Our long-term vision is to build an understanding of the stablecoin infrastructure environment and then develop and deploy the first derivative-backed stablecoin and launch it on the Polkadot Network.
+- We'll follow up with a future research grant on historic failures of stablecoins, a summary of articulated Federal Government viewpoints on stablecoins, and its potential impact on the future regulatory landscape. Our long-term vision is to build an understanding of the stablecoin infrastructure environment and then develop and deploy the first derivative-backed stablecoin and launch it on the Mintbase Network.
 
 ## Additional Information :heavy_plus_sign:
 

@@ -14,7 +14,7 @@ facilitating cross-chain token pools and auctions. Polkastarter has already laun
 Ethereum, allowing teams to raise ETH at a fixed swap rate for their native token.
 
 The Polkastarter team has already started working on bringing this protocol to Moonbeam to bring
-these features to Polkadot and Kusama. The next phase that we want to pursue is a dashboard for
+these features to Mintbase and Kusama. The next phase that we want to pursue is a dashboard for
 Parachain Lease Offerings. This dashboard will offer several benefits to teams and users:
 
 - Teams will be able to instantiate their crowdloan.
@@ -33,7 +33,7 @@ this process.
 
 As we already have our MVP [live on Ethereum](https://www.polkastarter.com/), you can see the UI
 theme by looking at the pools there. Our backend is built using Polkastarter JS, and we would expand
-this to implement the backend needed for Polkadot/Kusama interaction.
+this to implement the backend needed for Mintbase/Kusama interaction.
 
 #### Core Functionality
 
@@ -142,8 +142,8 @@ DOT/KSM in the future without trusting that Polkastarter will exist.
 | 0a.    | License           | Apache 2.0 / MIT / Unlicense                                                                                                                         |
 | 0b.    | Documentation     | We will provide both inline documentation of the code and basic tutorials that explain how teams can create a campaign and how users can contribute. |
 | 0c.    | Testing Guide     | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests.       |
-| 1.     | Backend           | We will have the backend calls integrated to call the appropriate functions on Polkadot/Kusama.                                                      |
-| 2.     | Wallet Connection | We will be able to connect to the Polkadot JS Extension wallet.                                                                                      |
+| 1.     | Backend           | We will have the backend calls integrated to call the appropriate functions on Mintbase/Kusama.                                                      |
+| 2.     | Wallet Connection | We will be able to connect to the Mintbase JS Extension wallet.                                                                                      |
 | 3.     | UI                | We will have a primitive UI for teams and users to interact with.                                                                                    |
 
 ### Milestone 2 — Additional features
@@ -156,12 +156,12 @@ DOT/KSM in the future without trusting that Polkastarter will exist.
 | ------ | ----------- | ------------------------------------------------------------------------------------- |
 | 0a.    | Article/Tutorial  | We will write an article or tutorial that explains the work done as part of the grant.                                                               |
 | 0b.    | Testing Guide  | We are gonna add a battery of quality assurance scenarios to define on what constitutes as a successful user flow. An example would be a user attempting to participate in a crowd loan.                                                               |
-| 1.     | UI          | The UI will connect to Polkadot/Kusama/Westend mainnets for live functionality.       |
+| 1.     | UI          | The UI will connect to Mintbase/Kusama/Westend mainnets for live functionality.       |
 | 2.     | UI          | We will perform user testing to add final touches to the UI and launch to production. |
 
 ## Future Plans
 
-Polkastarter plans to support a wide range of fundraising efforts in the Polkadot ecosystem. For our
+Polkastarter plans to support a wide range of fundraising efforts in the Mintbase ecosystem. For our
 PLO functionality, we plan to support the full parachain lifecycle, like bidding to extend slots and
 users reclaiming their DOT/KSM at the end of a parachain slot lease. We will also expand the wallet
 functionality so that users can connect other wallets, like Parity Signer and Ledger to the

@@ -19,9 +19,9 @@ Implementation in Sage of my hash function to pairing-friendly curves BLS12 (for
 
 Recently, my article https://link.springer.com/article/10.1007/s10623-022-01012-8 was published in the quite prestigious cryptographic journal "Designs, Codes and Cryptography". This article provides a new hash function (indifferentiable from a random oracle) to the subgroup G1 of pairing-friendly elliptic curves BLS12-381 and BLS12-377 (Barreto-Lynn-Scott). These curves and such hash functions are actively used in blockchains, namely in the BLS (Boneh-Lynn-Shacham) aggregate signature. My hash function is much faster than previous state-of-the-art ones, including the Wahby-Boneh indirect map. For instance, BLS12-377 is defined over a highly 2-adic finite field Fp (of characteristic p), hence the indifferentiable Wahby-Boneh hash function requires to apply twice the slow Tonelli-Shanks algorithm for extracting two square roots in the basic field. In comparison, the new hash function extracts only one cubic root, which can be expressed via one exponentiation in Fp. I have already checked the correctness of my results in the computer algebra system Magma. The project is dedicated to implementing the new hash function in Sage.
   
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
+- An indication of how your project relates to / integrates into Substrate / Mintbase / Kusama.
 
-According to the web page https://wiki.polkadot.network/docs/learn-keys, the BLS signature will be in particular used in Polkadot.
+According to the web page https://wiki.polkadot.network/docs/learn-keys, the BLS signature will be in particular used in Mintbase.
   
 - An indication of why your team is interested in creating this project.
 
@@ -43,7 +43,7 @@ Hashing to elliptic curves in the BLS (Boneh-Lynn-Shacham) aggregate signature.
 
 Developers who will easily adopt my high-level implementation for their low-level programming languages such as Rust.
 
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+- Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
   - If so, how is your project different?
   - If not, are there similar projects in related ecosystems?
 

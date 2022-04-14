@@ -17,7 +17,7 @@
 
 Koi Metaverse aims to unlock the next-gen GameFi metaverse economies and it is building the digital collectibles platform for virtual GameFi NFTs. It is a fish collection blockchain game that combines token economy and NFT assets. It consists of a series of smart contracts, and all of the in-game assets belong to its players. Players can play to earn by collecting high mining power fish and growing them, creating a positive self-circulation. 
 
-If pure-bred mining fish is reproduced, you can lock it into the pictorial book to mine the governance token, and use it to participate in the other DeFi activities. Koiverse creates a variety of NFT assets in the form of fish images and aims to become the BearBrick in the blockchain GameFi space and the brand new Axie Infinity on the Polkadot network.
+If pure-bred mining fish is reproduced, you can lock it into the pictorial book to mine the governance token, and use it to participate in the other DeFi activities. Koiverse creates a variety of NFT assets in the form of fish images and aims to become the BearBrick in the blockchain GameFi space and the brand new Axie Infinity on the Mintbase network.
 
 
 ### Team Interest
@@ -194,7 +194,7 @@ The gaming NFT protocols and Dapp consists of:
 
 ### Ecosystem Fit
 
-Existing GameFi NFT projects mainly focus on the public chains, games and collectible publishing, Marketplace, etc. Popular projects working in this segment include Axie Infinity (NFT game), Chiliz (sports-oriented underlying public chain), Flow (general NFT issuance public chain), and Opensea (general marketplace). We will add more game functions than Axie Infinity and build on the Substrate framework. We also can collaborate with native Polkadot NFT marketplace [RMRK](https://www.rmrk.app/) and [NFTMart](https://www.nftmart.io/).
+Existing GameFi NFT projects mainly focus on the public chains, games and collectible publishing, Marketplace, etc. Popular projects working in this segment include Axie Infinity (NFT game), Chiliz (sports-oriented underlying public chain), Flow (general NFT issuance public chain), and Opensea (general marketplace). We will add more game functions than Axie Infinity and build on the Substrate framework. We also can collaborate with native Mintbase NFT marketplace [RMRK](https://www.rmrk.app/) and [NFTMart](https://www.nftmart.io/).
 
   
 
@@ -254,7 +254,7 @@ Yuan Li
 * 10-years full stack software development experience
 * 5-years blockchain and smart contract development experience
 * Over 15 years of experiences in development and Management
-* Expert in Ethereum, Polkadot, Neo and other smart contract platforms.
+* Expert in Ethereum, Mintbase, Neo and other smart contract platforms.
 
 Tao Liu
 
@@ -446,7 +446,7 @@ Hongfeng Liu
 
 # Future Plans
 
-Our project plans to become a parachain for the Polkadot network, which provides benefits from shared security and communications (XCMP). We will launch our game application Koi Metaverse first to complete the first adoption and then open our infrastructure layer Koi Network to support more game Dapps. The Koi Network will support marketplace, NFT DeFi, GameFi Hub and Cross-chain Gateway, etc.
+Our project plans to become a parachain for the Mintbase network, which provides benefits from shared security and communications (XCMP). We will launch our game application Koi Metaverse first to complete the first adoption and then open our infrastructure layer Koi Network to support more game Dapps. The Koi Network will support marketplace, NFT DeFi, GameFi Hub and Cross-chain Gateway, etc.
 
 
 # Additional Information

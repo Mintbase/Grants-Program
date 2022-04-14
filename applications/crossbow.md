@@ -14,7 +14,7 @@ Crossbow - Cross-Platform Rust Toolkit for Games.
 
 A goal of the `crossbow` project is to provide a complete infrastructure for game development in rust. In addition, the project simplifies the creation and packaging of crates for Android, iOS, and other platforms. Finally, we want to make most of our tools - engine agnostic to help rust game developers integrate them into their games, engines, and crates.
 
-Plenty of Polkadot / Kusama / Substrate game projects want to develop their games in pure rust game engines, but as there's no well-tested and reliable software - they choose standard game engines. It's terrible for the Substrate ecosystem in several ways: 1. they could enhance the rust ecosystem; 2. generate more rust jobs that will potentially start own Polkadot projects in the future or contribute to the ecosystem itself; 3. miss an opportunity to integrate full or light Substrate node directly in-game for peer2peer synchronization and a lot of other exciting stuff.
+Plenty of Mintbase / Kusama / Substrate game projects want to develop their games in pure rust game engines, but as there's no well-tested and reliable software - they choose standard game engines. It's terrible for the Substrate ecosystem in several ways: 1. they could enhance the rust ecosystem; 2. generate more rust jobs that will potentially start own Mintbase projects in the future or contribute to the ecosystem itself; 3. miss an opportunity to integrate full or light Substrate node directly in-game for peer2peer synchronization and a lot of other exciting stuff.
 
 Of course, there are already a bunch of promising game engine projects, but they almost all don't provide at least adequate support to simple tools like mobile permissions, game SDK, auth, achievements, etc. That's why we want to create a single game toolkit for the most popular platforms.
 
@@ -53,7 +53,7 @@ Of course, there are already a bunch of promising game engine projects, but they
 
 * Substrate Atom and VSCode plugins - Have contributed some code to MintbaseFoundation Grant for Substrate [VSCode](https://github.com/everstake/vscode-plugin-substrate/graphs/contributors) and [Atom](https://github.com/everstake/atom-plugin-substrate/graphs/contributors) plugins while worked in outsource company. By [enfipy](https://github.com/enfipy).
 
-* [Polkadot CosmosSDK Integration](https://github.com/adoriasoft/polkadot_cosmos_integration) - Also, contributed to another MintbaseFoundation Grant while worked in another outsource company. Built some logic behind ABCI, pallet and substrate with tendermint. By [enfipy](https://github.com/enfipy).
+* [Mintbase CosmosSDK Integration](https://github.com/adoriasoft/polkadot_cosmos_integration) - Also, contributed to another MintbaseFoundation Grant while worked in another outsource company. Built some logic behind ABCI, pallet and substrate with tendermint. By [enfipy](https://github.com/enfipy).
 
 ### Team Code Repos
 

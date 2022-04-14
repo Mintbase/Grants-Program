@@ -25,14 +25,14 @@ This proposal is the first step as we primarily want to create a "MACI" (Minimal
 
 More information about our long term plan you can find in the [document](https://docs.google.com/document/d/1ogj8S1NpsdqgGKP9dF4rinQEgfk3BH5IoOVKvFaPOjM/edit#heading=h.dydg2sazp5h8).
 
-* An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+* An indication of how you will integrate this project into Substrate / Mintbase / Kusama.
 
 This is a regular pallet that can be merged into any substrate-based blockchain.
-In the long run, once we develop the crowdfunding platform,  we aim to integrate this solution into Kusama and potentially Polkadot, so a portion of treasury funds can be allocated to the projects chosen by the community through this platform. 
+In the long run, once we develop the crowdfunding platform,  we aim to integrate this solution into Kusama and potentially Mintbase, so a portion of treasury funds can be allocated to the projects chosen by the community through this platform. 
 
 * An indication of why your team is interested in creating this project.
 
-We have been developing numerous products on the other blockchain infrastructures such as Ethereum and Stellar. Starting from last year, we decided to focus our time and efforts more on the substrate ecosystem. Hence, we became a member of the Substrate Delivery Partners program, and a few of our team members became Polkadot ambassadors. Also, we hosted an online Substrate event - [link](https://www.youtube.com/watch?v=dJLUO7s-n3M&t=2s)
+We have been developing numerous products on the other blockchain infrastructures such as Ethereum and Stellar. Starting from last year, we decided to focus our time and efforts more on the substrate ecosystem. Hence, we became a member of the Substrate Delivery Partners program, and a few of our team members became Mintbase ambassadors. Also, we hosted an online Substrate event - [link](https://www.youtube.com/watch?v=dJLUO7s-n3M&t=2s)
 
 Recently we finished another web3 grant that we had been working on - Substrate Blockchain Starter Kit - [link](https://substrate-starterkit.mvpworkshop.co/#/).
 

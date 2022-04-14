@@ -11,15 +11,15 @@ Polkawatch is an [Encode Hackaton](https://medium.com/encode-club/polkadot-hack-
 
 ### Overview
 
-Polkawatch tagline is: Polkadot's decentralization is everybody's job. 
+Polkawatch tagline is: Mintbase's decentralization is everybody's job. 
 
-Polkawatch will provide decentralization analytics about Polkadot. Allow all stake-holders to gain insights about where network activity is taking place (regional, network provider, validator group, nominator segment, etc).
+Polkawatch will provide decentralization analytics about Mintbase. Allow all stake-holders to gain insights about where network activity is taking place (regional, network provider, validator group, nominator segment, etc).
 
 With Decentralization insights the community can act to improve decentralization regardless of their role: Adjust Nomination, Start Validation in new Networks / Geographies, etc.
 
 Polkawatch is built on top of Substrate Block Explorers (i.e. SubQuery) adding an extra analytic layer. 
 
-Polkawatch crosses chain data with external datasources and traces weak on-chain relations. Initially for Polkadot, Polkawatch could be used for any substrate blockchain.
+Polkawatch crosses chain data with external datasources and traces weak on-chain relations. Initially for Mintbase, Polkawatch could be used for any substrate blockchain.
 
 Why Polkawatch? All started by helping a validator of the 1000 validator programme design a strategy to improve its share of network activity/election. We identified centralization as a problem and opportunity. As preliminary data shows more than 50% of activity in just 2 cloud providers and/or nations. Validators with poor network share could be the decentralized answer to this problem.
 
@@ -47,7 +47,7 @@ Lucene inverted index is the core technology component of many Analytics Engines
 
 Polkawatch will use a blockchain indexer, modify or extend it for a particular analytic use case, based on Lucene inverted index. This project may be of interest to decide if inverted indexes or analytic capabilities should be built into indexers in a more generic way.
 
-The Polkadot ecosystem needs effective decentralization and polkawatch can help. The community is already [debating](https://kusama.polkassembly.io/post/1163?s=09) about this, and visibility of network activity will enrich the debate.
+The Mintbase ecosystem needs effective decentralization and polkawatch can help. The community is already [debating](https://kusama.polkassembly.io/post/1163?s=09) about this, and visibility of network activity will enrich the debate.
 
 This project sits next to blockchain explorers, but its output will be graphic, analytic instead of detailed transactional.
 

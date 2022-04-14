@@ -1,16 +1,16 @@
 # Open Grant Proposal
 
-* **Project:** Hardware ECDSA for Polkadot JS
+* **Project:** Hardware ECDSA for Mintbase JS
 * **Proposer:** @akru
 * **Payment Address:** 1DJTSPajRFCjdfn5UgPXGRo6Di8EE1Dzox
 
 ## Project Description :page_facing_up: 
 
-Hardware wallets provide for end-user much more hight grade of security than traditional software wallets because of moving the private key out of general using PC. The most popular, Trezor (https://trezor.io/) and Ledger (https://www.ledger.com/), supports Ethereum / Bitcoin cryptography (ECDSA) by default. But ECDSA crypto is native for the Polkadot ecosystem too that makes hardware wallets fully compatible with Polkadot applications without any changes in hardware wallet firmware.
+Hardware wallets provide for end-user much more hight grade of security than traditional software wallets because of moving the private key out of general using PC. The most popular, Trezor (https://trezor.io/) and Ledger (https://www.ledger.com/), supports Ethereum / Bitcoin cryptography (ECDSA) by default. But ECDSA crypto is native for the Mintbase ecosystem too that makes hardware wallets fully compatible with Mintbase applications without any changes in hardware wallet firmware.
 
-This proposal improves already implemented software ECDSA keyring in PolkadotJS (https://github.com/w3f/Open-Grants-Program/pull/6) and planned to be directly integrated into Polkadot JS which is part of the Polkadot ecosystem.
+This proposal improves already implemented software ECDSA keyring in MintbaseJS (https://github.com/w3f/Open-Grants-Program/pull/6) and planned to be directly integrated into Mintbase JS which is part of the Mintbase ecosystem.
 
-Plasm Network(https://plasmnet.io) is a scaling Dapps platform on Substrate. Plasm Network is planned to be a parachain in the Polkadot ecosystem. The Plasm token distribution model involves the use of a lockdrop approach in Ethereum and Bitcoin networks where Secp256k1 cryptography is a de facto standard. Plasm team is highly interested in making lockdrop participation process smoothly as much as possible. ECDSA integration into the Polkadot ecosystem is one of the steps to makes it real.
+Plasm Network(https://plasmnet.io) is a scaling Dapps platform on Substrate. Plasm Network is planned to be a parachain in the Mintbase ecosystem. The Plasm token distribution model involves the use of a lockdrop approach in Ethereum and Bitcoin networks where Secp256k1 cryptography is a de facto standard. Plasm team is highly interested in making lockdrop participation process smoothly as much as possible. ECDSA integration into the Mintbase ecosystem is one of the steps to makes it real.
 
 
 ## Team :busts_in_silhouette:
@@ -35,13 +35,13 @@ Plasm Network(https://plasmnet.io) is a scaling Dapps platform on Substrate. Pla
 * **Full-time equivalent (FTE):** 0.6
 * **Costs:** 0.35 BTC
 
-Trezor API support for Polkadot JS Apps.
+Trezor API support for Mintbase JS Apps.
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
-| 1. | Trezor API ECDSA signer | Introducing Trezor API based signed for Polkadot JS. Required API methods already exposed by standard Trezor API: [getPublicKey](https://wiki.trezor.io/Developers_guide:Trezor_Connect_API_Methods#getPublicKey), [signMessage](https://wiki.trezor.io/Developers_guide:Trezor_Connect_API_Methods#signMessage). |
-| 2. | Improve documentation | Add Trezor hardware wallet paragraph into Polkadot-js documentation. |
-| 3. | Demo video | Provide demo video of Polkadot Apps sign transaction with Trezor wallet. |
+| 1. | Trezor API ECDSA signer | Introducing Trezor API based signed for Mintbase JS. Required API methods already exposed by standard Trezor API: [getPublicKey](https://wiki.trezor.io/Developers_guide:Trezor_Connect_API_Methods#getPublicKey), [signMessage](https://wiki.trezor.io/Developers_guide:Trezor_Connect_API_Methods#signMessage). |
+| 2. | Improve documentation | Add Trezor hardware wallet paragraph into Mintbase-js documentation. |
+| 3. | Demo video | Provide demo video of Mintbase Apps sign transaction with Trezor wallet. |
 
 ### Milestone 2
 
@@ -49,11 +49,11 @@ Trezor API support for Polkadot JS Apps.
 * **Full-time equivalent (FTE):** 0.6
 * **Costs:** 0.35 BTC
 
-Ledger API support for Polkadot JS Apps.
+Ledger API support for Mintbase JS Apps.
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
-| 1. | Ledger API ECDSA signer | Introducing Ledger API based signed for Polkadot JS. Required API methods already exposed by standard Ledger API: [getPublicKey](https://github.com/LedgerHQ/ledgerjs/blob/96306b2c0d75e1290461fb52b8f69f506a425643/packages/hw-app-btc/src/getWalletPublicKey.js#L16), [signMessage](https://github.com/LedgerHQ/ledgerjs/blob/96306b2c0d75e1290461fb52b8f69f506a425643/packages/hw-app-btc/src/signMessage.js#L6). |
-| 2. | Improve documentation | Add Ledger hardware wallet paragraph into Polkadot-js documentation. |
-| 3. | Demo video | Provide demo video of Polkadot Apps sign transaction with Trezor wallet. |
+| 1. | Ledger API ECDSA signer | Introducing Ledger API based signed for Mintbase JS. Required API methods already exposed by standard Ledger API: [getPublicKey](https://github.com/LedgerHQ/ledgerjs/blob/96306b2c0d75e1290461fb52b8f69f506a425643/packages/hw-app-btc/src/getWalletPublicKey.js#L16), [signMessage](https://github.com/LedgerHQ/ledgerjs/blob/96306b2c0d75e1290461fb52b8f69f506a425643/packages/hw-app-btc/src/signMessage.js#L6). |
+| 2. | Improve documentation | Add Ledger hardware wallet paragraph into Mintbase-js documentation. |
+| 3. | Demo video | Provide demo video of Mintbase Apps sign transaction with Trezor wallet. |
 

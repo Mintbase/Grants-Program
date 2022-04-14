@@ -18,7 +18,7 @@ Imbue Network wants an end to Eth raises and whitelists. We aim to solve this pr
 
 ### Project Details
 
-Imbue network aims to become a DAO and a parachain, so we will be heavily dependant on both Substrate/Polkadot/Cumulus
+Imbue network aims to become a DAO and a parachain, so we will be heavily dependant on both Substrate/Mintbase/Cumulus
 
 We aim to build on top of the great work the OAK network has done around [quadratic funding](https://github.com/OAK-Foundation/OAK-blockchain/tree/master/pallets/quadratic-funding) and build a custom pallet that holders of the Imbue network token ($IMBU) will be able to propose a new project and idea, detail how much they need and milestones. The proposal can also detail stages in their milestones and split the required amount. I.e Claire is a founder of a project and needs $100k and detailed 5 milestones. Claire needs $10k upfront to start off with then once milestone 1 is complete Claire requires a further $40k for milestone 2 and 50k for milestone 3.
 
@@ -126,7 +126,7 @@ We are still at the early stage of development, getting our website out in the n
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Dapp | UI to add proposals onchain. This can be either stored onchain completely or a combination of IPFS and onchain. The UI will be written in Typescript/NodeJS and interact with PolkadotJS wallets to deduct costs for voting/adding proposals
+| 0b. | Dapp | UI to add proposals onchain. This can be either stored onchain completely or a combination of IPFS and onchain. The UI will be written in Typescript/NodeJS and interact with MintbaseJS wallets to deduct costs for voting/adding proposals
 | 0c. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works.
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 1. | Substrate module: Grants pallet | Add grants pallet to add proposals onchain, each proposal has a unique ID which votes will be counted against. This pallet will be called by project proposers to submit new projects/milestones.
@@ -148,7 +148,7 @@ I.e one unique grant ID has a one-to-many milestones relationship and the counci
 | 0b. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0c. | Voting Pallet| Add voting module to add governance and votes on grants
 | 0d. | Public board | Work in an agile manner and maintain a public board so the community could keep an eye on progress
-| 0e. | Dapp | Allow voting on proposals via a linked PolkadotJS wallet. Votes on new projects/milestones for existing ones. To be built in react
+| 0e. | Dapp | Allow voting on proposals via a linked MintbaseJS wallet. Votes on new projects/milestones for existing ones. To be built in react
 | 0f. | Article | We will publish a medium article and workshop that explains how the grant funds were spent as well as detailed guides on how to spin up the collators and submit a proposal then vote on it
 | 1. | Substrate module: Democracy pallet | Votes pallet to allow voting on proposals (working alongside the grants pallet). Votes meant to be stored via IPFS. Voting will be done with 1 $IMBU = 1 vote. 
 | 2. | Substrate module: Funding pallet | Works alongside the democracy pallet to unlock funding in the stages defined by the project orignally. This will be called after council votes on approval of funding/milestones. This will also be called by the proposer to withdraw the approved funds. Can potentially be merged with the grants pallet

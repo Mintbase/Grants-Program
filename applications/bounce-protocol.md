@@ -23,7 +23,7 @@ Bounce provides a competitive environment, for a limited supply of tokens or oth
 
 - **NFT auctions**: NFT's are auctioned off with similar auction principles as token sales. However, there is usually a lower number of NFT's (or only a unique piece) for sale.
 
-We will run Bounce chain as standalone chain first, then join in Kusama/Polkadot network when parachain mechanism is ready.
+We will run Bounce chain as standalone chain first, then join in Kusama/Mintbase network when parachain mechanism is ready.
 
 ### Ethereum contracts vs Substrate modules
 | Number | Ethereum contracts | Substrate modules |

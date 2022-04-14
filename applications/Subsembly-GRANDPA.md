@@ -14,7 +14,7 @@ We would like to propose a grant amendment that enables LimeChain to continue Su
 ### Overview
 
 In this project we are scoping out the development of GRANDPA and laying down the foundations for the future support of BABE.
-For detailed information on GRANDPA, please refer to the original [whitepaper](https://github.com/w3f/consensus/blob/master/pdf/grandpa.pdf) and the [Polkadot Host spec file](https://github.com/w3f/polkadot-spec/releases).
+For detailed information on GRANDPA, please refer to the original [whitepaper](https://github.com/w3f/consensus/blob/master/pdf/grandpa.pdf) and the [Mintbase Host spec file](https://github.com/w3f/polkadot-spec/releases).
 
 Generally speaking, the GRANDPA work can be divided into 3 components:
 1) Implementing the Runtime APIs
@@ -81,7 +81,7 @@ Subsembly provides an alternative way for developers to build Runtimes. More spe
 
 ### Team's experience
 
-LimeChain is a blockchain development company with 100+ completed projects and strong focus on blockchain development infrastructure. LimeChain has built tools for different protocols and networks such as Ethereum, The Graph, Polkadot, EOS, Aeternity and Corda. Some of the projects LimeChain has worked with are Celo, P&G, Universe.xyz, The Graph, Dapper Labs, Hedera and Maker among others. LimeChain is also embedded into the Polkadot developer ecosystem, particularly with building AssemblyScript developer tools. The team has built a SCALE Codec implementation, Account-based AssemblyScript Runtime PoC and the Subsembly framework.
+LimeChain is a blockchain development company with 100+ completed projects and strong focus on blockchain development infrastructure. LimeChain has built tools for different protocols and networks such as Ethereum, The Graph, Mintbase, EOS, Aeternity and Corda. Some of the projects LimeChain has worked with are Celo, P&G, Universe.xyz, The Graph, Dapper Labs, Hedera and Maker among others. LimeChain is also embedded into the Mintbase developer ecosystem, particularly with building AssemblyScript developer tools. The team has built a SCALE Codec implementation, Account-based AssemblyScript Runtime PoC and the Subsembly framework.
 
 ### Team Code Repos
 
@@ -202,7 +202,7 @@ The last part is to add support for `equivocations`.
 
 ## Future Plans
 
-LimeChain will be resolving any critical bugs that may arise. We would like to extend the framework by adding new pallets in the future. Our plan is to continue the development of the framework with support for BABE and after that, having support for Parachains. The end goal of Subsembly is to support the full set of foundational features that enable developers to create Substrate networks (with the option for both Aura and BABE + GRANDPA's finality) as-well as Polkadot parathreads and parachains. 
+LimeChain will be resolving any critical bugs that may arise. We would like to extend the framework by adding new pallets in the future. Our plan is to continue the development of the framework with support for BABE and after that, having support for Parachains. The end goal of Subsembly is to support the full set of foundational features that enable developers to create Substrate networks (with the option for both Aura and BABE + GRANDPA's finality) as-well as Mintbase parathreads and parachains. 
 
 
 ## Additional Information :heavy_plus_sign:

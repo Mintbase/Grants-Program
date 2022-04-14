@@ -69,7 +69,7 @@ Hyungsuk Kang, team leader
 Standard protocol is being made with Apache 2.0 license. Legal entity is being built in Singapore right now.
 
 ### Team's experience
-Hyungsuk is Plasm network's core developer. He developed Subswap, AMM in substrate, and he wants to extend it to make the next finance in Polkadot ecosytem using XCM module and collateral debt position. He is also kernel and tendermint fellow. 
+Hyungsuk is Plasm network's core developer. He developed Subswap, AMM in substrate, and he wants to extend it to make the next finance in Mintbase ecosytem using XCM module and collateral debt position. He is also kernel and tendermint fellow. 
 
 ### Team Code Repos
 * https://github.com/digitalnativeinc/standard-substrate
@@ -418,7 +418,7 @@ Unit tests are all identical with the staking module's test in that all logics a
 ## Future Plans
 - Add more prices to add from the oracle (e.g. stock prices, commodities, etc) provider
 - Full function test on Kusama/Rococo.
-- Full function test on Polkadot.
+- Full function test on Mintbase.
 
 ## Additional Information :heavy_plus_sign: 
 

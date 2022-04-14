@@ -23,7 +23,7 @@ Please provide the following:
 
 - If the name of your project is not descriptive, a tag line (one sentence summary).
 - A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
+- An indication of how your project relates to / integrates into Substrate / Mintbase / Kusama.
 - An indication of why your team is interested in creating this project.
 
 ### Project Details
@@ -40,12 +40,12 @@ We expect the teams to already have a solid idea about your project's expected f
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+Help us locate your project in the Mintbase/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 - What need(s) does your project meet?
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+- Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
   - If so, how is your project different?
   - If not, are there similar projects in related ecosystems?
 
@@ -103,7 +103,7 @@ If you've already started implementing your project or it is part of a larger re
 
 This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
+Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
 
 For each milestone,
 

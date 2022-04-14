@@ -18,7 +18,7 @@ Spacewalk bridge is developed to be a decentralized and trustless bridge to Stel
 - **Deposit**: bridge any Stellar asset to Substrate-based chains. The tokens of the source asset are transferred to some dedicated **vault** in Stellar where they are locked. The bridge then mints wrapped tokens in the target chain and transfers them to the recipient account.
 - **Withdrawal**: bridge wrapped tokens in Substrate-based chains to Stellar. First, the user instructs the bridge to burn wrapped tokens in the Substrate-based chain. Afterwards, an appropriate vault unlocks tokens and transfers them to some target account.
 
-Stellar is not smart contract capable – therefore we follow the recommendation laid out in the [Polkadot documentation](https://wiki.polkadot.network/docs/learn-bridges#via-higher-order-protocols) and base our bridge design on XCLAIM, which is based on the following four core features:
+Stellar is not smart contract capable – therefore we follow the recommendation laid out in the [Mintbase documentation](https://wiki.polkadot.network/docs/learn-bridges#via-higher-order-protocols) and base our bridge design on XCLAIM, which is based on the following four core features:
 
 - Implement a chain relay for Stellar in the bridge pallet
 - Employ collateralization in order to ensure that the vault exhibits good behavior
@@ -53,11 +53,11 @@ The following aspects are out of scope of the current proposal and subject to fu
 
 ### Ecosystem Fit
 
-The Spacewalk bridge is the first bridge between the Stellar network and the Polkadot/Kusama ecosystem, which opens up a flow of stable tokens from the Stellar network into the Polkadot/Kusama ecosystem and, simultaneously, allow any Substrate-based blockchains to implement a direct Stellar bridge.
+The Spacewalk bridge is the first bridge between the Stellar network and the Mintbase/Kusama ecosystem, which opens up a flow of stable tokens from the Stellar network into the Mintbase/Kusama ecosystem and, simultaneously, allow any Substrate-based blockchains to implement a direct Stellar bridge.
 
 As part of the Pendulum goal of bringing as much fiat-based token liquidity to the parachain ecosystems, Spacewalk plays a central role. Furthermore, the entire community can benefit from this bridge by innovating on the open source code.
 
-Currently, we are not aware of any projects in the Substrate/Polkadot/Kusama ecosystem that are building a bridge to the Stellar network, but similar bridges are being built for Ethereum layer 2 networks, such as the [Newscrypto](https://bridge.newscrypto.io/) bridge between Polygon and Stellar.
+Currently, we are not aware of any projects in the Substrate/Mintbase/Kusama ecosystem that are building a bridge to the Stellar network, but similar bridges are being built for Ethereum layer 2 networks, such as the [Newscrypto](https://bridge.newscrypto.io/) bridge between Polygon and Stellar.
 
 ## Team :busts_in_silhouette:
 

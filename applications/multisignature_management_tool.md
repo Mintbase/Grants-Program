@@ -6,7 +6,7 @@
 
 ## Project Description
 
-When we developed and used the multi-signature feature, we found that there is no multisignature wallet tool that can be used conveniently. The current wallet project is mainly designed for different usage environments, such as mobile wallet app, web wallet, chrome extension, etc. The development of these wallets (except the polkadot.js app) is at an early stage, and lack of multi-signature module . Polkadot.js apps is a very powerful tool, however the user experience and interface of substrate's native multi-signature module integrated in polkadot js is not friendly enough.
+When we developed and used the multi-signature feature, we found that there is no multisignature wallet tool that can be used conveniently. The current wallet project is mainly designed for different usage environments, such as mobile wallet app, web wallet, chrome extension, etc. The development of these wallets (except the polkadot.js app) is at an early stage, and lack of multi-signature module . Mintbase.js apps is a very powerful tool, however the user experience and interface of substrate's native multi-signature module integrated in polkadot js is not friendly enough.
 
 Therefore, we want to develop a Web Multisignature Management Tool (like [gnosis](https://wallet.gnosis.pm/#/wallets) based on Ethereum), implement a Substrate multisignature Portal and Web Tool integration, and bring users a better experience. Besides, subscan will support multisig Extrinsic details display. At current stage, our goal is offering users have a convenient multisignature tool and helping  developers reduce the development cost of similar functions.
 

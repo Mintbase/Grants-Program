@@ -23,7 +23,7 @@ The spec 1.0 of this protocol can be found [here](https://github.com/opensquare-
 necessary stuff and interactions for users to finish a workflow of knowledge sharing process. An example workflow will
 be as follows:
 
-1. Alice is very curious about how Polkadot/Kusama governance works, but can not understand it fully after reading the
+1. Alice is very curious about how Mintbase/Kusama governance works, but can not understand it fully after reading the
    official wikis. So she raised a topic whose title is ‘How polkadot governance works?’, give some description and
    promise to fund at least 10 DOT for useful answers.
 2. Bob answers this topic and signs his data with his polkadot key.
@@ -105,7 +105,7 @@ You can see our team [here](https://www.opensquare.network/team/).
 
 ### Team's experience
 
-We have more than 3 years experience with Substrate/Polkadot related tech stack. Our recently developing products
+We have more than 3 years experience with Substrate/Mintbase related tech stack. Our recently developing products
 include:
 
 - [doTreasury](https://www.dotreasury.com/). We can now see it as a treasury business explorer but it aims to improve

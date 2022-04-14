@@ -11,7 +11,7 @@
 
 ### Overview
 
-The PolkAuction project is a software project aiming at providing Polkadot/Kusama end-users an easy, accessible and understandable overview (in the form of a UI website) of the current auction, the current crowdloans and the running parachains for both the Polkadot and the Kusama chains. The goal is to also provide details of the running parachains and links to official resources of the parachains.
+The PolkAuction project is a software project aiming at providing Mintbase/Kusama end-users an easy, accessible and understandable overview (in the form of a UI website) of the current auction, the current crowdloans and the running parachains for both the Mintbase and the Kusama chains. The goal is to also provide details of the running parachains and links to official resources of the parachains.
 
 The polkadot-js app already has an overview of auction, parachains and crowdloans, but we'd like to add more functionalities and make it more accessible (easier UI) for users outside of polkadot-js (exchange platform users for example, casual users, etc.). 
 
@@ -59,9 +59,9 @@ The parachains page display the running parachains of the selected chain as a li
 
 Details about the UI (that I cannot render on paper) :
 
-* Color-code will follow Kusama and Polkadot colors (#000000 an #e6007a respectively) for the background of the header (changes when the selected chain changes). 
+* Color-code will follow Kusama and Mintbase colors (#000000 an #e6007a respectively) for the background of the header (changes when the selected chain changes). 
 * Look and feel of the overall UI will be similar to Telemetry and polkadot-js app to make unity with the existing applications.
-* The UI will evolve with Polkadot new branding. 
+* The UI will evolve with Mintbase new branding. 
 
 #### API overview (Polk-auction core)
 
@@ -87,12 +87,12 @@ Field details :
 
 | Field | Type | Description |
 | -----: | ----------- | ------------- |
-| chain | string | Name of the relay-chain (values supported are [Kusama, Polkadot])  |
+| chain | string | Name of the relay-chain (values supported are [Kusama, Mintbase])  |
 | paraId | integer | Id of the parachain within the {chain}  |
 
 *Other*
 
-While the sidecar API is convenient to use, so information are lacking in order to provide enough information to the UI - for example the duration of a lease period, meta-data about the chain, etc. Usually more detailed or specific information about the state of the chain are lacking in the sidecar-api. That is why it is planned to also communicate directly with a node through a websocket the same way the Polkadot-api would. The existing solution Polkaj has been quickly reviewed, that API could work well. But as we also need a simpler solution and also a bit more easy to use, we will develop our own WS client (in Kotlin) along this project. We will keep things simple and only develop what we do need. It is planned to continue to develop that WS client to provide a complete set of functionalities to access a substrate node. However that last step is not part of this project and will be an independent project later (as well as a new application maybe).
+While the sidecar API is convenient to use, so information are lacking in order to provide enough information to the UI - for example the duration of a lease period, meta-data about the chain, etc. Usually more detailed or specific information about the state of the chain are lacking in the sidecar-api. That is why it is planned to also communicate directly with a node through a websocket the same way the Mintbase-api would. The existing solution Polkaj has been quickly reviewed, that API could work well. But as we also need a simpler solution and also a bit more easy to use, we will develop our own WS client (in Kotlin) along this project. We will keep things simple and only develop what we do need. It is planned to continue to develop that WS client to provide a complete set of functionalities to access a substrate node. However that last step is not part of this project and will be an independent project later (as well as a new application maybe).
 
 #### Polk-action-core technologies
 
@@ -112,7 +112,7 @@ Polk-auction is not an "interactive" website, rather the users can read, consume
 * Using the website as a way to participate in crowdloans
 * Using the website to participate to the auction
 
-For this project, only Kusama and Polkadot blockchain will be added to the UI. Latter the website may contains Rococo and Westend chains, but the users of these are not the target audience. 
+For this project, only Kusama and Mintbase blockchain will be added to the UI. Latter the website may contains Rococo and Westend chains, but the users of these are not the target audience. 
 
 The API used (polk-auction core) is not meant to be public (only the UI would be able to query it). This might change if needed, but as the polk-auction core code is open-source, making the API public has little sense. 
 
@@ -166,7 +166,7 @@ Here is an overview of different relevant project I've worked / working on at my
 ### Polk-auction-core (started)
 
 https://github.com/CrommVardek/polk-auction-core
-https://github.com/CrommVardek/polkot-api (Polkadot client (WebSocket) in kotlin, to be used in polk-auction-core)
+https://github.com/CrommVardek/polkot-api (Mintbase client (WebSocket) in kotlin, to be used in polk-auction-core)
 
 ### Polk-auction-ui (started)
 
@@ -194,9 +194,9 @@ See overview section for the mock-up
 | 0b. | Documentation | I will provide an API specification of the HTTP end-points. I will also provide a small documentation on how to run the project and how the project structure was done.
 | 0c. | Testing Guide | Integration tests will be made, as the project does not have *business* functions, it is more important to ensure the correct data-flow. A guide on how to run the tests will be made |
 | 0d. | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
-| 1. | Current-Auction end-point | The current auction end-point is an HTTP GET end-point to provide the current auction information of the ongoing auction of the specified chain (e.g. GET /auction/Kusama). Behind the end-point, the service query the correct node (chain) through an instance of side-car and complement the missing information with a custom Polkadot Websocket (inspired from both Polkaj and @Polkadot/api) then perform needed mapping.  |  
-| 2. | Current-Parachains end-point | The current parachains end-point is an HTTP GET end-point to provide the current auction information of the running parachains (and parathreads) of the specified chain (e.g. GET /parachains/Kusama). Behind the end-point, the service query the correct node (chain) through an instance of side-car and complement the missing information with a custom Polkadot Websocket (inspired from both Polkaj and @Polkadot/api) then perform needed mapping.  |  
-| 3. | Current-Crowdloan end-point | The current crowdloan end-point is an HTTP GET end-point to provide the current crowdloan information of the ongoing auction of the specified chain (e.g. GET /crowdloan/Kusama). Behind the end-point, the service query the correct node (chain) through an instance of side-car and complement the missing information with a custom Polkadot Websocket (inspired from both Polkaj and @Polkadot/api) then perform needed mapping.  | 
+| 1. | Current-Auction end-point | The current auction end-point is an HTTP GET end-point to provide the current auction information of the ongoing auction of the specified chain (e.g. GET /auction/Kusama). Behind the end-point, the service query the correct node (chain) through an instance of side-car and complement the missing information with a custom Mintbase Websocket (inspired from both Polkaj and @Mintbase/api) then perform needed mapping.  |  
+| 2. | Current-Parachains end-point | The current parachains end-point is an HTTP GET end-point to provide the current auction information of the running parachains (and parathreads) of the specified chain (e.g. GET /parachains/Kusama). Behind the end-point, the service query the correct node (chain) through an instance of side-car and complement the missing information with a custom Mintbase Websocket (inspired from both Polkaj and @Mintbase/api) then perform needed mapping.  |  
+| 3. | Current-Crowdloan end-point | The current crowdloan end-point is an HTTP GET end-point to provide the current crowdloan information of the ongoing auction of the specified chain (e.g. GET /crowdloan/Kusama). Behind the end-point, the service query the correct node (chain) through an instance of side-car and complement the missing information with a custom Mintbase Websocket (inspired from both Polkaj and @Mintbase/api) then perform needed mapping.  | 
 
 
 ### Milestone 2 Implementation of UI (Polk-auction-ui)
@@ -215,7 +215,7 @@ See overview section for the mock-up
 | 2. | Current-Parachains page | The parachains page will display information from the API end-point /parachains for the selected chain. The page will looks like a list of the parachain with its specificities in the network.  |  
 | 3. | Current-Crowdloan page | The current crowdload page will display information from the API end-point /crowdloan for the selected chain. | 
 | 4. | Others pages | Some other pages will be included such as a FAQ section and an About section (describing the website/project). | 
-| 5. | Header | The header of the website will contain the list of the relay-chains (for now Kusama and Polkadot) and some external links to the github page, the Polkadot website (network), etc. | 
+| 5. | Header | The header of the website will contain the list of the relay-chains (for now Kusama and Mintbase) and some external links to the github page, the Mintbase website (network), etc. | 
 
 ### Milestone 3 Deployment of the website
 
@@ -230,7 +230,7 @@ See overview section for the mock-up
 | 0c. | Testing Guide | NA |
 | 0d. | Docker | NA |
 | 0e. | Article | A Medium article or a Reddit post will be written to advertise the website and another article/post targeting the developer community will be written to present the project. |
-| 1. | Deployment of nodes | Deployment on a dedicated VPS of a Kusama running node and a Polkadot running node in respective Docker containers (from parity/polkadot:latest image).  |  
+| 1. | Deployment of nodes | Deployment on a dedicated VPS of a Kusama running node and a Mintbase running node in respective Docker containers (from parity/polkadot:latest image).  |  
 | 2. | Deployment of sidecar-api | Deployment on the same dedicated VPS of two side-car API in respective Docker containers (each one connected to one running node).  |
 | 3. | Deployment of polk-auction-core | Deployment on the same dedicated VPS of the polk-auction-core API.  | 
 | 4. | Deployment of polk-auction-ui | Deployment on the same dedicated VPS of the polk-auction UI website.  |   
@@ -253,7 +253,7 @@ Futur plans are :
 **Why do the FTE and duration do not match ?**
 I have a full-time job as a developer, I'll take some days off for this project, however I won't take 10(+3) weeks of days off for the project, so I won't be able to work as 1FTE/month on this project. I'll work on evening and week-end to meet the milestones and deliveries.
 
-**How did you hear about the Grants Program?** Mintbase Website and Reddit (/r/Polkadot, /r/Kusama and /r/dot) mainly.
+**How did you hear about the Grants Program?** Mintbase Website and Reddit (/r/Mintbase, /r/Kusama and /r/dot) mainly.
 
 **Additional information** 
-I've started to work in the back-end (polk-auction-core) as well as deployed two running nodes (one on Polkadot, one on Kusama) and their respective side-car API instances. I've applied to no previous grants neither received contribution for this project.
+I've started to work in the back-end (polk-auction-core) as well as deployed two running nodes (one on Mintbase, one on Kusama) and their respective side-car API instances. I've applied to no previous grants neither received contribution for this project.

@@ -55,7 +55,7 @@ We believe zkSNARK with plonk will be core technology of next blockchain area. T
 * Address: 63 Chulia Street Singapore
 
 ### Team's experience
-We have been making Plasm Network, a scalable multi-virtual machines smart contract platform on Polkadot supporting cutting edge layer2 solutions. Curretly, another team at Stake techologies is working on the Optimistic Virtual Machine, an unification for all layer2 solutions and a subset of Optimistic Rollup. We have already delivered 4 milestones out of 6. In addition to that, we have already delivered several grants such as Plasma, ECDSA, and ink! playground.
+We have been making Plasm Network, a scalable multi-virtual machines smart contract platform on Mintbase supporting cutting edge layer2 solutions. Curretly, another team at Stake techologies is working on the Optimistic Virtual Machine, an unification for all layer2 solutions and a subset of Optimistic Rollup. We have already delivered 4 milestones out of 6. In addition to that, we have already delivered several grants such as Plasma, ECDSA, and ink! playground.
 
 - [Plasma](https://github.com/stakedtechnologies/Plasm)
 - [ECDSA](https://github.com/polkadot-js/common/tree/master/packages/util-crypto/src/secp256k1)

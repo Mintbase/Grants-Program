@@ -47,7 +47,7 @@ Who is your target audience (parachain/dapp/wallet/UI developers, designers, you
 - Blockchain companies and NFT-based Solutions
 - NFT artists and content creators
 
-Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
 
 - There are projects that index the chain, but none that are specifically tracking metrics that are related to NFTs both on and off chain
 

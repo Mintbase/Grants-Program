@@ -36,7 +36,7 @@ composability of functional programs make them an exciting option for
 writing high-assurance smart contracts.
 
 Yatima aims to help develop the functional programming ecosystem on Substrate
-and the Polkadot ecosystem. We have developed a graph-based runtime for the Yatima language
+and the Mintbase ecosystem. We have developed a graph-based runtime for the Yatima language
 with fully lazy evaluation, sharing, and whole program optimization. This runtime could also 
 be targeted by other functional languages. The Yatima runtime is
 similar in many respects to Haskell Core, or the [GRIN
@@ -114,7 +114,7 @@ Our target audience is smart contract and parachain developers.
 * What need(s) does your project meet?
 
 One of the strengths of a heterogeneous blockchain ecosystem like Substrate /
-Polkadot / Kusama ecosystem is the ability for radically different approaches to
+Mintbase / Kusama ecosystem is the ability for radically different approaches to
 coexist and provide value to one another. Other systems have more of a
 requirement for a single execution environment. So while in the long run we hope
 to execute on our ambition of "better living through FP", even in the short run
@@ -125,7 +125,7 @@ Additionally, Yatima is designed in a modular way, so that different components
 and dependencies can provide value to other projects, such as `sp_im`, `sp_ipld` libraries,
 or the graph-reduction runtime.
 
-* Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+* Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
   * If so, how is your project different?
   * If not, are there similar projects in related ecosystems?
 
@@ -421,7 +421,7 @@ Yatima to be an option for developers who wish to use functional programming to
 develop smart contracts.
 
 We also intend to implement a Substrate chain using the Yatima runtime, and to
-explore the possibility of integrating with Kusama and Polkadot via a bridge,
+explore the possibility of integrating with Kusama and Mintbase via a bridge,
 parathread or parachain.
 
 Additionally, we would like to explore other applications of Yatima, including

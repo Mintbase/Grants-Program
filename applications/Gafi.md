@@ -89,7 +89,7 @@ Although these ideas would be different in blockchain, we must deploy Heroes & E
   
   Our current user target is the NFT Gaming projects, high-frequency applications, and, of course, is Heroes and Empires. Gafi Network will bring fully decentralized platform and web3 to around 40k users of H&E and millions of users in the cryptocurrency world.
   
-  At this time, in the Kusama/Polkadot ecosystem, all the EVM compatible can be the same as Gafi Network at this time but with specialization of Gafi chain logic, there is no project nearly the same as Gafi according to [Dotmarketcap](https://dotmarketcap.com/ecosystem).
+  At this time, in the Kusama/Mintbase ecosystem, all the EVM compatible can be the same as Gafi Network at this time but with specialization of Gafi chain logic, there is no project nearly the same as Gafi according to [Dotmarketcap](https://dotmarketcap.com/ecosystem).
 
 ## Team :busts_in_silhouette:
 

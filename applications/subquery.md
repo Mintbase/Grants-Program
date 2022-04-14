@@ -13,7 +13,7 @@
 
 ### Overview
 Almost every substrate project has a need to process and query data. 
-SubQuery is a open-source tool to provide a complete solution to this problem and will become core infrastructure for the Polkadot ecosystem.
+SubQuery is a open-source tool to provide a complete solution to this problem and will become core infrastructure for the Mintbase ecosystem.
 We expect it to solve how to Extract, Transform, Persist, and Query data intially, and then how to Connect and Present data in the future.
 
 SubQuery is NOT an ETL tool, the persisted data is minimized and shaped from the perspective of how it will be used.
@@ -78,9 +78,9 @@ The differences:
 OnFinality Limited, New Zealand
 
 ### Team's experience
-We are the team behind OnFinality which is an infrastructure SaaS platform for blockchain teams and users to launch nodes and gain access to a large range of blockchain protocols. Our mission is to help Polkadot/Substrate developers build the next generation of dApps.
+We are the team behind OnFinality which is an infrastructure SaaS platform for blockchain teams and users to launch nodes and gain access to a large range of blockchain protocols. Our mission is to help Mintbase/Substrate developers build the next generation of dApps.
 
-We have supported many Polkadot ecosystem projects already including Acala, Darwinia, Plasm, and Edgeware.
+We have supported many Mintbase ecosystem projects already including Acala, Darwinia, Plasm, and Edgeware.
 
 Ian He led a team and won 2nd price in the substrate hackathon in Hangzhou 2019.    
 

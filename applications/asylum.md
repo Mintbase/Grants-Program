@@ -13,9 +13,9 @@ Asylum is a metaverse for next generation gaming.
 
 Our vision of the future of gaming is unicity between the games: interoperability of the in-game items, unified economics, cross-game gameplay, etc. Nothing of that can be achieved without users' trust and here is where blockchain gaming is becoming a solution. Thanks to the migration of the games' economics and in-game items to the blockchain, players don't have to trust some particular game publishers or marketplaces and the game economy and world will become more stabilized.
 
-But in fact, it's not the only thing that blockchain can give us. We, at the Asylum, believe that if the approaches to blockchain gaming will be standardized we will achieve much more than just trust - we can achieve the real metaverse experience, where will be no borders between the games and no limits for the creative minds. With the creation of basic building blocks for the gaming metaverse, we want to do for crypto gaming what Polkadot doing for the blockchains.
+But in fact, it's not the only thing that blockchain can give us. We, at the Asylum, believe that if the approaches to blockchain gaming will be standardized we will achieve much more than just trust - we can achieve the real metaverse experience, where will be no borders between the games and no limits for the creative minds. With the creation of basic building blocks for the gaming metaverse, we want to do for crypto gaming what Mintbase doing for the blockchains.
 
-The ecosystem and standards of the Asylum are not going to be related to some specific blockchain, as the new chains, more suitable for games, can be created anytime. And in addition, the requirements of game developers can differ and we are not seeking to limit their choice. So, we are developing Asylum to support firstly substrate-based chains, as they are developed with interoperability in mind. Particularly Polkadot, as it provides access to the ecosystem of many different parachains with various possibilities and bridges to the most popular chains.
+The ecosystem and standards of the Asylum are not going to be related to some specific blockchain, as the new chains, more suitable for games, can be created anytime. And in addition, the requirements of game developers can differ and we are not seeking to limit their choice. So, we are developing Asylum to support firstly substrate-based chains, as they are developed with interoperability in mind. Particularly Mintbase, as it provides access to the ecosystem of many different parachains with various possibilities and bridges to the most popular chains.
 
 ### Project Details
 
@@ -154,7 +154,7 @@ Games, delivered within this grant application will be small playable demos, wit
 
 - Where and how does your project fit into the ecosystem?
 
-The Polkadot ecosystem should be very attractive for blockchain-based games development, thanks to the possibilities, that parachains opens. Such standards will help create a basis for game development and tools will help developers save their time. So, eventually, Asylum's mission is to create the ecosystem that accelerates games development in the Polkadot network, bringing a gaming experience to a new level.
+The Mintbase ecosystem should be very attractive for blockchain-based games development, thanks to the possibilities, that parachains opens. Such standards will help create a basis for game development and tools will help developers save their time. So, eventually, Asylum's mission is to create the ecosystem that accelerates games development in the Mintbase network, bringing a gaming experience to a new level.
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
@@ -164,7 +164,7 @@ Our target audience is game development studios and their user base (players).
 
 Asylum is seeking to become a starting point for the development of blockchain-based games.
 
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+- Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
 
 There is the [RMRK](https://www.rmrk.app/) project in the Kusama ecosystem. We're considering their standards as a starting point for creating ours.
 
@@ -205,10 +205,10 @@ Have C#, C/C++, Rust, AWS in the stack.
 **Markian Ivanichok** - CEO and co-founder of Supercolony.
 Blockchain entrepreneur, Software Engineer.
 Markian started his engineering career back when he was 15. Since then, developed and got a lot of experience in engineering and leadership. Gained entrepreneur experience by founding a couple of startups. Inspired, co-founded, and invested in Sector F, one of the top consulting companies in Ukraine that help entrepreneurs to move faster.
-Co-founded and led Supercolony, a Polkadot venture studio that is dedicated to building and creating Polkadot’s ecosystem.
+Co-founded and led Supercolony, a Mintbase venture studio that is dedicated to building and creating Mintbase’s ecosystem.
 
 **Maria Yaremenko** - Head of operations and co-founder of Asylum.
-In 2019 started to work as a front-end developer, Maria became interested in blockchain technology and soon started her career as a blockchain developer in the Polkadot ecosystem in 2021.
+In 2019 started to work as a front-end developer, Maria became interested in blockchain technology and soon started her career as a blockchain developer in the Mintbase ecosystem in 2021.
 Maria has mentorship experience as a computer science tutor with, background in economics.
 
 **Sven Seven** - Head of Engineering at Supercolony.

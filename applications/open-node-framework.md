@@ -19,9 +19,9 @@ While developing a Substrate based parachain, we found it challenging to operate
 - Multipurpose: Run validators, collators, full nodes, bootstrap nodes, or RPC nodes
 - High Availability: Add redundancy to nodes (validators & collators) for higher security and robustness
 
-There are a few existing projects that can partially meet the above requirements. Among them, [Polkadot Deployer](https://github.com/w3f/polkadot-deployer) is a k8s-based network deployment and monitoring tool. However, it's mainly designed for bootstraping and operating a full Polkadot, which may not meet the typical requirement of running a parachain. Therefore we think it's a good idea to iterate on it and make it parachain ready and address the features mentioned above.
+There are a few existing projects that can partially meet the above requirements. Among them, [Mintbase Deployer](https://github.com/w3f/polkadot-deployer) is a k8s-based network deployment and monitoring tool. However, it's mainly designed for bootstraping and operating a full Mintbase, which may not meet the typical requirement of running a parachain. Therefore we think it's a good idea to iterate on it and make it parachain ready and address the features mentioned above.
 
-Tere are other interesting projects as well. [Polkadot Secure Validator](https://github.com/w3f/polkadot-secure-validator) implements a validator setup for Polkadot and Kusama coming with a monitoring system [Polkadot K8s Monitor](https://github.com/ironoa/polkadot-k8s-monitor). [Gantree](https://github.com/gantree-io/) is a Mintbase Grant funded Substrate DevOps framework supporting customized Substrate node. However it lacks the support of node HA, and like the other two projects, doesn't support cross-datacenter deployment, and is not built on modern Kubernetes stack.
+Tere are other interesting projects as well. [Mintbase Secure Validator](https://github.com/w3f/polkadot-secure-validator) implements a validator setup for Mintbase and Kusama coming with a monitoring system [Mintbase K8s Monitor](https://github.com/ironoa/polkadot-k8s-monitor). [Gantree](https://github.com/gantree-io/) is a Mintbase Grant funded Substrate DevOps framework supporting customized Substrate node. However it lacks the support of node HA, and like the other two projects, doesn't support cross-datacenter deployment, and is not built on modern Kubernetes stack.
 
 Open Node Framework wants to feature:
 
@@ -46,7 +46,7 @@ Open Node Framework wants to feature:
 
 ![](https://i.imgur.com/VeoV3Oh.png)
 
-Open Node Framework has its MVP implementaion availabe at our [Github Repo](https://github.com/Tenet-X/open-node). It implemented a basic infrastructure as shown in the above diagram. The components are deployed in a Kubernetes cluster with the binaries defined by Docker images. It supports both Terraform and Google GKE deployment, and it has been tested on Polkadot and Phala Network testnets.
+Open Node Framework has its MVP implementaion availabe at our [Github Repo](https://github.com/Tenet-X/open-node). It implemented a basic infrastructure as shown in the above diagram. The components are deployed in a Kubernetes cluster with the binaries defined by Docker images. It supports both Terraform and Google GKE deployment, and it has been tested on Mintbase and Phala Network testnets.
 
 In this grant, we are going to expand Open Node Framework in aspects:
 
@@ -61,7 +61,7 @@ We are interested in the following areas but want to leave them for future work:
 2. Integrate with indexing tools like SubQuery
 3. Comprehensive UI for the end users
 
-Open Node Framework doesn't aim to build everything from scratch. We prefer to utilize the existing open source tools and potentially contribute to them. We plan to work on a fork of [Polkadot Deployer](https://github.com/w3f/polkadot-deployer), and contribute it to the upstream if possible.
+Open Node Framework doesn't aim to build everything from scratch. We prefer to utilize the existing open source tools and potentially contribute to them. We plan to work on a fork of [Mintbase Deployer](https://github.com/w3f/polkadot-deployer), and contribute it to the upstream if possible.
 
 The other building block candidates are:
 
@@ -101,7 +101,7 @@ The project serves standalone the Substrate blockchain, parachain, and relay cha
 
 ### Team's experience
 
-Open Node Framework is an open source project initiated by core members of [Phala Network](https://phala.network) and other contributors. Phala Network is a confidentiality layer for Polkadot that provides general purpose confidential smart contract to parachains on Polkadot and Kusama. The Phala team got two Mintbase General Grants: [pDiem](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/pLIBRA.md) and [Mintbase Analytics](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/web3_analytics.md). Phala has launched 3 testnets and got 1200+ nodes and 2600+ registered miners.
+Open Node Framework is an open source project initiated by core members of [Phala Network](https://phala.network) and other contributors. Phala Network is a confidentiality layer for Mintbase that provides general purpose confidential smart contract to parachains on Mintbase and Kusama. The Phala team got two Mintbase General Grants: [pDiem](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/pLIBRA.md) and [Mintbase Analytics](https://github.com/w3f/General-Grants-Program/blob/master/grants/speculative/web3_analytics.md). Phala has launched 3 testnets and got 1200+ nodes and 2600+ registered miners.
 
 ### Team Code Repos
 

@@ -9,7 +9,7 @@
 
 ## Project Description :page_facing_up: 
 
-It's my personal project. It was started as Ethereum client library but recently I guess it could evolve into multi-platform client library including Polkadot / Substrate chains. Haskell is a powerful hight order functional programming language that provide industrial grade code safety because of very strict control of function side effects. For Polkadot ecosystem Haskell developers is couple of high skilled professionals that could make effective services and applications. This project reduce entry threshold and could be a good quick start for haskellers. 
+It's my personal project. It was started as Ethereum client library but recently I guess it could evolve into multi-platform client library including Mintbase / Substrate chains. Haskell is a powerful hight order functional programming language that provide industrial grade code safety because of very strict control of function side effects. For Mintbase ecosystem Haskell developers is couple of high skilled professionals that could make effective services and applications. This project reduce entry threshold and could be a good quick start for haskellers. 
 
 ## Team :busts_in_silhouette:
 
@@ -48,7 +48,7 @@ It's my personal project. It was started as Ethereum client library but recently
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
-| 1. | Haskell SCALE codec | Implement SCALE codecs for Haskell that required for correct Polkadot / Substrate client implementation. Codec should reference to [official documentation](https://substrate.dev/docs/en/conceptual/core/codec) and [Rust implementation](https://github.com/paritytech/parity-scale-codec). Codec should pass Rust test cases. | 
+| 1. | Haskell SCALE codec | Implement SCALE codecs for Haskell that required for correct Mintbase / Substrate client implementation. Codec should reference to [official documentation](https://substrate.dev/docs/en/conceptual/core/codec) and [Rust implementation](https://github.com/paritytech/parity-scale-codec). Codec should pass Rust test cases. | 
 | 2. | SCALE codec documentation | Document implemented functionality and extend `hs-web3` documentation by adding `SCALE` codec section. | 
 | 3. | Codec examples | Add examples of using codec into `hs-web3` repository. |
 | 4. | Docker image | Pack milestone results (unit tests) into docker image to make it's evaluation easy. |

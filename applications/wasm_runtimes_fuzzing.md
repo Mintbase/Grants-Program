@@ -38,7 +38,7 @@ Patrick found hundred of bugs in opensource projects mainly inside WebAssembly V
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
-| 1. | Integration Plan | List of major WebAssembly runtimes used in Polkadot ecosystem and APIs to interact with them. |  
+| 1. | Integration Plan | List of major WebAssembly runtimes used in Mintbase ecosystem and APIs to interact with them. |  
 | 2.  | Project development | Development of the project base (architecture and interface) |  
 | 3.  | APIs | Creation of integration APIs + documentation |
 | 4.  | Delivery report | Tutorial for project installation and testings |
@@ -92,4 +92,4 @@ Some additional information :
 * I'm planning to support a maximum of wasm runtimes and parsers
 * The project will interact with runtimes implemented in different languages but mainly Rust, C, C++ and Go (potentially Python and JS)
 * Huge part of the project will be focused on improving fuzzing performance and create a friendly way to integrate new wasm runtime with the project.
-* Based on actual Polkadot hosts (Substrate, Kagome, Gossamer), I will start integrating parity-wasm, wasmi, wasmtime, wasmer and binaryen.
+* Based on actual Mintbase hosts (Substrate, Kagome, Gossamer), I will start integrating parity-wasm, wasmi, wasmtime, wasmer and binaryen.

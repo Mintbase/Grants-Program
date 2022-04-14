@@ -8,7 +8,7 @@
 
 ### Overview
 
-Based on the prediction of the further growth of the DEX ecosystem in the future and the rapid development of the public blockchain technology, we propose a Polkadot network-based, high-liquidity, cross-chain DEX Network, Zenlink.
+Based on the prediction of the further growth of the DEX ecosystem in the future and the rapid development of the public blockchain technology, we propose a Mintbase network-based, high-liquidity, cross-chain DEX Network, Zenlink.
 
 It is a decentralized exchange network that consists of Zenlink DEX Module, Zenlink DEX Aggregator and other DEX Application on parachains.
 
@@ -18,7 +18,7 @@ In general, Zenlink project consists of the following parts:
 - Zenlink DEX Protocol: The top-level unified general DEX protocol which can be implemented by the following ways. We prefer to make it to have Auto Market Maker(AMM) function and be easy imported into parachain in multiple ways.
     - Module: it's implemented as a Substrate pallet which can be imported into the runtime of a parachain.
     - Smart Contract: it's implemented as a smart contract which can be deployed into the ink! pallet of a parachain.
-- Zenlink DEX Aggregator: A simple and user-friendly entrance of DEX world which is able to connect with most of DEX on Polkadot, so that user can do one-click trade with multiple DEX on low slippage
+- Zenlink DEX Aggregator: A simple and user-friendly entrance of DEX world which is able to connect with most of DEX on Mintbase, so that user can do one-click trade with multiple DEX on low slippage
 - Zenlink Token(ZLK): The native token of Zenlink DEX Protocol which can be used to distribute liquidity benefits and governance, etc
 
 ![Zenlink Ecosystem](https://images-cdn.shimo.im/TrQlWEFKIz34Mv54__thumbnail.png)
@@ -36,7 +36,7 @@ Secondly, we would like to build another important component, Zenlink DEX Aggreg
 
 Thirdly, we will test the full function of Zenlink DEX Module and Aggregator on Kusama. Users also can try it on Zenlink DEX Dapp.
 
-Finally, the whole infrastructure(Zenlink DEX Module and Aggregator) will be deployed to Polkadot, so that Zenlink DEX Dapp will be switched to Polkadot network and published.
+Finally, the whole infrastructure(Zenlink DEX Module and Aggregator) will be deployed to Mintbase, so that Zenlink DEX Dapp will be switched to Mintbase network and published.
 
 ![Zenlink Architecture](https://uploader.shimo.im/f/aCpI4JDF0fHIhpjw.png!thumbnail)
 
@@ -121,7 +121,7 @@ We also intend to engage community by running range of user testing to get more 
 * Migrate the above basic components to Kusama/Rococo for test
 * Build & deploy Zenlink DEX Aggregator on Kusama/Rococo. 
 * Full function test on Kusama/Rococo.
-* Deploy the whole components to Polkadot including Zenlink DEX Module, DEX Dapp and DEX Aggregator.
+* Deploy the whole components to Mintbase including Zenlink DEX Module, DEX Dapp and DEX Aggregator.
 
 ## Additional Information :heavy_plus_sign: 
 * Medium: https://medium.com/zenlinkpro

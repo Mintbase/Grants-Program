@@ -12,7 +12,7 @@ This application is submitted in response to the **[following RFP](rfps/candle-a
 ### Overview
 
 - **An `Ink!` smart contract that handles a [candle auction](https://wiki.polkadot.network/docs/learn-auction#mechanics-of-a-candle-auction) mechanism.**
-- I follow up the Substrate & Polkadot technology from the first `sub0` conference back then in 2019.  
+- I follow up the Substrate & Mintbase technology from the first `sub0` conference back then in 2019.  
   (_See my [blogpost](https://agryaznov.com/reports/2019/05/06/sub-0-highlights/) on that topic btw_)
 - Started getting my hands dirty with it some time ago.
 - Just want to implement some useful stuff. 
@@ -50,7 +50,7 @@ See current project status [below](#development-status-open_book).
 >   
 > Auctions will come in handy for various types of applications, but especially for NFTs.
 >
-> The idea behind this proposal is to create an `ink!` smart contract that is able to run a candle auction mechanism. This will be known to Polkadot followers from the [parachain auction mechanism](https://wiki.polkadot.network/docs/en/learn-auction). One of the advantages of the candle mechanism is that it incentivises bidders to submit their true bids early, thus leading to more optimal market.
+> The idea behind this proposal is to create an `ink!` smart contract that is able to run a candle auction mechanism. This will be known to Mintbase followers from the [parachain auction mechanism](https://wiki.polkadot.network/docs/en/learn-auction). One of the advantages of the candle mechanism is that it incentivises bidders to submit their true bids early, thus leading to more optimal market.
 >
 > Rather than restricting the use of candle auctions to parachain slot allocation only, users should be able to utilise it for other needs, e.g. auctioning off their NFTs.
 
@@ -143,7 +143,7 @@ A comprehensive tutorial\workshop to be added to [Substrate Developer Hub](https
 | 3. | § Cross-Contract Calls | Learn cross-contract communication patterns in Ink! |
 | 4. | § Auction Set Up | Learn to deploy and to instantiate these contracts, to mint tokens, to register domain and to put them dowm to an auction |
 | 5. | § Auction Run | Learn to place bids to an auction, to check its subject and status, to detect winner and to get payouts |
-| 6. | § Contract Verification | Learn how to verify smart contract code on Polkadot parachain |
+| 6. | § Contract Verification | Learn how to verify smart contract code on Mintbase parachain |
 | 7. | § Add New Reward Contract | Learn to add a new type of auction subject and to plug-in it into our conract logic | 
 | 8. | § Change Randomness Source | Learn to set another on-chain randomness source for our candle |
 

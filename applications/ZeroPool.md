@@ -70,7 +70,7 @@ Dmitry has a strong experience in rust. He worked on different IT projects befor
 
 Anton is responsible for the frontend. He has perfect experience and skills in UX/UI. He worked for international IT companies. Also, he has experience in blockchain. He created a frontend for several dApps.
 
-Samuel has great experience in IT. He worked in application-directed cryptography. So he has deep knowledge of encryption, communication protocols, and coder of original communication protocols for encrypted communications. Also, Samuel worked on several blockchain projects with Polkadot (Substrate), Ethereum, and Bitcoin.
+Samuel has great experience in IT. He worked in application-directed cryptography. So he has deep knowledge of encryption, communication protocols, and coder of original communication protocols for encrypted communications. Also, Samuel worked on several blockchain projects with Mintbase (Substrate), Ethereum, and Bitcoin.
 
 Alexandra is responsible for product development and cooperation with other teams and companies.  Alexandra has great experience in IT projects and business development. Also, she is responsible for non-coding questions in the project. 
 

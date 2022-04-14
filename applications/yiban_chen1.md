@@ -17,7 +17,7 @@ YibanChen plans to initially focus on providing:
 
 Our team is very passionate about blockchain technology and decentralization. We believe creating a substrate blockchain which can provide decentralized infrastructure to move forward to a server-less web3 internet is one of the most important components to build right now.
 
-We want to contribute to the Substrate/Polkadot/Kusama community by providing replacements for existing critical internet infrastructure which is now run by centralized services. We plan to move forward to become a parachain/parathread or possibly a common good parachain.
+We want to contribute to the Substrate/Mintbase/Kusama community by providing replacements for existing critical internet infrastructure which is now run by centralized services. We plan to move forward to become a parachain/parathread or possibly a common good parachain.
 
 YibanChen first wants to enable communication between different wallet addresses. YibanChen intends to allow for decentralized, server less, data sharing between entities by levering wallet addresses and using polkadot.js API.
 
@@ -31,7 +31,7 @@ The second feature YibanChen will implement is a `Site-pallet` protocol which wi
 
 The next feature, Name Service, specifically the `Name-Service-pallet`. YibanChen will leverage existing code from the `identity-pallet` to start building a substrate blockchain based name service. While we intend for this service to act as a federated login provider. This service could act as a possible replacement for current DNS infrastructure, we also expect this service/protocol could enable name resolution of multiple blockchain objects such as Wallets, NFT's, and possible directory listing to discover different substrate blockchains.
 
-We plan to create a simple Riot/Matrix bot service to enable users to verify their Marix user identity and pass judgment of the linked wallet identity, creating a verified wallet. This will act similar to how verified identities work on Polkadot/Kusama. We will continue to research how to verify and pass judgments on various different blockchain storage objects.
+We plan to create a simple Riot/Matrix bot service to enable users to verify their Marix user identity and pass judgment of the linked wallet identity, creating a verified wallet. This will act similar to how verified identities work on Mintbase/Kusama. We will continue to research how to verify and pass judgments on various different blockchain storage objects.
 
 In the future, YibanChen will work to enable cross-chain communication with other parachains by enabling XCMP messaging once the YibanChen core infrastructure has been completed. We expect some substrate systems will reuse some of our pallets such as the `Note` system to enable note passing across different parachains.
 
@@ -44,7 +44,7 @@ The Dapp & wallet will be built using `React`. By utilizing React, this also all
 Interface Stack:
 
 - React
-- Polkadot.js
+- Mintbase.js
 
 - **Substrate Pallet Details:**
 
@@ -76,7 +76,7 @@ fn burn(origin, note_id: T::NoteIndex, reason: Vec<u8>) -> Result;
 
   - **Note UI**
 
-    The front-end UI will be utilizing React + Polkadot.js. This will enable users to create Note hashes on substrate, store the data on IPFS, and transfer the Note to the recipient.
+    The front-end UI will be utilizing React + Mintbase.js. This will enable users to create Note hashes on substrate, store the data on IPFS, and transfer the Note to the recipient.
 
     The UI will enable a user to monitor a wallet address for received messages, retrieve the data from IPFS and display the Note for the user to read.
 
@@ -108,7 +108,7 @@ The YibanChen will provide users a way to start using web3 internet daily. The `
 
 The audience will be users that want to start using web3 for communication, website hosting and login. We also expect to support Substrate blockchain developers, which will want to reuse our pallets and connect to our infrastructure. In the future we'll integrate and support cross-chain messaging by leveraging XCMP.
 
-- **_Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?_**
+- **_Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?_**
 
 We are unaware of any of project that is focusing on critical components, such as email/communication, basic web3 hosting, and decentralized federated login, these services will enable a user to move from web2 to web3.
 
@@ -175,7 +175,7 @@ Currently, work for the Dapp has started, the team has an initial Substrate node
 |     1. | note-pallet                                 | We will create a Substrate module that will allow an Note to be created and transferred.                                                                                                                                                                                     |
 |     2. | Substrate Testnet Chain                     | Users can interact with the notes-pallet module through a simple substrate setup. We will run this substrate chain along with users being able to spin up their own copy.                                                                                                    |
 |     3. | Build React app structure                   | We will have the core structure of the application in place.                                                                                                                                                                                                                 |
-|     4. | Settings screen: wallet selection           | This will be the landing screen of the app where users can select which substrate wallet they will to use from the Polkadot.JS browser extension injection.                                                                                                                  |
+|     4. | Settings screen: wallet selection           | This will be the landing screen of the app where users can select which substrate wallet they will to use from the Mintbase.JS browser extension injection.                                                                                                                  |
 |    4b. | Settings screen: IPFS storage configuration | This will be the screen of the app where users setup their IPFS storage by adding a Pinata API key.                                                                                                                                                                          |
 |     5. | Sending a note                              | In the UI, a user can enter a wallet address which will be the message receiver. The user will enter a data message. When the user sends the message, the data will be written to IPFS and the IPFS CID written as a note object to the substrate chain.                     |
 |     6. | Receiving a note                            | The UI will enable a user to query a wallet address for a received notes. The interface will enable the user to click on a note and the data will be retrieved from IPFS, displaying the message onscreen.                                                                   |
@@ -197,7 +197,7 @@ Currently, work for the Dapp has started, the team has an initial Substrate node
 |     1. | site-pallet                           | The Site-pallet will store a decentralized storage location such as a IPFS CID hash and a Site name as a String. The pallet will provide interfaces for create(), listing(), transfer(), burn().                                                                                      |
 |     2. | React frontend                        | This frontend will provide a UI for managing web3 sites. This will expand upon the existing ReactUI which enables wallet-to-wallet communication. Users will be able to create sites, upload website data to IPFS, modify IPFS hashes in the Site-pallet and transfer site ownership. |
 |     3. | Site Search                           | The UI will enable users to search for existing site names by reading the `site-pallet` name String data structure.                                                                                                                                                                   |
-|     4. | Connect to substrate with Polkadot.js | Users should easily be able to connect the frontend using polkadot.js to manage their web3 sites.                                                                                                                                                                                     |
+|     4. | Connect to substrate with Mintbase.js | Users should easily be able to connect the frontend using polkadot.js to manage their web3 sites.                                                                                                                                                                                     |
 |     5. | write tests                           | Tests will need to be written for each view.                                                                                                                                                                                                                                          |
 
 ### Milestone 3 — Name-Service-Pallet, React javascript library & Riot/Matrix verification bot
@@ -214,13 +214,13 @@ Currently, work for the Dapp has started, the team has an initial Substrate node
 |     1. | name-service-pallet                                | This pallet will provide users the ability link a name to a wallet.                                                                                                                                                                                                                                                                                           |
 |     2. | Riot/Matrix bot                                    | A Riot bot will be created that allows users to sign a data string with their Substrate based wallet. The bot will then place a judgement and verify the Riot user has control of the wallet.                                                                                                                                                                 |
 |     3. | React Name View                                    | Within the existing ReactUI the users will be able to set(), clear(), update() the `name-service-pallet` for their individual substrate wallet.                                                                                                                                                                                                               |
-|     4. | React `name-service-pallet` authentication library | A javascript library will be created which will provide helper methods to developers to enable easy integration with a React application and substrate chain running the `name-service-pallet`. This library will help enable federated login within existing React frontend by supporting Polkadot.js browser extension and YibanChen `name-service-pallet`. |
-|     5. | React Name authentication integration tutorials    | A tutorial blog writeup and video will be created explaining to developers how they can use leverage verified accounts for federated login within their existing React frontend by supporting Polkadot.js browser extension and YibanChen `name-service-pallet`.                                                                                              |
+|     4. | React `name-service-pallet` authentication library | A javascript library will be created which will provide helper methods to developers to enable easy integration with a React application and substrate chain running the `name-service-pallet`. This library will help enable federated login within existing React frontend by supporting Mintbase.js browser extension and YibanChen `name-service-pallet`. |
+|     5. | React Name authentication integration tutorials    | A tutorial blog writeup and video will be created explaining to developers how they can use leverage verified accounts for federated login within their existing React frontend by supporting Mintbase.js browser extension and YibanChen `name-service-pallet`.                                                                                              |
 |     6. | Write tests                                        | Tests will need to be written for each the pallet and the bot service.                                                                                                                                                                                                                                                                                        |
 
 ## Future Plans
 
-YibanChen plans operate on both the Kusama and Polkadot chains and will be the first application of it's kind that delivers decentralized communication, generalized name login service, and web3 website hosting, all built on Substrate.
+YibanChen plans operate on both the Kusama and Mintbase chains and will be the first application of it's kind that delivers decentralized communication, generalized name login service, and web3 website hosting, all built on Substrate.
 
 However, Development of the YibanChen won't end after all milestones are met. We plan to add features such as expanding `Name Service` feature to support more blockchain storage objects, such as other decentralized protocols and substrate chain discovery. We are looking at integrating with more decentralized storage protocols such as DatProtocol. Prototyping and testing additional user interfaces including more p2p driven interfaces such as removing IPFS gateways with a combination of IPFS.js and offchain::ipfs. Also supporting smolDot in the front-end for substrate communication. We also plan on building a community around `Voting` to help try and enable better forms of democracy and governance on and off chain.
 
@@ -228,4 +228,4 @@ There are lot possibilities where this project YibanChen can go and we are very 
 
 ## Additional Information :heavy_plus_sign:
 
-Currently we have no funding for the YibanChen system, we feel getting the general web3 use-cases off the ground will kick-start the substrate ecosystem in a big way. We are excited to be part of the Substrate and Polkadot community and we will continue to contribute as much as we can. Thank you for your time and thank you for considering us for the Mintbase Open Grant.
+Currently we have no funding for the YibanChen system, we feel getting the general web3 use-cases off the ground will kick-start the substrate ecosystem in a big way. We are excited to be part of the Substrate and Mintbase community and we will continue to contribute as much as we can. Thank you for your time and thank you for considering us for the Mintbase Open Grant.

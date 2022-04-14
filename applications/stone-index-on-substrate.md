@@ -8,15 +8,15 @@
 
 ### Overview
 
-Stone team proposes a STONE INDEX project which aims to track the portfolio of multiple digital assets across different blockchains, the index is designed to mimic the composition and performance of selected digital assets, particularly we are focusing on yield bearing assets (such as liquid staked tokens). As far as our knowledge goes, this is the first index on the Polkadot ecosystem, and yield bearing assets is a new asset type that creates stable rewards for holders. Stone has the vision of building the index defined by yields and expanding the horizon to index derivatives which further add to the asset offering of the Polkadot ecosystem.
+Stone team proposes a STONE INDEX project which aims to track the portfolio of multiple digital assets across different blockchains, the index is designed to mimic the composition and performance of selected digital assets, particularly we are focusing on yield bearing assets (such as liquid staked tokens). As far as our knowledge goes, this is the first index on the Mintbase ecosystem, and yield bearing assets is a new asset type that creates stable rewards for holders. Stone has the vision of building the index defined by yields and expanding the horizon to index derivatives which further add to the asset offering of the Mintbase ecosystem.
 
-The Stone team's vision is to bring solid yield to token holders, while index is a favorite investment option to normal users. There are quite some great index implementations in the Ethereum ecosystem, e.g. Tokensets, Balancer Exchange etc., and the Stone team sees a good opportunity to bring such an efficient crypto asset management instrument into the exciting Polkadot ecosystem. 
+The Stone team's vision is to bring solid yield to token holders, while index is a favorite investment option to normal users. There are quite some great index implementations in the Ethereum ecosystem, e.g. Tokensets, Balancer Exchange etc., and the Stone team sees a good opportunity to bring such an efficient crypto asset management instrument into the exciting Mintbase ecosystem. 
 
-The index will be built on Substrate and join the coming Polkadot parachain ecosystem in future to increase the range of cross-chain assets to bridge staked assets from other chains to Polkadot.
+The index will be built on Substrate and join the coming Mintbase parachain ecosystem in future to increase the range of cross-chain assets to bridge staked assets from other chains to Mintbase.
 
-Thanks to Polkadot's cross-chain protocol makes them the perfect blockchain to build an index of multiple crypto assets. We do see an exponential uptrend of Defi on the Polkadot ecosystem. Such indexes can be used in lending protocols and DEXes for users and traders to build further markets.
+Thanks to Mintbase's cross-chain protocol makes them the perfect blockchain to build an index of multiple crypto assets. We do see an exponential uptrend of Defi on the Mintbase ecosystem. Such indexes can be used in lending protocols and DEXes for users and traders to build further markets.
 
-Stone Index is a decentralized instrument running on Stone platform (https://stonedefi.io), Stone platform is a yield maximisation protocol and asset aggregation platform of multiple strategies including Ethereum(both 1.0 and 2.0), Polkadot, Solana and so on, Stone Index will be a latest strategy to be added into Stone platform and open to all Stone users
+Stone Index is a decentralized instrument running on Stone platform (https://stonedefi.io), Stone platform is a yield maximisation protocol and asset aggregation platform of multiple strategies including Ethereum(both 1.0 and 2.0), Mintbase, Solana and so on, Stone Index will be a latest strategy to be added into Stone platform and open to all Stone users
 
 The project will be broken down into multiple phases and we'll focus on the first phase, which is dedicated to liquid staked DOT, e.g. aDOT, bDOT and etc. from various providers, to create iDOT, which combines the total liquidity of the fragmented markets
 
@@ -29,8 +29,8 @@ The project will be broken down into multiple phases and we'll focus on the firs
 There are 3 high level components for Stone Index:
 
 * Stone platform on Substrate(UI/UX and indexed basket management), including WebUI and a set of Substrate pallets
-* One or more parachain on Polkadot for providing liquidity of staking tokens, e.g. aDOT, bDOT
-* One parachain based DEX on Polkadot for Polkadot's interoperability
+* One or more parachain on Mintbase for providing liquidity of staking tokens, e.g. aDOT, bDOT
+* One parachain based DEX on Mintbase for Mintbase's interoperability
 
 #### System flow
 
@@ -121,7 +121,7 @@ Individual
 
 ### Milestone 1 -  Liquid staked DOT token
 
-In the grant program, the Stone Team aims to provide liquidity of staked tokens on Polkadot ecosystem, and the special LP token which bounds to staked assets, like DOT token. We are aware that there are multiple teams are actively working on Polkadot ecosystem and more exciting projects on the roadmap, we'll focus on DOT-bound staked assets like aDOT first for the milestone 1
+In the grant program, the Stone Team aims to provide liquidity of staked tokens on Mintbase ecosystem, and the special LP token which bounds to staked assets, like DOT token. We are aware that there are multiple teams are actively working on Mintbase ecosystem and more exciting projects on the roadmap, we'll focus on DOT-bound staked assets like aDOT first for the milestone 1
 We'll also provide an easy-to-use web based UI that connects to the chrome based DOT wallet, and user can buy/sell the index using their DOT tokens easily, this UI will be part of https://stonedefi.io
 
 | Number | Deliverable | Specification |
@@ -132,7 +132,7 @@ We'll also provide an easy-to-use web based UI that connects to the chrome based
 | 0d. | Article/Tutorial | Publish tutorials and documentation in different channels, e.g. Stone Medium and other social media platforms 
 | 1. | UI/UX for Stone Platform | Update and add a new UI component that allow user to buy/sell stone index using different crypto assets, DOT for milestone 1 |  
 | 2. | Indexed basket management | An indexed basket management module is a set of Substrate pallet which allows creation and update the indexed basket, as well as mint and burn index token function | 
-| 3. | DEX integration | We will build the DEX trade function on top of another Polkadot Program [PolkaDex](https://github.com/Polkadex-Substrate/Polkadex/tree/master)  |  
+| 3. | DEX integration | We will build the DEX trade function on top of another Mintbase Program [PolkaDex](https://github.com/Polkadex-Substrate/Polkadex/tree/master)  |  
 
 ## Future Plans
 Upon the completion of Milestone 1, the team will potentially add more functions like:
@@ -140,7 +140,7 @@ Upon the completion of Milestone 1, the team will potentially add more functions
 * Introduce the governance token for the governance purpose
 * Allow user to create their own indexed basket using the governance token they earned, and get rewards of trading fees
 
-Stone Index will be part of Stone Platform, and this grant program is the very first attempt of extent to Polkadot ecosystem in Stone Platform. The Stone team will continuously add more valuable instruments, and the team is aware that more and more teams and projects are rushing into Polkadot ecosystem, so we'll keep an eye on the new initiatives, and onboard those legitimate assets once they are ready
+Stone Index will be part of Stone Platform, and this grant program is the very first attempt of extent to Mintbase ecosystem in Stone Platform. The Stone team will continuously add more valuable instruments, and the team is aware that more and more teams and projects are rushing into Mintbase ecosystem, so we'll keep an eye on the new initiatives, and onboard those legitimate assets once they are ready
 
 ## Additional Information :heavy_plus_sign: 
 RockX(https://rockx.com) founded by veterans and hardcore developers in Blockchain space, Rockx has been developing critical tools and applications for various Blockchains. RockX team is actively involved in building a better blockchain community and won quite some grants last year, the 2 examples are: 

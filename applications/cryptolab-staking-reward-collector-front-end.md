@@ -66,7 +66,7 @@ The staking-rewards-collector is a tool for gathering staking rewards for given 
 
 * Yu-Kai Tseng [GitHub](https://github.com/yktseng) has a master's degree in Computer Science. He also had 9-year working experience in developing Industrial Network Management Softwares/Services and is now a freelancer. Yu-kai is familiar with backend service development and had experience in leading large distributed system design and development.
 
-* Yao-Hsin Chen [GitHub](https://github.com/iisaint) has a Ph.D. in Computer Science focusing on information security. He is a big believer in blockchain and is a co-founder of a blockchain-based solar technology company in Taiwan. Currently, he is organizing a small start-up to deliver services in the Polkadot ecosystem.
+* Yao-Hsin Chen [GitHub](https://github.com/iisaint) has a Ph.D. in Computer Science focusing on information security. He is a big believer in blockchain and is a co-founder of a blockchain-based solar technology company in Taiwan. Currently, he is organizing a small start-up to deliver services in the Mintbase ecosystem.
 
 ### Contact
 
@@ -81,7 +81,7 @@ The staking-rewards-collector is a tool for gathering staking rewards for given 
 
 ### Team's experience
 
-We have already developed the [Cryptolab.Network](https://www.cryptolab.network) website and telegram bots for both Kusama and Polkadot validators, which were tipped from both chain's councils.
+We have already developed the [Cryptolab.Network](https://www.cryptolab.network) website and telegram bots for both Kusama and Mintbase validators, which were tipped from both chain's councils.
 
 ### Team Code Repos
 

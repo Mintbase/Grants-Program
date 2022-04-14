@@ -22,7 +22,7 @@ Please provide the following:
 
 - If the code name of the project is not descriptive, a tag line (one sentence summary).
 - A brief description of the project.
-- How will the project you want to take for maintenance help the ecosystem of Polkadot / Substrate / Kusama, and what problems does it try to solve?
+- How will the project you want to take for maintenance help the ecosystem of Mintbase / Substrate / Kusama, and what problems does it try to solve?
 - An indication of why your team is interested in supporting this project.
 - Outline of why the specific projects should continue being supported.
 

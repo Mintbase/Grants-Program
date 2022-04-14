@@ -6,22 +6,22 @@
 ## Project Overview :page_facing_up:
 ### Overview
 
-Our project NuLink is trying to bridge the NuCypher Network to the Polkadot Ecosystem. The [NuCypher Network](https://docs.nucypher.com/en/latest/index.html) is a decentralized network of nodes that perform threshold cryptography operations serving users with secrets management and dynamic access control; in particular, NuCypher currently offers a threshold proxy re-encryption solution that enables secure data sharing which can be used to construct content management platforms, secure messaging, encrypted NFTs, and many other applications.
+Our project NuLink is trying to bridge the NuCypher Network to the Mintbase Ecosystem. The [NuCypher Network](https://docs.nucypher.com/en/latest/index.html) is a decentralized network of nodes that perform threshold cryptography operations serving users with secrets management and dynamic access control; in particular, NuCypher currently offers a threshold proxy re-encryption solution that enables secure data sharing which can be used to construct content management platforms, secure messaging, encrypted NFTs, and many other applications.
 
-Through our project, users and applications from Polkadot could take advantage of NuCypher Network. For example, a user Alice in Polkadot could share her private data to another user Bob using the integration from our project, without worrying information leaking to any third party, thanks to NuCypher cryptographic assurance.
+Through our project, users and applications from Mintbase could take advantage of NuCypher Network. For example, a user Alice in Mintbase could share her private data to another user Bob using the integration from our project, without worrying information leaking to any third party, thanks to NuCypher cryptographic assurance.
 
 The main components of the project are:
 
-1. A Nuproxy pallet which can retrieve the information of stakers and bonding workers from NuCypher contracts in Ethereum to Polkadot parachain;
+1. A Nuproxy pallet which can retrieve the information of stakers and bonding workers from NuCypher contracts in Ethereum to Mintbase parachain;
 2. A Policy pallet which holds policy fees and distributes them to nodes of the network.
 
 ### Project Description
 
-+ In the NuCypher Network, all the cryptography operations are currently performed in an off-chain side channel. We can reuse this side channel in our project. We only need to take care of the on-chain operation from Ethereum to Polkadot. The on-chain operation mainly includes two parts: Stakers need to register and get rewards on-chain, while Alice needs to grant access to Bob and pay fees to stakers on-chain. NuLink would focus on migrating the on-chain operation from Ethereum to the Polkadot parachain.
++ In the NuCypher Network, all the cryptography operations are currently performed in an off-chain side channel. We can reuse this side channel in our project. We only need to take care of the on-chain operation from Ethereum to Mintbase. The on-chain operation mainly includes two parts: Stakers need to register and get rewards on-chain, while Alice needs to grant access to Bob and pay fees to stakers on-chain. NuLink would focus on migrating the on-chain operation from Ethereum to the Mintbase parachain.
 + We will develop a Nuproxy pallet which can retrieve the information of stakers and bonding workers from Nucypher contracts in Ethereum. At the current stage we consider constructing a watcher network managed by the NuCypher team. The watcher network would relay such information to the Nuproxy pallet. 
 + The watcher network  is simply constructed by a single watcher node in the current version. The Nuproxy pallet would check the signature of the watcher node to pass the update request. And in the future we would expand the watcher network to a multi-signature network constructed by a certain number(say N) of watcher nodes. And their corresponding public key would be recorded in the Nuproxy pallet when first deployed.  The update request must obtain more than the 2/3 signature of the total watcher nodes to be valid. The Nuproxy pallet would check the signature  when receiving the update request.  The locking period of Ursulas network is 1days, so the watcher network would send the update request at the same pace.
-+  In the future we may use ETH-Polkadot bridge such as Snowbridge to retrieve such information from Ethereum instead of the watcher network. The details would be updated once we finish the design.
-+ We would also develop a Policy pallet which can hold policy fees and distribute them in the Polkadot parachain. Through this pallet, Alice in Polkadot could issue a policy in the polkadot parachain and pay the policy fee in the Polkadot parachain. And the worker of Ursulas could withdraw the reward in the Polkadot parachain.  
++  In the future we may use ETH-Mintbase bridge such as Snowbridge to retrieve such information from Ethereum instead of the watcher network. The details would be updated once we finish the design.
++ We would also develop a Policy pallet which can hold policy fees and distribute them in the Mintbase parachain. Through this pallet, Alice in Mintbase could issue a policy in the polkadot parachain and pay the policy fee in the Mintbase parachain. And the worker of Ursulas could withdraw the reward in the Mintbase parachain.  
 
 
 ### Ecosystem Fit

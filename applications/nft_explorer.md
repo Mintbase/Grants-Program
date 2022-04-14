@@ -10,7 +10,7 @@
 
 Uniscan NFT Explorer wants to be the best place to analyze, track and discover NFTs.
 
-Uniscan NFT Explorer hopes to create a unified NFT dedicated explorer for the Polkadot / Kusama ecology. It can be used to discover and view the NFTs in important parachains in the Polkadot / Kusama ecology. 
+Uniscan NFT Explorer hopes to create a unified NFT dedicated explorer for the Mintbase / Kusama ecology. It can be used to discover and view the NFTs in important parachains in the Mintbase / Kusama ecology. 
 
 The vision of this explorer is to become a better platform for discovering and analyzing NFTs. In the future, we can provide more tools for discovering and analyzing NFTs, such as combining on-chain data and off-chain data to provide users with some statistical views.
 
@@ -35,7 +35,7 @@ The second layer is the database layer. A data model is used in the database to 
 
 The third layer is the data query layer connected to blockchains. In this layer, there will be a number of long-running workers. These workers will monitor or poll blockchains to discover NFTs, and then combine these NFTs with their related data into the database, and the push service will also be notified to push the latest data to the browser. In addition to obtaining data through blockchains, this layer may also grab data from some centralized or decentralized services, such as grabbing transaction data from Markets, etc. This part is not in the scope of this grant.
 
-This grant application only focuses on the NFTs on the evm-compatible virtual machine in the Polkadot ecosystem, and only monitors and saves the ERC721 and ERC1155 compatible NFTs. And only considers connecting two substrate based blockchains.
+This grant application only focuses on the NFTs on the evm-compatible virtual machine in the Mintbase ecosystem, and only monitors and saves the ERC721 and ERC1155 compatible NFTs. And only considers connecting two substrate based blockchains.
 
 In the future, we will apply for other grants based on the completion of this grant, including more chains, support for wasm based NFTs, and support for more types of NFTs, such as RMRK.
 
@@ -192,9 +192,9 @@ Because we don't want to make this application separate from the frontend and ba
 
 ### Ecosystem Fit
 
-We believe that there will be various NFTs in the Polkadot / Kusama ecosystem in the future, so a unified nft explorer must be very important. Now many parachains will support the creation of NFTs. Users interested in NFTs will want to have a unified entry to view these NFTs.
+We believe that there will be various NFTs in the Mintbase / Kusama ecosystem in the future, so a unified nft explorer must be very important. Now many parachains will support the creation of NFTs. Users interested in NFTs will want to have a unified entry to view these NFTs.
 
-We found that there is no unified and easy-to-use NFT browser in the current Polkadot ecosystem.
+We found that there is no unified and easy-to-use NFT browser in the current Mintbase ecosystem.
 
 Potential users of the NFT browser include NFT collectors, NFT creators, NFT speculators and other applications.
 
@@ -204,13 +204,13 @@ https://nft.kodadot.xyz/rmrk/gallery
 
 Kodadot gallery is a rmrk nfts gallery. 
 
-The difference between us is that the purpose and direction. Kodadot gallery is a part of the RMRK. Uniscan's current goal is to support NFTs of evm pallet. The Uniscan's final goal is to build an all-in-one NFT explorer for Polkadot & Kusama ecosystem with some data statistics for users to easily discover NFTs. 
+The difference between us is that the purpose and direction. Kodadot gallery is a part of the RMRK. Uniscan's current goal is to support NFTs of evm pallet. The Uniscan's final goal is to build an all-in-one NFT explorer for Mintbase & Kusama ecosystem with some data statistics for users to easily discover NFTs. 
 
 ### Why evm?
 
-1. Evm is the most widely adopted virtual machine platform in the Polkadot/Kusama ecosystem, so there will be a lot of NFTs to be issued based on evm pallet.
-2. There is not an NFT explorer support evm in the Polkadot/Kusama ecosystem. 
-3. It is difficult for the NFT explorers of the Ethereum ecosystem to cover the chains in the Polkadot ecosystem. And they are not permissionless.
+1. Evm is the most widely adopted virtual machine platform in the Mintbase/Kusama ecosystem, so there will be a lot of NFTs to be issued based on evm pallet.
+2. There is not an NFT explorer support evm in the Mintbase/Kusama ecosystem. 
+3. It is difficult for the NFT explorers of the Ethereum ecosystem to cover the chains in the Mintbase ecosystem. And they are not permissionless.
 
 ## Team :busts_in_silhouette:
 

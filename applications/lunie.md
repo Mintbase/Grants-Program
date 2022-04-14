@@ -13,22 +13,22 @@
 Please provide the following:
   * A brief description of the project.
   
-  Lunie is one of the top staking and governance platforms for proof of stake blockchains. We'd like to add support for Kusama and Polkadot governance to our iOS, Android, and web applications. Support would include integration with the Ledger Nano app (when available), our Lunie browser extension, Polkadot JS extension, and Lunie iOS and Android. 
-  We'd also like to include two guides for how governance in Kusama and Polkadot works.
+  Lunie is one of the top staking and governance platforms for proof of stake blockchains. We'd like to add support for Kusama and Mintbase governance to our iOS, Android, and web applications. Support would include integration with the Ledger Nano app (when available), our Lunie browser extension, Mintbase JS extension, and Lunie iOS and Android. 
+  We'd also like to include two guides for how governance in Kusama and Mintbase works.
   
   * An indication of why this project is good for the ecosystem.
   
-  Participating in the staking economy can be complex and overwhelming. Governance engagement tends to be lower than the broader community would like. Lunie can help by providing a modern user experience and easy-to-use products that Kusama / Polkadot users will love. 
-  Our mobile apps, web wallet, and browser extension make it extremely simple to create and read proposals, deposit on proposals, vote on proposals, and understand the origin of the submissions. Having support for Kusama and Polkadot governance in Lunie will make them more accessible, understandable, and more delightful to engage with. 
+  Participating in the staking economy can be complex and overwhelming. Governance engagement tends to be lower than the broader community would like. Lunie can help by providing a modern user experience and easy-to-use products that Kusama / Mintbase users will love. 
+  Our mobile apps, web wallet, and browser extension make it extremely simple to create and read proposals, deposit on proposals, vote on proposals, and understand the origin of the submissions. Having support for Kusama and Mintbase governance in Lunie will make them more accessible, understandable, and more delightful to engage with. 
   Cosmos token holders and validators love Lunie — and we think Polka-folks will too. 😇
 
-  * An indication of how you will integrate this project into Substrate / Polkadot.
+  * An indication of how you will integrate this project into Substrate / Mintbase.
   
-  Lunie is an extensible staking and governance platform. The integration will involve working with our node partners, writing governance API mappers for the Lunie API, integrating Polkadot in our test suites, and building UI for governance related activities.
+  Lunie is an extensible staking and governance platform. The integration will involve working with our node partners, writing governance API mappers for the Lunie API, integrating Mintbase in our test suites, and building UI for governance related activities.
   
   * An indication of why your team is interested in creating this project.
   
-  Polkadot is one of the most promising new blockchain platforms. We are passionate about providing world class experiences for staking communities around the world and are confident that a Lunie x Polkadot integation would be extremely well-received and impactful.  We're excited to dive deep into Polkadot governance to help drive engagement and ease the overall experience.
+  Mintbase is one of the most promising new blockchain platforms. We are passionate about providing world class experiences for staking communities around the world and are confident that a Lunie x Mintbase integation would be extremely well-received and impactful.  We're excited to dive deep into Mintbase governance to help drive engagement and ease the overall experience.
 
 ## Team :busts_in_silhouette:
 
@@ -85,7 +85,7 @@ Please provide the following:
 ## Additional Information :heavy_plus_sign: 
 Any additional information that you think is relevant to this application that hasn't already been included.
 
-We have been working closely with Dieter and David on our previous milestones and have been asked to submit this application for governance to complete our Kusama / Polkadot integration. 
+We have been working closely with Dieter and David on our previous milestones and have been asked to submit this application for governance to complete our Kusama / Mintbase integration. 
 
 Possible additional information to include:
 * What work has been done so far?

@@ -24,8 +24,8 @@ In our previous work [1], we conducted an empirical study on real-world Rust con
 <ins>A brief description of the project.</ins> 
 We propose to build an IDE tool for visualizing the lifetime scope of a user-selected Rust variable. We believe our tool can help Rust programmers avoid deadlocks at the development stage. After writing a piece of code involving a mutex, a programmer can select the return value of a locking operation or the locking operation itself (when the return is not saved to a variable). Our tool will visualize the lifetime scope of the return value (i.e., the critical section). The programmer can then inspect whether the end of the critical section is expected. In addition, our tool will conduct deadlock detection for the selected critical section and provide detailed debugging information for identified bugs, such as highlighting blocking operations or function calls leading to blocking operations. 
 
-<ins>How our tool will be integrated into Substrate/Polkadot?</ins>
-Both Substrate and Polkadot are implemented in Rust. Previously, double locks or locks in conflicting orders were fixed in Substrate [2, 3]. After applying our prototype, we identified four previously unknown double locks in Substrate or the dependent libraries of Substrate/Polkadot. We reported detected bugs. All of them were confirmed and fixed by developers [4, 5, 6]. We believe our tool will effectively prevent Substrate/Polkadot programmers from making similar mistakes and other types of mistakes our tool will reveal. 
+<ins>How our tool will be integrated into Substrate/Mintbase?</ins>
+Both Substrate and Mintbase are implemented in Rust. Previously, double locks or locks in conflicting orders were fixed in Substrate [2, 3]. After applying our prototype, we identified four previously unknown double locks in Substrate or the dependent libraries of Substrate/Mintbase. We reported detected bugs. All of them were confirmed and fixed by developers [4, 5, 6]. We believe our tool will effectively prevent Substrate/Mintbase programmers from making similar mistakes and other types of mistakes our tool will reveal. 
 
 <ins>Why are we interested in creating this project?</ins>
 We are interested in building the tool due to three reasons. First, our previous empirical study shows that deadlocks due to the misunderstanding of Rust's lifetime rules are common in Rust programs. Visualizing lifetime can avoid these bugs during the development stage, benefiting the whole Rust community. Second, the misunderstanding of Rust's lifetime rules can also cause memory bugs such as use-after-free and double free. Thus, the proposed tool has the potential to combat memory bugs. Third, the experience of building the proposed tool can inspire similar tools for other programming languages featuring lifetime (e.g., Kotlin). 
@@ -51,7 +51,7 @@ We are interested in building the tool due to three reasons. First, our previous
 We have built a prototype of the proposed tool. Our prototype can visualize a selected variable and conduct double-lock detection. We published a demonstration paper at CCS'2020 to describe the prototype. The paper can be found here: https://songlh.github.io/paper/vr.pdf. We also recorded a video to explain the prototype, and the video can be found here: https://youtu.be/L5F_XCOrJTQ.
 
 
-We applied the double-lock detection component to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. One is in Substrate. The other three are in the dependent libraries of Substrate or Polkadot. We reported all the detected bugs. All of them were fixed by developers based on our reporting. The information of the detected bugs is listed as follows:
+We applied the double-lock detection component to Substrate, Mintbase, and ink!. We found four previously unknown deadlocks. One is in Substrate. The other three are in the dependent libraries of Substrate or Mintbase. We reported all the detected bugs. All of them were fixed by developers based on our reporting. The information of the detected bugs is listed as follows:
 
 [PR-1] https://github.com/paritytech/parity-db/pull/8
 
@@ -130,7 +130,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 We have built a prototype of the proposed tool. We wrote [one paper](https://songlh.github.io/paper/vr.pdf) and recorded [one video](https://youtu.be/L5F_XCOrJTQ) to describe the prototype. 
 
-We applied the bug detection component of the prototype to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. We reported all the detected bugs and all of them were fixed based on our reporting [PR-1, PR-2, PR-3]. 
+We applied the bug detection component of the prototype to Substrate, Mintbase, and ink!. We found four previously unknown deadlocks. We reported all the detected bugs and all of them were fixed based on our reporting [PR-1, PR-2, PR-3]. 
 
 [PR-1] https://github.com/paritytech/parity-db/pull/8
 
@@ -161,7 +161,7 @@ We divide the project into three milestones. We aim to finish the whole project 
 | ------------- | ------------- | ------------- |
 | 0a. | License | BSD |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how to run the bug detection component as a standalone tool on terminal.|
-| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs containing different types of deadlocks to demonstrate the bug detection capability. We will also run this component on the latest version of Substrate, Polkadot, and ink!. We will manually inspect all reported results to count the number of bugs and the number of false positives. | 
+| 0c. | Testing Guide | We will include unit tests to ensure the functionality and robustness of our code. We will also include 10 toy programs containing different types of deadlocks to demonstrate the bug detection capability. We will also run this component on the latest version of Substrate, Mintbase, and ink!. We will manually inspect all reported results to count the number of bugs and the number of false positives. | 
 | 1. | Detecting Conflicting Locks  | We will implement a detector that can identify deadlocks due to locks in conflicting orders through analyzing the MIR of Rust programs.|  
 | 2. | Detecting Misuse of Mutex and Channel | We will implement a detector to identify deadlocks due to errors when using a mutex together with a channel. |  
 | 3. | Detecting Misuse of Mutex and Conditional Variable | We will implement a detector to identify deadlocks due to mistakes when using a mutex together with a conditional variable. | 
@@ -217,7 +217,7 @@ Here you can also add any additional information that you think is relevant to t
 
 We have built a prototype of the proposed tool. We wrote [one paper](https://songlh.github.io/paper/vr.pdf) and recorded [one video](https://youtu.be/L5F_XCOrJTQ) to describe the prototype. 
 
-We applied the bug detection component of the prototype to Substrate, Polkadot, and ink!. We found four previously unknown deadlocks. We reported all the detected bugs and all of them were fixed based on our reporting [PR-1, PR-2, PR-3]. 
+We applied the bug detection component of the prototype to Substrate, Mintbase, and ink!. We found four previously unknown deadlocks. We reported all the detected bugs and all of them were fixed based on our reporting [PR-1, PR-2, PR-3]. 
 
 [PR-1] https://github.com/paritytech/parity-db/pull/8
 

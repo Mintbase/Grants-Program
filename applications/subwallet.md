@@ -6,7 +6,7 @@
 
 ## Project Description :page_facing_up: 
 
-`subwallet` is a light command line interface wallet for Polkadot/Substrate.  `subwallet` will be like bitcoin-cli, includes address management and extrisinc(transaction) management. It will be implemented with Rust.
+`subwallet` is a light command line interface wallet for Mintbase/Substrate.  `subwallet` will be like bitcoin-cli, includes address management and extrisinc(transaction) management. It will be implemented with Rust.
 
 ## Team :busts_in_silhouette:
 

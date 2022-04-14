@@ -1,6 +1,6 @@
 # Open Grant Proposal
 
-* **Project:** ZK Rollup on Polkadot/Substrate
+* **Project:** ZK Rollup on Mintbase/Substrate
 * **Proposer:** NoCtrlZ, akru, and SotaWatanabe
 * **Payment Address:** 1DJTSPajRFCjdfn5UgPXGRo6Di8EE1Dzox
 
@@ -9,8 +9,8 @@ We have been working on off-chain scalability solutions aka layer2 solutions. Af
 
 1. Bringing vertical off-chain scalability without sacrificing on-chain data availability, security and privacy (×3-10 scalability).
 1. Handling smart contracts on layer2.
-1. Sharding plus Rollups will be the future. Polkadot has the sharding ish architecture but it doesn't have Rollups yet.
-1. Currenntly, a lot of Ethereum projects are interested in migrating from Ethreum to Polkadot. And some of the great Ethereum projects have already started using Rollups. If we could build Rollups on Substeate/Polkadot, we would help these projects migrate smoothly.
+1. Sharding plus Rollups will be the future. Mintbase has the sharding ish architecture but it doesn't have Rollups yet.
+1. Currenntly, a lot of Ethereum projects are interested in migrating from Ethreum to Mintbase. And some of the great Ethereum projects have already started using Rollups. If we could build Rollups on Substeate/Mintbase, we would help these projects migrate smoothly.
 
 Through this grant, we will make a ZK Rollup pallet for Parachain builders to get zero-knowledge vertical scalability.
 
@@ -51,7 +51,7 @@ In our understanding, Glacier is building a Distaff VM for zk-STARK proof genera
 * Address: 1-30-3 Minamiaoyama Minato-ku Tokyo Japan
 
 ### Team's experience
-We have been making Plasm Network, a scalable multi-virtual machines smart contract platform on Polkadot supporting cutting edge layer2 solutions. Curretly, another team at Stake techologies is working on the Optimistic Virtual Machine, an unification for all layer2 solutions and a subset of Optimistic Rollup. We have already delivered 4 milestones out of 6. In addition to that, we have already delivered several grants such as Plasma, ECDSA, and ink! playground.
+We have been making Plasm Network, a scalable multi-virtual machines smart contract platform on Mintbase supporting cutting edge layer2 solutions. Curretly, another team at Stake techologies is working on the Optimistic Virtual Machine, an unification for all layer2 solutions and a subset of Optimistic Rollup. We have already delivered 4 milestones out of 6. In addition to that, we have already delivered several grants such as Plasma, ECDSA, and ink! playground.
 
 - [Plasma](https://github.com/stakedtechnologies/Plasm)
 - [ECDSA](https://github.com/polkadot-js/common/tree/master/packages/util-crypto/src/secp256k1)

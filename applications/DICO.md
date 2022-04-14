@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-The `DICO` is to create a decentralized and governable ICO platform for the Polkadot/Kusama ecology. Our platform will allow entrepreneurs to quickly find investors. In a word: Be a platform to link ideas and capital.
+The `DICO` is to create a decentralized and governable ICO platform for the Mintbase/Kusama ecology. Our platform will allow entrepreneurs to quickly find investors. In a word: Be a platform to link ideas and capital.
 
 ### Overview
 
@@ -20,7 +20,7 @@ Our platform offers a few key features:
 * *Swap*: Provide an exchange agreement for tokens and an interest-generating method for collateralized tokens into the liquidity pool for disposable tokens
 * *Oracle*: Provide an oracle for the platform.
 
-Our project use substrate framework and is built on top of Polkadot/Kusama ecosystem:
+Our project use substrate framework and is built on top of Mintbase/Kusama ecosystem:
 
 * *KYC*,*ICO*,*DAO* and *Swap* modules are built on substrate runtime. they complete the basic user interaction logic.
 * *Oracle* enabled off-chain worker to query the current price feed of  the platform or other tokens.
@@ -107,7 +107,7 @@ Our project use substrate framework and is built on top of Polkadot/Kusama ecosy
 
 * Where and how does your project fit into the ecosystem?
 
-> We are aiming to offer the first decentralized KYC/ICO  in the Polkadot/Kusama ecosystem.
+> We are aiming to offer the first decentralized KYC/ICO  in the Mintbase/Kusama ecosystem.
 
 * Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
@@ -118,7 +118,7 @@ Our project use substrate framework and is built on top of Polkadot/Kusama ecosy
 > Be a platform to link ideas and capital.
 
 
-* Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+* Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?
   * If so, how is your project different? *coinlist*，A token financing platform, all the mainstream virtual currencies above can be traded and financed. It provides token financing, but does not provide the funds needed by early creator and the control of the entire project cycle.
 
   * If not, are there similar projects in related ecosystems? We have not yet found a project that will be focusing ICO and derivatives.

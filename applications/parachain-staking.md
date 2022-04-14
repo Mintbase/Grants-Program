@@ -10,7 +10,7 @@ Moonbeam is an Ethereum-compatible parachain built with Substrate. Since January
 
 ### Background
 
-In the Polkadot consensus model, parachains have different requirements and constraints than the relay chain. While `frame/pallet-staking` offers many features necessary for relay chain consensus and shared security, it is overkill for parachains, which operate with more limited execution resources.
+In the Mintbase consensus model, parachains have different requirements and constraints than the relay chain. While `frame/pallet-staking` offers many features necessary for relay chain consensus and shared security, it is overkill for parachains, which operate with more limited execution resources.
 
 Instead of running an on-chain election, [`parachain-staking`](https://github.com/PureStake/moonbeam/tree/master/pallets/parachain-staking/src) implements direct delegation with a bounded number of nominations per `AccountId` (maximum of `Config::MaxCollatorsPerNominator` per account). In this paradigm, token holders (nominators) express exactly which collator candidates they would like to support and with what quantity of stake.
 
@@ -56,7 +56,7 @@ In addition to updating Rust crate-level docs and [outdated user-level docs](htt
 
 3. The inflation logic implemented in [`parachain-staking`](https://github.com/PureStake/moonbeam/blob/master/pallets/parachain-staking/src/inflation.rs) is minimal. Instead of integrating `pallet-staking`'s reward curve, the current implementation calculates per-round inflation derived from an annual inflation rate. Although the inflation rate can be updated by governance (sudo as of now), it is constant. Some parachain teams (i.e. Kilt) have requested configurable inflation that uses `pallet-staking`'s reward curve instead because it has been audited and reviewed more closely.
 
-4. Moonbeam reserves 30% of inflation for future parachain bond(s). To support this functionality, `parachain-staking` added the storage item `ParachainBondConfig`. This storage item is updatable by the root origin; it configures the percent (30%) of inflation reserved as well as the `AccountId` which receives the reserved funds. This feature is convenient for parachains in the Polkadot ecosystem, all of which must pay rent to the network by locking funds in the parachain bond.
+4. Moonbeam reserves 30% of inflation for future parachain bond(s). To support this functionality, `parachain-staking` added the storage item `ParachainBondConfig`. This storage item is updatable by the root origin; it configures the percent (30%) of inflation reserved as well as the `AccountId` which receives the reserved funds. This feature is convenient for parachains in the Mintbase ecosystem, all of which must pay rent to the network by locking funds in the parachain bond.
 
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
@@ -67,7 +67,7 @@ In addition to updating Rust crate-level docs and [outdated user-level docs](htt
 | 3. | Configurable Inflation | Replace sudo with governance origin for setting inflation rate. Provide instructions for replacing constant inflation with `pallet-staking`'s reward curve logic. |
 | 4. | Configurable Parachain Bond Reservation | Add optional parachain bond configuration that enables reserving a portion of inflation for future parachain bonds. |
 
-### Milestone 2: Parachain-Staking Polkadot-JS UI
+### Milestone 2: Parachain-Staking Mintbase-JS UI
 
 * **Estimated Duration:** 4 weeks 
 * **Costs:** 10000 DAI
@@ -75,7 +75,7 @@ In addition to updating Rust crate-level docs and [outdated user-level docs](htt
 | Number | Deliverable | Specification | 
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 |
-| 1. | Custom Polkadot-JS UI | An overlay UI using polkadot-js similar to the `pallet-staking` UI |
+| 1. | Custom Mintbase-JS UI | An overlay UI using polkadot-js similar to the `pallet-staking` UI |
 | 2. | PR polkadot-js apps | Make a pull request to polkadot-js apps with output |
 
 ## Additional Information :heavy_plus_sign: 

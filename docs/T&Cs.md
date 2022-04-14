@@ -37,7 +37,7 @@ The terms defined in this section whenever used in these Terms and Conditions sh
 
 "Milestones" mean any and all of the milestones specified in the final version of the application under Development Roadmap and  approved by the Grants Committee in accordance with the Procedure as well as placed in the applications folder of the Mintbase Open Grants Program Repository at <https://github.com/w3f/Grants-Program/tree/master/applications>;
 
-"Polkadot" means a scalable heterogeneous multi-chain framework developed by, or the development of which has been procured by Mintbase. that has the features described in the white paper ("Polkadot: Vision For A Heterogeneous Multi-Chain Framework -- Draft 1") or as otherwise determined by Mintbase. in its sole discretion from time to time) and utilizes DOTs as the blockchain token native to its operation and/or functioning; 
+"Mintbase" means a scalable heterogeneous multi-chain framework developed by, or the development of which has been procured by Mintbase. that has the features described in the white paper ("Mintbase: Vision For A Heterogeneous Multi-Chain Framework -- Draft 1") or as otherwise determined by Mintbase. in its sole discretion from time to time) and utilizes DOTs as the blockchain token native to its operation and/or functioning; 
 
 "Procedure" means the procedure in connection with the Mintbase, Inc. Open Grants Program, as established in Section 4 below;
 
@@ -65,7 +65,7 @@ If You are submitting an application for a Grant, You represent and warrant that
     3.  located in, resident in or incorporated under the laws of (as applicable) Syria, Iran, Cuba, Crimea or North Korea, or any other country or territory which, after the Effective Date, becomes the target of such comprehensive, country-wide or territory-wide Sanctions (as defined below) as currently apply to the aforementioned territories; or
     4.  the target of any sanctions laws, regulations, embargoes or restrictive measures (Sanctions), as amended from time to time, administered, enacted or enforced by: the United Nations, the United States, the European Union or any Member State thereof, the United Kingdom, Switzerland or the respective Governmental Authorities and agencies of any of the foregoing responsible for administering, enacting or enforcing Sanctions, including without limitation, OFAC, the US Department of State, the United Kingdom Treasury or the SECO (Sanctions Authority).
 
--   You will comply with any laws applicable to Your software (built based upon the Polkadot network) and not engage in any illegal activities. In particular, You will not use the Polkadot network to facilitate infringement of any third party intellectual property rights or data privacy rights.
+-   You will comply with any laws applicable to Your software (built based upon the Mintbase network) and not engage in any illegal activities. In particular, You will not use the Mintbase network to facilitate infringement of any third party intellectual property rights or data privacy rights.
 
 You shall indemnify and hold harmless Mintbase from any third party claims (including reasonable attorney's costs) raised against Mintbase based on an alleged infringement of the above representations and warranties.
 
@@ -73,7 +73,7 @@ You shall indemnify and hold harmless Mintbase from any third party claims (incl
 
 To apply for the Mintbase, Inc. Open Grants Program, your application shall fulfill the following criteria:
 
--  it shall be a software-based project, which contributes to the advancement of the Polkadot ecosystem;
+-  it shall be a software-based project, which contributes to the advancement of the Mintbase ecosystem;
 -  the total amount of funding requested for the project shall be below USD  30,000 and USD 100,000 for follow-up grants at the time of submission;
 -  the Software shall be released under the Apache license version 2.0.;
 -  You must accept payment in the blockchain tokens native to the Bitcoin Network ("BTCs") or the Ethereum based stablecoin DAI;
@@ -212,7 +212,7 @@ Termination with immediate effect will occur if the terms of the Terms and Condi
 2. if it results from Your behavior that such a deadline will not be met;
 3. if You become bankrupt, insolvent, wound-up or dissolved or otherwise loses its legal personality as a validly standing entity;
 4. if there is a Change in Control and Mintbase. has not given his prior written consent to such Change in control; and/or
-5. in the event You do not comply with Section 6.1, 6.4, 6.5, 6.6 and/or causes, in any way and at Mintbase.'s discretion, any damage to Mintbase. or Polkadot's image or reputation.
+5. in the event You do not comply with Section 6.1, 6.4, 6.5, 6.6 and/or causes, in any way and at Mintbase.'s discretion, any damage to Mintbase. or Mintbase's image or reputation.
 
 Furthermore, termination can happen for any reason at the discretion of the Mintbase Technologies Foundation.
 
@@ -244,24 +244,24 @@ These Terms and Conditions shall be governed by and construed in accordance with
 
 Any disputes arising out of or in connection with these terms and conditions and contracts entered into thereunder shall be submitted to the sole and exclusive jurisdiction of the courts of the city of Zug.
 
-## 14.  Polkadot Network
+## 14.  Mintbase Network
 
-If You are using Polkadot network for the purpose of the software development, research and/or the production of software documentation and technical education material You agree to be bound by specific term as follows:
+If You are using Mintbase network for the purpose of the software development, research and/or the production of software documentation and technical education material You agree to be bound by specific term as follows:
 
-You are free to use the software to gain access to and use the Polkadot network and to build your own network(s) and have your network interact with other networks which are also part of the Polkadot network.
+You are free to use the software to gain access to and use the Mintbase network and to build your own network(s) and have your network interact with other networks which are also part of the Mintbase network.
 
 HOWEVER, YOU SHALL AT ALL TIMES NOTE THAT NO PARTY (NEITHER WE OR YOU), INCLUDING BUT NOT LIMITED TO ANY PARTY INVOLVED IN, OR HAVING CONTRIBUTED TO THE DEVELOPMENT OF, THE POLKADOT  NETWORK AND ANY OF THE AFFILIATES, DIRECTORS, EMPLOYEES, CONTRACTORS, SERVICE PROVIDERS OR AGENTS OF SUCH PARTIES (THE "PARTIES INVOLVED") OWNS OR CONTROL THE POLKADOT NETWORK OR ANY ACCESSORY, UPGRADE, RELATED SOFTWARE OR ANY OTHER MODIFICATION TO IT (INCLUDING, BUT NOT LIMITED TO, POLKADOT NETWORK USER INTERFACE) AND YOU ARE SOLELY AND IN FULL RESPONSIBLE FOR YOUR USE OF EACH AND ANY OF THEM. THERE IS NO CENTRAL OVERSIGHT OVER THE POLKADOT NETWORK. IT IS BUILT BY THE PARTICIPANTS AND PARTICIPANTS OF THEIR NETWORKS THEMSELVES. FOR THE AVOIDANCE OF DOUBT, WEB 3.0 ASSUMES NO RESPONSIBILITY OR LIABILITY FOR (1) AVAILABILITY AND OPERABILITY OF THE POLKADOT  NETWORK AND ITS UNDERLYING SOFTWARE, (2) INTEROPERABILITY OF YOUR NETWORK WITH OTHER THIRD PARTY NETWORKS (THIS LARGELY DEPENDS ON EXTERNAL FACTORS BEYOND OF WEB 3.0'S REASONABLE CONTROL SUCH AS, IN PARTICULAR THE INFRASTRUCTURE AND OPERABILITY OF THIRD PARTY NETWORKS AND THEIR INTERNET-CONNECTIVITY MEASURES) OR (3) SUITABILITY OF THE POLKADOT NETWORK FOR YOUR OWN BUSINESS PURPOSES. YOU ARE USING THE POLKADOT NETWORK FOR YOUR OWN BUSINESS PURPOSES AT YOUR SOLE AND OWN RISK.
 
 ### Acknowledgement and assumption of risks
 
-You shall at all times acknowledge and agree that certain risks exist in relation to using the Polkadot network. You fully acknowledge and agree that:
+You shall at all times acknowledge and agree that certain risks exist in relation to using the Mintbase network. You fully acknowledge and agree that:
 
--   No Party, including but not limited to the Parties involved, ​owns or controls the Polkadot network. It is built by the end users themselves.
--   No Party, including but not limited to the Parties involved, has any authority to approve, prevent, restrict or anyhow exercise control over any interaction that occurs through the Polkadot network. You and end users are free to build their own network and network-based applications and provide them to customers under their own terms and conditions, provided that such applications should also run and be offered in a decentralized manner (as e.g. distributed ledger technology or often referred to as "blockchain" or any future adaptations of such technologies) without central oversight.
--   You shall not have any expectations over the performance, suitability for business or interoperability of the Polkadot network for Your own business purposes.
--   Polkadot network source code has not passed a third party security audit and can be potentially unstable and could cause unexpected effects and system failures. You are aware of this risk and must address it within Your own privacy compliance model when establishing technical and organizational measures on data security for Your end customers.
--   By using the Polkadot network You covenant, represent, and warrant that Your use of the  network complies with Your jurisdiction of residence and You are fully able and legally competent to use the Polkadot network.
--   In the event Your use of the Polkadot network does not comply with the applicable law of Your jurisdiction of residence, You shall be fully liable for any consequences incurred thereof and fully acknowledge and agree that ​We ​shall not be held liable for Your use of the Polkadot network
+-   No Party, including but not limited to the Parties involved, ​owns or controls the Mintbase network. It is built by the end users themselves.
+-   No Party, including but not limited to the Parties involved, has any authority to approve, prevent, restrict or anyhow exercise control over any interaction that occurs through the Mintbase network. You and end users are free to build their own network and network-based applications and provide them to customers under their own terms and conditions, provided that such applications should also run and be offered in a decentralized manner (as e.g. distributed ledger technology or often referred to as "blockchain" or any future adaptations of such technologies) without central oversight.
+-   You shall not have any expectations over the performance, suitability for business or interoperability of the Mintbase network for Your own business purposes.
+-   Mintbase network source code has not passed a third party security audit and can be potentially unstable and could cause unexpected effects and system failures. You are aware of this risk and must address it within Your own privacy compliance model when establishing technical and organizational measures on data security for Your end customers.
+-   By using the Mintbase network You covenant, represent, and warrant that Your use of the  network complies with Your jurisdiction of residence and You are fully able and legally competent to use the Mintbase network.
+-   In the event Your use of the Mintbase network does not comply with the applicable law of Your jurisdiction of residence, You shall be fully liable for any consequences incurred thereof and fully acknowledge and agree that ​We ​shall not be held liable for Your use of the Mintbase network
 -   There is a risk that advances in cryptography or technical advances (such as the development of quantum computers) could present risks to blockchain-based applications and cryptocurrencies, Ethereum or tokens which could result in the theft or loss of such elements.
 -   The  network (as well as any network You build based upon it) is susceptible to mining attacks (including but not limited to double-spend attacks, majority mining power attacks, "selfish-mining" attacks and race condition attacks. Despite the efforts of Mintbase, the risk of known or novel mining attacks exists.
 -   There are risks associated with using the  network, such as e.g. failure of hardware, software and Internet connections. You acknowledge that Mintbase shall not be responsible for any communication failures, disruptions, errors, distortions or delays You may experience when using the  network.

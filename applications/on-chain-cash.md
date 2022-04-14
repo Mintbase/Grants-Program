@@ -9,7 +9,7 @@
 
 ### Overview
 
-Bela Supernova and BitIns propose to develop a universal payment service for Polkadot ecosystem that supports private and confidential payments in relevant crypto currencies as well as real-time on-ramp for cash payments, that can convert fiat in to crypto “on the fly”.
+Bela Supernova and BitIns propose to develop a universal payment service for Mintbase ecosystem that supports private and confidential payments in relevant crypto currencies as well as real-time on-ramp for cash payments, that can convert fiat in to crypto “on the fly”.
 
 On the current market a user has to set up his personal crypto wallet or even a few for buying and using crypto currencies or to set up smart-contracts in different blockchains. This seems too complicated for non-crypto inspired users, that hinders the mass development of crypto-assured services and also brings overheads for multiple transaction fees.
 
@@ -43,7 +43,7 @@ Under this project the main idea of the service will be redeveloped in a confide
 
 The new proposed smart-contract will become an on-ramp for fiat currencies: a native or non-native token of choice could be issued/exchanged for fiat within a coupon redemption. Some of anticipated ways of fiat-to-crypto exchange:
 - issue a native stablecoin upon coupon redemption;
-- on-line exchange of the coupon value for native Polkadot or parachain tokens (e.g. DOT, LINK, COMP etc.) or stablecoins like aUSD using Polkadex or other DEX projects in the ecosystem;
+- on-line exchange of the coupon value for native Mintbase or parachain tokens (e.g. DOT, LINK, COMP etc.) or stablecoins like aUSD using Polkadex or other DEX projects in the ecosystem;
 - on-line exchange of the coupon value for native assets from other blockchains like BTC using 3rd party EX like Kraken.
 
 As the token natively represents the bridge from fiat to crypto it can also enable an integration with a DeFi/CeFi environment on top and development of the same further down the road: further parts of the project include developing of a payment widget, that can make a transaction to a target wallet with a crypto-currency of choice without even issuing a personal wallet – straight coupon-to-crypto payments.

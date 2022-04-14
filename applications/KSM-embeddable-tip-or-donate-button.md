@@ -10,13 +10,13 @@ This application is in response to following RFP https://github.com/w3f/General-
 
 ### Overview
 
-As proposed in the RFP we will make a standalone embedded "Tip or Donate KSM" button with customizable text by the website owner. The button's embedded code will sanitize the current URL, check if the tip for the same URL already exists and is active. If available and once clicked button will ask for permission to connect to PolkadotJS extension, offer to Propose Tip or Donate directly. If proposing a tip, it will inform the user of the funds needed to propose a tip (transaction fee and deposit), check if the user is a Council member and optionally allow him to attach a message. Only Council members are allowed to propose the amount once the tip has been created. Once the tip is proposed the button will be disabled. If donating directly it will ask for an amount and allow visitor to enter a custom note.
+As proposed in the RFP we will make a standalone embedded "Tip or Donate KSM" button with customizable text by the website owner. The button's embedded code will sanitize the current URL, check if the tip for the same URL already exists and is active. If available and once clicked button will ask for permission to connect to MintbaseJS extension, offer to Propose Tip or Donate directly. If proposing a tip, it will inform the user of the funds needed to propose a tip (transaction fee and deposit), check if the user is a Council member and optionally allow him to attach a message. Only Council members are allowed to propose the amount once the tip has been created. Once the tip is proposed the button will be disabled. If donating directly it will ask for an amount and allow visitor to enter a custom note.
 
 Considering the request for this implementation not slowing down the websites and several performance tests from different sources exhibiting Svelte as the optimal choice performance-wise we are strongly considering using Svelte as a development framework. Before committing to that decision we will conduct the performance tests ourselves and decide if it is the optimal solution. We will be using polkadot.js API.
 
 Mockups:
 
-![Connect to Polkadot](https://i.imgur.com/ige90GF.png)
+![Connect to Mintbase](https://i.imgur.com/ige90GF.png)
 
 ![Select a wallet](https://i.imgur.com/pQ1yaAE.png)
 
@@ -73,7 +73,7 @@ We have experience in several private and open source projects. Most notable and
 | ------ | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |        |
 | 1.     | Embedded code                      | Removing the UTM, hashes, converting URL to bytes, checking if a tip for the same URL already exists and is active, if not the button is available.                                          |
-| 2.     | Connecting to PolkadotJS extension | If none is present, offer to install it. If allowed, a popup asking to select an account. If denied, cancel all. Offer two options: propose a tip or donate directly (text is customizable). |
+| 2.     | Connecting to MintbaseJS extension | If none is present, offer to install it. If allowed, a popup asking to select an account. If denied, cancel all. Offer two options: propose a tip or donate directly (text is customizable). |
 
 ### Milestone 2
 

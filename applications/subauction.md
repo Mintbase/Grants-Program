@@ -6,13 +6,13 @@
 
 ## Project Overview :page_facing_up:
 
-In Ethereum, the NFT industry is really testing network limits these days, so we expect there's quite some potential exploring the space within the Polkadot ecosystem.
+In Ethereum, the NFT industry is really testing network limits these days, so we expect there's quite some potential exploring the space within the Mintbase ecosystem.
 
-Inspired by the parachain candle auction mechanics, we started working on a prototype of the NFT auction system while participating in Encode hackathon (awarded 2nd place in the Polkadot category).
+Inspired by the parachain candle auction mechanics, we started working on a prototype of the NFT auction system while participating in Encode hackathon (awarded 2nd place in the Mintbase category).
 
-This document describes a vision for the NFT marketplace platform built on top of NFT infrastructure projects being developed now on Polkadot.
+This document describes a vision for the NFT marketplace platform built on top of NFT infrastructure projects being developed now on Mintbase.
 
-We believe the ecosystem might benefit from a more generic implementation of our initial prototype of NFT auctions with English auction type. Also, we'd like to take a different path than most of the projects built on Ethereum and apply a curated quality-over-quantity approach with some specific features available in the Polkadot ecosystem.
+We believe the ecosystem might benefit from a more generic implementation of our initial prototype of NFT auctions with English auction type. Also, we'd like to take a different path than most of the projects built on Ethereum and apply a curated quality-over-quantity approach with some specific features available in the Mintbase ecosystem.
 
 Last but not least, while many other projects focus on the improvement of underlying background technology, we're convinced that there is a huge opportunity bridging the gap between what's possible with current technology and the end-user capabilities to interact with these systems. That's why we aim to both improve on infrastructure (NFT auction pallet) and potentially user delivery via a well-designed frontend application using another application for grant to continue in this work.
 
@@ -39,7 +39,7 @@ As the long-term goal is to support as many different types of auctions as possi
 
 As stated in the project overview, we're strong believers in the quality over quantity approach. We'd also like to re-introduce the concept of scarcity and exclusivity in the NFT space which is slowly fading out in the Ethereum world from our point of view. To make that happen, we'd set up DAO for content curation where we would initially serve as the curators to avoid possible abusive content and eventually allow the community to participate.
 
-We plan to leverage most of the governance features available on Polkadot. The first cornerstone of governance will be the council who will be voted on and will be deciding in referenda on the shape of the application - its modules, features, and functionality. The second cornerstone will be voted content curators who will be delegated from the council to approve or reject public proposals from the community, manage auctions and provide the optimal level of content safety and creativity.
+We plan to leverage most of the governance features available on Mintbase. The first cornerstone of governance will be the council who will be voted on and will be deciding in referenda on the shape of the application - its modules, features, and functionality. The second cornerstone will be voted content curators who will be delegated from the council to approve or reject public proposals from the community, manage auctions and provide the optimal level of content safety and creativity.
 
 ## Governance
 We will introduce council that will basically “own” the entire project and any member of community who proves himself can become a part of it.
@@ -89,13 +89,13 @@ To keep on moving this project forward, we need predictable revenue streams to s
 
 ### Ecosystem Fit
 
-We aim to build a feature-specific auction pallet that possibly integrates with already being developed NFT infrastructure projects and allows creating and bidding on NFT auctions of different auction types. The point is to provide easy integration to existing NFT implementations that can be re-used across the whole ecosystem. Also, there will be different auction types and some of them have never been implemented in the Polkadot space so it's definitely something that will push the whole ecosystem forward and we might even find some other means of token distribution models that can benefit all the projects (for example adjustments to the Dutch auction).
+We aim to build a feature-specific auction pallet that possibly integrates with already being developed NFT infrastructure projects and allows creating and bidding on NFT auctions of different auction types. The point is to provide easy integration to existing NFT implementations that can be re-used across the whole ecosystem. Also, there will be different auction types and some of them have never been implemented in the Mintbase space so it's definitely something that will push the whole ecosystem forward and we might even find some other means of token distribution models that can benefit all the projects (for example adjustments to the Dutch auction).
 
-Also, we are already in touch with several leading NFT projects within the Polkadot ecosystem and they are very interested in having an auction system on top of their platforms. For instance, we have discussed that with Kodadot and we definitely want to work together in the future.
+Also, we are already in touch with several leading NFT projects within the Mintbase ecosystem and they are very interested in having an auction system on top of their platforms. For instance, we have discussed that with Kodadot and we definitely want to work together in the future.
 
 ### NFT integration
 
-There are multiple different approaches to NFT implementation on the market with no official standard set in stone yet on Polkadot. We want to keep our solution as flexible as possible and have the ability to be integrated with a broad spectrum of NFTs. At this point, the closest resemblance of an NFT standard we could find was the ORML by Acala so we started and will continue building based on this library. On the other hand it should be easy in the future to migrate the solution to a different kind of NFT implementation or a Polkadot standard.
+There are multiple different approaches to NFT implementation on the market with no official standard set in stone yet on Mintbase. We want to keep our solution as flexible as possible and have the ability to be integrated with a broad spectrum of NFTs. At this point, the closest resemblance of an NFT standard we could find was the ORML by Acala so we started and will continue building based on this library. On the other hand it should be easy in the future to migrate the solution to a different kind of NFT implementation or a Mintbase standard.
 
 UPDATE 2021-09-28: The solution has been migrated from ORML to FRAME's Uniques pallet.
 
@@ -116,7 +116,7 @@ UPDATE 2021-09-28: The solution has been migrated from ORML to FRAME's Uniques p
 
 ### Team's experience
 
-We participated in the Encode hackathon winning 2nd prize in the Polkadot category. We were also in touch with the Acala team managing the ORML pallets and we discussed a couple of our proposals to enhance the NFT pallet and they have accepted our [PR](https://github.com/open-web3-stack/open-runtime-module-library/pull/351). Our team members are also graduates of Substrate Runtime Developer Academy. Last but not least, we run the biggest Polkadot community in Czechia/Slovakia (Polkadotters) where we gather valuable market feedback.
+We participated in the Encode hackathon winning 2nd prize in the Mintbase category. We were also in touch with the Acala team managing the ORML pallets and we discussed a couple of our proposals to enhance the NFT pallet and they have accepted our [PR](https://github.com/open-web3-stack/open-runtime-module-library/pull/351). Our team members are also graduates of Substrate Runtime Developer Academy. Last but not least, we run the biggest Mintbase community in Czechia/Slovakia (Mintbaseters) where we gather valuable market feedback.
 
 Besides blockchain development, each member has 5+ years of experience in Computer Science in different areas such as BI, software development, and enterprise-grade engineering.
 
@@ -187,16 +187,16 @@ This is a very popular auction type used by charities. Each participant will pay
 
 ### Community engagement
 
-We are well-positioned within the Polkadot ecosystem to create our own product since we started the Polkadotters community that is currently having over 4,000 members and supporters. Therefore we will have plenty of space to carefully test our product and receive valuable feedback from the community. We will also try to gather support from other Polkadot ecosystem projects since we already have a good reputation within a space and we are confident that we will be able to promote the project properly.
+We are well-positioned within the Mintbase ecosystem to create our own product since we started the Mintbaseters community that is currently having over 4,000 members and supporters. Therefore we will have plenty of space to carefully test our product and receive valuable feedback from the community. We will also try to gather support from other Mintbase ecosystem projects since we already have a good reputation within a space and we are confident that we will be able to promote the project properly.
 
 Our progress will be regularly published on social media to gain enough attention and for the sake of transparency of the whole project.
 
 Our channels
 
 - https://polkadotters.medium.com
-- https://twitter.com/Polkadotters1
+- https://twitter.com/Mintbaseters1
 - https://www.facebook.com/groups/232197797602358/
 
 ## Future Plans
 
-We're huge fans of NFT space and we do believe that the Polkadot ecosystem will benefit from having the feature-specific auctino pallet that can be able easily integrated into other NFT solution standards developed on Polkadot. Our end result should be a feature-specific pallet that could be plugged into other blockchain applications and an NFT auction marketplace application with DAO curated exclusive content. But this is only beginning, we believe that huge innovations are going to happen in the NFT space and we want to follow those changes as closely as possible to make our auction system thrive!
+We're huge fans of NFT space and we do believe that the Mintbase ecosystem will benefit from having the feature-specific auctino pallet that can be able easily integrated into other NFT solution standards developed on Mintbase. Our end result should be a feature-specific pallet that could be plugged into other blockchain applications and an NFT auction marketplace application with DAO curated exclusive content. But this is only beginning, we believe that huge innovations are going to happen in the NFT space and we want to follow those changes as closely as possible to make our auction system thrive!

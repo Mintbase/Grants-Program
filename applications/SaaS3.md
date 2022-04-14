@@ -24,9 +24,9 @@ Therefore, such layer-2 off-chain scaling is not only for computation price but 
 The SaaS3 project aims to decentralize computational providers and mint income-NFT to earn profits.
 The API creators could earn an income fee by holding those iNFT or selling them on NFT marketplace.  
 As a result, the SaaS3 project will bridge web2 APIs to web3 dAPIs to flourish web3 ecosystem and achieve creator economy in a decentralized and trust-minimized way. 
-This grant will allow us to develop several pallets to implement a parachain with substrate on Polkadot / Kusama. 
+This grant will allow us to develop several pallets to implement a parachain with substrate on Mintbase / Kusama. 
 
-SaaS3 as a part of Polkadot / Kusama / web 3 Ecosystem and has the following properties:
+SaaS3 as a part of Mintbase / Kusama / web 3 Ecosystem and has the following properties:
 
   - Bridge - Monetize abundant web2 projects as decentralized web3 services in a very short time with extremely cheap cost. 
   - No Middleman - Cheap fee for dAPI users or Dapp developers compare with centralized SaaS products.
@@ -56,7 +56,7 @@ Decentralized docker runtime (dRuntime) is built on miner network which aims to 
 
 - Miner security - To qualify, a miner or node is required to stake a particular amount of tokens as collateral (POS). Each request for API will trigger an on-chain zero-knowledge proof check (zkc), which determines whether the node is rewarded or punished. 
 
-- API security - Similar to API3 insurance, API security is achieved via Delegation Proof of Staking (DPoS). Particularly, the API creator is required to stake an amount of tokens at the time of submitting the dAPI deployment. The amount is set at a default value in their first submission and is adjusted in proportion to the service income. Besides, the token holders are able to stake on the dAPIs as a collateral and share profits with API creator. The mechanism is established following the same vein of the concepts in Polkadot / Kusama, including staking, nomination, and validation.
+- API security - Similar to API3 insurance, API security is achieved via Delegation Proof of Staking (DPoS). Particularly, the API creator is required to stake an amount of tokens at the time of submitting the dAPI deployment. The amount is set at a default value in their first submission and is adjusted in proportion to the service income. Besides, the token holders are able to stake on the dAPIs as a collateral and share profits with API creator. The mechanism is established following the same vein of the concepts in Mintbase / Kusama, including staking, nomination, and validation.
  
 The process described above establishes a de facto safeguard mechanism, sheltering dAPI users from potential malfunctions of the computational node or the API service, and when available providing remedies in compensation. 
 
@@ -90,7 +90,7 @@ Regarding the miner network, we deploy on-chain zero knowledge check (zkc) and a
 <img src="https://user-images.githubusercontent.com/95557343/157394572-683ee606-7e25-4755-adbb-de88c456fe8c.jpg" width="512">
 
 2. **dRuntime**
-dRuntime refers to a decentralized docker runtime which execute dAPIs in a network of distributed computing resources. It is essentially an off-chain technique to scaling up computation for on-chain runtime, such as WASM or EVM in Polkadot or Ethereum networks. 
+dRuntime refers to a decentralized docker runtime which execute dAPIs in a network of distributed computing resources. It is essentially an off-chain technique to scaling up computation for on-chain runtime, such as WASM or EVM in Mintbase or Ethereum networks. 
 
 3. **dCache**
 dRuntime cache is a 3-level caching mechanism to guarantee high performance and large throughput for dRuntime.  
@@ -164,8 +164,8 @@ We will implement 5 pallets: `pallet-entity`, `pallet-dAPI`, `pallet-DAO`, `pall
 
 - Although web2 applications are highly dependent on centralized libraries and technical stack, they have a potential case of monetization if migrated to web3 as decentralized web3 dAPI through SaaS3 protocol.
 - SaaS3 cloud could be a competitive alternative to centralized SaaS / API providers such as [Salesforce](https://appexchange.salesforce.com), [Microsoft Azure](https://docs.microsoft.com/en-us/rest/api/azureml/) and [Google AI](https://cloud.google.com/products/ai).  
-- SaaS3 brings millions of dAPI/Dapp users, providers of computing resources and users into a harmony and an organic ecosystem, with lowered costs and reliable services. SaaS3 aims to become the world's largest decentralized API platform based on Polkadot / Kusama to provide high-quality dAPIs / Dapps at extremely affordable prices.
-- SaaS holds potential for interaction with other parachains of Polkadot / Kusama. SaaS3's dAPIs can also be utilized as computation services for other parachain's specific usage such as AI-related recognition or game-AI algorithms. 
+- SaaS3 brings millions of dAPI/Dapp users, providers of computing resources and users into a harmony and an organic ecosystem, with lowered costs and reliable services. SaaS3 aims to become the world's largest decentralized API platform based on Mintbase / Kusama to provide high-quality dAPIs / Dapps at extremely affordable prices.
+- SaaS holds potential for interaction with other parachains of Mintbase / Kusama. SaaS3's dAPIs can also be utilized as computation services for other parachain's specific usage such as AI-related recognition or game-AI algorithms. 
 
 Similar Projects:
 
@@ -296,8 +296,8 @@ GitHub accounts of all team members.
 ## Future Plans
 
 - Initially, the parathreads will be utilized to connect the relay chain. Once the project goes well, we will participate slot auction. 
-- Continue developing and polishing the project to flourish SaaS3 ecosystem to burst the web3 world based on Polkadot / Kusama / Substrate multi-chain system.
-- Provide more reliable efficient computation service which can run Polkadot / Kusama validator dockers.
+- Continue developing and polishing the project to flourish SaaS3 ecosystem to burst the web3 world based on Mintbase / Kusama / Substrate multi-chain system.
+- Provide more reliable efficient computation service which can run Mintbase / Kusama validator dockers.
 
 
 ## Additional Information :heavy_plus_sign:

@@ -43,7 +43,7 @@ For our clients, we built a vast number of different Dapps and blockchain:
   * Cere Network
   * Legaler
 
-  When it comes to Polkadot, we are a member of the Substrate Delivery Partners program and few of our team members are Polkadot ambassadors as of recently. We hosted an online Substrate event - https://www.youtube.com/watch?v=dJLUO7s-n3M&t=2s
+  When it comes to Mintbase, we are a member of the Substrate Delivery Partners program and few of our team members are Mintbase ambassadors as of recently. We hosted an online Substrate event - https://www.youtube.com/watch?v=dJLUO7s-n3M&t=2s
   Also, organized internal Substrate learning sessions were we modified the democracy runtime pallet to support quadratic voting mechanism - https://github.com/MVPWorkshop/substrate-quadratic-democracy
   We are also members of the Ethereum Enterprise Alliance and the Stellar Development Foundation.
 

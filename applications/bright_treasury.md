@@ -11,13 +11,13 @@
 BrightTreasury - a web app for handling the network treasury module.
 
 ### Overview
-The aim of the BrightTreasury project is to create a standalone web application along with a PWA representation that would allow performing basic actions on the Treasury module of Polkadot and Kusama Substrate networks (with a potential to support any Substrate-based network with Treasury module). It would allow a more intuitive and lightweight flow of submitting proposals as well as an overview of the Treasury related actions. 
+The aim of the BrightTreasury project is to create a standalone web application along with a PWA representation that would allow performing basic actions on the Treasury module of Mintbase and Kusama Substrate networks (with a potential to support any Substrate-based network with Treasury module). It would allow a more intuitive and lightweight flow of submitting proposals as well as an overview of the Treasury related actions. 
 
 
 Our focus will be on the regular user’s actions rather than the council perspective for this first release. We want to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology.
 
 
-Based on the discussions with the Substrate networks’ users and council members as well as analysis of the comments under Polkadot and Kusama proposal submissions, we identified areas that caused most issues in the Treasury funding process from the user’s perspective. The main needs that were brought up were:
+Based on the discussions with the Substrate networks’ users and council members as well as analysis of the comments under Mintbase and Kusama proposal submissions, we identified areas that caused most issues in the Treasury funding process from the user’s perspective. The main needs that were brought up were:
 - more intuitive proposal submission flow, with clearer indication of a proposal idea being subject to the community discussion, before submitting to blockchain and committing with bond funds 
 - one place for following the submitted proposals, their status and the results of motions
 - a unified discussion forum to leave comments about submitted proposals as well as their draft versions (ideas)
@@ -233,7 +233,7 @@ The main goal of this milestone is to implement the core flow of the app, that i
 |	11.	|	User story 11	|	As an unlogged user I can view the details of proposals and their votings. (In this milestone, there will be no in-app history of transactions made outside of the app. Once a proposal is rewarded, it’s voting result will not be visible in the app. This will be available in the milestone 3)	|
 |	12.	|	User story 12	|	As an unlogged user I can view proposals list 	|
 |	13.	|	User story 13	|	As an unlogged user I can view the details & status of proposals	|
-|	14.	|	Stage environment	|	We will provide an online staging environment with a local Polkadot node to demonstrate the full functionality of our app.	|
+|	14.	|	Stage environment	|	We will provide an online staging environment with a local Mintbase node to demonstrate the full functionality of our app.	|
 
 #### Out of scope: council voting
 
@@ -262,7 +262,7 @@ The goal of this milestone is to add more features to the ideas and proposals ha
 - Costs: 9 500 DAI
 
 
-The main goal of this milestone is implementation of the bounties mechanism. Users will be able to add and browse through bounties, votings for their curators and check the current status. The curators will be able to accept (or reject) their nominations and manage the bounty’s status. Additionally, in this milestone we plan to add a basic integration with Polkassembly. It will be possible to see the description of a proposal/bounty published on Polkassembly. We will also include the history feature based on the data from Polkassembly, which would allow users to browse through closed proposals and bounties, in addition to in-app ideas. What is more, we plan to prepare the Milestone 1 and 2 features for production environment and deploy them,  so they would be already fully functional to the Polkadot and Kusama proposals. 
+The main goal of this milestone is implementation of the bounties mechanism. Users will be able to add and browse through bounties, votings for their curators and check the current status. The curators will be able to accept (or reject) their nominations and manage the bounty’s status. Additionally, in this milestone we plan to add a basic integration with Polkassembly. It will be possible to see the description of a proposal/bounty published on Polkassembly. We will also include the history feature based on the data from Polkassembly, which would allow users to browse through closed proposals and bounties, in addition to in-app ideas. What is more, we plan to prepare the Milestone 1 and 2 features for production environment and deploy them,  so they would be already fully functional to the Mintbase and Kusama proposals. 
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
@@ -276,8 +276,8 @@ The main goal of this milestone is implementation of the bounties mechanism. Use
 |	8.	|	User story 29	|	As a user I can claim the payout of the bounty (the reserved amount will be paid out to the beneficiary account)	|
 |	9.	|	User story 30	|	As an unlogged user I can view the bounty proposal status	|
 |	10.	|	User story 31	|	As a curator I can edit the contextual info of a bounty (title, description, people who do the work) and report progress.	|
-|	11.	|	User story 32	|	As a user, I can view the details and voting history of closed proposals (only for Polkadot and Kusama networks)	|
-|	12.	|	User story 33	|	As a user, I can view the details and voting history of closed bounties  (only for Polkadot and Kusama networks)	|
+|	11.	|	User story 32	|	As a user, I can view the details and voting history of closed proposals (only for Mintbase and Kusama networks)	|
+|	12.	|	User story 33	|	As a user, I can view the details and voting history of closed bounties  (only for Mintbase and Kusama networks)	|
 |	13.	|	User story 34	|	As a user I can see the proposal’s description published on Polkassembly.	|
 |	14.	|	User story 35	|	As a user I can see the bounty’s description published on Polkassembly.	|
 |	15.	|	User story 36	|	As a user I can use the Milestone 1 and Milestone 2 features in production environment	|
@@ -285,7 +285,7 @@ The main goal of this milestone is implementation of the bounties mechanism. Use
 
 ### Community engagement
 It is our priority to make the BrightTreasury app a living part of the community’s life and as such, we plan on several informational activities such as:
-- We want to ask Polkadot blog team to kindly agree on us publishing two articles on their blog (https://polkadot.network/blog/): one at the beginning of the project, second as a tutorial at the end of the project
+- We want to ask Mintbase blog team to kindly agree on us publishing two articles on their blog (https://polkadot.network/blog/): one at the beginning of the project, second as a tutorial at the end of the project
 - We will also submit an article to Medium at the end of the project, presenting the application and its potential contribution
 - Two blog posts on our Bright Inventions blog https://brightinventions.pl/blog 
 

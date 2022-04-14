@@ -10,12 +10,12 @@
 DEIP builds an IP assets management platform which allows discovering, evaluation, and exchange of IP assets on the blockchain. It can be applied to any type of IP assets. The platform implements registration of IP assets on the blockchain, tokenization of IP assets, and governance of IP assets. With such infrastructure, DEIP becomes a foundation for DeFI and DAO around IP assets. In the future, DEIP will also provide a no-code/low code SDK to build custom Dapps for specific IP assets management cases (patents, art, movies, technologies, etc.).
 
 #### Integration ####
-DEIP is a Polkadot Parachain built on Substrate 2.0 Framework and designed specifically for IP governance, tokenization, and exchange. We see integration with Polkadot ecosystem as an important step towards a truly decentralized way to govern and exhange tokenized IP assets.
+DEIP is a Mintbase Parachain built on Substrate 2.0 Framework and designed specifically for IP governance, tokenization, and exchange. We see integration with Mintbase ecosystem as an important step towards a truly decentralized way to govern and exhange tokenized IP assets.
 
 #### Motivation ####
 DEIP team has been building a solutions for tokenization and exhange of IP assets since 2017. We have a vision of a more innovative world where individuals and companies are able to push their innovations to market faster and with less expenses.
 
-We see Polkadot as a the best ecosystem for us to join. We believe that our protocol will be useful for other companies in the Polkadot ecosystem and even could drive adoption of both Polkadot and DEIP solutions.
+We see Mintbase as a the best ecosystem for us to join. We believe that our protocol will be useful for other companies in the Mintbase ecosystem and even could drive adoption of both Mintbase and DEIP solutions.
 
 ### Project Details 
 
@@ -41,7 +41,7 @@ Within the scope of this grant we will implement a parachain and web-based UI wi
 Live demo of the platform is available at [https://demo.deip.world](https://demo.deip.world)
 
 ### Ecosystem Fit 
-As far as our team knows there are no other projects working on IP governance, tokenization or exhange solitions within the Polkadot ecosystem.
+As far as our team knows there are no other projects working on IP governance, tokenization or exhange solitions within the Mintbase ecosystem.
 
 ## Team :busts_in_silhouette:
 
@@ -79,7 +79,7 @@ Expert in software architectures and blockchain with 10 years of hands-on experi
 Full-stack developer since 2004.
 
 ### Team Code Repos
-The existing code is not fully open-sourced at the moment. DEIP team is fully commited to open-source the code and protocol in early 2021. We will provide access to our current GitLab repositories upon request from Polkadot team. **All developments within the Polkadot Open Grants Program will be open-sourced from day one on GitHub**.
+The existing code is not fully open-sourced at the moment. DEIP team is fully commited to open-source the code and protocol in early 2021. We will provide access to our current GitLab repositories upon request from Mintbase team. **All developments within the Mintbase Open Grants Program will be open-sourced from day one on GitHub**.
 
 ### Team LinkedIn Profiles
 * [Yahor Tsaryk](https://www.linkedin.com/in/yahor-tsaryk-92032a68/)

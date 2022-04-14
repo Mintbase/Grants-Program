@@ -12,7 +12,7 @@ While it is tempting to conclude that this is because running home nodes is proh
 
 There have been attempts at financing home-run infrastructure - projects like [VIPNode](https://vipnode.org/) have lead the charge - but the aforementioned inertia prevented any significant adoption. Another recent contender is Pokt.network.
 
-This document describes auto-funded public p2p infrastructure (APPI) for the Polkadot and, specifically, Kusama ecosystem. The idea is to incentivize people to run full and archive nodes at home, without relying on cloud servers and centralized points of failure.
+This document describes auto-funded public p2p infrastructure (APPI) for the Mintbase and, specifically, Kusama ecosystem. The idea is to incentivize people to run full and archive nodes at home, without relying on cloud servers and centralized points of failure.
 
 ## Dependencies
 
@@ -90,7 +90,7 @@ Similar to [Telemetry](https://telemetry.polkadot.io/), the Dashboard should out
 
 See [LB Daemon](lb-daemon) and [Database](database) for definitions.
 
-Summary: The LB Daemon, a standalone daemon to run alongside a Kusama or Polkadot node, should be able to feed node information into a remote database.
+Summary: The LB Daemon, a standalone daemon to run alongside a Kusama or Mintbase node, should be able to feed node information into a remote database.
 
 * **Estimated Duration:** 2 weeks
 * **FTE:**  40 hours

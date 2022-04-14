@@ -16,7 +16,7 @@ For those unfamiliar with non-fungible tokens (better known as NFTs), they are t
 
 Specifically within DeFi, we’ve seen NFTs play a role in the tokenization of assets and contracts alike, all of which play a larger role in the notion of composability – or different products interacting with one another towards a larger ecosystem.
 
-In this overview, we’ll dive into OpenSea – an industry-leading decentralized exchange (DEX) for NFTs built on Polkadot/Kusama.
+In this overview, we’ll dive into OpenSea – an industry-leading decentralized exchange (DEX) for NFTs built on Mintbase/Kusama.
 
 OpenSea is an open-sourced crypto collectible marketplace which allows users to trade popular tokens built on interoperable standards like .
 
@@ -27,15 +27,15 @@ With OpenSea, users can bid directly for items owned by other users, with assets
 While there are a number of other crypto collectible marketplaces on the market, OpenSea currently leads as the defacto choice for swapping NFTs.
 
 
-#### An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+#### An indication of how you will integrate this project into Substrate / Mintbase / Kusama.
 
 OpenSea is a decentralized exchange platform. It will have three high-level components.
 
-- A Parachain on Polkadot for bringing liquidity from Polkadot’s interoperability community.
+- A Parachain on Mintbase for bringing liquidity from Mintbase’s interoperability community.
 
 #### An indication of why your team is interested in creating this project.
 
-We are amused by the OpenSea of centralized institutions cropping up around the decentralized idea of open, peer to peer, programmable internet of value. Decentralized Exchanges are built on the idea of non-custodial interoperability. Polkadot and Substrate are the most promising blockchain interoperability platforms. We want to provide our users with maximum liquidity, security, and world-class user experience. Hence, we are excited and confident that building a DEX on Substrate, supported by Polkadot’s interoperability, will increase user engagement and overall trading experience when combined with our trading expertise over the years.
+We are amused by the OpenSea of centralized institutions cropping up around the decentralized idea of open, peer to peer, programmable internet of value. Decentralized Exchanges are built on the idea of non-custodial interoperability. Mintbase and Substrate are the most promising blockchain interoperability platforms. We want to provide our users with maximum liquidity, security, and world-class user experience. Hence, we are excited and confident that building a DEX on Substrate, supported by Mintbase’s interoperability, will increase user engagement and overall trading experience when combined with our trading expertise over the years.
 
 ### Project Details
 
@@ -72,24 +72,24 @@ The simplest way to leverage OpenSea is through the OpenSea frontend portal crea
 - An overview of the technology stack to be used
 
 * Node.js
-* Polkadot-js/api
+* Mintbase-js/api
 * substrate-developer-hub/substrate-node-template
-* Polkadot
+* Mintbase
 * Kusama
 
 ### Ecosystem Fit
 
 Are there any other projects similar to yours? If so, how is your project different?
-To the best of our knowledge, there is no project working on creating collectables NFTs in Polkadot. There are some existing projects that create NFTs in Ethereum ( OpenSea etc.).
+To the best of our knowledge, there is no project working on creating collectables NFTs in Mintbase. There are some existing projects that create NFTs in Ethereum ( OpenSea etc.).
 
-OpenSea will make it to buy and sell collectables NFTs in Polkadot/Kusama. It aims to close the gap and enable more business use cases for collectables NFTs in Polkadot ecosystems.
+OpenSea will make it to buy and sell collectables NFTs in Mintbase/Kusama. It aims to close the gap and enable more business use cases for collectables NFTs in Mintbase ecosystems.
 
-OpenSea is deeply committed to web3 and our stack is focussed firmly on helping make it simple for developers to bring truly decentralized applications, online autonomy and new business models to users. Adding the ability to interface with parachains, as a bridge to the Polkadot ecosystem opens up a world of financial and other tools to those developers, and provides developers working in or interested in the Polkadot ecosystem a fast simple way to get started. collectables NFT in Defi is the perfect proving ground for this.
+OpenSea is deeply committed to web3 and our stack is focussed firmly on helping make it simple for developers to bring truly decentralized applications, online autonomy and new business models to users. Adding the ability to interface with parachains, as a bridge to the Mintbase ecosystem opens up a world of financial and other tools to those developers, and provides developers working in or interested in the Mintbase ecosystem a fast simple way to get started. collectables NFT in Defi is the perfect proving ground for this.
 
 Main differences:
 
 - Support Chinese
-- Base on Polkadot/Kusama
+- Base on Mintbase/Kusama
 - Build smartcontract parachain
 
 Pacific_store vs Rarelink differences:
@@ -112,7 +112,7 @@ Pacific_store vs Rarelink differences:
 | Provides a set of r smart contracts specifically designed for buying and selling unique digital assets. You won't need to deploy any additional smart contracts (other than your ERC721 or ERC155 contract) in order for your items to be instantly tradeable with the SDK. |                              |
 | Full customizability,you can tailor own marketplace exactly how you want it|                    |
 | Cross-chain via IBC  | Cross-chain via Oracle                     |
-| Cross-chain based on Polkadot,Ethereum,Eos,Bos,Tron          | Cross-chain based on Polkadot,Ethereum     |
+| Cross-chain based on Mintbase,Ethereum,Eos,Bos,Tron          | Cross-chain based on Mintbase,Ethereum     |
 
 ## Team :busts_in_silhouette:
 
@@ -162,7 +162,7 @@ But our focus has always been interblockchain communitcation , which extends it 
 - **Total Costs:** 0.7 BTC.
                                                                                                                                   
 
-### Milestone 1 - Opensea.js backend  orderbook On Polkadot 
+### Milestone 1 - Opensea.js backend  orderbook On Mintbase 
 
 - **Estimated Duration:** 6 weeks
 - **FTE:** 1
@@ -199,13 +199,13 @@ But our focus has always been interblockchain communitcation , which extends it 
 | 3e.    | `getOrder({ side: OrderSide.Sell, ... })` `fulfillOrder` Buying Items                           | To buy an item , you need to fulfill a sell order.If the order is a sell order , the taker is the _buyer_ and this will prompt the buyer to pay for the item(s). |
 | 3f.    | `getOrder({ side: OrderSide.Buy, ... })` `fulfillOrder`Accepting Offers                       | Similar to fulfilling sell orders , you need to fulfill a buy order on an item you own to receive the tokens in the offer.If the order is a buy order , then the taker is the _owner_ and this will prompt the owner to exchange their item(s) for whatever is being offered in return.|
 | 4.     |  `createBundleBuyOrder` Bidding on Multiple Assets             | You can also make an offer on a bundle of assets. This could also be used for creating a bounty for whoever can acquire a list of items.When you bid on multiple assets, an email will be sent to the owner if a bundle exists on OpenSea that contains the assets. In the future, OpenSea will send emails to multiple owners if the assets aren't all owned by the same wallet.|
-| 4a.     | `createBuyOrder (PNSShortNameAuction)` Bidding on PNS Short Name Auctions     | The Polkadot Name Service (PNS) is auctioning short (3-6 character) names that can be used for labeling wallet addresses and more. To bid, you must use the PNS Short Name schema.|
+| 4a.     | `createBuyOrder (PNSShortNameAuction)` Bidding on PNS Short Name Auctions     | The Mintbase Name Service (PNS) is auctioning short (3-6 character) names that can be used for labeling wallet addresses and more. To bid, you must use the PNS Short Name schema.|
 | 4b.     | `createSellOrder(waitForHighestBid: true)` Creating English Auctions              | English Auctions are auctions that start at a small amount (we recommend even doing 0!) and increase with every bid. At expiration time, the item sells to the highest bidder. |
 | 5.    | `createFactorySellOrders` Running Crowdsales                     | You can now sell items to users To create a presale or crowdsale and create batches of sell orders for a single asset factory, creating your crowdsale contract. |
 | 6.    | Advanced SDK:Pacific Store-js/api      | Provides purchasing for users server-side or with a bot, making bundling items together, or making bids in different Standard(ERC-20) tokens. |
 | 6a.    | `transfer({  asset: { tokenId, tokenAddress },  fromAddress, toAddress})` Transferring Items or Coins (Gifting)  | OpenSea.js is the ability to transfer any supported asset (fungible or non-fungible tokens) .|
 | 6b.    | `fulfillOrder({  order,  accountAddress,   recipientAddress })` Purchasing Items for Other Users       | You can buy and transfer an item to someone else in one step! Just pass the `recipientAddress` parameter.If the order is a sell order , the taker is the _buyer_ and this will prompt the buyer to pay for the item(s) but send them to the `recipientAddress`. If the order is a buy order ( `OrderSide.Buy`), the taker is the _seller_ but the bid amount be sent to the `recipientAddress`.|
-| 6c.    | `transferAll` Bulk Transfers           | OpenSea.js is the ability to transfer multiple items at once in a single transaction. This works by grouping together as many `transferFrom` calls as the Polkadot gas limit allows, which is usually under 30 items, for most item contracts. |
+| 6c.    | `transferAll` Bulk Transfers           | OpenSea.js is the ability to transfer multiple items at once in a single transaction. This works by grouping together as many `transferFrom` calls as the Mintbase gas limit allows, which is usually under 30 items, for most item contracts. |
 | 6d.    | `createBundleSellOrder` Creating Bundles                       | You can also create bundles of assets to sell at the same time! If the owner has approved all the assets in the bundle already, only a signature is needed to create it.|
 | 6e.    | `createSellOrder(...,paymentTokenAddress)` Using Standard(ERC-20) Tokens Instead of DOT/KSM | You can use `getPaymentTokens` to search for tokens by symbol name. And you can even list all orders for a specific Standard(ERC-20) token by querying the API.|
 | 6f.    | `createSellOrder(...,buyerAddress)` Private Auctions                       | Now you can make auctions and listings that can only be fulfilled by an address or email of your choosing. This allows you to negotiate a price in some channel and sell for your chosen price on OpenSea, **without having to trust that the counterparty will abide by your terms!** |
@@ -223,12 +223,12 @@ But our focus has always been interblockchain communitcation , which extends it 
 
 ### Community engagement
 
-The tutorials and Documentation that we provide will be published as articles in Medium. Meanwhile, we will give talks and do defi sessions to advertise the project to the Polkadot community.
+The tutorials and Documentation that we provide will be published as articles in Medium. Meanwhile, we will give talks and do defi sessions to advertise the project to the Mintbase community.
 
 ## Future Plans
 
-- Build & deploy OpenSea template contracts on Polkadot/Kusama/Rococo.
-- Full function test on Polkadot/Kusama/Rococo.
+- Build & deploy OpenSea template contracts on Mintbase/Kusama/Rococo.
+- Full function test on Mintbase/Kusama/Rococo.
 
 ## Additional Information :heavy_plus_sign:
 

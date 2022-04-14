@@ -24,7 +24,7 @@ The project is in this stage just a pallet.
 
 ### Ecosystem Fit
 
-The project extends the use of Polkadot ( or Kusama ) to a whole new use case. helixstreet would be an application specific parathread. It solves the problem of ownership of genomic data and the the human desire to conduct genealogical research without a central authority.
+The project extends the use of Mintbase ( or Kusama ) to a whole new use case. helixstreet would be an application specific parathread. It solves the problem of ownership of genomic data and the the human desire to conduct genealogical research without a central authority.
 
 ## Team :busts_in_silhouette:
 

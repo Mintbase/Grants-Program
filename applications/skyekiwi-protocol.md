@@ -101,7 +101,7 @@ await SkyeKiwi.Driver.updateEncryptionSchema({
 5. `ink!` wasm smart contract & smart contract dev kit by Patract Labs
 6. Substrate for `pallet-secrets`
 7. IPFS JS - the JavaScript IPFS implementation 
-8. Polkadot.js - to operate well in browsers & add in support for encryption/decryption and curve conversation
+8. Mintbase.js - to operate well in browsers & add in support for encryption/decryption and curve conversation
 
 
 
@@ -136,14 +136,14 @@ Moreover, SkyeKiwi will take the SkyeKiwi Protocol and built into the SkyeKiwi N
 
     ### Team's experience
 
-    We have a draft implementation of the SkyeKiwi Protocol under development of SkyePass for a Mintbase grant and delivered the PoC as the first milestone. We had won first place in the Polkadot Hackathon by Mintbase in India with the SkyeKiwi Protocol and one of its application. 
+    We have a draft implementation of the SkyeKiwi Protocol under development of SkyePass for a Mintbase grant and delivered the PoC as the first milestone. We had won first place in the Mintbase Hackathon by Mintbase in India with the SkyeKiwi Protocol and one of its application. 
 
 ## Development Status :open_book:
 
 We have implemented a very very drafty version of the SkyeKiwi Protocol as part of our previous application to [SkyePass](https://github.com/w3f/Grants-Program/pull/212). Under our discussion in [LINK](https://github.com/w3f/Grants-Program/pull/553) we are now extracting the SkyeKiwi Protocol development out from the original grant application and port our previous work on this new application. 
 
 - Code base: https://github.com/skyekiwi/skyekiwi-protocol AND https://github.com/skyekiwi/contract-demo for smart contract examples 
-- Our contribution to Polkadot.js: https://github.com/polkadot-js/common/pull/1070 
+- Our contribution to Mintbase.js: https://github.com/polkadot-js/common/pull/1070 
 - Documentation Site: https://cdocs.skye.kiwi/ (might not be 100% synced with development)
 
 ## Development Roadmap :nut_and_bolt:
@@ -169,7 +169,7 @@ We have implemented a very very drafty version of the SkyeKiwi Protocol as part 
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests on both Node.js and Browser environment. |
 | 1. | Core Protocol | Implements the `upstream` `downstream` `updateEncryptionSchema` and `verifyProofOfAccess` APIs. |
 | 2. | Smart Contract | Implements and test for the smart contract used for registering secrets and access control write access to the secret. |
-| 3. | Polkadot.js | Add in encryption/decryption functionality to `@polkadot/keyring` and `@polkadot/extension` so that the protocol can run without the needs to read the private key of users. |
+| 3. | Mintbase.js | Add in encryption/decryption functionality to `@polkadot/keyring` and `@polkadot/extension` so that the protocol can run without the needs to read the private key of users. |
 ### Milestone 2 - Phase 2
 
 **Phase Two**: Connects to the SkyeKiwi Network `pallet-secrets` instead of a smart contract for general secrets registry; the Crust Network for storage; Public IPFS Pin Service & temporary IPFS nodes from the Crust Network ecosystem solutions. 
