@@ -28,7 +28,7 @@
 
 ## :wave: Introduction
 
-As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Polkadot, Kusama, [Substrate](https://github.com/paritytech/substrate) and [ink!](https://github.com/paritytech/ink)**. For more information about the Web3 Foundation, please visit the [About page](https://web3.foundation/about/) on our website.
+As part of our commitment to promoting the Web3 ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and [graphQL indexer!](https://docs.mintbase.io/dev/getting-started)**. For more information about the Mintbase Foundation, please visit the [About page](https://mintbase.io) on our website.
 
 ### Guidelines
 
