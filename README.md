@@ -85,7 +85,7 @@ In cases where a niche expert opinion is desirable, one of the committee members
 - [Luís Freitas](https://github.com/microchipgnu)
 - [Ben Ipsen](https://github.com/cif)
 - [Nate Geier](https://github.com/nategeier)
-
+- [Maria](https://github.com/mariamneu)
 
 
 ## :level_slider: Levels
