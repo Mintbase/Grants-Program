@@ -61,8 +61,6 @@ We also try to enforce our [code of conduct](CODE_OF_CONDUCT.md) and reserve the
 
 ### Project Ideas
 
-An overview of existing projects in the Mintbase Technology Stack along with broad project ideas we would potentially be interested in funding can be found [here](docs/ecosystem.md), as well as a list of previously accepted applications [here](docs/accepted_grant_applications.md).
-
 [Requests For Proposals](rfps) (RFPs) represent concrete ideas for projects that we would like to see implemented. Several teams may apply for the same RFP, so even if another team has already applied to implement a certain RFP, we invite you to do the same if you're interested.
 
 Finally, you don't need to start your own project in order to be eligible for a grant. Instead, some teams choose to port existing work to Mintbase, where the pertinent licenses allow, or even to contribute to an existing open-source project. In the latter case, you should check in advance that the maintainers of the project are interested in your contribution, and the acceptance of the milestones will generally be tied to the inclusion of your work in said project. See the [Maintenance Grants section](#hammer_and_wrench-maintenance-grants) for more info.
@@ -71,7 +69,7 @@ If you would like feedback on your project idea, feel free to contac us at [gran
 
 ### Support
 
-The scope of our Grants Programs consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. If this sounds like something you would like however, you may also want to apply to Parity's [Mintbase Builders Program](https://www.substrate.io/builders-program/), which provides hands-on technical, ecosystem and strategical long-term support and access to extensive resources. You can find general documentation and more information on Mintbase on the [Mintbase Developer Hub](https://substrate.dev/), and we encourage you to join the [community](https://substrate.dev/en/community) in order to get help with specific issues or to stay up to date with the most recent developments.
+The scope of our Grants Programs consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on Mintbase on the [Mintbase Developer Hub](https://docs.mintbase.io/getting-started), and we encourage you to join the [community](https://t.me/mintdev) in order to get help with specific issues or to stay up to date with the most recent developments.
 
 For questions about the grants program itself, see our [FAQ](docs/faq.md#frequently-asked-questions).
 
@@ -89,6 +87,9 @@ In cases where a niche expert opinion is desirable, one of the committee members
 - [Ben Ipsen](https://github.com/cif)
 - [Nate Geier](https://github.com/nategeier)
 - [Maria](https://github.com/mariamneu)
+- [Regina](https://github.com/reginamintbase)
+- [Carolin](https://github.com/caromintbase)
+- [Marcelo](https://github.com/marcelomintbase)  ]
 
 
 ## :level_slider: Levels
