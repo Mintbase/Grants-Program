@@ -141,7 +141,8 @@ USD equivalent payments are made in NEAR.
 
 ### 3. Milestone Delivery and Payment
 
-   1. Milestones are to be delivered on the [Grant Milestone Delivery](https://github.com/w3f/Grant-Milestone-Delivery/) repository following the [process](https://github.com/w3f/Grant-Milestone-Delivery#mailbox-milestone-delivery-process) described therein.
+   1. When you are ready to submit completion for a milestone, please open a PR on that adds `submissions/your_project_milestone_YYYY-MM-DD.md`. Use the [submissions/delivery guidelines.md](./submissions/delivery_guidelines.md) content as the template for your submission documentation.
+   2. Contact [grants@mintbase.io](mailto:grants@mintbase.io) with a link to the PR for review for further instructions on invoicing and receiving payment.
 
 ### Changes to a Grant after Approval
 
@@ -180,7 +181,7 @@ The process of applying for a Maintenance Grant is similar to what was already o
 - An assurance that the current project owners are willing to review/accept your contributions (a note here: if you're fully taking over the project, it would make more sense for the current owners to transfer the repository to your organisation. If you can't get in touch with them, you may, of course, work on a fork)
 - Max budget per month
 
-Then, at the end of each month, you will need to provide a comprehensive report of the work done, including the list of issues/bugs/pull requests worked on, time spent on each of these & finally the associated cost. It is quite likely that the time allocation & cost will vary from month to month, depending on the nature of the project you're contributing to. The delivery process and format should follow that of a typical [milestone delivery](https://github.com/w3f/Grant-Milestone-Delivery#mailbox-milestone-delivery-process), as will the processing of the payment.
+Then, at the end of each month, you will need to provide a comprehensive report of the work done, including the list of issues/bugs/pull requests worked on, time spent on each of these & finally the associated cost. It is quite likely that the time allocation & cost will vary from month to month, depending on the nature of the project you're contributing to. The delivery process and format should follow that of a typical [milestone delivery](./submissions/delivery_guidelines.md), as will the processing of the payment.
 
 Please note that:
 - Maintenance grants, as the name suggests, are meant to allow teams/individuals to maintain a certain project, and not to continue its development or implement larger features. Please use the traditional application process for this purpose.
