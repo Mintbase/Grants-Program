@@ -2,11 +2,11 @@
 
 > This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines! Lines starting with a `>` (such as this one) can be removed.
 >
-> See the [Maintenance Grants Process](https://github.com/w3f/Grants-Program#hammer_and_wrench-maintenance-grants) on how to submit a proposal.
+> See the [Maintenance Grants Process](../README.md#hammer_and_wrench-maintenance-grants) on how to submit a proposal.
 
 - **Project Code Name:** Code name of the project (e.g. JsonRPC Tools Maintenance)
 - **Team Name:** Legal name of your team (e.g. JsonCorp)
-- **Payment Address:** BTC, Ethereum (USDT/DAI) or Karura (kUSD) payment address. Please also specify the currency. (e.g. 0x8920... (DAI))
+- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -22,7 +22,7 @@ Please provide the following:
 
 - If the code name of the project is not descriptive, a tag line (one sentence summary).
 - A brief description of the project.
-- How will the project you want to take for maintenance help the ecosystem of Mintbase / Mintbase / Kusama, and what problems does it try to solve?
+- How will the project you want to take for maintenance help the ecosystem of Mintbase / NEAR and what problems does it solve?
 - An indication of why your team is interested in supporting this project.
 - Outline of why the specific projects should continue being supported.
 
