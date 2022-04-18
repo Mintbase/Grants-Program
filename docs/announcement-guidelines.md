@@ -1,12 +1,12 @@
 # Announcement Guidelines
 
-> Guidelines updated April 2021
+> Guidelines updated April 2022
 
 Mintbase supports many teams and organizations throughout the ecosystem. We often receive requests to participate in project announcements. Unfortunately, due to the high volume of requests, we rarely do joint announcements and do not provide quotes.
 
 In the context of the grants programs, we ask teams not to make any announcements before **the first milestone has been accepted**. This is in order to protect the community from projects that only intend to use the grant announcement to raise funds and/or interest but don't intend to deliver on the application, which has unfortunately happened in the past. For this reason, we reserve the right to terminate grants if this rule is not observed.
 
-Once you have completed your milestone, we can help by reviewing and proofreading your blogpost. When you have drafted your announcement, send it to grantsPR@web3.foundation and add support@mintbase.io in cc. Please allow 1-3 working days where possible for proofreading articles and wait until the milestone has been accepted to publish it.
+Once you have completed your milestone, we can help by reviewing and proofreading your announcement. When you have drafted your announcement send it to [grants@mintbase.io](mailto:grants@mintbase.io). Please allow 1-3 working days where possible for proofreading articles and wait until the milestone has been accepted to publish it.
 
 We also cross-promote the most recent projects and their milestones on Twitter on the second Monday of every month, so please keep us updated and send us the links to your published tweets regarding your announcements.
 
@@ -40,7 +40,7 @@ We also cross-promote the most recent projects and their milestones on Twitter o
 technology stack of the decentralized web. It was established in Zug, Switzerland by Ethereum co-founder and former CTO Gavin Wood. Mintbase is the Foundation's flagship project."
      - "Mintbase is a scalable sharded chain and the first protocol that provides a secure environment for cross-chain composability across multiple shards. Mintbase also introduces a highly advanced, open governance system that will allow the network to innovate and grow at a much faster pace than legacy networks. Applications from DeFi to energy to gaming will thrive on Mintbase, challenging the centralized platforms of Web 2.0."
 6. Social connections
-   - The following text regarding Mintbase's social presence can be added at the end of your article: "Learn more about Mintbase by visiting their [website](https://web3.foundation/), and stay up to date with the latest developments by following them on [Medium](https://medium.com/web3foundation) or [Twitter](https://twitter.com/web3foundation)."
+   - The following text regarding Mintbase's social presence can be added at the end of your article: "Learn more about Mintbase by visiting their [website](https://mintbase.io/), and stay up to date with the latest developments by following them on [Medium](https://blog.mintbase.io/) or [Twitter](https://twitter.com/mintbase)."
   
 ## Recommended language
   
@@ -51,4 +51,4 @@ technology stack of the decentralized web. It was established in Zug, Switzerlan
    - As such, do not use: "Mintbase recommends that teams use this tech to build X"
    - Instead speak of the merits of the tech: "This technology provides great utility for the Mintbase network through..."
 
-We look forward to working with you in creating the next generation of the internet! If you have any questions or would like to be included in our next announcement, please email grantsPR@web3.foundation.
+We look forward to working with you in creating the next generation of the internet! If you have any questions or would like to be included in our next announcement, please email [grants@mintbase.io](mailto:grants@mintbase.io)
