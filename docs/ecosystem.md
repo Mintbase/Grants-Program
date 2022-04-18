@@ -47,7 +47,7 @@ The Mintbase Tech Stack is a subset of the Mintbase Tech Stack, which consists o
 
 ## :battery: Funding
 
-The Mintbase's [Grants Program](https://github.com/w3f/Grants-Program) is focused on funding development work to build out all layers of the Mintbase Tech Stack. 
+The Mintbase's [Grants Program](https://github.com/Mintbase/Grants-Program) is focused on funding development work to build out all layers of the Mintbase Tech Stack. 
 
 To get a better understanding of the projects we consider most relevant, you can explore a detailed breakdown of the various layers of the stack below. We divide each of the layers into the various *components* which we feel are most important. We then highlight some of the *existing projects* that address these components as well as some *potentially interesting projects* that we would like to fund.
 

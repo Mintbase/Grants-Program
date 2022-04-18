@@ -83,13 +83,13 @@ The open grants process consists of five parts, each of them described in more d
 
 **(i)  Grant application process:**
 
-To apply for a grant of the Mintbase  Foundation Open Grants Program, You shall comply with the procedures established in the README.md file under <https://github.com/w3f/Grants-Program> as well as the process defined inside this document.
+To apply for a grant of the Mintbase  Foundation Open Grants Program, You shall comply with the procedures established in the README.md file under <https://github.com/Mintbase/Grants-Program> as well as the process defined inside this document.
 
 To apply for a grant of the Mintbase Open Grants Program, the grantee needs to fork (= create a copy on GitHub of) the Open-Grants-Program GitHub repository. In the newly created fork (=copy on GitHub), the grantee has to create a copy of the application-template.md. The copied application-template.md needs to be renamed as "project_name.md". "Project_name" needs to be replaced with the name of the project application. Additionally, the grantee has to fill out all mandatory parts of the application-template.md presented in bold letters. Once the grantees have completed the application, they need to create a new pull request (= in this case, a mechanism to submit the changes of the fork to the original Open-Grants-Program GitHub repository) by clicking on the "create new pull request" button shown inside the fork of the Mintbase Open-Grants-Program GitHub repository. After this, the grantee needs to sign off the terms and conditions presented via the CLA assistant.
 
 **(ii)  Application review process:**
 
-The Mintbase grants committee, which is specified on the [Open-Grants-Program GitHub repository ](https://github.com/w3f/Grants-Program)(the "Grants Committee"), can issue comments and request changes on the grant application pull request (the submission of the grant application on GitHub).  As soon as 1/3 of the Grants Committee approves the pull request, the terms and conditions are signed off and all requested changes are addressed, the application is officially accepted. The application is now a part of the [Mintbase Open-Grants-Program GitHub repository](https://github.com/w3f/Grants-Program). The time point of the acceptance by the Grants Committee is hereby stored on GitHub and counts as the official beginning of the grant. The original submission is stored with a unique commit hash (identifier) and can not be altered by any party. The final version approved by the Grants Committee of the Specifications, the Time Schedule and Milestones will be placed  in the applications folder of the Mintbase Open Grants Program Repository at <https://github.com/Mintbase/Grants-Program/tree/master/applications> via the merge function of GitHub.
+The Mintbase grants committee, which is specified on the [Open-Grants-Program GitHub repository ](https://github.com/Mintbase/Grants-Program)(the "Grants Committee"), can issue comments and request changes on the grant application pull request (the submission of the grant application on GitHub).  As soon as 1/3 of the Grants Committee approves the pull request, the terms and conditions are signed off and all requested changes are addressed, the application is officially accepted. The application is now a part of the [Mintbase Open-Grants-Program GitHub repository](https://github.com/Mintbase/Grants-Program). The time point of the acceptance by the Grants Committee is hereby stored on GitHub and counts as the official beginning of the grant. The original submission is stored with a unique commit hash (identifier) and can not be altered by any party. The final version approved by the Grants Committee of the Specifications, the Time Schedule and Milestones will be placed  in the applications folder of the Mintbase Open Grants Program Repository at <https://github.com/Mintbase/Grants-Program/tree/master/applications> via the merge function of GitHub.
 
 **(iii)  Milestone delivery process:**
 
@@ -97,7 +97,7 @@ To submit one of the possible multiple milestones specified in the application, 
 
 **(iv)  Milestone review process:**
 
-The Grants Evaluators, who are specified on the [Open-Grants-Program GitHub repository](https://github.com/w3f/Grants-Program), can issue comments and request changes on the milestone delivery pull request. 
+The Grants Evaluators, who are specified on the [Open-Grants-Program GitHub repository](https://github.com/Mintbase/Grants-Program), can issue comments and request changes on the milestone delivery pull request. 
 
 a)  Purpose and object of the milestone review process
 
@@ -124,7 +124,7 @@ As soon as one evaluator approves the pull request, the delivery is officially a
 
 **(v)  Payment process:**
 
-The Operations Team specified in the [Open-Grants-Program GitHub repository](https://github.com/w3f/Grants-Program), gets notified once the above-specified delivery was accepted or after 2 weeks without any feedback after the initial delivery. As soon as any feedback is provided by the evaluators, this feedback first needs to be resolved. After this, the Operations Team makes the payment to the BTC or Ethereum address specified in the initial application.
+The Operations Team specified in the [Open-Grants-Program GitHub repository](https://github.com/Mintbase/Grants-Program), gets notified once the above-specified delivery was accepted or after 2 weeks without any feedback after the initial delivery. As soon as any feedback is provided by the evaluators, this feedback first needs to be resolved. After this, the Operations Team makes the payment to the BTC or Ethereum address specified in the initial application.
 
 ## 5.  Scope of these Terms and Conditions
 
@@ -164,7 +164,7 @@ Mintbase. shall grant You, as compensation for the delivery of the Software and 
 
 The Parties agree that the Grant is a lump-sum payment and that no additional compensation is due for the actual development costs incurred.
 
-The Grant is paid as milestone payments for the accomplishment of the Milestones during several phases of the Development Work as indicated in the main readme file on Github (<https://github.com/w3f/Grants-Program>).
+The Grant is paid as milestone payments for the accomplishment of the Milestones during several phases of the Development Work as indicated in the main readme file on Github (<https://github.com/Mintbase/Grants-Program>).
 
 You shall not be entitled to an increase in compensation, even if you have had more work or greater expenses than anticipated. An increase in compensation is also excluded if extraordinary circumstances which could not have been foreseen prevent the completion of the Software or make it excessively difficult.
 

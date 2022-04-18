@@ -54,7 +54,7 @@
 <details>
   <summary><b>My application was rejected. Do you have any recommendations on where to go from here?</b></summary>
 
-  We usually give reasons why an application was rejected. We always try to be constructive and work with you towards an application that is beneficial to all parties. If we find no common ground, please have a look at [this section in our Grants Program readme](https://github.com/w3f/Grants-Program#rocket-alternative-funding-sources) for a list of alternative funding opportunities.
+  We usually give reasons why an application was rejected. We always try to be constructive and work with you towards an application that is beneficial to all parties. If we find no common ground, please have a look at [this section in our Grants Program readme](https://github.com/Mintbase/Grants-Program#rocket-alternative-funding-sources) for a list of alternative funding opportunities.
 </details>
 
 <details>

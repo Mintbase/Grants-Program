@@ -29,7 +29,7 @@
 
 As part of our commitment to always improving the Mintbase ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and our [GraphQL Indexer API](https://docs.mintbase.io/dev/getting-started)**. For more information about the Mintbase Foundation, please visit the [About page](https://mintbase.io) on our website.  
   
-Thanks to the [Web3 Foundation Grants Program](https://github.com/w3f/Grants-Program) for providing the structural outline for this program.
+Thanks to the [Web3 Foundation Grants Program](https://github.com/Mintbase/Grants-Program) for providing the structural outline for this program.
 
 ### Guidelines
 
@@ -96,6 +96,7 @@ In cases where a niche expert opinion is desirable, one of the committee members
 
 The Mintbase Grants Program offers different grant levels to help you best depending on your current stage.
 
+USD equivalent payments are made in NEAR.
 ### :hatching_chick: Level 1 (= InstaGrants)<!-- omit in toc -->
 
 - **Target:** Individuals & small teams
@@ -119,7 +120,7 @@ The Mintbase Grants Program offers different grant levels to help you best depen
 
 ## :pencil: Process
 
-> **:loudspeaker:** The application process is the same regardless of the [level](#level_slider-levels) being appplied for. Payments are made in $NEAR.
+> **:loudspeaker:** The application process is the same regardless of the [level](#level_slider-levels) being appplied for. 
 
 ### 1. Application
 
