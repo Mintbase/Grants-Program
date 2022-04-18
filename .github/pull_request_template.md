@@ -20,10 +20,10 @@
 
 ### How Did You Hear About our grants program?
 
-- [ ] Social Media
+- [ ] Mintbase Website
+- [ ] Mintbase Community (Twitter, Discord, Telegram etc.)
 - [ ] Hackathon
 - [ ] Personal Recommendation
-- [ ] Substrate Builders Program
 - [ ] Investor/VC
 - [ ] Online Search 
 - [ ] Other: _______
