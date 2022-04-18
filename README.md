@@ -89,7 +89,7 @@ In cases where a niche expert opinion is desirable, one of the committee members
 - [Maria](https://github.com/mariamneu)
 - [Regina](https://github.com/reginamintbase)
 - [Carolin](https://github.com/caromintbase)
-- [Marcelo](https://github.com/marcelomintbase)  ]
+- [Marcelo](https://github.com/marcelomintbase)
 
 
 ## :level_slider: Levels
