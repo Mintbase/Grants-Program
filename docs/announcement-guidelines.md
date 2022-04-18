@@ -37,7 +37,7 @@ We also cross-promote the most recent projects and their milestones on Twitter o
 5. Description of Mintbase
    - If you wish to mention Mintbase or Mintbase within the body of your text we recommend the following or similar:
      - "Mintbase funds research and development teams building the
-technology stack of the decentralized web. It was established in Zug, Switzerland by Ethereum co-founder and former CTO Gavin Wood. Mintbase is the Foundation's flagship project."
+technology stack of the decentralized web. Nate Geier. Mintbase is the Foundation's flagship project."
      - "Mintbase is a scalable sharded chain and the first protocol that provides a secure environment for cross-chain composability across multiple shards. Mintbase also introduces a highly advanced, open governance system that will allow the network to innovate and grow at a much faster pace than legacy networks. Applications from DeFi to energy to gaming will thrive on Mintbase, challenging the centralized platforms of Web 2.0."
 6. Social connections
    - The following text regarding Mintbase's social presence can be added at the end of your article: "Learn more about Mintbase by visiting their [website](https://mintbase.io/), and stay up to date with the latest developments by following them on [Medium](https://blog.mintbase.io/) or [Twitter](https://twitter.com/mintbase)."
