@@ -29,7 +29,7 @@
 
 As part of our commitment to always improving the Mintbase ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and our [GraphQL Indexer API](https://docs.mintbase.io/dev/getting-started)**. For more information about the Mintbase Foundation, please visit the [About page](https://mintbase.io) on our website.  
   
-Thanks to the [Web3 Foundation Grants Program](https://github.com/Mintbase/Grants-Program) for providing the structural outline for this program.
+ Thanks to the [Web3 Foundation Grants Program](https://github.com/Mintbase/Grants-Program) for providing the structural outline for this program.
 
 ### Guidelines
 
@@ -134,7 +134,7 @@ USD equivalent payments are made in NEAR.
 
 ### 2. Application Review
 
-   1. The [committee](#w3f-grants-committee) can (and usually does) issue comments and request changes on the pull request.
+   1. The team can (and usually does) issue comments and request changes on the pull request.
    2. Clarifications and amendments made in the comments _need to be included in the application_. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within 2 weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
    3. When all requested changes are addressed and the terms and conditions have been signed, someone will mark your application as `ready for review` and share it internally with the rest of the committee.
    4. The application will be accepted and merged as soon as it receives the required number of approvals (see [levels](#level_slider-levels)), or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
@@ -155,7 +155,7 @@ If you think that we should support the development of certain tools or projects
 
 **Submit an idea:**
 
-If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/Mintbase/Grants-Program/issues/new) or add it to the [tech stack](docs/ecosystem.md) as a potentially interesting project. We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
+If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/Mintbase/Grants-Program/issues/new). We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
 
 **Submit an RFP (Request for Proposals):**
 
@@ -192,9 +192,9 @@ Please note that:
 
 ### Additional information
 
-| <img src="src/web.png?s=50" width="50"> | <img src="src/twitter.png?s=50" width="50"> | <img src="src/medium.png?s=50" width="50"> | <img src="src/like.png?s=50" width="50"> | <img src="src/reddit.png?s=50" width="50"> | <img src="src/youtube-play.png?s=50" width="50"> |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| [Mintbase Website](https://mintbase.io) | [Mintbase Twitter](https://twitter.com/mintbase) | [Mintbase Medium](https://medium.com/mintbase) | [Docs](https://docs.mintbase.io) | [Mintbase Reddit](https://www.reddit.com/r/mintbase) | [Mintbase YouTube](https://www.youtube.com/channel/AZNC_VfPvxiA3k8Vg) |
+| <img src="src/web.png?s=50" width="50"> | <img src="src/twitter.png?s=50" width="50"> | <img src="src/medium.png?s=50" width="50"> | <img src="src/like.png?s=50" width="50"> | <img src="src/reddit.png?s=50" width="50"> |  
+| :-: | :-: | :-: | :-: | :-: |
+| [Mintbase Website](https://mintbase.io) | [Mintbase Twitter](https://twitter.com/mintbase) | [Mintbase Medium](https://medium.com/mintbase) | [Docs](https://docs.mintbase.io) | [Mintbase Reddit](https://www.reddit.com/r/mintbase) 
 
 ### Real-time conversation
 
