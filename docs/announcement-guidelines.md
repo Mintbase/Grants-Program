@@ -1,8 +1,8 @@
 # Announcement Guidelines
 
-> Guidelines updated August 2021
+> Guidelines updated April 2021
 
-Mintbase (Mintbase) supports many teams and organizations throughout the ecosystem. We often receive requests to participate in project announcements. Unfortunately, due to the high volume of requests, we rarely do joint announcements and do not provide quotes.
+Mintbase supports many teams and organizations throughout the ecosystem. We often receive requests to participate in project announcements. Unfortunately, due to the high volume of requests, we rarely do joint announcements and do not provide quotes.
 
 In the context of the grants programs, we ask teams not to make any announcements before **the first milestone has been accepted**. This is in order to protect the community from projects that only intend to use the grant announcement to raise funds and/or interest but don't intend to deliver on the application, which has unfortunately happened in the past. For this reason, we reserve the right to terminate grants if this rule is not observed.
 
