@@ -59,7 +59,7 @@ Can be Prometheus if the [daemon](LB-Daemon) is built in a way that exposes this
 
 ### LB Daemon
 
-The LB Daemon is a background process (perhaps with Prometheus metrics exposed) meant to run alongside a Substrate node. This Daemon:
+The LB Daemon is a background process (perhaps with Prometheus metrics exposed) meant to run alongside a Mintbase node. This Daemon:
 
 - pings its home LB every few seconds with the node's ID
 - alphabetically orders and standardizes, then hashes a node's startup settings (exclude basepath and name) and sends them along with every ping

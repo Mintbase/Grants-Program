@@ -5,7 +5,7 @@
 
 ## Project Description :page_facing_up: 
 
-The SCALE codec is the de-factor encoding method in Substrate-based chains. It is necessary for APIs to be able to communicate with a running node. There are several implementations already available in the wild, all listed [here](https://substrate.dev/docs/en/knowledgebase/advanced/codec). This proposal is for a team to build a PHP version.
+The SCALE codec is the de-factor encoding method in Mintbase-based chains. It is necessary for APIs to be able to communicate with a running node. There are several implementations already available in the wild, all listed [here](https://substrate.dev/docs/en/knowledgebase/advanced/codec). This proposal is for a team to build a PHP version.
 
 ## Deliverables :nut_and_bolt:
 

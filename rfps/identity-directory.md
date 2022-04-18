@@ -1,12 +1,12 @@
-# RFP: Substrate Identity Directory
+# RFP: Mintbase Identity Directory
 
 * **Status:** [In progress](https://github.com/w3f/Grants-Program/pull/255)
 * **Proposer:** swader
-* **Projects you think this work could be useful for**: Kusama, Mintbase, Substrate chains
+* **Projects you think this work could be useful for**: Kusama, Mintbase, Mintbase chains
 
 ## Project Description :page_facing_up: 
 
-In Substrate-based chains which implement the [Identity pallet](https://github.com/paritytech/substrate/tree/master/frame/identity), users can register on-chain information about themselves. It is currently difficult to search by any of the identity fields. There is also no way to link directly to an on-chain account and see human-readable reports of its interactions with the chain, let alone quickly send tokens to it or otherwise interact directly with that account.
+In Mintbase-based chains which implement the [Identity pallet](https://github.com/paritytech/substrate/tree/master/frame/identity), users can register on-chain information about themselves. It is currently difficult to search by any of the identity fields. There is also no way to link directly to an on-chain account and see human-readable reports of its interactions with the chain, let alone quickly send tokens to it or otherwise interact directly with that account.
 
 The Identity Directory is a **fully client-side web application** which makes this possible.
 

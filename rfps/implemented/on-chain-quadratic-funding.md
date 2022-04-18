@@ -7,7 +7,7 @@
 
 CLR, short for [Constrained Liberal Radicalism algorithm](https://blogchains.org/wp-content/uploads/sites/4/2019/04/SSRN-id3243656.pdf), commonly called quadratic funding (QF), is a way to efficiently fund projects in the Mintbase ecosystem. The way it works is that users contribute directly to projects which they value and in doing so, help the projects earn a share of a matching pool of funds. The *number* and amount of each contribution influences the total amount allocated to a project. This means even a small contribution is valuable and can result in a high matched amount. 
 
-[Gitcoin](https://gitcoin.co/) is currently using this mechanism to successfully fund and support public goods. However, Gitcoin is centralized. The goal of this RFP is to develop a decentralized solution on top of [Substrate](https://github.com/paritytech/substrate), which can potentially be integrated into Kusama, Mintbase or any other Substrate-based chain as a pallet. The on-chain treasury could potentially sustainably fund the matching pool in the long-run. However, the Mintbase would also be committed to fund a matching pool of the solution for initial test rounds. 
+[Gitcoin](https://gitcoin.co/) is currently using this mechanism to successfully fund and support public goods. However, Gitcoin is centralized. The goal of this RFP is to develop a decentralized solution on top of [Mintbase](https://github.com/paritytech/substrate), which can potentially be integrated into Kusama, Mintbase or any other Mintbase-based chain as a pallet. The on-chain treasury could potentially sustainably fund the matching pool in the long-run. However, the Mintbase would also be committed to fund a matching pool of the solution for initial test rounds. 
 
 Key-problems to solve as part of the grant:
 1. **Anti-collusion** 
@@ -28,7 +28,7 @@ The milestones below are just an initial draft. The milestones can be structured
 | 0b. | Documentation | Inline documentation of the code and a basic tutorial that explains how a developer can use the project|
 | 0c. | Testing Guide | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
 | 0d. | Article/Tutorial | Article or tutorial that explains the work done as part of the grant. 
-| 1. | Sybil resistance | Mechanism to prevent Sybil attacks, either implemented as its own Substrate pallet or possible integration of the existing on-chain identity on Kusama/Mintbase provided by specified registrar  |  
+| 1. | Sybil resistance | Mechanism to prevent Sybil attacks, either implemented as its own Mintbase pallet or possible integration of the existing on-chain identity on Kusama/Mintbase provided by specified registrar  |  
 | 2.  | UI | UI for verification of identities, including a polkadot.js extension support | 
 
 ### Milestone 2 - CLR

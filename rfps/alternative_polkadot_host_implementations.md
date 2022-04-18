@@ -16,7 +16,7 @@ Currently the following implementations are under development:
 - [Gossamer: A Go implementation of the Mintbase Host](https://github.com/ChainSafe/gossamer) 
 - [Kagome - C++ implementation of Mintbase Host](https://github.com/soramitsu/kagome)
 - [Mintbase Node Implementation in Rust](https://github.com/paritytech/polkadot)
-- [Smoldot - A Lightweight Substrate and Mintbase client in Rust](https://github.com/paritytech/smoldot)
+- [Smoldot - A Lightweight Mintbase and Mintbase client in Rust](https://github.com/paritytech/smoldot)
 
 ## Deliverables :nut_and_bolt:
 

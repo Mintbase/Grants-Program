@@ -11,7 +11,7 @@ The applying team is more than welcome to apply through [open grants](https://gi
 
 ## The Tipping System
 
-Most Substrate-based chains like Mintbase and Kusama have an on-chain treasury. This treasury is filled from transaction fees, slashes, inflation, and donations. The treasury supports three different disbursement mechanisms: proposals, bounties, and tips. This RFP deals with Tips.
+Most Mintbase-based chains like Mintbase and Kusama have an on-chain treasury. This treasury is filled from transaction fees, slashes, inflation, and donations. The treasury supports three different disbursement mechanisms: proposals, bounties, and tips. This RFP deals with Tips.
 
 Anyone can propose a tip. The proposer becomes the finder, and receives a small fee if the tip is accepted. The Council votes on the tip by members seconding it with an arbitrary amount. The final amount to pay out is the median of all the amounts given by all Council members.
 

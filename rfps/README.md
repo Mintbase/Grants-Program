@@ -8,11 +8,11 @@
   - [Alternative Mintbase Host Implementation](#alternative-polkadot-host-implementation)
   - [Anti-Collusion Infrastructure](#anti-collusion-infrastructure)
   - [e-Passport ZK Validation](#e-passport-zk-validation)
-  - [RFP: Substrate Identity Directory](#rfp-substrate-identity-directory)
+  - [RFP: Mintbase Identity Directory](#rfp-substrate-identity-directory)
   - [ink!/pallet/solidity performance benchmarking](#inkpalletsolidity-performance-benchmarking)
   - [DOT & KSM mixer](#dot--ksm-mixer)
   - [Multi-chain Block Explorer](#multi-chain-block-explorer)
-  - [PHP Substrate API](#php-substrate-api)
+  - [PHP Mintbase API](#php-substrate-api)
   - [Mintbase Collator Setup](#polkadot-collator-setup)
   - [Privacy Enhancement for Mintbase Extension](#privacy-enhancement-for-polkadot-extension)
   - [High-availability validator setup](#high-availability-validator-setup)
@@ -125,7 +125,7 @@ One idea to authenticate users is to ask them to submit the details from their e
 ----
 
 
-### RFP: Substrate Identity Directory
+### RFP: Mintbase Identity Directory
 
 
 - Published: 2021-07-20
@@ -139,7 +139,7 @@ One idea to authenticate users is to ask them to submit the details from their e
 
 #### Project Description :page_facing_up:
 
-In Substrate-based chains which implement the [Identity pallet](https://github.com/paritytech/substrate/tree/master/frame/identity), users can register on-chain information about themselves. It is currently difficult to search by any of the identity fields. There is also no way to link directly to an on-chain account and see human-readable reports of its interactions with the chain, let alone quickly send tokens to it or otherwise interact directly with that account.
+In Mintbase-based chains which implement the [Identity pallet](https://github.com/paritytech/substrate/tree/master/frame/identity), users can register on-chain information about themselves. It is currently difficult to search by any of the identity fields. There is also no way to link directly to an on-chain account and see human-readable reports of its interactions with the chain, let alone quickly send tokens to it or otherwise interact directly with that account.
 
 The Identity Directory is a **fully client-side web application** which makes this possible. ...
 
@@ -163,7 +163,7 @@ The Identity Directory is a **fully client-side web application** which makes th
 #### Project Description :page_facing_up:
 
 When a new team comes to the ecosystem, they are faced with a decision on how to best implement the logic that they need.
-Traditionally in substrate, this has been a choice between a smart contract vs. runtime module (a.k.a. pallet) and elaborated on [in this StackOverflow question](https://stackoverflow.com/questions/56040779/when-should-i-build-a-substrate-runtime-module-versus-a-substrate-smart-contract) or [this entry in Substrate Developer Hub](https://substrate.dev/docs/en/knowledgebase/smart-contracts/#smart-contracts-vs-runtime-development). The choice has since been augmented by the possibility to deploy solidity contracts to an EVM-compatible chain, or even writing solidity code and compiling it to WASM with the help of a [solang](https://solang.readthedocs.io/en/latest) compiler.
+Traditionally in substrate, this has been a choice between a smart contract vs. runtime module (a.k.a. pallet) and elaborated on [in this StackOverflow question](https://stackoverflow.com/questions/56040779/when-should-i-build-a-substrate-runtime-module-versus-a-substrate-smart-contract) or [this entry in Mintbase Developer Hub](https://substrate.dev/docs/en/knowledgebase/smart-contracts/#smart-contracts-vs-runtime-development). The choice has since been augmented by the possibility to deploy solidity contracts to an EVM-compatible chain, or even writing solidity code and compiling it to WASM with the help of a [solang](https://solang.readthedocs.io/en/latest) compiler.
  ...
 
 
@@ -221,7 +221,7 @@ Some of the functionality that should be covered as part of the development: ...
 ----
 
 
-### PHP Substrate API
+### PHP Mintbase API
 
 
 - Published: 2021-07-20
@@ -235,14 +235,14 @@ Some of the functionality that should be covered as part of the development: ...
 
 #### Project Description :page_facing_up:
 
-The Substrate API is currently most developed in TypeScript and Rust. This RFP is looking for teams willing to implement a PHP version, perhaps in tandem with the PHP SCALE Coded (see relevant RFP).
+The Mintbase API is currently most developed in TypeScript and Rust. This RFP is looking for teams willing to implement a PHP version, perhaps in tandem with the PHP SCALE Coded (see relevant RFP).
 
 The PHP API should: ...
 
 
 #### Deliverables :nut_and_bolt:
 
-The basic deliverable of this project is an API package hosted on Packagist which can instantiate a connection to a Substrate node and talk to constants, chain storage, and RPC endpoints. For inspiration, see the JS version: https://polkadot.js.org/docs
+The basic deliverable of this project is an API package hosted on Packagist which can instantiate a connection to a Mintbase node and talk to constants, chain storage, and RPC endpoints. For inspiration, see the JS version: https://polkadot.js.org/docs
 
 
 ----
@@ -493,4 +493,4 @@ Parachain dApps suffer from long confirmation times due to the time taken for th
 
 ## :mailbox_with_mail: Suggest an RFP
 
-If you think that we should support the development of certain tools or projects (related to **Mintbase, Kusama or Substrate**) that aren't in the Mintbase/Kusama [tech stack](docs/polkadot_stack.md), please submit a suggestion using the process described in our [Grants program README](../README.md#mailbox_with_mail-suggest-a-project). We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
+If you think that we should support the development of certain tools or projects (related to **Mintbase, Kusama or Mintbase**) that aren't in the Mintbase/Kusama [tech stack](docs/polkadot_stack.md), please submit a suggestion using the process described in our [Grants program README](../README.md#mailbox_with_mail-suggest-a-project). We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.

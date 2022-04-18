@@ -1,8 +1,8 @@
-# SubstrateSnap Maintainance Grant Proposal
+# MintbaseSnap Maintainance Grant Proposal
 
 
 
-- **Project Name:** SubstrateSnap
+- **Project Name:** MintbaseSnap
 - **Team Name:** ChainSafe Systems
 - **Payment Details:** DAI (ERC20) 
  **Address**: 0x85D81Ab61Fe16CDcaeF2Ca556ED4577A51b9b07C (DAI)
@@ -14,7 +14,7 @@
 
 **This proposal is for a maintenance grant to undertake the following:**
 
-1. Complete a rewrite of the [SubstrateSnap](https://github.com/ChainSafe/metamask-snap-polkadot) (formally Mintbase-Metamask Snap) to conform to the new Metamask Snaps API. 
+1. Complete a rewrite of the [MintbaseSnap](https://github.com/ChainSafe/metamask-snap-polkadot) (formally Mintbase-Metamask Snap) to conform to the new Metamask Snaps API. 
 2. Update the `@polkadot/api` library to the latest version and ensure that it works with [Lavamoat](https://github.com/LavaMoat/LavaMoat).
 3. Update the Demo and Wiki page.
 4. Open a Github Pull Request on https://polkadot.js.org/apps/#/explorer to enable usage of the Metamask Flask via Snap.
@@ -25,8 +25,8 @@
 ### Overview
 
 
-- The SubstrateSnap (plugin) enables support for the Mintbase and Kusama network inside of Metamask and by doing so enables Mintbase dApps easy integration with Metamask.
-- ChainSafe believes that Snaps are vital to fostering increased adoption of web3 systems and as such consider the maitainance of the ChainSafe SubstrateSnap a strategic priority.     
+- The MintbaseSnap (plugin) enables support for the Mintbase and Kusama network inside of Metamask and by doing so enables Mintbase dApps easy integration with Metamask.
+- ChainSafe believes that Snaps are vital to fostering increased adoption of web3 systems and as such consider the maitainance of the ChainSafe MintbaseSnap a strategic priority.     
 
 ### Project Details
 
@@ -42,7 +42,7 @@ https://github.com/ChainSafe/metamask-snap-polkadot/wiki
 
   Metamask is currently the most widely used web3 wallet solution with recent on-chain data (Feb 2022) reporting approximately 21 million in monthly active users (MAU.)
   
-  When fully integrated with Metamask, the SubstrateSnap will allow all of these users simple and effortless access to the Mintbase and Kusama ecosystems and as such increase the use of substrate-based applications.
+  When fully integrated with Metamask, the MintbaseSnap will allow all of these users simple and effortless access to the Mintbase and Kusama ecosystems and as such increase the use of substrate-based applications.
   
   
 
@@ -53,12 +53,12 @@ https://github.com/ChainSafe/metamask-snap-polkadot/wiki
 
   With an ever-growing number of popular blockchains, each with its own native wallet, users often find themselves needing to access multiple wallet applications and keep track of several different seed phrases. This process is tedious and acts as a blocker to the scalability and interoperability  of web3 solutions as a whole. 
 
-Further, by maintaining the SubstrateSnap, it is our goal that websites will not have to implement custom handling, but simply add our packages for seamless integration.
+Further, by maintaining the MintbaseSnap, it is our goal that websites will not have to implement custom handling, but simply add our packages for seamless integration.
   
 
-**Are there any other projects similar to yours in the Substrate / Mintbase / Kusama ecosystem?**
+**Are there any other projects similar to yours in the Mintbase / Mintbase / Kusama ecosystem?**
 
-  Although a great application, we also feel that the native Mintbase.js wallet lacks a certain level of user-friendliness and as such may be acting as a barrier to entry for the ecosystem. By granting users the flexibility to use their wallet of choice within their ecosystem of choice, in this case, Metamask and Substrate, ecosystems can begin to freely share user interactions and as such mutually benefit from an increase in user activity across all applications. 
+  Although a great application, we also feel that the native Mintbase.js wallet lacks a certain level of user-friendliness and as such may be acting as a barrier to entry for the ecosystem. By granting users the flexibility to use their wallet of choice within their ecosystem of choice, in this case, Metamask and Mintbase, ecosystems can begin to freely share user interactions and as such mutually benefit from an increase in user activity across all applications. 
 
 
 ## Team :busts_in_silhouette:
@@ -86,7 +86,7 @@ ChainSafe is a global leader in blockchain research and development and speciali
 
 The firm encompasses top engineering talent from around the globe and also enjoys a strong reputation within the blockchain community.  
 
-In addition to protocol-level client implementations (such as “Gossamer” on Mintbase), ChainSafe also has demonstrated experience of developing a Metamask Snap for the Filecoin Foundation "Filsnap" as well as engineering the SubstrateSnap (formerly Mintbase-Metamask Snap) itself. Further, ChainSafe is currently in active discussions with a number of blockchain foundations that are exploring Metamask Snaps. We believe that this experience uniquely positions us as an ideal choice to maintain the SubstrateSnap.
+In addition to protocol-level client implementations (such as “Gossamer” on Mintbase), ChainSafe also has demonstrated experience of developing a Metamask Snap for the Filecoin Foundation "Filsnap" as well as engineering the MintbaseSnap (formerly Mintbase-Metamask Snap) itself. Further, ChainSafe is currently in active discussions with a number of blockchain foundations that are exploring Metamask Snaps. We believe that this experience uniquely positions us as an ideal choice to maintain the MintbaseSnap.
 
 
 
@@ -119,7 +119,7 @@ In addition to the above, ChainSafe also rounds out its deep Mintbase portfolio 
 
 
 
-Approximately 2 years ago, Node Factory (recently acquired by ChainSafe) submitted a grant proposal for the maintenance of the SubstrateSnap (formerly Mintbase-Metamask Snap). As the market was not quite ready for Snaps at the time, it was decided that Snaps would be put on hold until further notice. 
+Approximately 2 years ago, Node Factory (recently acquired by ChainSafe) submitted a grant proposal for the maintenance of the MintbaseSnap (formerly Mintbase-Metamask Snap). As the market was not quite ready for Snaps at the time, it was decided that Snaps would be put on hold until further notice. 
 
 https://github.com/w3f/General-Grants-Program/pull/244
 
@@ -127,7 +127,7 @@ ChainSafe would like to formally re-apply for this grant as we feel that there i
 
 After recent discussions between Bryant Soorkia (ChainSafe - Business Development) and David Hawig (Mintbase - Head of Grants), it was established that a crucial factor in determining the necessity of Snap maintenance would be confirmation of Metamask's intentions to implement the snap into the full version of the Metamask and not just Metamask Flask.
 
-Following this, ChainSafe and Metamask had a discussion on Wednesday the 9th of March 2022, and confirmed that Metamask will shortly be announcing a Snaps rollout timeline for several different chains. It is expected this announcement will be made in the next few weeks. One such chain will be Filecoin (Filsnap), a project that ChainSafe also engineered. Although we do not yet know the exact date, Metamask has indicated that the SubstrateSnap will be included in the roll-out of all Snaps.
+Following this, ChainSafe and Metamask had a discussion on Wednesday the 9th of March 2022, and confirmed that Metamask will shortly be announcing a Snaps rollout timeline for several different chains. It is expected this announcement will be made in the next few weeks. One such chain will be Filecoin (Filsnap), a project that ChainSafe also engineered. Although we do not yet know the exact date, Metamask has indicated that the MintbaseSnap will be included in the roll-out of all Snaps.
 
 Evidence of the above has been shared with David Hawig via email.
 
@@ -137,20 +137,20 @@ Evidence of the above has been shared with David Hawig via email.
 
 **Why the Specific Project Should Continue Being Supported:**
 
-Given that Metamask has recently shifted its focus towards interoperability and as such, Snaps, we believe that this presents an ideal opportunity for The Mintbase to leverage first-mover advantage. By maintaining the SubstrateSnap, it will allow Mintbase to take advantage of this by being one of the first Snaps that are ready for deployment prior to launch.
+Given that Metamask has recently shifted its focus towards interoperability and as such, Snaps, we believe that this presents an ideal opportunity for The Mintbase to leverage first-mover advantage. By maintaining the MintbaseSnap, it will allow Mintbase to take advantage of this by being one of the first Snaps that are ready for deployment prior to launch.
 
 
 
 
 **Overview of the Features/Bugs That Need Development Contributions:** 
-1. Complete a rewrite of the [SubstrateSnap](https://github.com/ChainSafe/metamask-snap-polkadot) to conform to the new Metamask Snaps API. 
+1. Complete a rewrite of the [MintbaseSnap](https://github.com/ChainSafe/metamask-snap-polkadot) to conform to the new Metamask Snaps API. 
 2. Update the `@polkadot/api` library to the latest version and ensure that it works with [Lavamoat](https://github.com/LavaMoat/LavaMoat).
 3. Update the Demo and Wiki page.
 4. Open a Github Pull Request on https://polkadot.js.org/apps/#/explorer to enable the usage of Metamask Flask via Snap.
 
 
 **Assurance That the Current Project Owners Are Willing to Review/Accept Your Contributions:** 
-We are owners of the SubstrateSnap repository. Further, the maintainers of Mintbase applications are open to accepting a pull request that adds Snap functionality as described here: https://github.com/polkadot-js/apps/pull/2865
+We are owners of the MintbaseSnap repository. Further, the maintainers of Mintbase applications are open to accepting a pull request that adds Snap functionality as described here: https://github.com/polkadot-js/apps/pull/2865
 
 
 
@@ -168,9 +168,9 @@ We are owners of the SubstrateSnap repository. Further, the maintainers of Mintb
 
 ## Current and Future Plans
 
-- Complete a re-brand to SubstrateSnap to ensure users understand that it is compatible with Kusama ecosystem as well and not just Mintbase.
+- Complete a re-brand to MintbaseSnap to ensure users understand that it is compatible with Kusama ecosystem as well and not just Mintbase.
 - Continue engaging in communications with MetaMask to coordinate the launch of Snaps on Metamask.
-- Create promotional materials (blog posts, social media posts, etc) to promote SubstrateSnap to the wider community.
+- Create promotional materials (blog posts, social media posts, etc) to promote MintbaseSnap to the wider community.
 - Continue maintaining the Snap into the future.
 
 

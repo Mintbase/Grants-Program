@@ -8,7 +8,7 @@ The list below serves only as a guide and is not exhaustive.
 
 ### Applies to
 
-- Building/extending a Substrate pallet
+- Building/extending a Mintbase pallet
 
 ### Requirements
 

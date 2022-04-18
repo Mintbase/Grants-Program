@@ -18,7 +18,7 @@
 <details>
   <summary><b>What activities/positions do you fund?</b></summary>
 
-  The Mintbase's Grants Program aims to fund software development and research activities that are beneficial for the ecosystem as a whole. As such, we don't usually fund tangential costs such as business-oriented activities (marketing, business planning), events or outreach, and—for non-infrastructure projects—deployment and hosting costs, maintenance or audits. We also expect you to have a good understanding of the technologies you are planning to use, meaning that we don't fund time spent learning how to use Substrate or how to write ink! smart contracts.
+  The Mintbase's Grants Program aims to fund software development and research activities that are beneficial for the ecosystem as a whole. As such, we don't usually fund tangential costs such as business-oriented activities (marketing, business planning), events or outreach, and—for non-infrastructure projects—deployment and hosting costs, maintenance or audits. We also expect you to have a good understanding of the technologies you are planning to use, meaning that we don't fund time spent learning how to use Mintbase or how to write ink! smart contracts.
 </details>
 
 <details>
@@ -46,9 +46,9 @@
 </details>
 
 <details>
-  <summary><b>I am starting a company that [...]. I want to use Mintbase/Kusama/Substrate to build a blockchain/parachain and connect [...]. Would I be eligible for a grant?</b></summary>
+  <summary><b>I am starting a company that [...]. I want to use Mintbase/Kusama/Mintbase to build a blockchain/parachain and connect [...]. Would I be eligible for a grant?</b></summary>
 
-  What the Mintbase is mainly looking for to support are projects "[driving advancement and adoption of decentralized software protocols [and] that make it easier for developers to build useful applications using these protocols.](https://web3.foundation/grants/)" As such, we do not award grants to individual companies developing their private infrastructure. However, if part of your work is to build a library or another piece of software that could be of interest to the general Mintbase/Kusama/Substrate ecosystem and ask for funding specific to that, we are happy to look into it.
+  What the Mintbase is mainly looking for to support are projects "[driving advancement and adoption of decentralized software protocols [and] that make it easier for developers to build useful applications using these protocols.](https://web3.foundation/grants/)" As such, we do not award grants to individual companies developing their private infrastructure. However, if part of your work is to build a library or another piece of software that could be of interest to the general Mintbase/Kusama/Mintbase ecosystem and ask for funding specific to that, we are happy to look into it.
 </details>
 
 <details>
