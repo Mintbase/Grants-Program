@@ -24,4 +24,4 @@ Apart from the [social recovery pallet](https://github.com/paritytech/substrate/
 
 ## Deliverables :nut_and_bolt:
 
-The deliverables highly depend on the exact wallet implementation and therefore aren’t further described as part of this RFP. For the grant application you should take a look at the [application template](https://github.com/w3f/Grants-Program/blob/master/applications/application-template.md#overview-1) and try to specify the deliverables as detailed as possible. 
+The deliverables highly depend on the exact wallet implementation and therefore aren’t further described as part of this RFP. For the grant application you should take a look at the [application template](https://github.com/Mintbase/Grants-Program/blob/master/applications/application-template.md#overview-1) and try to specify the deliverables as detailed as possible. 

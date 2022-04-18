@@ -108,7 +108,7 @@ The Mintbase Grants Program offers different grant levels to help you best depen
 - **Target:** Small teams/start-ups
 - **Amount:** Up to $50,000
 - **Requirements:** 3 approvals
-- **Benefits:** All of the above + [co-promotion](./docs/announcement-guidelines.md#announcement-guidelines), [Grants Program badge](./docs/grant-badge-guidelines.md), fast track to [Mintbase Builders Program](https://www.substrate.io/builders-program/)
+- **Benefits:** All of the above + [co-promotion](./docs/announcement-guidelines.md#announcement-guidelines), fast track to [Mintbase Builders Program](https://www.substrate.io/builders-program/)
 
 ### :rooster: Level 3<!-- omit in toc -->
 
@@ -123,10 +123,10 @@ The Mintbase Grants Program offers different grant levels to help you best depen
 
 ### 1. Application
 
-   1. [Fork](https://github.com/w3f/Grants-Program/fork) this repository.
+   1. [Fork](https://github.com/Mintbase/Grants-Program/fork) this repository.
    2. In the newly created fork, create a copy of the application template ([`applications/application-template.md`](applications/application-template.md)). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/w3f/Grants-Program/master/applications/application-template.md) of the template inside the new one. Make sure you **do not modify the template file directly**. In the case of a maintenance application, use the maintenance template ([`maintenance template`](maintenance/maintenance-template.md)) instead. 
    3. Name the new file after your project: `project_name.md`.
-   4. Fill out the template with the details of your project. The more information you provide, the faster the review. Please refer to our [Grant guidelines for most popular grant categories](docs/grant_guidelines_per_category.md) and make sure your deliverables present a similar same level of detail. To get an idea of what a strong application looks like, you can have a look at the following examples:  [1](https://github.com/w3f/Grants-Program/blob/master/applications/project_aurras_mvp_phase_1.md), [2](https://github.com/w3f/Grants-Program/blob/master/applications/project_bodhi.md), [3](https://github.com/w3f/Grants-Program/blob/master/applications/pontem.md), [4](https://github.com/w3f/Grants-Program/blob/master/applications/spartan_poc_consensus_module.md). Naturally, if you're only applying for a smaller grant that only consists of, say, UI work, you don't need to provide as much detail.
+   4. Fill out the template with the details of your project. The more information you provide, the faster the review. Please refer to our [Grant guidelines for most popular grant categories](docs/grant_guidelines_per_category.md) and make sure your deliverables present a similar same level of detail. To get an idea of what a strong application looks like, you can have a look at the following examples:  [1](https://github.com/Mintbase/Grants-Program/blob/master/applications/project_aurras_mvp_phase_1.md), [2](https://github.com/Mintbase/Grants-Program/blob/master/applications/project_bodhi.md), [3](https://github.com/Mintbase/Grants-Program/blob/master/applications/pontem.md), [4](https://github.com/Mintbase/Grants-Program/blob/master/applications/spartan_poc_consensus_module.md). Naturally, if you're only applying for a smaller grant that only consists of, say, UI work, you don't need to provide as much detail.
    5. Once you're done, create a pull request. The pull request should only contain _one new file_—the Markdown file you created from the template.
    6. You will see a comment template that contains a checklist. You can leave it as is and tick the checkboxes once the pull request has been created. Please read through these items and check all of them.
    7. Sign off on the [terms and conditions](docs/T&Cs.md) presented by the [CLA assistant](https://github.com/claassistantio) bot as a Contributor License Agreement. You might need to reload the pull request to see its comment.
@@ -154,13 +154,13 @@ If you think that we should support the development of certain tools or projects
 
 **Submit an idea:**
 
-If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/w3f/Grants-Program/issues/new) or add it to the [tech stack](docs/ecosystem.md) as a potentially interesting project. We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
+If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/Mintbase/Grants-Program/issues/new) or add it to the [tech stack](docs/ecosystem.md) as a potentially interesting project. We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
 
 **Submit an RFP (Request for Proposals):**
 
 Ideas generally have better chances of being implemented if they're presented in a project outline format that can be picked up straight away by a team, so if you have a good concept of the milestones required to bring your project to life, you can follow the process below and directly submit an RFP:
 
-1. [Fork](https://github.com/w3f/Grants-Program/fork) this repository.
+1. [Fork](https://github.com/Mintbase/Grants-Program/fork) this repository.
 2. In the newly created fork, create a copy of the suggestion template ([`rfps/suggestion-template.md`](rfps/suggestion-template.md)) inside the [`rfps`](rfps) folder. Make sure you create a new file and copy the [contents](https://raw.githubusercontent.com/w3f/Grants-Program/master/rfps/suggestion-template.md) of the template into the new one, and _do not modify the template file directly._
 3. Name the file after your idea: `project_name.md`.
 4. Fill out the template with the project details. Please include as many details as possible.

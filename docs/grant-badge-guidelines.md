@@ -8,7 +8,7 @@ To that end, we’ve created a badge for grant recipients. This is available for
 
 *Before you begin using the badge, please note the following points:*
 
-- Use of the Grants Program badge is reserved for [Level 2 and 3 grants](https://github.com/w3f/Grants-Program/blob/master/README.md#level_slider-levels).
+- Use of the Grants Program badge is reserved for [Level 2 and 3 grants](https://github.com/Mintbase/Grants-Program/blob/master/README.md#level_slider-levels).
 - Grants are awarded **for specific projects**, not to teams in general as a blanket endorsement.
 - Mintbase and its grants program **don’t broker partnerships or joint ventures**, or cosign wholesale any external team’s work. Bearing that in mind, **the badge should only be displayed in project-specific contexts.**
 - Please **do**: display the badge

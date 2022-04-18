@@ -7,7 +7,7 @@
 - **Payment Details:** DAI (ERC20) 
  **Address**: 0x85D81Ab61Fe16CDcaeF2Ca556ED4577A51b9b07C (DAI)
 - Network
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 2 
+- **[Level](https://github.com/Mintbase/Grants-Program/tree/master#level_slider-levels):** 2 
 
 
 ## Project Overview :page_facing_up:

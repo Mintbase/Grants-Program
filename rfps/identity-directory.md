@@ -1,6 +1,6 @@
 # RFP: Mintbase Identity Directory
 
-* **Status:** [In progress](https://github.com/w3f/Grants-Program/pull/255)
+* **Status:** [In progress](https://github.com/Mintbase/Grants-Program/pull/255)
 * **Proposer:** swader
 * **Projects you think this work could be useful for**: Kusama, Mintbase, Mintbase chains
 
