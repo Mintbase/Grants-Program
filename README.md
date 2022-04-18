@@ -27,46 +27,47 @@
 
 ## :wave: Introduction
 
-As part of our commitment to promoting the Mintbase ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and [graphQL indexer](https://docs.mintbase.io/dev/getting-started)**. For more information about the Mintbase Foundation, please visit the [About page](https://mintbase.io) on our website.  
+As part of our commitment to always improving the Mintbase ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and our [GraphQL Indexer API](https://docs.mintbase.io/dev/getting-started)**. For more information about the Mintbase Foundation, please visit the [About page](https://mintbase.io) on our website.  
   
-Special thanks to the [Web3 Foundation Grants Program](https://github.com/w3f/Grants-Program) where most of this outline came from.
+Thanks to the [Web3 Foundation Grants Program](https://github.com/w3f/Grants-Program) for providing the structural outline for this program.
 
 ### Guidelines
 
 Anyone is welcome to apply for a grant. Projects funded through our programs are broad in scope, but our focus lies on strong **technical** projects that add value to the ecosystem.
 
-Generally, your project will have better chances to be accepted if:
+Projects are be more likely to be accepted if:
 
-- It presents a **well-researched** or tested concept, for which ideally you are able to show some prior work.
-- You can demonstrate that the project will be **maintained** after completion of the grant, be it through an obvious commitment to the technology from your side, additional funding sources or an existing business model.
-- Your team has **proven experience** with the relevant languages and technologies and/or a strong technical background. You will be asked to provide the GitHub profiles of your team members as part of your application, which we will examine these for past activity and code quality. Naturally, you can also link to projects on other platforms.
 - Your application is **rich in technical details** and well-defined.
+- It presents a **well-researched** or tested concept, for which you are able to show some prior work.
+- You can demonstrate that the project will be **maintained** after completion of the grant, be it through an obvious commitment to the technology from your side, additional funding sources or an existing business model.
+- Your team has **proven experience** with the relevant technologies and/or a strong technical background. You will be asked to provide the GitHub profiles of your team members as part of your application, which we will examine these for past activity and code quality. You can also link to supporting examples on other platforms.
 - You can clearly present how your project stands out among competitors or implements technology that doesn't exist in the ecosystem yet.
 
-Additionally, it must fulfill the following requirements:
+Additionally, projects **must** fulfill the following requirements:
 
-- All code produced as part of a grant must be **open-sourced**, and it must also not rely on closed-source software for full functionality. We prefer Apache 2.0, but GPLv3, MIT or Unlicense are also acceptable.
-- We do not award grants for projects that have been the object of a successful token sale.
-- As a general rule, teams are asked to finish a grant before applying for another one.
-- Lastly, we do not fund projects that actively encourage gambling, illicit trade, money laundering or criminal activities in general.
+- All code produced as part of a grant must be **open-sourced**, and it must also not rely on closed-source software for full functionality. We prefer Apache 2.0 but GPLv3, MIT or Unlicense are also acceptable.
+- Projects may not encourage gambling or illicit activity in any shape or form. 
+- Projects cannot have been part of a successful token sale.
+- Teams must finish projects that have been awarded a grant before being considred for another.
 
-In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](docs/milestone-deliverables-guidelines.md). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required for funding. Tutorials or videos are also helpful for new users to understand how to use your product.
 
-Please also heed our [Announcement Guidelines](docs/announcement-guidelines.md) for grant-related communications.
+In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](docs/milestone-deliverables-guidelines.md). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required for funding. Tutorials and videos are also helpful to understand your project goals and use cases. 
+
+Please also observe our [Announcement Guidelines](docs/announcement-guidelines.md) for grant-related communications.
 
 Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
 
-We also try to enforce our [code of conduct](CODE_OF_CONDUCT.md) and based on this may [block users](https://github.blog/2016-04-04-organizations-can-now-block-abusive-users/).
+We also try to enforce our [code of conduct](CODE_OF_CONDUCT.md) and reserve the right to [block users](https://github.blog/2016-04-04-organizations-can-now-block-abusive-users/) if necessary.
 
-### Project ideas
+### Project Ideas
 
-An overview of existing projects in the Mintbase Technology Stack along with broad project ideas we would potentially be interested in funding can be found [here](docs/polkadot_stack.md), as well as a list of previously accepted applications [here](docs/accepted_grant_applications.md).
+An overview of existing projects in the Mintbase Technology Stack along with broad project ideas we would potentially be interested in funding can be found [here](docs/ecosystem.md), as well as a list of previously accepted applications [here](docs/accepted_grant_applications.md).
 
 [Requests For Proposals](rfps) (RFPs) represent concrete ideas for projects that we would like to see implemented. Several teams may apply for the same RFP, so even if another team has already applied to implement a certain RFP, we invite you to do the same if you're interested.
 
 Finally, you don't need to start your own project in order to be eligible for a grant. Instead, some teams choose to port existing work to Mintbase, where the pertinent licenses allow, or even to contribute to an existing open-source project. In the latter case, you should check in advance that the maintainers of the project are interested in your contribution, and the acceptance of the milestones will generally be tied to the inclusion of your work in said project. See the [Maintenance Grants section](#hammer_and_wrench-maintenance-grants) for more info.
 
-If you have a **good concept of the technical challenges** that your idea entails and would like feedback before applying, you can send us an [email](mailto:grants@mintbase.io) and tell us about it.
+If you would like feedback on your project idea, feel free to contac us at [grants@mintbase.io](mailto:grants@mintbase.io).
 
 ### Support
 
@@ -152,7 +153,7 @@ If you think that we should support the development of certain tools or projects
 
 **Submit an idea:**
 
-If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/w3f/Grants-Program/issues/new) or add it to the [tech stack](docs/polkadot_stack.md) as a potentially interesting project. We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
+If you have an idea for a project or would like to highlight an area in which you'd like to see teams build, but lack the technical background to create a detailed outline, you're welcome to open an [issue](https://github.com/w3f/Grants-Program/issues/new) or add it to the [tech stack](docs/ecosystem.md) as a potentially interesting project. We will review your suggestion and, if necessary, will create an RFP based on it and reach out to teams able to build it.
 
 **Submit an RFP (Request for Proposals):**
 

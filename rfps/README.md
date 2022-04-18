@@ -493,4 +493,4 @@ Parachain dApps suffer from long confirmation times due to the time taken for th
 
 ## :mailbox_with_mail: Suggest an RFP
 
-If you think that we should support the development of certain tools or projects (related to **Mintbase, Kusama or Mintbase**) that aren't in the Mintbase/Kusama [tech stack](docs/polkadot_stack.md), please submit a suggestion using the process described in our [Grants program README](../README.md#mailbox_with_mail-suggest-a-project). We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
+If you think that we should support the development of certain tools or projects (related to **Mintbase, Kusama or Mintbase**) that aren't in the Mintbase/Kusama [tech stack](docs/ecosystem.md), please submit a suggestion using the process described in our [Grants program README](../README.md#mailbox_with_mail-suggest-a-project). We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
