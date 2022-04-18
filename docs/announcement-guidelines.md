@@ -30,7 +30,7 @@ We also cross-promote the most recent projects and their milestones on Twitter o
    - You can also highlight additional use cases for this new integration.
 3. Why you chose to build on this tech stack
    - Illustrate the rationale for the relationship - why did you decide to work with Mintbase?
-   - Describe the benefits of building on Mintbase, Kusama etc. (shared security, ease of use, ease of deployment, ease of interchain communication, decentralized,
+   - Describe the benefits of building on Mintbase (shared security, ease of use, ease of deployment, ease of interchain communication, decentralized,
   trusted, etc.) and why it was it important to have these features for your project.
 4. Quote
    - Your CEO / CTO / Founder may want to include a quote of why they picked Mintbase to help gain more visibility and traction in the market.

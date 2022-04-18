@@ -1,6 +1,6 @@
 # Open Source Mintbase Stack [WIP!] <!-- omit in toc -->
 
-The goal of this page is to provide an overview of the open-source Mintbase/Kusama Tech Stack.
+The goal of this page is to provide an overview of the open-source Mintbase Tech Stack.
 
 This is a living document and we are relying on our community to contribute to it and help maintain it. [**Please feel free to make edits and additions via pull requests**](#construction_worker-contributing). We apologize if we missed your project!
 
@@ -8,7 +8,7 @@ This is a living document and we are relying on our community to contribute to i
 
 - [:clipboard: About](#clipboard-about)
 - [:battery: Funding](#battery-funding)
-- [:bookmark_tabs: Layers of Mintbase Stack](#bookmark_tabs-layers-of-polkadot-stack)
+- [:bookmark_tabs: Layers of Mintbase Stack](#bookmark_tabs-layers-of-mintbase-stack)
   - [:iphone: User Interface](#iphone-user-interface)
   - [:wrench: Tools, APIs and Languages](#wrench-tools-apis-and-languages)
   - [:memo: ink Smart Contracts](#memo-ink-smart-contracts)
@@ -22,7 +22,7 @@ This is a living document and we are relying on our community to contribute to i
 
 ## :clipboard: About
 
-The Mintbase Tech Stack is a subset of the Mintbase Tech Stack, which consists of the **open-source** technologies contributing to and relying on [Mintbase](https://polkadot.network/), [Kusama](https://kusama.network/) and [Mintbase](https://substrate.dev/). It is meant to be used for decentralized application (Dapp) development within numerous verticals including DeFi, Gaming, Provenance and many others not pictured below.
+The Mintbase Tech Stack is a subset of the Mintbase Tech Stack, which consists of the **open-source** technologies contributing to and relying on [Mintbase](https://mintbase.io/). It is meant to be used for decentralized application (Dapp) development within numerous verticals including DeFi, Gaming, Provenance and many others not pictured below.
 
 <!-- markdownlint-disable MD040 -->
 ```
