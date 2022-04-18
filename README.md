@@ -69,7 +69,7 @@ If you would like feedback on your project idea, feel free to contac us at [gran
 
 ### Support
 
-The scope of our Grants Programs consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on Mintbase on the [Mintbase Developer Hub](https://docs.mintbase.io/getting-started), and we encourage you to join the [community](https://t.me/mintdev) in order to get help with specific issues or to stay up to date with the most recent developments.
+The scope of our Grants Programs consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on Mintbase on the [Mintbase Developer Hub](https://docs.mintbase.io/getting-started), and we encourage you to join the [community](https://t.me/mintdev) in order to get help with specific issues and stay up to date with the most recent developments.
 
 For questions about the grants program itself, see our [FAQ](docs/faq.md#frequently-asked-questions).
 
@@ -119,7 +119,7 @@ The Mintbase Grants Program offers different grant levels to help you best depen
 
 ## :pencil: Process
 
-> **:loudspeaker:** The process below is independent of the [level](#level_slider-levels). Payment is made in $NEAR.
+> **:loudspeaker:** The application process is the same regardless of the [level](#level_slider-levels) being appplied for. Payments are made in $NEAR.
 
 ### 1. Application
 
