@@ -1,4 +1,5 @@
 # Mintbase Grants Program<!-- omit in toc -->
+Special thanks to the Web3 Foundation where most of this outline came from, [Check out w3f Grants Program here](https://github.com/w3f/Grants-Program)
 
 <p align="center">
   <img src="src/Grants_Program.png" style="width:1300px";>
