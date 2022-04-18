@@ -216,10 +216,9 @@ The treasury is a pot of on-chain funds collected through transaction fees, slas
 
 ### Hackathons
 
-From time to time, Mintbase and/or Parity organise hackathons to promote quick prototyping of Mintbase related ideas. We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked or are planning to work on a project for a hackathon, your grant application should either propose a different set of features or otherwise build on top of your hackathon work. The same applies in reverse, although that will likely be less common.
+From time to time, Mintbase and/or NEAR organise hackathons to promote quick prototyping of Mintbase related ideas. We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked or are planning to work on a project for a hackathon, your grant application should either propose a different set of features or otherwise build on top of your hackathon work. The same applies in reverse, although that will likely be less common.
 
 The best way to find out about upcoming hackathons is by following Mintbase on the various social channels, such as Element or Twitter.
-
 
 
 ## :information_source: License<!-- omit in toc -->
