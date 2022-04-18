@@ -1,5 +1,4 @@
 # Mintbase Grants Program<!-- omit in toc -->
-Special thanks to the Web3 Foundation where most of this outline came from, [Check out w3f Grants Program here](https://github.com/w3f/Grants-Program)
 
 <p align="center">
   <img src="src/Grants_Program.png" style="width:1300px";>
@@ -28,7 +27,9 @@ Special thanks to the Web3 Foundation where most of this outline came from, [Che
 
 ## :wave: Introduction
 
-As part of our commitment to promoting the Mintbase ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and [graphQL indexer!](https://docs.mintbase.io/dev/getting-started)**. For more information about the Mintbase Foundation, please visit the [About page](https://mintbase.io) on our website.
+As part of our commitment to promoting the Mintbase ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and [graphQL indexer](https://docs.mintbase.io/dev/getting-started)**. For more information about the Mintbase Foundation, please visit the [About page](https://mintbase.io) on our website.  
+  
+Special thanks to the [Web3 Foundation Grants Program](https://github.com/w3f/Grants-Program) where most of this outline came from.
 
 ### Guidelines
 
@@ -65,7 +66,7 @@ An overview of existing projects in the Mintbase Technology Stack along with bro
 
 Finally, you don't need to start your own project in order to be eligible for a grant. Instead, some teams choose to port existing work to Mintbase, where the pertinent licenses allow, or even to contribute to an existing open-source project. In the latter case, you should check in advance that the maintainers of the project are interested in your contribution, and the acceptance of the milestones will generally be tied to the inclusion of your work in said project. See the [Maintenance Grants section](#hammer_and_wrench-maintenance-grants) for more info.
 
-If you have a **good concept of the technical challenges** that your idea entails and would like feedback before applying, you can send us an [email](mailto:support@mintbase.io) and tell us about it.
+If you have a **good concept of the technical challenges** that your idea entails and would like feedback before applying, you can send us an [email](mailto:grants@mintbase.io) and tell us about it.
 
 ### Support
 
@@ -116,7 +117,7 @@ The Mintbase Grants Program offers different grant levels to help you best depen
 
 ## :pencil: Process
 
-> **:loudspeaker:** The process below is independent of the [level](#level_slider-levels). Payment is made in Bitcoin, USDT, DAI or aUSD. If you want to apply in **private**  and/or you need to be paid out in **fiat**, you can apply [:arrow_right: here](https://docs.google.com/forms/d/e/1FAIpQLSfMfjiRmDQDRk-4OhNASM6BAKii7rz_B1jWtbCPkUh6N7M2ww/viewform). Note that this is generally a slower process and imposes stricter requirements on applicants.
+> **:loudspeaker:** The process below is independent of the [level](#level_slider-levels). Payment is made in $NEAR.
 
 ### 1. Application
 
