@@ -1,13 +1,13 @@
 # Mintbase Grant Proposal
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines! Lines starting with a `>` (such as this one) can be removed.
+> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
 >
 > See the [Grants Program Process](https://github.com/w3f/Grants-Program/#pencil-process) on how to submit a proposal.
 
 - **Project Name:** Name of your project (e.g. DuoSwap Module)
 - **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** BTC, Ethereum (USDT/DAI) or Karura (kUSD) payment address. Please also specify the currency. (e.g. 0x8920... (DAI))
-- **[Level](https://github.com/w3f/Grants-Program/tree/master#level_slider-levels):** 1, 2 or 3
+- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
+- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -23,7 +23,7 @@ Please provide the following:
 
 - If the name of your project is not descriptive, a tag line (one sentence summary).
 - A brief description of your project.
-- An indication of how your project relates to / integrates into Mintbase / Polkadot / Kusama.
+- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
 - An indication of why your team is interested in creating this project.
 
 ### Project Details
@@ -45,7 +45,7 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 - Where and how does your project fit into the ecosystem?
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 - What need(s) does your project meet?
-- Are there any other projects similar to yours in the Mintbase / Polkadot / Kusama ecosystem?
+- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
   - If so, how is your project different?
   - If not, are there similar projects in related ecosystems?
 
@@ -136,10 +136,10 @@ For each milestone,
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase module that will... |  
-| 4. | Mintbase chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
+| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
+| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
+| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 
 
 ### Milestone 2 Example — Additional features
@@ -149,8 +149,6 @@ For each milestone,
 - **Costs:** 4,000 USD
 
 ...
-
-
 ## Future Plans
 
 Please include here
