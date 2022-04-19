@@ -220,7 +220,7 @@ Furthermore, termination can happen for any reason at the discretion of the Mint
 
 We may provide any notice to You under these terms and conditions by posting a notice on our Website, adding a comment to the initial pull request of your application on GitHub or sending an email to the email address associated with Your access account to the network. Notices We provide by posting on the Website will be effective upon posting. You will be deemed to have received any email sent to the email address then associated with Your account when We have sent the email (or the next regular working day thereafter), whether or not You actually receive or read the email. It is Your responsibility to keep Your email address current.
 
-To give Us notice under these terms and conditions, You must contact us by email to [support@mintbase.io]. We may update this email address for notices to us by posting a notice on Our Website. Notices to us will be effective one business day after they are sent.
+To give Us notice under these terms and conditions, You must contact us by email to [grants@mintbase.io]. We may update this email address for notices to us by posting a notice on Our Website. Notices to us will be effective one business day after they are sent.
 
 All communications and notices to be made or given pursuant to these terms and conditions must be in English language.
 

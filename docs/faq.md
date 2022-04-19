@@ -60,7 +60,7 @@
 <details>
   <summary><b>One of your grantees is using my code without respecting the terms of its license.</b></summary>
 
-  Please [reach out to us](mailto:support@mintbase.io) asap.
+  Please [reach out to us](mailto:grants@mintbase.io) asap.
 </details>
 
 <details>
