@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="../src/rfp-header.png" style="width:1300px";>
-</p>
+
 
 - [:grey_question: What is an RFP?](#grey_question-what-is-an-rfp)
+- [:mailbox_with_mail: Suggest an RFP](#mailbox_with_mail-suggest-an-rfp)
 
 
 ## :grey_question: What is an RFP?

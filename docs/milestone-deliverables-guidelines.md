@@ -4,7 +4,7 @@ These are the guidelines to be followed for milestones submitted for evaluation.
 
 ## Submission
 
-Please submit all your milestones via PR to the [Grant Milestone Delivery repository](https://github.com/w3f/Grant-Milestone-Delivery).
+Submission process will be created once the grants program beings July 1st 2022.
 
 ## Invoice
 
