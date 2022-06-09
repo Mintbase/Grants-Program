@@ -1,168 +1,318 @@
-# Mintbase Grant Proposal
+Mint-base Grant Proposal
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
->
-> See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
 
-> ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+Project Name: New Wisdom APC
+Team Name: Ysaac Saintil
+Payment Address: https://wallet.near.org/recover-with-link/kingace132.near/clock%20hill%20bid%20live%20sweet%20trick%20obtain%20gravity%20spell%20weasel%20come%20ecology
+EASTERN BANK 
+Checking#406799477
+Routing#011301798
+Level: 3
+⚠️ The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.
 
-## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
+Project Overview 📄
 
-### Overview
 
-Please provide the following:
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
+Creating the first-ever digital conventional supermarket. Ending world inequality. Show the world we can change and grow. I am hereby offering  Near protocol  75% ownership of new wisdom APC.
 
-### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+Overview
 
-### Ecosystem Fit
+I Need help raising $80,000,000 
 
-Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
+Please provide the following: true 	Partnership
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
 
-## Team :busts_in_silhouette:
 
-### Team members
+Sole king custom LLC, Sole kingdom INC, We are here to Support you Inc
+It’s okay to be different, Being the change  in the world you want to see
+My project is 100% related to integrating into the Mint-base / NEAR ecosystem.
+It’s me only, For now, I have gone homeless trying to tell friends and family about the blockchain world and to change the way they think. 
 
-- Name of team leader
-- Names of team members
 
-### Contact
+Project Details
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+Yes, let us create an App called Inner-Connected {IC}.ITS features will be letting the public see Big businesses connections and Communicate about news, and NFT PURCHASES. And more The app’s sole user purpose is only for positive thinkers, and entrepreneurs like myself. All users will receive free NFTS, and near every time they log on. This app will also be used so people can book me for custom sneakers and Apparel. For every 10,000 NFT and custom sold let us create the First ever Mint-base library/museum that tourists come to see all around the world.
 
-### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
-### Team's experience
+I created the first-ever Nike Custom  market merge NFT
+I Need A Bigger Team, And a user interface
+I need a cyber security team, and funding 
+Market research and Affordable Patent attorney
+My  project is not  a scam and will not  provide or implement fraud or break the law 
+I am expecting to create quadrillion dollars in business value in 5 years expectation and impact 100 million families in 5 years. Nothing can stop us.
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+Ecosystem Fit
 
-### Team Code Repos
+Help us locate your project in the Mint-base landscape and what problems it tries to solve by answering each of these questions:
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+Where and how does your project fit into the ecosystem? 
 
-### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+I'm 22 years old, have been sleeping in a car for 3 months, I haven't showered for 3 months.I have lost a sense of touch with my humanity. I just want the credit for my work before I die. My passion has always been to be an artist, and inventor, I create Nft, produce and solve problems. My project fits in the near and mint base ecosystem because I want to end poverty with my story and life work in art.
 
-## Development Status :open_book:
+
+
+Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)? 
+
+
+My target audience is everyone but Mostly the designer and fashion Agency. The goal is to hit the world like a category 5 Hurricane that everyone will never stop talking about.
+
+
+
+What is need(s) does your project meet? 
+
+
+I need funding, a full review, and a team that is fearless and the best at their role.
+
+
+
+Are there any other projects similar to yours in the Mint-base / NEAR ecosystem?
+
+
+No, I am the original and the world’s greatest. 
+
+
+
+If so, how is your project different?
+
+
+My project is different and creative because of my story and I put my life into this. My pain and the current situation I faced for this. no one in my family likes me for thinking like this.
+
+
+
+If not, are there similar projects in related ecosystems?
+I have created the one and only.
+
+
+Team 👥
+
+
+
+Team members
+
+Ysaac Saintil, Cameron Dennis
+
+
+This is the name of a list of people I want on my team when I am funded if they accept our offer. {Eden.S, Abraham.S, Jack.S, Jamel. H, Brandon. P, Francis. V, Stevenley. A Rebecca.s, Caly.s, Christopher D, Shaniya .J, Marcus & Karl, Genesis.M, And Calbe.s
+
+
+My story 
+
+
+
+Contact
+
+Contact Name: Ysaac Saintil 
+Contact Email: NewwidomAPC@gmail.com
+NUMBER:620-705-1899 OR 754-802-9450
+
+
+Legal Structure
+
+Registered Address: 13250 Ne 5th Ave ,North Miami,33161
+Registered Legal Entity: New wisdom Agency Production Crop
+
+
+Team's experience
+
+I once designed a sneaker and sold it for $750. I  have studied and read books all about marketing  I have incredible marketing ideas but it will require funding.
+
+
+
+
+
+Development Status 📖
+
+https://youtu.be/CFvWRgUFn9U
+
+
+
+https://youtu.be/wa7yPf8YNWs
+
+
+ Add a lit (1).pptx
+
+
+
+
+
+ new Wisdom aGENCY PRODUCTION COR.pdf
+
+
+https://www.mintbase.io/thing/h8Bb5BoJF4ZKrms9F_8nbhfInosZmUPgi7C90Hkq6mo:kingace132.mintbase1.near
+
+
+
+https://www.mintbase.io/thing/hAXu0S5itqFd09jpIOBme6tVN0D-I2_38rtyPpzTsac:kingace132.mintbase1.near
+
+
+
+https://www.mintbase.io/thing/l821RFMtZnuPYlQDVXABm7IA_jjfwbti31_EnTFRUYE:kingace132.mintbase1.near
+
+
+
+https://www.mintbase.io/thing/nOLX3_uAWlSBio-SyCbO4yjggW0hxkRLb8Rln-vAz1k:kingace132.mintbase1.near
+
+
+
+https://www.mintbase.io/thing/h8Bb5BoJF4ZKrms9F_8nbhfInosZmUPgi7C90Hkq6mo:kingace132.mintbase1.near
+
+
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
-
-## Development Roadmap :nut_and_bolt:
-
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
-### Overview
-
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
-
-### Milestone 1 Example — Implement Mintbase Modules
-
-- **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 8,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+links to improvement proposals or RFPs (requests for proposal),
+academic publications relevant to the problem,
+links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
+references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
+previous interface iterations, such as mock-ups and wireframes.
 
 
-### Milestone 2 Example — Additional features
+Development Roadmap 🔩
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
+Step1:  Fund me, and own 75 % of my company
 
-...
-## Future Plans
+Step2.  Let’s do a full overview of my hand-painted custom Nike designs
 
-Please include here
+Step3. Let’s create 10 custom NIKE MARKET MERGES  NFT
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+Step 4.  market and built attention around them
+
+Step5 . sell the designs to Nike and apple for 100million each.
+
+Step 6. Then sell Nike a shoe design invention for another $100MILLION
+
+Step7.  Help me build a team of powerful individuals who love their roles.Then create The first NFT movie.
+
+Step8: CREATE an app that makes Us 800 million in business one year
+
+Step 9 .have near and Mint-base NFT THE FACE  OF WORLDS LEADING CRYPTOCURRENCY AND Technology.
+
+Step 10. have over 200 near and mint base plazas and malls all around the world in 3 years
 
 
-## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+Overview
+
+Total Estimated Duration: Duration of the whole project (5YEARS)
+Full-Time Equivalent (FTE): 75 WORKERS,WORKING 40 HOURS Average WEEKLY of full-time employees working on the project FOR 3 YEARS
+Total Costs: Requested amount in USD for the whole project ($900,000).
+
+
+Milestone 1 Example — Mintbase Marketing Modules
+Estimated duration: 5 years
+FTE: 156,000 hours
+Costs: 180,000,000USD
+Number
+
+Deliverable
+
+Specification
+
+0a.
+
+License
+
+ LOCATED AT BOTTOM 
+
+0b.
+
+Documentation
+
+provided at the bottom. both online offline events, documentation of business paperwork basic tutorial that explains how a user signs up for one of our Mintbase NFT for purchase.
+
+0c.
+
+Teaching Guide
+
+hop on a call zoom or youtube call daily Mon-Fri explaining the opportunity and answer questions.
+
+0d.
+
+Marketing attraction
+
+We will provide ntf custom sneaker and apparel giveaways via Instagram live giveaways.
+
+0e.
+
+Article and blog post 
+
+We will publish a blogging article/workshop that explains how millions of jobs will be made in the near protocol/mint-base blockchain technology.
+
+1.
+
+Mintbase module: soul kingdom custom
+
+We will create a Mintbase / NEAR module that will custom put in a custom sneaker or appeal orders 
+
+2.
+
+Mintbase module: New wisdom APC
+
+We will create a Mintbase / NEAR module that will HOW PEOPLE HOW EMPOWER THEIR SELF THUR HARD TIMES.
+
+3.
+
+Mintbase module: Weheatosupportyou
+
+We will create a Mintbase / NEAR module that will teach people how to up with their body and mindset .
+
+4.
+
+NEAR NWAPC POINTS AND COINS
+
+NWAPC membership website will cause our custom chain will interact in such a way it delivers more traffic to the mint base/near space attracting more intelligence loyal users.
+
+Milestone 2 Example — NFTs portrait canvas
+
+Estimated Duration: 1 month
+FTE: 1
+Costs: 50,000 USD
+…50-100 hand paint canvas of different large companies logo then take pictures of then sell them as NFT AND CANVAS TOO .
+
+
+
+Future Plans
+
+Make History, buy Property, built the first cryptocurrency city and public museum 
+
+Using social media, and finding ways to die a legend .Create one of the world most powerful social media production companies.
+
+
+
+I intend to use social media and network marketing, enhance level of action of making people aware of blockchain and the new digital era .My promotion will come  from my story  and my project will be supported in short term because my passion for art and business will allow me to create an athenthenic story on why my NFT are the different, and im highly motivated to do the job.
+
+
+
+
+My  long-term plans and intentions in relation to this prove all my friends and family wrong and show them I’m not crazy for believing in my artwork and designs. I want in 5 years to work so hard I can live a better life then sleeping in a car for 6months and cry of hungry for 10days because im waiting on $200 in food stamps every month. I want to travel the world with good friends and take pictures everyday.
+
+
+Additional Information ➕
+
+How did you hear about the Grants Program? 
+
+Personal recommendation 
+
+
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+Work you have already done.
+If there are any other teams who have already contributed (financially) to the project.
+Previous grants you may have applied for.
+15 Attachments
+Preview YouTube video MY NFT INVENTIONS Complete project idea to roadmap ()
+
+Preview YouTube video New Wisdom Agency Production Corporation (OFFICIAL) Presentation for Mintbase Grants Program 6/7/22
+
