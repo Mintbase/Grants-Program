@@ -13,30 +13,32 @@
 
 Bubblemint is a "lazy minting" or "candy machine" strategy that will be open-source asset for anyone wanting to launch a collection with Mintbase.io contracts.
 
-The initial user will be our own NFT project, Shardeez. Subsequent users will be anyone with pre-generated assets and wants to use Mintbase contracts. These users will handle the upload and hosting of the assets and minting page. In subsequent milestones, Bubblemint tools will be extended into a no-code launchpad, which will make Mintbase a major source of large generative art projects.
+The initial user will be our own NFT project, Shardeez. Subsequent users will be anyone with pre-generated assets and wants to use Mintbase contracts. In subsequent milestones, Bubblemint tools will be extended into a no-code launchpad, which will make Mintbase a major source of large generative art projects.
 
 ### Overview
 
-AktaryTech is a Web3 development service company. We normally build dApps for clients, including DeFi and NFT Marketplaces, but we wanted to create our own product as well and we started with Shardeez. We have an NFT artist on the team who does AI generation, and we chose NEAR as the ecosystem to grow with. So Shardeez are "Sharded Blocks", an homage to the sharded blockchain NEAR, which we believe can scale properly for the future.
+AktaryTech is a Web3 development service company. We normally build dApps for clients, including DeFi and NFT Marketplaces, but we wanted to create our own product and we started with Shardeez. We have an NFT artist on the team who does AI generation, and we chose NEAR as the ecosystem to grow with. So Shardeez are "Sharded Blocks", an homage to the sharded blockchain NEAR, which we believe can scale properly for the future.
 
 #### Why Bubblemint?
 
 Tagline: Gumball Machine Minting System for NEAR using Mintbase.io
 
-We found that TenK DAO has a good open source "lazy minting" platform and forked it. It has a frontend site for the wallet connection and data on remaining NFTs to mint, and has different configurations based on whether your wallet is whitelisted and at what period of the mint.
+We found that [TenK DAO](https://github.com/TENK-DAO/) has a good open source "lazy minting" platform and forked it. It has a frontend site for the wallet connection and data on remaining NFTs to mint, and has different configurations based on whether your wallet is whitelisted and at what period of the mint.
 
-We ran into issues getting it set up, including Apple M1 compatibility, whitelisting smart contract issues, UI to contract compatibility, and there are wallet mishaps under heavy use. But we got it working! All said, we gained familiarity with the frontend and their TypeScript / Rust smart contracts. Which gave us the confidence to remake it.
+We ran into issues getting it set up, including Apple M1 compatibility, whitelisting issues, UI to smart contract compatibility, and there are wallet mishaps under heavy use. But we got it working! All said, we gained familiarity with the frontend and their TypeScript / Rust smart contracts. Which gave us the confidence to remake it.
 
-Mintbase.io is the perfect technology for us to remake this lazy minting / candy machine system. From the advanced revenue sharing, to 3XR VR galleries (with cool features like sound getting louder as you approach a music NFT), to the general quality of code from Mintbase's extended time in development of NFTs and indexers. We believe in your flexible approach to the technology that allows anyone to experiment with new NFT ideas.
+Mintbase.io is the perfect technology for us to remake this lazy minting / candy machine system. Mintbase rocks, from advanced revenue sharing, to 3XR VR galleries (with cool features like sound getting louder as you approach a music NFT), to the general quality of code from Mintbase's extended time in development of NFTs and indexers. We believe in your flexible approach to the technology that allows anyone to experiment with new NFT ideas.
 
 #### Why Shardeez?
 
 Tagline: Shardeez are "Sharded Blocks" on an eco-mission.
 
 1. They look crazy cool. NEAR needs something like this.
-2. Our team agreed on utility: an ecological mission. The Shardeez DAO will fund environmental projects.
+2. Our team agreed on utility: an ecological mission. The [Shardeez DAO](https://app.astrodao.com/dao/shardeez.sputnik-dao.near) will fund environmental projects.
 3. Sharded blockchains are the future for settlement layers. Shardeez are their mascot.
 4. We love our story and rarity trait formation. The 13 Clans are in groups of Eco-Defenders, Ecocidal Maniacs, and Degens. Each item has a Genesis Block, a Shardness Level, and a Clan. Each Clan has a King and Queen.
+
+[See this blog post](https://aktarytech.com/anatomy-of-an-nft-launch-part-1/) from AktaryTech about how we formulated Shardeez.
 
 ### Project Details
 
@@ -44,52 +46,28 @@ Screenshot of the mint page demo on testnet, showing the slider, minting allowan
 
 > ![](./img/shardeez-mint-page-screenshot.png)
 
-The first major milestone has three parts:
+The first three milestones will be worked on concurrently:
 
-1. Smart Contracts: Mintbase.io contracts.
+1. Mint Page: Frontend, Wallet, User, Pre-Mint Whitelist, Reveal, other functions.
+2. Smart Contracts: Mintbase.io contracts.
 3. Bulk Arweave Uploads.
-2. Mint Page: Frontend, Wallet, User, Pre-Mint Whitelist, Reveal, other functions.
 
-Most of the work will be making a frontend that communicates with the smart contracts about the features of the NFT. We want to make a smooth and customizable experience that will be desired by anyone launching a collection on NEAR. Therefore, it will become a de-facto implementation; widely forked and repurposed. The first repurpose will be our second major milestone: a no-code launchpad.
+Most of the work will be making a frontend that communicates with the smart contracts / binds to the functions of the NFT.
+
+We want to make a smooth and customizable experience that will be desired by anyone launching a collection on NEAR. Therefore, it will become a de-facto implementation; widely forked and repurposed. The first repurpose will be our set of milestones: a no-code launchpad.
 
 #### Technology Stack:
 
 - Frontend: TypeScript, React, Next.js
-- Backend: (maybe for launchpad)
 - Hosting: CloudFlare by default
-- Smart Contracts: Mintbase API, NEAR SDKs, Rust,
+- Smart Contracts: Mintbase API, NEAR SDKs, Rust
 - Storage: Arweave or IPFS
-
-Note: bindings to smart contracts are on frontend.
-
-#### What Bubblemint is Not
-
-#### Data Models / API Specifications
-
------------------------------
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
-
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
------------------------------
 
 ### Ecosystem Fit
 
------------------------------
-Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
+NEAR needs options for open-source lazy minting. Everyone in NEAR NFTs will benefit from additional resources to launch projects. We expect other NFTs besides Shardeez will use the code, and other launchpads besides Bubblemint will build on top of it.
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
------------------------------
+Within Mintbase, this project will bring a way for the type of NFTs with the most volume to use Mintbase contracts. That is predominantly PFP lazy-minted collections. Therefore more of these collections will benefit advanced functions like revenue splits, metaverse galleries, stores, DappRadar listings, and ongoing development.
 
 ## Team :busts_in_silhouette:
 
