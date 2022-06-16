@@ -25,7 +25,7 @@ Tagline: Gumball Machine Minting System for NEAR using Mintbase.io
 
 We found that TenK DAO has a good open source "lazy minting" platform and forked it. It has a frontend site for the wallet connection and data on remaining NFTs to mint, and has different configurations based on whether your wallet is whitelisted and at what period of the mint.
 
-We ran into issues getting it set up, including Apple M1 compatibility, smart contract issues, static site generation problems, and there are wallet mishaps under heavy use. But we got it working! All said, we gained familiarity with the frontend and their TypeScript / Rust smart contracts. Which gave us the confidence to remake it.
+We ran into issues getting it set up, including Apple M1 compatibility, whitelisting smart contract issues, UI to contract compatibility, and there are wallet mishaps under heavy use. But we got it working! All said, we gained familiarity with the frontend and their TypeScript / Rust smart contracts. Which gave us the confidence to remake it.
 
 Mintbase.io is the perfect technology for us to remake this lazy minting / candy machine system. From the advanced revenue sharing, to 3XR VR galleries (with cool features like sound getting louder as you approach a music NFT), to the general quality of code from Mintbase's extended time in development of NFTs and indexers. We believe in your flexible approach to the technology that allows anyone to experiment with new NFT ideas.
 
@@ -42,23 +42,29 @@ Tagline: Shardeez are "Sharded Blocks" on an eco-mission.
 
 Screenshot of the mint page demo on testnet, showing the slider, minting allowance, and remaining in the collection.
 
-![](./img/shardeez-mint-page-screenshot.png)
+> ![](./img/shardeez-mint-page-screenshot.png)
 
 The first major milestone has three parts:
 
 1. Smart Contracts: Mintbase.io contracts.
 3. Bulk Arweave Uploads.
-2. Mint Page: Frontend, Wallet, User, Reveal, etc. functionality.
+2. Mint Page: Frontend, Wallet, User, Pre-Mint Whitelist, Reveal, other functions.
 
 Most of the work will be making a frontend that communicates with the smart contracts about the features of the NFT. We want to make a smooth and customizable experience that will be desired by anyone launching a collection on NEAR. Therefore, it will become a de-facto implementation; widely forked and repurposed. The first repurpose will be our second major milestone: a no-code launchpad.
 
-Technology Stack:
+#### Technology Stack:
 
-- Frontend: React, Next.js
-- Backend:
-- Hosting:  
-- Smart Contracts: NEAR SDK, Mintbase API, Rust
-- Storage: Arweave
+- Frontend: TypeScript, React, Next.js
+- Backend: (maybe for launchpad)
+- Hosting: CloudFlare by default
+- Smart Contracts: Mintbase API, NEAR SDKs, Rust,
+- Storage: Arweave or IPFS
+
+Note: bindings to smart contracts are on frontend.
+
+#### What Bubblemint is Not
+
+#### Data Models / API Specifications
 
 -----------------------------
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
@@ -78,7 +84,7 @@ We expect the teams to already have a solid idea about your project's expected f
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+- Who is your target audience (dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 - What need(s) does your project meet?
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
   - If so, how is your project different?
@@ -104,7 +110,7 @@ Our US team is based mainly in Portland, Austin, and L.A.
 
 ### Team's Experience, Code Repos and LinkedIn
 
-**Shane Neeley — Dev / Artist / Experimenter —** Web3 dev, NFT artist and community manager. Previously 10 years experience in machine learning for healthcare. Author of two books on AI art. Launched and sold out an NFT with generative art, built backend for token reservations. Skilled in technical writing, marketing, Python, Tensorflow, Node.js, and is learning Rust.
+**Shane Neeley — Dev / Artist / Experimenter —** Web3 dev, NFT artist and community manager. 10 years experience in machine learning for healthcare. Author of two books on AI art. Launched and sold out generative art NFTs; built backend for token reservations. Skilled in technical writing, Python, Tensorflow, Node.js, and is learning Rust.
 
 [linkedin.com/in/neeley1](https://linkedin.com/in/neeley1) || [github.com/shane-neeley](https://github.com/shane-neeley)
 
@@ -112,11 +118,11 @@ Our US team is based mainly in Portland, Austin, and L.A.
 
 [linkedin.com/in/adamkecskes](https://linkedin.com/in/adamkecskes) || [github.com/adamk72](https://github.com/adamk72)
 
-**Geoffrey Ballard — Senior Engineer —** Design savvy senior software engineer with experience building and delivering complex, scalable, and robust applications for web, mobile, and desktop. Skilled in Graphic Design, Node.js, React, Next.js, TypeScript, AWS, Google Cloud, and GitHub CI/CD and Solidity.
+**Geoffrey Ballard — Senior Engineer —** Design savvy senior engineer with experience delivering complex, scalable, and robust applications for web and mobile. Skilled in Graphic Design, Node.js, React, Next.js, TypeScript, AWS, Google Cloud, and GitHub CI/CD and Solidity.
 
 [linkedin.com/in/gaballard](https://linkedin.com/in/gaballard)  || [github.com/gaballard](https://github.com/gaballard)
 
-**Luke — Backend Engineer —** C.S. degree, experience in data analytics, DevOps and deployment with AWS, Google Cloud, DigitalOcean. Skilled in Python, Node.js, and smart contract programming with Solidity and Hardhat.
+**Luke — Backend Engineer —** Experience in data analytics, DevOps and deployment with AWS, Google Cloud, DigitalOcean. Skilled in Python, Node.js, and smart contract programming with Solidity and Hardhat.
 
 **Jared Childers — Blockchain Engineer —** A Gitcoin KERNEL Fellow and a Gitcoin + Filecoin APOLLO Fellow. Collector of metaverse assets. Skilled in Solidity, Hardhat, IPFS, Web3.py, Ethers.js, Chai testing and GitHub CI/CD.
 
@@ -126,19 +132,19 @@ Our US team is based mainly in Portland, Austin, and L.A.
 
 [linkedin.com/in/paul-giordano-25b8618a](https://linkedin.com/in/paul-giordano-25b8618a)
 
-**David Aktary — CEO —** Founder of AktaryTech and three other companies. Founded ERC dEX, one of the first Ethereum token trading platforms in 2017. Currently leading Keccak Capital.
+**David Aktary — CEO —** Founder of AktaryTech and three other companies. Founded ERC dEX, one of the first Ethereum token trading platforms in 2017.
 
 [linkedin.com/in/aktary](https://www.linkedin.com/in/aktary/)
 
-**Kim Albee — Director of Marketing —** As the Director of Marketing, Kim brings a wealth of startup and marketing expertise to AktaryTech. She is the founder of the B2B Online Marketing Group on LinkedIn, and is also on faculty at CEOSpace. She has helped businesses attract high quality leads, and establish the engagement necessary for sustained growth. She was named a Top 40 Digital Marketer in 2020.
+**Kim Albee — Director of Marketing —** She is the founder of the B2B Online Marketing Group on LinkedIn, and is also on faculty at CEOSpace. She was named a Top 40 Digital Marketer in 2020.
 
 [linkedin.com/in/kimalbee](https://www.linkedin.com/in/kimalbee/)
 
-**Jill Love — Operations Manager —** Manager for AktaryTech handling day-to-day operations tasks across departments.
+**Jill Love — Operations Manager —** Handling day-to-day operations tasks across AktaryTech's departments.
 
 ## 🗃️ Team's experience 🚧
 
-Below are some highlights of our service delivery, with some names obfuscated of not-yet-released work.
+Below are service delivery highlights, with some names obfuscated of not-yet-released work.
 
 **Client A**
 
@@ -154,7 +160,7 @@ A unique automated cross-chain yield aggregator. We built the interconnecting ar
 
 **Hummingbot Connectors**
 
-Hummingbot is an open source algorithmic trading bot for CEXs and DEXs. We built connectors for clients that link Hummingbot's internal trading algorithms with live information from different exchanges. They interact with an exchange's REST API and through real-time interactions via Websockets; such as by gathering order book data and sending and canceling trades. We built connectors for speed in Python, Cython and AsyncIO. The projects we’ve done so far:
+Hummingbot is an open source algorithmic trading bot for CEXs and DEXs. We built connectors for clients that link Hummingbot's internal trading algorithms with live information from different exchanges. They interact with an exchange's REST API and through real-time interactions via Websockets; such as by gathering order book data and sending and canceling trades. We built connectors for speed in Python, Cython and AsyncIO. The projects we’ve done:
 
 - **IDEX**  — connector for a hybrid liquidity platform with an off-chain order book + on-chain AMM
 - **System9**  —  a crypto market maker who needed an OSL Exchange connector.
@@ -165,7 +171,7 @@ We built a beautiful dApp for a cross-chain DeFi hub for lending, borrowing, rat
 
 **Client B**
 
-An on-chain game, modeled after a roulette wheel where bets are placed in BNB tokens on the Binance Smart Chain. For game logic, we used Chainlink VRF (Verified Random Function), and Chainlink Keepers for trustless spinning of the wheel. We used the Graph Protocol for indexed user information and Tailwind CSS Framework for the UI theme.
+An on-chain game, modeled after a roulette wheel where bets are placed in BNB tokens on the Binance Smart Chain. For game logic, we used Chainlink VRF, and Chainlink Keepers for trustless spinning of the wheel. We used the Graph Protocol for indexed user information and Tailwind CSS Framework for the UI theme.
 
 **UniTrade**
 
@@ -177,13 +183,14 @@ We helped build a protocol for cryptocurrency donation-matching on L2s (Polygon 
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+Forking and customizing the TenK code. This will be completely re-written for Mintbase, but just to show our familiarity with the system needed. Original Repos:
 
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+1. https://github.com/TENK-DAO/frontend-starter (AktaryTech added 29 commits to this on our own fork)
+2. https://github.com/TENK-DAO/tenk (AktaryTech added 32 commits to this on our own fork)
+
+> ![](./img/shardeez-frontend-commit-examples.png)
+
+Example of some of our development on the projects, and how we reference JIRA tickets (SHARD-xx) to manage work.
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -205,14 +212,18 @@ For each milestone,
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
+- **Total Estimated Duration:** 4 months
+- **Full-Time Equivalent (FTE):** 1.5 FTE
+- **Total Costs:** 125,000 USD
+
+Milestones 1-3: Recreating Frontend and Smart Contract Configuration.
+
+Milestones 4-6: Bubblemint Launchpad
 
 ### Milestone 1 Example — Implement Mintbase Modules
 
 - **Estimated duration:** 1 month
-- **FTE:**  2
+- **FTE:** 1.5
 - **Costs:** 8,000 USD
 
 | Number | Deliverable | Specification |
@@ -235,20 +246,13 @@ For each milestone,
 - **Costs:** 4,000 USD
 
 ...
+
 ## Future Plans
 
-Please include here
-
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
-
+The Bubblemint Launchpad will be a revenue generating product that we will support long-term. We will focus on onboarding new talent and creatives to NEAR and give them a full NFT solution that uses the power of Mintbase.
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?**
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+From your website, and then received a walkthrough of the grant program and Mintbase's slide deck from Maria Neu!
