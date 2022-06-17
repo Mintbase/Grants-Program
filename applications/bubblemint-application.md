@@ -2,8 +2,6 @@
 
 ![banner](./img/bubblemint_banner.png)
 
----
-
 - **Project Name:** Bubblemint
 - **Team Name:** [AktaryTech](https://AktaryTech.com)
 - **Payment Address:** shardeez.near
@@ -37,12 +35,12 @@ Tagline: Shardeez are "Sharded Blocks" on an eco-mission.
 
 1. They look crazy cool. NEAR needs something like this.
 2. Our team agreed on utility: an ecological mission. The [Shardeez DAO](https://app.astrodao.com/dao/shardeez.sputnik-dao.near) will fund environmental projects.
-3. Sharded blockchains are the future for settlement layers. Shardeez are their mascot.
+3. Sharded blockchains are the **future for settlement layers**. Shardeez are their mascot.
 4. We love our story and rarity trait formation. The 13 Clans are in groups of Eco-Defenders, Ecocidal Maniacs, and Degens. Each item has a Genesis Block, a Shardness Level, and a Clan. Each Clan has a King and Queen.
 
 [See this blog post](https://aktarytech.com/anatomy-of-an-nft-launch-part-1/) from AktaryTech about how we formulated Shardeez.
 
-> ![](./img/rarity-charts.png) The careful attention we paid to rarity engineering.
+> ![](./img/rarity-charts.png) The careful attention we paid to trait rarity.
 
 
 ### Project Details
@@ -55,32 +53,33 @@ The first three milestones will be worked on concurrently:
 
 Most of the work will be making a frontend that communicates with the smart contracts / binds to the functions of the NFT.
 
-We want to make a smooth and customizable experience that will be desired by anyone launching a collection on NEAR. Therefore, it will become a de-facto implementation; widely forked and repurposed. The first repurpose will be our set of milestones: a no-code launchpad.
+We want to make a smooth and customizable experience that will be desired by anyone launching a collection on NEAR. Therefore, it will become a de-facto implementation; widely forked and repurposed. The first repurpose will be our 2nd milestone: a no-code launchpad.
 
 #### Technology Stack:
 
-- Frontend: TypeScript, React, Next.js
-- Hosting: CloudFlare by default
-- Smart Contracts: Mintbase API, NEAR SDKs, Rust
-- Storage: Arweave or IPFS
+- Frontend: TypeScript, React, Next.js.
+- Hosting: CloudFlare or GitHub pages by default.
+- Smart Contracts: Mintbase API, NEAR SDKs, Rust.
+- Storage: Arweave or IPFS.
 
 ### Ecosystem Fit
 
-NEAR needs options for lazy minting. Everyone in NEAR NFTs will benefit from additional resources to launch projects. We expect other NFTs besides Shardeez will use the code, and other launchpads besides Bubblemint will build on top of it.
+NEAR needs options for lazy minting. NEAR NFTs will benefit from additional resources to launch projects. We expect other NFTs besides Shardeez will use the code, and other launchpads besides Bubblemint will build on top of it.
 
-Within Mintbase, this project will bring a way for the type of NFTs with the most volume to use Mintbase contracts. That is predominantly PFP lazy-minted collections. Therefore more of these collections will benefit advanced functions like revenue splits, metaverse galleries, stores, DappRadar listings, and ongoing development.
+Within Mintbase, this project will bring a way for the type of NFTs with the most volume to use Mintbase contracts—predominantly PFP lazy-minted collections. This gives them access to Mintbase's revenue splits, metaverse galleries, stores, DappRadar listings, and ongoing development.
 
 > ![](./img/shardeez-mint-page-screenshot.png) Screenshot of the mint page demo on testnet, showing the slider, minting allowance, and remaining in the collection.
 
 ## Team :busts_in_silhouette:
 
-Our US team is based mainly in Portland, Austin, and L.A.
+Our US team is based in Portland, Austin, and L.A.
 
 ### Contact
 
 - **Contact Name:** Shane Neeley
 - **Contact Email:** sneeley@aktarytech.com
-- **Website:** [https://AktaryTech.com](AktaryTech.com)
+- **Contact Telegram:** @chiggimps
+- **Website:** [AktaryTech.com](https://AktaryTech.com)
 
 ### Legal Structure
 
@@ -89,15 +88,15 @@ Our US team is based mainly in Portland, Austin, and L.A.
 
 ### Team's Experience, Code Repos and LinkedIn
 
-**Shane Neeley — Dev / Artist / Experimenter —** Web3 dev, NFT artist and community manager. 10 years experience in machine learning for healthcare. Author of two books on AI art. Launched and sold out generative art NFTs; built backend for token reservations. Skilled in technical writing, Python, Tensorflow, Node.js, and is learning Rust.
+**Shane Neeley — Dev / Artist / Experimenter —** Web3 dev, NFT artist and community manager. Previously in machine learning for biology. Author of two books on AI art. Launched and sold out generative art NFTs; built backend for token reservations. Skilled in technical writing, Python, Tensorflow, Node.js, and is learning Rust.
 
 [linkedin.com/in/neeley1](https://linkedin.com/in/neeley1) || [github.com/shane-neeley](https://github.com/shane-neeley)
 
-**Adam Kecskes — Projects Orchestrator —** 25 years tech veteran with a background in project management, customer advocacy, operations improvement, frontend and backend architecture (C/C++, JS/React, Rust, more), M&A software due diligence, technical writing. Degrees in Math and CS.
+**Adam Kecskes — Projects Orchestrator —** 25 years tech veteran with a background in project management,  operations improvement, frontend and backend architecture (C/C++, JS/React, Rust, more), M&A software due diligence, technical writing. Degrees in Math and CS.
 
 [linkedin.com/in/adamkecskes](https://linkedin.com/in/adamkecskes) || [github.com/adamk72](https://github.com/adamk72)
 
-**Geoffrey Ballard — Senior Engineer —** Design savvy senior engineer with experience delivering complex, scalable, and robust applications for web and mobile. Skilled in Graphic Design, Node.js, React, Next.js, TypeScript, AWS, Google Cloud, and GitHub CI/CD and Solidity.
+**Geoffrey Ballard — Senior Engineer —** Design savvy senior engineer with experience delivering complex and scalable applications for web and mobile. Skilled in Solidity, Node.js, React, Next.js, TypeScript, AWS, Google Cloud, GitHub CI/CD, and Graphic Design.
 
 [linkedin.com/in/gaballard](https://linkedin.com/in/gaballard)  || [github.com/gaballard](https://github.com/gaballard)
 
@@ -177,7 +176,7 @@ Milestones 1: Open Source Frontend and Smart Contract Configuration for Lazy Min
 
 Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintbase NFT Launches.
 
-### Milestone 1 Example — Implement Modules
+### Milestone 1 — Implement Modules of Documentation
 
 - **Estimated duration:** 2.5 months
 - **FTE:** 1.5
@@ -195,7 +194,7 @@ Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintb
 | 4. | Storage module | We will publish explanations of how to utilize Arweave through mintbase API, as normally done, or how to choose your own IPFS pinning service. |  
 
 
-### Milestone 2 Example — Bubblemint Launchpad
+### Milestone 2 — Bubblemint Launchpad
 
 - **Estimated duration:** 2.5 months
 - **FTE:** 1.5
@@ -215,9 +214,9 @@ Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintb
 
 ## Marketing
 
-The launch of Bubblemint open source will coincide with the launch of our Shardeez NFTs. AktaryTech is devoting significant marketing resources to this launch and it will gain attention from inside and outside of NEAR.
+The launch of Bubblemint open source will coincide with the launch of our Shardeez NFTs. AktaryTech is devoting significant marketing resources to this launch (full time marketer, blog posts, Twitter, conference speaking). The goal is to gain attention from inside NEAR NFT communities, NEAR in general, outside of NEAR, and even outside of Web3.
 
-The ecological mission of Shardeez DAO will take center stage in the marketing efforts. Attention on this will drive other projects to Bubblemint and Mintbase in general.
+The DAO-governed ecological mission of Shardeez will take center stage in the marketing efforts (which is how we intend to bring outsiders in). This will drive other projects to Bubblemint and Mintbase in general.
 
 ## Future Plans
 
