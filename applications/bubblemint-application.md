@@ -13,21 +13,23 @@
 
 Bubblemint is a "lazy minting" or "candy machine" strategy that will be open-source asset for anyone wanting to launch a collection with Mintbase.io contracts.
 
-The initial user will be our own NFT project, Shardeez. Subsequent users will be anyone with pre-generated assets and wants to use Mintbase contracts. In subsequent milestones, Bubblemint tools will be extended into a no-code launchpad, which will make Mintbase a major source of large generative art projects.
+The initial user will be our own NFT project, Shardeez. Subsequent users will be anyone with pre-generated assets and wants to use Mintbase contracts. There is a lot of dev synergy here, since we need this product ourselves.
+
+In subsequent milestones, Bubblemint tools will be extended into a no-code launchpad, which will make Mintbase a major source of large generative art projects.
 
 ### Overview
 
-AktaryTech is a Web3 development service company. We normally build dApps for clients, including DeFi and NFT Marketplaces, but we wanted to create our own product and we started with Shardeez. We have an NFT artist on the team who does AI generation, and we chose NEAR as the ecosystem to grow with. So Shardeez are "Sharded Blocks", an homage to the sharded blockchain NEAR, which we believe can scale properly for the future.
+AktaryTech is a Web3 development service company. Our business is to build dApps for clients, including DeFi and NFT Marketplaces, but we wanted our own product and so we created Shardeez. We have an NFT artist on the team who does AI generation, and we chose NEAR as the ecosystem to grow with. So Shardeez are "Sharded Blocks", an homage to the sharded blockchain NEAR, which we believe can scale properly for the future.
 
 #### Why Bubblemint?
 
 Tagline: Gumball Machine Minting System for NEAR using Mintbase.io
 
-We found that [TenK DAO](https://github.com/TENK-DAO/) has a good open source "lazy minting" platform and forked it. It has a frontend site for the wallet connection and data on remaining NFTs to mint, and has different configurations based on whether your wallet is whitelisted and at what period of the mint.
+[TenK DAO](https://github.com/TENK-DAO/) has a good open source "lazy minting" platform; we forked it for our needs. It has a frontend site for the wallet connection and data on remaining NFTs to mint, and has different configurations based on whether your wallet is whitelisted and at what period of the mint.
 
-We ran into issues getting it set up, including Apple M1 compatibility, whitelisting issues, UI to smart contract compatibility, and there are wallet mishaps under heavy use. But we got it working! All said, we gained familiarity with the frontend and their TypeScript / Rust smart contracts. Which gave us the confidence to remake it.
+We ran into issues getting it set up, including Apple M1 compatibility, whitelisting issues, UI to smart contract compatibility, and there are wallet mishaps under heavy use. But we got it working! All said, we gained familiarity with the frontend and their TypeScript bindings to Rust smart contracts. This gave us the confidence to remake it.
 
-Mintbase.io is the perfect technology for us to remake this lazy minting / candy machine system. Mintbase rocks, from advanced revenue sharing, to 3XR VR galleries (with cool features like sound getting louder as you approach a music NFT), to the general quality of code from Mintbase's extended time in development of NFTs and indexers. We believe in your flexible approach to the technology that allows anyone to experiment with new NFT ideas.
+Mintbase.io is the perfect technology for us to remake this lazy minting / candy machine system. Mintbase rocks! From advanced revenue sharing, to 3XR VR galleries (with cool features like sound getting louder as you approach a music NFT), to the general quality of code from Mintbase's extended time in development of NFTs and indexers. We believe in your flexible approach to the technology that allows anyone to experiment with new ideas.
 
 #### Why Shardeez?
 
@@ -40,11 +42,10 @@ Tagline: Shardeez are "Sharded Blocks" on an eco-mission.
 
 [See this blog post](https://aktarytech.com/anatomy-of-an-nft-launch-part-1/) from AktaryTech about how we formulated Shardeez.
 
+> ![](./img/rarity-charts.png) The careful attention we paid to rarity engineering.
+
+
 ### Project Details
-
-Screenshot of the mint page demo on testnet, showing the slider, minting allowance, and remaining in the collection.
-
-> ![](./img/shardeez-mint-page-screenshot.png)
 
 The first three milestones will be worked on concurrently:
 
@@ -69,9 +70,9 @@ NEAR needs options for open-source lazy minting. Everyone in NEAR NFTs will bene
 
 Within Mintbase, this project will bring a way for the type of NFTs with the most volume to use Mintbase contracts. That is predominantly PFP lazy-minted collections. Therefore more of these collections will benefit advanced functions like revenue splits, metaverse galleries, stores, DappRadar listings, and ongoing development.
 
-## Team :busts_in_silhouette:
+> ![](./img/shardeez-mint-page-screenshot.png) Screenshot of the mint page demo on testnet, showing the slider, minting allowance, and remaining in the collection.
 
-### Team members
+## Team :busts_in_silhouette:
 
 Our US team is based mainly in Portland, Austin, and L.A.
 
@@ -166,68 +167,61 @@ Forking and customizing the TenK code. This will be completely re-written for Mi
 1. https://github.com/TENK-DAO/frontend-starter (AktaryTech added 29 commits to this on our own fork)
 2. https://github.com/TENK-DAO/tenk (AktaryTech added 32 commits to this on our own fork)
 
-> ![](./img/shardeez-frontend-commit-examples.png)
-
-Example of some of our development on the projects, and how we reference JIRA tickets (SHARD-xx) to manage work.
+> ![](./img/shardeez-frontend-commit-examples.png) Example of some of our development on the projects, and how we reference JIRA tickets (SHARD-xx) to manage work.
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** 4 months
+- **Total Estimated Duration:** 5 months
 - **Full-Time Equivalent (FTE):** 1.5 FTE
-- **Total Costs:** 125,000 USD
+- **Total Costs:** 180,000 USD
 
-Milestones 1-3: Recreating Frontend and Smart Contract Configuration.
+Milestones 1: Open Source Frontend and Smart Contract Configuration for Lazy Minting using Mintbase.io
 
-Milestones 4-6: Bubblemint Launchpad
+Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintbase NFT Launches.
 
-### Milestone 1 Example — Implement Mintbase Modules
+### Milestone 1 Example — Implement Modules
 
-- **Estimated duration:** 1 month
+- **Estimated duration:** 2.5 months
 - **FTE:** 1.5
-- **Costs:** 8,000 USD
+- **Costs:** 90,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0a. | License | GPLv3 |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can utilize all the open source functionality for their NFT project |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests. |
+| 0d. | Article | We will publish an **article**/workshop that explains what was done/achieved as part of the grant). Can develop into a conference presentation by us.
+| 1. | Frontend module | We will publish the frontend code needed to start up your own Bubblemint-based NFT launch |  
+| 2. | Contracts module | If any changes are needed from the mintbase-core contracts, we will publish a separate repo. |  
+| 3. | Hosting module | We will publish a guide on how to get your own NFT launch robustly hosted for heavy mint-day traffic |  
+| 4. | Storage module | We will publish explanations of how to utilize Arweave through mintbase API, as normally done, or how to choose your own IPFS pinning service. |  
 
 
-### Milestone 2 Example — Additional features
+### Milestone 2 Example — Bubblemint Launchpad
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
+- **Estimated duration:** 2.5 months
+- **FTE:** 1.5
+- **Costs:** 90,000 USD
 
-...
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | GPLv3 |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can utilize all the open source functionality for their NFT project |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests. |
+| 0d. | Docker | Docker file will be made for entire application setup and deploy. |
+| 0e. | Article | We will publish an **article**/workshop that explains what was done/achieved as part of the grant). Can develop into a conference presentation by us.
+| 1. | ? | ? |  
+| 2. | ? | ? |  
+| 3. | ? | ? |  
+| 4. | ? | ? |    
 
 ## Future Plans
 
 The Bubblemint Launchpad will be a revenue generating product that we will support long-term. We will focus on onboarding new talent and creatives to NEAR and give them a full NFT solution that uses the power of Mintbase.
+
+Revenue model of the launchpad will include a fee on sales to align all stakeholders.
 
 ## Additional Information :heavy_plus_sign:
 
