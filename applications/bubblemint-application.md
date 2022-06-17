@@ -5,13 +5,13 @@
 ---
 
 - **Project Name:** Bubblemint
-- **Team Name:** AktaryTech
+- **Team Name:** [AktaryTech](https://AktaryTech.com)
 - **Payment Address:** shardeez.near
-- **[Level](../README.md#level_slider-levels):** 3
+- **Level:** 3
 
 ## Project Overview :page_facing_up:
 
-Bubblemint is a "lazy minting" or "candy machine" strategy that will be open-source asset for anyone wanting to launch a collection with Mintbase.io contracts.
+Bubblemint is a "lazy minting" or "candy machine" strategy that will be an open source asset for anyone wanting to launch a collection with Mintbase.io contracts.
 
 The initial user will be our own NFT project, Shardeez. Subsequent users will be anyone with pre-generated assets and wants to use Mintbase contracts. There is a lot of dev synergy here, since we need this product ourselves.
 
@@ -66,7 +66,7 @@ We want to make a smooth and customizable experience that will be desired by any
 
 ### Ecosystem Fit
 
-NEAR needs options for open-source lazy minting. Everyone in NEAR NFTs will benefit from additional resources to launch projects. We expect other NFTs besides Shardeez will use the code, and other launchpads besides Bubblemint will build on top of it.
+NEAR needs options for lazy minting. Everyone in NEAR NFTs will benefit from additional resources to launch projects. We expect other NFTs besides Shardeez will use the code, and other launchpads besides Bubblemint will build on top of it.
 
 Within Mintbase, this project will bring a way for the type of NFTs with the most volume to use Mintbase contracts. That is predominantly PFP lazy-minted collections. Therefore more of these collections will benefit advanced functions like revenue splits, metaverse galleries, stores, DappRadar listings, and ongoing development.
 
@@ -173,10 +173,6 @@ Forking and customizing the TenK code. This will be completely re-written for Mi
 
 ### Overview
 
-- **Total Estimated Duration:** 5 months
-- **Full-Time Equivalent (FTE):** 1.5 FTE
-- **Total Costs:** 180,000 USD
-
 Milestones 1: Open Source Frontend and Smart Contract Configuration for Lazy Minting using Mintbase.io
 
 Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintbase NFT Launches.
@@ -192,10 +188,10 @@ Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintb
 | 0a. | License | GPLv3 |
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can utilize all the open source functionality for their NFT project |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests. |
-| 0d. | Article | We will publish an **article**/workshop that explains what was done/achieved as part of the grant). Can develop into a conference presentation by us.
-| 1. | Frontend module | We will publish the frontend code needed to start up your own Bubblemint-based NFT launch |  
-| 2. | Contracts module | If any changes are needed from the mintbase-core contracts, we will publish a separate repo. |  
-| 3. | Hosting module | We will publish a guide on how to get your own NFT launch robustly hosted for heavy mint-day traffic |  
+| 0d. | Article | We will publish an **article** / workshop that explains what was achieved as part of the grant. This can develop into a conference presentation by us.
+| 1. | Frontend module | We will publish the frontend code needed to start up your own Bubblemint-based NFT launch from source. This will be a single static page done in React, with TypeScript bindings to the Mintbase contracts. It will change visually based on user's wallet and its interaction with smart contract functions including whitelist. The page will be styled out of the box for marketing, and configurable for people to whitelabel it for their own NFT. |  
+| 2. | Contracts module | If any changes are needed from the [mintbase-core](https://github.com/Mintbase/mintbase-core) contracts, we will publish a separate repo, and maintain updates from the source. If sufficient improvement for community acceptance, we will submit a pull request. |  
+| 3. | Hosting module | We will publish a guide on how to get your own NFT launch robustly hosted for heavy mint-day traffic. |  
 | 4. | Storage module | We will publish explanations of how to utilize Arweave through mintbase API, as normally done, or how to choose your own IPFS pinning service. |  
 
 
@@ -217,14 +213,24 @@ Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintb
 | 3. | ? | ? |  
 | 4. | ? | ? |    
 
+## Marketing
+
+The launch of Bubblemint open source will coincide with the launch of our Shardeez NFTs. AktaryTech is devoting significant marketing resources to this launch and it will gain attention from inside and outside of NEAR.
+
+The ecological mission of Shardeez DAO will take center stage in the marketing efforts. Attention on this will drive other projects to Bubblemint and Mintbase in general.
+
 ## Future Plans
 
-The Bubblemint Launchpad will be a revenue generating product that we will support long-term. We will focus on onboarding new talent and creatives to NEAR and give them a full NFT solution that uses the power of Mintbase.
+The Bubblemint Launchpad will be a revenue generating product that AktaryTech, or a spin-off of, will support long-term. We will focus on onboarding new talent and creatives to NEAR by giving them a full NFT launch solution with the power of Mintbase.
 
-Revenue model of the launchpad will include a fee on sales to align all stakeholders.
+Revenue model of the launchpad will include a fee on sales to align all stakeholders. Much of this is TBD and dependent on further conversations, including VC introductions.
 
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?**
 
 From your website, and then received a walkthrough of the grant program and Mintbase's slide deck from Maria Neu!
+
+---
+
+![](./img/AktaryTechLogo-Mark-Type-1024px.png)
