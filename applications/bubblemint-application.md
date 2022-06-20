@@ -126,7 +126,7 @@ The details of the build are mostly TBD, but you can see our history below and k
 
 AktaryTech is devoting significant marketing resources to this launch (full time marketer, blog posts, Twitter, conference speaking). The goal is to gain attention from inside NEAR NFT communities, NEAR in general, outside of NEAR, and even outside of Web3.
 
-The DAO-governed ecological mission of Shardeez will take center stage in the marketing efforts (which is how we intend to bring outsiders in). This will drive other projects to Bubblemint and Mintbase in general.
+The DAO-governed ecological mission of Shardeez will take center stage in the marketing efforts (which is how we intend to bring outsiders in). NFT giveaways can drive insider attention. This will drive other projects to Bubblemint and Mintbase in general.
 
 ## Future Plans 📶
 
