@@ -9,21 +9,21 @@
 
 ## Project Overview :page_facing_up:
 
-Bubblemint is a "lazy minting" or "candy machine" strategy that will be an open source asset for anyone wanting to launch a collection with Mintbase.io contracts.
+Bubblemint is a "lazy minting" or "gumball machine" strategy that will be an open source asset for anyone launching collections with Mintbase.io contracts.
 
-The initial user will be our own NFT project, Shardeez. Subsequent users will be anyone with pre-generated assets and wants to use Mintbase contracts. There is a lot of dev synergy here, since we need this product ourselves.
+The initial user will be our own NFT project, Shardeez! Subsequent users will be anyone with pre-generated assets who want to use Mintbase contracts. There is a lot of dev synergy here, since we need this product ourselves.
 
 In subsequent milestones, Bubblemint tools will be extended into a no-code launchpad, which will make Mintbase a major source of large generative art projects.
 
 ### Overview
 
-AktaryTech is a Web3 development service company. Our business is to build dApps for clients, including DeFi and NFT Marketplaces, but we wanted our own product and so we created Shardeez. We have an NFT artist on the team who does AI generation, and we chose NEAR as the ecosystem to grow with. So Shardeez are "Sharded Blocks", an homage to the sharded blockchain NEAR, which we believe can scale properly for the future.
+AktaryTech is a Web3 development service company. Our business is to build dApps for clients. Including DeFi, NFT Marketplaces, and cross-chain solutions. But we wanted our own product too, and so we created Shardeez. We have an NFT artist on the team who does AI generation, and we chose NEAR as the ecosystem to grow with. Shardeez are "Sharded Blocks", an homage to the *sharded blockchain* NEAR, which we believe can scale properly for the future.
 
 #### Why Bubblemint?
 
-Tagline: Gumball Machine Minting System for NEAR using Mintbase.io
+**Tagline**: Gumball Machine Minting System for NEAR using Mintbase.io
 
-[TenK DAO](https://github.com/TENK-DAO/) has a good open source "lazy minting" platform; we forked it for our needs. It has a frontend site for the wallet connection and data on remaining NFTs to mint, and has different configurations based on whether your wallet is whitelisted and at what period of the mint.
+[TenK DAO](https://GitHub.com/TENK-DAO/) has a good open source "lazy minting" platform; we forked it for our needs. It has a frontend site for the wallet connection and data on remaining NFTs to mint, and has different configurations based on whether your wallet is whitelisted and at what period of the mint.
 
 We ran into issues getting it set up, including Apple M1 compatibility, whitelisting issues, UI to smart contract compatibility, and there are wallet mishaps under heavy use. But we got it working! All said, we gained familiarity with the frontend and their TypeScript bindings to Rust smart contracts. This gave us the confidence to remake it.
 
@@ -31,9 +31,9 @@ Mintbase.io is the perfect technology for us to remake this lazy minting / candy
 
 #### Why Shardeez?
 
-Tagline: Shardeez are "Sharded Blocks" on an eco-mission.
+**Tagline**: Shardeez are "Sharded Blocks" on an Eco-mission.
 
-1. They look crazy cool. NEAR needs something like this.
+1. They look crazy cool. NEAR needs something like this!
 2. Our team agreed on utility: an ecological mission. The [Shardeez DAO](https://app.astrodao.com/dao/shardeez.sputnik-dao.near) will fund environmental projects.
 3. Sharded blockchains are the **future for settlement layers**. Shardeez are their mascot.
 4. We love our story and rarity trait formation. The 13 Clans are in groups of Eco-Defenders, Ecocidal Maniacs, and Degens. Each item has a Genesis Block, a Shardness Level, and a Clan. Each Clan has a King and Queen.
@@ -70,6 +70,76 @@ Within Mintbase, this project will bring a way for the type of NFTs with the mos
 
 > ![](./img/shardeez-mint-page-screenshot.png) Screenshot of the mint page demo on testnet, showing the slider, minting allowance, and remaining in the collection.
 
+## Development Status :open_book:
+
+We've customized the TenK code and are prepared to launch Shardeez. If we get this grant, we will migrate to Mintbase contracts before launch. This system will be completely re-written for Mintbase, but just to show our familiarity with the system needed. Original Repos:
+
+1. [GitHub.com/TENK-DAO/frontend-starter](https://github.com/TENK-DAO/frontend-starter) (AktaryTech added 29 commits to this on our own fork)
+2. [GitHub.com/TENK-DAO/tenk](https://github.com/TENK-DAO/tenk) (AktaryTech added 32 commits to this on our own fork)
+
+> ![](./img/shardeez-frontend-commit-examples.png) Example of some of our development on the projects, and how we reference JIRA tickets (SHARD-xx) to manage work.
+
+> ![](./img/SHARD-jira.png) Work is organized and completed using JIRA.
+
+## Development Roadmap :nut_and_bolt:
+
+### Overview
+
+Milestones 1: Open Source Frontend and Smart Contract Configuration for Lazy Minting using Mintbase.io
+
+Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintbase NFT Launches.
+
+
+### Milestone 1 — Implement Modules
+
+- **Estimated duration:** 3 months
+- **FTE:** 1.5
+- **Costs:** 90,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | GPLv3 |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can utilize all the open source functionality for their NFT project |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests. |
+| 0d. | Article | We will publish an **article** / workshop that explains what was achieved as part of the grant. This can develop into a conference presentation by us.
+| 1. | Frontend module | We will publish the frontend code needed to start up your own Bubblemint-based NFT launch from source. This will be a static page done in React, Next.js, with TypeScript bindings to the Mintbase contracts. It will change visually based on user's wallet privileges and interaction with smart contract functions, including whitelist. The page will be styled out of the box for marketing, and has configurable theming (colors, content) for people to whitelabel their own NFT. By default, we could use themes from your client, [Create Mintbase App](https://github.com/Mintbase/create-mintbase-app).|  
+| 2. | Contracts module | If any changes are needed from the [mintbase-core](https://github.com/Mintbase/mintbase-core) contracts, we will publish a separate repo, and maintain updates from the source. If sufficient improvement for community acceptance, we will submit a pull request. For example, the array reduction from remaining available. |  
+| 3. | Hosting module | We will publish a guide on how to get your own NFT launch robustly hosted for heavy mint-day traffic. |  
+| 4. | Storage module | We will publish explanations of how to utilize Arweave through mintbase API, as normally done, or how to choose your own IPFS pinning service. |  
+| 5. | Launch | The launch of this project will coincide with the launch of Shardeez NFTs. |  
+
+#### Outstanding Questions for Milestone 1
+
+We should set up a Telegram channel to discuss these. We have questions related to the contracts, the secondary markets post-mint, stores, the store 100 minter limit, and royalties retained by Mintbase Market.
+
+### Milestone 2 — Bubblemint Launchpad
+
+AktaryTech, along with our NEAR NFT mascot Shardeez, will create a launchpad on top of Bubblemint's open source. Launchpad's are prevalent in NEAR (many built on TenK forks), and Bubblemint will become a predominant resource because of a focus on customer experience.
+
+The details of the build are mostly TBD, but you can see our history below and know that we have handled many Web2/Web3 components like this. It will involve administration settings for user configuration, and come with a whole marketing service to get their project introduced.
+
+- **Estimated duration:** 3 months
+- **FTE:** TBD
+- **Costs:** TBD
+
+## Marketing 🗣
+
+The launch of Bubblemint open source will coincide with the launch of Shardeez NFTs. AktaryTech is devoting significant marketing resources to this launch (full time marketer, blog posts, Twitter, conference speaking). The goal is to gain attention from inside NEAR NFT communities, NEAR in general, outside of NEAR, and even outside of Web3.
+
+The DAO-governed ecological mission of Shardeez will take center stage in the marketing efforts (which is how we intend to bring outsiders in). This will drive other projects to Bubblemint and Mintbase in general.
+
+## Future Plans 📶
+
+The Bubblemint Launchpad will be a revenue generating product that AktaryTech, or a spin-off of, will support long-term. We will focus on onboarding new talent and creatives to NEAR by giving them a full NFT launch solution with the power of Mintbase.
+
+Revenue model of the launchpad will include a fee on sales to align all stakeholders. Much of this is TBD and dependent on further conversations, including VC introductions.
+
+## Additional Information :heavy_plus_sign:
+
+**How did you hear about the Grants Program?**
+
+From your website, and then received a walkthrough of the grant program and Mintbase's slide deck from **Maria Neu**!
+
 ## Team :busts_in_silhouette:
 
 Our US team is based in Portland, Austin, and L.A.
@@ -90,33 +160,33 @@ Our US team is based in Portland, Austin, and L.A.
 
 **Shane Neeley — Dev / Artist / Experimenter —** Web3 dev, NFT artist and community manager. Previously in machine learning for biology. Author of two books on AI art. Launched and sold out generative art NFTs; built backend for token reservations. Skilled in technical writing, Python, Tensorflow, Node.js, and is learning Rust.
 
-[linkedin.com/in/neeley1](https://linkedin.com/in/neeley1) || [github.com/shane-neeley](https://github.com/shane-neeley)
+[LinkedIn.com/in/neeley1](https://LinkedIn.com/in/neeley1) || [GitHub.com/shane-neeley](https://GitHub.com/shane-neeley)
 
 **Adam Kecskes — Projects Orchestrator —** 25 years tech veteran with a background in project management,  operations improvement, frontend and backend architecture (C/C++, JS/React, Rust, more), M&A software due diligence, technical writing. Degrees in Math and CS.
 
-[linkedin.com/in/adamkecskes](https://linkedin.com/in/adamkecskes) || [github.com/adamk72](https://github.com/adamk72)
+[LinkedIn.com/in/adamkecskes](https://LinkedIn.com/in/adamkecskes) || [GitHub.com/adamk72](https://GitHub.com/adamk72)
 
 **Geoffrey Ballard — Senior Engineer —** Design savvy senior engineer with experience delivering complex and scalable applications for web and mobile. Skilled in Solidity, Node.js, React, Next.js, TypeScript, AWS, Google Cloud, GitHub CI/CD, and Graphic Design.
 
-[linkedin.com/in/gaballard](https://linkedin.com/in/gaballard)  || [github.com/gaballard](https://github.com/gaballard)
+[LinkedIn.com/in/gaballard](https://LinkedIn.com/in/gaballard)  || [GitHub.com/gaballard](https://GitHub.com/gaballard)
 
 **Luke — Backend Engineer —** Experience in data analytics, DevOps and deployment with AWS, Google Cloud, DigitalOcean. Skilled in Python, Node.js, and smart contract programming with Solidity and Hardhat.
 
 **Jared Childers — Blockchain Engineer —** A Gitcoin KERNEL Fellow and a Gitcoin + Filecoin APOLLO Fellow. Collector of metaverse assets. Skilled in Solidity, Hardhat, IPFS, Web3.py, Ethers.js, Chai testing and GitHub CI/CD.
 
-[linkedin.com/in/jared-childers-343b68195](https://linkedin.com/in/jared-childers-343b68195)  || [github.com/JaredChilders](https://github.com/JaredChilders)
+[LinkedIn.com/in/jared-childers](https://LinkedIn.com/in/jared-childers-343b68195)  || [GitHub.com/JaredChilders](https://GitHub.com/JaredChilders)
 
 **Paul Giordano — Asset Manager —** Chief Investment Officer of Keccak Capital. Thirty-nine years of experience in finance and trading. Skilled in treasury management.
 
-[linkedin.com/in/paul-giordano-25b8618a](https://linkedin.com/in/paul-giordano-25b8618a)
+[LinkedIn.com/in/paul-giordano](https://LinkedIn.com/in/paul-giordano-25b8618a)
 
 **David Aktary — CEO —** Founder of AktaryTech and three other companies. Founded ERC dEX, one of the first Ethereum token trading platforms in 2017.
 
-[linkedin.com/in/aktary](https://www.linkedin.com/in/aktary/)
+[LinkedIn.com/in/aktary](https://www.LinkedIn.com/in/aktary/)
 
-**Kim Albee — Director of Marketing —** She is the founder of the B2B Online Marketing Group on LinkedIn, and is also on faculty at CEOSpace. She was named a Top 40 Digital Marketer in 2020.
+**Kim Albee — Director of Marketing —** Founder of the B2B Online Marketing Group on LinkedIn, and is also on faculty at CEOSpace. She was named a Top 40 Digital Marketer in 2020.
 
-[linkedin.com/in/kimalbee](https://www.linkedin.com/in/kimalbee/)
+[LinkedIn.com/in/kimalbee](https://www.LinkedIn.com/in/kimalbee/)
 
 **Jill Love — Operations Manager —** Handling day-to-day operations tasks across AktaryTech's departments.
 
@@ -145,7 +215,7 @@ Hummingbot is an open source algorithmic trading bot for CEXs and DEXs. We built
 
 **Umee.cc**
 
-We built a beautiful dApp for a cross-chain DeFi hub for lending, borrowing, rates, staking, and interoperability. We built the frontend in React and managed many backend smart contracts and integrations. Our contracts are currently running on a Cosmos-based chain as well as Ethereum Goerli and Kovan testnets. The interface was recently featured on CoinBureau.
+We built a beautiful dApp for a cross-chain DeFi hub for lending, borrowing, rates, staking, and interoperability. We built the frontend in React and managed many backend smart contracts and integrations. Our contracts are currently running on a Cosmos-based chain as well as Ethereum Goerli and Kovan testnets. The interface was featured on CoinBureau.
 
 **Client B**
 
@@ -158,77 +228,6 @@ We built and designed an system to place limit orders on Uniswap v2. Our React +
 **Panvala**
 
 We helped build a protocol for cryptocurrency donation-matching on L2s (Polygon and xDai) using React, EthersJS, Web3.js and Gatsby. This matching fund allows for small contributions with low fees and integrates to existing donation sites.
-
-## Development Status :open_book:
-
-Forking and customizing the TenK code. This will be completely re-written for Mintbase, but just to show our familiarity with the system needed. Original Repos:
-
-1. https://github.com/TENK-DAO/frontend-starter (AktaryTech added 29 commits to this on our own fork)
-2. https://github.com/TENK-DAO/tenk (AktaryTech added 32 commits to this on our own fork)
-
-> ![](./img/shardeez-frontend-commit-examples.png) Example of some of our development on the projects, and how we reference JIRA tickets (SHARD-xx) to manage work.
-
-## Development Roadmap :nut_and_bolt:
-
-### Overview
-
-Milestones 1: Open Source Frontend and Smart Contract Configuration for Lazy Minting using Mintbase.io
-
-Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintbase NFT Launches.
-
-### Milestone 1 — Implement Modules of Documentation
-
-- **Estimated duration:** 2.5 months
-- **FTE:** 1.5
-- **Costs:** 90,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | GPLv3 |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can utilize all the open source functionality for their NFT project |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests. |
-| 0d. | Article | We will publish an **article** / workshop that explains what was achieved as part of the grant. This can develop into a conference presentation by us.
-| 1. | Frontend module | We will publish the frontend code needed to start up your own Bubblemint-based NFT launch from source. This will be a single static page done in React, with TypeScript bindings to the Mintbase contracts. It will change visually based on user's wallet and its interaction with smart contract functions including whitelist. The page will be styled out of the box for marketing, and configurable for people to whitelabel it for their own NFT. |  
-| 2. | Contracts module | If any changes are needed from the [mintbase-core](https://github.com/Mintbase/mintbase-core) contracts, we will publish a separate repo, and maintain updates from the source. If sufficient improvement for community acceptance, we will submit a pull request. |  
-| 3. | Hosting module | We will publish a guide on how to get your own NFT launch robustly hosted for heavy mint-day traffic. |  
-| 4. | Storage module | We will publish explanations of how to utilize Arweave through mintbase API, as normally done, or how to choose your own IPFS pinning service. |  
-
-
-### Milestone 2 — Bubblemint Launchpad
-
-- **Estimated duration:** 2.5 months
-- **FTE:** 1.5
-- **Costs:** 90,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | GPLv3 |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can utilize all the open source functionality for their NFT project |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests. |
-| 0d. | Docker | Docker file will be made for entire application setup and deploy. |
-| 0e. | Article | We will publish an **article**/workshop that explains what was done/achieved as part of the grant). Can develop into a conference presentation by us.
-| 1. | ? | ? |  
-| 2. | ? | ? |  
-| 3. | ? | ? |  
-| 4. | ? | ? |    
-
-## Marketing
-
-The launch of Bubblemint open source will coincide with the launch of our Shardeez NFTs. AktaryTech is devoting significant marketing resources to this launch (full time marketer, blog posts, Twitter, conference speaking). The goal is to gain attention from inside NEAR NFT communities, NEAR in general, outside of NEAR, and even outside of Web3.
-
-The DAO-governed ecological mission of Shardeez will take center stage in the marketing efforts (which is how we intend to bring outsiders in). This will drive other projects to Bubblemint and Mintbase in general.
-
-## Future Plans
-
-The Bubblemint Launchpad will be a revenue generating product that AktaryTech, or a spin-off of, will support long-term. We will focus on onboarding new talent and creatives to NEAR by giving them a full NFT launch solution with the power of Mintbase.
-
-Revenue model of the launchpad will include a fee on sales to align all stakeholders. Much of this is TBD and dependent on further conversations, including VC introductions.
-
-## Additional Information :heavy_plus_sign:
-
-**How did you hear about the Grants Program?**
-
-From your website, and then received a walkthrough of the grant program and Mintbase's slide deck from Maria Neu!
 
 ---
 
