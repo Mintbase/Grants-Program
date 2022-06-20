@@ -11,25 +11,25 @@
 
 Bubblemint is a "lazy minting" or "gumball machine" strategy that will be an open source asset for anyone launching collections with Mintbase.io contracts.
 
-The initial user will be our own NFT project, Shardeez! Subsequent users will be anyone with pre-generated assets who want to use Mintbase contracts. There is a lot of dev synergy here, since we need this product ourselves.
+The initial user will be our own NFT project, Shardeez! Subsequent users will be anyone with pre-generated assets who want to use Mintbase contracts. There is good synergy here, since we need this product ourselves.
 
 In subsequent milestones, Bubblemint tools will be extended into a no-code launchpad, which will make Mintbase a major source of large generative art projects.
 
 ### Overview
 
-AktaryTech is a Web3 development service company. Our business is to build dApps for clients. Including DeFi, NFT Marketplaces, and cross-chain solutions. But we wanted our own product too, and so we created Shardeez. We have an NFT artist on the team who does AI generation, and we chose NEAR as the ecosystem to grow with. Shardeez are "Sharded Blocks", an homage to the *sharded blockchain* NEAR, which we believe can scale properly for the future.
+AktaryTech is a Web3 development service company. Our business builds dApps for clients. This includes DeFi, NFT Marketplaces, and cross-chain solutions. But we wanted our own product too, and so we created Shardeez. We have an NFT artist on the team who does AI generation, and we chose NEAR as the ecosystem to grow with. Shardeez are "Sharded Blocks", an homage to the *sharded blockchain* NEAR, which we believe can scale properly for the future.
 
-#### Why Bubblemint?
+#### Why Bubblemint? 🍬
 
 **Tagline**: Gumball Machine Minting System for NEAR using Mintbase.io
 
 [TenK DAO](https://GitHub.com/TENK-DAO/) has a good open source "lazy minting" platform; we forked it for our needs. It has a frontend site for the wallet connection and data on remaining NFTs to mint, and has different configurations based on whether your wallet is whitelisted and at what period of the mint.
 
-We ran into issues getting it set up, including Apple M1 compatibility, whitelisting issues, UI to smart contract compatibility, and there are wallet mishaps under heavy use. But we got it working! All said, we gained familiarity with the frontend and their TypeScript bindings to Rust smart contracts. This gave us the confidence to remake it.
+We ran into issues getting it set up, including Apple M1 compatibility, whitelisting issues, UI to smart contract compatibility, and there are wallet mishaps under heavy use. But we got it working! All said, we gained familiarity with the frontend and their TypeScript bindings to the NEP-171 Rust smart contracts. This gave us the confidence to remake it.
 
 Mintbase.io is the perfect technology for us to remake this lazy minting / candy machine system. Mintbase rocks! From advanced revenue sharing, to 3XR VR galleries (with cool features like sound getting louder as you approach a music NFT), to the general quality of code from Mintbase's extended time in development of NFTs and indexers. We believe in your flexible approach to the technology that allows anyone to experiment with new ideas.
 
-#### Why Shardeez?
+#### Why Shardeez? 🔳
 
 **Tagline**: Shardeez are "Sharded Blocks" on an Eco-mission.
 
@@ -38,7 +38,7 @@ Mintbase.io is the perfect technology for us to remake this lazy minting / candy
 3. Sharded blockchains are the **future for settlement layers**. Shardeez are their mascot.
 4. We love our story and rarity trait formation. The 13 Clans are in groups of Eco-Defenders, Ecocidal Maniacs, and Degens. Each item has a Genesis Block, a Shardness Level, and a Clan. Each Clan has a King and Queen.
 
-[See this blog post](https://aktarytech.com/anatomy-of-an-nft-launch-part-1/) from AktaryTech about how we formulated Shardeez.
+[See this blog post](https://aktarytech.com/anatomy-of-an-nft-launch-part-1/) from AktaryTech about how we formulated Shardeez. Find us on Twitter: [@ShardeezNFT](https://Twitter.com/ShardeezNFT).
 
 > ![](./img/rarity-charts.png) The careful attention we paid to trait rarity.
 
@@ -110,7 +110,7 @@ Milestones 2-X: Bubblemint Launchpad No-Code Platform for Mass Adoption of Mintb
 
 #### Outstanding Questions for Milestone 1
 
-We should set up a Telegram channel to discuss these. We have questions related to the contracts, the secondary markets post-mint, stores, the store 100 minter limit, and royalties retained by Mintbase Market.
+We should set up a Telegram channel to discuss these. We have questions related to the contracts, the secondary markets, stores, the store 100 minter limit, and royalties retained by Mintbase Market.
 
 ### Milestone 2 — Bubblemint Launchpad
 
@@ -124,7 +124,7 @@ The details of the build are mostly TBD, but you can see our history below and k
 
 ## Marketing 🗣
 
-The launch of Bubblemint open source will coincide with the launch of Shardeez NFTs. AktaryTech is devoting significant marketing resources to this launch (full time marketer, blog posts, Twitter, conference speaking). The goal is to gain attention from inside NEAR NFT communities, NEAR in general, outside of NEAR, and even outside of Web3.
+AktaryTech is devoting significant marketing resources to this launch (full time marketer, blog posts, Twitter, conference speaking). The goal is to gain attention from inside NEAR NFT communities, NEAR in general, outside of NEAR, and even outside of Web3.
 
 The DAO-governed ecological mission of Shardeez will take center stage in the marketing efforts (which is how we intend to bring outsiders in). This will drive other projects to Bubblemint and Mintbase in general.
 
@@ -147,8 +147,7 @@ Our US team is based in Portland, Austin, and L.A.
 ### Contact
 
 - **Contact Name:** Shane Neeley
-- **Contact Email:** sneeley@aktarytech.com
-- **Contact Telegram:** @chiggimps
+- **Contact Telegram:** [@chiggimps](https://t.me/chiggimps)
 - **Website:** [AktaryTech.com](https://AktaryTech.com)
 
 ### Legal Structure
