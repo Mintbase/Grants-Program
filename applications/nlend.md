@@ -4,13 +4,13 @@
 - **Payment Address:** nlend.near
 - **[Level](../README.md#level_slider-levels):** 2 or 3
 
-> ?? *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+
 
 ## Project Overview :page_facing_up:
 
 ### Overview
 
-####  ?Our mission is to democratize finance- by bringing non-fungible assets closer to the DeFi ecosystem?
+#### Our mission is to democratize finance- by bringing non-fungible assets closer to the DeFi ecosystem.
 
 The FTY, allows users to access instant liquidity by leveraging their non-fungible assets on NEAR blockchain. FTY users can access funds without impacting their credit scores, with flexible repayment options, as well as instant approval on the collateralized loans. The NFTs used as collateral must be approved by the FTYs Decentralized Autonomous Organizations (DAO). Despite highly volatile market conditions, FTY is an stable, unbiased NFT-backed borrowing protocol that offers fair and accessible finance to the masses. 
 
@@ -99,13 +99,13 @@ Our team is interested in exploring mintbase because the platform removes severa
 ### Team members
 
 - Founders : Acie, Ross
-- Names of team members
+Acie's Twitter:https://twitter.com/aciedoteth
+Ross's Twitter:https://twitter.com/addictednfthead
 
 ### Contact
 
 - **Contact Name:** acie
 - **Contact Email:** crpyticacie@protonmail.com
-- **Website:**
 
 ### Team's experience
 Allow us to give you a brief idea about our team's expertise, we're a group of Web3 & crypto enthusiasts. We started adopting crypto about 8 years ago because we believe in the future of decentralized finance. 
