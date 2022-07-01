@@ -98,65 +98,26 @@ Our team is interested in exploring mintbase because the platform removes severa
 
 ### Team members
 
-- Founders : Rein, Acie, Ross
+- Founders : Acie, Ross
 - Names of team members
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
+- **Contact Name:** acie
+- **Contact Email:** crpyticacie@protonmail.com
 - **Website:**
 
-### Legal Structure
-
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
-
 ### Team's experience
+Allow us to give you a brief idea about our team's expertise, we're a group of Web3 & crypto enthusiasts. We started adopting crypto about 8 years ago because we believe in the future of decentralized finance. 
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+During the many years of being in the crypto space we have sought numerous opportunities to build within the space. Coming from our backgrounds in automation, artificial intelligence, marketing, front and backend development we have came up with numerous ideas and built numerous service-based software and protocols. 
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+Our team expertise goes beyond simply directing and casting ideas, for example we were one of the first people to offer custom Discord bots that feature NFT services, as mentioned since we also have a background in automation and machine learning we have made even further advanced algorithms and software to aid with security for NFT projects.
 
-### Team Code Repos
+Having the experience with backend development we have also been able to incorporate those bots & algorithms into modern, responsive and efficient websites.
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+And of course, with our marketing background we quickly understood how web3 marketing works and how to efficiently maximize our reach throughout the various techniques of web3 marketing to make sure that our services reach the right clients!
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
-
-### Team LinkedIn Profiles (if available)
-
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
-
-## Development Status :open_book:
-
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
-
-## Development Roadmap :nut_and_bolt:
-
-For each milestone,
-
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-### Overview
-
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
 
 ### Milestone 1 Example ? LENDING PROTOCOL DEVNET BASE LAUNCH
 
@@ -225,10 +186,4 @@ For each milestone,
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+**How did you hear about the Grants Program?** Web3 Foundation Website & Medium.
