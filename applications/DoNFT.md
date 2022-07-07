@@ -173,10 +173,7 @@ https://near.donft.io
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can work with royalty management with bundle functionality.|
 | 0c. | Docker |We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0d. | Article | We will publish an article that explains royalty management with bundle functionality.|
-| 1. | Smart Contract | We will create a NEAR smart contract that will provide royalty management with bundle functionality
-- setuping royalty for bundle
-- recalculating royalties for bundled tokens
-- distribute royalties to creators of bundled tokens |
+| 1. | Smart Contract | We will create a NEAR smart contract that will provide royalty management with bundle functionality. Setuping royalty for bundle. Recalculating royalties for bundled tokens. Distribute royalties to creators of bundled tokens |
 | 2. | Frontend | We will create a frontend for working with royalty management with bundle functionality.  |
 
 ## Future Plans
