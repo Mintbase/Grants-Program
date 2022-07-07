@@ -154,10 +154,7 @@ https://near.donft.io
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can work with approval mechanics of bundle functionality.|
 | 0c. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.|
 | 0d. | Article |We will publish an article that explains approval mechanics of bundle functionality. |
-| 1. | Smart Contract | We will create a NEAR smart contract that will provide approval mechanics of bundle functionality
-- give rights for changing bundle to other smart contract
-- revoke rights  for changing bundle to other smart contract
-- get list of smart contract which have rights got changing bundles |
+| 1. | Smart Contract | We will create a NEAR smart contract that will provide approval mechanics of bundle functionality. Give rights for changing bundle to other smart contract. Revoke rights  for changing bundle to other smart contract. Get list of smart contract which have rights got changing bundles |
 | 2. | Frontend | We will create a frontend for working with approval mechanics of bundle functionality.  |
 
 
