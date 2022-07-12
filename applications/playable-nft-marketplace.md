@@ -140,16 +140,17 @@ For each milestone,
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | GNU GPLv3  |
+| 0a. | Licence | GNU GPLv3  |
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
 | 0d. | Build&Deploy | We will put our solution on the domain and everyone can test all the functionality delivered with this milestone |
 | 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo ||
-| 1. | Mintbase / AMBER module: View: For you 🔥 | We will create a Mintbase / NEAR module that will... |  
-| 2. | Mintbase / AMBER module: View: Trade , Three-js view of items in the marketplace | We will create a Mintbase/AMBER module that will display items in Marketplace as cards with 3d files with improved visual representation for .glb .gltf 3D files using react-three-js-fiber library | 
-| 3. | Mintbase / AMBER module: View: Chest  | We will create a Mintbase / AMBER module the NFT lootbox interaction that will will provide a design and animation of an interactive NFT lootbox from which the NFT will drop when mint | |  
-| 4. | Mintbase / AMBER module: View: Sell | We will create a Mintbase / NEAR module that will... |  
-| 5. | Mintbase / AMBER module: View: Account | We will create a Mintbase / NEAR module that will... |  
+| 1. | UI Design of Playable NFT's Marketplace app | We will develop a figma file with the design of UI  |  
+| 2. | Mintbase / AMBER module: View: For you 🔥 | We will create a Mintbase / NEAR module that will... |  
+| 3. | Mintbase / AMBER module: View: Trade , Three-js view of items in the marketplace | We will create a Mintbase/AMBER module that will display items in Marketplace as cards with 3d files with improved visual representation for .glb .gltf 3D files using react-three-js-fiber library | 
+| 4. | Mintbase / AMBER module: View: Chest  | We will create a Mintbase / AMBER module the NFT lootbox interaction that will will provide a design and animation of an interactive NFT lootbox from which the NFT will drop when mint | |  
+| 5. | Mintbase / AMBER module: View: Sell | We will create a Mintbase / NEAR module that will... |  
+| 6. | Mintbase / AMBER module: View: Account | We will create a Mintbase / NEAR module that will... |  
 
 
 
