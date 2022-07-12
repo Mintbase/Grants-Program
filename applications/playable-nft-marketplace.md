@@ -1,15 +1,9 @@
 # Mintbase Grant Proposal
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
->
-> See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
-
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
-
-> ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+- **Project Name:** AMBER Playable NFTs Marketplace
+- **Team Name:** AMBER DAO
+- **Payment Address:** amber.sputnik-dao.near
+- **[Level](../README.md#level_slider-levels):** 2
 
 ## Project Overview :page_facing_up:
 
@@ -18,86 +12,101 @@ If this application is in response to an RFP, please indicate this on the first 
 If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
+AMBER Playable NFTs Marketplace based on Mintbase technology. 
 
-Please provide the following:
+Our proposal is to develop a Playable NFTs Marketplace Based on AMBER Open-source Metaverse, which will be the Playable NFTs Marketplace powered by MintBase technology with virtual asseet ownership confirmation and in-game NFT utility. Users will be able to get virtual assets through an interactive NFT lootbox, give them to other users and trade them on the secondary market. Virtual assets have rarity rarity and utility use of these skins in games and metaverse. The code of project will then be put into an open-source repository that will allow any blockchain applications and game creators to create marketplaces of this kind. The first will be a collection of 8888 3D avatars that will be used in the game. With AMBER technology it is possible to mint weapons, vehicles, real estate and land and use them in metaverse & NFT games. Also it's necessary to develop and implement a marketing strategy through which we plan to involve users to buy virtual property on AMBER and MintBase platforms.  When the project is launched anyone may become a creator and trader of virtual property by verifying account on the Marketplace and publishing own designs for NFT-assets. The Marketplace will provide a unique user experience related to gaming and buying in-game skins. As part of the project it is also planned to create a nft lootbox with the drop of things of different rarity and different mechanics of how items are dropped. 
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+>MOCKUP HERE
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+We have prepared a grey layout describing our NFT marketplace idea 
+
+We use a technical method proposed by NEAR, which means using smart contracts on the backend and some frontend 
+
+We assume that the marketplace will be developed in JavaScript (React) with Gatsby and hosted on Neltify. Also possible integration with our C# backend, a plugin for the Unity game engine that communicates with the Mintbase API and allows downloading, streaming, caching  NFT from the storage directly to the while playing the game and utilise the NFT as playable NFT asset.
+
+At the moment we have an MVP of a third person shooter game which already uses NFT from the Mintbase marketplace. An example is deployed at https://amber.top where when you run the WebGl game (desktop only Chrome Firefox) you will get an nft avatar where the forever_media whith is attached to NFT by MintBase smart-contract is streamed from IPFS into the game environment using our plugin. We also have an iPhone game that works the same way and is available for installation via the AppStore Testflight (Iphone 12+ Only)
+https://testflight.apple.com/join/KHYIS8no
+
+The outcome of the project will not so much be an improvement to the AMBER gaming environment, at the same time it will be a huge improvement to the web frontend for the user - a marketplace application in which the user makes NFT mint and trades
 
 ### Ecosystem Fit
 
-Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
+There is the problem of adapting blockchain for the masses, namely NFT and their utility. Our project allows the web2 user to learn about the world of blockchain and seamlessly move into using NFT in everyday life as playable items. 
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+Our solution enables the use of direct marketing channels such as targeted advertising and social media and Influencer marketing to sell nft as an item, add value by confirming ownership of the digital asset, solve the problem of user personalization in the metaverse and provide an example of the new economy for blockchain games 
+
+There are other projects in the NEAR ecosystem with a similar approach, as interest in the play 2 own (web2 -free 2 play) economy grows, projects come together and agree on collaboration between projects and cross-utility. Such a solution as a marketplace for game assets and an example of their utilisation in the form of a game, as well as the open source of such a solution, will enable the future to become a common standard for game nft and to share their use freely. In this way, the NEAR community will be able to come closer to realising the metaverse - connecting virtual worlds based on blockchain together into a multiverse and improving the use of blockchain by the general consumer. 
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
-
+- Valentin Sotov - Product Owner
+- Kornelii Petrus - Product Manager / Scrum Master
+- Andreas Kobal - CTO
+- Melody NFT - CMO
+- Edgar Osipov - COO
+- Valeria Derrick - Product / UX  / UI Designer
+- Timofey Khakhanov - Game Designer
+- Vitaly Ivolgin -  C# Unity Engineer
+- Animem NFT - Concept Artist 
+- Eldar - Tech Artist
+- Dennis Lee - Full Stack Engineer (JS/TS)
+- Louis Egan - Full Stack Engineer (JS/TS)
+- Semion Adam - Smart Contract Engineer (Rust)
+ 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** Valentin Sotov
+- **Contact Email:** expromt4@gmail.com
+- **Website:** linktr.ee/ambermetaverse
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Harju maakond, Tallinn, Kesklinna linnaosa, Ahtri tn 12, 10151
+- **Registered Legal Entity:** HustleStacks OÜ (16351701)
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+Hustle Stacks is an experienced team with a strong technical background in building web3 products and extensive marketing knowledge. We are proud to take on complex tasks and we do it with true passion 
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+Earlier we recieved funding from HumanGuild and having completed the basic milestones of creating an NFT third person shooter game for web and iOS and achieved the KPI of creating a Unity plugin that uses NFT metadata and fetches files from IPFS as playable avatars.
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/AMBER-Open-Source-Metaverse
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/andreykobal
+- https://github.com/infinity-nft
+- https://github.com/wb-ts
+- https://github.com/snowflake-dev918
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/infinitynft/
+- https://www.linkedin.com/in/andreas-kobal/
+- https://www.linkedin.com/in/kornely-petrus-9348a1214/
+- https://www.linkedin.com/in/louis-egan-338bb7235/
+
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+This is part of the larger AMBER Open Source metaverse repository which is a microservice architecture of various services and plugins, modules and examples related to bringing blockchain into game development
 
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+We have recently developed and continue to iterate the frontend based on our ux research, grey layouts and ui design of a new minting page for Tenk DAO's frontend starter with NFT game integration and advise on upgrading their smart contract so that it supports the forever_media metadata from Mintbase and supports the use of .gltf .glb files from the storage
+
+>UX wireframe
+>FIgma screenshoot
+>Githubrepo of Louis 
+
+Our research has shown that the early clients of the playable NFTs marketplace are crypto-friendly millennials, nft enthusiasts, collectors, working in tech, have an annual income of up to $120,000 and investors who buy nft in large quantities
+
+The results of our research, including personas and customer journey map, can be found in the attached materials
+
+>Customer Journey Map etc research materials
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -119,34 +128,52 @@ For each milestone,
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
+- **Total Estimated Duration:** 3 months
+- **Full-Time Equivalent (FTE):**  10 FTE
+- **Total Costs:** 50,000 USD
 
-### Milestone 1 Example — Implement Mintbase Modules
+### Milestone 1 — Design the UI & Develop Front end
 
 - **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 8,000 USD
+- **FTE:**  10
+- **Costs:** 20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0a. | GNU GPLv3  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
+| 0d. | Build&Deploy | We will put our solution on the domain and everyone can test all the functionality delivered with this milestone |
+| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo ||
+| 1. | Mintbase / AMBER module: View: For you 🔥 | We will create a Mintbase / NEAR module that will... |  
+| 2. | Mintbase / AMBER module: View: Trade , Three-js view of items in the marketplace | We will create a Mintbase/AMBER module that will display items in Marketplace as cards with 3d files with improved visual representation for .glb .gltf 3D files using react-three-js-fiber library | 
+| 3. | Mintbase / AMBER module: View: Chest  | We will create a Mintbase / AMBER module the NFT lootbox interaction that will will provide a design and animation of an interactive NFT lootbox from which the NFT will drop when mint | |  
+| 4. | Mintbase / AMBER module: View: Sell | We will create a Mintbase / NEAR module that will... |  
+| 5. | Mintbase / AMBER module: View: Account | We will create a Mintbase / NEAR module that will... |  
 
 
-### Milestone 2 Example — Additional features
+
+
+### Milestone 2 —  & connect Minbase smart contracts & develop nft lootbox smart contract & deploy
 
 - **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
+- **FTE:**  10
+- **Costs:** 20,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | GNU GPLv3  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
+| 0d. | Build&Deploy | We will put our solution on the domain and everyone can test all the functionality delivered with this milestone |
+| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
+| 1. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+
+### Milestone 3 — Develop marketing strategy & launch a marketing campaign for playable NFTs marketplace
+
+- **Estimated Duration:** 1 month
+- **FTE:**  5
+- **Costs:** 10,000 USD
 
 ...
 ## Future Plans
