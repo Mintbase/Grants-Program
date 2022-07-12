@@ -94,8 +94,9 @@ This is part of the larger AMBER Open Source metaverse repository which is a mic
 
 We have recently developed and continue to iterate the frontend based on our ux research, grey layouts and ui design of a new minting page for Tenk DAO's frontend starter with NFT game integration and advise on upgrading their smart contract so that it supports the forever_media metadata from Mintbase and supports the use of .gltf .glb files from the storage
 
->UX wireframe
->FIgma screenshoot
+![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/1-Homepage.png)
+![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/Desktop%20-%20Main%20LOG-IN.png)
+
 >Githubrepo of Louis 
 
 Our research has shown that the early clients of the playable NFTs marketplace are crypto-friendly millennials, nft enthusiasts, collectors, working in tech, have an annual income of up to $120,000 and investors who buy nft in large quantities
@@ -168,7 +169,7 @@ Please include here
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
+g
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
 - Work you have already done.
