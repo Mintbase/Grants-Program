@@ -94,8 +94,8 @@ This is part of the larger AMBER Open Source metaverse repository which is a mic
 
 We have recently developed and continue to iterate the frontend based on our ux research, grey layouts and ui design of a new minting page for Tenk DAO's frontend starter with NFT game integration and advise on upgrading their smart contract so that it supports the forever_media metadata from Mintbase and supports the use of .gltf .glb files from the storage
 
-![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/1-Homepage.png)
-![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/Desktop%20-%20Main%20LOG-IN.png)
+![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/1-Homepage.png | width=200)
+![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/Desktop%20-%20Main%20LOG-IN.png  | width=200)
 
 >Githubrepo of Louis 
 
