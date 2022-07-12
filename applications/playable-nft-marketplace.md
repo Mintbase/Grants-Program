@@ -7,10 +7,6 @@
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
-
 ### Overview
 AMBER Playable NFTs Marketplace based on Mintbase technology. 
 
@@ -110,22 +106,6 @@ The results of our research, including personas and customer journey map, can be
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
 - **Total Estimated Duration:** 3 months
@@ -145,7 +125,7 @@ For each milestone,
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
 | 0d. | Build&Deploy | We will put our solution on the domain and everyone can test all the functionality delivered with this milestone |
 | 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo ||
-| 1. | UI Design of Playable NFT's Marketplace app | We will develop a figma file with the design of UI  |  
+| 1. | UI Design of Playable NFT's Marketplace app | We will develop a figma file with the design of  |  
 | 2. | Mintbase / AMBER module: View: For you 🔥 | We will create a Mintbase / NEAR module that will... |  
 | 3. | Mintbase / AMBER module: View: Trade , Three-js view of items in the marketplace | We will create a Mintbase/AMBER module that will display items in Marketplace as cards with 3d files with improved visual representation for .glb .gltf 3D files using react-three-js-fiber library | 
 | 4. | Mintbase / AMBER module: View: Chest  | We will create a Mintbase / AMBER module the NFT lootbox interaction that will will provide a design and animation of an interactive NFT lootbox from which the NFT will drop when mint | |  
