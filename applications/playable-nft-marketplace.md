@@ -15,7 +15,7 @@ Our proposal is to develop a Playable NFTs Marketplace Based on AMBER Open-sourc
 
 ### Project Details
 
->MOCKUP HERE
+![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/2-App-Marketplace.png)
 
 We have prepared a grey layout describing our NFT marketplace idea 
 
