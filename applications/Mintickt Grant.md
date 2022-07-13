@@ -28,9 +28,9 @@ Please provide the following:
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
+- **Mockups/designs of any UI components:** https://www.figma.com/file/aTY6ml8eHQQHWUwjYdBNng/Mintickt-Wallet 
+- Data models / API specifications of the core functionality:   
+- An overview of the technology stack to be used:
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
@@ -51,14 +51,14 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Name of team leader: Guillermo Pérez Martín
+- Names of team members: Guillermo Pérez Martín, 
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** Guillermo Pérez Martín
+- **Contact Email:** guille@mintickt.com
+- **Website:** https://mintickt.com
 
 ### Legal Structure
 
