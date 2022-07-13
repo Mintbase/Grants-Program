@@ -56,7 +56,6 @@ Team Leader & Founder- Andrew Hoops
 
 Developers and Founders - 
 
-Ryuk 
 Flofi 
 Thinkwell
 
@@ -79,10 +78,6 @@ Registered Address: N/A
 Registered Legal Entity: N/A
 
 **Team’s Experience**
-
-Ryuk
-
-Being the founder of Nearify Labs ,Ryuk Labs with more than 7 years of experience in the blockchain,automation & programming industry he has served over 100+ happy clients in the web3 space. 
 
 Flofi
 
