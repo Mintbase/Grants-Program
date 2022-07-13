@@ -3,7 +3,7 @@
 - **Project Name:** AMBER Playable NFTs Marketplace
 - **Team Name:** AMBER DAO
 - **Payment Address:** amber.sputnik-dao.near
-- **[Level](../README.md#level_slider-levels):** 2
+- **[Level](../README.md#level_slider-levels):** 3
 
 ## Project Overview :page_facing_up:
 
@@ -111,7 +111,7 @@ The results of our research, including personas and customer journey map, can be
 
 - **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):**  10 FTE
-- **Total Costs:** 50,000 USD
+- **Total Costs:** 150,000 USD
 
 ### Milestone 1 — Design the UI & Develop Front end
 
@@ -140,7 +140,7 @@ The results of our research, including personas and customer journey map, can be
 
 - **Estimated Duration:** 1 month
 - **FTE:**  10
-- **Costs:** 20,000 USD
+- **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -155,7 +155,7 @@ The results of our research, including personas and customer journey map, can be
 
 - **Estimated Duration:** 1 month
 - **FTE:**  5
-- **Costs:** 10,000 USD
+- **Costs:** 50,000 USD
 
 ...
 ## Future Plans
