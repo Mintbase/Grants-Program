@@ -19,10 +19,10 @@ _Mintickt is an NFT ticketing marketplace that brings you back to that time wher
 
 Please provide the following:
 
-- **If_ the name of your project is not descriptive, a tag line (one sentence summary):** _Mintickt Wallet (iOS & Android)_
-- **A brief description of your project.** _Mintickt Wallet is our own NEAR wallet for iOS and Android focused on events where users will allowed to check NEAR tokens, swap between $USN and $NEAR, search and buy NFT tickets (and goods) from Mintickt events and check their transaction history._
-- **An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.** _Our marketplace is built on top of Mintbase NFT toolkit in order to build our own minter, market, and NFT redeeming system. Last month NEAR foundation has awarded us a grant to build the first version of our platform._
-- **An indication of why your team is interested in creating this project.**
+- **If_ the name of your project is not descriptive, a tag line (one sentence summary):** Mintickt Wallet (iOS & Android)
+- **A brief description of your project.** Mintickt Wallet is our own NEAR wallet for iOS and Android focused on events where users will allowed to check NEAR tokens, swap between $USN and $NEAR, search and buy NFT tickets (and goods) from Mintickt events and check their transaction history.
+- **An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.** Our marketplace is built on top of Mintbase NFT toolkit in order to build our own minter, market, and NFT redeeming system. Last month NEAR foundation has awarded us a grant to build the first version of our platform.
+- **An indication of why your team is interested in creating this project.** Working in our 4 or 5 very first events (Lisbon and Miami) we realized that every attendee should be logged in Mintickt (or Mintbase) once they were in line waiting to enter at the venue. We strong in a future where everyone at a venue, bar or wherever they are could burn a NFT in order tell everyone that they have reached and they want to get into a certain venue or just burning a NFT to order a beer or any good that you can imagine at a bar or retail store. Combining our upcoming dashboard for event creators plus our Mintickt Wallet powered by the Mintbase GraphQL people could burn that NFT right from our wallet and then the staff would scan a QR code to check if that person is who said that they were.
 
 ### Project Details
 
