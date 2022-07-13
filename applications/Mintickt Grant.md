@@ -4,24 +4,24 @@
 >
 > See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Project Name:** Mintickt NEAR wallet for iOS and Android.
-- **Team Name:** N/A (Thinking on create a company)
+- **Project Name:** Mintickt Wallet (iOS and Android).
+- **Team Name:** N/A (In progress)
 - **Payment Address:** mintickt.sputnik-dao.near
-- **[Level](../README.md#level_slider-levels):** 3
+- **[Level](../README.md#level_slider-levels):** 
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
-Mintickt is an NFT ticketing marketplace that brings you back to that time where event tickets were worth keeping as souvenirs. The digital artist community will provide templates for tickets and earn money with every ticket sold.
+_Mintickt is an NFT ticketing marketplace that brings you back to that time where event tickets were worth keeping as souvenirs. The digital artist community will provide templates for tickets and earn money with every ticket sold._
 
 ### Overview
 
 Please provide the following:
 
-- If_ the name of your project is not descriptive, a tag line (one sentence summary): Mintickt is a NFT ticketing marketplace driven by community of digital aritsts.
-- A brief description of your project. 
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
+- If_ the name of your project is not descriptive, a tag line (one sentence summary): _Mintickt Wallet (iOS & Android)_
+- A brief description of your project. _Mintickt Wallet is our own NEAR wallet for iOS and Android focused on events where users will allowed to check NEAR tokens, swap between $USN and $NEAR, search and buy NFT tickets (and goods) from Mintickt events and check their transaction history._
+- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem. _Our marketplace is built on top of Mintbase NFT toolkit in order to build our own minter, market, and NFT redeeming system. Last month NEAR foundation has awarded us a grant to build the first version of our platform._
 - An indication of why your team is interested in creating this project.
 
 ### Project Details
