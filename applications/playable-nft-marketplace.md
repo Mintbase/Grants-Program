@@ -117,7 +117,7 @@ The results of our research, including personas and customer journey map, can be
 
 - **Estimated duration:** 1 month
 - **FTE:**  10
-- **Costs:** 20,000 USD
+- **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
