@@ -13,16 +13,14 @@
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
+Mintickt is an NFT ticketing marketplace that brings you back to that time where event tickets were worth keeping as souvenirs. The digital artist community will provide templates for tickets and earn money with every ticket sold.
 
 ### Overview
 
 Please provide the following:
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
+- If_ the name of your project is not descriptive, a tag line (one sentence summary): Mintickt is a NFT ticketing marketplace driven by community of digital aritsts.
+- A brief description of your project. 
 - An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
 - An indication of why your team is interested in creating this project.
 
