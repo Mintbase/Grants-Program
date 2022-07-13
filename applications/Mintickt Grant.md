@@ -19,10 +19,10 @@ _Mintickt is an NFT ticketing marketplace that brings you back to that time wher
 
 Please provide the following:
 
-- If_ the name of your project is not descriptive, a tag line (one sentence summary): _Mintickt Wallet (iOS & Android)_
-- A brief description of your project. _Mintickt Wallet is our own NEAR wallet for iOS and Android focused on events where users will allowed to check NEAR tokens, swap between $USN and $NEAR, search and buy NFT tickets (and goods) from Mintickt events and check their transaction history._
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem. _Our marketplace is built on top of Mintbase NFT toolkit in order to build our own minter, market, and NFT redeeming system. Last month NEAR foundation has awarded us a grant to build the first version of our platform._
-- An indication of why your team is interested in creating this project.
+- **If_ the name of your project is not descriptive, a tag line (one sentence summary):** _Mintickt Wallet (iOS & Android)_
+- **A brief description of your project.** _Mintickt Wallet is our own NEAR wallet for iOS and Android focused on events where users will allowed to check NEAR tokens, swap between $USN and $NEAR, search and buy NFT tickets (and goods) from Mintickt events and check their transaction history._
+- **An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.** _Our marketplace is built on top of Mintbase NFT toolkit in order to build our own minter, market, and NFT redeeming system. Last month NEAR foundation has awarded us a grant to build the first version of our platform._
+- **An indication of why your team is interested in creating this project.**
 
 ### Project Details
 
