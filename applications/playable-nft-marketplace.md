@@ -124,7 +124,7 @@ The results of our research, including personas and customer journey map, can be
 | 0a. | Licence | GNU GPLv3  |
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
-| 0d. | Build&Deploy | We will put our solution on the domain and everyone can test all the functionality delivered with this milestone |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo ||
 | 1. | UI Design of Playable NFT's Marketplace app | We will develop a figma file with the design of  |  
 | 2. | Mintbase / AMBER module: View: For you 🔥 | We will create a Mintbase / NEAR module that will... |  
@@ -142,14 +142,7 @@ The results of our research, including personas and customer journey map, can be
 - **FTE:**  10
 - **Costs:** 50,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | GNU GPLv3  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
-| 0d. | Build&Deploy | We will put our solution on the domain and everyone can test all the functionality delivered with this milestone |
-| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
-| 1. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+......
 
 ### Milestone 3 — Develop marketing strategy & launch a marketing campaign for playable NFTs marketplace
 
@@ -157,21 +150,16 @@ The results of our research, including personas and customer journey map, can be
 - **FTE:**  5
 - **Costs:** 50,000 USD
 
-...
+......
 ## Future Plans
+The closest milestone after marketplace creation is the development of collections of playable nft such as weapons, transport, real estate, land
 
-Please include here
+AMBER is planned as a long-term project, with full functionality to be available by 2028. By that time, we plan to refine our game and add a royal mode to it, and we are also working on the design of our own combat mode with procedurally generated worlds. We also plan to create a 3D social network supported by AR/VR devices with spatial audio and voice chat based on AMBER. We also plan to add to the AMBER universe the possibility of hosting your own space, e.g. for a product or an event. There will be some collaboration with other metaverse projects and NFT games with full integration of their NFT in the same multi-universe. Amber is also a platform as a service where anyone can build something based on AMBER. For that, we have provided a separate app, AMBER creator, which is in essence a world creator.  This doesn't mean we won't see amber in release sooner, what we mean is that the amount of work is very large and it will take years to implement all the functionality we have in mind. 
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-g
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
+**How did you hear about the Grants Program?** 
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+We found out about the grant because we are in close contact with the Mintbase team and we are working together on new utilities for the NFT and we are a product of the NEAR and Mintbase ecosystem
