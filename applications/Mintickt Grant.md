@@ -31,11 +31,11 @@ We expect the teams to already have a solid idea about your project's expected f
 - **Mockups/designs of any UI components:** https://www.figma.com/file/aTY6ml8eHQQHWUwjYdBNng/Mintickt-Wallet 
 - **Data models / API specifications of the core functionality:** 
 - **An overview of the technology stack to be used:** Our dev team will use React Native to develop the app for iOS an Android.
-- **Documentation of core components, protocols, architecture, etc. to be deployed** 
-    NEAR Developer tools: https://near.org/developer-tools/
-    MintbaseJS: https://github.com/Mintbase/mintbase-js/blob/main/src/wallet.ts
-    Mintnbase Graph: https://docs.mintbase.io/dev/data-and-indexer/retrieving-data/mintbase-graph
-    Decentral bank: https://github.com/DecentralBankDAO
+- **Documentation of core components, protocols, architecture, etc. to be deployed** <br>
+    NEAR Developer tools: https://near.org/developer-tools/<br>
+    MintbaseJS: https://github.com/Mintbase/mintbase-js/blob/main/src/wallet.ts<br>
+    Mintnbase Graph: https://docs.mintbase.io/dev/data-and-indexer/retrieving-data/mintbase-graph<br>
+    Decentral bank: https://github.com/DecentralBankDAO<br>
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
