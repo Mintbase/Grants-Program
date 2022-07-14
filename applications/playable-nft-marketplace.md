@@ -1,6 +1,6 @@
 # Mintbase Grant Proposal
 
-- **Project Name:** AMBER Playable NFTs Marketplace
+- **Project Name:** AMBER Playable NFT Marketplace
 - **Team Name:** AMBER DAO
 - **Payment Address:** amber.sputnik-dao.near
 - **[Level](../README.md#level_slider-levels):** 3
@@ -8,9 +8,9 @@
 ## Project Overview :page_facing_up:
 
 ### Overview
-AMBER Playable NFTs Marketplace based on Mintbase technology. 
+AMBER Playable NFT Marketplace based on Mintbase technology. 
 
-Our proposal is to develop a Playable NFTs Marketplace Based on AMBER Open-source Metaverse, which will be the Playable NFTs Marketplace powered by MintBase technology with virtual asseet ownership confirmation and in-game NFT utility. Users will be able to get virtual assets through an interactive NFT lootbox, give them to other users and trade them on the secondary market. Virtual assets have rarity rarity and utility use of these skins in games and metaverse. The code of project will then be put into an open-source repository that will allow any blockchain applications and game creators to create marketplaces of this kind. The first will be a collection of 8888 3D avatars that will be used in the game. With AMBER technology it is possible to mint weapons, vehicles, real estate and land and use them in metaverse & NFT games. Also it's necessary to develop and implement a marketing strategy through which we plan to involve users to buy virtual property on AMBER and MintBase platforms.  When the project is launched anyone may become a creator and trader of virtual property by verifying account on the Marketplace and publishing own designs for NFT-assets. The Marketplace will provide a unique user experience related to gaming and buying in-game skins. As part of the project it is also planned to create a nft lootbox with the drop of things of different rarity and different mechanics of how items are dropped. 
+Our proposal is to develop a Playable NFT Marketplace Based on AMBER Open-source Metaverse, which will be the Playable NFT Marketplace powered by MintBase technology with virtual asseet ownership confirmation and in-game NFT utility. Users will be able to get virtual assets through an interactive NFT lootbox, give them to other users and trade them on the secondary market. Virtual assets have rarity rarity and utility use of these skins in games and metaverse. The code of project will then be put into an open-source repository that will allow any blockchain applications and game creators to create marketplaces of this kind. The first will be a collection of 8888 3D avatars that will be used in the game. With AMBER technology it is possible to mint weapons, vehicles, real estate and land and use them in metaverse & NFT games. Also it's necessary to develop and implement a marketing strategy through which we plan to involve users to buy virtual property on AMBER and MintBase platforms.  When the project is launched anyone may become a creator and trader of virtual property by verifying account on the Marketplace and publishing own designs for NFT-assets. The Marketplace will provide a unique user experience related to gaming and buying in-game skins. As part of the project it is also planned to create a nft lootbox with the drop of things of different rarity and different mechanics of how items are dropped. 
 
 
 ### Project Details
@@ -99,7 +99,7 @@ We have recently developed and continue to iterate the frontend based on our ux 
 
 >Githubrepo of Louis 
 
-Our research has shown that the early clients of the playable NFTs marketplace are crypto-friendly millennials, nft enthusiasts, collectors, working in tech, have an annual income of up to $120,000 and investors who buy nft in large quantities
+Our research has shown that the early clients of the Playable NFT Marketplace are crypto-friendly millennials, nft enthusiasts, collectors, working in tech, have an annual income of up to $120,000 and investors who buy nft in large quantities
 
 The results of our research, including personas and customer journey map, can be found in the attached materials
 
@@ -144,7 +144,7 @@ The results of our research, including personas and customer journey map, can be
 
 ......
 
-### Milestone 3 — Develop marketing strategy & launch a marketing campaign for playable NFTs marketplace
+### Milestone 3 — Develop marketing strategy & launch a marketing campaign for Playable NFT Marketplace
 
 - **Estimated Duration:** 1 month
 - **FTE:**  5
@@ -154,7 +154,7 @@ The results of our research, including personas and customer journey map, can be
 ## Future Plans
 The closest milestone after marketplace creation is the development of collections of playable nft such as weapons, transport, real estate, land
 
-AMBER is planned as a long-term project, with full functionality to be available by 2028. By that time, we plan to refine our game and add a royal mode to it, and we are also working on the design of our own combat mode with procedurally generated worlds. We also plan to create a 3D social network supported by AR/VR devices with spatial audio and voice chat based on AMBER. We also plan to add to the AMBER universe the possibility of hosting your own space, e.g. for a product or an event. There will be some collaboration with other metaverse projects and NFT games with full integration of their NFT in the same multi-universe. Amber is also a platform as a service where anyone can build something based on AMBER. For that, we have provided a separate app, AMBER creator, which is in essence a world creator.  This doesn't mean we won't see amber in release sooner, what we mean is that the amount of work is very large and it will take years to implement all the functionality we have in mind. 
+AMBER is planned as a long-term project, with full functionality to be available by 2028. By that time, we plan to refine our game and add a battle royal mode to it, and we are also working on the design of our own combat mode with procedurally generated worlds. We also plan to create a 3D social network supported by AR/VR devices with spatial audio and voice chat based on AMBER. We also plan to add to the AMBER universe the possibility of hosting your own space, e.g. for a product or an event. There will be some collaboration with other metaverse projects and NFT games with full integration of their NFT in the same multi-universe. Amber is also a platform as a service where anyone can build something based on AMBER. For that, we have provided a separate app, AMBER creator, which is in essence a world creator.  This doesn't mean we won't see amber in release sooner, what we mean is that the amount of work is very large and it will take years to implement all the functionality we have in mind. 
 
 
 
