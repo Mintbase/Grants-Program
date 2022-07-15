@@ -111,13 +111,13 @@ The results of our research, including personas and customer journey map, can be
 
 - **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):**  10 FTE
-- **Total Costs:** 150,000 USD
+- **Total Costs:** 250,000 USD
 
 ### Milestone 1 — 'For you' UI Design, view and model development
 
 - **Estimated duration:** 1 month
 - **FTE:**  10
-- **Costs:** 30,000 USD
+- **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -142,7 +142,7 @@ The results of our research, including personas and customer journey map, can be
 
 
 
-### Milestone 2 —  & connect Minbase smart contracts & develop nft lootbox smart contract & deploy
+### Milestone 2 —  'Trade' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
 - **FTE:**  10
@@ -166,7 +166,7 @@ The results of our research, including personas and customer journey map, can be
 | 9. | model for the like module | we will create a model to store the like data in an off-chain database
 | 10.| Mintbase / AMBER module: 3d product presentation | we will develop a 3d presentation of items in the marketplace using three.js, integration of three.js in the frontend |
 
-### Milestone 3 — Develop marketing strategy & launch a marketing campaign for Playable NFT Marketplace
+### Milestone 3 — 'Chest' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
 - **FTE:**  5
@@ -189,7 +189,7 @@ The results of our research, including personas and customer journey map, can be
 | 8. | Creation of NFT metadata | creating metadata of the nft for the chsts
 | 9. | Mintbase / AMBER module: modal window with the received item | design and layout of the modal window "congratulations you have received..." | 
 
-### Milestone 4 
+### Milestone 4 — 'Trade' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
 - **FTE:**  5
@@ -209,7 +209,7 @@ The results of our research, including personas and customer journey map, can be
 | 5. | Mintbase / AMBER module: Spot trade items - buy | we will create a module with the ability to make an offer to buy a specific item when the offer appears to sell the item automatically goes on sale |
 | 6. | Mintbase / AMBER module: Spot trade items - smart contract | create a smart contract for spot trade items
 
-### Milestone 5
+### Milestone 5 — My Profile
 
 - **Estimated Duration:** 1 month
 - **FTE:**  5
