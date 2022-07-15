@@ -174,7 +174,24 @@ The results of our research, including personas and customer journey map, can be
 - **FTE:**  5
 - **Costs:** 50,000 USD
 
-......
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | Licence | GNU GPLv3  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
+| 1. | Дизайн ui: каталог сундуков | мы создадим дизайн ui для view 'сундук' |
+| 2. | Дизайн ui: одиночный сундук | мы создадим дизайн ui для view 'одиночный сундук' | 
+| 3. | Анимации сундука |  дизайн микроинтеракций анимированного сундука |
+| 4. | Mintbase / AMBER модуль: сундук фронтенд | мы разработаем фронтенда для видов каталог сундуков и одиночный сундук (roll) |
+| 5. | Mintbase / AMBER модуль: смарт контракт сундука |  создание смарт контракта для выпадения nft из сундука с разной редкостью и вероятностью выпадения который позволяет пользователю сделать roll и получить nft различной редкости или в некоторых случаях BOOM - ничего не выпало
+| 6. | Mintbase / AMBER модуль: демо спин сундука | создание модуля demo spin который позволяет оценить возможность выпадения тех или иных nft пользователем |
+| 7. | Дизайн сундуков | дизайн разных сундуков и их их визуального оформление
+| 8. | Наполнение сундуков товарами |  создание метаданных nft для выпадения в сундуке |
+| 9. | Mintbase / AMBER модуль: модальное окно с полученным предметом | дизайн и верстка модального окна "поздравляем вы получили..." | 
+
+
 ## Future Plans
 The closest milestone after marketplace creation is the development of collections of playable nft such as weapons, transport, real estate, land
 
