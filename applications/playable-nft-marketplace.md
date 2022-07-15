@@ -186,7 +186,7 @@ The results of our research, including personas and customer journey map, can be
 | 3. | Chest Animations | design microinteractions of the animated chest |
 | 4. | Mintbase / AMBER module: coffer frontend | we will design the frontend for the views of catalogue coffers and single coffer (roll) |
 | 5. | Mintbase / AMBER module: smart contract chest | creating a smart contract for rolling nft from a chest with different rarity and roll probability which allows the user to do a roll and get an nft of different rarity or in some cases BOOM - nothing fell out
-| Mintbase / AMBER module: demo spin tool for the coffers | creation of a demo spin module which allows the user to make a roll of the nft and get a chance to get a nft.
+| 6. | Mintbase / AMBER module: demo spin tool for the coffers | creation of a demo spin module which allows the user to make a roll of the nft and get a chance to get a nft.
 | 7. | Chest design | the design of the different chests and their visual design
 | 8. | Filling the coffers with merchandise | creating metadata of the nft for the coffers
 | 9. | Mintbase / AMBER module: modal window with the received item | design and layout of the modal window "congratulations you have received..." | 
