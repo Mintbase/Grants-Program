@@ -216,6 +216,13 @@ act | create a smart contract for spot trade items
 - **FTE:**  5
 - **Costs:** 50,000 USD
 
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | Licence | GNU GPLv3  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
 | 1. | Design UI: view my account | we will design the ui for view 'my account'
 | 2. | Mintbase / AMBER module: frontend view my account | we will design the frontend for view my account
 | 3. | Mintbase / AMBER module: set NFT as profile picture | we will build a module to change the profile picture to choose the pfp nft avatar you have in your wallet
