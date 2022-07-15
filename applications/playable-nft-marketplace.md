@@ -117,7 +117,7 @@ The results of our research, including personas and customer journey map, can be
 
 - **Estimated duration:** 1 month
 - **FTE:**  10
-- **Costs:** 20,000 USD
+- **Costs:** 30,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -125,7 +125,7 @@ The results of our research, including personas and customer journey map, can be
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo ||
+| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
 | 1. | ui view design: for you | we will design the ui for view 'for you' |
 | 2. | Mintbase / AMBER module: For you | we will create a frontend for the 'for you' view |
 | 3. | Mintbase / AMBER module: Stories Highlights | we will create a highlights module which allows you to let the user know about updates, new collections and interface updates |
@@ -137,7 +137,7 @@ The results of our research, including personas and customer journey map, can be
 | 9. | Mintbase / AMBER module: like set | we will develop a 'like set' module |
 | 10. | Model for 'for you' view | we will create a model for the ability to store likesets in an off-chain database |
 | 11. | Mintbase / AMBER module: add funds to balance: ui design | we will develop a ui design for the 'add funds to balance' module |
-| 12. | Mintbase / AMBER module: add funds to balance: frontend | design view for add funds to balance
+| 12. | Mintbase / AMBER module: add funds to balance: frontend | we will create a frontend  for add funds to balance view  
 | 14. | Mintbase / AMBER module: NEARPay | we will integrate the NEARPay API with the add funds module | 
 
 
@@ -150,7 +150,23 @@ The results of our research, including personas and customer journey map, can be
 - **FTE:**  10
 - **Costs:** 50,000 USD
 
-......
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | Licence | GNU GPLv3  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
+| 1. | design the ui view of the marketplace product feed: trade | we will design the ui for the 'trade' view |
+| 2. | design the ui of the shopping cart modal window | we will design the ui of the shopping cart module |
+| 3. | Mintbase / AMBER module: trade | we will design the frontend for view 'trade | 
+| 4. | Mintbase / AMBER module: cart | layout of the frontend of the cart modal window |
+| 5. | Mintbase / AMBER module: search | we will develop a product search module for the marketplace | 
+| 6. | Mintbase / AMBER module: filters | we will develop a module with filters for categories, visual attributes, and availability of special utility 
+| 7. | Mintbase / AMBER module: sorting | we will design a module to sort by relevance, price, date added | 
+| 8. | Mintbase / AMBER module: like product | we will create a like module | 
+| 9. | model for the like module | we will create a model to store the like data in an off-chain database
+| 10.| Mintbase / AMBER module: 3d product presentation | we will develop a 3d presentation of items in the marketplace using three.js, integration of three.js in the frontend |
 
 ### Milestone 3 — Develop marketing strategy & launch a marketing campaign for Playable NFT Marketplace
 
