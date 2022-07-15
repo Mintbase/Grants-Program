@@ -113,11 +113,11 @@ The results of our research, including personas and customer journey map, can be
 - **Full-Time Equivalent (FTE):**  10 FTE
 - **Total Costs:** 150,000 USD
 
-### Milestone 1 — Design the UI & Develop Front end
+### Milestone 1 — 'For you' UI Design, view and model development
 
 - **Estimated duration:** 1 month
 - **FTE:**  10
-- **Costs:** 50,000 USD
+- **Costs:** 20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -126,12 +126,20 @@ The results of our research, including personas and customer journey map, can be
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo ||
-| 1. | UI Design of Playable NFT's Marketplace app | We will develop a figma file with the design of  |  
-| 2. | Mintbase / AMBER module: View: For you 🔥 | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase / AMBER module: View: Trade , Three-js view of items in the marketplace | We will create a Mintbase/AMBER module that will display items in Marketplace as cards with 3d files with improved visual representation for .glb .gltf 3D files using react-three-js-fiber library | 
-| 4. | Mintbase / AMBER module: View: Chest  | We will create a Mintbase / AMBER module the NFT lootbox interaction that will will provide a design and animation of an interactive NFT lootbox from which the NFT will drop when mint | |  
-| 5. | Mintbase / AMBER module: View: Sell | We will create a Mintbase / NEAR module that will... |  
-| 6. | Mintbase / AMBER module: View: Account | We will create a Mintbase / NEAR module that will... |  
+| 1. | ui view design: for you | we will design the ui for view 'for you' |
+| 2. | Mintbase / AMBER module: For you | we will create a frontend for the 'for you' view |
+| 3. | Mintbase / AMBER module: Stories Highlights | we will create a highlights module which allows you to let the user know about updates, new collections and interface updates |
+| 4. | Mintbase / AMBER module: Stories Highlights | we will design a frontend for a scrolling stories-like carousel which can be tapped left and right as part of the highlights module |
+| 5. | Mintbase / AMBER module 'content management system for stories' | we will develop an admin panel for the content management of stories |
+| 6. | Mintbase / AMBER module: sets | designing a module for sets dedicated to a certain theme, e.g. red set, gold set which contains the possibility of finding nft in the marketplace |
+| 7. | Mintbase / AMBER module: content management system sets | we will develop an admin panel for the administration of content sets |
+| 8. | Mintbase / AMBER module: single set view | we will create a set view with the ability to find the selected item in the marketplace |
+| 9. | Mintbase / AMBER module: like set | we will develop a 'like set' module |
+| 10. | Model for 'for you' view | we will create a model for the ability to store likesets in an off-chain database |
+| 11. | Mintbase / AMBER module: add funds to balance: ui design | we will develop a ui design for the 'add funds to balance' module |
+| 12. | Mintbase / AMBER module: add funds to balance: frontend | design view for add funds to balance
+| 14. | Mintbase / AMBER module: NEARPay | we will integrate the NEARPay API with the add funds module | 
+
 
 
 
