@@ -97,13 +97,13 @@ We have recently developed and continue to iterate the frontend based on our ux 
 ![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/1-Homepage.png)
 ![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/Desktop%20-%20Main%20LOG-IN.png)
 
->Githubrepo of Louis 
+The repository can be found on [GitHub](https://github.com/snowflake-dev918/Amber-mint-page).
 
 Our research has shown that the early clients of the Playable NFT Marketplace are crypto-friendly millennials, nft enthusiasts, collectors, working in tech, have an annual income of up to $120,000 and investors who buy nft in large quantities
 
 The results of our research, including personas and customer journey map, can be found in the attached materials
 
->Customer Journey Map etc research materials
+![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/Untitled%20Diagram.drawio%20(2).png)
 
 ## Development Roadmap :nut_and_bolt:
 
