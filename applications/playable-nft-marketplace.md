@@ -191,6 +191,24 @@ The results of our research, including personas and customer journey map, can be
 | 8. | Creation of NFT metadata | creating metadata of the nft for the chsts
 | 9. | Mintbase / AMBER module: modal window with the received item | design and layout of the modal window "congratulations you have received..." | 
 
+### Milestone 4 
+
+- **Estimated Duration:** 1 month
+- **FTE:**  5
+- **Costs:** 50,000 USD
+
+| 0a. | Licence | GNU GPLv3  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
+| 1. | Design UI: sell | we will design the ui for view 'sell' |
+| 2. | Mintbase / AMBER module: search in sell | connect the search module in the sell view |
+| 3. | Mintbase / AMBER module: selling items in the marketplace | we will develop a module which will allow you to fetch nft available for sale using the mintbase API |
+| 4. | Mintbase / AMBER module: Spot trade - selling items | creating a module that allows you to make an offer like on the spot market when an offer appears the item will be automatically sold and credited to your account |
+| 5. | Mintbase / AMBER module: Spot trade items - buy | we will create a module with the ability to make an offer to buy a specific item when the offer appears to sell the item automatically goes on sale |
+| 6. | Mintbase / AMBER module: Spot trade items - smart contract | create a smart contract for spot trade items
+
 
 ## Future Plans
 The closest milestone after marketplace creation is the development of collections of playable nft such as weapons, transport, real estate, land
