@@ -207,8 +207,7 @@ The results of our research, including personas and customer journey map, can be
 | 3. | Mintbase / AMBER module: selling items in the marketplace | we will develop a module which will allow you to fetch nft available for sale using the mintbase API |
 | 4. | Mintbase / AMBER module: Spot trade - selling items | creating a module that allows you to make an offer like on the spot market when an offer appears the item will be automatically sold and credited to your account |
 | 5. | Mintbase / AMBER module: Spot trade items - buy | we will create a module with the ability to make an offer to buy a specific item when the offer appears to sell the item automatically goes on sale |
-| 6. | Mintbase / AMBER module: Spot trade items - smart contr
-act | create a smart contract for spot trade items
+| 6. | Mintbase / AMBER module: Spot trade items - smart contract | create a smart contract for spot trade items
 
 ### Milestone 5
 
