@@ -99,21 +99,35 @@ We have recently developed and continue to iterate the frontend based on our ux 
 
 The repository can be found on [GitHub](https://github.com/snowflake-dev918/Amber-mint-page).
 
-Our research has shown that the early clients of the Playable NFT Marketplace are crypto-friendly millennials, nft enthusiasts, collectors, working in tech, have an annual income of up to $120,000 and investors who buy nft in large quantities
-
-The results of our research, including personas and customer journey map, can be found in the attached materials
-
-![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/Untitled%20Diagram.drawio%20(2).png)
 
 ## Development Roadmap :nut_and_bolt:
 
 ### Overview
 
-- **Total Estimated Duration:** 5 months
+- **Total Estimated Duration:** 6 months
 - **Full-Time Equivalent (FTE):**  13 FTE
 - **Total Costs:** 250,000 USD
 
-### Milestone 1 — 'For you' UI Design, view and model development
+### Milestone 1 — Research, UX prototyping
+
+- **Estimated duration:** 1 month
+- **FTE:**  3
+- **Costs:** 5,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | Licence | GNU GPLv3  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
+| 1. | Target audience research |  We will conduct research on the target audience of the gaming nft marketplace | 
+| 2. | UX research |  We will conduct UX research and create a customer journey map of the gaming nft marketplace | 
+| 3. | UX wireframe |  We will create grey mock-ups of the future UI to suit the target audience | 
+
+
+
+### Milestone 2 — 'For you' UI Design, view and model development
 
 - **Estimated duration:** 1 month
 - **FTE:**  13
@@ -142,7 +156,7 @@ The results of our research, including personas and customer journey map, can be
 
 
 
-### Milestone 2 —  'Trade' UI Design, view and model development
+### Milestone 3 —  'Trade' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
 - **FTE:**  13
@@ -166,7 +180,7 @@ The results of our research, including personas and customer journey map, can be
 | 9. | model for the like module | we will create a model to store the like data in an off-chain database
 | 10.| Mintbase / AMBER module: 3d product presentation | we will develop a 3d presentation of items in the marketplace using three.js, integration of three.js in the frontend |
 
-### Milestone 3 — 'Chest' UI Design, view and model development
+### Milestone 4 — 'Chest' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
 - **FTE:**  13
@@ -189,7 +203,7 @@ The results of our research, including personas and customer journey map, can be
 | 8. | Creation of NFT metadata | creating metadata of the nft for the chsts
 | 9. | Mintbase / AMBER module: modal window with the received item | design and layout of the modal window "congratulations you have received..." | 
 
-### Milestone 4 — 'Trade' UI Design, view and model development
+### Milestone 5 — 'Trade' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
 - **FTE:**  13
@@ -209,11 +223,11 @@ The results of our research, including personas and customer journey map, can be
 | 5. | Mintbase / AMBER module: Spot trade items - buy | we will create a module with the ability to make an offer to buy a specific item when the offer appears to sell the item automatically goes on sale |
 | 6. | Mintbase / AMBER module: Spot trade items - smart contract | create a smart contract for spot trade items
 
-### Milestone 5 — My Profile
+### Milestone 6 — My Profile
 
 - **Estimated Duration:** 1 month
 - **FTE:**  13
-- **Costs:** 50,000 USD
+- **Costs:** 45,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
