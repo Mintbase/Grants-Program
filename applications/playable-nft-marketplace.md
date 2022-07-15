@@ -181,15 +181,15 @@ The results of our research, including personas and customer journey map, can be
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
-| 1. | Дизайн ui: каталог сундуков | мы создадим дизайн ui для view 'сундук' |
-| 2. | Дизайн ui: одиночный сундук | мы создадим дизайн ui для view 'одиночный сундук' | 
-| 3. | Анимации сундука |  дизайн микроинтеракций анимированного сундука |
-| 4. | Mintbase / AMBER модуль: сундук фронтенд | мы разработаем фронтенда для видов каталог сундуков и одиночный сундук (roll) |
-| 5. | Mintbase / AMBER модуль: смарт контракт сундука |  создание смарт контракта для выпадения nft из сундука с разной редкостью и вероятностью выпадения который позволяет пользователю сделать roll и получить nft различной редкости или в некоторых случаях BOOM - ничего не выпало
-| 6. | Mintbase / AMBER модуль: демо спин сундука | создание модуля demo spin который позволяет оценить возможность выпадения тех или иных nft пользователем |
-| 7. | Дизайн сундуков | дизайн разных сундуков и их их визуального оформление
-| 8. | Наполнение сундуков товарами |  создание метаданных nft для выпадения в сундуке |
-| 9. | Mintbase / AMBER модуль: модальное окно с полученным предметом | дизайн и верстка модального окна "поздравляем вы получили..." | 
+| 1. | Design ui: catalogue of chests | we will create a design ui for view 'chest' |
+| 2. | Design ui: single chest | we will create a ui design for view 'single chest' | 
+| 3. | Chest Animations | design microinteractions of the animated chest |
+| 4. | Mintbase / AMBER module: coffer frontend | we will design the frontend for the views of catalogue coffers and single coffer (roll) |
+| 5. | Mintbase / AMBER module: smart contract chest | creating a smart contract for rolling nft from a chest with different rarity and roll probability which allows the user to do a roll and get an nft of different rarity or in some cases BOOM - nothing fell out
+| Mintbase / AMBER module: demo spin tool for the coffers | creation of a demo spin module which allows the user to make a roll of the nft and get a chance to get a nft.
+| 7. | Chest design | the design of the different chests and their visual design
+| 8. | Filling the coffers with merchandise | creating metadata of the nft for the coffers
+| 9. | Mintbase / AMBER module: modal window with the received item | design and layout of the modal window "congratulations you have received..." | 
 
 
 ## Future Plans
