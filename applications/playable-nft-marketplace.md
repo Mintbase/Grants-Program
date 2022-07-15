@@ -109,14 +109,14 @@ The results of our research, including personas and customer journey map, can be
 
 ### Overview
 
-- **Total Estimated Duration:** 3 months
-- **Full-Time Equivalent (FTE):**  10 FTE
+- **Total Estimated Duration:** 5 months
+- **Full-Time Equivalent (FTE):**  13 FTE
 - **Total Costs:** 250,000 USD
 
 ### Milestone 1 — 'For you' UI Design, view and model development
 
 - **Estimated duration:** 1 month
-- **FTE:**  10
+- **FTE:**  13
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
@@ -145,7 +145,7 @@ The results of our research, including personas and customer journey map, can be
 ### Milestone 2 —  'Trade' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
-- **FTE:**  10
+- **FTE:**  13
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
@@ -169,7 +169,7 @@ The results of our research, including personas and customer journey map, can be
 ### Milestone 3 — 'Chest' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
-- **FTE:**  5
+- **FTE:**  13
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
@@ -192,7 +192,7 @@ The results of our research, including personas and customer journey map, can be
 ### Milestone 4 — 'Trade' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
-- **FTE:**  5
+- **FTE:**  13
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
@@ -212,7 +212,7 @@ The results of our research, including personas and customer journey map, can be
 ### Milestone 5 — My Profile
 
 - **Estimated Duration:** 1 month
-- **FTE:**  5
+- **FTE:**  13
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
