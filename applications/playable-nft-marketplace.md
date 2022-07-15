@@ -137,9 +137,7 @@ The results of our research, including personas and customer journey map, can be
 | 9. | Mintbase / AMBER module: like set | we will develop a 'like set' module |
 | 10. | Model for 'for you' view | we will create a model for the ability to store likesets in an off-chain database |
 | 11. | Mintbase / AMBER module: add funds to balance: ui design | we will develop a ui design for the 'add funds to balance' module |
-| 12. | Mintbase / AMBER module: add funds to balance: frontend | we will create a frontend  for add funds to balance view  
-| 14. | Mintbase / AMBER module: NEARPay | we will integrate the NEARPay API with the add funds module | 
-
+| 12. | Mintbase / AMBER module: add funds to balance: frontend | we will create a frontend  for add funds to balance in for you view  
 
 
 
@@ -209,7 +207,28 @@ The results of our research, including personas and customer journey map, can be
 | 3. | Mintbase / AMBER module: selling items in the marketplace | we will develop a module which will allow you to fetch nft available for sale using the mintbase API |
 | 4. | Mintbase / AMBER module: Spot trade - selling items | creating a module that allows you to make an offer like on the spot market when an offer appears the item will be automatically sold and credited to your account |
 | 5. | Mintbase / AMBER module: Spot trade items - buy | we will create a module with the ability to make an offer to buy a specific item when the offer appears to sell the item automatically goes on sale |
-| 6. | Mintbase / AMBER module: Spot trade items - smart contract | create a smart contract for spot trade items
+| 6. | Mintbase / AMBER module: Spot trade items - smart contr
+act | create a smart contract for spot trade items
+
+### Milestone 5
+
+- **Estimated Duration:** 1 month
+- **FTE:**  5
+- **Costs:** 50,000 USD
+
+| 1. | Design UI: view my account | we will design the ui for view 'my account'
+| 2. | Mintbase / AMBER module: frontend view my account | we will design the frontend for view my account
+| 3. | Mintbase / AMBER module: set NFT as profile picture | we will build a module to change the profile picture to choose the pfp nft avatar you have in your wallet
+| 4. | Mintbase / AMBER module: frontend add funds to balance | we will create a frontend for the add funds module
+| 5. | Mintbase / AMBER module: Transaction subsection | create a design and frontend for the transaction subsection
+| 6. | Mintbase / AMBER module: customisation subsection | creation of the design and frontend of the customisation subsection
+| 7. | Mintbase / AMBER module: Support subsection | Create a design and frontend for the support subsection
+| 8. | Mintbase / AMBER module: Stuff status subsection | creating a design and frontend subsection of stuff status
+| 9. | Mintbase / AMBER module: profile customisation subsection | creating a design and frontend for the profile customisation subsection
+| 10. | Mintbase / AMBER module: Profile model | create a model and connect a database to store configuration data 
+| 11. | Mintbase / AMBER module: add funds to balance: ui design | we will develop a ui design for the 'add funds to balance' module |
+| 12. | Mintbase / AMBER module: add funds to balance: frontend | design a view for add funds to balance |
+| 13. | Mintbase / AMBER module: NEARPay | we will integrate the NEARPay API with the add funds module  
 
 
 ## Future Plans
