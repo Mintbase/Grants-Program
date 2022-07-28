@@ -177,7 +177,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
+- Here is a link to a diagram with the suggested Mintbase integration workflow (https://drive.google.com/drive/folders/1Cd8jf9Ind2AUuatsupnCk3EPtWMNeXMz?usp=sharing)
 - Here are links relevant to the problem - Article 1: https://www.npr.org/2021/02/25/971460327/tiktok-to-pay-92-million-to-settle-class-action-suit-over-theft-of-personal-data 
 Article 2: https://www.reuters.com/technology/metas-facebook-pay-90-million-settle-privacy-lawsuit-over-user-tracking-2022-02-15/
 Article 3: https://news.bloomberglaw.com/litigation/google-plus-7-5-million-privacy-settlement-gets-final-nod
