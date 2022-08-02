@@ -189,7 +189,7 @@ For each milestone,
 - 
 - Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
 
-### Milestone 1 Example — Project Setup & UX + Design Mockups & Wallet Connect
+### Milestone 1 — Project Setup & UX + Design Mockups & Wallet Connect
 
 - **Estimated duration:** 1 month
 - **FTE:**  3
@@ -208,7 +208,7 @@ For each milestone,
 | 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 
 
-### Milestone 2 Example — Read Wallet, AR Experience & 3D printing API
+### Milestone 2 — Read Wallet, AR Experience & 3D printing API
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
@@ -227,7 +227,7 @@ For each milestone,
 | 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 
 
-### Milestone 3 Example — MVP & "Espai Fusio" Launch Event
+### Milestone 3 — MVP & "Espai Fusio" Launch Event
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
@@ -246,7 +246,7 @@ For each milestone,
 | 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 
 
-### Milestone 4 Example — Printing NEAR Transaction & Multi Printing Options
+### Milestone 4 — Printing NEAR Transaction & Multi Printing Options
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
@@ -265,7 +265,7 @@ For each milestone,
 | 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 
 
-### Milestone 5 Example — Product Promotion, Dashboard to setup printer & collections 
+### Milestone 5 — Product Promotion, Dashboard to setup printer & collections 
 
 - **Estimated duration:** 1 month
 - **FTE:**  1
