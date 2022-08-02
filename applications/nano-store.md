@@ -69,8 +69,8 @@ https://www.figma.com/file/xC8RUmJQGzQiUpyKkkA5ja/NanoStore_eXplorins?node-id=5%
 - Stack: Typescript, Angular, Node 16, Firebase
 
 * Documentation of core components, protocols, architecture, etc. to be deployed
-- 1. open Source (MIT) Typescript Library for NEAR / Mintbase integrations 
-- 2. open Source (MIT) Typescript Library API & integration remote printers
+- 1. open Source (MIT) Typescript Library NEAR / Mintbase integrations 
+- 2. open Source (MIT) Typescript Library Printer: API & integration remote printers
 - 3. AR Feature ritch standalone webapp project (PWA, Angular) consuming UI components from eXplorins component library (private)
 - 4. deployed and customizable application (Firebase)
 
@@ -201,11 +201,12 @@ For each milestone,
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0e. | Article | - |
+| 1. | Library NEAR / Mintbase | connect wallet |  
+| 2. | Library Printer | - |  
+| 3. | webapp project | Angular project // detailed design Mockups & UX |  
+| 4. | Firebase / DB | deployed int |  
+| 5. | NEAR chain integration | testnet | 
 
 
 ### Milestone 2 — Read Wallet, AR Experience & 3D printing API
@@ -220,12 +221,12 @@ For each milestone,
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-
+| 0e. | Article | - |
+| 1. | Library NEAR / Mintbase | Read Wallet / Mintbase transaction |  
+| 2. | Library Printer | send printing job |  
+| 3. | webapp project | AR experience / Virtual Gallery |  
+| 4. | Firebase / DB | - |  
+| 5. | NEAR chain integration | - |
 
 ### Milestone 3 — MVP & "Espai Fusio" Launch Event
 
@@ -239,12 +240,12 @@ For each milestone,
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-
+| 0e. | Article | Summary event + Introduction Concept (Medium + Sector Cultural BCN), promotion event Barcelona,  |
+| 1. | Library NEAR / Mintbase | - |  
+| 2. | Library Printer | - |  
+| 3. | webapp project | MVP |  
+| 4. | Firebase / DB | deployed prod |  
+| 5. | NEAR chain integration | mainnet |
 
 ### Milestone 4 — Printing NEAR Transaction & Multi Printing Options
 
@@ -258,12 +259,12 @@ For each milestone,
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-
+| 0e. | Article | - |
+| 1. | Library NEAR / Mintbase | transaction printingjob |  
+| 2. | Library Printer | select printer, send shipping address |  
+| 3. | webapp project | - |  
+| 4. | Firebase / DB | - |  
+| 5. | NEAR chain integration | - |
 
 ### Milestone 5 — Product Promotion, Dashboard to setup printer & collections 
 
@@ -277,12 +278,12 @@ For each milestone,
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-
+| 0e. | Article | Presentation Project (Medium) |
+| 1. | Library NEAR / Mintbase | - |  
+| 2. | Library Printer | - |  
+| 3. | webapp project | Customization & Dashboard Printer & Collections |  
+| 4. | Firebase / DB | Collections & customized templates |  
+| 5. | NEAR chain integration |  |
 
 ## Future Plans
 
