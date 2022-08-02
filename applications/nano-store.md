@@ -127,9 +127,11 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 Daniel Co-Founder and Tech lead at eXplorins.
 
-Didac 15 years of experience a full stack developer and author of eXplorins backend
+Didac 15 years of experience as full stack developer and author of eXplorins backend
 
 Marc...
+
+Angela Co-Founder at eXplorins will be in charge of design process and communication.
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
@@ -137,21 +139,19 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/frontend-app
+- https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/backend-api
+- https://SupiDani@bitbucket.org/Daniel_eXplorins/explorins-ios-app.git
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
 - https://github.com/daniel-explorins
 - DIDAC
 - MARC
-- https://github.com/<team_member_2>
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/daniel-ferrer-muc-bcn/
 
 ## Development Status :open_book:
 
@@ -288,9 +288,10 @@ For each milestone,
 ## Future Plans
 
 Please include here
-- Porject will receive high attention on launch event due to its innovative approach within Barcelona cultural sector
+- Project will receive high attention on launch event due to its innovative approach within Barcelona cultural sector
 - eXplorins will maintain the standalone project and will use it for future events and promote it within our increasing community of artists
 - MOB / Fab Lab (the host of our MVP launch event) will use the application for their daily printing business and promote it within their community
+- deployed application will be available for use within mintbase ecosystem
 - All library integration will be used and maintained within the eXplorins "shopify" ecosystem
 - 
 - how you intend to use, enhance, promote and support your project in the short term, and
