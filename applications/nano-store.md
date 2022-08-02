@@ -25,16 +25,17 @@ Part of our evolution is the ongoing integration of a blockchain based token sys
 
 The present project "NanoStore by eXplorins" will allow to experience virtual items in the real world through AR and convert them into physical goods through 3D printing. The intended target audience are artists who want to showcase their works onsite and 3D printing services likewise.
 
-Through the near based NanoStore app users may place items in their sorrounding whereever they are and before their actual purchase decision, and in case of an transaction into their own wallet send the item out for 3D printing to later receive the piece as physical item afterwards. In that sense this applies as well for 3D printing services which can let their customers check out any piece in AR before the actual printing job.
+Through the NEAR based NanoStore app users may place items in their sorrounding whereever they are and before their actual purchase decision, and in case of a transaction into their own wallet send the item out for 3D printing to later receive the piece as physical item afterwards. In that sense this applies as well for 3D printing services which can let their customers check out any piece in AR before the actual printing job.
 
-The first MVP will be launched at an art event "Espai Fusio" for multidisciplinary creators in Barcelona in the end of Octoer 2022. A professional 3D printing company located at the venue will receive all printing jobs directly onsite. Transactions will be done through near and mintbase.
+The first MVP will be launched at an art event "Espai Fusio" for multidisciplinary creators in Barcelona in the end of October 2022. A professional 3D printing company located at the venue will receive all printing jobs directly onsite. Transactions will be done through NEAR and Mintbase.
 
 For eXplorins this project is highly aligned with our strategy to build a increasing set of features combining online & offline experiences.
 https://about.explorins.com/en/
 
 
-We see a very high potential targeting a very broad audiences from creator's industry and 3D printings.
+We see a very high potential targeting very broad audiences from creator's industry and 3D printings.
 
+---
 
 Please provide the following:
 
@@ -51,7 +52,7 @@ At NanoStore can be set up indivually for different events, galleriers, stores e
 - check out all items in their wallet via AR
 - scan QR codes to check out a specific item
 - choose the closest connected printing service
-- pay printing job with near and send item for printing
+- pay printing job with NEAR and send item for printing
 - receive physical print at their shipping address
 
 * Mockups/designs of any UI components:
@@ -94,7 +95,7 @@ We expect the teams to already have a solid idea about your project's expected f
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
 * Where and how does your project fit into the ecosystem?
-- We believe this project is also very much in the scope of mintbase promoting a growing utility nft ecosystem and real-world usecases. We think NanoStore will be a attractive way to connect an abstract virtual web3 world for physical tangeable assets. It's applied usecase will lower the barrier to implement Token based systems in real world transactions.
+- We believe this project is also very much in the scope of Mintbase promoting a growing utility nft ecosystem and real-world usecases. We think NanoStore will be a attractive way to connect an abstract virtual web3 world for physical tangeable assets. It's applied usecase will lower the barrier to implement Token based systems in real world transactions.
 - 
 * Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 - The intended target audience are artists who want to showcase their works onsite and 3D printing services likewise.
@@ -125,13 +126,19 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Team's experience
 
-Daniel Co-Founder and Tech lead at eXplorins.
-
-Didac 15 years of experience as full stack developer and author of eXplorins backend
-
-Marc...
+- Daniel
+  - Co-Founder and Tech lead at eXplorins.
+- Angela
+  - ...
+- Marc
+  - ...
+- Didac
+  - Fullstack developer with 7 years of experience
+  - Author of eXplorins backend
 
 Angela Co-Founder at eXplorins will be in charge of design process and communication.
+
+---
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
@@ -146,12 +153,13 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
 - https://github.com/daniel-explorins
-- DIDAC
+- https://github.com/didac-pf
 - MARC
 
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/daniel-ferrer-muc-bcn/
+- https://www.linkedin.com/in/didac-pf
 
 ## Development Status :open_book:
 
@@ -202,12 +210,12 @@ For each milestone,
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | - |
-| 1. | Library NEAR / Mintbase | connect wallet |  
-| 2. | Library Printer | - |  
+| 1. | Library NEAR / Mintbase | Integrate with NEAR. Handle wallet connections and fetch some data from NEAR and Mintbase |  
+| 2. | Library Printer | Connect to 3D printers API |  
 | 3. | webapp project | Angular project // detailed design Mockups & UX |  
-| 4. | Firebase / DB | deployed int |  
-| 5. | NEAR chain integration | testnet | 
+| 4. | Firebase / DB | Store data needed by the webapp at the current status of development |  
 
+---
 
 ### Milestone 2 — Read Wallet, AR Experience & 3D printing API
 
@@ -223,7 +231,7 @@ For each milestone,
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | - |
 | 1. | Library NEAR / Mintbase | Read Wallet / Mintbase transaction |  
-| 2. | Library Printer | send printing job |  
+| 2. | Library Printer | Send printing job |  
 | 3. | webapp project | AR experience / Virtual Gallery |  
 | 4. | Firebase / DB | - |  
 | 5. | NEAR chain integration | - |
@@ -244,7 +252,7 @@ For each milestone,
 | 1. | Library NEAR / Mintbase | - |  
 | 2. | Library Printer | - |  
 | 3. | webapp project | MVP |  
-| 4. | Firebase / DB | deployed prod |  
+| 4. | Firebase / DB | Deploy a production database |  
 | 5. | NEAR chain integration | mainnet |
 
 ### Milestone 4 — Printing NEAR Transaction & Multi Printing Options
@@ -260,8 +268,8 @@ For each milestone,
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | - |
-| 1. | Library NEAR / Mintbase | transaction printingjob |  
-| 2. | Library Printer | select printer, send shipping address |  
+| 1. | Library NEAR / Mintbase | Transaction printingjob |  
+| 2. | Library Printer | Select printer and send shipping address |  
 | 3. | webapp project | - |  
 | 4. | Firebase / DB | - |  
 | 5. | NEAR chain integration | - |
@@ -283,7 +291,7 @@ For each milestone,
 | 2. | Library Printer | - |  
 | 3. | webapp project | Customization & Dashboard Printer & Collections |  
 | 4. | Firebase / DB | Collections & customized templates |  
-| 5. | NEAR chain integration |  |
+| 5. | NEAR chain integration | - |
 
 ## Future Plans
 
@@ -291,7 +299,7 @@ Please include here
 - Project will receive high attention on launch event due to its innovative approach within Barcelona cultural sector
 - eXplorins will maintain the standalone project and will use it for future events and promote it within our increasing community of artists
 - MOB / Fab Lab (the host of our MVP launch event) will use the application for their daily printing business and promote it within their community
-- deployed application will be available for use within mintbase ecosystem
+- deployed application will be available for use within Mintbase ecosystem
 - All library integration will be used and maintained within the eXplorins "shopify" ecosystem
 - 
 - how you intend to use, enhance, promote and support your project in the short term, and
