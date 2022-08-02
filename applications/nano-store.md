@@ -129,9 +129,9 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 - Daniel
   - Co-Founder and Tech lead at eXplorins.
 - Angela
-  - ...
+  - Co-Founder and Head of Communication at eXplorins
 - Marc
-  - ...
+  - Fullstack developer with 12 years of experience
 - Didac
   - Fullstack developer with 7 years of experience
   - Author of eXplorins backend
@@ -154,7 +154,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - https://github.com/daniel-explorins
 - https://github.com/didac-pf
-- MARC
+- https://github.com/MarcFarres
 
 ### Team LinkedIn Profiles (if available)
 
@@ -193,7 +193,7 @@ For each milestone,
 
 - **Total Estimated Duration:** 5 months
 - **Full-Time Equivalent (FTE):**  2 FTE
-- **Total Costs:** 
+- **Total Costs:** 42,000 USD
 - 
 - Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
 
@@ -201,7 +201,7 @@ For each milestone,
 
 - **Estimated duration:** 1 month
 - **FTE:**  3
-- **Costs:** 
+- **Costs:** 12,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -213,7 +213,8 @@ For each milestone,
 | 1. | Library NEAR / Mintbase | Integrate with NEAR. Handle wallet connections and fetch some data from NEAR and Mintbase |  
 | 2. | Library Printer | Connect to 3D printers API |  
 | 3. | webapp project | Angular project // detailed design Mockups & UX |  
-| 4. | Firebase / DB | Store data needed by the webapp at the current status of development |  
+| 4. | Firebase / DB | Store data needed by the webapp at the current status of development | 
+| 5. | NEAR chain integration | testnet |
 
 ---
 
@@ -221,7 +222,7 @@ For each milestone,
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
-- **Costs:** 
+- **Costs:** 8,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -240,7 +241,7 @@ For each milestone,
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
-- **Costs:** 
+- **Costs:** 9,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -259,7 +260,7 @@ For each milestone,
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
-- **Costs:** 
+- **Costs:** 8,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -278,7 +279,7 @@ For each milestone,
 
 - **Estimated duration:** 1 month
 - **FTE:**  1
-- **Costs:** 
+- **Costs:** 5,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
