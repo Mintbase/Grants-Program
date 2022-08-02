@@ -129,7 +129,7 @@ Daniel Co-Founder and Tech lead at eXplorins.
 
 Didac 15 years of experience as full stack developer and author of eXplorins backend
 
-Marc...
+Marc . He studied Physics and has been working as a freelance full stack developer for several technology consultancies for 10 years. He has worked with several frameworks like symfony, angular, react, nestJS ... 
 
 Angela Co-Founder at eXplorins will be in charge of design process and communication.
 
@@ -147,11 +147,12 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - https://github.com/daniel-explorins
 - DIDAC
-- MARC
+- https://github.com/MarcFarres
 
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/daniel-ferrer-muc-bcn/
+- https://www.linkedin.com/in/marc-farres-pijuan-94b53564/
 
 ## Development Status :open_book:
 
