@@ -5,7 +5,7 @@
 > See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
 - **Project Name:** NanoStore by explorins 
-- **Team Name:** EXPLORINS PMW SL
+- **Team Name:** eXplorins-nanoStore
 - **Payment Address:** explorins.near
 - **[Level](../README.md#level_slider-levels):** 2
 
