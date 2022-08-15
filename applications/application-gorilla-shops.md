@@ -102,7 +102,9 @@ Jakob Sievers: Former teacher for physics, chemistry and computer science. Found
 
 Reimar Servar 15 years+
 Sascha Metz 10 years+
-Tobias Metz 8 years+
+
+Tobias Metz: Tobias Metz is an full stack software engineer from south-west germany. He had worked in several  web-agencies  and hardware/network B2B company’s as well. He has an information technology background and ~10 years of customer/developer experience.
+
 Ivy Yeh 10 years+
 Valentin Hehl
 Aymie Lapie
