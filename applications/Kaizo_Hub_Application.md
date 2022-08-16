@@ -22,15 +22,21 @@
 Initial mock ups and designs have been created within a pdf lide format to show the flows from page to page of the webpage, which they will most likely be transitioned into figma files during development. But the core mock up is present, which is displayed further within this submission.
 
 - An overview of the technology stack to be used?
+
     Front end
+
     - React.js
     - NEAR
     - CSS
     - HTML
+
     Back end
+
     - Rust
     - APIs
+
     Hosting
+    
     - IPFS
     - AWS
 
