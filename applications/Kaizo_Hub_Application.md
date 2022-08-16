@@ -2,7 +2,7 @@
 
 - **Project Name:** Kaizo Hub 
 - **Team Name:** Kaizo Fighters
-- **Payment Address:** @kaizo-fighters.sputnik-dao.near
+- **Payment Address:** kaizo-fighters.sputnik-dao.near
 - **[Level](../README.md#level_slider-levels):** 2 or 3
 
 
