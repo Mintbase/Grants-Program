@@ -101,7 +101,9 @@ All Team members are experienced in their field as can be seen by our product.
 Jakob Sievers: Former teacher for physics, chemistry and computer science. Founded the Gorilla Funds UG in 2020. I discovered the blockchain space in 2012 and got caught since then in the rabbit hole. Coding experience 15+ years.
 
 Reimar Servar 15 years+
-Sascha Metz 10 years+
+
+Sascha Metz: I started developing websites in 2012, developing for a living since 2015. Started with "classic" WordPress Websites but nowadays i am all into the JAM-Stack. Also pretty enthusiastic about cloud computing, especially with AWS.
+
 Tobias Metz 8 years+
 Ivy Yeh 10 years+
 Valentin Hehl
