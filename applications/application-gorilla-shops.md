@@ -55,7 +55,7 @@ Ticket Store Fronts.
 
 - If so, how is your project different?
 
-Both do not automate the Store-Creation right now and have no connected CMS. 
+Both do not automate the Store-Creation right now and have no connected CMS.
 
 ## Team :busts_in_silhouette:
 
@@ -100,8 +100,8 @@ Jakob Sievers: Former teacher for physics, chemistry and computer science. Found
 Reimar Servar: Freelance consultant. Designer/Developer, early browser wars veteran. Working on systems and processes for humans, connecting programmers and designers.
 Tobias Metz: Tobias Metz is an full stack software engineer from south-west germany. He had worked in several  web-agencies  and hardware/network B2B company’s as well. He has an information technology background and ~10 years of customer/developer experience.
 Sascha Metz: I started developing websites in 2012, developing for a living since 2015. Started with "classic" WordPress Websites but nowadays i am all into the JAM-Stack. Also pretty enthusiastic about cloud computing, especially with AWS.
-Valentin Hehl: Valentin Hehl is a Computer Science student at the KIT University Karlsruhe and 21 years old. He was in the winning team of the european cyber security challenge in 2019 in the category junior. 
-Aymie Lapie: Amyie is our Product manager and organizes our overall collaboration. 
+Valentin Hehl: Valentin Hehl is a Computer Science student at the KIT University Karlsruhe and 21 years old. He was in the winning team of the european cyber security challenge in 2019 in the category junior.
+Aymie Lapie: Amyie is our Product manager and organizes our overall collaboration.
 
 ### Team Code Repos
 
@@ -163,7 +163,7 @@ We have a working product that got released today after a 3 Month long Beta-Stat
 
 - **Total Estimated Duration:** 6 Months
 - **Full-Time Equivalent (FTE):** 5 FTE
-- **Total Costs:** 180000 US$
+- **Total Costs:** 240000 US$
 
 ### Milestone 1: Enhance the core Builder functionality:
 
@@ -182,11 +182,11 @@ This will include the following features
 
 - **Estimated duration:** 3 month
 - **FTE:** 5
-- **Costs:** 90,000 USD
+- **Costs:** 120,000 USD
 
 | Number | Deliverable               | Specification                                                                                                                                                                                                                                                                                                                   |
 | -----: | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    0a. | License                   | MIT                                                                                                                                                                                                                                                                                                                    |
+|    0a. | License                   | MIT                                                                                                                                                                                                                                                                                                                             |
 |    0b. | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can set up a Web Shop with connected CMS without the Page Builder                                                                                                                                                   |
 |    0c. | Testing Guide             | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                               |
 |    0d. | Docker                    | We will provide a Testnet-Instance that can be used to test all the functionalites of our product. We will also provide a Docker-Image that can be used to test it without our builder.                                                                                                                                         |
@@ -205,13 +205,13 @@ This will include the following features
 
 - **Estimated duration:** 3 month
 - **FTE:** 5
-- **Costs:** 90,000 USD
+- **Costs:** 120,000 USD
 
 - Code will be released under the Apache 2.0 License.
 
 | Number | Deliverable            | Specification                                                                                                                                                                                                                                                                                                                                                                                                      |
 | -----: | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|    0a. | License                | MIT                                                                                                                                                                                                                                                                                                                                                                                                        |
+|    0a. | License                | MIT                                                                                                                                                                                                                                                                                                                                                                                                                |
 |    0b. | Documentation          | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can set up a Web Shop with connected CMS without the Page Builder                                                                                                                                                                                                                                      |
 |    0c. | Testing Guide          | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                                                                                                                  |
 |    0d. | Docker                 | We will provide a Testnet-Instance that can be used to test all the functionalites of our product. We will also provide a Docker-Image that can be used to test it without our builder.                                                                                                                                                                                                                            |
