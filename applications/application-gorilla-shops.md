@@ -55,9 +55,7 @@ Ticket Store Fronts.
 
 - If so, how is your project different?
 
-Both do not automate the Store-Creation right now and have no connected CMS.
-
-- If not, are there similar projects in related ecosystems?
+Both do not automate the Store-Creation right now and have no connected CMS. 
 
 ## Team :busts_in_silhouette:
 
@@ -74,7 +72,7 @@ Both do not automate the Store-Creation right now and have no connected CMS.
 
 - Designer:
 
-  - Ivy Yeh
+  - Reimar Servas
 
 - Consultancy (Design Systems, Bridging from Design to Code)
 
@@ -99,15 +97,11 @@ Both do not automate the Store-Creation right now and have no connected CMS.
 All Team members are experienced in their field as can be seen by our product.
 
 Jakob Sievers: Former teacher for physics, chemistry and computer science. Founded the Gorilla Funds UG in 2020. I discovered the blockchain space in 2012 and got caught since then in the rabbit hole. Coding experience 15+ years.
-
-Reimar Servar 15 years+
-Sascha Metz 10 years+
-
+Reimar Servar: Freelance consultant. Designer/Developer, early browser wars veteran. Working on systems and processes for humans, connecting programmers and designers.
 Tobias Metz: Tobias Metz is an full stack software engineer from south-west germany. He had worked in several  web-agencies  and hardware/network B2B company’s as well. He has an information technology background and ~10 years of customer/developer experience.
-
-Ivy Yeh 10 years+
-Valentin Hehl
-Aymie Lapie
+Sascha Metz: I started developing websites in 2012, developing for a living since 2015. Started with "classic" WordPress Websites but nowadays i am all into the JAM-Stack. Also pretty enthusiastic about cloud computing, especially with AWS.
+Valentin Hehl: Valentin Hehl is a Computer Science student at the KIT University Karlsruhe and 21 years old. He was in the winning team of the european cyber security challenge in 2019 in the category junior. 
+Aymie Lapie: Amyie is our Product manager and organizes our overall collaboration. 
 
 ### Team Code Repos
 
@@ -156,7 +150,6 @@ as this Repo also contains our Corporate Repositories
 - Jonas Hartweg: https://www.linkedin.com/in/jonas-hartweg-66272449/
 - Sascha Metz: No LinkedIn
 - Tobias Metz: No LinkedIn
-- Ivy Yeh: No LinkedIn
 - Valentin Hehl: No LinkedIn
 - Aymie Lapie: https://www.linkedin.com/in/aymie-laipe/
 
@@ -182,6 +175,7 @@ This will include the following features
   - Instagramm Teaser
   - Video Component
   - Page Teaser
+  - Components for structuring content
   - Contact Form Component
 - Add token gated content
 - Optimize Side Performance
@@ -192,7 +186,7 @@ This will include the following features
 
 | Number | Deliverable               | Specification                                                                                                                                                                                                                                                                                                                   |
 | -----: | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    0a. | License                   | Apache 2.0                                                                                                                                                                                                                                                                                                                      |
+|    0a. | License                   | MIT                                                                                                                                                                                                                                                                                                                    |
 |    0b. | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can set up a Web Shop with connected CMS without the Page Builder                                                                                                                                                   |
 |    0c. | Testing Guide             | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                               |
 |    0d. | Docker                    | We will provide a Testnet-Instance that can be used to test all the functionalites of our product. We will also provide a Docker-Image that can be used to test it without our builder.                                                                                                                                         |
@@ -217,7 +211,7 @@ This will include the following features
 
 | Number | Deliverable            | Specification                                                                                                                                                                                                                                                                                                                                                                                                      |
 | -----: | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|    0a. | License                | Apache 2.0                                                                                                                                                                                                                                                                                                                                                                                                         |
+|    0a. | License                | MIT                                                                                                                                                                                                                                                                                                                                                                                                        |
 |    0b. | Documentation          | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can set up a Web Shop with connected CMS without the Page Builder                                                                                                                                                                                                                                      |
 |    0c. | Testing Guide          | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                                                                                                                  |
 |    0d. | Docker                 | We will provide a Testnet-Instance that can be used to test all the functionalites of our product. We will also provide a Docker-Image that can be used to test it without our builder.                                                                                                                                                                                                                            |
@@ -225,12 +219,11 @@ This will include the following features
 |     1. | Add Presets:           | We will create Presets that can be choosen in the build process that helps to fit to special needs of different Stores. These Presets will enhance the customizability and the fit for different kind of stores. Together with the Token-Gated content this will be an important part to build Webshops that fit to the needs of Mintbase Users. You can find a preset design for a Muisc and a ticket Store here. |
 |     2. | Minting funtionalities | We will add all Minting options that Mintbase supports to the CMS.                                                                                                                                                                                                                                                                                                                                                 |
 |     3. | NFT-Auctions           | We will integrate the Auction Mechanism to all our Web Shops                                                                                                                                                                                                                                                                                                                                                       |
-|     4. | Near-Pay               | We will integrate NEAR-Pay to make Fiat-Purchases via NEAR-Pay possible                                                                                                                                                                                                                                                                                                                                            |
-|     5. | Like-Feature           | We will integrate an optional like feature                                                                                                                                                                                                                                                                                                                                                                         |
+|     4. | Like-Feature           | We will integrate an optional like feature                                                                                                                                                                                                                                                                                                                                                                         |
 
 ## Clarifications
 
-We will release the Front End Code that is used by the builder as well as the Code for the Sanity-CMS so that a developer can set this up and build upon this from this Repostitory without using the Builder. We will provide a clear documentation about how this works. The Code for the Builder is not part of this Grant Proposal. We will keep the Builder for now closed source.
+We will release the Front End Code that is used for building the Front Ends as well as the Code for the Sanity-CMS so that a developer can set this up and build upon this from this Repostitory without using the Builder. We will provide a clear documentation about how this works. The Code for the Builder is not part of this Grant Proposal. We will keep the Builder for now closed source.
 
 ## Future Plans
 
@@ -239,5 +232,3 @@ We will continue working on Gorilla Shops as we want to become the Shopify for N
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** From the Mintbase-Team
-
-We applied for a grant for the initial development of the first Proof of Concept of the store fronts. The results can be found here.
