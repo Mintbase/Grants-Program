@@ -100,6 +100,7 @@ Jakob Sievers: Former teacher for physics, chemistry and computer science. Found
 Reimar Servar: Freelance consultant. Designer/Developer, early browser wars veteran. Working on systems and processes for humans, connecting programmers and designers.
 Tobias Metz: Tobias Metz is an full stack software engineer from south-west germany. He had worked in several  web-agencies  and hardware/network B2B company’s as well. He has an information technology background and ~10 years of customer/developer experience.
 Sascha Metz: I started developing websites in 2012, developing for a living since 2015. Started with "classic" WordPress Websites but nowadays i am all into the JAM-Stack. Also pretty enthusiastic about cloud computing, especially with AWS.
+Jonas Hartweg: Jonas Hartweg is a frontend engineer living in Berlin. He has ten years of development experience and worked for big B2B companies as well as smaller media agencies. Next to his work as a developer, he is currently finishing his M.A. in product design.
 Valentin Hehl: Valentin Hehl is a Computer Science student at the KIT University Karlsruhe and 21 years old. He was in the winning team of the european cyber security challenge in 2019 in the category junior.
 Aymie Lapie: Amyie is our Product manager and organizes our overall collaboration.
 
