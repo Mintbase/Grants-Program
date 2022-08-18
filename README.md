@@ -27,7 +27,7 @@
 
 ## :wave: Introduction
 
-Although we are accepting applications now, the program will not begin funding until July 1st 2022.  
+Although we are accepting applications now, the program will not begin funding until September 1st 2022.  
   
 As part of our commitment to always improving the Mintbase + NEAR ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and our [GraphQL Indexer API](https://docs.mintbase.io/dev/getting-started)**.
 
