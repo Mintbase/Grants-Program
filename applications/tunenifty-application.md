@@ -41,6 +41,10 @@ Technology 3: Arweave/Akash
 Name:  Nate Mamman
 Mailbox:  Box 1868, Jos, Plateau, 930001, Nigeria
 
+**1.4.3** **User Interface/Graphics Designer:**
+Name: Mary Ehapa
+Mailbox: P.O. Box 22133, University of Ibadan, Oyo State, Nigeria.
+
 **1.5**   **Legal structure:**  
 Legal Representative: Alien Robot Ninja Ltd
 Registered Address:   19 Luka Chung Street
