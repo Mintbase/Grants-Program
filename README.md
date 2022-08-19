@@ -216,7 +216,8 @@ Some funding sources might be more and some less suitable for your project throu
 
 The treasury is a pot of on-chain funds collected through transaction fees, slashing, staking inefficiencies, etc. The funds held in the treasury can be spent on spending proposals. [Mintbase](https://mintbase.io) offer everyone the opportunity to apply for funding via the treasury. See:
 
-- [Mintbase Treasury Account](https://explorer.near.org/accounts/mintgrants.near)
+- [Mintbase Treasury Account](https://nearblocks.io/address/mintbasegrants.near#transaction)
+`mintbasegrants.near`
 
 ### Hackathons
 
