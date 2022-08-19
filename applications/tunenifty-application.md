@@ -33,8 +33,9 @@ Technology 3: Arweave/Akash
  Alien Robot Ninja is a blockchain app and tools development studio. We are currently developing  [Niftiqet](https://github.com/alienrobotninja/utinifty/tree/main/niftiqet), an NFT ticketing service built on [NEAR](https://near.org) and [Mintbase](mintbase.io), as well as SDKs for a couple of other protocols.
  
  **1.4.1** **Team Profile:**  
-
-
+ **1.4.1.1** **Front End Development:**  
+ Name:  Afekhide Gbadamosi
+ Mailbox:  Box 7406, Jos, Plateau, 930103, Nigeria
  
 **1.4.2** **Information of Project Leader:**  
 Name:  Nate Mamman
