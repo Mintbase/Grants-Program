@@ -114,7 +114,7 @@ If you've already started implementing your project or it is part of a larger re
 
 ### Overview
 
-- **Total Estimated Duration:** 3 months
+- **Total Estimated Duration:** 2 months
 - **Full-Time Equivalent (FTE):**  1 FTE
 - **Total Costs:** 10,000 USD
 
@@ -149,8 +149,7 @@ If you've already started implementing your project or it is part of a larger re
 | 2. | Mintbase module: B | We will create a Mintbase / NEAR mainnet module that will mint an NFT and transfer it to the owner for each post each user makes. |
 | 3. | Mintbase module: C | We will create a Mintbase / NEAR mainnet module that will transfer the NFT certificate to each user's profile who completes the respective course or achievement. |
 | 4. | Design UI/UX and implement | NEAR chain integration | Modules A, B & C of our custom chain will interact in such a way that every time a user posts or completes a course (and/or an achievement), they should be reveiving their NFT in their NEAR mainnet wallet. | 
-| 5. | 100 NEAR wallets created | 50 daily active users (active user is defined as a wallet with 1 or more transaction
-within a given period) | 
+| 5. | 100 NEAR wallets created | 50 daily active users (active user is defined as a wallet with 1 or more transaction within a given period) | 
 
 
 
