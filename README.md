@@ -63,7 +63,7 @@ Finally, we take licensing and the right of all teams in and outside the ecosyst
 We also try to enforce our [code of conduct](CODE_OF_CONDUCT.md) and reserve the right to [block users](https://github.blog/2016-04-04-organizations-can-now-block-abusive-users/) if necessary.
 
 ### Project Ideas
-
+Not sure where to start? Take a look at [this list of ideas](https://docs.mintbase.io/dev/build-ideas). 
 [Requests For Proposals](rfps) (RFPs) represent concrete ideas for projects that we would like to see implemented. Several teams may apply for the same RFP, so even if another team has already applied to implement a certain RFP, we invite you to do the same if you're interested.
 
 Finally, you don't need to start your own project in order to be eligible for a grant. Instead, some teams choose to port existing work to Mintbase, where the pertinent licenses allow, or even to contribute to an existing open-source project. In the latter case, you should check in advance that the maintainers of the project are interested in your contribution, and the acceptance of the milestones will generally be tied to the inclusion of your work in said project. See the [Maintenance Grants section](#hammer_and_wrench-maintenance-grants) for more info.
