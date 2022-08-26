@@ -71,7 +71,7 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
 
 ### Team Code Repos
 
@@ -159,7 +159,7 @@ Please include here
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
