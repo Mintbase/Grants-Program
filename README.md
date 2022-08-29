@@ -112,7 +112,7 @@ USD equivalent payments are made in NEAR.
 
 - **Target:** Small teams/start-ups
 - **Amount:** Up to $50,000
-- **Requirements:** 3 approvals
+- **Requirements:** 3 approvals and one pitch to Mintbase Council
 - **Benefits:** All of the above + [co-promotion](./docs/announcement-guidelines.md#announcement-guidelines)
 
 ### :rooster: Level 3<!-- omit in toc -->
