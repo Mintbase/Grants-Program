@@ -6,8 +6,8 @@
 
 ### For which grant [level](https://github.com/Mintbase/Grants-Program#level_slider-levels) are you applying? 
 - [ ] **Level 1**:  Up to $10,000, 2 approvals
-- [ ] **Level 2**:  Up to $50,000, 3 approvals
-- [ ] **Level 3**:  Unlimited, 5 approvals (for > $100k Mintbase Council approval)
+- [ ] **Level 2**:  Up to $50,000, 3 approvals and one pitch to Mintbase Council
+- [ ] **Level 3**:  Unlimited, 5 approvals and mutliple pitches to Mintbase Council
 
 ### Application Checklist
 
