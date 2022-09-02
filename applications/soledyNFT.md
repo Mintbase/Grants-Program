@@ -40,7 +40,7 @@ What makes clothes look “unique”? It is the graphic elements, like those on 
 This is what our platform does: it digitizes the clothes' graphic elements and transforms it into NFT, so that the users can own the digital assets based on which the design of their clothes is made:
 
 <p align="center">
-  <img src="/applications/src/3.jpg" style="width:30%"; alt="">
+  <img src="/applications/src/4.jpg" style="width:30%"; alt="">
   <img src="/applications/src/5.jpg" style="width:30%"; alt="">
 </p>
 
