@@ -30,8 +30,9 @@ SoledyNFT is a Fashion Marketplace where users can get their NFTs printed/embroi
 My name is Irina Frolov. I have been a fashion marketing specialist for more than 6 Years. During my professional career, I understood that people want to share their remarkable individuality by the clothes and accessories they wear. Moreover, they want to have in their wardrobe "those" clothes and "those" accessories, that make them look and feel “unique”.
 
 What makes clothes look “unique”? It is the graphic elements, like those on images below:
+#images 1,2,3 in row
 This is what our platform does: it digitizes the clothes' graphic elements and transforms it into NFT, so that the users can own the digital assets based on which the design of their clothes is made:
-
+#images 4,5 in row
 On the other hand, fashion designers can upload their clothes on our platform, so that the users can choose the clothes on which to print/embroider their NFTs and create clothing collections out of them.  
 
 **How your project relates to / integrates into the Mintbase / NEAR ecosystem**
