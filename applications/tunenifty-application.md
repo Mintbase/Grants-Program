@@ -4,7 +4,7 @@
  	Project Name format: tunenifty.md  
  	Team name(s): Alien Robot Ninja  
 	Payment Method: Unlocked NEAR Tokens  
-	Payment Address: utinifty.near 
+	Payment Address: alienrobotninja.near 
 	
 **1.2** **Project Overview** 
 
