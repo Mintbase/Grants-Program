@@ -19,7 +19,7 @@ Tunenifty is a proposed `Stream to Own` music NFT streaming platform. Users woul
 charge, but for as often as they listen to music. Each stream would be assigned a value, and each time a user streams a song, a certain amount would be debited from
 the wallet. Once a certain number of streams have been reached, the music automatically becomes available to the streamer for download. For collections (eg `EPs` and `Albums`) once the user spends upto a certain amount on the album, the entire album is theirs to own and download.
 
-Once a streamer has an album, they may decide to either do nothing, or to unlock NFTs. This may usually be buy buying NFTs (which may include extra content or features). 
+We believe we still need to experiment on the what the final product would look like and would like to build a simple version of this to give us a better idea. 
 
 **1.3.1** **Technology Stack Used**  
 
@@ -56,7 +56,7 @@ Registered Address:   19 Luka Chung Street
 Source Code Repository:  
 
 **1.7**  
-	Project Direction:   
-	Iteration Cycle:   
-	Iteration Content:  
-	Cost:$50,000
+	Project Direction: MVP   
+	Iteration Cycle:  1 
+	Iteration Content:  Streaming to own
+	Cost:$10,000
