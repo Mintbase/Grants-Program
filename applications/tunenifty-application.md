@@ -53,10 +53,13 @@ Registered Address:   19 Luka Chung Street
 		 			   Nigeria 
 
 **1.6** **Team Code Warehouse**  
-Source Code Repository:  
+Source Code Repository:  https://github.com/alienrobotninja/tunenifty
 
 **1.7**  
 	Project Direction: MVP   
+	
 	Iteration Cycle:  1 
-	Iteration Content:  Streaming to own
+	
+	Iteration Content: music NFT stream-to-own app
+	
 	Cost:$10,000
