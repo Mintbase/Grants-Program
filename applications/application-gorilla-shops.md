@@ -55,7 +55,7 @@ As the project is designed to use with the Figma-Plugin their is right now no si
 
   - Reimar Servas
 
-- Consultancy (Design Systems, Bridging from Design to Code)
+- Consultancy (Design Systems, Bridging Design and Code)
 
   - Reimar Servas
 
@@ -82,14 +82,14 @@ All Team members are experienced in their field as can be seen by our product.
 - Tobias Metz: Tobias Metz is an full stack software engineer from south-west germany. He had worked in several  web-agencies  and hardware/network B2B company’s as well. He has an information technology background and ~10 years of customer/developer experience.
 - Sascha Metz: Sascha Metz started building websites in 2012, is developing for a living since 2015. Started with "classic" WordPress Websites but nowadays i am all into the JAM-Stack. Also pretty enthusiastic about cloud computing, especially with AWS.
 - Jonas Hartweg: Jonas Hartweg is a frontend engineer living in Berlin. He has ten years of development experience and worked for big B2B companies as well as smaller media agencies. Next to his work as a developer, he is currently finishing his M.A. in product design.
-- Valentin Hehl: Valentin Hehl is a Computer Science student at the KIT University Karlsruhe and 21 years old. He was in the winning team of the european cyber security challenge in 2019 in the category junior.
-- Aymie Lapie: Amyie is our Product manager and organizes our overall collaboration.
+- Valentin Hehl: Valentin Hehl is a Computer Science student at the KIT University Karlsruhe and 21 years old. He was in the winning team of the European cyber security challenge in 2019 in the category _Junior_.
+- Aymie Lapie: Amyie is our product manager and organizes our overall collaboration.
 
 ### Team Code Repos
 
 - https://github.com/gorillafunds
 
-Right now the repository is private. We will provide all necessary access to the repository to the Mintbase Team.
+Right now the repository is private. We will provide all necessary access to the repository to the Mintbase team.
 
 Github-Repositories of the Team-Members:
 
@@ -120,8 +120,8 @@ Jakob Sievers
 - https://github.com/gorillafund
 
 Team Code Repos
-Right now the Team Code Repo is private. We have to pull some things out as we are working with a Mono-Repo Structure,
-as this Repo also contains our Corporate Repositories
+Right now the Team Code Repo is private. We have to pull some things out as we are working with a mono-repo structure,
+as this repository also contains our corporate site code
 
 - https://github.com/gorillafund/gorilla-technologies
 
