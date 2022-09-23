@@ -3,32 +3,18 @@
 - **Project Name:** Gorilla Shops
 - **Team Name:** Gorilla Funds UG
 - **Payment Address:** gorillashops.near
-- **[Level](../README.md#level_slider-levels):** 3
+- **[Level](../README.md#level_slider-levels):** 2
 
 ## Project Overview :page_facing_up:
 
 ### Overview
 
-Gorilla Shops builds Store-Fronts with connected CMS upon the Mintbase Smart Contracts. These Store Fronts can be easily set up with the Gorilla Shops Page Builder. The Store-Fronts can be easily adjusted to the needs of a Store-Owner of a Mintbase Store and we are going to implement additional functionalities like
-Token Gated Content. The Store-Fronts enhance Mintbase' functionality and hereby delivers value to the Mintbase and NEAR ecosystem. Gorilla Shops wants to become the Shopify for NFT-Shops build on top of Mintbase.
+Gorilla Shops is building the Batch-Minting-Tool "Automat". This Batch-Minting-Tool will provide an easy solution to mint and list collections just by uploading a well formed zip-File. This will make it easy to mint thousands of NFTs on Mintbase just with a few clicks.
 
 ### Project Details
 
-We already developed a working product on top of Mintbase and want to enhance the functionalities drastically. You can find our working product on Mainnet under "https://gorillashops.io" and on Testnet under "https://testnet.gorillashops.io".
-
-Additional features:
-
-We are going to add:
-
-- additional UI-Components that can be easily dropped in from within the CMS
-- add all minting functionalities to the CMS
-- add the possibility to easily restrict the content to holders of a token that can be specified from within the CMS.
-- add the Auction-Feature
-- add presets that enhance the customizability of the Shop Pages that are adjusted to the needs of special shops - like a music store preset, a ticket store preset, a game item preset or a preset for luxury goods like wine. But with the token gated content feauture there are also presets for journalists and authors thinkable that allow content for members, or influencer web pages with additional information for token holder. The possibilities are endless.
-
-See the following Drafts for a Music, a Ticket, a Gaming or a Wine Store preset.
-
-https://www.figma.com/file/bx0r402Qt0bKPKEbHrhMrw/Shop-Pages?node-id=2015%3A6864
+The Tool will consists of two parts. An open API and a User Interface. The API will be open for everyone to use and the User Interface will be easy to add into your own project. The User Interface will be easy to customize so that it can be used by everyone, who wants to add this additional functionality to their DApps.
+The Tool is in the first round designed to work best with Gorilla Shops Figma Plug-In Unikat. In the second iteration it will be generalized to make minting of batches and performing batch transactions like transfering of NFTs or Airdrops of NFTs way more easy like it is now.
 
 ### Ecosystem Fit
 
@@ -36,26 +22,21 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 - Where and how does your project fit into the ecosystem?
 
-Gorilla Shops enhance the functionality of Mintbase and strive to become a hub for Store-Front Development.
-On the one hand we want to open up the development of these store fronts but want to ensure that the designs work out of the box. On the other hand the Store Fronts shall work without coding knowledge. So that artits,
-musicians but also journalists can leverage Mintbase without any hassle.
+Automat is a usefull tool to help all projects that want to work with larger amounts of NFTs. Especially it is helpfull for creators of NFT collections.
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-In the first run we target the users of Mintbase Stores. We want them to be able to set up Store Fronts by click that are a helpful tool to build their business model around their products. In the second run we target developers and designers. We want them to be able to easily add themes and components for the Store-Fronts that can be added from within the Page Builder. Our goal is to create a system that helps designers and developers to create a additional source of income by providing Themes and components to our system.
+We target Mintbase users that want to leverage Mintbase for minting collections or bigger amounts of NFTs.
 
 - What need(s) does your project meet?
 
-We help Store owners to push their brand and to create an own business around their Mintbase Shop.
+The API and the User Interface targets Mintbase Store owners that want to produce NFTs in larger amounts as they want to mint collections of unikats or thousands of NFTs.
 
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
 
-Harmonic Guild builds Store Fronts as well. Mintickt builds ticket systems on Mintbase, we will also enable
-Ticket Store Fronts.
+As the project is designed to use with the Figma-Plugin their is right now no similar project out there.
 
 - If so, how is your project different?
-
-Both do not automate the Store-Creation right now and have no connected CMS.
 
 ## Team :busts_in_silhouette:
 
@@ -96,10 +77,10 @@ Both do not automate the Store-Creation right now and have no connected CMS.
 
 All Team members are experienced in their field as can be seen by our product.
 
-- Jakob Sievers: Former teacher for physics, chemistry and computer science. Founded the Gorilla Funds UG in 2020. I discovered the blockchain space in 2012 and got caught since then in the rabbit hole. Coding experience 15+ years.
-- Reimar Servar: Freelance consultant. Designer/Developer, early browser wars veteran. Working on systems and processes for humans, connecting programmers and designers.
+- Jakob Sievers: Jakob Sievers is a former teacher for physics, chemistry and computer science. Founded the Gorilla Funds UG in 2020. I discovered the blockchain space in 2012 and got caught since then in the rabbit hole. Coding experience 15+ years.
+- Reimar Servar: Reimar Servas is a Freelance consultant. Designer/Developer, early browser wars veteran. Working on systems and processes for humans, connecting programmers and designers.
 - Tobias Metz: Tobias Metz is an full stack software engineer from south-west germany. He had worked in several  web-agencies  and hardware/network B2B company’s as well. He has an information technology background and ~10 years of customer/developer experience.
-- Sascha Metz: I started developing websites in 2012, developing for a living since 2015. Started with "classic" WordPress Websites but nowadays i am all into the JAM-Stack. Also pretty enthusiastic about cloud computing, especially with AWS.
+- Sascha Metz: Sascha Metz started building websites in 2012, is developing for a living since 2015. Started with "classic" WordPress Websites but nowadays i am all into the JAM-Stack. Also pretty enthusiastic about cloud computing, especially with AWS.
 - Jonas Hartweg: Jonas Hartweg is a frontend engineer living in Berlin. He has ten years of development experience and worked for big B2B companies as well as smaller media agencies. Next to his work as a developer, he is currently finishing his M.A. in product design.
 - Valentin Hehl: Valentin Hehl is a Computer Science student at the KIT University Karlsruhe and 21 years old. He was in the winning team of the european cyber security challenge in 2019 in the category junior.
 - Aymie Lapie: Amyie is our Product manager and organizes our overall collaboration.
@@ -156,79 +137,65 @@ as this Repo also contains our Corporate Repositories
 
 ## Development Status :open_book:
 
-We have a working product that got released today after a 3 Month long Beta-State. The actual Version Number is V1.0.
+The User inferface design is finished. This is how it will look like:
+
+https://youtu.be/nsCMwNvmtgk
+
+Right now we are building the components and the flow. The API is functional as well, but is not open accessible right now.
 
 ## Development Roadmap :nut_and_bolt:
 
 ### Overview
 
-- **Total Estimated Duration:** 6 Months
-- **Full-Time Equivalent (FTE):** 5 FTE
-- **Total Costs:** 240000 US$
+- **Total Estimated Duration:** 3 Months
+- **Full-Time Equivalent (FTE):** 4 FTE
+- **Total Costs:** 50000 US$
 
-### Milestone 1: Enhance the core Builder functionality:
+### Milestone 1: Release MVP:
 
-This will include the following features
+- **Estimated duration:** 2 month
+- **FTE:** 4
+- **Costs:** 35,000 USD
 
-- Add additional UI-Components
-  - Blog Teaser
-  - NFT Teaser
-  - Instagramm Teaser
-  - Video Component
-  - Page Teaser
-  - Components for structuring content
-  - Contact Form Component
-- Add token gated content
-- Optimize Side Performance
+| Number | Deliverable          | Specification                                                                                                                                                                       |
+| -----: | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    0a. | License              | MIT                                                                                                                                                                                 |
+|    0b. | Documentation        | We will provide both **inline documentation** of the code and a basic **video tutorial** that explains how Automat works.                                                           |
+|    0c. | Testing Guide        | Core functions will be fully covered by **unit tests** to ensure functionality and robustness. In the guide, we will describe how to run these tests.                               |
+|    0d. | Testnet-API instance | We will provide a **Testnet-API-Instance** that can be used to test all the functionalites of our product.                                                                          |
+|    0e. | Article              | We will publish an **article** that explains all features and how to use Automat.                                                                                                   |
+|     1. | API                  | The API allow **minting, listing or burning of every amount of NFTs** on a store if our wallet has minted the NFTs. You can also transfer the ownership of any of these minted NFTs |
+|     2. | User-Interface       | The User-Interface allows **easy minting of thousands of NFTs** where the necessary images and information are uploaded within a zipped folder.                                     |
 
-- **Estimated duration:** 3 month
-- **FTE:** 5
-- **Costs:** 120,000 USD
-
-| Number | Deliverable               | Specification                                                                                                                                                                                                                                                                                                                   |
-| -----: | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    0a. | License                   | MIT                                                                                                                                                                                                                                                                                                                             |
-|    0b. | Documentation             | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can set up a Web Shop with connected CMS without the Page Builder                                                                                                                                                   |
-|    0c. | Testing Guide             | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                               |
-|    0d. | Docker                    | We will provide a Testnet-Instance that can be used to test all the functionalites of our product. We will also provide a Docker-Image that can be used to test it without our builder.                                                                                                                                         |
-|    0e. | Article                   | We will publish an **article** that explains all features and how to use them as well as two-weekly development updates in our discord-channel.                                                                                                                                                                                 |
-|     1. | Additional UI-Components: | We will create additional UI-Components that can easily be dropped from within the CMS. These are: A blog teaser, a NFT-Teaser, a video-component, a Page-Teaser, a Contact-Form-Component. The Design of these components can be viewed here: https://www.figma.com/file/bx0r402Qt0bKPKEbHrhMrw/Shop-Pages?node-id=2015%3A6864 |
-|     2. | Token-Gated Content       | We will create the functionality that you can define from the CMS, what content is token gated and what token is necessary to get access to this content.                                                                                                                                                                       |
-
-### Milestone 2 Enhance the core Builder functionality:
+### Milestone 2: Make it production ready:
 
 This will include the following features
 
-- Add Presets for advanced customization
-- Integrate all Minting features
-- Add NFT-auctions
-- Add Like-Functionality
+- Perform User-Tests to make the tool as user friendly as possible.
+- Publish a npm-package for easy integration of Automat.
+- Add Swagger UI for the API.
+- Add detailed documentation
+- Perform security and performance tests
 
-- **Estimated duration:** 3 month
-- **FTE:** 5
-- **Costs:** 120,000 USD
+- **Estimated duration:** 1 month
+- **FTE:** 4
+- **Costs:** 15,000 USD
 
-- Code will be released under the Apache 2.0 License.
-
-| Number | Deliverable            | Specification                                                                                                                                                                                                                                                                                                                                    |
-| -----: | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|    0a. | License                | MIT                                                                                                                                                                                                                                                                                                                                              |
-|    0b. | Documentation          | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can set up a Web Shop with connected CMS without the Page Builder                                                                                                                                                                    |
-|    0c. | Testing Guide          | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                                                                                                                                |
-|    0d. | Docker                 | We will provide a Testnet-Instance that can be used to test all the functionalites of our product. We will also provide a Docker-Image that can be used to test it without our builder.                                                                                                                                                          |
-|    0e. | Article                | We will publish an **article** that explains all features and how to use them as well as two-weekly development updates in our discord-channel.                                                                                                                                                                                                  |
-|     1. | Add Presets:           | We will create Presets that can be choosen in the build process that helps to fit to special needs of different Stores. These Presets will enhance the customizability and the fit for different kind of stores. Together with the Token-Gated content this will be an important part to build Webshops that fit to the needs of Mintbase Users. |
-|     2. | Minting funtionalities | We will add all Minting options that Mintbase supports to the CMS.                                                                                                                                                                                                                                                                               |
-|     3. | NFT-Auctions           | We will integrate the Auction Mechanism to all our Web Shops                                                                                                                                                                                                                                                                                     |
-|     4. | Like-Feature           | We will integrate an optional like feature                                                                                                                                                                                                                                                                                                       |
+| Number | Deliverable      | Specification                                                                                                                                     |
+| -----: | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    0a. | License          | MIT                                                                                                                                               |
+|    0b. | Documentation    | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user has to interact with Automat          |
+|    0c. | Testing Guide    | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+|    0d. | Testnet-Instance | We will provide a Testnet-Instance that can be used to test all the functionalites of our product.                                                |
+|    0e. | Article          | We will publish an **article** that explains all features and how to use them as well as two-weekly development updates in our discord-channel.   |
 
 ## Clarifications
 
-We will release the Front End Code that is used for building the Front Ends as well as the Code for the Sanity-CMS so that a developer can set this up and build upon this from this Repostitory without using the Builder. We will provide a clear documentation about how this works. The Code for the Builder is not part of this Grant Proposal. We will keep the Builder for now closed source.
+The Code for the User Interface will be released under MIT-License. The backend code is not part of this proposal. The API-will be open for anyone to use who is the owner of a store on Mintbase.
 
 ## Future Plans
 
-We will continue working on Gorilla Shops as we want to become the Shopify for NFT-Shops. Besides this Proposal we are working on the Batch Minter AUTOMAT and the Figma-Plugin UNIKAT.
+The next part of "Automat" will be a generalized version, that allows way more options for the minting operation of the NFTs, like individual options per NFT. Minting of thousands of just one NFT and way more.The following version will also add an easy white-label solution that can easily be integrated in your very own web app.
 
 ## Additional Information :heavy_plus_sign:
 
