@@ -29,6 +29,7 @@ Exxaverse rewards players for their time via sponsored tournaments and in-game w
 We are utilizing Near blockchain for our in-game assets and currency.
 
 - An indication of why your team is interested in creating this project.
+
 To increase the functionality of Nearlinker: https://github.com/ExxaVerse/NearLinker
 
 ### Project Details
@@ -85,10 +86,12 @@ exxaverse.com
 ### Legal Structure
 
 - **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
+
 1991 Crocker Road, Suite 600a
 Westlake, OH 44145
 
 - **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+
 LLC
 
 ### Team's experience
@@ -98,6 +101,8 @@ Please describe the team's relevant experience. If your project involves develop
 If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
 
 Liviu is a polyglot software engineer with experince ranging from low-level security and hypervisors to higher-level web-pages and applications. He was worked with big companies such as Amazon, Garmin, and Bitdefender.
+
+
 Will is a project manager and web developer. He also worked with Liviu to complete the first iteration of NearLinker.
 
 ### Team Code Repos
