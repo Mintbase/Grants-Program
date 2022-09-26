@@ -60,7 +60,7 @@ As the project is designed to use with the Figma-Plugin their is right now no si
   - Reimar Servas
 
 - Product Management:
-  - Aymie Lapie
+  - Aymie Laipe
 
 ### Contact
 
@@ -83,7 +83,7 @@ All Team members are experienced in their field as can be seen by our product.
 - Sascha Metz: Sascha Metz started building websites in 2012, is developing for a living since 2015. Started with "classic" WordPress Websites but nowadays i am all into the JAM-Stack. Also pretty enthusiastic about cloud computing, especially with AWS.
 - Jonas Hartweg: Jonas Hartweg is a frontend engineer living in Berlin. He has ten years of development experience and worked for big B2B companies as well as smaller media agencies. Next to his work as a developer, he is currently finishing his M.A. in product design.
 - Valentin Hehl: Valentin Hehl is a Computer Science student at the KIT University Karlsruhe and 21 years old. He was in the winning team of the European cyber security challenge in 2019 in the category _Junior_.
-- Aymie Lapie: Amyie is our product manager and organizes our overall collaboration.
+- Aymie Laipe: Aymie is our product manager and organizes our overall collaboration.
 
 ### Team Code Repos
 
@@ -133,7 +133,7 @@ as this repository also contains our corporate site code
 - Sascha Metz: No LinkedIn
 - Tobias Metz: No LinkedIn
 - Valentin Hehl: No LinkedIn
-- Aymie Lapie: https://www.linkedin.com/in/aymie-laipe/
+- Aymie Laipe: https://www.linkedin.com/in/aymie-laipe/
 
 ## Development Status :open_book:
 
