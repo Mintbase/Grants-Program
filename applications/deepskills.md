@@ -217,7 +217,7 @@ We are also happy to split the two milestones into two separate grant proposals 
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0a. | License | ISC https://en.wikipedia.org/wiki/ISC_license |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains the functionality. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
@@ -234,7 +234,7 @@ We are also happy to split the two milestones into two separate grant proposals 
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0a. | License | ISC https://en.wikipedia.org/wiki/ISC_license |
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains the functionality. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
