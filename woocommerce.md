@@ -28,6 +28,7 @@ We expect the teams to already have a solid idea about your project's expected f
 We would create a flow between how creating a ecommerce marketplace within Woocommerce works today with integration within MintBase APIs.
 Based on this flow we would create wireframes needed to pass on the to the geeks to start implmentation of the front/back end. 
 
+
 We would be using as much of the native WP stack as possible with GoLang/Rust as a backup for anything WP cannot handle natively. Meaning if we need a middle ware component between WP and MintBase our goto would be Golang/Rust.
 
 We see a simular plugin being used with Ethereum but the flow is not super easy.  We would take this same concept but also use feedback from the artists on how to better the flow. 
