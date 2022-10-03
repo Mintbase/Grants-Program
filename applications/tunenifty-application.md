@@ -114,7 +114,7 @@ Work has not yet started.
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
-- **Costs:** 3,500 USD
+- **Costs:** 3,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -122,7 +122,7 @@ Work has not yet started.
 |2.| Product design| Design of product UI/UX plus functions based on Architecture
 
 
-### Milestone 1 Backend/Smart contracts — Implement Mintbase Modules
+### Milestone 2 Backend/Smart contracts — Implement Mintbase Modules
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
@@ -140,7 +140,7 @@ Work has not yet started.
 
 
 
-### Milestone 2 Frontend — 
+### Milestone 3 Frontend — 
 
 - **Estimated Duration:** 1 month
 - **FTE:**  2
