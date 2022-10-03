@@ -164,5 +164,5 @@ We intend to
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** personal recommendation (one ot both of Luis and Mariam)
+**How did you hear about the Grants Program?** personal recommendation (one or both of Luis and Mariam)
 
