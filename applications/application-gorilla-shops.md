@@ -1,6 +1,6 @@
 # Mintbase Grant Proposal
 
-- **Project Name:** Gorilla Shops
+- **Project Name:** Gorilla Shops - Batch Minter Automat
 - **Team Name:** Gorilla Funds UG
 - **Payment Address:** gorillashops.near
 - **[Level](../README.md#level_slider-levels):** 2
