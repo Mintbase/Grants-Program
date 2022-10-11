@@ -36,47 +36,47 @@ Please provide the following:
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
 - Mockups/designs of any UI components
-- [Wireframes](https://www.figma.com/file/08AC3RjZSFVie47ddZ8afN/Artivist?node-id=411%3A887)
+[Wireframes](https://www.figma.com/file/08AC3RjZSFVie47ddZ8afN/Artivist?node-id=411%3A887)
 - Data models / API specifications of the core functionality
-- ASK DEVS
+ASK DEVS
 - An overview of the technology stack to be used
-- ASK DEVS
+ASK DEVS
 - Documentation of core components, protocols, architecture, etc. to be deployed
-- ASK DEVS
+ASK DEVS
 - PoC/MVP or other relevant prior work or research on the topic
-- [Research with artists](https://drive.google.com/file/d/1au6lpNh7lob14ehDxszaHViX3m651JSc/view) 
-- LINKAR WEBPAGE
-- [NEAR forum](https://gov.near.org/tag/artivist-dao)
+[Research with artists](https://drive.google.com/file/d/1au6lpNh7lob14ehDxszaHViX3m651JSc/view) 
+LINKAR WEBPAGE
+[NEAR forum](https://gov.near.org/tag/artivist-dao)
 - What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 ### Ecosystem Fit
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
-- Although there are places where artists and collectors connect to trade art (Mintbase, Paras, etc) in the Near ecosystem, the presence of NGOs is still marginal. 
+Although there are places where artists and collectors connect to trade art (Mintbase, Paras, etc) in the Near ecosystem, the presence of NGOs is still marginal. 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- The main target audience for Artivist dApp will be the NGOs. The dApp will also function as a portfolio of artists in favor of social causes, and a place where consciencious NFT collectors will find interesting artworks and be able to contribute with NGOs. Moreover, companies concerned with ESG goals can become involved and support Artivist campaigns. 
+The main target audience for Artivist dApp will be the NGOs. The dApp will also function as a portfolio of artists in favor of social causes, and a place where consciencious NFT collectors will find interesting artworks and be able to contribute with NGOs. Moreover, companies concerned with ESG goals can become involved and support Artivist campaigns. 
 - What need(s) does your project meet?
-- - According to NGOFacts data, there are about 10 million NGOs in the world. And people increasingly believe in these projects: the number of individuals who donated money to these institutions increased from 1.2 billion in 2011 to 1.4 billion in 2014, and 80% of citizens agree that NGOs contribute to positive social change around the world. NGOs often don't have access to fair funding because of government restrictions and bureaucracy. Artivist dApp will be a tool for NGOs to obtain resources and carry out their governance in the Near ecosystem. Fostering this transition to web3 through the Near protocol implies a potential turnover of Near tokens in favor of social-environmental causes, strengthening the purpose of the Protocol to be a sustainable ecosystem, with neutral environmental impacts and positive social impacts. Artivist will spread the word about the Near ecosystem through campaigns, therefore attracting a conscious public that can discover all the possibilities of the Near blockchain through the community. Connecting with Mintbase will be an opportunity for growth for Artivist and Mintbase. 
+According to NGOFacts data, there are about 10 million NGOs in the world. And people increasingly believe in these projects: the number of individuals who donated money to these institutions increased from 1.2 billion in 2011 to 1.4 billion in 2014, and 80% of citizens agree that NGOs contribute to positive social change around the world. NGOs often don't have access to fair funding because of government restrictions and bureaucracy. Artivist dApp will be a tool for NGOs to obtain resources and carry out their governance in the Near ecosystem. Fostering this transition to web3 through the Near protocol implies a potential turnover of Near tokens in favor of social-environmental causes, strengthening the purpose of the Protocol to be a sustainable ecosystem, with neutral environmental impacts and positive social impacts. Artivist will spread the word about the Near ecosystem through campaigns, therefore attracting a conscious public that can discover all the possibilities of the Near blockchain through the community. Connecting with Mintbase will be an opportunity for growth for Artivist and Mintbase. 
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-- Yes, BeeTogether is platform that promotes fundraising campaigns. 
+Yes, BeeTogether is platform that promotes fundraising campaigns. 
 - If so, how is your project different?
-- It will be different because the dApp will automate the process of connecting NGOs to artists (https://bee-together.org/about/). 
+It will be different because the dApp will automate the process of connecting NGOs to artists (https://bee-together.org/about/). 
 - If not, are there similar projects in related ecosystems?
-- DoinGud functions in a similar way to BeeTogether, and also doesn't connect automatically NGOs to artists (https://doingud.com/).
+DoinGud functions in a similar way to BeeTogether, and also doesn't connect automatically NGOs to artists (https://doingud.com/).
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
 - Name of team leader
-- Carol Bampa and Mariana Westphalen 
+Carol Bampa and Mariana Westphalen 
 - Names of team members
-- Andrés Domingues
-- Maria Eugenia XXXXX
-- XXXXX ASK DEVS
+Andrés Domingues
+Maria Eugenia XXXXX
+XXXXX ASK DEVS
 
 ### Contact
 
@@ -96,7 +96,6 @@ Please describe the team's relevant experience. If your project involves develop
 If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
 
 Carol Bampa - Project Manager and Council of Artivist DAO
-
 Cultural Manager and Cultural Projects Consultant. Worked at the Secretary of Culture of the State of São Paulo for four years. Produced three editions of the São Paulo Cultural Map Festival, two editions of the Caraguatatuba National Theater Festival, and the National Folklore Congress. Collaborated with the Gender and Ethnicity Chapters of the Pontos de Cultura Program in São Paulo State. Finalist of the first edition of the Festival of Ideas held by the Ruth Cardoso Cultural Center with a project for recyclable waste, CATA-LOGO. Participated in the foundation of the Fazenda Cachoeira Park Movement, which promotes social, educational, and cultural activities related to environmental preservation and the historical heritage of the city of Vinhedo. Idealized, produced, and managed Paisagem Festival, an event for the graphic arts and independent publications started in 2017. Creator and manager of the Respeita Project - Space for the Empowerment of Immigrant Women and Chamada Artivista, a fundraising initiative for social causes.
 
 Mariana Westphalen - Art Curator, Product Manager and Council of Artivist DAO
@@ -107,19 +106,21 @@ DEVS ????
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
+- [https://github.com/<your_organisation>](https://github.com/Artivist-Dao)
 - https://github.com/<your_organisation>/<project_1>
 - https://github.com/<your_organisation>/<project_2>
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/marianaWest
+DEVS
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- [Carol Bampa] https://www.linkedin.com/in/carolbampa/
+- [Mariana Westphalen](https://www.linkedin.com/in/mariana-westphalen/)
+
+DEVS
 
 ## Development Status :open_book:
 
@@ -127,9 +128,15 @@ If you've already started implementing your project or it is part of a larger re
 
 - links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
 - academic publications relevant to the problem,
+Hartenthal, Mariana W. von, Eitelwein, Cíntia. "The usability of visual resources on cultural conservation: the Graphics Atlas as a case study." Revista Tecnologia e Sociedade, v. 18, n. 52, jul./set. 2022, pp. 247-268. (the name of the author is Mariana Westphalen von Hartenthal) https://periodicos.utfpr.edu.br/rts/article/view/13594
 - links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
+https://medium.com/@marianahartenthal/nft-artists-views-on-blockchain-based-marketplaces-5c6a98f3202e
+https://medium.com/@marianahartenthal/why-perpetual-royalties-for-nfts-b88bcc5dbd6d
+https://medium.com/@marianahartenthal/nfts-scarcity-and-the-art-market-d934ea6a377f
+
 - references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
 - previous interface iterations, such as mock-ups and wireframes.
+[Wireframes](https://www.figma.com/file/08AC3RjZSFVie47ddZ8afN/Artivist?node-id=411%3A887)
 
 ## Development Roadmap :nut_and_bolt:
 
