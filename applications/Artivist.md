@@ -54,17 +54,17 @@ This is a place for you to manage expectations and to clarify any limitations th
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
-- Where and how does your project fit into the ecosystem?
+- Where and how does your project fit into the ecosystem?  
 Although there are places where artists and collectors connect to trade art (Mintbase, Paras, etc) in the Near ecosystem, the presence of NGOs is still marginal. 
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?  
 The main target audience for Artivist dApp will be the NGOs. The dApp will also function as a portfolio of artists in favor of social causes, and a place where consciencious NFT collectors will find interesting artworks and be able to contribute with NGOs. Moreover, companies concerned with ESG goals can become involved and support Artivist campaigns. 
-- What need(s) does your project meet?
+- What need(s) does your project meet?  
 According to NGOFacts data, there are about 10 million NGOs in the world. And people increasingly believe in these projects: the number of individuals who donated money to these institutions increased from 1.2 billion in 2011 to 1.4 billion in 2014, and 80% of citizens agree that NGOs contribute to positive social change around the world. NGOs often don't have access to fair funding because of government restrictions and bureaucracy. Artivist dApp will be a tool for NGOs to obtain resources and carry out their governance in the Near ecosystem. Fostering this transition to web3 through the Near protocol implies a potential turnover of Near tokens in favor of social-environmental causes, strengthening the purpose of the Protocol to be a sustainable ecosystem, with neutral environmental impacts and positive social impacts. Artivist will spread the word about the Near ecosystem through campaigns, therefore attracting a conscious public that can discover all the possibilities of the Near blockchain through the community. Connecting with Mintbase will be an opportunity for growth for Artivist and Mintbase. 
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
+- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?  
 Yes, BeeTogether is platform that promotes fundraising campaigns. 
-- If so, how is your project different?
+- If so, how is your project different?  
 It will be different because the dApp will automate the process of connecting NGOs to artists (https://bee-together.org/about/). 
-- If not, are there similar projects in related ecosystems?
+- If not, are there similar projects in related ecosystems?  
 DoinGud functions in a similar way to BeeTogether, and also doesn't connect automatically NGOs to artists (https://doingud.com/).
 
 ## Team :busts_in_silhouette:
