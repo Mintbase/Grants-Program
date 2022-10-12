@@ -77,19 +77,15 @@ Carol Bampa and Mariana Westphalen
 - Names of team members
 Andres Dominguez
 Technical Leader
-linkedin.com/in/andrés-dominguez-91418819
 
 Linda Rosario
 Frontend Engineer
-linkedin.com/in/linda-rosario-duran-5b9559127
 
 Juan Ochando
 Backend Engineer
-linkedin.com/in/juan-josé-ochando-327927220
 
 Maria Arevalo
 Project Manager
-linkedin.com/in/mearevalol
 
 ### Contact
 
@@ -132,11 +128,11 @@ DEVS
 ### Team LinkedIn Profiles (if available)
 
 - [Carol Bampa] https://www.linkedin.com/in/carolbampa/
-- [Mariana Westphalen](https://www.linkedin.com/in/mariana-westphalen/)
-- [Andres Dominguez] (linkedin.com/in/andrés-dominguez-91418819) 
-- [Linda Rosario] (linkedin.com/in/linda-rosario-duran-5b9559127)
-- [Juan Ochando] (linkedin.com/in/juan-josé-ochando-327927220)
-- [Maria Arevalo] (linkedin.com/in/mearevalol)
+- [Mariana Westphalen] https://www.linkedin.com/in/mariana-westphalen/
+- [Andres Dominguez] linkedin.com/in/andrés-dominguez-91418819 
+- [Linda Rosario] linkedin.com/in/linda-rosario-duran-5b9559127
+- [Juan Ochando] linkedin.com/in/juan-josé-ochando-327927220
+- [Maria Arevalo] linkedin.com/in/mearevalol
 
 
 ## Development Status :open_book:
@@ -144,15 +140,15 @@ DEVS
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
 - links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
+- academic publications relevant to the problem,  
 Hartenthal, Mariana W. von, Eitelwein, Cíntia. "The usability of visual resources on cultural conservation: the Graphics Atlas as a case study." Revista Tecnologia e Sociedade, v. 18, n. 52, jul./set. 2022, pp. 247-268. (the name of the author is Mariana Westphalen von Hartenthal) https://periodicos.utfpr.edu.br/rts/article/view/13594
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-https://medium.com/@marianahartenthal/nft-artists-views-on-blockchain-based-marketplaces-5c6a98f3202e
-https://medium.com/@marianahartenthal/why-perpetual-royalties-for-nfts-b88bcc5dbd6d
-https://medium.com/@marianahartenthal/nfts-scarcity-and-the-art-market-d934ea6a377f
+- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,  
+https://medium.com/@marianahartenthal/nft-artists-views-on-blockchain-based-marketplaces-5c6a98f3202e  
+https://medium.com/@marianahartenthal/why-perpetual-royalties-for-nfts-b88bcc5dbd6d  
+https://medium.com/@marianahartenthal/nfts-scarcity-and-the-art-market-d934ea6a377f  
 
 - references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+- previous interface iterations, such as mock-ups and wireframes.  
 [Wireframes](https://www.figma.com/file/08AC3RjZSFVie47ddZ8afN/Artivist?node-id=411%3A887)
 
 ## Development Roadmap :nut_and_bolt:
