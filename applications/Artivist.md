@@ -71,21 +71,17 @@ DoinGud functions in a similar way to BeeTogether, and also doesn't connect auto
 
 ### Team members
 
-- Name of team leader
+- Name of team leader  
 Carol Bampa and Mariana Westphalen 
 
-- Names of team members
-Andres Dominguez
-Technical Leader
+- Names of team members  
+Andres Dominguez, Technical Leader
 
-Linda Rosario
-Frontend Engineer
+Linda Rosario, Frontend Engineer
 
-Juan Ochando
-Backend Engineer
+Juan Ochando, Backend Engineer
 
-Maria Arevalo
-Project Manager
+Maria Arevalo, Project Manager
 
 ### Contact
 
