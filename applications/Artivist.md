@@ -95,7 +95,7 @@ linkedin.com/in/mearevalol
 
 - **Contact Name:** Carol Bampa, Mariana Westphalen
 - **Contact Email:** artivist.dapp@gmail.com
-- **Website:** XXXXXXX
+- **Website:** [DV Consultores](https://github.com/dvconsultores/)
 
 ### Legal Structure
 
