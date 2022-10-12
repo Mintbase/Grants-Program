@@ -21,14 +21,14 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 Please provide the following:
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- Artivist dApp will connect artists, activists, and NGOs in fundraising campaigns through the sale of NFTs offered on Mintbase.
-- A brief description of your project.
-- The dApp will allow NGOs to connect to artists based on the causes they support. They will be able to "match", similar to Tinder. When the NGO finds an artist, they get in touch to start a fundraising campaign. The artist will provide an NFT minted on Mintbase. Part of the sale will go to the NGO, part will go to the artist, and part will go to Artivist.   
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- We will use Mintbase as our marketplace. 
-- An indication of why your team is interested in creating this project.
-- The idea behind Artivist comes from Chamada Artivista, an initiative started in 2020 by Carol Bampa. Chamada Artivista was a way to provide alternative funding options to mission-driven organizations. Carol invited artists to create artworks; the chosen pieces were sold online. The initiative was more successful than she initially believed. With Covid, however, the project came to a halt. Carol learned about the possibilities of NFTs and saw their potential to amplify fundraising campaigns. She envisioned an app that could facilitate the connection between NGOs and artists – a mix of Tinder and Kickstarter. She met Mariana Westphalen, who came from the Arts Sector and became Artivist co-founder, on NEAR Discord channel. They have been building Artivist since March 2022. In September they met Global DV Consulting, a team of developers that has been working on NEAR projects since XXXX.
+- If the name of your project is not descriptive, a tag line (one sentence summary).  
+Artivist dApp will connect artists, activists, and NGOs in fundraising campaigns through the sale of NFTs offered on Mintbase.
+- A brief description of your project.  
+The dApp will allow NGOs to connect to artists based on the causes they support. They will be able to "match", similar to Tinder. When the NGO finds an artist, they get in touch to start a fundraising campaign. The artist will provide an NFT minted on Mintbase. Part of the sale will go to the NGO, part will go to the artist, and part will go to Artivist.   
+- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.  
+We will use Mintbase as our marketplace. 
+- An indication of why your team is interested in creating this project.  
+The idea behind Artivist comes from Chamada Artivista, an initiative started in 2020 by Carol Bampa. Chamada Artivista was a way to provide alternative funding options to mission-driven organizations. Carol invited artists to create artworks; the chosen pieces were sold online. The initiative was more successful than she initially believed. With Covid, however, the project came to a halt. Carol learned about the possibilities of NFTs and saw their potential to amplify fundraising campaigns. She envisioned an app that could facilitate the connection between NGOs and artists – a mix of Tinder and Kickstarter. She met Mariana Westphalen, who came from the Arts Sector and became Artivist co-founder, on NEAR Discord channel. They have been building Artivist since March 2022. In September they met Global DV Consulting, a team of developers that has been working on NEAR projects for fifteen years.
 
 
 ### Project Details
@@ -114,7 +114,7 @@ Cultural Manager and Cultural Projects Consultant. Worked at the Secretary of Cu
 Mariana Westphalen - Art Curator, Product Manager and Council of Artivist DAO
 A museum specialist and curator with a PhD in Art History and a Master’s in Technology with more than twenty years of experience in the arts and culture sector in Brazil, the US, England, and now Portugal. Mariana loves to meet artists to learn about their practices and understand what makes them tick. Connecting art institutions and galleries to diverse communities is one of her passions, and she is fascinated with the intersections of art and technology, be it photography, architecture, or NFTs. Artivist’s mission to bring together artists, activists, and independent socio-environmental organizations through the creative economy aligns with her interests and her professional background.
 
-DV Consultores is an Application Development team that counts with 15 certified resources in the Near Protocol. They have participated in programs such as Developer In Residence and generated products such as NEAR P2P DEX, Artemis, and NearBook. Besides, DV Consultores has worked on initiatives such as NFT Aggregator Evie and Econear, and is currently developing projects such as Mintick and Music Fest.
+DV Consultores is an Application Development team that counts with 15 certified resources in the Near Protocol. They have participated in programs such as Developer In Residence and generated products such as NEAR P2P DEX, Artemis, and NearBook. Besides, DV Consultores has worked on initiatives such as NFT Aggregator Evie and Econear, and is currently developing projects such as Mintick and Music Feast.
 
 
 ### Team Code Repos
@@ -133,8 +133,11 @@ DEVS
 
 - [Carol Bampa] https://www.linkedin.com/in/carolbampa/
 - [Mariana Westphalen](https://www.linkedin.com/in/mariana-westphalen/)
+- [Andres Dominguez] (linkedin.com/in/andrés-dominguez-91418819) 
+- [Linda Rosario] (linkedin.com/in/linda-rosario-duran-5b9559127)
+- [Juan Ochando] (linkedin.com/in/juan-josé-ochando-327927220)
+- [Maria Arevalo] (linkedin.com/in/mearevalol)
 
-DEVS
 
 ## Development Status :open_book:
 
