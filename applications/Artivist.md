@@ -119,7 +119,8 @@ DV Consultores is an Application Development team that counts with 15 certified 
 
 ### Team Code Repos
 
-- [https://github.com/<your_organisation>](https://github.com/Artivist-Dao)
+- [Artivist](https://github.com/Artivist-Dao)
+- [DV Consultores] https://github.com/dvconsultores/ 
 - https://github.com/<your_organisation>/<project_1>
 - https://github.com/<your_organisation>/<project_2>
 
