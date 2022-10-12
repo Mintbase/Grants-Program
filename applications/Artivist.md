@@ -114,7 +114,7 @@ Cultural Manager and Cultural Projects Consultant. Worked at the Secretary of Cu
 Mariana Westphalen - Art Curator, Product Manager and Council of Artivist DAO
 A museum specialist and curator with a PhD in Art History and a Master’s in Technology with more than twenty years of experience in the arts and culture sector in Brazil, the US, England, and now Portugal. Mariana loves to meet artists to learn about their practices and understand what makes them tick. Connecting art institutions and galleries to diverse communities is one of her passions, and she is fascinated with the intersections of art and technology, be it photography, architecture, or NFTs. Artivist’s mission to bring together artists, activists, and independent socio-environmental organizations through the creative economy aligns with her interests and her professional background.
 
-DEVS ????
+DV Consultores is an Application Development team that counts with 15 certified resources in the Near Protocol. They have participated in programs such as Developer In Residence and generated products such as NEAR P2P DEX, Artemis, and NearBook. Besides, DV Consultores has worked on initiatives such as NFT Aggregator Evie and Econear, and is currently developing projects such as Mintick and Music Fest.
 
 
 ### Team Code Repos
