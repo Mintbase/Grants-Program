@@ -12,22 +12,22 @@ Waka NFT infrastructure for influencers (NFT-Marketplace, user-feed, social util
 
 ### **Overview**
 
-Waka wants to diversify NFT-utility. For that, reimagining the NFT-utility for the end user is a must. The market currently is tough and old NFT selling models does not work. The PFP-Market is dying out. On the other hand NFT-Technology has so much to offer from both a narrative and a practical use. We would like to popularize NFTs of experience and give tools to a new wave of NFT-creators.
+Waka wants to diversify NFT-utility. The market currently is tough and old NFT selling models does not work. The PFP-Market is dying out. On the other hand NFT-Technology has so much to offer from both a narrative and a practical use. We would like to popularize NFTs of experience and give tools to a new wave of NFT-creators.
 
 We plan to bring new users into the Near from web2 with the help of Mintbase. Additionally, influencers with millions of subscribers will be promoting NFTs from Near.
 
 TikTok Creators build their following on noticing new patterns in social media and building upon them. In our case the end user also participates in co-creation of the content. At this point of our platform development, influencers are those who start a trend and end-users build upon it and reshare.
 
-We want to present our new project - NFT infrastructure for Influencers with a core feature of NFT-Milestones. The vision of waka is to create a Sandbox level of freedom for socializing and finding friends and dates. The idea of a NFT-Milestones expands a set of tools for influencers, brands, DAOs to create, monetize and engage the end-user with exclusive NFT-experience.
+We want to present our new project - NFT infrastructure for Influencers with a core feature of social Experience-NFT creation. The vision of waka is to create a Sandbox level of freedom for socializing and finding friends and dates. The idea of a social Experience-NFT expands a set of tools for influencers, brands, DAOs to create, monetize and engage the end-user with exclusive NFT-experience.
 
-Our app can be seen as a two-sided marketplace. One side consists of creators (influencers, DAOs, NFT collections etc.), who bring content to the app by creating their exclusive content and another side consists of users who enjoy the content and pay for it. All waka content also has social utility. Waka-rooms can build on top of collections of memes, horoscopes, fun tests and other easy-to-consume content.
+Our app can be seen as a two-sided marketplace. One side consists of creators (influencers, DAOs, NFT collections etc.), who put together their exclusive content with our tools and another side consists of users who enjoy the content and pay for it. All waka content also has social utility. Waka social Experience-NFTs can be linked to collections of memes, horoscopes, fun tests, in-app achievements, relationship milestones of our users and much more.
 
-On waka content is used to create a context for social interaction between users. The new feature will allow us to target users who already have a context in their interaction and we will use that context to create content for building a bond between users and storing a proof of bond on an indestructible blockchain.
+On waka content is used to create a context for social interaction between users. The new feature will allow us to target users who already have a context in their interaction and will use that context to create content for building a bond between users and storing a proof of bond on an indestructible blockchain.
 
-Our idea is to create an easy flow for influencers to develop their own collections of NFTs and market them on WAKA. The marketplace will be open-source, which means that any other project, which works with influencers will be able to give them the opportunity to create a collection in a matter of minutes and then connect utility to their main product.
+Additionally it is a priority to create an easy flow for influencers to develop their own collections of NFTs and market them on WAKA. The marketplace will be open-source, which means that any other project, which works with influencers will be able to give them the opportunity to create a collection in a matter of minutes and then connect utility to their main product.
 
-Users will also be building their digital identity by storing milestones of their relationships and other waka-tokens on the blockchain with our help. With time digital identity, which they have built on waka, will be interoperable with other Near social apps.
- We plan to allow users to post their co-created content into our news feed. This will be an optional thing to do, if one decides to keep their nft private it will be encrypted and stored on IPFS. This NFT feed creates FOMO (someone creates NFT bonds with my friends), shows users what they can do on waka and fuels our app with scrollable content.
+Users will also be building their digital identity by storing NFT-milestones of their relationships and other waka-tokens on the blockchain with our help. With the time waka-digital-identity will be interoperable with other Near social apps.
+ We plan to allow users to post their Experience-NFTs onto our news feed. This NFT feed creates social FOMO (someone creates NFT bonds with my friends, but not with me). Additionally it shows users what they can do on waka and fuels our app with scrollable content.
  All the infrastructure together represents a tool for influencers to work transparently and earn royalties.
 
 ### **Project Details**
