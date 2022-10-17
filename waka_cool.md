@@ -44,7 +44,12 @@ Our surveys and interviews of paying users show that they in 55% of the cases pa
 
 **General flow**
 
-We want to allow influencers to earn money through their creativity. Influencers will own royalties for NFTs and get paid in Near. They will be able to track earning of their royalties through a fully transparent Near powered dashboard.
+We want to allow influencers to earn money through their creativity. Influencers will own royalties for Experience-NFTs and get paid in Near. They will be able to track earning of their royalties through a fully transparent Near powered dashboard.
+Examples of social Experience NFTs: 
+1. Relationship Milestones: NFT-marriage from Morgan Freeman(double NFT), Best Friend Forever vow from Tyler The Creator (double NFT), Gaming Bro from the Mr.Disrespect (double NFT), etc. (can be bought on the Marketplace from their fav influencer)
+2. Waka-achievements: high-five from Mr. Beast (user earned 100 likes on his waka-room), secret present from Kim (uploaded 10 pic)
+3. Accesses to waka matching rooms: Access to room for testing your IQ and matching with a genius like you (room from 3Blue1Brown), access to Amber room to find you a teammate and send you to exclusive map, etc. 
+Only imagination of creators is a limit here. Creators develop a template for social interaction, users buy it and activate it with others.
 All screens for this project can be found here https://www.figma.com/file/dn47nwvpqBfyiqIPUrbOqZ/product-manager-files?node-id=45%3A837
 
 **Marketplace**
