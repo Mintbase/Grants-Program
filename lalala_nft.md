@@ -2,7 +2,7 @@
 
 - **Project Name:** LaLaLa
 - **Team Name:** PickleLabs
-- **Payment Address:** picklelabs.near (To Be Taken)
+- **Payment Address:** picklelabs.near
 - **[Level](../README.md#level_slider-levels):** 2
 
 ## Project Overview :page_facing_up:
