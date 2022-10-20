@@ -40,9 +40,33 @@ We expect the teams to already have a solid idea about your project's expected f
 - Data models / API specifications of the core functionality
 ASK DEVS
 - An overview of the technology stack to be used
-ASK DEVS
+Vue JS:  
+A JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS and JavaScript, and provides a declarative and component-based programming model that helps to efficiently develop user interfaces, be it simple or complex.
+Nuxt JS:  
+Nuxt. js is a framework for creating Vue.js applications. Its goal is to help Vue developers take advantage of top-notch technologies, fast, easy and in an organized way.
+Node JS:  
+Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications.
+Mintbase JS:  
+General purpose Mintbase API for interacting with NEAR, Arweave and other supported blockchains and decentralized filestorage systems.
+Graphql:  
+GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
+Figma:  
+Figma creates a new level of collaboration that never really existed before. The team is able to work together and ship products faster." Nina Samarguliani. Design Manager at Coinbase. Build. Ship better outcomes. Deliver better products and make an impact with a platform that connects the dots across design, product, and development.
+
 - Documentation of core components, protocols, architecture, etc. to be deployed
-ASK DEVS
+
+Layered Pattern
+Presentation layer (UI) developed in Figma
+Application layer will be the service, mintbase.js library, will be used to, mint, list, approve, sell nft and transfer nft.
+Business logic layer: Domain service located in Digital Ocean as service
+
+Client-server pattern
+This pattern consists of two parties; a blockchain and multiple clients. The server component will provide services to multiple client components. Clients request services from the blockchain and the server provides relevant services to those clients. Furthermore, the server continues to listen to client requests.
+
+Interpreter pattern
+This pattern is used for designing a component that interprets programs written in a dedicated language. It mainly specifies how to evaluate lines of programs, known as sentences or expressions written in a particular language. The basic idea is to have a class for each symbol of the language.
+
+
 - PoC/MVP or other relevant prior work or research on the topic
 [Research with artists](https://drive.google.com/file/d/1au6lpNh7lob14ehDxszaHViX3m651JSc/view) 
 LINKAR WEBPAGE
