@@ -39,7 +39,7 @@ We expect the teams to already have a solid idea about your project's expected f
 [Wireframes](https://www.figma.com/file/08AC3RjZSFVie47ddZ8afN/Artivist?node-id=411%3A887)
 - Data models / API specifications of the core functionality
 ASK DEVS
-- An overview of the technology stack to be used
+- An overview of the technology stack to be used  
 Vue JS:  
 A JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS and JavaScript, and provides a declarative and component-based programming model that helps to efficiently develop user interfaces, be it simple or complex.
 Nuxt JS:  
