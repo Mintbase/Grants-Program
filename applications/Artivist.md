@@ -35,8 +35,8 @@ The idea behind Artivist comes from Chamada Artivista, an initiative started in 
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Mockups/designs of any UI components
-[Wireframes](https://www.figma.com/file/08AC3RjZSFVie47ddZ8afN/Artivist?node-id=411%3A887)
+- Mockups/designs of any UI components  
+Please take a look at our [Wireframes](https://www.figma.com/file/08AC3RjZSFVie47ddZ8afN/Artivist?node-id=411%3A887)  
 - Data models / API specifications of the core functionality  
 Mintbase. JS and function calls from the deployed store of mintbase.  
 **Smart contract functions**  
