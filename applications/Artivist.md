@@ -1,11 +1,11 @@
 # Mintbase Grant Proposal
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
+
 >
 > See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
 - **Project Name:** Artivist dApp
-- **Team Name:**  --
+- **Team Name:**  Artivist DAO
 - **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
 - **[Level](../README.md#level_slider-levels):** 2
 
@@ -77,14 +77,14 @@ Figma creates a new level of collaboration that never really existed before. The
 Presentation layer (UI) developed in Figma
 Application layer will be the service, mintbase.js library, will be used to, mint, list, approve, sell nft and transfer nft.
 Business logic layer: Domain service located in Digital Ocean as service  
-![imagem](https://user-images.githubusercontent.com/97693233/196932305-ee63dea7-1cf7-40fc-ab32-2434e8fde7c0.png)  
+![layered pattern](https://user-images.githubusercontent.com/97693233/196932305-ee63dea7-1cf7-40fc-ab32-2434e8fde7c0.png)  
 
 **Client-server pattern**  
 This pattern consists of two parties; a blockchain and multiple clients. The server component will provide services to multiple client components. Clients request services from the blockchain and the server provides relevant services to those clients. Furthermore, the server continues to listen to client requests.
 
 **Interpreter pattern**  
 This pattern is used for designing a component that interprets programs written in a dedicated language. It mainly specifies how to evaluate lines of programs, known as sentences or expressions written in a particular language. The basic idea is to have a class for each symbol of the language.  
-![imagem](https://user-images.githubusercontent.com/97693233/196932716-04075412-3a57-4284-bdae-d4486731d6ba.png)  
+![interpreter pattern](https://user-images.githubusercontent.com/97693233/196932716-04075412-3a57-4284-bdae-d4486731d6ba.png)  
 
 
 - PoC/MVP or other relevant prior work or research on the topic  
@@ -156,8 +156,8 @@ DV Consultores is an Application Development team that counts with 15 certified 
 
 - [Artivist](https://github.com/Artivist-Dao)
 - [DV Consultores] https://github.com/dvconsultores/ 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- [DV Consultores - NEAR-Dex] (https://github.com/NEAR-P2P/NearP2PBackend)
+- [DV Consultores - NearP2P-NearPricesFiat](https://github.com/NEAR-P2P/NearP2P-NearPricesFiat)
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
