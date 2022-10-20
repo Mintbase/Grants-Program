@@ -86,7 +86,7 @@ This pattern is used for designing a component that interprets programs written 
 
 
 - PoC/MVP or other relevant prior work or research on the topic  
-Please refer to the report of the research with artists [Research with artists](https://drive.google.com/file/d/1au6lpNh7lob14ehDxszaHViX3m651JSc/view). We have also developed a hotsite wireframe (https://www.figma.com/file/k1UV0seZVpclPoE9V7vFJJ/Artivist-web-dapp?node-id=0%3A1) and had three workshops with **Brands with Empathy** a consulting company that helped us trace our business premises. This work was funded by the Creatives DAO. See the results here () 
+Please refer to the report of the research with artists [Research with artists](https://drive.google.com/file/d/1au6lpNh7lob14ehDxszaHViX3m651JSc/view). We have also developed a hotsite wireframe (https://www.figma.com/file/k1UV0seZVpclPoE9V7vFJJ/Artivist-web-dapp?node-id=0%3A1) and had three workshops with **Brands with Empathy** a consulting company that helped us trace our business principles. This work was funded by the Creatives DAO, and the report sent to them tells more details about the process (https://gov.near.org/t/report-september-monthly-report-artivist-dao/30047). See our business principles here (https://drive.google.com/file/d/1JTaQYCRriqIIX3DCKvDwqcZFDviQ9m0x/view) 
 Also, please take a look at the work we've been doing with the Creatives DAO since March [NEAR forum](https://gov.near.org/tag/artivist-dao).  
 - What your project is _not_ or will _not_ provide or implement  
 Artivist dApp will not be a marketplace. Our goal is to connect NGOs and artists.
