@@ -76,7 +76,8 @@ Figma creates a new level of collaboration that never really existed before. The
 **Layered Pattern**  
 Presentation layer (UI) developed in Figma
 Application layer will be the service, mintbase.js library, will be used to, mint, list, approve, sell nft and transfer nft.
-Business logic layer: Domain service located in Digital Ocean as service
+Business logic layer: Domain service located in Digital Ocean as service  
+![imagem](https://user-images.githubusercontent.com/97693233/196932305-ee63dea7-1cf7-40fc-ab32-2434e8fde7c0.png)  
 
 **Client-server pattern**  
 This pattern consists of two parties; a blockchain and multiple clients. The server component will provide services to multiple client components. Clients request services from the blockchain and the server provides relevant services to those clients. Furthermore, the server continues to listen to client requests.
