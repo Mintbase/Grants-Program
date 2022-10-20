@@ -6,7 +6,7 @@
 
 - **Project Name:** Artivist dApp
 - **Team Name:**  Artivist DAO
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
+- **Payment Address:** artivist.sputnik-dao.near
 - **[Level](../README.md#level_slider-levels):** 1
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
