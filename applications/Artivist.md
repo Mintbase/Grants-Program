@@ -143,13 +143,14 @@ Please describe the team's relevant experience. If your project involves develop
 
 If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
 
-Carol Bampa - Project Manager and Council of Artivist DAO
+**Carol Bampa - Project Manager and Council of Artivist DAO**
 Cultural Manager and Cultural Projects Consultant. Worked at the Secretary of Culture of the State of São Paulo for four years. Produced three editions of the São Paulo Cultural Map Festival, two editions of the Caraguatatuba National Theater Festival, and the National Folklore Congress. Collaborated with the Gender and Ethnicity Chapters of the Pontos de Cultura Program in São Paulo State. Finalist of the first edition of the Festival of Ideas held by the Ruth Cardoso Cultural Center with a project for recyclable waste, CATA-LOGO. Participated in the foundation of the Fazenda Cachoeira Park Movement, which promotes social, educational, and cultural activities related to environmental preservation and the historical heritage of the city of Vinhedo. Idealized, produced, and managed Paisagem Festival, an event for the graphic arts and independent publications started in 2017. Creator and manager of the Respeita Project - Space for the Empowerment of Immigrant Women and Chamada Artivista, a fundraising initiative for social causes.
 
-Mariana Westphalen - Art Curator, Product Manager and Council of Artivist DAO
+**Mariana Westphalen - Art Curator, Product Manager and Council of Artivist DAO**
 A museum specialist and curator with a PhD in Art History and a Master’s in Technology with more than twenty years of experience in the arts and culture sector in Brazil, the US, England, and now Portugal. Mariana loves to meet artists to learn about their practices and understand what makes them tick. Connecting art institutions and galleries to diverse communities is one of her passions, and she is fascinated with the intersections of art and technology, be it photography, architecture, or NFTs. Artivist’s mission to bring together artists, activists, and independent socio-environmental organizations through the creative economy aligns with her interests and her professional background.
 
-DV Consultores is an Application Development team that counts with 15 certified resources in the Near Protocol. They have participated in programs such as Developer In Residence and generated products such as NEAR P2P DEX, Artemis, and NearBook. Besides, DV Consultores has worked on initiatives such as NFT Aggregator Evie and Econear, and is currently developing projects such as Mintick and Music Feast.
+**DV Consultores**
+DV Consultores is an Application Development team founded in 2004. With 15 certified resources in the Near Protocol, they have participated in programs such as Developer In Residence and generated products such as NEAR P2P DEX, Artemis, and NearBook. Besides, DV Consultores has worked on initiatives such as NFT Aggregator Evie and Econear, and is currently developing projects such as Mintick and Music Feast.
 
 
 ### Team Code Repos
@@ -244,16 +245,19 @@ For each milestone,
 
 Please include here
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
-
+- how you intend to use, enhance, promote and support your project in the short term, and  
+This project focuses on the creation of an MVP. With the completion of the MVP, we will undertake tests with potential users to address problems and propose solutions. We will then work towards the development of a Beta version of the dApp to be launched by mid-2023. We believe that the MVP will help us to get funding for the development of the Beta, which we calculate as having a total cost of around US$30.000,00. Besides the development of the dApp, we are committed to other aspects that will make Artivist possible as a product and as a service, namely the community engagement, which encompasses the creation of a solid social media campaing in different channels.   
+- the team's long-term plans and intentions in relation to it.  
+Our long-term plan is to become a flagship web3 platform for social and environmental organizations, artists, and activist consumers looking for autonomy and transparency. 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.  
+Personal recommendation, Mintbase website. 
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
 - Work you have already done.
 - If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+- Previous grants you may have applied for.  
+We have applied, and received, funding from the Creatives DAO. We have also applied for the NEAR Foundation grant and will have a meeting with them next week. 
