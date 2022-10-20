@@ -246,8 +246,11 @@ For each milestone,
 Please include here
 
 - how you intend to use, enhance, promote and support your project in the short term, and  
-This project focuses on the creation of an MVP. With the completion of the MVP, we will undertake tests with potential users to address problems and propose solutions. We will then work towards the development of a Beta version of the dApp to be launched by mid-2023. We believe that the MVP will help us to get funding for the development of the Beta, which we calculate as having a total cost of around US$30.000,00. Besides the development of the dApp, we are committed to other aspects that will make Artivist possible as a product and as a service, namely the community engagement, which encompasses the creation of a solid social media campaing in different channels.   
+If our application to Mintbase is accepted, we will continue to seek for support from the Creatives DAO and other resources to enable our non-technical team to spend more time building and engaging our community. 
 - the team's long-term plans and intentions in relation to it.  
+Our medium-term plan:  
+This project focuses on the **creation of an MVP**. With the completion of the MVP, we will undertake tests with potential users to address problems and propose solutions. With the MVP in hand, we will work towards the development of a **Beta version** of the dApp to be launched by mid-2023. We believe that the MVP will help us to get funding for the development of the Beta, which we calculate as having a total cost of around US$30.000,00. Besides the development of the dApp, we are committed to other aspects that will make Artivist possible as a product and as a service, namely the community engagement, which encompasses the creation of a solid social media campaing in different channels. We will continue to seek for other funding sources to develop the non-technical aspects of our business and have estimated a budget of US$ 20.000,00 for social media plans, management, design and other jobs.  
+Our long-term plan:  
 Our long-term plan is to become a flagship web3 platform for social and environmental organizations, artists, and activist consumers looking for autonomy and transparency. 
 
 ## Additional Information :heavy_plus_sign:
