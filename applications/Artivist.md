@@ -37,30 +37,26 @@ We expect the teams to already have a solid idea about your project's expected f
 
 - Mockups/designs of any UI components
 [Wireframes](https://www.figma.com/file/08AC3RjZSFVie47ddZ8afN/Artivist?node-id=411%3A887)
-- Data models / API specifications of the core functionality    
-<br>
-Mintbase. JS and function calls from the deployed store of mintbase.
-
-**Smart contract functions**
-nft_approve
-nft_transfer
-grant_minter
-nft_transfer_payout
-check_is_minter
+- Data models / API specifications of the core functionality  
+Mintbase. JS and function calls from the deployed store of mintbase.  
+**Smart contract functions**  
+nft_approve  
+nft_transfer  
+grant_minter  
+nft_transfer_payout  
+check_is_minter  
 list_minters  
 
 **Mintbase.js functions**  
-burn
-connect
-list
-mint
-mintMore
-listMore
-transfer
-burn
+burn  
+connect  
+list  
+mint  
+mintMore  
+listMore  
+transfer  
+burn  
 
-
-ASK DEVS
 - An overview of the technology stack to be used  
 **Vue JS:**  
 A JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS and JavaScript, and provides a declarative and component-based programming model that helps to efficiently develop user interfaces, be it simple or complex.
