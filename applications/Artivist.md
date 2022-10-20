@@ -83,7 +83,8 @@ Business logic layer: Domain service located in Digital Ocean as service
 This pattern consists of two parties; a blockchain and multiple clients. The server component will provide services to multiple client components. Clients request services from the blockchain and the server provides relevant services to those clients. Furthermore, the server continues to listen to client requests.
 
 **Interpreter pattern**  
-This pattern is used for designing a component that interprets programs written in a dedicated language. It mainly specifies how to evaluate lines of programs, known as sentences or expressions written in a particular language. The basic idea is to have a class for each symbol of the language.
+This pattern is used for designing a component that interprets programs written in a dedicated language. It mainly specifies how to evaluate lines of programs, known as sentences or expressions written in a particular language. The basic idea is to have a class for each symbol of the language.  
+![imagem](https://user-images.githubusercontent.com/97693233/196932716-04075412-3a57-4284-bdae-d4486731d6ba.png)  
 
 
 - PoC/MVP or other relevant prior work or research on the topic  
