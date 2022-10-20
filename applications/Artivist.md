@@ -73,24 +73,23 @@ Figma creates a new level of collaboration that never really existed before. The
 
 - Documentation of core components, protocols, architecture, etc. to be deployed
 
-**Layered Pattern**
+**Layered Pattern**  
 Presentation layer (UI) developed in Figma
 Application layer will be the service, mintbase.js library, will be used to, mint, list, approve, sell nft and transfer nft.
 Business logic layer: Domain service located in Digital Ocean as service
 
-**Client-server pattern**
+**Client-server pattern**  
 This pattern consists of two parties; a blockchain and multiple clients. The server component will provide services to multiple client components. Clients request services from the blockchain and the server provides relevant services to those clients. Furthermore, the server continues to listen to client requests.
 
-**Interpreter pattern**
+**Interpreter pattern**  
 This pattern is used for designing a component that interprets programs written in a dedicated language. It mainly specifies how to evaluate lines of programs, known as sentences or expressions written in a particular language. The basic idea is to have a class for each symbol of the language.
 
 
-- PoC/MVP or other relevant prior work or research on the topic
-[Research with artists](https://drive.google.com/file/d/1au6lpNh7lob14ehDxszaHViX3m651JSc/view) 
-LINKAR WEBPAGE
-[NEAR forum](https://gov.near.org/tag/artivist-dao)
-- What your project is _not_ or will _not_ provide or implement
-This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+- PoC/MVP or other relevant prior work or research on the topic  
+Please refer to the report of the research with artists [Research with artists](https://drive.google.com/file/d/1au6lpNh7lob14ehDxszaHViX3m651JSc/view). We have also developed a hotsite wireframe (https://www.figma.com/file/k1UV0seZVpclPoE9V7vFJJ/Artivist-web-dapp?node-id=0%3A1) and had three workshops with **Brands with Empathy** a consulting company that helped us trace our business premises. This work was funded by the Creatives DAO. See the results here () 
+Also, please take a look at the work we've been doing with the Creatives DAO since March [NEAR forum](https://gov.near.org/tag/artivist-dao).  
+- What your project is _not_ or will _not_ provide or implement  
+Artivist dApp will not be a marketplace. Our goal is to connect NGOs and artists.
 
 ### Ecosystem Fit
 
