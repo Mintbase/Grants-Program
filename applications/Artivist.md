@@ -24,7 +24,7 @@ Please provide the following:
 - If the name of your project is not descriptive, a tag line (one sentence summary).  
 Artivist dApp will connect artists, activists, and NGOs in fundraising campaigns through the sale of NFTs offered on Mintbase.
 - A brief description of your project.  
-The dApp will allow NGOs to connect to artists based on the causes they support. They will be able to "match", similar to Tinder. When the NGO finds an artist, they get in touch to start a fundraising campaign. The artist will provide an NFT minted on Mintbase. Part of the sale will go to the NGO, part will go to the artist, and part will go to Artivist.   
+The dApp will allow NGOs to connect to artists based on the causes they support. They will be able to "match", similar to Tinder. When the NGO finds an artist, they get in touch to start a fundraising campaign. The artist will provide an NFT minted on Mintbase. Part of the sale will go to the NGO, part will go to the artist, and part will go to Artivist. Think of it as a mission-driven combination of Tinder, Kickstarter, and Mintbase.  
 - An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.  
 We will use Mintbase as our marketplace. 
 - An indication of why your team is interested in creating this project.  
