@@ -184,7 +184,9 @@ https://medium.com/@marianahartenthal/nft-artists-views-on-blockchain-based-mark
 https://medium.com/@marianahartenthal/why-perpetual-royalties-for-nfts-b88bcc5dbd6d  
 https://medium.com/@marianahartenthal/nfts-scarcity-and-the-art-market-d934ea6a377f  
 
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
+- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,  
+- ![imagem](https://user-images.githubusercontent.com/97693233/197149743-822d0d14-9326-4b53-8b1f-11cbe832d450.png)  
+![imagem](https://user-images.githubusercontent.com/97693233/197149922-2e2bd924-dce7-461b-b3e5-5e9ae9d15efb.png)  
 - previous interface iterations, such as mock-ups and wireframes.  
 [Wireframes](https://www.figma.com/file/08AC3RjZSFVie47ddZ8afN/Artivist?node-id=411%3A887)
 
