@@ -156,7 +156,7 @@ DV Consultores is an Application Development team founded in 2004. With 15 certi
 ### Team Code Repos
 
 - [Artivist](https://github.com/Artivist-Dao)
-- [DV Consultores] https://github.com/dvconsultores/ 
+- [DV Consultores] (https://github.com/dvconsultores/) 
 - [DV Consultores - NEAR-Dex] (https://github.com/NEAR-P2P/NearP2PBackend)
 - [DV Consultores - NearP2P-NearPricesFiat](https://github.com/NEAR-P2P/NearP2P-NearPricesFiat)
 
@@ -169,10 +169,10 @@ DEVS
 
 - [Carol Bampa] https://www.linkedin.com/in/carolbampa/
 - [Mariana Westphalen] https://www.linkedin.com/in/mariana-westphalen/
-- [Andres Dominguez] linkedin.com/in/andrés-dominguez-91418819 
-- [Linda Rosario] linkedin.com/in/linda-rosario-duran-5b9559127
-- [Juan Ochando] linkedin.com/in/juan-josé-ochando-327927220
-- [Maria Arevalo] linkedin.com/in/mearevalol
+- [Andres Dominguez] https://linkedin.com/in/andrés-dominguez-91418819 
+- [Linda Rosario] https://linkedin.com/in/linda-rosario-duran-5b9559127
+- [Juan Ochando] https://linkedin.com/in/juan-josé-ochando-327927220
+- [Maria Arevalo] https://linkedin.com/in/mearevalol
 
 
 ## Development Status :open_book:
@@ -211,10 +211,9 @@ For each milestone,
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
-
+- **Total Estimated Duration:** 4 months
+- **Full-Time Equivalent (FTE):**  1.5
+- **Total Costs:** 10,000 USD
 ### Milestone 1 Example — Implement Mintbase Modules
 
 - **Estimated duration:** 1 month
@@ -240,6 +239,64 @@ For each milestone,
 - **FTE:**  1
 - **Costs:** 4,000 USD
 
+### Milestone 1 - Layout  
+**Estimated Duration:** 1 month  
+**FTE:** 1  
+**Costs:** $ 2.500,00    
+	Define all features  
+	Build UI/UX  
+	Web design with all functionalities  
+	Validate with different browsers  
+	Responsive  
+**Tech stack:** Figma, JavaScript, Vue.js, Nuxt.js  
+	
+### Milestone 2 - Backend  
+**Estimated Duration:** 1 month  
+**FTE:** 1  
+**Costs:** $ 2.500,00 
+	Function definition  
+		Connect NEAR wallet  
+		Artist registration  
+		Create artist portfolio  
+		Create NGO registration  
+		Create communication by message  
+	Smart contract functions  
+    nft_approve  
+    nft_transfer  
+    grant_minter  
+    nft_transfer_payout  
+    check_is_minter  
+    list_minters   
+	Mintbase.js functions  
+    burn  
+    connect  
+    list  
+    mint  
+    mintMore  
+    listMore   
+    transfer  
+    burn  
+**Tech stack:** Node.js, GraphQL  
+
+### Milestone 3 – Frontend   
+**Estimated Duration:** 1 month  
+**FTE:** 1  
+**Costs:** $ 2.500,00  
+	Add behavior  
+	Form validation  
+	Integrate with backend  
+	Integrate with smart contract  
+	Behavior tests in different browsers  
+**Tech stack:** JavaScript, Vue.js, Nuxt.js, Node.js, GraphQL  
+
+### Milestone 4 – QA Testnet  
+**Estimated duration:** 1 month  
+**FTE:** 1  
+**Costs:** $ 2.500,00  
+	Functional and comprehensive tests  
+	Correct functionality approval  
+	Migrate to Mainnet  
+	
 ...
 ## Future Plans
 
