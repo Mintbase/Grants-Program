@@ -180,9 +180,9 @@ If you've already started implementing your project or it is part of a larger re
 - academic publications relevant to the problem,  
 Hartenthal, Mariana W. von, Eitelwein, Cíntia. "The usability of visual resources on cultural conservation: the Graphics Atlas as a case study." Revista Tecnologia e Sociedade, v. 18, n. 52, jul./set. 2022, pp. 247-268. (the name of the author is Mariana Westphalen von Hartenthal) https://periodicos.utfpr.edu.br/rts/article/view/13594
 - links to your research diary, blog posts, articles, forum discussions or open GitHub issues,  
-https://medium.com/@marianahartenthal/nft-artists-views-on-blockchain-based-marketplaces-5c6a98f3202e  
-https://medium.com/@marianahartenthal/why-perpetual-royalties-for-nfts-b88bcc5dbd6d  
-https://medium.com/@marianahartenthal/nfts-scarcity-and-the-art-market-d934ea6a377f  
+Mariana Hartenthal, _NFT artists views on blockchain-based marketplaces_ https://medium.com/@marianahartenthal/nft-artists-views-on-blockchain-based-marketplaces-5c6a98f3202e  
+Mariana Hartenthal, _Why perpetual royalties?_ https://medium.com/@marianahartenthal/why-perpetual-royalties-for-nfts-b88bcc5dbd6d  
+Mariana Hartenthal, _NFTs scarcity and the art market_ https://medium.com/@marianahartenthal/nfts-scarcity-and-the-art-market-d934ea6a377f  
 
 - references to conversations you might have had related to this project with anyone from the Mintbase Foundation,  
 - ![imagem](https://user-images.githubusercontent.com/97693233/197149743-822d0d14-9326-4b53-8b1f-11cbe832d450.png)  
