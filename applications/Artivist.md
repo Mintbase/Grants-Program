@@ -130,7 +130,7 @@ Maria Arevalo, Project Manager
 
 - **Contact Name:** Carol Bampa, Mariana Westphalen
 - **Contact Email:** artivist.dapp@gmail.com
-- **Website:** [DV Consultores](https://github.com/dvconsultores/)
+- **Website:** [ArtivistDAO] (https://artivistdao.org/)   [DV Consultores](https://github.com/dvconsultores/)
 
 ### Legal Structure
 
@@ -161,9 +161,6 @@ DV Consultores is an Application Development team founded in 2004. With 15 certi
 - [DV Consultores - NearP2P-NearPricesFiat](https://github.com/NEAR-P2P/NearP2P-NearPricesFiat)
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/marianaWest
-DEVS
 
 ### Team LinkedIn Profiles (if available)
 
