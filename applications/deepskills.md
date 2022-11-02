@@ -221,31 +221,14 @@ We are also happy to split the two milestones into two separate grant proposals 
 | 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains the functionality. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Video walkthrough | We will publish a video walkthrough that explains how to use Deep Skills on NEAR to create projects and mint Mintbase NFTs to issue attestations for project participation. 
 | 1. | Research in Mintbase smart contracts, NEAR NFT standards, and Mintbase SDK and tooling |  |
 | 2. | Mintbase smart contracts to mint NFTs |  |
 | 3. | Mintbase implementation for our use case | Integrating user flow to mint NFTs upon project completion. |
 | 4. | UI updates | Frontend and UI updates to support the issuance of NFTs with a summary of each team member’s contribution. |
 
-### Milestone 2 — Implement NEAR blockchain support for payments
-
-- **Estimated Duration:** 1 month
-- **FTE:** 3
-- **Costs:** 25,000 USD
-
-| Number | Deliverable | Specification |
-| --- | --- | --- |
-| 0a. | License | ISC https://en.wikipedia.org/wiki/ISC_license |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains the functionality. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Video walkthrough | We will publish a video walkthrough that explains how to use Deep Skills on NEAR to create projects, make payments, and mint Mintbase NFTs to issue attestations for project participation. 
-| 1. | Research in NEAR smart contracts |  |
-| 2. | NEAR blockchain implementation for our use case | Integrating user flow to make payments upon project completion |
-| 3. | NEAR chain integration | As seen on the prototype, it will be possible to select NEAR payments on project creation and send payments in NEAR native tokens upon completion. |
-| 4. | UI updates | Small UI updates to include a smoother project creation and completion flow. Making payments on the NEAR blockchain. |
-
 ## Future Plans
-
+- NEAR chain integration. As seen on the prototype, it will be possible to select NEAR payments on project creation and send payments in NEAR native tokens upon completion.
 - Implement multisig for each project in order to automate payments
 - Connect project data to AstroDAO and export to [Stats.gallery](http://Stats.gallery) on NEAR
 
