@@ -1,30 +1,24 @@
 # Mintbase Grant Proposal
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
->
-> See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
+
+- **Project Name:** Niftiqet
+- **Team Name:** CommandLine Technologies Ltd
+- **Payment Address:** utinifty.near
+- **[Level](../README.md#level_slider-levels):** 2
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
 
-Please provide the following:
-
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
+- Niftiqet is an NFT ticket management system.
+- We are building a ticketing and ticket management system that ustilizes the technological advantages of NFTs to make the ticket management easier to use, more secure, and fairer. 
+- We are built on NEAR using the Mintbase API
+- We believe it is about time that the whole ticket industry is disrupted, and that NFTs technology is the best to do that with.
 
 ### Project Details
 
