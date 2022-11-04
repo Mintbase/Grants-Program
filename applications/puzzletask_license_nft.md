@@ -16,8 +16,8 @@ Please provide the following:
 Puzzletask - Blockchain Client Certification
 - Client NFT Certification
 - A brief description of your project.
-  - Puzzletask is a no-code platform for Food Safety and Traceability Management serving Hospitality and Food Retail Sectors towards supply chain optimization. We cater to suppliers, hotels, retailers, and end consumers to encourage interaction in a data exchange micro-economy that incentivizes the sharing of valuable data to optimize the supply chain. Our solution has two revenue streams, one based on a SaaS Module and the other based on a Data Monetizing module.
-In orther to slowly bring Blockchain technology for such a traditional sector as Food retail and Hospitality, we are launching our an NFT Certificate to highlight the customers that are getting into the digital transformation path. This certification approach, from customer certification to license management, can be used in many ways in our business model. The solution will be based on the implementation of an ERP connected NFT Minter that will be available for the community in a form of a library.
+- Puzzletask is a no-code platform for Food Safety and Traceability Management serving Hospitality and Food Retail Sectors towards supply chain optimization. We cater to suppliers, hotels, retailers, and end consumers to encourage interaction in a data exchange micro-economy that incentivizes the sharing of valuable data to optimize the supply chain. Our solution has two revenue streams, one based on a SaaS Module and the other based on a Data Monetizing module.
+In orther to slowly bring Blockchain technology for such a traditional sector as Food retail and Hospitality, we are launching our NFT Certificate to highlight the customers that are getting into the digital transformation path. This certification approach, from customer certification to license management, can be used in many ways in our business model. The solution will be based on the implementation of an ERP connected NFT Minter that will be available for the community in a form of a library.
 
 - An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
   - We are bringing a real life use case for NFTs as a way to certify our customers and provide them with a simple first contact with blockchain and NEAR wallet.
@@ -32,25 +32,22 @@ We expect the teams to already have a solid idea about your project's expected f
 - Data models / API specifications of the core functionality:
   - We propose to develop a javascript library based on MintbaseJS and an extended version of NEP-171 that will be used to mint, transfer and burn an NFT with a set of attributes dependant on third party authorization. This authorizations will be granted by an external API via an Oracle. 
   
-  -  This library will be used by the Puzzletask SaaS to mint a certificate with a set of relevant attributes according to the permissions set by Puzzletask. The transferability of the NFT will also be authorized by Puzzletask API according to the target wallet address defined by the user. NFT Burn function will be available to the owner and won't be dependant on any Puzzletask permission. 
+  - After this project implementation, the library will be used by the Puzzletask SaaS to mint a certificate with a set of relevant attributes according to the permissions set by Puzzletask. The transferability of the NFT will also be authorized by Puzzletask API according to the target wallet address defined by the user. NFT Burn function will be available to the owner and won't be dependant on any Puzzletask permission. 
 
-  -  There will be a set of pages in Puzzletask SaaS certificate workflow that will use this library to mint, transfer and burn for the owner. There will be a public page for NFT existence verification and consequent data retrieval.
+  - After this first project, there will be a set of pages in Puzzletask SaaS certificate workflow that will use this library to mint, transfer and burn for the owner. There will be a public page for NFT existence verification and consequent data retrieval.
 
 - An overview of the technology stack to be used:
   - Javascript;
   - React;
   - MintbaseJS;
   - near-sdk-rs
-  
-
-  
 
 ### Ecosystem Fit
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
-  - The project is kind of a new category among the NFT's and we defined has a Business Utility NFT - Under Puzzletask context we will provide a first interaction with blockchain for businesses in the food industry. By implementing our project on this kind of market players we will allow them to start to accept NEAR because it will be mandatory to create a wallet to mint and manage the NFT;
+  - The project is kind of a new category among the NFT's and we defined has a Business Utility NFT - Under Puzzletask context, after this project implementation, we will develop and provide a first interaction with blockchain for businesses in the food industry. By implementing our project on this kind of market players we will allow them to start to accept NEAR because it will be mandatory to create a wallet to mint and manage the NFT;
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
   - Food Operators such as hotels, retailers and restaurants. We are planning to implement a feedback solution with consumers in a later version of these project.
 - What need(s) does your project meet?
@@ -118,54 +115,39 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - **Total Estimated Duration:** 5 months
 - **Full-Time Equivalent (FTE):**  1,5 (Team of 5 members)
-- **Total Costs:** 48.000 USD
+- **Total Costs:** 20.000 USD
 
-### Milestone 1 — ERP connected NFT minter library development
+### Milestone 1 — User session connected NFT minter library development
 
-- **Estimated duration:** 2 month
+- **Estimated duration:** 3 months
 - **FTE:**  1,5
-- **Costs:** 15,000 USD
+- **Costs:** 12.000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 1. | Mintbase module: ERP connected NFT Minter library Beta | We will create a Mintbase / NEAR module that will able developers to use a NFT for certifications on Near Blockchain. The library will be developed in javascript based on MintbaseJS that will be used to mint, manage and subsequently retrieve an NFT with a set of attributes for a connected wallet. This will be a beta version. |  
+| 0b. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 1. | Mintbase module: User session connected NFT minter library | We will create a Mintbase / NEAR module that will able developers to use a NFT for certifications on Near Blockchain. The library will be developed in javascript based on MintbaseJS that will be used to mint, manage and subsequently retrieve an NFT with a set of attributes for a connected wallet. This will be a beta version. |  
 
 
 
-### Milestone 2 — Library integration into the Puzzletask SaaS
+### Milestone 2 — Library final version
 
 - **Estimated Duration:** 2 month
 - **FTE:**  1,5
-- **Costs:** 18,000 USD
+- **Costs:** 8.000 USD
 
 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
- | 1. | Design and Interface developement | Our Figma prototype will be reviewed by a designer and the output will be the final UX and UI to be implemented.|  
-| 2. | Integration with ERP connected NFT minter library | We will integrate the library into the Puzzletask SaaS. After the client authentication and after wallet connection to mint a certificate with a set of relevant attributes. There will be a set of pages in Puzzletask SaaS certificate workflow that will use this library to mint, transfer and burn for the owner. There will be a public page for NFT existence verification and consequent data retrieval. |  
-| 3. | NEAR chain integration | The Module will interact with the Near Wallet and chain.|
-| 4. | Mintbase Module: ERP connected NFT Minter library final version| We will create the final version of the library.|
+| 0b. | Documentation | We will provide general library usage documentation. |
+| 1. | Documentation for library integration | We will write documentation with an example of this library integration. This example will try to demonstrate a real use case with the following features / workflow: client authentication and wallet connection to mint, transfer and burn a certificate dependant on third party authorization; |  
+| 2. | NEAR chain integration | The Module will interact with the Near Wallet and chain.|
+| 3. | Mintbase Module: User session connected NFT Minter library final version| We will create the final version of the library.|
 
 
-
-### Milestone 3 — Customer Aquisition and Marketing
-
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 15,000 USD
-
-
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- | 
-| 1. | Marketing campaign in partnership with Algarve Hotel Association| We will create a press release and a campaign on Linkedin offering 4 Licenses and instalations for the selected Hotels. |  
-| 2. | Article published on Algarve Hotel Association: | We will create an article explaining the advantages of using our tool and why we are using blockchain and NFTs as a techcnological solution |  
-| 3. | Client instalation| We will implement the software in 4 strategic customers with the NFT certification |  
 
 
 ## Future Plans
@@ -174,13 +156,15 @@ Please include here
 
 - how you intend to use, enhance, promote and support your project in the short term, and the team's long-term plans and intentions in relation to it.
   
+We will integrate the library into the Puzzletask SaaS. After the client authentication and after wallet connection to mint a certificate with a set of relevant attributes. There will be a set of pages in Puzzletask SaaS certificate workflow that will use this library to mint, transfer and burn for the owner. There will be a public page for NFT existence verification and consequent data retrieval. 
+
 By implementing this project we open the possibility to allow hotels to start to receive payments using $NEAR. This first approach will be important to start to educate our customer base about blockchain. This fact is crucial to allow our migration for a business model based on a data monetization in a micro-economy that incentivizes the sharing of valuable data to optimize the supply chain.
 
 ## Additional Information
 
 **How did you hear about the Grants Program?** 
 
-Personal recommendation (Oscar)
+Personal recommendation (Oscar Andrade)
 
 **Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:**
 
