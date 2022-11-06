@@ -224,7 +224,7 @@ We are also happy to split the two milestones into two separate grant proposals 
 | 0e. | Video walkthrough | We will publish a video walkthrough that explains how to use Deep Skills on NEAR to create projects and mint Mintbase NFTs to issue attestations for project participation. 
 | 1. | Research in Mintbase smart contracts, NEAR NFT standards, and Mintbase SDK and tooling. |  |
 | 2. | Design userflow to login to Deep Skills with near wallet, participate and complete a project, issue NFTs upon completion. |  |
-| 3. | Write Mintbase smart contracts to mint NFTs. |  |
+| 3. | Deploy Mintbase smart contracts to mint NFTs. |  |
 | 4. | Mintbase implementation for our use case | Integrating user flow to issue a proof/certification NFT that would read the metadata from the Deep Skills app and mint NFTs upon project completion. |
 | 5. | Frontend and UI updates | Frontend and UI to support the issuance of NFTs with a summary of each team member’s contribution. |
 
