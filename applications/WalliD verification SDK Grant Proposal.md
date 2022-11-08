@@ -12,7 +12,7 @@
 ![dAPP use case mockup](https://drive.google.com/uc?id=1uIBR05V1uXzxzf-OTLpz0B9-CK98M_N-) 
 
 
-WalliD is the aggregator toolkit of all ID protocols and networks, making it simple for WebApps to authenticate and verify users' digital IDs from multiple infrastrcutures through a single SDK connection.
+WalliD is the aggregator toolkit of all ID protocols and networks, making it simple for WebApps to authenticate and verify users' digital IDs from multiple infrastructures through a single SDK connection.
 With WalliD Verifier SDK, WebApps and dAPPs are able to customise different trust and access levels for their users, based on the amount or quality of the Digital IDs and other assets provided (eg. Citizen ID, Twitter account, NEAR wallet address or token held within) and ensure this proof-of-ownership  is based on wallet signatures.
 The SDK v1 is currently under development, after the architecture and main features have been detailed in a POC implemented within DocuSign during 2022.
 
@@ -48,8 +48,8 @@ See detailed milestones and roadmap in the milestones  in the appropriate chapte
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
-- **Where and how does your project fit into the ecosystem?:** As an ID verification module available to all dAPP builders through Mintbase toolkit 
-- **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?** dAAPs building reputation systems or trust hierarchies or in need to comply with ID verification and data processinh regulations.
+- **Where and how does your project fit into the ecosystem?:** As an ID verification module available to all dAPP builders through Mintbase toolkit. 
+- **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?** dAAPs building reputation systems, trust scores or in need to comply with ID verification and data processing regulations.
 **- What need(s) does your project meet?:** We try to solve the problem of trust and accountability while allowing users to keep their self-sovereignty
 **- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?:** Not that we're aware of
  ** - If not, are there similar projects in related ecosystems?** [Project Galaxy](https://galxe.com/galxeid)
@@ -106,57 +106,37 @@ Apart from conceptualizing the architecture of the SDK and building the mockups,
 
 ### Overview
 
-- **Total Estimated Duration:** 3 months
+- **Total Estimated Duration:** 10 weeks
 - **Full-Time Equivalent (FTE):**  4
-- **Total Costs:** 50,000 USD
+- **Total Costs:** 20,000 USD
 
-
-
-twitter, authentation NEAR wallet, tokens near, chave movel digital
 
 ### Milestone 1 — Verification connector
 
-- **Estimated duration:** 1 month
+- **Estimated duration:** 6 weeks
 - **FTE:**  4
-- **Costs:** 20,000 USD
+- **Costs:** 15,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 1. | Connector API service | Integrates with OAuth protocols from providers twitter, discord, github google. Implements NEAR Wallet authentication, NEAR token verification. Web3 assetts, chave móvel digital services integrations. |
+| 1. | Connector API service | Integrates with OAuth protocols from web2 providers such as twitter, discord, github google, facebook, reddit and github. Implements NEAR Wallet authentication, NEAR tokens verification, NEAR social and connects to digital ID providers connected to WalliD ecosystem such as Chave Móvel Digital |
 | 2. | Documentation | Tecnical documentation, setup samples,  |
 | 3. | Tests | Unit Tests |
 
 
-### Milestone 2 — WalliD Verification connector config module
+### Milestone 2 — SDK NPM lib
 
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 4 weeks
 - **FTE:**  4
-- **Costs:** 15,000 USD
+- **Costs:** 5,000 USD
 
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 1. | Dashboard frontend         | Webapp VueJS to setup accounts, select ID providers, setup developer account, url redirect  |
-| 2. | Dashboard API services     | Layer of communication to supported dashboard operation |
-| 3. | Testing guide              | Unit tests, coverage tests |
-| 4. | Documentation | Tecnical documentation, pratical samples, integration samples  |
-
-
-### Milestone 3 — SDK NPM lib
-
-- **Estimated Duration:** 1 month
-- **FTE:**  4
-- **Costs:** 15,000 USD
-
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 1. | NPM Lib part 1 | Javascript section of the lib to implements operations supported by the verification connector. Allows users to authorize using NEAR wallets OAuth protocols, and digital ID protocols connected to WalliD's ecosystem. Supports admin operations for setup module. |
-| 2. | NPM Lib part 2 | Vuejs, React section of the lib to implement the already configurated Verification connector on client dApp frontends  |
+| 1. | NPM Lib part 1 | Javascript section of the lib to implement operations supported by the verification connector. Allows users to authorize using NEAR wallets, OAuth protocols and digital ID protocols connected to WalliD's ecosystem. Supports admin operations for setup module. |
+| 2. | NPM Lib part 2 | Vuejs, React section of the lib to implement the already configured Verification connector on client dApp frontends  |
 | 3. | Testing guide | coverage tests, unit tests | 
 | 4. | Documentation | Tecnical documentation, coverage test, pratical samples, build instructions |
-
-
 
 
 ...
