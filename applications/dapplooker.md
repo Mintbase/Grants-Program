@@ -148,12 +148,12 @@ Yes, in related ecosystems, there are projects such as Dune Analytics and Footpr
     - Abhinav Singh
 
 - Names of team members
-    - Hitesh K. - Core Dev
     - Vikas C. - Head of Engineering
+    - Hitesh K. - Core Dev
     - Deep S. - Growth Lead
     - Harsh R. - Front-end Dev
     - Deepak K. - Front-end Dev
-    - Sumit M. - Front-end Dev
+    - Chaityna - Blockchain Dev
 
 
 ### Contact
