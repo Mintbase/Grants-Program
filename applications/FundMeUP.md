@@ -166,6 +166,71 @@ For each milestone,
 - **Full-Time Equivalent (FTE):**  Aaron DuChateau - full time. Zach Cogan - part time contributor. Evey Neely - part time contributor. Graphic Artist Contractor (TBD) - part time, Engineer Contractor - part time, code bounty contributors - part time.  
 - **Total Costs:** $50,000 
 
+
+### Milestones revised (for approved $15,000):
+### Milestone 1
+- **Estimated duration:** 1 month
+- **FTE:**  1-2
+- **Costs:** 5,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Domain Registration | We will provide a deliverable hosted on this domain. |
+| 0c. | Github & Project Repos | Link to be provided in end of month in report. |
+| 0d. | Vercel set up with CI and links to respective Github repo | We will provide a deliverable on this hosting service |
+| 0e. | Home Page featuring sample campaigns and category explanations | link |
+| 0f. | Mobile friendly slide menu for in app navigation | code or demo |
+| 0g. | Template for terms of service page with dummy content | link |
+| 0h. | Campaign builder: Category specification (5-6 options) | code or demo |
+| 0i. | Campaign builder: Funding Type specification (3 options) | code or demo |
+| 0j. | Campaign builder: Funding Type Details filled out | code or demo |
+| 0k. | Campaign builder: Campaign Details filled out 1 | code or demo |
+| 0l. | Campaign builder: Campaign Details filled out 2 | code or demo |
+| 0m. | Campaign builder: Campaign Preview as presented to end user in lightbox | code or demo |
+
+### Milestone 2
+- **Estimated duration:** 1 month
+- **FTE:**  1-2
+- **Costs:** 5,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | Initial Postgres schema creation for campaign drafts | code |
+| 0b. | Postgres migration library or service for updates | code |
+| 0c. | Initial authentication management for user end drafts | code |
+| 0d. | Postgres Deployment as service | code |
+| 0e. | Configure CORS for client side integration | code |
+| 0f. | Client side integration for drafts | code or demo |
+| 0g. | Client side integration for submission | code or demo |
+| 0h. | SendGrid integration for review status: initiated | code or demo |
+| 0i. | SendGrid integration for review status: accepted | code or demo |
+| 0j. | SendGrid integration for review status: rejected | code or demo |
+| 0k. | End user active campaign manager: list campaigns | link |
+| 0l. | End user active campaign manager: status integration | link |
+| 0m. | End user active campaign manager: edit prelaunch integration | link |
+| 0n. | Saved Photo management for drafts | demo |
+
+
+### Milestone 3
+- **Estimated duration:** 1 month
+- **FTE:**  1-2
+- **Costs:** 5,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | Research spike non-profit listing reach out and relationship management | document of feedback |
+| 0b. | Google form for non-profit campaign submission | form |
+| 0c. | Campaign builder instructional walkthrough | video |
+| 0d. | Secure 10-20 pre-approved funding recipients that agree to be listed as beta particpants (fitting initial prototype ethical standards) | page / link |
+| 0e. | Initial deliverable on Terms of Service v1 | page / link |
+| 0f. | Simplified App Guidelines | page / link |
+| 0g. | Mintbase integration for approved campaigns of type 1 (full lifecycle) | demo / code |
+| 0h. | Discord configuration and management | link |
+| 1a. | 2 alternative funding mode smart contract iterations (if time allows)
+| 1b. | campaign sharing social media iteration (if time allows)
+
+### PREVIOUS Milestones archive (for $50,000)
 ### Milestone 1 - Foundation
 
 - **Estimated duration:** 1 month
