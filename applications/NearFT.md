@@ -8,6 +8,7 @@
 - **Team Name:** DeGa Labs
 - **Payment Address:** nearftamm.near
 - **[Level](../README.md#level_slider-levels):**  2
+- **Approved for Grant:** 30,000$
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
