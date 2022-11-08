@@ -1,15 +1,15 @@
-# Distrotron - Mintbase Grant Proposal
+# Coötoo & Distrotron - Mintbase Grant Proposal
 
-- **Project Name:** Distrotron 
+- **Project Name:** Coötoo 
 - **Team Name:** Stateless (pending DAO legal incorporation)
-- **Payment Address:** stateless.near  
+- **Payment Address:** stateless.near
 - **Level:** 1 (up to 10k)
 
 ## Project Overview 
 
 **Distrotron is the distribution contract from Coötoo - an easy way to automatically distribute funds to all the authorized minters in a Mintbase store.**
 
-*NOTE: our team had originally submitted the whole Coötoo toolkit for the grant level 2. This is a separate submission of just one element (the distribution contract) as a level 1 grant.*
+*NOTE: our team had originally submitted the whole Coötoo toolkit for the grant level 2. We will be doing now just one element (the distribution contract) as a level 1 grant.*
 
 
 - Why Distrotron 
@@ -24,7 +24,7 @@ Some of the use cases we envision:
 - Distribute funds received by an artist cooperative (the Coötoo use case)
 - Tip at once all the current minters in a store 
 - Share revenues coming from sources other than NFT splits
-- Expand the DAO-like capabilities of Mintbase store contracts  
+- Expand the DAO-like capabilities of Mintbase store contracts
 
 
 Example: 
@@ -38,6 +38,14 @@ In the cooperative use case, every NFT sale is split between the artist & the co
 
 
 *NOTE: Along this application we are leaving references to the whole Coötoo toolkit, but the distribution contract is the only part that will be developed as this Level 1 grant application, as shown on the updated milestones*
+
+ - What is Coötoo
+  
+The coötoo open source toolkit allows distribution of NFT sales revenue among co-op members in an automated way. Easily deploy your own contracts for minting, distribution and governance, then customize them according to your needs. 
+
+
+Every NFT sale is split between the artist & the co-op DAO. In this co-op model, artists can support each other, creating a space for more collaboration and less competition. This means artists get revenue regardless of sales. In addition to the revenue distribution, the cooperative can choose where to invest extra funds through DAO governance. What is the best balance for revenue splits between individual & group? Each co-op instance can choose the numbers that make sense for their use case.
+
 
 
 - Relation to the Mintbase / NEAR ecosystem:
@@ -149,7 +157,7 @@ Some selected team presentations:
 
 * Lenara and Ilan present coötoo at NFT BERLIN https://www.youtube.com/watch?v=aYHwy014RCA
 * Lenara and Mykle pitch Plantary at Kernel https://www.youtube.com/watch?v=qUDBh8S_WNs 
-* Lenara and Mykle talk about their background in decentralized art at NEAR Without The Noise podcast #3 https://www.youtube.com/watch?v=VG8j_sGQqAQ  
+* Lenara and Mykle talk about their background in decentralized art at NEAR Without The Noise podcast #3 https://www.youtube.com/watch?v=VG8j_sGQqAQ 
 * Bonus: picture of ilan presenting Stateless at the Wilde Möhre Festival https://www.statelessart.org/statelesstalk01.jpg
 
 ### Team Code Repos
@@ -174,7 +182,7 @@ Current development by Mykle is at [https://github.com/myklemykle/stateless](htt
 
 The first work on the early contract was done by Sparrow during the Open Web Hackathon in 2021 and is published to [https://github.com/STATELESSART](https://github.com/STATELESSART) 
 
-The sketches and early UI designs are in the Figma document [https://www.figma.com/file/K1CfvB26A8dbQMc6uCvZlG/FACELESS?node-id=0%3A1](https://www.figma.com/file/K1CfvB26A8dbQMc6uCvZlG/FACELESS?node-id=0%3A1)  
+The sketches and early UI designs are in the Figma document [https://www.figma.com/file/K1CfvB26A8dbQMc6uCvZlG/FACELESS?node-id=0%3A1](https://www.figma.com/file/K1CfvB26A8dbQMc6uCvZlG/FACELESS?node-id=0%3A1) 
 
 Conversations with Mintbase team members happened on Discord and Telegram mostly.
 
@@ -192,7 +200,7 @@ The recording of our presentation at NFT Berlin is available at: [https://www.yo
 * Full-Time Equivalent (FTE): 1.6
 * Total Costs: 1000 USD
 
-### Milestone 1: Stateless DAO Distribution Contract.
+### Milestone 1: Distribution Contract.
 
 
 
@@ -216,7 +224,7 @@ The recording of our presentation at NFT Berlin is available at: [https://www.yo
 
 
 
-### Milestone 2: Stateless DAO Distribution Interface
+### Milestone 2: Distribution Interface
 
 
 
