@@ -17,10 +17,10 @@ Our proposal is to develop a Playable NFT Marketplace Based on AMBER Open-source
 
 ![alt text](https://raw.githubusercontent.com/AMBER-Open-Source-Metaverse/UX-wireframe-for-playable-NFT-marketplace-powered-by-Mintbase/master/2-App-Marketplace.png)
 
-We have prepared a grey layout describing our NFT marketplace idea 
+We will prepare a grey layout describing our NFT marketplace idea 
 
-We use a technical method proposed by NEAR, which means using smart contracts on the backend and some frontend 
-
+We will use a technical method proposed by NEAR, which means using smart contracts on the backend and some frontend 
+s
 We assume that the marketplace will be developed in JavaScript (React) with Gatsby and hosted on Neltify. Also possible integration with our C# backend, a plugin for the Unity game engine that communicates with the Mintbase API and allows downloading, streaming, caching  NFT from the storage directly to the while playing the game and utilise the NFT as playable NFT asset.
 
 At the moment we have an MVP of a third person shooter game which already uses NFT from the Mintbase marketplace. An example is deployed at https://amber.top where when you run the WebGl game (desktop only Chrome Firefox) you will get an nft avatar where the forever_media whith is attached to NFT by Mintbase smart-contract is streamed from IPFS into the game environment using our plugin. We also have an iPhone game that works the same way and is available for installation via the AppStore Testflight (Iphone 12+ Only)
@@ -41,7 +41,6 @@ There are other projects in the NEAR ecosystem with a similar approach, as inter
 ### Team members
 
 - Valentin Sotov - Product Owner
-- Kornelii Petrus - Product Manager / Scrum Master
 - Andreas Kobal - CTO
 - Melody NFT - CMO
 - Edgar Osipov - COO
@@ -67,7 +66,7 @@ There are other projects in the NEAR ecosystem with a similar approach, as inter
 
 ### Team's experience
 
-Hustle Stacks is an experienced team with a strong technical background in building web3 products and extensive marketing knowledge. We are proud to take on complex tasks and we do it with true passion 
+AMBER Metaverse is an experienced team with a strong technical background in building web3 products and extensive marketing knowledge. We are proud to take on complex tasks and we do it with true passion 
 
 Earlier we recieved funding from HumanGuild and having completed the basic milestones of creating an NFT third person shooter game for web and iOS and achieved the KPI of creating a Unity plugin that uses NFT metadata and fetches files from IPFS as playable avatars.
 
@@ -106,7 +105,7 @@ The repository can be found on [GitHub](https://github.com/snowflake-dev918/Ambe
 
 - **Total Estimated Duration:** 6 months
 - **Full-Time Equivalent (FTE):**  13 FTE
-- **Total Costs:** 250,000 USD
+- **Total Costs:** 30,000 USD
 
 ### Milestone 1 — Research, UX prototyping
 
@@ -126,41 +125,11 @@ The repository can be found on [GitHub](https://github.com/snowflake-dev918/Ambe
 | 3. | UX wireframe |  We will create grey mock-ups of the future UI to suit the target audience | 
 
 
-
-### Milestone 2 — 'For you' UI Design, view and model development
-
-- **Estimated duration:** 1 month
-- **FTE:**  13
-- **Costs:** 50,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | Licence | GNU GPLv3  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
-| 1. | ui view design: for you | we will design the ui for view 'for you' |
-| 2. | Mintbase / AMBER module: For you | we will create a frontend for the 'for you' view |
-| 3. | Mintbase / AMBER module: Stories Highlights | we will create a highlights module which allows you to let the user know about updates, new collections and interface updates |
-| 4. | Mintbase / AMBER module: Stories Highlights | we will design a frontend for a scrolling stories-like carousel which can be tapped left and right as part of the highlights module |
-| 5. | Mintbase / AMBER module 'content management system for stories' | we will develop an admin panel for the content management of stories |
-| 6. | Mintbase / AMBER module: sets | designing a module for sets dedicated to a certain theme, e.g. red set, gold set which contains the possibility of finding nft in the marketplace |
-| 7. | Mintbase / AMBER module: content management system sets | we will develop an admin panel for the administration of content sets |
-| 8. | Mintbase / AMBER module: single set view | we will create a set view with the ability to find the selected item in the marketplace |
-| 9. | Mintbase / AMBER module: like set | we will develop a 'like set' module |
-| 10. | Model for 'for you' view | we will create a model for the ability to store likesets in an off-chain database |
-| 11. | Mintbase / AMBER module: add funds to balance: ui design | we will develop a ui design for the 'add funds to balance' module |
-| 12. | Mintbase / AMBER module: add funds to balance: frontend | we will create a frontend  for add funds to balance in for you view  
-
-
-
-
-### Milestone 3 —  'Trade' UI Design, view and model development
+### Milestone 2 —  'Trade' UI Design, view and model development
 
 - **Estimated Duration:** 1 month
 - **FTE:**  13
-- **Costs:** 50,000 USD
+- **Costs:** 25,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -176,79 +145,9 @@ The repository can be found on [GitHub](https://github.com/snowflake-dev918/Ambe
 | 5. | Mintbase / AMBER module: search | we will develop a product search module for the marketplace | 
 | 6. | Mintbase / AMBER module: filters | we will develop a module with filters for categories, visual attributes, and availability of special utility 
 | 7. | Mintbase / AMBER module: sorting | we will design a module to sort by relevance, price, date added | 
-| 8. | Mintbase / AMBER module: like product | we will create a like module | 
-| 9. | model for the like module | we will create a model to store the like data in an off-chain database
-| 10.| Mintbase / AMBER module: 3d product presentation | we will develop a 3d presentation of items in the marketplace using three.js, integration of three.js in the frontend |
+| 8.| Mintbase / AMBER module: 3d product presentation | we will develop a 3d presentation of items in the marketplace using three.js, integration of three.js in the frontend |
 
-### Milestone 4 — 'Chest' UI Design, view and model development
 
-- **Estimated Duration:** 1 month
-- **FTE:**  13
-- **Costs:** 50,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | Licence | GNU GPLv3  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
-| 1. | Design ui: catalogue of chests | we will create a design ui for view 'chest' |
-| 2. | Design ui: single chest | we will create a ui design for view 'single chest' | 
-| 3. | Chest Animations | design microinteractions of the animated chest |
-| 4. | Mintbase / AMBER module: chest frontend | we will design the frontend for the views of catalogue chests and single chest (roll) |
-| 5. | Mintbase / AMBER module: smart contract chest | creating a smart contract for rolling nft from a chest with different rarity and roll probability which allows the user to do a roll and get an nft of different rarity or in some cases BOOM - nothing fell out
-| 6. | Mintbase / AMBER module: demo spin tool for the chests | creation of a demo spin module which allows the user to make a roll of the nft and get a chance to get a nft.
-| 7. | Chest design | the design of the different chests and their visual design
-| 8. | Creation of NFT metadata | creating metadata of the nft for the chsts
-| 9. | Mintbase / AMBER module: modal window with the received item | design and layout of the modal window "congratulations you have received..." | 
-
-### Milestone 5 — 'Trade' UI Design, view and model development
-
-- **Estimated Duration:** 1 month
-- **FTE:**  13
-- **Costs:** 50,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | Licence | GNU GPLv3  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
-| 1. | Design UI: sell | we will design the ui for view 'sell' |
-| 2. | Mintbase / AMBER module: search in sell | connect the search module in the sell view |
-| 3. | Mintbase / AMBER module: selling items in the marketplace | we will develop a module which will allow you to fetch nft available for sale using the Mintbase API |
-| 4. | Mintbase / AMBER module: Spot trade - selling items | creating a module that allows you to make an offer like on the spot market when an offer appears the item will be automatically sold and credited to your account |
-| 5. | Mintbase / AMBER module: Spot trade items - buy | we will create a module with the ability to make an offer to buy a specific item when the offer appears to sell the item automatically goes on sale |
-| 6. | Mintbase / AMBER module: Spot trade items - smart contract | create a smart contract for spot trade items
-
-### Milestone 6 — My Profile
-
-- **Estimated Duration:** 1 month
-- **FTE:**  13
-- **Costs:** 45,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | Licence | GNU GPLv3  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can become a creator of playable nfts, verify his account and profit by selling playable nft on the marketplace. For developers, we will create a github repository of the frontend of such a marketplace in and document the key decisions that have been made during development.  |   
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the GitHub repository , we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | In our Medium blog we will publish an **article**/  on this achieved milestone with code examples and a live demo |
-| 1. | Design UI: view my account | we will design the ui for view 'my account'
-| 2. | Mintbase / AMBER module: frontend view my account | we will design the frontend for view my account
-| 3. | Mintbase / AMBER module: set NFT as profile picture | we will build a module to change the profile picture to choose the pfp nft avatar you have in your wallet
-| 4. | Mintbase / AMBER module: frontend add funds to balance | we will create a frontend for the add funds module
-| 5. | Mintbase / AMBER module: Transaction subsection | create a design and frontend for the transaction subsection
-| 6. | Mintbase / AMBER module: customisation subsection | creation of the design and frontend of the customisation subsection
-| 7. | Mintbase / AMBER module: Support subsection | Create a design and frontend for the support subsection
-| 8. | Mintbase / AMBER module: Stuff status subsection | creating a design and frontend subsection of stuff status
-| 9. | Mintbase / AMBER module: profile customisation subsection | creating a design and frontend for the profile customisation subsection
-| 10. | Mintbase / AMBER module: Profile model | create a model and connect a database to store configuration data 
-| 11. | Mintbase / AMBER module: add funds to balance: ui design | we will develop a ui design for the 'add funds to balance' module |
-| 12. | Mintbase / AMBER module: add funds to balance: frontend | design a view for add funds to balance |
-| 13. | Mintbase / AMBER module: NEARPay | we will integrate the NEARPay API with the add funds module  
 
 
 ## Future Plans
