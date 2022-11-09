@@ -269,6 +269,8 @@ Please include here
 - MOB / Fab Lab will use the application for their daily printing business and promote it within their community
 - deployed application will be available for use within Mintbase ecosystem
 - All library integration will be used and maintained within the eXplorins "shopify" ecosystem
+- When this project got traction we would need to build a decent onboarding // dashboard for    creators & printing services to choose
+- Further we would need to increase user experience by enhancing features such as scaling, colors, meterials etc, as well as choosing the closest // favorite printing service
 - 
 - how you intend to use, enhance, promote and support your project in the short term, and
 - the team's long-term plans and intentions in relation to it.
