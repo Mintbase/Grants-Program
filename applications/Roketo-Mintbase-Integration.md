@@ -16,22 +16,19 @@
 
 ### Project Details
 
-- [Mockup of Roketo-Mintbase-Integration](https://www.figma.com/proto/0n8fXQiu5Cng0HNSKj8Pyq/%F0%9F%9A%80-Roketo?page-id=21%3A296&node-id=16%3A1375&viewport=-799%2C2069%2C0.19&scaling=scale-down-width&hide-ui=1&starting-point-node-id=16%3A1375).
-- [API specifications of the core functionality](https://roketo.notion.site/Roketo-v2-contract-api-59c29437ae9f403a824536732d80e856).
+- [API specifications of the core functionality](https://docs.roke.to/docs/Guides/how-to-use-the-contract).
 - Technology stack to be used: Rust, Near, React
 
 ### Ecosystem Fit
 
 - Roketo increases the activity of your audience.
 - Right now, our target audience can be categorised in the following groups:
-1. NFT creators, artists
-2. NFT enthusiasts
+1. NFT creators, artists,
+2. Airdrop senders,
 3. Crypto developers (Web3 and Web2)
 - What need(s) does Roketo-Mintbase-Integration meet:
-1. Roketo gives creators the ability to subscribe to MintBase. Gives premium features to NFT creators.
-2. Roketo spotlights the partner creatives. Promotes premiun creators.
-3. Roketo NFT streaming provides exclusive opportunity to give value to the NFT. Only for mintbase partners.
-- Roketo-Mintbase-Integration has no similar projects in the Mintbase / NEAR ecosystem.
+1. Roketo gives the a simple way to stream FT to an NFT holder with a tokenId. Feature will be realized from Roketo dApp interface. 
+2. Roketo gives an option to begin the stream on first transfer after mint.
 
 ## Team :busts_in_silhouette:
 
@@ -39,9 +36,9 @@
 
 - Taras Dovgal - CEO
 - Vasilisa Versus - CTO
-- Serge Lebedev - Tech Lead
+- Dmitry Tupalov - Tech Lead
 - Vlad Dziarkach - Product Manager
-- Olga Isaeva - BizDev
+- Yahor Viarbitski - BizDev
 - Dmitry Boldyrev - Software Engineer
 - Ekaterina Zhdanova - Software Engineer
 - Dmitry Shcherbyna - UI/UX Designer
@@ -63,7 +60,7 @@
 
 - Vasilisa Versus
   - Co-Founder and CTO at Roketo
-- Serge Lebedev
+- Dmitry Tupalov
   - Fullstack developer and Tech lead at Roketo
 - Dmitry Boldyrev
   - Fullstack developer at Roketo
@@ -73,7 +70,6 @@
 - https://github.com/roke-to
 
 - https://github.com/dcversus
-- https://github.com/lebedev
 - https://github.com/zerobias
 
 ### Team LinkedIn Profiles (if available)
@@ -87,49 +83,18 @@ We are in the process of describing the idea.
 
 ## Development Roadmap :nut_and_bolt:
 
-1) Implement Subscription widget
-2) Implement Spotliting of NFT cards, NFT collections, creator's gallerys
-3) Implement Stream to NFT tool
+1) Implement stream FT to an NFT holder feature
+2) Implement an option to begin the stream on first transfer after mint
 
 ### Overview
 
-- **Total Estimated Duration:** 9 months
+- **Total Estimated Duration:** 3,5 months
 - **Full-Time Equivalent (FTE):**  10 FTE
-- **Total Costs:** 80,000 USD
+- **Total Costs:** 25,000 USD
 
-### Milestone 1 — Implement Subscription widget
+### Milestone 1 — Implement stream FT to an NFT holder feature
 
-- **Estimated duration:** 3,5 months
-- **FTE:**  10
-- **Costs:** 30,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | MIT |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article	 | We will publish an article/workshop that explains how to integrate and use the widget on a site. |
-| 1. | Subscription widget: X | We will create a widget that will give the ability to get the premiun subscription on MintBase with alert system and 4 widget states|  
-
-### Milestone 2 — Implement Stream to NFT
-
-- **Estimated Duration:** 3 months
-- **FTE:**  10
-- **Costs:** 30,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | MIT |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article	 | We will publish an article/workshop that explains how to integrate and use the streaming to NFT feature on a site. |
-| 1. | Stream to NFT: X | We will create a tool that will be implemented to the list of creator's tools and give the ability to create and start token streaming to the NFT owner |  
-
-### Milestone 3 — Implement Spotliting
-
-- **Estimated Duration:** 2,5 months
+- **Estimated duration:** 1,5 months
 - **FTE:**  10
 - **Costs:** 20,000 USD
 
@@ -139,16 +104,30 @@ We are in the process of describing the idea.
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1. | Spotliting: X | We will create a system that will give the ability to spotlight premium creators' NFTs, NFT collections, Galleries |  
+| 0e. | Article	 | We will publish an article/workshop that explains how to use the streaming to NFT feature. |
+| 1. | Subscription widget: X | We will create a tool that will give the ability to start token streaming to the NFT owner |  
+
+### Milestone 2 — Implement an option to begin the stream on first transfer after mint
+
+- **Estimated Duration:** 2 months
+- **FTE:**  10
+- **Costs:** 5,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | MIT |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article	 | We will publish an article/workshop that explains how to switch on the option to start the stream on first transfer after mint. |
+| 1. | Stream to NFT: X | We will create an option to begin the stream on first transfer after mint |   
 
 ...
 ## Future Plans
 
 We have plans to:
-- In the short term, we will hold the Roketo hackaton to collect the feedback about this integrations.
-- We will compete in NearCon.
 - We plan to contibute the guidelines.
-- Drive auditory around the subscription widget.
+- Drive auditory around the stream FT to NFT feature.
 - Support new integrations with recurrent payment system in crypto.
 
 ## Additional Information :heavy_plus_sign:
