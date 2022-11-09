@@ -30,8 +30,6 @@ Through the NEAR based NanoStore app users may place items in their sorrounding 
 Kickoff: Dec 1st, 2022
 Prod-ready MVP: March 1st, 2023
 
-<!-- The first MVP will be launched at an art event "Espai Fusio" for multidisciplinary creators in Barcelona in the end of October 2022. A professional 3D printing company located at the venue will receive all printing jobs directly onsite. Transactions will be done through NEAR and Mintbase. -->
-
 For eXplorins this project is highly aligned with our strategy to build a increasing set of features combining online & offline experiences.
 https://about.explorins.com/en/
 
@@ -263,44 +261,6 @@ For each milestone,
 | 4. | Firebase / DB | Deploy a production database, deploy at nano-store.app |  
 | 5. | NEAR chain integration | mainnet |
 
-<!-- ### Milestone 4 — Printing NEAR Transaction & Multi Printing Options
-
-- **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 8,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License |  MIT  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | - |
-| 1. | Library NEAR / Mintbase | Transaction printingjob |  
-| 2. | Library Printer | Select printer and send shipping address |  
-| 3. | webapp project | - |  
-| 4. | Firebase / DB | - |  
-| 5. | NEAR chain integration | - | -->
-
-<!-- ### Milestone 5 — Product Promotion, Dashboard to setup printer & collections 
-
-- **Estimated duration:** 1 month
-- **FTE:**  1
-- **Costs:** 5,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License |  MIT  |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | Presentation Project (Medium) |
-| 1. | Library NEAR / Mintbase | - |  
-| 2. | Library Printer | - |  
-| 3. | webapp project | Customization & Dashboard Printer & Collections |  
-| 4. | Firebase / DB | Collections & customized templates |  
-| 5. | NEAR chain integration | - |
- -->
 ## Future Plans
 
 Please include here
