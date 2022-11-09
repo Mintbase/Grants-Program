@@ -120,10 +120,6 @@ As for now, we've already done:
 1. [Telegram Bot: @metronomo_bot](https://t.me/metronomo_bot) to test hypotheses on NEARCON and research projects' pains and value requests. We found out that the user acquisition part of the ecosystem lacks the most familiar tools and techniques.
 2. For now, we consider that the primary method to find power users will be RFM-segmentation https://en.wikipedia.org/wiki/RFM_(market_research)
 3. We created basic projects' and users' similarity analysis tools. We found out that it's possible to compute on not very expensive servers and in a reasonable time for creating a product.
-4. There are several user-similarity techniques described in the papers, which we will test and implement. For example (but not limited to):
-   1. https://link.springer.com/article/10.1007/s10115-021-01651-8
-   2. https://ieeexplore.ieee.org/abstract/document/904471
-   3. https://link.springer.com/chapter/10.1007/978-981-19-1018-0_42
 
 During this project, we are going to get three main results:
 - create a module to find power users who interacted with a given smart contract.
@@ -141,8 +137,8 @@ During this project, we are going to get three main results:
 ### Milestone 1 — Implement power-users search module
 
 - **Estimated duration:** 1 month
-- **FTE:**  1
-- **Costs:** 5,000 USD
+- **FTE:**  0.5
+- **Costs:** 2,500 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -150,14 +146,16 @@ During this project, we are going to get three main results:
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic tutorial on deploying and running created module.
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1. | Power-users-search module | We will create a module that will search for power users of a smart contract, given the indexed blockchain data in described format.  
+| 1. | Power-users-search module | We will create a module that will search for power users of stores build on Mintbase, given the indexed blockchain data in described format.
 
+We will create only mapping of Mintbase smart contracts methods and arguments to users engagement model 
+We will create users engagement model (to measure user engagement and identify the most valuable users)
 
 ### Milestone 2 - Implement look-a-like module
 
 - **Estimated Duration:** 1,5 months
-- **FTE:**  2
-- **Costs:** 15,000 USD
+- **FTE:**  1
+- **Costs:** 7,500 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -165,7 +163,10 @@ During this project, we are going to get three main results:
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic tutorial on how to deploy and run created module.
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 1. | Look-a-like module | We will create a module that will create a look-a-like (embedded vector) representation of power users in user space
+| 1. | Look-a-like module | We will create a module that will create a look-a-like (embedded vector) representation of power users in user space. 
+
+We will create a module that will create a look-a-like (embedded vector) representation of all NEAR users in user space.
+We will implement single frequency-recency engagement evaluation to create user vector representation (however, this method should be quite accurate)
 
 ### Milestone 3 - Implement the users' similarity module and the users' activity module
 
