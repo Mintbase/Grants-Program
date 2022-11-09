@@ -92,11 +92,26 @@ We are in the process of describing the idea.
 - **Full-Time Equivalent (FTE):**  10 FTE
 - **Total Costs:** 25,000 USD
 
-### Milestone 1 — Implement stream FT to an NFT holder feature
+### Milestone 1 — Implement stream FT to an NFT holder feature (smart contract creation)
 
-- **Estimated duration:** 1,5 months
+- **Estimated duration:** 1 months
 - **FTE:**  10
-- **Costs:** 20,000 USD
+- **Costs:** 15,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | MIT |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article	 | We will publish an article/workshop that explains how to use the streaming to NFT smart contract. |
+| 1. | Subscription widget: X | We will create a smart contract that will give the ability to start token streaming to the NFT owner |  
+
+### Milestone 2 — Implement stream FT to an NFT holder feature to Roketo dApp UI
+
+- **Estimated Duration:** 1 months
+- **FTE:**  10
+- **Costs:** 5,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -105,9 +120,9 @@ We are in the process of describing the idea.
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article	 | We will publish an article/workshop that explains how to use the streaming to NFT feature. |
-| 1. | Subscription widget: X | We will create a tool that will give the ability to start token streaming to the NFT owner |  
+| 1. | Stream to NFT: X |  We will create a tool in Roketo UI that will give the ability to start token streaming to the NFT owner |   
 
-### Milestone 2 — Implement an option to begin the stream on first transfer after mint
+### Milestone 3 — Implement an option to begin the stream on first transfer after mint
 
 - **Estimated Duration:** 2 months
 - **FTE:**  10
@@ -128,6 +143,7 @@ We are in the process of describing the idea.
 We have plans to:
 - We plan to contibute the guidelines.
 - Drive auditory around the stream FT to NFT feature.
+- Promote the FT to NFT streaming in GameDev community.
 - Support new integrations with recurrent payment system in crypto.
 
 ## Additional Information :heavy_plus_sign:
