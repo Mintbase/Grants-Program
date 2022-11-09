@@ -148,8 +148,8 @@ During this project, we are going to get three main results:
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 1. | Power-users-search module | We will create a module that will search for power users of stores build on Mintbase, given the indexed blockchain data in described format.
 
-We will create only mapping of Mintbase smart contracts methods and arguments to users engagement model 
-We will create users engagement model (to measure user engagement and identify the most valuable users)
+- We will create only mapping of Mintbase smart contracts methods and arguments to users engagement model 
+- We will create users engagement model (to measure user engagement and identify the most valuable users)
 
 ### Milestone 2 - Implement look-a-like module
 
@@ -165,8 +165,8 @@ We will create users engagement model (to measure user engagement and identify t
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 1. | Look-a-like module | We will create a module that will create a look-a-like (embedded vector) representation of power users in user space. 
 
-We will create a module that will create a look-a-like (embedded vector) representation of all NEAR users in user space.
-We will implement single frequency-recency engagement evaluation to create user vector representation (however, this method should be quite accurate)
+ - We will create a module that will create a look-a-like (embedded vector) representation of all NEAR users in user space.
+ - We will implement single frequency-recency engagement evaluation to create user vector representation (however, this method should be quite accurate)
 
 ### Milestone 3 - Implement the users' similarity module and the users' activity module
 
