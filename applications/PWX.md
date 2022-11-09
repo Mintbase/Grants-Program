@@ -186,10 +186,11 @@ _N/A_
 - Ricardo Nunes - https://github.com/ricardocanbereached
 - Paulo Fernandes - https://github.com/PauloMonteiroFernandes
 
-## Development Status 📖
+## Development Status :open_book:
+
 Actual development roadmap will be defined in the coming weeks, depending on the conditions defined in the development status. Once the business roadmap is closed and the technology architecture is defined, we should be ready to implement a service that provides to major componentes.
 
-## Development Roadmap 🔩
+## Development Roadmap :nut_and_bolt:
 
 1) Binding contracts that allow purchasing Token futures based on the ownership of an NFT
     a) Buy the NFT (the smart contract activation fee)
@@ -201,10 +202,21 @@ Actual development roadmap will be defined in the coming weeks, depending on the
 
 These two components, are the main deliverables that will be considered, either one, both, or subsets of the functionality that allow us to reach an MVP as soon as possible. While we have no verifiable software development milestones at this point, we are working hard on closing our business loops so that the actual software architecture and developement roadmap becomes clear ASAP.
 
+
+### Deliverable 1 — Implement PWX with Mintbase Modules
+
+- **Estimated duration:** 1 month
+- **FTE:**  1
+- **Costs:** 10,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 1. | PWX Marketplace | first version of the PWX, including the foundational components of the PWX marketplace, built with Mintbase tools, adapting the UI/UX to our intended experience and defining the default settings for minting on the PWX. Ideally, the first code release will also include a simple minter that allows batch generation of an NFT series associated with a whisky cask. Brand Identity and website will also be included in this process, as well as setting up a test store as the gateway into a blender’s portfolio and determining how to set up whisky on the PWX. |
+
 ### Overview
+
+Overview of the planned effort for the entire phase 1 of the project (and not just the mintbase-related grant deliverables.)
 
 * Total Estimated Duration: 52 weeks
 * Full-Time Equivalent (FTE): 2
 * Total Costs: 50000 USD
-
-Milestones: _To Be Defined_
