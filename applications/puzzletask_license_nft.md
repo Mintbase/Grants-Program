@@ -4,7 +4,7 @@
 
 - **Project Name:** Puzzletask NFT Client Certification
 - **Team Name:** Puzzletask
-- **Payment Address:** adalberto.near
+- **Payment Address:** puzzletask.near
 - **[Level](../README.md#level_slider-levels):** 2
 
 
