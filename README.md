@@ -27,11 +27,11 @@
 
 ## :wave: Introduction
 
-Although we are accepting applications now, the program will not begin funding until July 1st 2022.  
+Although we are accepting applications now, the program will not begin funding until September 1st 2022.  
   
 As part of our commitment to always improving the Mintbase + NEAR ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and our [GraphQL Indexer API](https://docs.mintbase.io/dev/getting-started)**.
 
- Thanks to the [Web3 Foundation Grants Program](https://github.com/w3f/Grants-Program) for providing the structural outline for this program.
+ Thanks to the [Web3 Foundation's Grants Program](https://github.com/w3f/Grants-Program) for providing the structural outline for this program.
 
 
 ### Guidelines
@@ -63,6 +63,7 @@ Finally, we take licensing and the right of all teams in and outside the ecosyst
 We also try to enforce our [code of conduct](CODE_OF_CONDUCT.md) and reserve the right to [block users](https://github.blog/2016-04-04-organizations-can-now-block-abusive-users/) if necessary.
 
 ### Project Ideas
+Not sure where to start? Take a look at [this list of ideas](https://docs.mintbase.io/dev/build-ideas). 
 
 [Requests For Proposals](rfps) (RFPs) represent concrete ideas for projects that we would like to see implemented. Several teams may apply for the same RFP, so even if another team has already applied to implement a certain RFP, we invite you to do the same if you're interested.
 
@@ -111,7 +112,7 @@ USD equivalent payments are made in NEAR.
 
 - **Target:** Small teams/start-ups
 - **Amount:** Up to $50,000
-- **Requirements:** 3 approvals
+- **Requirements:** 3 approvals and one pitch to Mintbase Council
 - **Benefits:** All of the above + [co-promotion](./docs/announcement-guidelines.md#announcement-guidelines)
 
 ### :rooster: Level 3<!-- omit in toc -->
@@ -155,7 +156,7 @@ USD equivalent payments are made in NEAR.
 
 ## :mailbox_with_mail: Suggest a Project
 
-If you think that we should support the development of certain tools or projects that aren't in the Mintbase [tech stack](docs/polkadot_stack.md), feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
+If you think that we should support the development of certain tools or projects that aren't in the Mintbase [tech stack](https://docs.mintbase.io/dev/getting-started/our-stack), feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
 
 **Submit an idea:**
 
@@ -216,7 +217,8 @@ Some funding sources might be more and some less suitable for your project throu
 
 The treasury is a pot of on-chain funds collected through transaction fees, slashing, staking inefficiencies, etc. The funds held in the treasury can be spent on spending proposals. [Mintbase](https://mintbase.io) offer everyone the opportunity to apply for funding via the treasury. See:
 
-- [Mintbase Treasury Account](https://explorer.near.org/accounts/mintgrants.near)
+- [Mintbase Treasury Account](https://nearblocks.io/address/mintbasegrants.near#transaction)
+`mintbasegrants.near`
 
 ### Hackathons
 
