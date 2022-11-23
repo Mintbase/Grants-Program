@@ -93,6 +93,7 @@ v. Mobile app
 - There is the need of a decentralized ticket management system to fight monopolies. There's also a need to costs down, preventing or severely reducing fakes/scams, price management, and scalping.
 
 - As far as we know, [Mintickt](https://www.mintickt.com/). They are still in stealth mode.
+- [YellowHeart](https://yh.io/) is probably the most famous NFT ticketing platform globally. We intend to focus on the African market.
 
 ## Team :busts_in_silhouette:
 
@@ -188,9 +189,9 @@ We have a working beta available to access on the [testnet](https://niftiqet-tes
 
 This will include the following features
 
-- Perform User-Tests to make the tool as user friendly as possible.
-- Add detailed documentation
-- Perform security and performance tests
+- 
+- 
+- 
 
 - **Estimated duration:** 1 month
 - **FTE:** 4
@@ -199,10 +200,10 @@ This will include the following features
 | Number | Deliverable      | Specification                                                                                                                                     |
 | -----: | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 |    oa | License          | MIT                                                                                                                                               |
-|    0b. | Documentation    | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user has to interact with Automat          |
-|    0c. | Testing Guide    | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-|    0d. | Testnet-Instance | We will provide a Testnet-Instance that can be used to test all the functionalites of our product.                                                |
-|    0e. | Article          | We will publish an **article** that explains all features and how to use them as well as two-weekly development updates in our discord-channel.   |
+|  1   | User testing  | Perform User-Tests to make the tool as user friendly as possible.       |
+|    2 | Documentation & Videos | Add detailed documentation and instruction videos|
+|    3 | Testnet-Instance | Perform security and performance tests|                                              |
+
 
 
 ## Future Plans
