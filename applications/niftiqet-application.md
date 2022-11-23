@@ -139,17 +139,11 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 
 
-## Development Status :open_book:
-
-We are already have a beta deployed on the mainnet, but want to not only add features, but 
-## Development Roadmap :nut_and_bolt:
-
-
-### Overview
+#
 
 ## Development Status :open_book:
 
-Work has not yet started.
+We have a working beta available to access on the [testnet](https://niftiqet-test.netlify.app/)
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -218,16 +212,17 @@ This will include the following features
 
 Please include here
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+- We intend to keep on adding more features to improve usability as well as improve the robustness/scalability of the project
+- We would partner with Mintbase, NEAR Africa, NEAR Foundation, Awesome NEAR, etc to make use of all available tools to grow our project.
+- In the longterm, we are looking to seek out investors (Seed, VCs, etc) to help with hiring, operations, etc.
 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** personal recommendation (one or both of Luis and Mariam)
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+- Members of the team have worked on the [Aave Java SDK](https://github.com/alienrobotninja/aave_java_sdk)
+- We have received previous funding from the NEAR foundation to help us build the first part of this project.
+- We previously unsuccessfully applied for a [grant](https://github.com/alienrobotninja/Mintbase-Grants-Program/blob/tunenifty/applications/tunenifty-application.md) from Mintbase.
