@@ -21,8 +21,6 @@ Niftiqet is an NFT ticketing management system built on Mintbase and NEAR.
 
 Niftiqet is a ticketing management system built using NFT technology. It is built on [NEAR](https://near.org) and [Mintbase](https://mintbase.io). It is meant to provide solutions to some of the problems plaguing the ticketing industry. These include keeping costs down, preventing or severely reducing fakes/scams, and scalping.
 
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
 
 ### Project Details
 
