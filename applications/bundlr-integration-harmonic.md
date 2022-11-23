@@ -91,10 +91,9 @@ YouTube, Instagram, TicToc, Spotify... we're going after the big boys. As far as
 
 **Jaswinder Singh**
 
-- Former, Product Manager at zblocks
+- Product Manager at zblocks
 - Former, Analyst at Barclays
 
-- https://skillbox.com/)
 
 ### Team Code Repos
 https://github.com/Harmonic-Guild
@@ -117,6 +116,8 @@ Harmonic has created a set of useful tools and projects for our clients.
 
 We aim to build on these successes to broaden our client base as well as expand our tools and projects. We want to ease onboarding, expand utility, and build a replicating network.
 
+Status: Ideation phase completed. Technical details and architecture in Process. Checked out Bundlr documentation and examples with other L1s. Carved out below Architecture. Experimenting with Bundlr js library currently. 
+
 ## Development Roadmap :nut_and_bolt:
 
 ### Overview
@@ -127,7 +128,10 @@ We aim to build on these successes to broaden our client base as well as expand 
 
 - **Total Costs:** 15,000 USD
 
-  ![](C:\Users\qarmi\OneDrive - Harmonic Technology Guild\Client and Partner Management\Mintbase\Screenshot_2022-11-22_at_11.07.56_PM.png)
+
+  <img width="967" alt="Screenshot 2022-11-22 at 11 07 56 PM" src="https://user-images.githubusercontent.com/12672862/203488301-b982fa44-c7f2-4820-8e36-54f21b7bcbdb.png">
+
+
 
 ### Milestone 1 — Build the Bundlr Integration
 
@@ -162,9 +166,9 @@ We aim to build on these successes to broaden our client base as well as expand 
 
 - Convert internal application into an application usable by the public.
 - Define a functioning UX for the system. Design and build a UI to suit. 
-- Provide users with the option to prefund upload. 
+- Provide users with the option to prefund Bundlr. 
 - Keep track of user states and histories.
- - Merging the two mint transaction and the upload transaction into a single signed transaction (if possible), otherwise create user flows that require both to take place and handle edge cases. 
+ - Merging the two transaction(Funding bundlr + mint) into a single signed transaction (if possible, this is experimental), otherwise create user flows that require both to take place and handle edge cases. 
 
 | Number | Deliverable   | Specification                                                |
 | -----: | ------------- | ------------------------------------------------------------ |
