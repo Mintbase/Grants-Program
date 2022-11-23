@@ -188,7 +188,6 @@ We have a working beta available to access on the [testnet](https://niftiqet-tes
 This will include the following features
 
 - Perform User-Tests to make the tool as user friendly as possible.
-- Publish a npm-package for easy integration of Automat.
 - Add detailed documentation
 - Perform security and performance tests
 
