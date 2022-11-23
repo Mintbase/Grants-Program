@@ -92,7 +92,8 @@ v. Mobile app
 - We are targeting event managers, event creators, musicians, and the like.
 - There is the need of a decentralized ticket management system to fight monopolies. There's also a need to costs down, preventing or severely reducing fakes/scams, price management, and scalping.
 
-- As far as we know, [Mintickt](https://www.mintickt.com/). They are still in stealth mode.
+- As far as we know, [Mintickt](https://www.mintickt.com/) on NEAR. They are still in stealth mode.
+- [YellowHeart](https://yh.io/) is probably the biggest NFt ticketing platform worldwide. We intend to foucs on the African market.
 
 ## Team :busts_in_silhouette:
 
