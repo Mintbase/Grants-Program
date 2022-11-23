@@ -4,25 +4,25 @@
 >
 > See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
+- **Project Name:** Niftiqet
+- **Team Name:** Utinifty 
+- **Payment Address:** niftiqet.near
+- **[Level](../README.md#level_slider-levels):** 2
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
 
-Please provide the following:
+Niftiqet is an NFT ticketing management system built on Mintbase and NEAR.
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
+#### About Niftiqet
+
+Niftiqet is a ticketing management system built using NFT technology. It is built on [NEAR](https://near.org) and [Mintbase](https://mintbase.io). It is meant to provide solutions to some of the problems plaguing the ticketing industry. These include keeping costs down, preventing or severely reducing fakes/scams, 
+
 - An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
 - An indication of why your team is interested in creating this project.
 
@@ -30,14 +30,57 @@ Please provide the following:
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Mockups/designs of any UI components
+- Mockups/designs of any UI components: https://www.figma.com/file/kpsVh8as0wNGZSwfbgvC0s/Niftiqet?node-id=0%3A1
 - Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+ ```i. Data models
++ Activity: 
+- price: Int,
+- memo: String,
+- kind: String,
+- action_sender: String,
+- action_receiver": String
 
++Event:
+- name
+- Ticket
+- price
+- description
+- price_category
+- event_category
+- ticket_quantity
+- time
+- venue
+- royalties
+- split
+- burn_timestamp```
+ 
+- An overview of the technology stack to be used
+ i. Frontend - VueJS (Nuxt2)
+ ii. Backend - NodeJS (Express)
+iii. Smart Contract - Mintbase and supplimentary Smart contract on the near blockchain.
+iv. API- GraphQL
+v. Static hosting - Akash, Netlify, Heroku
+
+- PoC/MVP or other relevant prior work or research on the topic: https://niftiqet.com
+- What your project is _not_ or will _not_ provide or implement:
+Project would include:
+
+ i. Ticket management service
+ ii. Events dashboard
+ iii. Buyers dashboard
+ iv. Tickets
+ v. Ticket resales
+ vi. % ceiling for ticket price in even of resales
+ vii. Royalties
+ viii. Stand-alone stores for events.
+ 
+Project would not include:
+i. Crosschain purchases
+ii. Fiat payments
+iii. QR CODE acc
+iv. Ticket reuse (as opposed to burning). Events simply recorded on blockchaon
+v. Mobile app
+  
 ### Ecosystem Fit
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
@@ -53,52 +96,48 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Name of team leader: oïclid
+- Names of team members: Aef Gbadamosi, Mary Ehapa, Handrii
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** oïclid
+- **Contact Email:** oiclid@utinifty.com
+- **Website:** niftiqet.com
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** 19 Luka Chung Street, Jos, Nigeria
+- **Registered Legal Entity:** CommandLine Technologies Ltd
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+- oïclid - Developer with close to 15 years experience.
+- Aef Gbadamosi - Fullstack Developer with a passion for NodeJS, crypto, and learning.
+- Mary Ehapa - Young Product Designer with an eye for string design, a desire to make great products, and an enthusiasm for web3.
+- Handrii - Blockchain developer with experience building in Rust, Solidity, and JavaScript
 
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
+
+
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/utinifty
+- https://github.com/utinifty/niftiqet
+
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/oiclid
+- https://github.com/daaef
+- https://www.behance.net/ehapamary
+- https://github.com/beeust
 
-### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
-
+We are already have a beta deployed on the mainnet, but want to not only add features, but 
 ## Development Roadmap :nut_and_bolt:
 
 This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
