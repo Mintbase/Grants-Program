@@ -162,15 +162,39 @@ For each milestone,
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in USN, and potentially NEAR and nUSDC, the amount will be calculated according to the exchange rate at the time of payment.
+## Development Status :open_book:
 
-### Milestone 1 Example — Implement Mintbase Modules
+Work has not yet started.
+
+## Development Roadmap :nut_and_bolt:
+
+
+
+### Overview
+
+- **Total Estimated Duration:** 3
+- **Full-Time Equivalent (FTE):**  4
+- **Total Costs:** 50,000 USD
+
+### Milestone 1  — Product and Architecure Design
 
 - **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 8,000 USD
+- **FTE:**  4
+- **Costs:** 10,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 1 | System Architecture |Full technical description of app, flows, and desired outcomes|
+|2.| Product design| Design of product UI/UX plus functions based on Architecture
+
+
+### Milestone 2 Release on Testnet
+
+
+
+- **Estimated duration:** 2 month
+- **FTE:** 4
+- **Costs:** 30,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -178,20 +202,33 @@ For each milestone,
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0e. | Article | We will publish an **article** that explains **Niftiqet** works, why it is something we are interested in, and what to expect from the projec (Content, language and medium should reflect your target audience described above.)
+| 1. |Modules | We will create modules using the  Mintbase / NEAR SDKs (if needed) for dashboards, marketplaces, transfering ownerships, resale price ceilings ,etc.|  
+| 2. | Smart Contracts | As needed, we would write smart contracts to add any functionality we need that doesn't currently exist on Mintbase/NEAR |    
+|3. | UI/UX | Continously improve usability of dapp|                                   |
+
+### Milestone 2: Make it production ready:
+
+This will include the following features
+
+- Perform User-Tests to make the tool as user friendly as possible.
+- Publish a npm-package for easy integration of Automat.
+- Add detailed documentation
+- Perform security and performance tests
+
+- **Estimated duration:** 1 month
+- **FTE:** 4
+- **Costs:** 10,000 USD
+
+| Number | Deliverable      | Specification                                                                                                                                     |
+| -----: | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    0a. | License          | MIT                                                                                                                                               |
+|    0b. | Documentation    | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user has to interact with Automat          |
+|    0c. | Testing Guide    | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+|    0d. | Testnet-Instance | We will provide a Testnet-Instance that can be used to test all the functionalites of our product.                                                |
+|    0e. | Article          | We will publish an **article** that explains all features and how to use them as well as two-weekly development updates in our discord-channel.   |
 
 
-### Milestone 2 Example — Additional features
-
-- **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
-
-...
 ## Future Plans
 
 Please include here
