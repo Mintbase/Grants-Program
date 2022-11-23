@@ -52,7 +52,8 @@ We expect the teams to already have a solid idea about your project's expected f
 - venue
 - royalties
 - split
-- burn_timestamp```
+- burn_timestamp
+```
  
 - An overview of the technology stack to be used
  i. Frontend - VueJS (Nuxt2)
@@ -70,7 +71,7 @@ Project would include:
  iii. Buyers dashboard
  iv. Tickets
  v. Ticket resales
- vi. % ceiling for ticket price in even of resales
+ vi. % ceiling for ticket price in event of resales
  vii. Royalties
  viii. Stand-alone stores for events.
  
