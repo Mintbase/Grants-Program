@@ -21,7 +21,7 @@ Niftiqet is an NFT ticketing management system built on Mintbase and NEAR.
 
 #### About Niftiqet
 
-Niftiqet is a ticketing management system built using NFT technology. It is built on [NEAR](https://near.org) and [Mintbase](https://mintbase.io). It is meant to provide solutions to some of the problems plaguing the ticketing industry. These include keeping costs down, preventing or severely reducing fakes/scams, 
+Niftiqet is a ticketing management system built using NFT technology. It is built on [NEAR](https://near.org) and [Mintbase](https://mintbase.io). It is meant to provide solutions to some of the problems plaguing the ticketing industry. These include keeping costs down, preventing or severely reducing fakes/scams, and scalping.
 
 - An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
 - An indication of why your team is interested in creating this project.
@@ -30,7 +30,7 @@ Niftiqet is a ticketing management system built using NFT technology. It is buil
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Mockups/designs of any UI components: https://www.figma.com/file/kpsVh8as0wNGZSwfbgvC0s/Niftiqet?node-id=0%3A1
+
 - Data models / API specifications of the core functionality
  ```i. Data models
 + Activity: 
@@ -53,45 +53,48 @@ We expect the teams to already have a solid idea about your project's expected f
 - royalties
 - split
 - burn_timestamp
-```
- 
-- An overview of the technology stack to be used
- i. Frontend - VueJS (Nuxt2)
- ii. Backend - NodeJS (Express)
-iii. Smart Contract - Mintbase and supplimentary Smart contract on the near blockchain.
-iv. API- GraphQL
-v. Static hosting - Akash, Netlify, Heroku
 
-- PoC/MVP or other relevant prior work or research on the topic: https://niftiqet.com
+```
+
+#### Technoglogy Overview
+ - Frontend - VueJS (Nuxt2)
+-  Backend - NodeJS (Express)
+-  Smart Contract - Mintbase and supplimentary Smart contract on the NEAR blockchain.
+- API- GraphQL
+- Static hosting - Akash, Netlify, Heroku
+
+- PoC/MVP: https://niftiqet-test.netlify.app/
 - What your project is _not_ or will _not_ provide or implement:
 Project would include:
 
- i. Ticket management service
+``` 
+i. Ticket management service
  ii. Events dashboard
  iii. Buyers dashboard
  iv. Tickets
- v. Ticket resales
+ v. Marketplace
  vi. % ceiling for ticket price in event of resales
  vii. Royalties
  viii. Stand-alone stores for events.
+```
  
+
 Project would not include:
+```
 i. Crosschain purchases
 ii. Fiat payments
 iii. QR CODE acc
 iv. Ticket reuse (as opposed to burning). Events simply recorded on blockchaon
 v. Mobile app
+```
   
 ### Ecosystem Fit
 
-Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
+- We would be using the Mintbase API and Indexer, as well as building supplimentary smart contracts when needed on NEAR.
+- We are targeting event managers, event creators, musicians, and the like.
+- There is the need of a decentralized ticket management system to fight monopolies. There's also a need to costs down, preventing or severely reducing fakes/scams, price management, and scalping.
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+- As far as we know, [Mintickt](https://www.mintickt.com/). They are still in stealth mode.
 
 ## Team :busts_in_silhouette:
 
