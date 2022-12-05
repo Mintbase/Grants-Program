@@ -1,9 +1,5 @@
 # Mintbase Grant Proposal
 
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
->
-> See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
-
 - **Project Name:** NFTs for the 25th of April celebrations
 - **Team Name:** Crowdclass + Bloq4U Consortium
 - **Payment Address:**
@@ -12,13 +8,7 @@
 
 - **[Level](../README.md#level_slider-levels):** 2
 
-> ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
-
 ## Project Overview :page_facing_up:
-
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
 
@@ -64,20 +54,20 @@ Help us locate your project in the Mintbase landscape and what problems it tries
   - By providing a Fiat-to-Mint for NFTs in the Near ecosystem (and MintBase) and creating Token-gated content, our project will fit plenty of projects currently in the ecosystem without such features. As such, future NFT and Metaverse platforms will benefit from such near features, increasing their number of users by allowing for as easy web2-to-web3 onboarding. 
 
 
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-  - The proposed project aims to integrate a series of proposals for commemorating the 50th anniversary of the 25th of April, a major holiday in Portugal that celebrates the end of fascism and the advent of democracy (1974). 
+**- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+**  - The proposed project aims to integrate a series of proposals for commemorating the 50th anniversary of the 25th of April, a major holiday in Portugal that celebrates the end of fascism and the advent of democracy (1974). 
   - In this sense, our roadmap entails a use case (MVP) in 2023. We intend to launch an NFT collection to commemorate the 49th anniversary of the 25th of April’s Revolution by issuing a series of collections specially designed for the official commemorations in Parliament. This will mean that each Parliamentary Group will have its own NFT to access the hemicycle. Similarly, all state hierarchy, the audience, and the parliamentary staff will also have their own NFT, serving as tickets and memorabilia.
   - Later, for the 50th anniversary, we aim to prepare and launch several NFT collections. These collections will be placed in the core of the official commemorations and will have nationwide exposure.
   - Within the different collections, we can identify the following: NFT certificates for completion of secondary studies, Tickets to official exhibitions and events, Communication and involvement of brands and institutional support, and Tradable Collection for the 25th of April Association and veterans.
   - As such, if for our MVP, we intend to relate with the political and administrative elite during 2024, our aim is the population at large, offering them easy-to-use onboarding mechanics and contribution to Web3 adoption powered by NEAR. 
  
 
-- What need(s) does your project meet?
-  - This project intends to narrow the gap of web3 onboarding by creating a series of new tools to be used within the Near Ecosystem in general and by MintBase in particular. In this sense, and after submitting our deliveries, both the needs of having the possibility to use Fiat onramp in the NEAR ecosystem (and on MintBase) and to have Token-gated content will be met. 
+**- What need(s) does your project meet?
+**  - This project intends to narrow the gap of web3 onboarding by creating a series of new tools to be used within the Near Ecosystem in general and by MintBase in particular. In this sense, and after submitting our deliveries, both the needs of having the possibility to use Fiat onramp in the NEAR ecosystem (and on MintBase) and to have Token-gated content will be met. 
    
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - Not that we are aware of.
-  - 
+**- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
+**  - Not that we are aware of.
+
 
 ## Team :busts_in_silhouette:
 
