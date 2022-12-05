@@ -50,23 +50,23 @@ In the specific context of the 25th of April Celebrations, the organization will
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
-- Where and how does your project fit into the ecosystem?
+**Where and how does your project fit into the ecosystem?**
   - By providing a Fiat-to-Mint for NFTs in the Near ecosystem (and MintBase) and creating Token-gated content, our project will fit plenty of projects currently in the ecosystem without such features. As such, future NFT and Metaverse platforms will benefit from such near features, increasing their number of users by allowing for as easy web2-to-web3 onboarding. 
 
 
-**- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-**  - The proposed project aims to integrate a series of proposals for commemorating the 50th anniversary of the 25th of April, a major holiday in Portugal that celebrates the end of fascism and the advent of democracy (1974). 
+**Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?**
+  - The proposed project aims to integrate a series of proposals for commemorating the 50th anniversary of the 25th of April, a major holiday in Portugal that celebrates the end of fascism and the advent of democracy (1974). 
   - In this sense, our roadmap entails a use case (MVP) in 2023. We intend to launch an NFT collection to commemorate the 49th anniversary of the 25th of April’s Revolution by issuing a series of collections specially designed for the official commemorations in Parliament. This will mean that each Parliamentary Group will have its own NFT to access the hemicycle. Similarly, all state hierarchy, the audience, and the parliamentary staff will also have their own NFT, serving as tickets and memorabilia.
   - Later, for the 50th anniversary, we aim to prepare and launch several NFT collections. These collections will be placed in the core of the official commemorations and will have nationwide exposure.
   - Within the different collections, we can identify the following: NFT certificates for completion of secondary studies, Tickets to official exhibitions and events, Communication and involvement of brands and institutional support, and Tradable Collection for the 25th of April Association and veterans.
   - As such, if for our MVP, we intend to relate with the political and administrative elite during 2024, our aim is the population at large, offering them easy-to-use onboarding mechanics and contribution to Web3 adoption powered by NEAR. 
  
 
-**- What need(s) does your project meet?
-**  - This project intends to narrow the gap of web3 onboarding by creating a series of new tools to be used within the Near Ecosystem in general and by MintBase in particular. In this sense, and after submitting our deliveries, both the needs of having the possibility to use Fiat onramp in the NEAR ecosystem (and on MintBase) and to have Token-gated content will be met. 
+**What need(s) does your project meet?**
+  - This project intends to narrow the gap of web3 onboarding by creating a series of new tools to be used within the Near Ecosystem in general and by MintBase in particular. In this sense, and after submitting our deliveries, both the needs of having the possibility to use Fiat onramp in the NEAR ecosystem (and on MintBase) and to have Token-gated content will be met. 
    
-**- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-**  - Not that we are aware of.
+**- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?**
+  - Not that we are aware of.
 
 
 ## Team :busts_in_silhouette:
@@ -161,7 +161,7 @@ Its core functionality already includes the following:
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License |  MIT |
-| 0b. | Documentation | We will provide **inline documentation** of the code and a basic **tutorial** on how to set up the application |
+| 0b. | Documentation | We will provide inline documentation of the code and a basic tutorial on how to set up the application |
 | 0c. | User Guide | User guide that will provide step-by-step instructions for users of our product. It will be written in clear, concise language and will be organized in a logical and easy-to-follow manner. It will include detailed descriptions of each product feature and instructions on using those features. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an article that explainswhat was done as part of the grant) |
@@ -179,7 +179,7 @@ Its core functionality already includes the following:
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License |  MIT |
-| 0b. | Documentation | We will provide **inline documentation** of the code and a basic **tutorial** on how to set up the application |
+| 0b. | Documentation | We will provide inline documentation of the code and a basic tutorial on how to set up the application |
 | 0c. | User Guide | User guide that will provide step-by-step instructions for users of our product. It will be written in clear, concise language and will be organized in a logical and easy-to-follow manner. It will include detailed descriptions of each product feature and instructions on using those features. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an article that explains what was done as part of the grant |
@@ -202,8 +202,8 @@ Assuming a start date for the project on the 1st of January of 2023, we want to 
 
 ## Future Plans
 
-#### As for Bloq4u: 
-As a boutique consultancy company, it aims to create the necessary conditions for a wide use of Web3 products, and henceforth it aims to promote and deliver projects of (mass) adoption. Within this scope, we aim to promote easy-to-onboard solutions that use blockchain technology it its diversity and assure its non-tech, non-web3 native use. In this sense, Bloq4u will continue to bring together such consortiums and partnerships that will allow for (1) a wider financial and technical literacy of different stakeholders, (2) promotion and access to educational programs and projects, (3) mass adoption and Web2 to Web3 transfers, (4) development and propagation of utility-based Web3 projects, and (5) the study of the Web3 space and ecosystem with the aim to bring clarity and coherence to the crypto economy industry.
+#### As for Bloq4U: 
+As a boutique consultancy company, it aims to create the necessary conditions for a wide use of Web3 products, and henceforth it aims to promote and deliver projects of (mass) adoption. Within this scope, we aim to promote easy-to-onboard solutions that use blockchain technology it its diversity and assure its non-tech, non-web3 native use. In this sense, Bloq4U will continue to bring together such consortiums and partnerships that will allow for (1) a wider financial and technical literacy of different stakeholders, (2) promotion and access to educational programs and projects, (3) mass adoption and Web2 to Web3 transfers, (4) development and propagation of utility-based Web3 projects, and (5) the study of the Web3 space and ecosystem with the aim to bring clarity and coherence to the crypto economy industry.
 
 #### As for Crowdclass: 
 We have a growing number of users in private beta and expect to grow considerably in 2023 when we launch publicly.
