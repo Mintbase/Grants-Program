@@ -4,7 +4,7 @@
 - **Team Name:** Crowdclass + Bloq4U Consortium
 - **Payment Address:**
   - Crowdclass Wallet: crowdclass.near (80%)
-  - Bloq4U Wallet: TBD (20%)
+  - Bloq4U Wallet: 8c514ddc190b27c89bac07dc8d231425fd1c6be8c466d23289c3d4d6c7bfe8fb (20%)
 
 - **[Level](../README.md#level_slider-levels):** 2
 
@@ -18,7 +18,7 @@ This project aims to produce NFTs for the **official commemorations of the 50th 
 
 To be able to mass-disseminate our collections, allow for an easy onboarding from non-web3 natives, and not require future users the prerequisite to holding crypto or any web3 wallet, the **consortium Bloq4U-Crowdclass** was formed. We aim to create the necessary integrations that will allow for (1) a Fiat-to-mint store, (2) a Token-gated content app, and (3) a technical integration between Crowdclass and Mintbase Platforms. We will include these tech improvements and development in the white-label NFT platform that we will place at the Commission's display to commemorate the 50th anniversary of the 25th of April. For 2023, the 49th  anniversary, we will dedicate ourselves to building and delivering (1) and (2). 
 
-To develop such solutions, the Bloq4u & Crowdclass consortium is requiring Mintbase to provide a grant for all tech development and integrations to create, curate, and promote the NFT collections. Bloq4u, the 25A Commission, and a list of academic partners will guarantee the necessary historical curatorship. Crowdclass will ensure the technical developments.
+To develop such solutions, the Bloq4u & Crowdclass consortium applying for a Mintbase grant for specific tech development and integrations to create, curate, and promote the NFT collections. Bloq4u, the 25A Commission, and a list of academic partners will guarantee the necessary historical curatorship. Crowdclass will ensure the technical developments.
 
 
 ### Project Details
@@ -37,7 +37,6 @@ As a tech and SW provider, Crowdclass will build the following two open-source a
 **1) Fiat-to-mint store** - We propose to develop a library to mint NFTs via MintabaseJS, with a set of attributes and characteristics created and defined by the seller, but the minting only triggers upon a confirmation of payment in fiat using Stripe or another payment processor. Once the external API confirms the payment, the minting process is initiated. The NFT will be minted through the MintbaseJS minter directly to a connected NEAR Wallet or sent to an identified NEAR wallet.
 
 **2) Token-gated content** - We also want to develop a library to provide and display exclusive media content, where we gate access and viewership to holders of specific NFTs in the user wallet. Bloq4u will curate this library.
-
 We must develop an admin interface to configure the conditions for gating and uploading the available content and then the validation system to check the eligibility of a connected wallet by holding the right NFTs.
 
 After completing the development of the previous two applications, we will integrate them into the proprietary Crowdclass platform and work with Bloq4U to use them for the 25 April Celebrations.
@@ -47,8 +46,6 @@ In the specific context of the 25th of April Celebrations, the organization will
 
 
 ### Ecosystem Fit
-
-Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
 **Where and how does your project fit into the ecosystem?**
   - By providing a Fiat-to-Mint for NFTs in the Near ecosystem (and MintBase) and creating Token-gated content, our project will fit plenty of projects currently in the ecosystem without such features. As such, future NFT and Metaverse platforms will benefit from such near features, increasing their number of users by allowing for as easy web2-to-web3 onboarding. 
@@ -74,6 +71,7 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 ### Team members
 
 - José Reis Santos (Bloq4U)
+- Pedro Aguiar (Bloq4U)
 - Filipe Pereira (Crowdclass)
 - Bruno Costa (Crowdclass)
 - Gian Lucca (Crowdclass)
@@ -128,6 +126,7 @@ Crowdclass is a Techstars company, and they have been working on the Platform si
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/jose-reis-santos-25a295b/
+- https://www.linkedin.com/in/pedrodaguiar/
 - https://www.linkedin.com/in/filipeappereira/
 - https://www.linkedin.com/in/brunohq/ 
 - https://www.linkedin.com/in/gian-lucca-cavalini/
@@ -198,7 +197,7 @@ Its core functionality already includes the following:
 | 2. | NFT Curatorship | As a use case for the Fiat-to-Mint application, we will curate a collection of digital art pieces and digital collectibles to sell to the general public. This collection will celebrate the 25th of April and showcase the creativity and talent of artists from the region. <br/><br/>Each piece in the collection will be then sold and distributed as an NFT. The NFT will include information such as the artist's name, the creation date, and other relevant details.<br/><br/> Overall, this deliverable aims to provide a platform for artists from the region to showcase their work and allow collectors and art enthusiasts to discover and acquire unique and exciting digital art pieces and collectibles. |  
 | 3. | Content Curatorship | This deliverable includes curating educational materials and other content related to the 25th of April Celebrations. This may include informational brochures, pamphlets, and multimedia content such as videos and podcasts.<br/><br/>Overall, this deliverable aims to be used as a use case for the Token Gating application, providing a rich and engaging experience for attendees of the 25th of April Celebrations while promoting NFTs and a new form of digital assets. | 
 
-Assuming a start date for the project on the 1st of January of 2023, we want to have everything related to this project completed by early April so we can integrate these modules into the Platform to be used by the organization on the 25th of April Celebrations.
+We're assuming a start date for the project the latest on the 1st of January of 2023, as we want to have everything related to this project completed by early April so we can integrate these modules into the Platform and be used by the organization on the 25th of April Celebrations.
 
 ## Future Plans
 
@@ -208,9 +207,7 @@ As a boutique consultancy company, it aims to create the necessary conditions fo
 #### As for Crowdclass: 
 We have a growing number of users in private beta and expect to grow considerably in 2023 when we launch publicly.
 
-With the integration of these components on the Crowdclass platform, they will then be used regularly by our growing user base.
-
-Additionally, we plan to continue to extend our platform, develop these applications further, and eventually use more elements of MintbaseJS in real-world applications and use cases and contribute to the ecosystem.
+With the integration of these components on the Crowdclass platform, they will then be used regularly by our growing user base. Additionally, we plan to continue to extend our platform, develop these applications further, and eventually use more elements of MintbaseJS in real-world applications and use cases and contribute to the ecosystem.
 
 Our long-term vision is that Crowdclass becomes the leading out-of-the-box platform for any brand and creator that wants to build engagement or loyalty programs with their audience, using experiences involving digital collectibles and NFTs.
 
