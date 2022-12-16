@@ -29,7 +29,7 @@
 
 Although we are accepting applications now, the program will not begin funding round 2 until Q2.  
   
-As part of our commitment to always improving the Mintbase + NEAR ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and our [GraphQL Indexer API](https://docs.mintbase.io/dev/getting-started)**.
+As part of our commitment to always improving the Mintbase + NEAR ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to NEAR protocol NFT infrastructure, **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and our [GraphQL Indexer API](https://docs.mintbase.io/dev/getting-started)**.
 
  Thanks to the [Web3 Foundation's Grants Program](https://github.com/w3f/Grants-Program) for providing the structural outline for this program.
 
