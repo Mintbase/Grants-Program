@@ -37,6 +37,7 @@ We aim to develop on Mintbase the functionality described above. Thus we hope to
 - Chainlib platform: https://chainlib.xyz/en
 - Chainlib pitch deck: https://www.canva.com/design/DAFCKqXEr7o/qCbUR6KqiUn1f_DvDzi5pw/view?utm_content=DAFCKqXEr7o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 - GitHub: https://github.com/blockwebdevs/chainlib
+- Mintbase store (mainnet): https://www.mintbase.io/contract/chainlib.mintbase1.near?tab=nfts&page=0
 
 
 **Mockups/designs of any UI components**
@@ -48,9 +49,9 @@ Currently, we are working on adding new functionality to our NFT marketplace:
 ●  	Generative NFT books powered by non-human system to generate new content programmatically
 
 Below You can see how the personalized story tales look IRL:
-Image 1:
+
 ![IMG_7730](https://user-images.githubusercontent.com/106525564/209929600-356b60f2-a4c1-401b-b028-96d24341d412.JPG)
-Image 2: 
+![camphoto_1903590565](https://user-images.githubusercontent.com/106525564/209930851-f9a0dd7b-3166-409e-b48f-e9882b7ed760.jpg)
 
 
 **Data models / API specifications of the core functionality**
@@ -67,6 +68,7 @@ Image 2:
 **Documentation of core components, protocols, architecture, etc. to be deployed**
 
 - Project’s architecture: https://miro.com/app/board/uXjVOuD3Lt8=/?moveToWidget=3458764529339680617&cot=14
+- User stories: https://miro.com/app/board/uXjVOuD3Lt8=/?moveToWidget=3458764529328681685&cot=14
 
 **PoC/MVP or other relevant prior work or research on the topic**
 
@@ -88,125 +90,155 @@ This is what we aim to bring with us: a lot of new users that will enlarge the b
 Our target audience include 2 categories of users: readers and authors
 With regards to readers, currently these are families with children from 0 to 16 years old. M - 10%, W - 90%; Age - 24-50 years; Income - medium+; Currently, sales take place in Moldova. The next target market - Romania/Ukraine. Next - the countries of Eastern Europe.
 We expect a much broader audience that shall enlarge due to new authors coming on Chainlib with their works
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+
+**What need(s) does your project meet?**
+
+For users:
+- Personalization - with new functionality we solve a great demand for personalized content (stories with You or Your child the main heroes)
+- Access to programmable art - new stories created programmatically based on your parameters, dropped as NFT
+- Ownership - You owb Your stories through NFT
+
+For authors:
+- Ownership - Right book holders cannot effectively control the use of their work on the Internet
+- Decentralization - no intermediaries between authors and readers
+- Access to audience - Most publishers find it difficult to accept new emerging writers 
+
+**Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?**
+- There are a few project connected with the book industry. However, most of these projects are in early development stage. Additionally, our project has oustanding idea (Personalized story tales as NFTs + Generative NFT books) confirmed by sales IRL
+- There are similar projects in web2 (personalized stories). However, our Generative NFT books concept makes our project innovative and different from our competiotion. ?
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+**Anna Griza** 
+**Fion Golden**
+**Valeriu Chocklea**
+**Andrei Tintari**
+**Mihai Soldi**
+**Efim Serghei**
+**Conol Joan**
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
-
-### Legal Structure
-
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Contact Name:** Anna Griza
+- **Contact Email:** chainlibdigital@gmail.com
+- **Website:** https://chainlib.xyz/en
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+**Anna Griza** 
+I am a writer with around 30 books for children and moms, including Ebooks, Fairy Tales, Audio Books & Postcard books. I work through written texts and illustrations with psychologists, because I want fairy tales to be not only interesting but also useful, and have therapeutic character. Additionally, I set a global goal of adapting my stories to other languages/countries, and children's psycho types are somewhat different geographically.
+**Fion Golden**
+This is my co-author. He is dyslexic, and cannot read or write, but very beautiful stories are born in his fantasy. And I describe these stories.
+**Valeriu Chocklea**
+This is our main illustrator, who gives birth to exceptional characters from our stories. He is the creator of the illustrations from our postcard books.
+**Andrei Tintari**
+Andrei is responsible for the technical part of our platform. He is the head of Block Web Devs - a group of web2 and web3 developers, writing code on Node JS, Vue JS, React, PHP, Laravel and Blockchain.
+Andrei has multiple Years of experience as an entrepreneur, founder, and executive at multiple companies in the IT & Digital Marketing Industry, namely being the Founder of Terra Digital (Romania), IT Mall (Estonia), and Like-Media (Republic of Moldova). Prior to his experience as Founder of mentioned companies, Andrei has worked for over 10 years in traditional financial services, initially in banking before moving to corporate development. Andrei spent six years in financial markets working as Internal Auditor in the Banking Industry and as CFO in the Corporate sector. Andrei holds an economics and finance degree from Romanian University.
+Block Web Devs Group has built more than 25 projects in web2 and web3 space. You can find more details in one of there GitHub accounts: https://github.com/blockwebdevs
+**Mihai Soldi**
+This is a full-stack software engineer. His expertise includes:
+- Backend: Laravel, PHP 8+, MySQL
+- Frontend: HTML5, CSS3, BOOTSTRAP
+- JS - Vue / Nuxt, React / Next, JQUERY
+- Rust, Near API & SDK, Mintbase API
+**Efim Serghei**
+Efim is a backend software engineer. His expertise includes:
+- Backend: Laravel, PHP 8+, MySQL
+- JS - Vue / Nuxt, React / Next, JQUERY
+- Rust, Near API & SDK, Mintbase API
+**Conol Joan**
+Joan is a backend software engineer. His expertise includes:
+- Frontend: HTML5, CSS3, BOOTSTRAP
+- JS - Vue / Nuxt, React / Next, JQUERY
 
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
+Our project obtained a $25k grant from Near Foundation, succesefully implemented. The link to the project: https://chainlib.xyz/en
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/blockwebdevs/chainlib/
+- https://github.com/blockwebdevs/chainlib/tree/master/assembly
+- https://github.com/blockwebdevs/chainlib-minter
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/blockwebdevs
+- https://github.com/chainlibdigital
+- https://github.com/mihsoldi
+- https://github.com/efimser
+- https://github.com/conoljoan
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.facebook.com/annaamita17
+- https://www.instagram.com/anna_amita/
+- https://www.linkedin.com/in/andrei-tintari-839580218/
+
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+Our team has built the digital library as NFT marketplace and web3 dapp integrated with Near blockchain. The Main links:
+- Digital library as NFT marketplace and web3 dapp: https://chainlib.xyz/en
+- Integration with Mintbase API: https://github.com/blockwebdevs/chainlib-minter
+- Near Smart contracts: Logination/authorization by Near wallet, Buy with Near and View Auction (through Mintbase API)
+- Github repository of the project: https://github.com/blockwebdevs/chainlib
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in USN, and potentially NEAR and nUSDC, the amount will be calculated according to the exchange rate at the time of payment.
+- Total Estimated Duration: 3 months
+- Full-Time Equivalent (FTE): 5 FTE
+- Total Costs: 49,000 USD
 
-### Milestone 1 Example — Implement Mintbase Modules
+### Milestone 1 - Personalized story tales as NFTs 
 
-- **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 8,000 USD
+- Estimated duration: 1 month
+- FTE: 5
+- Costs: 20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
+| 0a. | License | MIT |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can upload personal params and generate personalized story tales as NFTs |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0e. | Article | We will publish an article, that explains how a user can upload personal params and generate personalized story tales as NFTs |
+| 1. | Mintbase module: Personalized story tales as NFTs: personal params upload module | We will create a frontend for submitting personal params by users. Technology Stack: HTML5, CSS3, BOOTSTRAP, Vue / Nuxt JS |  
+| 2. | Mintbase module: Personalized book generation module | We will create a Personalized book as NFT generation module for processing users’ personal params, storage in MySQL and generation of personalized books by special methodology. Technology Stack: Laravel, PHP 8+, MySQL, Vue / Nuxt JS, JQUERY |  
+| 3. | Mintbase module: Personalized story tales as NFTs: Mintbase module | We will create a Mintbase / NEAR module that will mint NFT out of personalized books and will store in the Near blockchain digital fingerprint of minted NFT. Technology Stack: Vue / Nuxt JS, React / Next JS, JQUERY, Rust, Mintbase API |  
+| 4. | NEAR chain integration | Modules described above of our custom chain will interact with Near chain: digital fingerprint of minted NFT will be stored in the Near blockchain. Each mint requires confirmation with user's Near wallet and necessary fees payment |  
 
 
-### Milestone 2 Example — Additional features
+### Milestone 2  — Generative NFT books
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
+- Estimated duration: 2 months
+- FTE: 5
+- Costs: 29,000 USD
 
-...
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | MIT |
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can use Generative NFT books module |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | We will publish an article, that explains how to use Generative NFT books |
+| 1. | Mintbase module: Generative NFT books: Generative books methodology | We will create a Generative books methodology, which will include: new content to be generated, new content dates of releases, how many new NFTs to be generated. Technology Stack: Laravel, PHP 8+, MySQL, Vue / Nuxt JS, JQUERY |  
+| 2. | Mintbase module: Generative NFT books: Frontend | We will create a frontend for Generative NFT books that will include: user’s dashboard for verification if new NFTs where minted, notification system, profile and NFT’s in possession. Technology Stack: HTML5, CSS3, BOOTSTRAP, Vue / Nuxt JS |  
+| 3. | Mintbase module: Generative NFT books: Backend | We will create a backend for Generative NFT books that will include: user’s dashboard for verification if new NFTs where minted, notification system, profile and NFT’s in possession. Technology Stack: Laravel, PHP 8+, MySQL, Vue / Nuxt JS, JQUERY |  
+| 4. | Mintbase module: Generative NFT books: Mintbase module | We will create a Mintbase / NEAR module that will mint NFTs out of personalized books according to Generative books methodology and will store in the Near blockchain digital fingerprint of minted NFT. Technology Stack: Vue / Nuxt JS, React / Next JS, JQUERY, Rust, Mintbase API |  
+| 5. | NEAR chain integration | Modules described above of our custom chain will interact with Near chain: digital fingerprint of minted NFT will be stored in the Near blockchain. Each mint requires confirmation with user's Near wallet and necessary fees payment |  
+
 ## Future Plans
 
-Please include here
-
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+Our near future plans include:
+- Add to Chainlib more books, postcards, audiobooks, fairy tales, etc.
+- Authors will display their works on Chainlib through the "Submit a work proposal" functionality
+- Readers can buy the authors' works including Personalized story tales as NFTs & Generative NFT books and order printed copies
+- Attract media channels, pointing to the social impact & innovation in the book industry of the Project. Participate in charity and donation projects
 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+Our team is a Near Foundation grantee. We received a grant for development of: Authorization Module, Copyright Registration and Transfer Modules.
