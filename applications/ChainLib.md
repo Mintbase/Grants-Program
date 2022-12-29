@@ -24,11 +24,12 @@ Authors sell their works as NFTs on Chainlib. Readers can buy the works and crea
 
 **How our project relates to / integrates into the Mintbase / NEAR ecosystem**
 ChainLib is a dapp built and functioning on the NEAR blockchain, accepting offers and payments in Near. We aim to extend NFT marketplace functionality by implementing :
-●  	Personalized story tales as NFTs - programmable story tales as NFTs with predefined reader’s parameters. I.E. story tales for children. Parents can order books with their child right inside the story. All they need is add their child’s name, sex, age, even image and our platform will mint a personalized NFT containing the story tale with their child inside it. It remains only to order a printed copy of the book with created personalized NFT
-●  	Generative NFT books powered by non-human system to generate new content programmatically, constantly manipulating the variable possibilities. Imagine that You bought an NFT containing a story tale with Your child inside it. Now imagine that this NFT is programmed to generate from-time-to-time new story tales with Your child inside it, with the same predefined reader’s parameters. A new story could be unlocked any time for NFT owners. All they have to do is periodically check their NFT status on our platform.  
+- **Personalized story tales as NFTs** - programmable story tales as NFTs with predefined reader’s parameters. I.E. story tales for children. Parents can order books with their child right inside the story. All they need is add their child’s name, sex, age, even image and our platform will mint a personalized NFT containing the story tale with their child inside it. It remains only to order a printed copy of the book with created personalized NFT
+- **Generative NFT books powered by non-human system to generate new content programmatically**, constantly manipulating the variable possibilities. Imagine that You bought an NFT containing a story tale with Your child inside it. Now imagine that this NFT is programmed to generate from-time-to-time new story tales with Your child inside it, with the same predefined reader’s parameters. A new story could be unlocked any time for NFT owners. All they have to do is periodically check their NFT status on our platform.  
 We aim to develop on Mintbase the functionality described above. Thus we hope to extend existing functionality of our platform and of Mintbase, as well.
  
-**Why are we doing this?** Initially, we were a team of authors and illustrators from a small country from Europe. At this moment we have more than 10 books with fairy tales published and 20 more books in various writing/publishing stages. In 2020, we published Christmas Tales for ages 0+ and 7-12 in a small print run of 1000 copies, and in 2021 we successfully sold the entire print run, donating money to charity. We have a signed agreement with one of the biggest publishing agencies in our country, which allows us to distribute our books through the bookstores network in 2 countries from Europe. When registering copyright on our books, we found out that it covers only the territory of our country, which is very strange and unfair to the authors. Basically, anyone outside our country can take any of our books and publish them under their name. This is how the idea with Chainlib was born. Aside from the authors’ copyright protection problem there is another one we want to solve. Most publishers find it difficult to accept new emerging writers. This is why we created an NFT marketplace for books and other works, where any author can upload his/her works and sell them as NFTs to its audience. Our team now includes developers, designers and other IT staff. If the legislation cannot solve the authors' problems, the technology should do it.
+**Why are we doing this?** 
+Initially, we were a team of authors and illustrators from a small country from Europe. At this moment we have more than 10 books with fairy tales published and 20 more books in various writing/publishing stages. In 2020, we published Christmas Tales for ages 0+ and 7-12 in a small print run of 1000 copies, and in 2021 we successfully sold the entire print run, donating money to charity. We have a signed agreement with one of the biggest publishing agencies in our country, which allows us to distribute our books through the bookstores network in 2 countries from Europe. When registering copyright on our books, we found out that it covers only the territory of our country, which is very strange and unfair to the authors. Basically, anyone outside our country can take any of our books and publish them under their name. This is how the idea with Chainlib was born. Aside from the authors’ copyright protection problem there is another one we want to solve. Most publishers find it difficult to accept new emerging writers. This is why we created an NFT marketplace for books and other works, where any author can upload his/her works and sell them as NFTs to its audience. Our team now includes developers, designers and other IT staff. If the legislation cannot solve the authors' problems, the technology should do it.
 
 ### Project Details
 
@@ -45,8 +46,8 @@ Basically, the UI/UIX of our digital library marketplace is developed. It can be
 https://chainlib.xyz/en
 
 Currently, we are working on adding new functionality to our NFT marketplace:
-●  	Personalized story tales as NFTs
-●  	Generative NFT books powered by non-human system to generate new content programmatically
+- Personalized story tales as NFTs
+- Generative NFT books powered by non-human system to generate new content programmatically
 
 Below You can see how the personalized story tales look IRL:
 
@@ -73,10 +74,11 @@ Below You can see how the personalized story tales look IRL:
 **PoC/MVP or other relevant prior work or research on the topic**
 
 Our team has built the digital library as NFT marketplace and web3 dapp integrated with Near blockchain. The Main links:
-Digital library as NFT marketplace and web3 dapp: https://chainlib.xyz/en
-Integration with Mintbase API: https://github.com/blockwebdevs/chainlib-minter
-Near Smart contracts: Logination/authorization by Near wallet, Buy with Near and View Auction (through Mintbase API)
-Github repository of the project: https://github.com/blockwebdevs/chainlib
+- Digital library as NFT marketplace and web3 dapp: https://chainlib.xyz/en
+- Integration with Mintbase API: https://github.com/blockwebdevs/chainlib-minter
+- Near Smart contracts: Logination/authorization by Near wallet, Buy with Near and View Auction (through Mintbase API)
+- Github repository of the project: https://github.com/blockwebdevs/chainlib
+
 Please view our deck to get info about other relevant prior work or research on the topic:
 https://www.canva.com/design/DAFCKqXEr7o/qCbUR6KqiUn1f_DvDzi5pw/view?utm_content=DAFCKqXEr7o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
@@ -88,8 +90,8 @@ This is what we aim to bring with us: a lot of new users that will enlarge the b
 
 **Target audience**
 Our target audience include 2 categories of users: readers and authors
-With regards to readers, currently these are families with children from 0 to 16 years old. M - 10%, W - 90%; Age - 24-50 years; Income - medium+; Currently, sales take place in Moldova. The next target market - Romania/Ukraine. Next - the countries of Eastern Europe.
-We expect a much broader audience that shall enlarge due to new authors coming on Chainlib with their works
+- With regards to readers, currently these are families with children from 0 to 16 years old. M - 10%, W - 90%; Age - 24-50 years; Income - medium+; Currently, sales take place in Moldova. The next target market - Romania/Ukraine. Next - the countries of Eastern Europe.
+- We expect a much broader audience that shall enlarge due to new authors coming on Chainlib with their works
 
 **What need(s) does your project meet?**
 
@@ -111,13 +113,13 @@ For authors:
 
 ### Team members
 
-**Anna Griza** 
-**Fion Golden**
-**Valeriu Chocklea**
-**Andrei Tintari**
-**Mihai Soldi**
-**Efim Serghei**
-**Conol Joan**
+- Anna Griza
+- Fion Golden
+- Valeriu Chocklea
+- Andrei Tintari
+- Mihai Soldi
+- Efim Serghei
+- Conol Joan
 
 ### Contact
 
