@@ -19,31 +19,75 @@ We aim to expand the traditional functionality of NFT, by implementing generativ
 
 ### Overview
 
-Please provide the following:
+ChainLib - a digital NFT library, an open NFT marketplace for authors providing a "shelf space" and visibility to their readers, with copyright protection ensured by blockchain technology.
+Authors sell their works as NFTs on Chainlib. Readers can buy the works and create their own collections and sell/trade them. The author will get a royalty fee for each NFT trade. 
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
+**How our project relates to / integrates into the Mintbase / NEAR ecosystem**
+ChainLib is a dapp built and functioning on the NEAR blockchain, accepting offers and payments in Near. We aim to extend NFT marketplace functionality by implementing :
+●  	Personalized story tales as NFTs - programmable story tales as NFTs with predefined reader’s parameters. I.E. story tales for children. Parents can order books with their child right inside the story. All they need is add their child’s name, sex, age, even image and our platform will mint a personalized NFT containing the story tale with their child inside it. It remains only to order a printed copy of the book with created personalized NFT
+●  	Generative NFT books powered by non-human system to generate new content programmatically, constantly manipulating the variable possibilities. Imagine that You bought an NFT containing a story tale with Your child inside it. Now imagine that this NFT is programmed to generate from-time-to-time new story tales with Your child inside it, with the same predefined reader’s parameters. A new story could be unlocked any time for NFT owners. All they have to do is periodically check their NFT status on our platform.  
+We aim to develop on Mintbase the functionality described above. Thus we hope to extend existing functionality of our platform and of Mintbase, as well.
+ 
+**Why are we doing this?** Initially, we were a team of authors and illustrators from a small country from Europe. At this moment we have more than 10 books with fairy tales published and 20 more books in various writing/publishing stages. In 2020, we published Christmas Tales for ages 0+ and 7-12 in a small print run of 1000 copies, and in 2021 we successfully sold the entire print run, donating money to charity. We have a signed agreement with one of the biggest publishing agencies in our country, which allows us to distribute our books through the bookstores network in 2 countries from Europe. When registering copyright on our books, we found out that it covers only the territory of our country, which is very strange and unfair to the authors. Basically, anyone outside our country can take any of our books and publish them under their name. This is how the idea with Chainlib was born. Aside from the authors’ copyright protection problem there is another one we want to solve. Most publishers find it difficult to accept new emerging writers. This is why we created an NFT marketplace for books and other works, where any author can upload his/her works and sell them as NFTs to its audience. Our team now includes developers, designers and other IT staff. If the legislation cannot solve the authors' problems, the technology should do it.
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+**Project's links:**
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+- Chainlib platform: https://chainlib.xyz/en
+- Chainlib pitch deck: https://www.canva.com/design/DAFCKqXEr7o/qCbUR6KqiUn1f_DvDzi5pw/view?utm_content=DAFCKqXEr7o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+- GitHub: https://github.com/blockwebdevs/chainlib
+
+
+**Mockups/designs of any UI components**
+Basically, the UI/UIX of our digital library marketplace is developed. It can be accessed by the following link:
+https://chainlib.xyz/en
+
+Currently, we are working on adding new functionality to our NFT marketplace:
+●  	Personalized story tales as NFTs
+●  	Generative NFT books powered by non-human system to generate new content programmatically
+
+Below You can see how the personalized story tales look IRL:
+Image 1:
+![IMG_7730](https://user-images.githubusercontent.com/106525564/209929600-356b60f2-a4c1-401b-b028-96d24341d412.JPG)
+Image 2: 
+
+
+**Data models / API specifications of the core functionality**
+
+- Project’s architecture: https://miro.com/app/board/uXjVOuD3Lt8=/?moveToWidget=3458764529339680617&cot=14
+
+**An overview of the technology stack to be used**
+
+- Backend: NodeJS, Laravel, PHP 8+, MySQL
+- Frontend: HTML5, CSS3, BOOTSTRAP
+- JS - Vue / Nuxt, React / Next, JQUERY
+- Rust, Near API & SDK, Mintbase API
+
+**Documentation of core components, protocols, architecture, etc. to be deployed**
+
+- Project’s architecture: https://miro.com/app/board/uXjVOuD3Lt8=/?moveToWidget=3458764529339680617&cot=14
+
+**PoC/MVP or other relevant prior work or research on the topic**
+
+Our team has built the digital library as NFT marketplace and web3 dapp integrated with Near blockchain. The Main links:
+Digital library as NFT marketplace and web3 dapp: https://chainlib.xyz/en
+Integration with Mintbase API: https://github.com/blockwebdevs/chainlib-minter
+Near Smart contracts: Logination/authorization by Near wallet, Buy with Near and View Auction (through Mintbase API)
+Github repository of the project: https://github.com/blockwebdevs/chainlib
+Please view our deck to get info about other relevant prior work or research on the topic:
+https://www.canva.com/design/DAFCKqXEr7o/qCbUR6KqiUn1f_DvDzi5pw/view?utm_content=DAFCKqXEr7o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
 
 ### Ecosystem Fit
 
-Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
+Our project emerges on the digital library market as a solution meant to kill the biggest authors' problems: copyright protection and direct access to their readers without intermediaries. We want to enhance new information exchange methods between authors’ and readers. We expect a great popularity among authors and, especially readers, as we seek to implement borderless opportunities of NFT and generative art. Programmable books can be a new page in a digital library’s history. A lot of users should embrace this new books generating methodology. 
+This is what we aim to bring with us: a lot of new users that will enlarge the blockchain’s community; brand new technology that will extend the NFT standard. 
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+**Target audience**
+Our target audience include 2 categories of users: readers and authors
+With regards to readers, currently these are families with children from 0 to 16 years old. M - 10%, W - 90%; Age - 24-50 years; Income - medium+; Currently, sales take place in Moldova. The next target market - Romania/Ukraine. Next - the countries of Eastern Europe.
+We expect a much broader audience that shall enlarge due to new authors coming on Chainlib with their works
 - What need(s) does your project meet?
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
   - If so, how is your project different?
