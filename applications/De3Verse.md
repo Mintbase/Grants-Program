@@ -168,7 +168,7 @@ We are the builders of 'De3Verse - THE FUTURE,' an open-metaverse platform that 
 | 4. | NEAR chain integration: | We are creating a solution that will allow game developers to build games in integration with near protocol seamlessly. In our proposed solution of Milestone 2: We are proposing to build a small game tutorial using our SDK developed in milestone 1 to teach even a new user how to get started. We are also implementing some advanced functionality that will allow developers to verify ownership of specific NFTs/assets/stats and provide additional in-game utility/features to targeted users. In addition to these, we are creating some additional backend functionality that will allow game developers to collect stats or other required data and save NFT data.  |
 
 
-### Milestone 3 Take Feedbacks and Improve/add functionilty accordingly
+### Milestone 3 Take Feedbacks and Improve/add functionality accordingly
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
