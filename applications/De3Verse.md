@@ -20,7 +20,7 @@ De3Verse is an open-metaverse platform that functions on the near blockchain. In
 At De3Verse, our vision is to expand the open-metaverse platform so that anyone can build, explore, meet friends, and enjoy/host events at the same time. In addition to this, we are proposing to develop helpful tools for other game developers to easily build games that integrate with the near blockchain.
 
 **Why is this required in the ecosystem?** <br> 
-To drive extensive growth of games/NFT-games in the near ecosystem, it is important to focus on making unity/unreal SDKs open-source and available to help new blockchain developers build blockchain-based games that integrate seamlessly with NFTs on near. <br> <br>
+To drive extensive growth of games/NFT-games in the near ecosystem, it is important to focus on open-source availablity of functional unity/unreal SDKs to help new blockchain developers build blockchain-based games that integrate seamlessly with NFTs on near. <br> <br>
 As the founder & buildorr of de3verse, an open metaverse platform on the near protocol, I understand the difficulties developers may face when proper tools and descriptions are not available. We faced many issues when integrating the near wallet into our unity (WEBGL) based metaverse. The unity tools and definitions currently available on GitHub/Google are not compatible with unity/WEBGL for the near blockchain, which caused unnecessary delays. To make it easier for other game developers to build blockchain-based games, we are building this tool (unity-SDK).
 
 
