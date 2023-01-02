@@ -56,6 +56,21 @@ We expect the teams to provide as much details on our project's expected final s
 - The visitors can review and then choose to buy the artwork and once payment is completed, the application takes care of routing the payment and necessary splits for the current owner and fees to the creator. 
 - Similarly, we will add marketplace commission and the tax deduction transfers, so the creators do not have to worry about complex finances andfocus on their core creative tasks.
 
+**Dashboard**
+![image](https://user-images.githubusercontent.com/52714019/210245975-919b81ee-1e66-4183-b52e-699efed85243.png)
+
+**Market - Listing + Detailed Views**
+![image](https://user-images.githubusercontent.com/52714019/210246050-ae8ed5ed-7822-4ba0-8924-90d331c43647.png)
+![image](https://user-images.githubusercontent.com/52714019/210246201-0ca0d84d-a72f-4615-93c8-a5fdb1219542.png)
+
+**Store**: Contains both user collections (for creators) and list of owned artworks
+![image](https://user-images.githubusercontent.com/52714019/210246294-f0f0cf24-f28e-464a-a275-2c74a00461f5.png)
+
+**Transactions** - all transactions including buy, sell, royalty payments and itemized for clarity
+![image](https://user-images.githubusercontent.com/52714019/210246489-9d541dad-c1ce-4b6d-9977-1d4d70186ece.png)
+
+
+
 ***
 #### Data models / API specifications of the core functionality
 We have anticipated the following core modules:
@@ -76,6 +91,7 @@ We have anticipated the following core modules:
 ***
 #### An overview of the technology stack to be used
 Our ideal environment setup is micro-services and micro-apps delivery model. This allows us to work on multiple components at the same time, and fastrack development, delivery and maintenance. 
+- Tech is NodeJS + JS
 - Compute - we use a combination of serverless for most of application calls and some dedicated VM resource for contract deployment and other specific tasks
 - Storage - this is a combination of decentralized storage via IPFS /Filecoin and S3
 - Database - we have relied on using MongoDB for application data
@@ -122,11 +138,12 @@ Our project setup across various modules, with each its own storage + compute fo
 ![image](https://user-images.githubusercontent.com/52714019/210243990-09358717-783d-408f-8370-5cdefac42803.png)
 
 
-
 ***
 #### What your project is _not_ or will _not_ provide or implement
-
-
+- while we will make provisions for support for legal and tax related topics, this is not a service or a feature that will be provided. these will be managed via the community forums where users will be able to ask and find answers
+- the delivery model is product-based and not service based, hence we do not intend to provide niche customizations and technology development. however, if certain features add value to the entire community / users, we might consider adding those to the development roadmap. 
+- we do not provide manpower or other resources for custom / software development
+- 
 
 ***
 This is a place for you to manage expectations and to clarify any limitations that might not be obvious
