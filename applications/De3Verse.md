@@ -3,7 +3,7 @@
 - **Project Name:** De3Verse
 - **Team Name:** De3Verse
 - **Payment Address:** de3verse.near
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
+- **[Level](../README.md#level_slider-levels):** 2
 
 
 ## Project Overview :page_facing_up:
@@ -35,14 +35,14 @@ As the founder & buildorr of de3verse, an open metaverse platform on the near pr
 
 **An overview of the technology stack to be used**
 
-- Metaverse: Unity, WEBGL, C#, C++, JAVA
+- Unity-SDK: Unity, WEBGL, C#, C++, JAVA
 - Backend: NodeJS, React, Firebase, IPFS
 - Frontend: HTML5, CSS3, BOOTSTRAP
 - JS -  React / Next, JQUERY
 - Rust, Near API & SDK, Mintbase API
 
 **PoC/MVP or other relevant prior work or research on the topic:** <br>
-To drive extensive growth of games/NFT-games in the near ecosystem, it is important to focus on making unity/unreal SDKs open-source and available to help new blockchain developers build blockchain-based games that integrate seamlessly with NFTs on near. <br>
+To drive extensive growth of games/NFT-games in the near ecosystem, it is important to focus on open-source availability of functional unity/unreal SDKs to help new blockchain developers build blockchain-based games that integrate seamlessly with NFTs on near. <br>
 As the founder of de3verse, an open metaverse platform on the near protocol, I understand the difficulties developers face when proper tools and descriptions are not available. We faced many issues when integrating the near wallet into our unity (WEBGL) based metaverse. The unity tools and definitions currently available on GitHub/Google are not compatible with WEBGL for the near blockchain, which caused unnecessary delays. <br>
 To solve this problem for other game developers, we are proposing to develop an end-to-end unity-SDK that will help new game developers seamlessly build games that integrate with the near blockchain and NFTs, compatible with WEBGL and more. We will also maintain this as open-source for everyone to use freely without any restrictions.
 <br><br>
