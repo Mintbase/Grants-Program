@@ -46,12 +46,21 @@ The main motivation for this comes from our recent discussions with various stak
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Mockups/designs of any UI components
-our initial mockup of the sandbox is already live at the url: https://snbx.mintif.fi
-an example of the asset listing is here: https://snbx.minti.fi/assets/a2b16b1343d54f5e8124d04d2352d7f06
+- Mockups/designs of any UI components  
+***
+Our initial mockup of the sandbox is already live at the url: https://snbx.mintif.fi
+An example of the asset listing is here: https://snbx.minti.fi/assets/a2b16b1343d54f5e8124d04d2352d7f06
+The sandbox is a web2 modelled system of how users can create collections, add artwork and media, set price and royalty and list the items on the marketplace. The visitors can review and then choose to buy the artwork and once payment is completed, the application takes care of routing the payment and necessary splits for the current owner and fees to the creator. Similarly, we will add marketplace commission and the tax deduction transfers, so the creators do not have to worry about complex finances andfocus on their core creative tasks.
+
 
 - Data models / API specifications of the core functionality
+***
+
+
 - An overview of the technology stack to be used
+***
+
+
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
