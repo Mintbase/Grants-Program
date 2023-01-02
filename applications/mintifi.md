@@ -293,6 +293,10 @@ This section is breakup the development roadmap with milestones and deliverables
 - **FTE:**  10.5
 - **Costs:** 11,425 USD   
 
+![image](https://user-images.githubusercontent.com/52714019/210275164-d88aebdd-4437-466b-88e6-ab2b486c806b.png)
+![image](https://user-images.githubusercontent.com/52714019/210275184-34116e33-2f92-4a3b-9aea-1e2bf629bad9.png)
+
+
 
 ...
 ## Future Plans
