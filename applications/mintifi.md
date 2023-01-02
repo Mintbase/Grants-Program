@@ -65,13 +65,26 @@ We have anticipated the following core modules:
 - storage - this includes both decentralized and cerntralized (backup) storage for media content, token-data and other application data
 - transfers - this handles all transactions on hte application. the transactions are further categoried for users, artwork/item and for the entire marketplace
 - alerts - this modules handles all notifications and user alerts for various activities on the application
+- community forum - this includes both token-gated forums and open forums for people to get and provide help to other creators and application users
 
 ![image](https://user-images.githubusercontent.com/52714019/210238763-a2699790-ad2d-4ad3-8607-55847799f305.png)
 
 
 ***
 #### An overview of the technology stack to be used
+Our ideal environment setup is micro-services and micro-apps delivery model. This allows us to work on multiple components at the same time, and fastrack development, delivery and maintenance. 
+- Compute - we use a combination of serverless for most of application calls and some dedicated VM resource for contract deployment and other specific tasks
+- Storage - this is a combination of decentralized storage via IPFS /Filecoin and S3
+- Database - we have relied on using MongoDB for application data
+- Alerts - notifications systems, SES / SNS / Mobile and Whatsapp Alerts
+- front end - this is a combination of reactjs and nextjs (for SEO and Social-Sharable content)
+- mobile applcation - react native (planned for phase 2
+- Transactions - this is built individually with existing finance service providers with our custom routing
+- other web3 components as needed to achieve the desirable user experiene
 
+Our project setup across various modules, with each its own storage + compute for on-demand scalability
+
+![image](https://user-images.githubusercontent.com/52714019/210242024-68522775-0771-44a2-99cd-1a6bcdcf908a.png)
 
 
 
