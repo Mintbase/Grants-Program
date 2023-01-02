@@ -283,6 +283,9 @@ This section is breakup the development roadmap with milestones and deliverables
 - **FTE:**  12.5
 - **Costs:** 13,550 USD   
 
+![image](https://user-images.githubusercontent.com/52714019/210274117-be2a9a5c-9f7f-43a0-a29a-9da850758090.png)
+![image](https://user-images.githubusercontent.com/52714019/210274140-32ec9fab-5177-4c92-bb1e-2288f727c76f.png)
+
 
 ### Milestone 4 — Maintenance, Community, Marketing, Commerce
 
@@ -294,18 +297,19 @@ This section is breakup the development roadmap with milestones and deliverables
 ...
 ## Future Plans
 
-Please include here
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+#### how you intend to use, enhance, promote and support your project in the short term, and
+- first straegy is towards community building by education, awareness and promote sales by focused themed events
+- conduct online exhibits, local showcases for projects and creators
+- marketing strtegies to explore leasing of NFT artworks with coworking and commercial office spaces
+
+#### the team's long-term plans and intentions in relation to it.
+- over the long term, the plan is to engage with art galleries for promotion of NFT based content
+- in addition we would like to explore the partnership with museums and othe historical / cultural landmarks for tourism exploration
 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Mintbase Website
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
