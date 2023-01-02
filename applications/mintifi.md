@@ -154,52 +154,79 @@ This is a place for you to manage expectations and to clarify any limitations th
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+#### Where and how does your project fit into the ecosystem?
+- the project is a great fit with Mintbase which provides the right NFT Infrastructure to build NFT centric marketplace applications. Mintbase + 
+
+### Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+- our first and initial target user base is artists and creators in india, which provides a rich and diverse cultural
+- our second target is museums, NFT galleries and historical sites which can utilize NFT and our marketplace for revenue and promotions
+- the buyers are made up of indians living in and outside of india, tourists and vistors
+- this will be done in phases
+
+#### What need(s) does your project meet?
+- the first aim is to provide localization of technology for mainstream benefit. existing marketplaces do not cater to local language and demographics within India. 
+- typical marketplaces are storefronts, whereas mintifi brings the community + forum + commerce together. the success of amazon is mainly attributed to the social component where buyers and sellers can interact on the same platform without having to goto discord, slack or twitter. why should a NFT markeplace exist in 3 other platforms instead of being one
+- finally it addresses the operational challenges around payments, tax and legal support to provide confidence and build trust with the user base
+
+### Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
+- NFT marketplaces are not new concept, and there are several examples out there. what we are doing is to first address the user challenges from an adoption and usage point of view than driving sale metrics of jpegs. 
+- secondly, our focus is on promotion local art and creative forms in addition to the digital artworks. this will need additional components and integrtions such as postage and logistics, however, we have those solutions avalable to deploy it at scale and good unit economics
+
+
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Saurav Raaj, Technology
+- Smriti Chaudhry, Operations and Business
+- Chandan K, Blockchain Lead
+- Satya Verma, Full Stack Developer
+- Rohit Sujan, Sales and Community
+- 2x Industry Mentors and Advisors
+- 1x Legal Advisor
+- 
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** Saurav Raaj
+- **Contact Email:** saurav.raaj@gmail.com
+- **Website:** https://snbx.minti.fi
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** 160 ROBINSON ROAD, #14-04, SINGAPORE BUSINESS FEDERATION CENTER
+- **Registered Legal Entity:** NIMBL Solution Pte Ltd
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+The team is well balanced in terms of technology, business and commercial and legal aspects of managing marketplace business. Project is led by Saurav Raaj, who has been building in web3 for several years including multiple wins at various hackathons both in web3, web3 and fintech projects. He has built Wize - tokenization solution with applications in pharma, education, supply chain and real estate domains. he has been invited by various organizations for seminars, panel discussions including blockchain copmanies suchas Algorand and Hyperledger.
 
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
+![image](https://user-images.githubusercontent.com/52714019/210250394-df7ce95e-4ac4-4bbd-ae1e-b26bf00d4d8d.png)
+
+Smriti is very active in the web3 space with several community meetups and panel discussions. 
+
+![image](https://user-images.githubusercontent.com/52714019/210250646-10a15d8e-7984-4f57-b0e6-1ec10af9b77e.png)
+![image](https://user-images.githubusercontent.com/52714019/210250677-2a60a5fb-38e2-469b-83d3-4fee1c29a0f9.png)
+
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- [MintiFi - Sandbox](https://github.com/saurav2799/mintifi-snbx)
+- [Route Finance - Payments Infra](https://github.com/saurav2799/routebz-snbx)
+
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/saurav2799
+- https://github.com/ChandanKumar665
+- https://github.com/satya-pverma
+
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/sauravraaj
+- https://www.linkedin.com/in/smritichaudhry
 
 ## Development Status :open_book:
 
