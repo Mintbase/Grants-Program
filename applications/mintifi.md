@@ -233,7 +233,8 @@ We have started building the sandbox (testnet) version of the marketplace. The w
 
 **Project Link** https://snbx.minti.fi/
 
-**Research, Information, Publications**
+**Research, Information, Publications**.  
+Following are few references: 
 https://www.linkedin.com/feed/update/urn:li:activity:7011624949211688960
 https://www.linkedin.com/feed/update/urn:li:activity:7009382146511437824
 https://www.linkedin.com/feed/update/urn:li:activity:7008727860597194752
@@ -253,8 +254,7 @@ This section is breakup the development roadmap with milestones and deliverables
 - **Total Costs:** 50,000
 
 
-![image](https://user-images.githubusercontent.com/52714019/210262755-b5211643-c37c-4c37-a07b-22e63bfe16be.png)
-
+![image](https://user-images.githubusercontent.com/52714019/210263068-31630272-5a5b-4214-b235-4f446c619a6d.png)
 
 
 
