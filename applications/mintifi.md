@@ -17,7 +17,10 @@
 
 ### Overview
 
-**MintiFi** is a NFT marketplace for artists, creators and those who are looking to utilize the power of NFT digital assets to curate and montetize their creative talent and IP. 
+**MintiFi** is a NFT marketplace for artists, creators and those who are looking to utilize the power of NFT digital assets to curate and montetize their creative talent and IP. The roadmap is to provide support to local museums and historical places to leverage NFTs to increase memberships and renuve.
+
+![image](https://user-images.githubusercontent.com/52714019/210244063-851cb3bb-0f74-48c1-ad51-63fc036f20f7.png)
+
 
 There are several challenges when it comes to building a NFT marketplace for Indian users. These are related to lack of technology, knowledge, awareness and clarify on regulations around digital and crypto payments for the NFT sales. We connected with several artists, existing marketplace creators and domain experts to understand these challenges. This provided us with the insights into what and how the marketplace should be conceptualized. Overall, from a creators viewpoint, due to lack of mature marketplace focused on India themes, most of them end up not using NFTs. A few who can figure out the tech + twitter + discord are able to succeed in limited ways. 
 
@@ -105,9 +108,18 @@ Our project setup across various modules, with each its own storage + compute fo
 
 ![image](https://user-images.githubusercontent.com/52714019/210243398-55add347-8625-451f-873e-3e41c2a8d99d.png)
 ![image](https://user-images.githubusercontent.com/52714019/210243409-f08d3e3b-bd45-4c22-b29c-85e39f807814.png)
-![image](https://user-images.githubusercontent.com/52714019/210243446-e443e6ff-7249-47f4-b45d-73a728143d83.png)
 ![image](https://user-images.githubusercontent.com/52714019/210243424-98d1b9bf-0686-4364-9cb9-fd026f2fc923.png)
+![image](https://user-images.githubusercontent.com/52714019/210243446-e443e6ff-7249-47f4-b45d-73a728143d83.png)
 ![image](https://user-images.githubusercontent.com/52714019/210243467-ffd1ca66-3c84-4c7c-b64b-eff0a95c6d94.png)
+
+- Considerations
+![image](https://user-images.githubusercontent.com/52714019/210243941-9970426c-1645-42fe-974a-c5e304d1ef26.png)
+![image](https://user-images.githubusercontent.com/52714019/210243954-cd7fe670-a072-4e8a-a2f7-eb224c57ee3c.png)
+![image](https://user-images.githubusercontent.com/52714019/210243964-4e3484b9-fc3e-4831-ab10-cf643fc5ba36.png)
+![image](https://user-images.githubusercontent.com/52714019/210243974-a7face94-8397-4e26-a248-645da780dd1b.png)
+![image](https://user-images.githubusercontent.com/52714019/210243982-8967388a-5897-42c6-b0d3-2dbd1960a0e5.png)
+![image](https://user-images.githubusercontent.com/52714019/210243990-09358717-783d-408f-8370-5cdefac42803.png)
+
 
 
 ***
