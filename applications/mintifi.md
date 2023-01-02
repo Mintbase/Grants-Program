@@ -273,6 +273,9 @@ This section is breakup the development roadmap with milestones and deliverables
 - **FTE:**  12
 - **Costs:** 12,800 USD   
 
+![image](https://user-images.githubusercontent.com/52714019/210273257-4ee66698-35cf-4d51-8e70-fae1c217dc7f.png)
+![image](https://user-images.githubusercontent.com/52714019/210273279-8a2b19a4-ab08-499f-8d41-b47f4d637bd3.png)
+
 
 ### Milestone 3 — Launch, Community, Marketing
 
