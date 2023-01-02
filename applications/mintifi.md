@@ -113,6 +113,7 @@ Our project setup across various modules, with each its own storage + compute fo
 ![image](https://user-images.githubusercontent.com/52714019/210243467-ffd1ca66-3c84-4c7c-b64b-eff0a95c6d94.png)
 
 - Considerations
+
 ![image](https://user-images.githubusercontent.com/52714019/210243941-9970426c-1645-42fe-974a-c5e304d1ef26.png)
 ![image](https://user-images.githubusercontent.com/52714019/210243954-cd7fe670-a072-4e8a-a2f7-eb224c57ee3c.png)
 ![image](https://user-images.githubusercontent.com/52714019/210243964-4e3484b9-fc3e-4831-ab10-cf643fc5ba36.png)
