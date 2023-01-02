@@ -90,11 +90,24 @@ Our project setup across various modules, with each its own storage + compute fo
 
 ***
 #### Documentation of core components, protocols, architecture, etc. to be deployed
+- **Gitbook**: The documentation of all modules will be maintained with a dedicated site which has already been whitelisted here - https://docs.minti.fi/. The content will be added as modules are being developed. 
+
+- in addition, this will also list the smart contract, standards on modelling NFT data (many people do not know about attributes), how to apply IP and Licensing rights to the NFT etc. 
+
+- **Github** The source code and smart contracts will be maintained here for public review, audit and comments. 
 
 
 
 ***
 #### PoC/MVP or other relevant prior work or research on the topic
+- PoC Link: https://snbx.minti.fi
+
+
+![image](https://user-images.githubusercontent.com/52714019/210243398-55add347-8625-451f-873e-3e41c2a8d99d.png)
+![image](https://user-images.githubusercontent.com/52714019/210243409-f08d3e3b-bd45-4c22-b29c-85e39f807814.png)
+![image](https://user-images.githubusercontent.com/52714019/210243446-e443e6ff-7249-47f4-b45d-73a728143d83.png)
+![image](https://user-images.githubusercontent.com/52714019/210243424-98d1b9bf-0686-4364-9cb9-fd026f2fc923.png)
+![image](https://user-images.githubusercontent.com/52714019/210243467-ffd1ca66-3c84-4c7c-b64b-eff0a95c6d94.png)
 
 
 ***
