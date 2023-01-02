@@ -185,7 +185,7 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 - Rohit Sujan, Sales and Community
 - 2x Industry Mentors and Advisors
 - 1x Legal Advisor
-- 
+
 
 ### Contact
 
@@ -253,8 +253,7 @@ This section is breakup the development roadmap with milestones and deliverables
 - **Full-Time Equivalent (FTE):**  10-11
 - **Total Costs:** 50,000
 
-
-![image](https://user-images.githubusercontent.com/52714019/210263068-31630272-5a5b-4214-b235-4f446c619a6d.png)
+![image](https://user-images.githubusercontent.com/52714019/210263809-8e7fb317-de9f-4355-81b1-db5d90a67b5e.png)
 
 
 
