@@ -44,26 +44,55 @@ The main motivation for this comes from our recent discussions with various stak
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+We expect the teams to provide as much details on our project's expected final state. We look forward to your questions and feedback, which can help us succeed in delivering a useful and viable project:
 
 #### Mockups/designs of any UI components 
 - Our initial mockup of the sandbox is already live at the url: https://snbx.mintif.fi
 - An example of the asset listing is here: https://snbx.minti.fi/assets/a2b16b1343d54f5e8124d04d2352d7f06
-The sandbox is a web2 modelled system of how users can create collections, add artwork and media, set price and royalty and list the items on the marketplace. The visitors can review and then choose to buy the artwork and once payment is completed, the application takes care of routing the payment and necessary splits for the current owner and fees to the creator. Similarly, we will add marketplace commission and the tax deduction transfers, so the creators do not have to worry about complex finances andfocus on their core creative tasks.
+- The sandbox is a web2 modelled system of how users can create collections, add artwork and media, set price and royalty and list the items on the marketplace. 
+- The visitors can review and then choose to buy the artwork and once payment is completed, the application takes care of routing the payment and necessary splits for the current owner and fees to the creator. 
+- Similarly, we will add marketplace commission and the tax deduction transfers, so the creators do not have to worry about complex finances andfocus on their core creative tasks.
 
-
-- Data models / API specifications of the core functionality
 ***
+#### Data models / API specifications of the core functionality
+We have anticipated the following core modules:
+- users - users will be individual accounts, which can be both creators (sellers) and buyers and facilitators. 
+- teams - we anticipate the usage of teams, which brings in users of different skills together. these can be multiple creators working together, and/or creators + community builders / facilitators working on a common project
+- collections - collections are the individual projects and can include from 1 to many artworks (media/content)
+- artwork / media - these are the individual saleable items (not considering fractional at this step)
+- tokens - users have the option of minting or lazy minting and hence a separate data model is assigned to handle minting and subsequent transfers. this handles the ingtegration with mintbase + near
+- smart contracts / compute - this handles the smart contracts calls for the marketplace.
+- storage - this includes both decentralized and cerntralized (backup) storage for media content, token-data and other application data
+- transfers - this handles all transactions on hte application. the transactions are further categoried for users, artwork/item and for the entire marketplace
+- alerts - this modules handles all notifications and user alerts for various activities on the application
+
+![image](https://user-images.githubusercontent.com/52714019/210238763-a2699790-ad2d-4ad3-8607-55847799f305.png)
 
 
-- An overview of the technology stack to be used
 ***
+#### An overview of the technology stack to be used
 
 
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+
+
+***
+#### Documentation of core components, protocols, architecture, etc. to be deployed
+
+
+
+***
+#### PoC/MVP or other relevant prior work or research on the topic
+
+
+***
+#### What your project is _not_ or will _not_ provide or implement
+
+
+
+***
+This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+
+
 
 ### Ecosystem Fit
 
