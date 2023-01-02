@@ -264,6 +264,7 @@ This section is breakup the development roadmap with milestones and deliverables
 - **Costs:** 11,500 USD
 
 ![image](https://user-images.githubusercontent.com/52714019/210265806-cb6df10e-41cb-40dd-b07b-0df58450e4f9.png)
+![image](https://user-images.githubusercontent.com/52714019/210266278-b7816138-137e-40c0-8586-3368ae342287.png)
 
 
 ### Milestone 2 — Buidlout, Sandbox, Main, Mobile Apps
