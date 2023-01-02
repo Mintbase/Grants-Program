@@ -5,7 +5,7 @@
 > See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
 - **Project Name:** MintiFi
-- **Team Name:** Legal name of your team (e.g. Duo)
+- **Team Name:** Wize
 - **Payment Address:** TBD
 - **[Level](../README.md#level_slider-levels):** 1, 2 or 3
 
@@ -13,24 +13,43 @@
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
 
-Please provide the following:
+**MintiFi** is a NFT marketplace for artists, creators and those who are looking to utilize the power of NFT digital assets to curate and montetize their creative talent and IP. 
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
+There are several challenges when it comes to building a NFT marketplace for Indian users. These are related to lack of technology, knowledge, awareness and clarify on regulations around digital and crypto payments for the NFT sales. We connected with several artists, existing marketplace creators and domain experts to understand these challenges. This provided us with the insights into what and how the marketplace should be conceptualized. Overall, from a creators viewpoint, due to lack of mature marketplace focused on India themes, most of them end up not using NFTs. A few who can figure out the tech + twitter + discord are able to succeed in limited ways. 
+
+In addition, we have a proven record of making NFT transactions with local payments and onchain transactions in parallel, which makes it easier and convenient for mainstream audience to get onbaorded faster. We have used this succesfully over 2022. We have worked with academics, event organizers to issue NFT creatives across various engagements and hence feel confident that we can now buidl and deliver this project. This is also our first grant proposal.
+
+This project fits well with the Mintbase ecosystem, and we feel that we can utilize the combination of Mintbase NFT solutions and Near Protocol to deliver both the digital assets and transactional capability needed for the marketplace. For example, Mintbase docs already provide the Royalty splitting for sale items, which is a key requirement for building the marketplace. We already have built our model around this (example below), where c8a7adde6c244348a9229c9ee4fd69cd2 is the creator and recives a 10% commision on every sale.
+
+![image](https://user-images.githubusercontent.com/52714019/210233607-4cb64020-0bbd-42c3-a913-67b6da340dd2.png)
+
+reference: https://snbx.minti.fi/assets/a2b16b1343d54f5e8124d04d2352d7f06
+
+
+The main motivation for this comes from our recent discussions with various stakeholders in the ecosystem, including existing marketplace owners. A few other reasons for us to consider this project are:
+- provide localized version and support for a themed NFT marketplace 
+- easy onboarding, content creation and monetization a plug and play system
+- provide a sandbox setup in parallel, which can be used for training workshops and educational activities 
+- provide a better alternative to USD x INR scenario and complicated routing challenges with existing marketplaces and replace with INR x INR || NEAR as settlement
+- provide necessary support around local taxation guide
+
+
+![image](https://user-images.githubusercontent.com/52714019/210235144-9b4c1dd9-3f9f-4ec4-907e-a9b585063bd9.png)
+
+
 
 ### Project Details
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
 - Mockups/designs of any UI components
+our initial mockup of the sandbox is already live at the url: https://snbx.mintif.fi
+an example of the asset listing is here: https://snbx.minti.fi/assets/a2b16b1343d54f5e8124d04d2352d7f06
+
 - Data models / API specifications of the core functionality
 - An overview of the technology stack to be used
 - Documentation of core components, protocols, architecture, etc. to be deployed
