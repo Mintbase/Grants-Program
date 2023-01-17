@@ -5,97 +5,102 @@
 > See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 - **Project Name:** DigitalCollectible
 - **Team Name:** DC
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
+- **Payment Address:** digitalcollectible.near
 - **[Level](../README.md#level_slider-levels):** 1
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
+A decentralized NFT gallery for artists does who aren't eligible to develop/handle a website for their NFTs or does artists who looking for a supportive platform for showing his art securely ...
 
 ### Overview
 
-Please provide the following:
+Social Media:
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
+https://instagram.com/Digital.Collectible 
+https://t.me/DigitalCollectible 
+
+During the last 100 days from the start of the Digital Collectibles feature on Instagram, a huge number of artists, influencers, and companies were attracted to this amazing feature which is built into Matic Coin by default.
+That is not an amazing experience (FOMO) but was the start of a journey.
+We continuously posted content about those Digital collectibles over the last hundreds of days but still, something went wrong the artists don't know how to take part in this feature or show up their assets securely.
+
+We had collected such wonderful data that might be interesting for u:
+10~35% of those who reached out to us were looking for a marketplace and some where to mint their NFTs and show up that out of Instagram... (maybe the matic wasn't the best choice or they need a better way to show their art)
+
+Now we are here to implement MintBase NFTs into a website as a decentralized gallery.
+Artists will be eligible to show up their assets through an SEO-friendly website and put their custom-generated gallery domain proudly anywhere they want. (Social media, blogs, etc)
+
+This system will generate unique subdomains like user1.example.com and will show their NFT assets in a beautiful interface to the visitor's freely.
+
+So the Artists and their followers will be redirected to DigitalCollectible website and Mintbase instead of the other NFT marketplaces.
+
+
+Our short range strategy based on four purpose:
+1. Decreasing the costs to as low as possible in the start of project
+2. Using the our artists help for website grow.
+3. Increasing content engagement.
+4. Creating a money circulation with Mint Base for covering advertisement cost.
+
+In the long range the DC strategy will be reversed:
+1. Using the website authority for making new artists bold and helping them to increase their impression.
+2. Stabilizing the achievements (SEO, Social media growth, and number of active artists).
+
+And the finally, 
+how do we found MintBase?
+My friends in Near coin forum redirect me to Mint Base as the best NFT marketplace in Near Ecosystems.
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
-
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+https://instagram.com/Digital.Collectible 
+https://t.me/DigitalCollectible 
 
 ### Ecosystem Fit
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
+This is a tough question for preseed project.
+We can say that DigitallCollectible will be a bridge between Artists and their audience with an NFT marketplace wich we partnered with it.
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+Artists, and every body who working on NFTs.
 - What need(s) does your project meet?
+The main important need of this project is a NFT marketplace to be partnered with it.
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+There is nothing like that in near ecosystem and in the world but theres similarity between DigitalCollectible and crew3.xyz just in subdomain section.
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- fardin turkmen (Developer)
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** fardin
+- **Contact Email:** fardin.t037@gmail.com
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** None atm
+- **Registered Legal Entity:** None atm
 
 ### Team's experience
-
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
-
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
+Exprienced in making decentralised applications, wallet, telegram bots, and landing pages for startups.
 
 ### Team Code Repos
 
 - https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/fardint
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/fardin-turkmen-615546243
 
 ## Development Status :open_book:
-
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+The projects is in preseed and only templates developed till now.
 
 ## Development Roadmap :nut_and_bolt:
 
