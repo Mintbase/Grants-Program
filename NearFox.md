@@ -12,7 +12,7 @@ Unfortunately, since that time, the team has had big problems and the product th
 
 ### Overview
 
-TThe NearFox platform is not just a website, it is a whole ecosystem that will be filled with different features both for ordinary holders, NFT collectors, those who are interested in passive income, and mainly for young artists who want to enter the NFT sphere, create own project, understand how the NFT system works for NEAR, as well as help at every stage of our artist's promotion.
+The NearFox platform is not just a website, it is a whole ecosystem that will be filled with different features both for ordinary holders, NFT collectors, those who are interested in passive income, and mainly for young artists who want to enter the NFT sphere, create own project, understand how the NFT system works for NEAR, as well as help at every stage of our artist's promotion.
 Collection “NearFox” — https://paras.id/collection/nearfox-by-ludanear
 
 Whitepaper - https://nearfox-project.gitbook.io/nearfox-whitepaper/
