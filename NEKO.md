@@ -31,23 +31,25 @@ We expect the teams to already have a solid idea about your project's expected f
 
 ![NEKO AI-Minter Example (1)](https://user-images.githubusercontent.com/103082550/220839058-d1797cb2-a213-4851-8a2e-89230408e3c1.png)
 
-- TEXT ABOUT NEKO AI-MINTER To further capitalize upon the AI-generated characteristics of the auto-minter, The 1/1 AI-NFTs will have the generation prompt embedded into the NFT metadata, along with the keywords used in the prompt generation of the image and the unique artist’s signature. Users will be able to browse through the NEKO AI-marketplace by keyword filters that correspond to the same words used in generating the respective NFTs. This brings an entirely new layer to  AI-image generation by effectively enabling users to not only mint their own Ai-generated art, but to browse the NEKO gallery for art/artists they like, and access to the prompt information used. Artists will have an easier way of sharing how they created specific art pieces to their audience, and will be able to easily generate themed collections of NFTs with similar prompt keywords/hashes.
+- The NEKO-AI platform will feature a front-end that allows users to seamlessly create AI-generated art and mint NFTs directly on-chain while retaining the AI-generation data used in the image. The NEKO platform will focus on delivering a quality UX while delivering results that are as close to the user’s artistic preferences as is possible with current AI-tech.
+
+- The user will be able to connect their wallet to access the platform and mint a an image if they are satisfied with the final image.
 
 ![AI NFT Example](https://user-images.githubusercontent.com/103082550/220839011-f9d8ed5c-4110-47d3-9c0e-8acc56a9e363.png)
 
-- TEXT ABOUT NEKO AI-NFT META DATA
+- To further capitalize upon the AI-generated characteristics of the auto-minter, The 1/1 AI-NFTs will have the generation prompt embedded into the NFT metadata, along with the keywords used in the prompt generation of the image and the unique artist’s signature. Users will be able to browse through the NEKO AI-marketplace by keyword filters that correspond to the same words used in generating the respective NFTs. 
 
 ![Neko Market Example (1)](https://user-images.githubusercontent.com/103082550/220839091-c28315f9-e835-48e3-bcd9-ec4746226893.png)
 
-- TEXT ABOUT NEKO MARKETPLACE
+- NEKO brings a new layer to AI-image generation by effectively enabling users to not only mint and display their own Ai-generated art, but to easily browse the NEKO gallery for art/artists they like from a detailed library of information. Artists will have an easier way of sharing how they created specific art pieces to their audience, and will be able to easily generate themed collections of NFTs with similar prompt keywords/code-hashes.
 
-- Data models / API specifications of the core functionality: For the NEKO AI Image Generator, we are using DALL-E 2 as the vision model.
+- The NEKO-AI Marketplace will be powered by the Mintbase API.
 
--The input to DALL-E 2 is a textual description of the image that the user wants to generate. The input can be a single sentence or a paragraph. The model can also take multiple inputs at once, separated by a delimiter. The output of DALL-E 2 is an image that corresponds to the input textual description. The image is generated using a combination of convolutional neural networks and generative adversarial networks. The output image can be of any size, depending on the user's specifications.
+Data models / API specifications of the core functionality: For the NEKO AI Image Generator, we are using DALL-E 2 as the vision model.
+
+- DALL-E 2 is a popular image generator powered by the Open-AI API and can be integrated into a variety of platforms.
 
 -We have two endpoints in our API Specification for generating and describing an image respectively. The first endpoint, `POST /image/generate` generates an image from a textual description. The second endpoint, `POST /image/describe` describes the contents of an image.
-
-
 
 ## **Data Model**
 
@@ -63,7 +65,7 @@ We expect the teams to already have a solid idea about your project's expected f
 
 ### Inputs
 
-The input to DALL-E is a textual description of the image that the user wants to generate. The input can be a single sentence or a paragraph. The model can also take multiple inputs at once, separated by a delimiter.
+The prompt input for DALL-E is a textual description of the image that the user wants to generate. The input can be a single sentence or a paragraph of relevant artistic information. The model can also take multiple inputs at once, separated by a delimiter.
 
 ### Outputs
 
