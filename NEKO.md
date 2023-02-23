@@ -1,3 +1,4 @@
+![NEKO BANNER](https://user-images.githubusercontent.com/103082550/221048086-556f1f32-a824-4dac-8fa8-dd64e24623fb.png)
 # Mintbase Grant Proposal
 
 - **Project Name:** NEKO-AI Minter & Marketplace
@@ -17,9 +18,9 @@ Please provide the following:
 
 - NEKO AI, bringing the power of AI technology to web3.
 
--NEKO was born as the first meme coin on NEAR Protocol, filling a key role in the ecosystem. NEKO unites the NEAR ecosystem under a meme-powered force that the entire community can rally behind! Going beyond the memes, NEKO token powers the creator economy on NEAR Protocol. NEKO introduced the Learn to Earn movement that rewards our audience for engaging with NEKO content and is now introducing NEKO-AI to further empower creators on NEAR protocol.
+- NEKO was born as the first meme coin on NEAR Protocol, filling a key role in the ecosystem. NEKO unites the NEAR ecosystem under a meme-powered force that the entire community can rally behind! Going beyond the memes, NEKO token powers the creator economy on NEAR Protocol. NEKO introduced the Learn to Earn movement that rewards our audience for engaging with NEKO content and is now introducing NEKO-AI to further empower creators on NEAR protocol.
 
-The Next addition to the NEKO-system will be the NEKO-AI Minter! The potential for AI technology to automate everyday tasks in a wide variety of industries has never been higher. The NEKO-AI minter will use existing AI-image generation technology to allow creators to instantly generate and mint NFTs with a single prompt. Users pay a fee in NEKO/NEAR per image generated & minted on the platform, or per monthly service subscription. Initially, the NEKO AI-minter will focus on creating 1/1 NFTs, and will provide an intuitive front-end, offering a variety of advanced functions allowing the creator increased control over AI-image generation. Additionally, we will create the NEKO AI-marketplace using the Mintbase API, which will allow users to display and list their AI-art immediately after minting.
+The Next addition to the "NEKO-system" will be the NEKO-AI Minter & Marketplace! The potential for Modern AI technology to automate difficult tasks in a wide variety of industries has never been higher. The NEKO-AI minter will use existing AI-image generation technology to allow creators to instantly generate and mint NFTs with a single prompt. Users pay a fee in NEKO/NEAR per image generated & minted on the platform, or per monthly service subscription. Initially, the NEKO AI-minter will focus on creating 1/1 NFTs, and will provide an intuitive front-end, offering a variety of advanced functions allowing the creator increased control over AI-image generation. Additionally, we will create the NEKO AI-marketplace using the Mintbase API, which will allow users to display and list their AI-art immediately after minting.
 
 - The NEKO-AI minter is a perfect fit for the Mintbase ecosystem because it will enable creators to utilize cutting-edge AI image generation technology to create unique pieces of art and mint them directly onto NEAR protocol. The integration of the NEKO AI-minter with the NEKO marketplace is a new and innovative addition to the NEAR ecosystem and will effectively showcase the Mintbase Marketplace API.
 
@@ -37,11 +38,11 @@ We expect the teams to already have a solid idea about your project's expected f
 
 ![AI NFT Example](https://user-images.githubusercontent.com/103082550/220839011-f9d8ed5c-4110-47d3-9c0e-8acc56a9e363.png)
 
-- To further capitalize upon the AI-generated characteristics of the auto-minter, The 1/1 AI-NFTs will have the generation prompt embedded into the NFT metadata, along with the keywords used in the prompt generation of the image and the unique artist’s signature. Users will be able to browse through the NEKO AI-marketplace by keyword filters that correspond to the same words used in generating the respective NFTs. 
+- To further capitalize upon the AI-generated characteristics of the auto-minter, The 1/1 AI-NFTs will have the AI-generation prompt embedded into the NFT metadata, along with the  artist’s  unique signature and description. Users will be able to browse through the NEKO AI-marketplace by keyword filters that correspond to the same words used in generating the respective NFTs. 
 
 ![Neko Market Example (1)](https://user-images.githubusercontent.com/103082550/220839091-c28315f9-e835-48e3-bcd9-ec4746226893.png)
 
-- NEKO brings a new layer to AI-image generation by effectively enabling users to not only mint and display their own Ai-generated art, but to easily browse the NEKO gallery for art/artists they like from a detailed library of information. Artists will have an easier way of sharing how they created specific art pieces to their audience, and will be able to easily generate themed collections of NFTs with similar prompt keywords/code-hashes.
+- The NEKO AI-marketplace brings a new layer to AI-image generation by effectively enabling users to not only view and display their own Ai-generated art, but to easily browse the NEKO gallery for art/artists they like from a detailed library of information. Artists will have an easier way of sharing how they created specific art pieces to their audience, and will be able to easily generate themed collections of NFTs with similar prompt keywords/code-hashes.
 
 - The NEKO-AI Marketplace will be powered by the Mintbase API.
 
@@ -114,7 +115,8 @@ An overview of the technology stack to be used:
 ![NEKO AI Core Components (1)](https://user-images.githubusercontent.com/103082550/220841029-f8700c82-0f62-4d12-b557-9310564130a0.png)
 
 PoC/MVP or other relevant prior work or research on the topic:
--We have experience using AI technology/APIs and have developed a basic POC that can generate AI images and mint them on chain. We can provide a showcase upon request by the Mintbase grants team.
+
+- We have experience using AI technology/APIs and have developed a basic POC that can generate AI images and mint them on chain. We can provide a showcase upon request by the Mintbase grants team.
 
 - The base NEKO AI platform will not be designed to mint entire collections initially. The base functionality is intended for 1/1 NFTs. The project will not develop in-house AI technology, but will leverage existing AI generator API (ex. Open AI, Midjourney) in conjunction with NEAR smart contracts to create the AI-minter. The next grant milestone will focus on creating multiple NFTs based on a prompt or reference image with traits to build larger related NFT collections.
  
@@ -122,13 +124,11 @@ PoC/MVP or other relevant prior work or research on the topic:
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
-- Where and how does your project fit into the ecosystem?
-
-The NEKO AI-minter & Marketplace will be created with the Mintbase architecture to add a unique and desired platform to the mintbase ecosystem. We believe that AI technology will quickly become a staple of every major industry and that the creative potential of AI is too great to be ignored.
+- The NEKO AI-minter/Marketplace will bring a unique experience for creators on NEAR by leveraging popular AI-tech and bringing it on-chain. We believe that AI technology will quickly become a staple of every major industry and that the creative potential of AI is too great to be ignored.
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-The target audience is creators from any skill group that are interested in creating NFTs or Ai-art. The NFT metadata based on the generation prompt is a useful tool for both web2 and web3 creators and will be extremely appealing to creators that enjoy experimenting with AI-generated art and showcasing their unique prompt styling.
+The target audience is creators from any skill group that are interested in creating NFTs or Ai-art. The NFT metadata based on the generation prompt is a useful tool for both web2 and web3 creators and will be extremely appealing to creators that enjoy experimenting with AI-generated art and showcasing their unique artistic visions.
 
 - What need(s) does your project meet?
 
@@ -175,13 +175,13 @@ Full stack developer with 6+ years of professional software engineering experien
 
 ### Team's experience
 
--The Trove labs team is developing multiple projects on NEAR, including NEKO, and Jump DeFi. We have extensive experience with a variety of smart contracts, front end design, token economics and web3 business development. We have deployed multiple NFT contracts on NEAR and have all of the skills necessary to create the above proposed project.
+- The Trove labs team is developing multiple projects on NEAR, including NEKO, and Jump DeFi. We have extensive experience with a variety of smart contracts, front-end design, token economics and web3 business development. We have deployed multiple NFT contracts on NEAR and have all of the skills necessary to create the above proposed project.
 
-For NEKO, we built 2 NFT collections as well as a staking platform with both NFT and NEKO single-sided staking.
+- We built 2 successful NFT collections for NEKO as well as a staking platform with both NFT and NEKO single-sided staking.
 
-For Jump DeFi, we have created multiple contracts comprising the NFT staking platform, Token Launcher, xJUMP single sided staking pool, IDO platform and more. 
+- For Jump DeFi, we have created multiple contracts comprising the Jump NFT staking platform, Jump Token Launcher, xJUMP single sided staking pool, Jump IDO platform and more. 
 
-Our team is also proficient with building strong communities and marketing within the NEAR ecosystem in an effort to bolster adoption and stickiness for web3 users interested in NEAR protocol.
+- Our team is also proficient with building strong communities and marketing within the NEAR ecosystem in an effort to bolster adoption and stickiness for web3 users interested in NEAR protocol.
 
 ### Team Code Repos
 
@@ -201,12 +201,6 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 ## Development Status :open_book:
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -265,24 +259,18 @@ For each milestone,
 ...
 ## Future Plans
 
-- We intend to market the new NEKO-system feature to our community by leveraging NEKO giveaways, Marketing events (spaces, podcasts), and NEAR ecosystem collaborations. We intended to develop the above proposed product into a quality functioning product. The NEKO system will continue to be developed, improved and maintained well into the future thanks to the support from our community. Continued development of the AI-minter after completion of this proposal could explore advanced functionalities and practical additions as advances in AI-technology are made.
-
+- We intend to market the new NEKO-system feature to our community by leveraging NEKO giveaways, marketing events (spaces, podcasts), and NEAR ecosystem collaborations. We will develop the above proposal into a high-quality functioning product. The "NEKO-system" will continue to be developed, improved and maintained well into the future thanks to the support from our community. Continued development of NEKO-AI after completion of this proposal will explore advanced functionalities including minting large NFT collections from a single prompt or reference image.
 
 ## Additional Information :heavy_plus_sign:
 
-Due to the the monetization models used by Open-AI & Midjourney, we will create sustainable monetization structures for the platfotm but will ensure that there is a portion of grant funding dedicated onboarding users keeping the platform operational initially.
+- Due to the the monetization models used by Open-AI & Midjourney, we will create sustainable monetization structures for the platform but will ensure that there is a portion of grant funding dedicated onboarding users keeping the platform operational initially.
+
 **How did you hear about the Grants Program?** 
 
-We heard about the mintbase grants program from the NEAR foundation.
+- We heard about the mintbase grants program from the NEAR foundation.
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
+- We have created a proof of concept for the platform and can present it to the Mintbase team.
 
-We have created a proof of concept for the platform and can present it to the Mintbase team.
-
-We have established a prosperous community centered  around the NEKO token economy. We have created multiple NFT contracts for the Good Fortune Felines, and Freaky Felines community. We have experience creating simple to use interfaces for complicated functions like staking NFT’s and claiming token rewards and will be able to easily integrate the Ai minting platform into the established NEKO ecosystem.
-
-- Previous grants you may have applied for.
-
-Trove labs helped Jump DeFi receive a grant for proximity to launch phase 1 of the platform on mainnet.
+- Trove labs helped Jump DeFi receive a grant for proximity to launch phase 1 of the platform on mainnet.
