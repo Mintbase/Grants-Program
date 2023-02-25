@@ -1,8 +1,8 @@
 ![NEKO BANNER](https://user-images.githubusercontent.com/103082550/221048086-556f1f32-a824-4dac-8fa8-dd64e24623fb.png)
 # Mintbase Grant Proposal
 
-- **Project Name:** NEKO-AI Minter & Marketplace
-- **Team Name:** NEKO
+- **Project Name:** NekoAI auto-minter & Marketplace
+- **Team Name:** Neko
 - **Payment Address:** nekotoken.near
 - **[Level](../README.md#level_slider-levels):** 2
 
@@ -14,15 +14,15 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 ### Overview
 
-- **_NEKO AI, bringing the power of AI technology to web3._**
+- **_NekoAI, bringing the power of AI technology to web3._**
 
-- NEKO was born as the first meme coin on NEAR Protocol, filling a key role in the ecosystem. NEKO unites the NEAR ecosystem under a meme-powered force that the entire community can rally behind! Going beyond the memes, NEKO token powers the creator economy on NEAR Protocol through the "Learn to Earn movement", that rewards our audience for engaging with NEKO content. The Next addition to the "NEKO-system" will be the NEKO-AI Minter & Marketplace!
+- NekoAI was born as the first meme coin on NEAR Protocol, filling a key role in the ecosystem. NEKO unites the NEAR ecosystem under a meme-powered force that the entire community can rally behind! Going beyond the memes, NEKO token powers the creator economy on NEAR Protocol through the "Learn to Earn movement", that rewards our audience for engaging with NEKO content. The Next addition to the "NEKO-system" will be the NekoAI auto-minter & Marketplace!
 
--  The potential for Modern AI technology to automate difficult tasks in a wide variety of industries has never been higher. The NEKO-AI minter will use existing AI-image generation technology to allow creators to instantly generate and mint NFTs with a single prompt. Users pay a fee in NEKO/NEAR per image generated & minted on the platform, or per monthly service subscription. Initially, the NEKO AI-minter will focus on creating 1/1 NFTs, and will provide an intuitive front-end, offering a variety of advanced functions allowing the creator increased control over AI-image generation. Additionally, we will create the NEKO AI-marketplace using the Mintbase API, which will allow users to display and list their AI-art immediately after minting.
+-  The potential for Modern AI technology to automate difficult tasks in a wide variety of industries has never been higher. The NekoAI auto-minter will use existing AI-image generation technology to allow creators to instantly generate and mint NFTs with a single prompt. Users pay a fee in NEKO/NEAR per image generated & minted on the platform, or per monthly service subscription. Initially, the NekoAI auto-minter will focus on creating 1/1 NFTs, and will provide an intuitive front-end, offering a variety of advanced functions allowing the creator increased control over AI-image generation. Additionally, we will create the NEKO AI-marketplace using the Mintbase API, which will allow users to display and list their AI art immediately after minting.
 
-- The NEKO-AI minter is a perfect fit for the Mintbase ecosystem because it will enable creators to utilize cutting-edge AI image generation technology to create unique pieces of art and mint them directly onto NEAR protocol. The integration of the NEKO AI-minter with the NEKO marketplace is a new and innovative addition to the NEAR ecosystem and will effectively showcase the Mintbase Marketplace API.
+- NekoAI is a perfect fit for the Mintbase ecosystem because it will enable creators to utilize cutting-edge AI image generation technology to create unique pieces of art and mint them directly onto NEAR protocol. The integration of the NekoAI auto-minter with the NEKO marketplace is a new and innovative addition to the NEAR ecosystem and will effectively showcase the Mintbase Marketplace API.
 
-- Since the conception of NEKO, empowering creators has been one of our core tenants. We believe that when used together, AI and web3 technology can grant a significant advantage to creators and users within the NEAR ecosystem. By including the information used to generate the image on each NFT, users will have access to a database of prompts, keywords, and hash codes that can help them output their desired image. We are eager to explore the capabilities of AI in web3 applications and know that bringing this technology directly to builders/users  would provide an invaluable tool to both the NEKO, NEAR & Mintbase communities.
+- Since the conception of Neko, empowering creators has been one of our core tenants. We believe that when used together, AI and web3 technology can grant a significant advantage to creators and users within the NEAR ecosystem. By including the information used to generate the image on each NFT, users will have access to a database of prompts, keywords, and hash codes that can help them output their desired image. We are eager to explore the capabilities of AI in web3 applications and know that bringing this technology directly to builders/users  would provide an invaluable tool to both the Neko, NEAR & Mintbase communities.
 
 ### Project Details
 
@@ -30,21 +30,21 @@ We expect the teams to already have a solid idea about your project's expected f
 
 ![NEKO AI-Minter Example (1)](https://user-images.githubusercontent.com/103082550/220839058-d1797cb2-a213-4851-8a2e-89230408e3c1.png)
 
-- The NEKO-AI platform will feature a front-end that allows users to seamlessly create AI-generated art and mint NFTs directly on-chain while retaining the AI-generation data used in the image. The NEKO platform will focus on delivering a quality UX while delivering results that are as close to the user’s artistic preferences as is possible with current AI-tech.
+- The NekoAI platform will feature a front-end that allows users to seamlessly create AI-generated art and mint NFTs directly on-chain while retaining the AI-generation data used in the image. The NekoAI platform will focus on delivering a quality UX while delivering results that are as close to the user’s artistic preferences as is possible with current AI-tech.
 
 - The user will be able to connect their wallet to access the platform and mint a an image if they are satisfied with the final image.
 
 ![AI NFT Example](https://user-images.githubusercontent.com/103082550/220839011-f9d8ed5c-4110-47d3-9c0e-8acc56a9e363.png)
 
-- To further capitalize upon the AI-generated characteristics of the auto-minter, The 1/1 AI-NFTs will have the AI-generation prompt embedded into the NFT metadata, along with the  artist’s  unique signature and description. Users will be able to browse through the NEKO AI-marketplace by keyword filters that correspond to the same words used in generating the respective NFTs. 
+- To further capitalize upon the AI-generated characteristics of the auto-minter, The 1/1 AI-NFTs will have the AI-generation prompt embedded into the NFT metadata, along with the  artist’s  unique signature and description. Users will be able to browse through the NekoAI marketplace by keyword filters that correspond to the same words used in generating the respective NFTs. 
 
 ![Neko Market Example (1)](https://user-images.githubusercontent.com/103082550/220839091-c28315f9-e835-48e3-bcd9-ec4746226893.png)
 
-- The NEKO AI-marketplace brings a new layer to AI-image generation by effectively enabling users to not only view and display their own Ai-generated art, but to easily browse the NEKO gallery for art/artists they like from a detailed library of information. Artists will have an easier way of sharing how they created specific art pieces to their audience, and will be able to easily generate themed collections of NFTs with similar prompt keywords/code-hashes.
+- The NekoAI marketplace brings a new layer to AI-image generation by effectively enabling users to not only view and display their own Ai-generated art, but to easily browse the Neko gallery for art/artists they like from a detailed library of information. Artists will have an easier way of sharing how they created specific art pieces to their audience, and will be able to easily generate themed collections of NFTs with similar prompt keywords/code-hashes.
 
-- The NEKO-AI Marketplace will be powered by the Mintbase API.
+- The NekoAI Marketplace will be powered by the Mintbase API.
 
-Data models / API specifications of the core functionality: For the NEKO AI Image Generator, we are using DALL-E 2 as the vision model.
+Data models / API specifications of the core functionality: For the NekoAI Image Generator, we are using DALL-E 2 as the vision model.
 
 - DALL-E 2 is a popular image generator powered by the Open-AI API and can be integrated into a variety of platforms.
 
@@ -222,7 +222,7 @@ For each milestone,
 - **Full-Time Equivalent (FTE):**  2
 - **Total Costs:** $25,000
 
-### Milestone 1 — Create NEKO-AI & Front-end with Autominter integration
+### Milestone 1 — Create NekoAI & Front-end with Autominter integration
 
 - **Estimated duration:** 1.5 months
 - **FTE:**  2
@@ -238,7 +238,7 @@ For each milestone,
 | 1. | AI Prompt Front-end Integration | We will develop a front end powered by a 3rd party AI image generator that will allow users to generate images from customizable prompts.
 | 2. | Auto Minter  | We will develop a smart contract that will connect to the AI front-end to seamlessly mint an image generated by the AI with applicable metadata & descriptions inputted by the user. |  
 
-### Milestone 2 — Create NEKO-AI Marketplace & launch platform MVP to mainnet
+### Milestone 2 — Create NekoAI Marketplace & launch platform MVP to mainnet
 
 - **Estimated duration:** 1 months
 - **FTE:**  2
