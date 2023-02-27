@@ -25,21 +25,20 @@
 ### Project Details
 
 **NekoAI Auto-Minter**
-![NEKO AI-Minter Example (1)](https://user-images.githubusercontent.com/103082550/220839058-d1797cb2-a213-4851-8a2e-89230408e3c1.png)
 
 - The NekoAI platform allows users to seamlessly create AI-generated art and mint as an NFT directly on-chain while retaining the data used in the image. NekoAI focuses on an intuitive UX that guides users through the prompt engineering process to deliver results that closely match the users creative goals.
 
 - Users can connect their wallet to access the platform and mint an image into a NEAR NFT once they are satisfied with the final generated image.
 
 **NekoAI NFT**
-![AI NFT Example](https://user-images.githubusercontent.com/103082550/220839011-f9d8ed5c-4110-47d3-9c0e-8acc56a9e363.png)
+![AI NFT Example (1)](https://user-images.githubusercontent.com/103082550/221712029-c432df66-e358-4dac-be7f-314139b2d67f.png)
 
 - To further capitalize on the AI-generated characteristics of the auto-minter, The AI-NFTs embed the prompt inputs into the metadata, along with the artist’s unique signature and description. 
 
 - Users can browse through the NekoAI Marketplace with keyword filters that correspond to the same words used in generating the respective NFTs. Creators can utilize the prompt-inputs and seeds from other AI-artwork to build upon an existing NFT. 
 
 **NekoAI Marketplace**
-![Neko Market Example (1)](https://user-images.githubusercontent.com/103082550/220839091-c28315f9-e835-48e3-bcd9-ec4746226893.png)
+![Neko Market Example (2)](https://user-images.githubusercontent.com/103082550/221711937-a57162cb-c086-4aac-8193-e5a19cce62bd.png)
 
 - The NekoAI Marketplace brings a new layer to AI-image generation by effectively enabling users to view and display their own AI-generated art, as well as easily browse the NEKO gallery for art/artists they like from a detailed library of information. Artists now have an easier way of sharing how they created specific art pieces to their audience, and can easily generate themed collections of NFTs with similar prompt keywords/code-hashes.
 
@@ -114,7 +113,7 @@ An overview of the technology stack to be used:
 -AI image generator API (Open AI, Midjourney etc.), Modified NEAR NFT contracts, Back end that supports AI end-user functionality.
 
 **NekoAI Core Components** 
-![NEKO AI Core Components (1)](https://user-images.githubusercontent.com/103082550/220841029-f8700c82-0f62-4d12-b557-9310564130a0.png)
+![NEKO AI Core Components (2)](https://user-images.githubusercontent.com/103082550/221711682-949e957b-7168-4de9-a39e-52b6a826cd59.png)
 
 PoC/MVP or other relevant prior work or research on the topic:
 
@@ -142,15 +141,13 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 Former Laboratory Manager with experience leading teams and scaling operations at a biochem startup. 
 
-Co-Host of NEAR at NIGHT
-
+Co-Host of NEAR at NIGHT.
 
 **David Leer:** Co-Founder of Trove Labs.
 
 Former Senior PM with Engineering background and experience managing projects $350MM in scope.
 
 “Most Influential” on NEAR and Co-Host of NEAR at NIGHT.  
-
 
 **Eric Cheung:** Head of Development
 
@@ -160,7 +157,6 @@ Full stack developer with 6+ years of professional software engineering experien
 ### Contact
 
 - **Contact Name:** Brandon Cantu
-
 - **Contact Email:** team@trovelabs.xyz
 - **Website:** https://www.nekotoken.xyz/
 
@@ -234,8 +230,7 @@ If you've already started implementing your project or it is part of a larger re
 | 0e. | Article | We will publish an article/workshop that explains the functions of the NEKO AI-marketplace and the unique use-cases for AI generated NFTs
 | 2.1. | NEKO AI-Marketplace | We will create the NEKO AI-marketplace using Mintbase architecture that allows users to create and list 1/1 AI-generated NFTs. Front end will come with advanced search and filter functionality using AI generation information stored in metadata.
 | 2.2. | Near Mainnet Integration | All three components (Auto-minter, Image generator, & Marketplace) will be integrated and launched onto NEAR mainnet.
- |  
-...
+
 ## Future Plans
 
 - Once development of the AI Minter and Marketplace is completed we will move onto Phase 2 development. Phase 2 will enable users to create full scale generative NFT collections with traits powered by AI generation. Users will be able to isolate specific traits from various images and incorporate them into a generative NFT collection. A trait library on the NekoAI marketplace will enable users to customize and upgrade traits from existing collections as well. It has never been easier to create a generative NFT collection than with NekoAI!
