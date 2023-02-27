@@ -8,10 +8,6 @@
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
-
 ### Overview
 
 - **_Neko is bringing the power of AI technology to the NEAR ecosystem._**
@@ -27,8 +23,6 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 - Empowering creators is a core tenant of the Nekosystem. We believe combining AI and NFT technology is a perfect solution for creators to gain provable ownership over the art they generate. By including the keywords used to generate the image in the metadata of each NFT, users have access to a database of prompts, keywords, and hash codes that can help them output their desired image.
 
 ### Project Details
-
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
 **NekoAI Auto-Minter**
 ![NEKO AI-Minter Example (1)](https://user-images.githubusercontent.com/103082550/220839058-d1797cb2-a213-4851-8a2e-89230408e3c1.png)
@@ -51,6 +45,8 @@ We expect the teams to already have a solid idea about your project's expected f
 
 - The NekoAI Marketplace will be powered by the Mintbase API.
 
+## **Data Model**
+
 Data models / API specifications of the core functionality: 
 
 - For the NekoAI Image Generator, we are using DALL-E 2 as the vision model.
@@ -58,8 +54,6 @@ Data models / API specifications of the core functionality:
 - DALL-E 2 is a popular image generator powered by the Open-AI API and can be integrated into a variety of platforms.
 
 - We have two endpoints in our API Specification for generating and describing an image respectively. The first endpoint, `POST /image/generate` generates an image from a textual description. The second endpoint, `POST /image/describe` describes the contents of an image.
-
-## **Data Model**
 
 ### **ImageDescription**
 
@@ -73,11 +67,11 @@ Data models / API specifications of the core functionality:
 
 ### Inputs
 
-The prompt input for DALL-E is a textual description of the image that the user wants to generate. The input can be a single sentence or a paragraph of relevant artistic information. The model can also take multiple inputs at once, separated by a delimiter.
+- The prompt input for DALL-E is a textual description of the image that the user wants to generate. The input can be a single sentence or a paragraph of relevant artistic information. The model can also take multiple inputs at once, separated by a delimiter.
 
 ### Outputs
 
-The output of DALL-E is an image that corresponds to the input textual description. The image is generated using a combination of convolutional neural networks and generative adversarial networks. The output image can be of any size, depending on the user's specifications.
+- The output of DALL-E is an image that corresponds to the input textual description. The image is generated using a combination of convolutional neural networks and generative adversarial networks. The output image can be of any size, depending on the user's specifications.
 
 ## **API Specification**
 
@@ -144,21 +138,21 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Team members
 
-Brandon Cantu: Co-Founder of Trove Labs. 
+**Brandon Cantu:** Co-Founder of Trove Labs. 
 
 Former Laboratory Manager with experience leading teams and scaling operations at a biochem startup. 
 
 Co-Host of NEAR at NIGHT
 
 
-David Leer: Co-Founder of Trove Labs.
+**David Leer:** Co-Founder of Trove Labs.
 
 Former Senior PM with Engineering background and experience managing projects $350MM in scope.
 
 “Most Influential” on NEAR and Co-Host of NEAR at NIGHT.  
 
 
-Eric Cheung: Head of Development
+**Eric Cheung:** Head of Development
 
 Full stack developer with 6+ years of professional software engineering experience in ML/AI automation, gaming and blockchain development.
 
@@ -188,9 +182,6 @@ Full stack developer with 6+ years of professional software engineering experien
 - [Trove Labs](https://github.com/Trove-team)
 - [NEKO/Good Fortune Felines](https://github.com/Good-Fortune-Felines-Core-Team)
 - [Jump DeFi](https://github.com/Jump-Dex)
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
 - [Eric Cheung](https://github.com/ymc182)
 
 ### Team LinkedIn Profiles (if available)
