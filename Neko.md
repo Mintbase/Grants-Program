@@ -30,29 +30,34 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
+**NekoAI Auto-Minter**
 ![NEKO AI-Minter Example (1)](https://user-images.githubusercontent.com/103082550/220839058-d1797cb2-a213-4851-8a2e-89230408e3c1.png)
 
 - The NekoAI platform allows users to seamlessly create AI-generated art and mint as an NFT directly on-chain while retaining the data used in the image. NekoAI focuses on an intuitive UX that guides users through the prompt engineering process to deliver results that closely match the users creative goals.
 
 - Users can connect their wallet to access the platform and mint an image into a NEAR NFT once they are satisfied with the final generated image.
 
+**NekoAI NFT**
 ![AI NFT Example](https://user-images.githubusercontent.com/103082550/220839011-f9d8ed5c-4110-47d3-9c0e-8acc56a9e363.png)
 
 - To further capitalize on the AI-generated characteristics of the auto-minter, The AI-NFTs embed the prompt inputs into the metadata, along with the artist’s unique signature and description. 
 
 - Users can browse through the NekoAI Marketplace with keyword filters that correspond to the same words used in generating the respective NFTs. Creators can utilize the prompt-inputs and seeds from other AI-artwork to build upon an existing NFT. 
 
+**NekoAI Marketplace**
 ![Neko Market Example (1)](https://user-images.githubusercontent.com/103082550/220839091-c28315f9-e835-48e3-bcd9-ec4746226893.png)
 
 - The NekoAI Marketplace brings a new layer to AI-image generation by effectively enabling users to view and display their own AI-generated art, as well as easily browse the NEKO gallery for art/artists they like from a detailed library of information. Artists now have an easier way of sharing how they created specific art pieces to their audience, and can easily generate themed collections of NFTs with similar prompt keywords/code-hashes.
 
 - The NekoAI Marketplace will be powered by the Mintbase API.
 
-Data models / API specifications of the core functionality: For the NekoAI Image Generator, we are using DALL-E 2 as the vision model.
+Data models / API specifications of the core functionality: 
+
+- For the NekoAI Image Generator, we are using DALL-E 2 as the vision model.
 
 - DALL-E 2 is a popular image generator powered by the Open-AI API and can be integrated into a variety of platforms.
 
--We have two endpoints in our API Specification for generating and describing an image respectively. The first endpoint, `POST /image/generate` generates an image from a textual description. The second endpoint, `POST /image/describe` describes the contents of an image.
+- We have two endpoints in our API Specification for generating and describing an image respectively. The first endpoint, `POST /image/generate` generates an image from a textual description. The second endpoint, `POST /image/describe` describes the contents of an image.
 
 ## **Data Model**
 
@@ -113,7 +118,8 @@ Describe the contents of an image.
 
 An overview of the technology stack to be used:
 -AI image generator API (Open AI, Midjourney etc.), Modified NEAR NFT contracts, Back end that supports AI end-user functionality.
- 
+
+**NekoAI Core Components** 
 ![NEKO AI Core Components (1)](https://user-images.githubusercontent.com/103082550/220841029-f8700c82-0f62-4d12-b557-9310564130a0.png)
 
 PoC/MVP or other relevant prior work or research on the topic:
@@ -128,17 +134,11 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 - The NEKO AI-minter/Marketplace will bring a unique experience for creators on NEAR by leveraging popular AI-tech and bringing it on-chain. We believe that AI technology will quickly become a staple of every major industry and that the creative potential of AI is too great to be ignored.
 
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+- The target audience for NekoAI is creators from any skill group that are interested in creating NFTs or Ai-art. The NFT metadata based on the generation prompt is a useful tool for both web2 and web3 creators and will be extremely appealing to creators that enjoy experimenting with AI-generated art and showcasing their unique artistic visions.
 
-The target audience is creators from any skill group that are interested in creating NFTs or Ai-art. The NFT metadata based on the generation prompt is a useful tool for both web2 and web3 creators and will be extremely appealing to creators that enjoy experimenting with AI-generated art and showcasing their unique artistic visions.
+- Our project is one of the first to integrate AI art generation with web3 on NEAR and many other blockchains. Our project showcases the Mintbase marketplace developer tools.
 
-- What need(s) does your project meet?
-
-Our project is one of the first to integrate AI art generation with web3 on NEAR and many other blockchains. Our project showcases the Mintbase marketplace developer tools.
-
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-
-Currently, there are not any significant projects using AI-image generators on NEAR.
+- Currently, there are not any significant projects using AI-image generators on NEAR.
 
 ## Team :busts_in_silhouette:
 
@@ -202,21 +202,9 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
+- https://platform.openai.com/docs/guides/images/introduction
+
 ## Development Roadmap :nut_and_bolt:
-
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
 
 ### Overview
 
@@ -228,7 +216,7 @@ For each milestone,
 
 - **Estimated duration:** 1.5 months
 - **FTE:**  2
-- **Costs:** 15,000 USD
+- **Costs:** 17,500 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -237,14 +225,14 @@ For each milestone,
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an article/workshop that explains the functions of the NEKO AI-Autominter and describes how to integrate an AI generation API into an on chain platform on NEAR.
-| 1. | AI Prompt Front-end Integration | We will develop a front end powered by a 3rd party AI image generator that will allow users to generate images from customizable prompts.
-| 2. | Auto Minter  | We will develop a smart contract that will connect to the AI front-end to seamlessly mint an image generated by the AI with applicable metadata & descriptions inputted by the user. |  
+| 1.1 | AI Prompt Front-end Integration | We will develop a front end powered by a 3rd party AI image generator that will allow users to generate images from customizable prompts.
+| 1.2. | Auto Minter  | We will develop a smart contract that will connect to the AI front-end to seamlessly mint an image generated by the AI with applicable metadata & descriptions inputted by the user. |  
 
 ### Milestone 2 — Create NekoAI Marketplace & launch platform MVP to mainnet
 
 - **Estimated duration:** 1 months
 - **FTE:**  2
-- **Costs:** 10,000 USD
+- **Costs:** 7,500 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -253,8 +241,8 @@ For each milestone,
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an article/workshop that explains the functions of the NEKO AI-marketplace and the unique use-cases for AI generated NFTs
-| 2.1. | NEKO AI-Marketplace | We will create a NEKO AI-marketplace using Mintbase architecture that allows users to create and list 1/1 AI-generated NFTs.
-| 2.2. | Auto Minter  | All three components will be integrated and launched onto NEAR mainnet.
+| 2.1. | NEKO AI-Marketplace | We will create the NEKO AI-marketplace using Mintbase architecture that allows users to create and list 1/1 AI-generated NFTs. Front end will come with advanced search and filter functionality using AI generation information stored in metadata.
+| 2.2. | Near Mainnet Integration | All three components (Auto-minter, Image generator, & Marketplace) will be integrated and launched onto NEAR mainnet.
  |  
 ...
 ## Future Plans
