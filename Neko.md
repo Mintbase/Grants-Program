@@ -25,6 +25,7 @@
 ### Project Details
 
 **NekoAI Auto-Minter**
+![NEKO AI-Minter Example (3)](https://user-images.githubusercontent.com/103082550/221712990-5a261dfc-240f-4a0a-982b-6eb82ff57580.png)
 
 - The NekoAI platform allows users to seamlessly create AI-generated art and mint as an NFT directly on-chain while retaining the data used in the image. NekoAI focuses on an intuitive UX that guides users through the prompt engineering process to deliver results that closely match the users creative goals.
 
