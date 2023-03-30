@@ -2,7 +2,7 @@
 
 - **Project Name:** Block Crawler
 - **Team Name:** ZettaFi Labs, Inc.
-- **Payment Address:** 
+- **Payment Address:** 0xC0Efea6aa8947fC2F207333FE2F61a79069392ac
 - **[Level](../README.md#level_slider-levels):** 1
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
