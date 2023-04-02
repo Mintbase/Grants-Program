@@ -1,0 +1,249 @@
+#### Project Name: Symphonear
+
+-Team Name: Symphonear
+-Payment Address: sympho.near
+-Level : 2
+
+#### Overview
+
+Symphonear, a streaming platform in which the user can listen to music from artists attached to it in a decentralized way, allowing them to preserve most of their earnings.
+
+By creating a resource management system, we will be able to deduct the cost of daily use from the user's balance deposited into their personal  account. For artists, their benefits will be calculated on the 15th and 30th of each month, automatically enabling them in their personal profile so that they can enjoy their money whenever they want.
+
+Example: Suppose the monthly cost per use of the application is USD $10. The user will be able to recharge its equivalent in NEAR, the minimum being USD $2.50 or one week. If during the week, the user enjoyed the application 3 of the 7 days, only the amount corresponding to the days of use will be charged to his account, being free of payments on the days that he does not use the services of the application.
+
+
+#### Project Details
+
+We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+
+- Mockups/designs of any UI components https://www.figma.com/file/eGUxGD5jdaX7wEOVh0ES5W/Symphonear
+
+- Data models / API specifications of the core functionality
+We’ll use mintbase-API for some functionality, like minting not yet minted songs.
+We’ll use NEAR-API-JS for front-end functionalities, like getting data from the blockchain.
+We’ll use NEAR-SDK-RS for the Smart Contract.
+ROCKET for server related functionalities.
+
+- An overview of the technology stack to be used
+Typescript/Javascript as main languages for the front-end functionality.
+React for the front-end design.
+RUST as the main Smart Contract language.
+RUST as the main server language.
+
+- Documentation of core components, protocols, architecture, etc. to be deployed
+RUST / ROCKET for documentation of all the project, API of the project.
+
+- PoC/MVP or other relevant prior work or research on the topic
+
+Our MVP would be inspired by Spotify or Tidal and how successful they were along their way. We would be aiming to create a platform like this, but decentralized and with the new features we are proposing to create a better user experience.
+
+- What your project is _not_ or will _not_ provide or implement
+
+This project will use only music from artists that upload their work. It will not use copyrighted music from other sources or take credit for other artists work
+
+-This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+
+This will not be a Spotify or Tidal copy, in the sense that we will not create the same app with the same idea, ours will be different by everything mentioned below. As in the same way we want also to make it clear that as it won’t be a copycat it will be something new to bring a new user base and target audience into the scope (but a target audience that already had experienced music in these said platforms)
+
+
+
+#### Ecosystem Fit
+
+Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
+
+- Where and how does your project fit into the ecosystem?
+
+We will create an NEAR swapping system for dapp recharges at low exchange costs, since we want to use NEAR as the main currency, this way the user just needs to create and refill their account with NEAR tokens.
+
+This application seeks to support the adoption of this platform as NEAR, as a project with a solid base that could be compared with the greatest apps, with its users and use cases to show that NEAR  is the most appropriate blockchain for this app.
+
+ Using NFTs to break  centralization of streaming services and supporting artists with a better business model and higher profits.
+
+Removing barriers to entry to the music industry, whether you are a big or small artist, experienced or new, your place is waiting for you at Symphonear.
+
+We want you to pay for what you use, and if one day you didn't listen to music, you don't have to pay for it.
+
+- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+
+Emerging artists, artists, musicians, people that loves to hear and feel the music.
+
+- What need(s) does your project meet?
+
+Spotify, Deezer, Tidal, create a very high barrier to entry for users, being a very lucrative business for creators of the platform, but it requires thousands of listeners to be able to grant a minimum income to artists. It is difficult for emerging artists to achieve a constant income from it, not to mention what is paid differently in different parts of the world, because they are centralized systems.
+
+Like most streaming services, the aforementioned services charge for the service even if the user does not use it every day of the month.
+
+- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
+
+Not music streaming services as far as we know
+
+
+
+#### Team members
+
+- Name of team leader
+
+My name is Juan Enrique Peña: NEAR Certified Developer by NEAR Hispano, NEAR Certified Instructor by NEAR University, with background in multiple programming languages.
+
+Main RUST Developer, Leader of the Project.
+
+LinkedIn / Github:
+https://www.linkedin.com/in/juanenriqueph/
+https://github.com/JuEnPeHa/
+
+- Names of team members
+
+Ignacio Marchesini: NEAR Certified Analyst by NEAR Hispano, Frontend Developer, and financial background.
+
+Main JavaScript Frontend Developer.
+
+LinkedIn / Github:
+https://www.linkedin.com/in/ignacio-marchesini-02b8091a9/
+https://github.com/IkkeLucky
+
+#### Contact
+
+- **Contact Name:** Full name of the contact person in your team
+
+Juan Enrique Peña Haaz
+Ignacio Marchesini
+
+- **Contact Email:** Contact email (e.g. john@duo.com)
+
+jeph@nearlearning.app
+nachomarchesini@gmail.com
+
+#### Team's experience
+
+Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+
+NEAR Learning App - Application to support developers to enter the NEAR Protocol, separated by topics, with snippets that developers can copy and paste, for Android and iOS.
+
+Apple Store
+https://apps.apple.com/us/app/near-learning-app/id1614003204?ign-itscg=30200&ign-itsct=apps_box_link
+
+Play Store
+https://play.google.com/store/apps/details?id=app.nearlearning.near_learning_app
+
+NEAR NFT Gallery - Application ​to be able to see your NFTs from an application, without having to access your wallet on your PC.
+
+Sponsor Challenge Prize | Second Place
+https://devpost.com/software/nft-gallery-ui1ah6
+https://juenpeha.github.io/flutter_web_nft_gallery/#/
+
+Global NEAR Education - Courses in Spanish to introduce users, developers, artists, merchants, etc... to the NEAR Protocol, teaching how to interact with NEAR, the principles of NEAR, the blockchain in general, and even an introductory class to programming in NEA​R. We ran 2 weeks of courses, we received no funding for it.
+
+https://youtube.com/channel/UCnUfWA30zMMCmMTaTKNFkCw
+
+#### Team Code Repos
+
+Juan Peña
+
+https://github.com/JuEnPeHa/global_near_form
+https://github.com/JuEnPeHa/contract_one
+https://github.com/JuEnPeHa/hola-rust
+https://github.com/JuEnPeHa/near-splash-contract-hello
+https://github.com/JuEnPeHa/near_course_tr
+
+Marchesini Ignacio
+
+https://www.passarelladiosa.com/ (Private repository, ecommerce, non disclosure)
+https://github.com/IkkeLucky/nexoaccesorios.github.io ( https://www.nexoaccesorios.com/ )
+
+
+Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+
+https://github.com/JuEnPeHa
+https://github.com/IkkeLucky
+
+#### Team LinkedIn Profiles (if available)
+
+https://www.linkedin.com/in/juanenriqueph/
+https://www.linkedin.com/in/ignacio-marchesini-02b8091a9/
+
+
+
+
+####  Development Roadmap
+
+This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). 
+
+Overview
+
+- **Total Estimated Duration:** Duration of the whole project is 3 months.
+- **Full-Time Equivalent (FTE):**  2 FTE Devs .
+- **Total Costs:** Requested amount in USD for the whole project (35,000 USD).
+
+
+#### Milestone 1 - Design, Ideation, Investigation and Starting.
+
+- **Estimated duration:** 1 month
+- **FTE:**  2
+- **Costs:** 12,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can interact with the smart contract, this will include list a song, login and playlist funtionalities.
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests, list a song, login, … |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains how this delivered was achieved, how to list a song, and how to login. (3 Types of guide: Dev - Artist - User )
+| 1. | Listing module: A | We will create a Mintbase / NEAR module that will let the artist to list a song in the platform |  
+| 2. | Login module: B | We will create a Mintbase / NEAR module that will let the end user create an account, keep its data and current statistics / money saved | 
+| 3. | Playlist module: C | We will create a Mintbase / NEAR module that will let the end user create an a playlists, keep favorite songs and artists saved and ready to hear in a few clicks | 
+| 4. | NEAR chain integration | Modules A, B & C will interact with already minted NFTs from Mintbase storing one original piece in the Smart Contract to be the one that the users listen to. |  
+
+#### Milestone 2 - Features and Front
+
+- **Estimated duration:** 1 month
+- **FTE:**  2
+- **Costs:** 12,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can interact with the smart contract, this will include adding money to account, listen to song|
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests, listen to a song, add money to account, add music to the playlist, … |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish a workshop and videos that explains how the frontend was created from scratch and what we achieved in this month. Also Figmas and presentations explaining how the app works when it goes to testnet.
+| 1. | Creation of general structure of the frontend design (index page, hero section, library, song player, login)
+| 2.  Login and database (connect with near wallet and generate user)
+| 3. | Library, song player and near wallet/user synced with the backend.  
+| 4. | Final details to make the frontend connect and be fully functional with backend 
+| 5. | Final frontend details (animations, sliders, carrousel effects, parallax effects and so on)
+
+#### Milestone 3 - Testing - Launching
+
+- **Estimated duration:** 1 month
+- **FTE:**  2
+- **Costs:** 11,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can interact with the smart contract, this will include delist a song, minting new songs, receiving income (artists),  |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests, list a song, login, … |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains how this delivered was achieved, how to list a song, and how to login. (3 Types of guide - Dev - Artist - User - )
+| 1. | Listing module: A | We will create a Mintbase / NEAR module that will let the artist to list a song in the platform |  
+| 2. | Login module: B | We will create a Mintbase / NEAR module that will let the end user create an account, keep its data and current statistics / money saved | 
+| 3. | Login module: C | We will create a Mintbase / NEAR module that will let the end user mint not yet minted song with Mintbased | 
+| 4. | NEAR chain integration | Modules A & B will interact with already minted NFTs from Mintbase storing one original piece in the Smart Contract for be the one that the users listen to. |  
+| 5. | Mintbase / NEAR chain integration | Module C will interact with not yet minted NFTs from Mintbase storing one original piece in the Smart Contract for be the one that the users listen to, minting with the Mintbase-API the song from inside symphonear dApp |  
+
+#### Future Plans
+
+Please include here
+
+- how you intend to use, enhance, promote and support your project in the short term, and
+- the team's long-term plans and intentions in relation to it.
+
+By using the subscription or “premium” user functionality that allows the user to have extra features and benefits than the regular user (access to the DAO, decision making with artists, discount in service by cheaper month by month use of the service, and more) we are aiming to achieve sustainability with Symphonear and that would allow us to keep building more in our project such as mobile apps, connection with other platforms, blockchains and upgrading the platform day by day.
+Also we are aiming to get partnerships with music artists and records in the future as well, but in the near future we are thinking of getting this support just with the memberships and use of the platform itself
+
+#### Additional Information 
+
+**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+
+Personal recommendation by Maria and Carolin. Found information about the grant via Medium.
