@@ -27,7 +27,7 @@ You can access our webapp mockup [here](https://www.figma.com/proto/5MdgAX7tCuyU
 
 **SageMint:**
 - SageMint is our patent-pending technology that integrates GPT-4 API into our Reinforcement Learning from Human Feedback (RLHF) model. See below:
-![image](https://github.com/mikehasa/Eden/assets/91774998/c7bbacab-139a-4a9d-8858-754b597ea6f2)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/91774998/239767351-c7bbacab-139a-4a9d-8858-754b597ea6f2.png)
 
 **Tech Stack Overview:**
 - Front-end: Next.js
