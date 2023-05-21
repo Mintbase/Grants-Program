@@ -10,7 +10,7 @@
 ### Overview
 Connection as a Service (CaaS): the Next Era of Social with AIGC OpinionNFT
 
-Eden is a social platform that invented OpinionNFT, tradable elements of social graph that allows users to freely customize their online identity and social experience – just like lego blocks. Our AI algorithm SageMint predictively generates OpinionNFTs based on users’ Twitter profiles. By turning web2 footprints into web3 social assets, Eden unlocks unprecedented connectivity, convenience and value for all users.  
+Eden is a social platform that invented OpinionNFT, tradable elements of social graph that allows users to freely customize their online identity and social experience – just like lego blocks. Our AI algorithm SageMint predictively generates OpinionNFTs based on users’ Twitter profiles. By turning web2 footprints into web3 social assets, Eden unlocks unprecedented connectivity, convenience and value for all users.
 
 Eden has concluded the 1st round of closed Beta between March 6th and April 2nd with over 200 users from EthDenver 2023 – with 7-day retention rate (March 7-14) of over 17% and average screentime of over 16 min/day.  
 
@@ -27,13 +27,13 @@ You can access our webapp mockup [here](https://www.figma.com/proto/5MdgAX7tCuyU
 
 **SageMint:**
 - SageMint is our patent-pending technology that integrates GPT-4 API into our Reinforcement Learning from Human Feedback (RLHF) model. See below:
-![image](https://private-user-images.githubusercontent.com/91774998/239710666-d8ca4215-3a89-421e-8794-23199a838b89.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg0NjE5ODgyLCJuYmYiOjE2ODQ2MTk1ODIsInBhdGgiOiIvOTE3NzQ5OTgvMjM5NzEwNjY2LWQ4Y2E0MjE1LTNhODktNDIxZS04Nzk0LTIzMTk5YTgzOGI4OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDUyMFQyMTUzMDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yODc4OTcwMTIzNDNlNWUyMjMyY2M3MzEwZjk5ZTNhZTgzZDVhYmNjMDQ5ZmEzNWQyMmNhYzMxYzgyZWNhZWU4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.U0rUq4yY4WngkR82Le7GSXDKRzfjC8UEYl_mXyapx6Q)
+![image](https://github.com/mikehasa/Eden/assets/91774998/c7bbacab-139a-4a9d-8858-754b597ea6f2)
 
 **Tech Stack Overview:**
 - Front-end: Next.js
 - Back-end: Node.js, Prisma, PostgreSQL
 - Hosted On: Vercel
-- Key NFT Standards: ERC-4907 & ERC-721
+- Key NFT Standards: NEP-171, NEP-178, NEP-199
 
 **User Journey:**
 
@@ -83,30 +83,6 @@ There are no existing teams building a similar product on the NEAR ecosystem. Bu
 We have designed our UX (powered by AA, rentable NFT, and browser plugin) in a way that minimizes uses' entry barrier and cost of learning about our product. We believe the biggest problem with the current world of web3 social is that they are all built in a "fundamentalist" manner: purely imposing the concept of ownership without giving users the past benefits of connectivity and convenience they received from web2 social media. This in turn creating more information silos, preventing mass adoption. 
 
 ## Team :busts_in_silhouette:
-
-### Team members
-
-- Name of team leader
-- Names of team members
-
-### Contact
-
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
-
-### Legal Structure
-
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
-
-### Team's experience
-
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
-
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
-
-### Team Code Repos
 
 ### Team members
 
