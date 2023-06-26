@@ -269,12 +269,12 @@ NFT Integration: Leveraging the power of Non-Fungible Tokens (NFTs) to enable un
 
 Together, Near Blockchain and NFTs form a powerful combination that enhances the authenticity, interoperability, and economic ecosystem of the open metaverse. They enable secure and transparent transactions while empowering users to fully participate, create, and monetize their digital assets within the metaverse.  |
 
-> Develop comprehensive website for de3verse as metaverse gateway
-> Implement interactive demos for users to experience and test
-> Continue building tech stack including gaming engine and database integration
-> Update and optimize social media profiles for user engagement
-> Integrate Near Blockchain for secure and efficient transactions within the metaverse
-> Incorporate NFTs to enable unique ownership of digital assets in the open metaverse
+=> Develop comprehensive website for de3verse as metaverse gateway
+=> Implement interactive demos for users to experience and test
+=> Continue building tech stack including gaming engine and database integration
+=> Update and optimize social media profiles for user engagement
+=> Integrate Near Blockchain for secure and efficient transactions within the metaverse
+=> Incorporate NFTs to enable unique ownership of digital assets in the open metaverse
 
 <hr>
 
@@ -296,7 +296,7 @@ Together, Near Blockchain and NFTs form a powerful combination that enhances the
 | 3. | Mintbase/NEAR module: Z | Seamless NFT Ownership Integration for Land Parcels: Enabling seamless integration of NFT ownership for land parcels within de3verse. Users will be able to purchase, own, and customize virtual land parcels using NFTs, giving them full control and creative freedom over their virtual properties.. |  
 | 4. | NEAR chain integration: | Tech Stack Expansion for NFT Infrastructure: Continuing to build and expand the tech stack to support the NFT infrastructure within the metaverse. This includes integrating blockchain technology, optimizing the storage and retrieval of NFT data, and ensuring the scalability and security of the NFT ecosystem.
 
-Complex Asset and Environment Development: Continuing the development of complex and larger assets and environments within de3verse. These assets will provide users with diverse and immersive experiences, enhancing the visual aesthetics and interactive capabilities of the metaverse. |
+Complex Asset and Environment Development: Continuing the development of complex and larger assets and environments within de3verse. These assets will provide users with diverse and immersive experiences, enhancing the visual aesthetics and interactive capabilities of the metaverse. 
 
 Milestone 3 focuses on building a robust NFT infrastructure within de3verse, including smart contract development, NFT marketplace integration, seamless NFT ownership for land parcels, and the expansion of the tech stack. Additionally, the development of complex assets and environments will further enrich the metaverse experience. This milestone aims to empower users with NFT functionality and provide them with a vibrant and dynamic virtual environment within de3verse.
 
