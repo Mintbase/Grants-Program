@@ -269,12 +269,12 @@ NFT Integration: Leveraging the power of Non-Fungible Tokens (NFTs) to enable un
 
 Together, Near Blockchain and NFTs form a powerful combination that enhances the authenticity, interoperability, and economic ecosystem of the open metaverse. They enable secure and transparent transactions while empowering users to fully participate, create, and monetize their digital assets within the metaverse.  |
 
-=> Develop comprehensive website for de3verse as metaverse gateway
-=> Implement interactive demos for users to experience and test
-=> Continue building tech stack including gaming engine and database integration
-=> Update and optimize social media profiles for user engagement
-=> Integrate Near Blockchain for secure and efficient transactions within the metaverse
-=> Incorporate NFTs to enable unique ownership of digital assets in the open metaverse
+=> Develop comprehensive website for de3verse as metaverse gateway <br>
+=> Implement interactive demos for users to experience and test <br>
+=> Continue building tech stack including gaming engine and database integration <br>
+=> Update and optimize social media profiles for user engagement <br>
+=> Integrate Near Blockchain for secure and efficient transactions within the metaverse <br>
+=> Incorporate NFTs to enable unique ownership of digital assets in the open metaverse <br>
 
 <hr>
 
