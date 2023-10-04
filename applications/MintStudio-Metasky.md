@@ -4,10 +4,10 @@
 >
 > See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
+- **Project Name:** MintStudio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community
+- **Team Name:** Metasky
+- **Payment Address:** A NEAR account to where funds can be transferred (e.g. myproject.near)
+- **[Level](../README.md#level_slider-levels):** 3
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -15,14 +15,13 @@
 
 If this application is in response to an RFP, please indicate this on the first line of this section.
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
+If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide the name and/or pull request of said grant on the first line of this section.
 
 ### Overview
+MintStudio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community
 
-Please provide the following:
+- A brief description of your project
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
 - An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
 - An indication of why your team is interested in creating this project.
 
