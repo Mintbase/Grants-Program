@@ -1,33 +1,63 @@
 # Mintbase Grant Proposal
 
 > This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
->
-> See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
 - **Project Name:** MintStudio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community
 - **Team Name:** Metasky
 - **Payment Address:** A NEAR account to where funds can be transferred (e.g. myproject.near)
 - **[Level](../README.md#level_slider-levels):** 3
 
-> ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
-
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide the name and/or pull request of said grant on the first line of this section.
-
 ### Overview
-MintStudio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community
+MintStudio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community. Powered by Metasky, Mintbase Studio enables creators, brands, and projects to activate their community via gamification and utility-focused NFTs. Studio provides a seamless, easy dashboard-type management system to help creators during the pre-mint and the post-mint activations for their community with a focus on 3 core pillars - Curation, Engagement, and Monetization
 
-- A brief description of your project
+#### Curate
+* Recognize and curate your community across online social channels such as Twitter (X), Instagram, Whatsapp, and Discord
+* Launch gamified bounties to check the current engagement level of the community and design the NFT drop based on the analytics of these bounty programs
 
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
+#### Engage
+* Launch digital membership passes as NFTs that have built-in trait rarity
+* Enrich the NFTs with utilities based on their trait rarity
+* Easily link utilities to your NFTs from the Metasky utility library
+* Gamify the experience to claim these NFTs
+
+#### Monetize
+* Earn commission on the secondary market trading of NFTs
+* Launch super exclusive NFTs for the top 1% of community members
+
+### How does this benefit Mintbase and the broader NEAR ecosystem?
+Mintbase is one of the only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand-alone market and NFT systems. With the introduction of MintBase Studio for the creators, Mintbase would now also have a pre-mint and post-mint infrastructure & offering thus providing a complete package of suites that play an important role for creators and traditional use cases that are looking to tap into Near Ecosystem. With the introduction of Studio on the existing Mintbase Marketplace, 
+a. Creators would have complete choice to launch custom use-case specific collections such as Free Drop / Lazy Mint / PFP / Utility NFTs creation at ease with Claim Conditions for the community - With no gas, One Click Claimable NFTs
+b. Creators can gamify their community via Bounties and gamify the rewarding experience via Tokens, XPs
+c. Partner with Multiple Brands and ecosystem partners to offer custom Utilities to certain NFT Holders & completely manage the process on-chain seamlessly
+
+
+#### About Metasky
+Metasky is a Web3 platform to create, execute, and manage loyalty programs for brands and communities. Metasky product suite enables creators and brands to build an engaging loyalty and rewards program for their communities through gamified bounties and utility-charged NFTs.
+
+##### Core Convictions
+* On Web3
+* Web3 is a set of technologies that makes interoperability easier across trust boundaries
+* NFT standard for representing digital objects is posed to become ubiquitous
+
+##### On Creator Economy
+* Creators are becoming founders - Building teams and using software
+* Creators are the new brands - Creating brands instead of promoting brands
+* Creator and brand communities require sustainable community-led revenue flywheels
+
+![Overview](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/cacbbeac-dcd1-411d-9826-7e1d1032d9d5)
+
+
+The Metasky product suite has shown to be the most efficient and useful method for establishing and maintaining NFT ecosystems. Working with more than 30+ communities, metasky currently has 194K unique users and processed more than 73K transactions with more than 55k+ NFTs on Near. During the last quarter, Out of top 15 NFT projects in Near ecosystem, 4 of them were powered by Metasky [Source](https://twitter.com/Metasky_HQ/status/1654490233042264064) 
+Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
+
 
 ### Project Details
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+Here is a detailed walkthrough of how the scope of work and the high level overview of how integration would look like along with some sample walkthrough videos
+
 
 - Mockups/designs of any UI components
 - Data models / API specifications of the core functionality
@@ -40,6 +70,8 @@ We expect the teams to already have a solid idea about your project's expected f
 ### Ecosystem Fit
 
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
+
+
 
 - Where and how does your project fit into the ecosystem?
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
