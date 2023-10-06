@@ -58,11 +58,24 @@ Here is a detailed walkthrough of how the scope of work and the high level overv
 
 
 #### Onboarding for Mintbase Users and Creators - Support for Mintbase Wallet and Login with Near 
-
-
+With the support for Near and Mintbase Wallet(post launch), any creator looking to tap into Near would be use 
 ![Login/SignUp Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/a8c7a753-b1cb-4516-86b8-bae41604c67c)
 
 
+#### The Minter Engine Integration in the collections
+<img width="269" alt="image" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/b4fe8ba6-e98b-4b55-93eb-a6259eb550f3">
+Scope
+* Create Collection and Mint on Mintbase 
+* Import Any Near Collection by Utilizing Mintbase Indexer
+![Import Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/dfcd5286-d85e-48dd-8393-050adfc3d0d7)
+
+
+<img width="363" alt="image" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/2af060ab-fc28-402a-8d0c-2f53487261a5">
+
+#### Launch Bounties
+Bounty Creation GIF
+
+[Walkthrough Video Of Bounty Flow](https://drive.google.com/file/d/1y1zFnXO69BR8WRoe4l-uhQSaR1zM0o-s/view?usp=sharing)
 - Mockups/designs of any UI components
 - Data models / API specifications of the core functionality
 - An overview of the technology stack to be used
@@ -93,9 +106,9 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** Naman Kabra
+- **Contact Email:** naman@metasky.ai
+- **Website:** https://metasky.me
 
 ### Legal Structure
 
