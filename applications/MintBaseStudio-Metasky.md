@@ -54,8 +54,6 @@ Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
 
 
 ### Project Details
-
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 Here is a detailed walkthrough of how the scope of work and the high level overview of how integration would look like along with some sample walkthrough videos
 
 
