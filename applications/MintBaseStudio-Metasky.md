@@ -67,7 +67,8 @@ With the support for Near and Mintbase Wallet(post launch), any creator looking 
 Scope
 * Create Collection and Mint on Mintbase 
 * Import Any Near Collection by Utilizing Mintbase Indexer
-![Import Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/dfcd5286-d85e-48dd-8393-050adfc3d0d7)
+
+![Near_Import_Contract_Demo_GIF](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/199bbd23-f3de-4127-80cf-7dd776ce8a85)
 
 
 <img width="363" alt="image" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/2af060ab-fc28-402a-8d0c-2f53487261a5">
