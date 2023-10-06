@@ -57,6 +57,12 @@ Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
 Here is a detailed walkthrough of how the scope of work and the high level overview of how integration would look like along with some sample walkthrough videos
 
 
+#### Onboarding for Mintbase Users and Creators - Support for Mintbase Wallet and Login with Near 
+
+
+![Login/SignUp Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/a8c7a753-b1cb-4516-86b8-bae41604c67c)
+
+
 - Mockups/designs of any UI components
 - Data models / API specifications of the core functionality
 - An overview of the technology stack to be used
