@@ -27,7 +27,7 @@ MintBase Studio - One-Stop Solution for Creators to curate, engage, and monetize
 * Launch super exclusive NFTs for the top 1% of community members
 
 ### How does this benefit Mintbase and the broader NEAR ecosystem?
-Mintbase is one of the only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand-alone market and NFT systems. With the introduction of MintBase Studio for the creators, Mintbase would now also have a pre-mint and post-mint infrastructure & offering thus providing a complete package of suites that play an important role for creators and traditional use cases that are looking to tap into Near Ecosystem. With the introduction of Studio on the existing Mintbase Marketplace, 
+Mintbase is one of the only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand-alone market and NFT systems. With the introduction of MintBase Studio for the creators, Mintbase would now also have a pre-mint and post-mint infrastructure & offering thus providing a complete package of suites that play an important role for creators and traditional use cases looking to tap into Near Ecosystem. With the introduction of Studio on the existing Mintbase Marketplace, 
 a. Creators would have complete choice to launch custom use-case specific collections such as Free Drop / Lazy Mint / PFP / Utility NFTs creation at ease with Claim Conditions for the community - With no gas, One Click Claimable NFTs
 b. Creators can gamify their community via Bounties and gamify the rewarding experience via Tokens, XPs
 c. Partner with Multiple Brands and ecosystem partners to offer custom Utilities to certain NFT Holders & completely manage the process on-chain seamlessly
@@ -39,12 +39,12 @@ Metasky product suite enables creators to build engaging experiences for their c
 ![Overview](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/cacbbeac-dcd1-411d-9826-7e1d1032d9d5)
 
 
-The Metasky product suite has shown to be the most efficient and useful method for establishing and maintaining NFT ecosystems. Working with more than 30+ communities, metasky currently has 194K unique users and processed more than 73K transactions with more than 55k+ NFTs, 70k+ on-chain accounts on Near Blockchain. During the last quarter, Out of top 15 NFT projects in Near ecosystem, 4 of them were powered by Metasky [Source](https://twitter.com/Metasky_HQ/status/1654490233042264064) 
+The Metasky product suite has shown to be the most efficient and useful method for establishing and maintaining NFT ecosystems. Working with more than 30+ communities, metasky currently has 194K unique users and processed more than 73K transactions with more than 55k+ NFTs, and 70k+ on-chain accounts on Near Blockchain. During the last quarter, Out of the top 15 NFT projects in the Near ecosystem, 4 of them were powered by Metasky [Source](https://twitter.com/Metasky_HQ/status/1654490233042264064) 
 Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
 
 
 ### Project Details
-Here is a detailed walkthrough of how the scope of work and the high level overview of how integration would look like along with some sample walkthrough videos
+Here is a detailed walkthrough of the scope of work and the high-level overview of how integration would look along with some sample walkthrough videos
 
 #### Onboarding for Mintbase Users and Creators - Support for Mintbase Wallet and Login with Near 
 With the support for Near and Mintbase Wallet(post-launch), any creator looking to tap into Near would be use 
@@ -62,31 +62,41 @@ Scope
 
 <img width="363" alt="image" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/2af060ab-fc28-402a-8d0c-2f53487261a5">
 
+#### Launch Utilities
+
 #### Launch Bounties
 Bounty Creation GIF
 [Walkthrough Video Of Bounty Flow](https://drive.google.com/file/d/1y1zFnXO69BR8WRoe4l-uhQSaR1zM0o-s/view?usp=sharing)
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+
+
 
 ### Ecosystem Fit
-- Where and how does your project fit into the ecosystem?
-  * Mintbase Studio would enable creators to have a one-stop solution to not only mint the NFTs but also introduce unique utilities, launch bounties, and gamify the overall experience
-  * With  
+#### Where and how does your project fit into the ecosystem?
+  * Mintbase Studio would enable creators to have a one-stop solution to not only mint the NFTs but also introduce unique utilities, launch bounties, and gamify the overall web3 experience
+  * With the recent development in the broader Near ecosystem, it is clearly evident that the demand for real-world activations and brands, creators are actively looking for a blockchain that not only provides the minting infrastructure but can also help them to drive traction and monetize the community to increase the Lifetime Value(LTV) of their consumers. Thus, Mintbase Studio would be a go-to solution for potential businesses looking to navigate in the Near ecosystem to kickstart their web3 journey at ease
 
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+#### Who is your target audience?
+* Brands, Enterprises - Loyalty, Membership Programs, Ticketing, Music as NFTs, Token Gating
+* Real-world Asset Tokenization - Vintage Assets, Real Estates, Certificates
+* Gaming Communities - Engage to Earn, Utility Distribution and Monetization
+* Marketing Agencies and Influencer Community - Social Media Activations and Campaigns via Bounties and Custom Reward Distribution
+* NFT Projects and Communities - Introduce Custom Utilities, Token Gating, Engagement via Social Media Bounties, Cross-Pollination of Utilities 
+
+
+#### Impact
+* Sustained Interaction: Utility-charged NFTs incentivize customers to have deeper engagement over a period of time 
+* Monetization: Brands can transform engagement into revenue streams by offering valuable NFTs for the action 
+* Gamified Incentives: Bounties gamify participation, driving engagement and contributing to brand growth
+* Simplified Creator Onboarding: NFT Minting on NEAR Simplified by leveraging Mintbase SDKs
 
 ## Team :busts_in_silhouette:
 
 ### Team members
+* [Prakhar Sharma](https://linkedin.com/in/prakharsharma) - Founder and CEO
+* [Naman Kabra](https://linkedin.com/in/namankabra) - Head of Business Development and Growth
+* [Anugrah Shukla](https://www.linkedin.com/in/anugrah-shukla) - Head of Engineering
+* [Sushant Kumar](https://www.linkedin.com/in/sushantkumar) - Product Manager
+* [Upendra Sager](https://www.linkedin.com/in/upendra-sengar/) - Full Stack Developer
 
 
 ### Contact
@@ -120,15 +130,16 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-[Prakhar Sharma](https://linkedin.com/in/prakharsharma) - Founder and CEO
-[Naman Kabra](https://linkedin.com/in/namankabra) - Head of Business Development and Growth
-[Anugrah Shukla](https://www.linkedin.com/in/anugrah-shukla) - Head of Engineering
-[Sushant Kumar](https://www.linkedin.com/in/sushantkumar) - Product Manager
-[Kushagra Kushwaha](https://www.linkedin.com/in/kushagra-kushwaha) - Creative Director
+* [Prakhar Sharma](https://linkedin.com/in/prakharsharma) - Founder and CEO
+* [Naman Kabra](https://linkedin.com/in/namankabra) - Head of Business Development and Growth
+* [Anugrah Shukla](https://www.linkedin.com/in/anugrah-shukla) - Head of Engineering
+* [Sushant Kumar](https://www.linkedin.com/in/sushantkumar) - Product Manager
+* [Kushagra Kushwaha](https://www.linkedin.com/in/kushagra-kushwaha) - Creative Director
 
 ## Development Status :open_book:
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+
 
 - links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
 - academic publications relevant to the problem,
@@ -196,10 +207,8 @@ Please include here
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+**How did you hear about the Grants Program?** We have been actively working with the Mintbase team to identify the key requirements and setup the Studio adhering to the demand of the community
+[Case Study of a Record Label Working on Near](https://www.canva.com/design/DAFG8C1Idfc/0TfvJDEDvjEiak-xZ7lSCA/view#2)
+[Projects and Ecosystem](https://metasky.me/ecosystem)
+[Current Growth of Metasky](https://docsend.com/view/q6sybh7fw8fned25)
+[Live Documentary of the experience of one of the case study]()
