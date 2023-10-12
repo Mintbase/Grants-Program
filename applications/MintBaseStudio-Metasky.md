@@ -2,7 +2,7 @@
 
 > This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
 
-- **Project Name:** MintStudio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community
+- **Project Name:** MintBase Studio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community
 - **Team Name:** Metasky
 - **Payment Address:** A NEAR account to where funds can be transferred (e.g. myproject.near)
 - **[Level](../README.md#level_slider-levels):** 3
@@ -10,7 +10,7 @@
 ## Project Overview :page_facing_up:
 
 ### Overview
-MintStudio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community. Powered by Metasky, Mintbase Studio enables creators, brands, and projects to activate their community via gamification and utility-focused NFTs. Studio provides a seamless, easy dashboard-type management system to help creators during the pre-mint and the post-mint activations for their community with a focus on 3 core pillars - Curation, Engagement, and Monetization
+MintBase Studio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community. Powered by Metasky, Mintbase Studio enables creators, brands, and projects to activate their community via gamification and utility-focused NFTs. Studio provides a seamless, easy dashboard-type management system to help creators during the pre-mint and the post-mint activations for their community with a focus on 3 core pillars - Curation, Engagement, and Monetization
 
 #### Curate
 * Recognize and curate your community across online social channels such as Twitter (X), Instagram, Whatsapp, and Discord
@@ -34,31 +34,20 @@ c. Partner with Multiple Brands and ecosystem partners to offer custom Utilities
 
 
 #### About Metasky
-Metasky is a Web3 platform to create, execute, and manage loyalty programs for brands and communities. Metasky product suite enables creators and brands to build an engaging loyalty and rewards program for their communities through gamified bounties and utility-charged NFTs.
-
-##### Core Convictions
-* On Web3
-* Web3 is a set of technologies that makes interoperability easier across trust boundaries
-* NFT standard for representing digital objects is posed to become ubiquitous
-
-##### On Creator Economy
-* Creators are becoming founders - Building teams and using software
-* Creators are the new brands - Creating brands instead of promoting brands
-* Creator and brand communities require sustainable community-led revenue flywheels
-
+Metasky helps protocols, infrastructures, enterprises, and brands to curate, engage, and monetize their communities.
+Metasky product suite enables creators to build engaging experiences for their communities through gamified bounties and utilities charged NFTs
 ![Overview](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/cacbbeac-dcd1-411d-9826-7e1d1032d9d5)
 
 
-The Metasky product suite has shown to be the most efficient and useful method for establishing and maintaining NFT ecosystems. Working with more than 30+ communities, metasky currently has 194K unique users and processed more than 73K transactions with more than 55k+ NFTs on Near. During the last quarter, Out of top 15 NFT projects in Near ecosystem, 4 of them were powered by Metasky [Source](https://twitter.com/Metasky_HQ/status/1654490233042264064) 
+The Metasky product suite has shown to be the most efficient and useful method for establishing and maintaining NFT ecosystems. Working with more than 30+ communities, metasky currently has 194K unique users and processed more than 73K transactions with more than 55k+ NFTs, 70k+ on-chain accounts on Near Blockchain. During the last quarter, Out of top 15 NFT projects in Near ecosystem, 4 of them were powered by Metasky [Source](https://twitter.com/Metasky_HQ/status/1654490233042264064) 
 Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
 
 
 ### Project Details
 Here is a detailed walkthrough of how the scope of work and the high level overview of how integration would look like along with some sample walkthrough videos
 
-
 #### Onboarding for Mintbase Users and Creators - Support for Mintbase Wallet and Login with Near 
-With the support for Near and Mintbase Wallet(post launch), any creator looking to tap into Near would be use 
+With the support for Near and Mintbase Wallet(post-launch), any creator looking to tap into Near would be use 
 ![Login/SignUp Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/a8c7a753-b1cb-4516-86b8-bae41604c67c)
 
 
@@ -75,7 +64,6 @@ Scope
 
 #### Launch Bounties
 Bounty Creation GIF
-
 [Walkthrough Video Of Bounty Flow](https://drive.google.com/file/d/1y1zFnXO69BR8WRoe4l-uhQSaR1zM0o-s/view?usp=sharing)
 - Mockups/designs of any UI components
 - Data models / API specifications of the core functionality
@@ -86,12 +74,10 @@ Bounty Creation GIF
   - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 ### Ecosystem Fit
-
-Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
-
-
-
 - Where and how does your project fit into the ecosystem?
+  * Mintbase Studio would enable creators to have a one-stop solution to not only mint the NFTs but also introduce unique utilities, launch bounties, and gamify the overall experience
+  * With  
+
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 - What need(s) does your project meet?
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
@@ -102,8 +88,6 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Team members
 
-- Name of team leader
-- Names of team members
 
 ### Contact
 
@@ -113,10 +97,11 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** 160 Robinson Road, #14-04 Singapore Business Federation Centre, Singapore - 068914
+- **Registered Legal Entity:** METASKY PTE.LTD
 
 ### Team's experience
+
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
@@ -135,8 +120,11 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+[Prakhar Sharma](https://linkedin.com/in/prakharsharma) - Founder and CEO
+[Naman Kabra](https://linkedin.com/in/namankabra) - Head of Business Development and Growth
+[Anugrah Shukla](https://www.linkedin.com/in/anugrah-shukla) - Head of Engineering
+[Sushant Kumar](https://www.linkedin.com/in/sushantkumar) - Product Manager
+[Kushagra Kushwaha](https://www.linkedin.com/in/kushagra-kushwaha) - Creative Director
 
 ## Development Status :open_book:
 
@@ -168,9 +156,9 @@ For each milestone,
 
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in USN, and potentially NEAR and nUSDC, the amount will be calculated according to the exchange rate at the time of payment.
+- **Total Estimated Duration:** 2 Months
+- **Full-Time Equivalent (FTE):**  3 FTE
+- **Total Costs:** 50,000 USD
 
 ### Milestone 1 Example — Implement Mintbase Modules
 
