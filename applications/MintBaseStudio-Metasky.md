@@ -27,10 +27,11 @@ MintBase Studio - One-Stop Solution for Creators to curate, engage, and monetize
 * Launch super exclusive NFTs for the top 1% of community members
 
 ### How does this benefit Mintbase and the broader NEAR ecosystem?
-Mintbase is one of the only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand-alone market and NFT systems. With the introduction of MintBase Studio for the creators, Mintbase would now also have a pre-mint and post-mint infrastructure & offering thus providing a complete package of suites that play an important role for creators and traditional use cases looking to tap into Near Ecosystem. With the introduction of Studio on the existing Mintbase Marketplace, 
-a. Creators would have complete choice to launch custom use-case specific collections such as Free Drop / Lazy Mint / PFP / Utility NFTs creation at ease with Claim Conditions for the community - With no gas, One Click Claimable NFTs
-b. Creators can gamify their community via Bounties and gamify the rewarding experience via Tokens, XPs
-c. Partner with Multiple Brands and ecosystem partners to offer custom Utilities to certain NFT Holders & completely manage the process on-chain seamlessly
+Mintbase is one of the only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand-alone market and NFT systems.
+With the introduction of MintBase Studio for the creators, Mintbase would now also have a pre-mint and post-mint infrastructure & offering thus providing a complete package of suites that play an important role for creators and traditional use cases looking to tap into Near Ecosystem. With the introduction of Studio on the existing Mintbase Marketplace, 
+- Creators would have complete choice to launch custom use-case specific collections such as Free Drop / Lazy Mint / PFP / Utility NFTs creation at ease with Claim Conditions for the community - With no gas, One Click Claimable NFTs
+- Creators can gamify their community via Bounties and gamify the rewarding experience via Tokens, XPs
+- Partner with Multiple Brands and ecosystem partners to offer custom Utilities to certain NFT Holders & completely manage the process on-chain seamlessly
 
 
 #### About Metasky
@@ -47,7 +48,7 @@ Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
 Here is a walkthrough of the scope of work for introducing Mintbase Studio and its features
 
 #### Onboarding for Mintbase Users and Creators - Support for Mintbase Wallet and Login with Near 
-Support for Login with Near supporting all the supported wallets for Near
+The integration would allow users to Login with Near and other wallet providers.
 ![Login/SignUp Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/a8c7a753-b1cb-4516-86b8-bae41604c67c)
 
 #### The Minter Engine Integration in the collections creation flow
