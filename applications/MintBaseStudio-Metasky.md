@@ -10,29 +10,26 @@
 ## Project Overview :page_facing_up:
 
 ### Overview
-MintBase Studio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community. Powered by Metasky, Mintbase Studio enables creators, brands, and projects to activate their community via gamification and utility-focused NFTs. Studio provides a seamless, easy dashboard-type management system to help creators during the pre-mint and the post-mint activations for their community with a focus on 3 core pillars - Curation, Engagement, and Monetization
+MintBase Studio, developed by Metasky, presents a comprehensive platform empowering creators, brands, and projects to curate, engage, and monetize their NFTs and communities. It focuses on three core pillars: Curation, Engagement, and Monetization.
 
-#### Curate
-* Recognize and curate your community across online social channels such as Twitter (X), Instagram, Whatsapp, and Discord
-* Launch gamified bounties to check the current engagement level of the community and design the NFT drop based on the analytics of these bounty programs
+#### Curation
+- Identify and curate your community across various online social channels.
+- Utilize gamified bounties to assess community engagement and design NFT drops based on analytics.
 
-#### Engage
-* Launch digital membership passes as NFTs that have built-in trait rarity
-* Enrich the NFTs with utilities based on their trait rarity
-* Easily link utilities to your NFTs from the Metasky utility library
-* Gamify the experience to claim these NFTs
+#### Engagement
+- Issue digital membership passes as NFTs with built-in trait rarity.
+- Enhance NFTs with utilities based on their rarity.
+- Seamlessly link utilities from the Metasky library.
+- Gamify the experience of claiming these NFTs.
 
-#### Monetize
-* Earn commission on the secondary market trading of NFTs
-* Launch super exclusive NFTs for the top 1% of community members
+#### Monetization
+- Earn commissions from secondary market NFT trading.
+- Launch highly exclusive NFTs for the top 1% of community members.
 
-### How does this benefit Mintbase and the broader NEAR ecosystem?
-Mintbase is one of the only fully automated Minter + Marketplace on NEAR that helps you create and list NFTs on your own smart contract with a full developer suite to enable you to build your own stand-alone market and NFT systems.
-With the introduction of MintBase Studio for the creators, Mintbase would now also have a pre-mint and post-mint infrastructure & offering thus providing a complete package of suites that play an important role for creators and traditional use cases looking to tap into Near Ecosystem. With the introduction of Studio on the existing Mintbase Marketplace, 
-- Creators would have complete choice to launch custom use-case specific collections such as Free Drop / Lazy Mint / PFP / Utility NFTs creation at ease with Claim Conditions for the community - With no gas, One Click Claimable NFTs
-- Creators can gamify their community via Bounties and gamify the rewarding experience via Tokens, XPs
-- Partner with Multiple Brands and ecosystem partners to offer custom Utilities to certain NFT Holders & completely manage the process on-chain seamlessly
+### Benefits for Mintbase and NEAR Ecosystem
 
+The introduction of MintBase Studio augments Mintbase's offerings by providing a pre-mint and post-mint infrastructure. This comprehensive suite empowers creators and traditional use cases seeking to leverage the NEAR Ecosystem.
+By incorporating Studio into the existing Mintbase Marketplace, creators gain the flexibility to launch custom collections with ease, implement Claim Conditions for the community, and offer one-click claimable NFTs. Additionally, creators can gamify their communities through bounties and reward participants with tokens and experience points. The platform facilitates seamless collaboration with multiple brands and ecosystem partners to offer custom utilities to specific NFT holders, all managed on-chain.
 
 #### About Metasky
 Metasky helps protocols, infrastructures, enterprises, and brands to curate, engage, and monetize their communities.
@@ -47,17 +44,18 @@ Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
 ### Project Details
 Here is a walkthrough of the scope of work for introducing Mintbase Studio and its features
 
-#### Onboarding for Mintbase Users and Creators - Support for Mintbase Wallet and Login with Near 
-The integration would allow users to Login with Near and other wallet providers.
+#### Onboarding for Mintbase Users and Creators
+This integration allows users to log in with their NEAR account and other supported wallet providers. It simplifies the process and enhances accessibility.
 ![Login/SignUp Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/a8c7a753-b1cb-4516-86b8-bae41604c67c)
 
 #### The Minter Engine Integration in the collections creation flow
+This feature enables the creation of collections and NFTs with support for metadata standards using the Mintbase SDK.
 * Create Collection and Mint on Mintbase 
 * Import Any Near Collection by Utilizing Mintbase Indexer
 ![Near_Import_Contract_Demo_GIF](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/199bbd23-f3de-4127-80cf-7dd776ce8a85)
 
 #### Launch Utilities
-Introducing the powerful 'Utilities' module, designed to elevate the value and engagement of your NFTs. With this module, community owners can seamlessly add and edit a wide range of benefits to their existing NFTs. Studio's 'Benefits' module empowers you to create unique experiences for your NFT holders. 
+Introducing the 'Utilities' module, designed to enhance the value and engagement of NFTs. This module empowers community owners to add a wide range of benefits to their NFTs, providing unique experiences for holders.
 These are some key features : 
 * Add benefits to existing NFTs
 * Edit existing benefits in NFTs
@@ -69,15 +67,15 @@ Types of NFT Benefits:
 [Walkthrough Video of How to Add Utility?](https://drive.google.com/file/d/1BhT2I4FQQhLD9yqTgux4e0EnNLptcHSd/view?usp=share_link)
 
 #### Launch Bounties
-Introducing 'Bounties', a powerful tool to help community managers identify their superfans in  their community. Superfans are community members who are active, supportive, and engaging throughout your journey.
+Introducing 'Bounties' to help community managers identify their superfans. Bounties identify active, supportive community members and incentivize them for their contributions.
 Bounties are a tool to identify these loyal superfans and ensure they are well incentivized as well as provide them with further avenues to contribute to the community. 
 [Walkthrough Video Of Bounty Flow](https://drive.google.com/file/d/1y1zFnXO69BR8WRoe4l-uhQSaR1zM0o-s/view?usp=sharing)
 
 
 ### Ecosystem Fit
 #### Where and how does your project fit into the ecosystem?
-  * Mintbase Studio would enable creators to have a one-stop solution to not only mint the NFTs but also introduce unique utilities, launch bounties, and gamify the overall web3 experience
-  * With the recent development in the broader Near ecosystem, it is clearly evident that the demand for real-world activations and brands, creators are actively looking for a blockchain that not only provides the minting infrastructure but can also help them to drive traction and monetize the community to increase the Lifetime Value(LTV) of their consumers. Thus, Mintbase Studio would be a go-to solution for potential businesses looking to navigate in the Near ecosystem to kickstart their web3 journey at ease
+- Mintbase Studio provides creators with a one-stop solution for minting NFTs, introducing unique utilities, launching bounties, and Gamifying the web3 experience. With the increasing demand for real-world activations and brands in the broader NEAR ecosystem, Mintbase Studio serves as a vital tool for businesses looking to thrive in the Near ecosystem.
+- With the recent development in the broader Near ecosystem, it is clearly evident that the demand for real-world activations and brands, creators are actively looking for a blockchain that not only provides the minting infrastructure but can also help them to drive traction and monetize the community to increase the Lifetime Value(LTV) of their consumers. Thus, Mintbase Studio would be a go-to solution for potential businesses looking to navigate in the Near ecosystem to kickstart their web3 journey at ease
 
 #### Who is your target audience?
 * Brands, Enterprises - Loyalty, Membership Programs, Ticketing, Music as NFTs, Token Gating
@@ -119,16 +117,11 @@ The team consists of a highly skilled technical group known for their expertise 
 Additionally, Kushagra - an experienced anime artist with over 6 years of experience from a world-renowned studio. They are currently launching an NFT-based manga project with over 8000+ unique holders. Also leads the way in business development efforts in the Japanese market and is in discussions with CMIC group, Yanmar, Gnavi, MAFF, and Toppan to launch the Minobu Tourism Ecosystem project on the blockchain. Moreover, Anugrah & Sushant with extensive experience collaborating with GoDaddy, Microsoft, Moody's, and the Indian Government (Commission of Disability). They excel at crafting long-term strategies and successfully launching products on a global scale. The team also comprises economic experts, including a CFA Level 3 charter holder and individuals with master's degrees in Economics. These experts bring prior experience from private equity and venture capital funds and are entrusted with the responsibility of designing loyalty program flywheel models.
 
 
-
 ### Team Work References
 
 - [Documentary of Metasky Services with one of the music record labels](https://youtu.be/m2nyvn7sShI?si=b8KDNqAc2oBoLYbF)
 - [Studio for Ticketing and User Experience](https://youtu.be/IJlMVrfvT_s?feature=shared)
 - [Metasky in Near Ecosystem](https://twitter.com/Metasky_HQ/status/1654490233042264064)
-
-
-## Development Status :open_book:
-
 
 
 ## Development Roadmap :nut_and_bolt:
@@ -203,4 +196,5 @@ Metasky has been actively working in the Near Ecosystem for a long time and with
 - [Live Documentary of the experience of one of the case studies](https://youtu.be/m2nyvn7sShI?si=b8KDNqAc2oBoLYbF)
 - [Metasky Products](https://metasky.me)
 
-
+## Conclusion
+In summary, MintBase Studio, powered by Metasky, is poised to revolutionize the way creators, brands, and projects interact with their communities in the NEAR ecosystem. With a comprehensive suite of features focused on curation, engagement, and monetization, MintBase Studio provides a robust platform for seamless NFT management. We are committed to delivering a solution that not only simplifies the NFT creation process but also enhances the value and engagement for both creators and their communities. Together with Mintbase, we aim to pioneer a new era of community-driven web3 experiences. We are excited about the potential this venture holds and look forward to contributing significantly to the NEAR ecosystem.
