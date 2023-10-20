@@ -44,21 +44,18 @@ Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
 
 
 ### Project Details
-Here is a detailed walkthrough of the scope of work and a high-level overview of how integration would look along with some sample walkthrough videos
+Here is a walkthrough of the scope of work for introducing Mintbase Studio and its features
 
 #### Onboarding for Mintbase Users and Creators - Support for Mintbase Wallet and Login with Near 
-With the support for Near and Mintbase Wallet(post-launch), any creator looking to tap into Near would use 
+Support for Login with Near supporting all the supported wallets for Near
 ![Login/SignUp Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/a8c7a753-b1cb-4516-86b8-bae41604c67c)
 
-
-#### The Minter Engine Integration in the collections
-<img width="269" alt="image" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/b4fe8ba6-e98b-4b55-93eb-a6259eb550f3">
-
-#### Scope
+#### The Minter Engine Integration in the collections creation flow
 * Create Collection and Mint on Mintbase 
 * Import Any Near Collection by Utilizing Mintbase Indexer
 
 ![Near_Import_Contract_Demo_GIF](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/199bbd23-f3de-4127-80cf-7dd776ce8a85)
+![User Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/b4fe8ba6-e98b-4b55-93eb-a6259eb550f3)
 
 #### Launch Utilities
 Introducing the powerful 'Utilities' module, designed to elevate the value and engagement of your NFTs. With this module, community owners can seamlessly add and edit a wide range of benefits to their existing NFTs. Studio's 'Benefits' module empowers you to create unique experiences for your NFT holders. 
@@ -198,16 +195,16 @@ Mintbase Studio to unlock the following features in this milestone
 ...
 ## Future Plans
 
-Metasky has been actively working in the Near Ecosystem for a long time and with the introduction of Mintbase Studio, consumer-facing applications can be very easily deployed, manage, and monetized. We look forward to introducing an enabled loyalty program and work closely with Mintbase team to make it a successful case study to onboard next millions into Near ecosystem.  
+Metasky has been actively working in the Near Ecosystem for a long time and with the introduction of Mintbase Studio, consumer-facing applications can be very easily deployed, managed, and monetized. We look forward to introducing an enabled loyalty program and working closely with the Mintbase team to make it a successful case study to onboard the next millions into the Near ecosystem.  
 
 
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** We have been actively working with the Mintbase team to identify the key requirements and set the Studio adhering to the demands of the community
-[Case Study of a Record Label Working on Near](https://www.canva.com/design/DAFG8C1Idfc/0TfvJDEDvjEiak-xZ7lSCA/view#2)
-[Projects and Ecosystem](https://metasky.me/ecosystem)
-[Current Growth of Metasky](https://docsend.com/view/q6sybh7fw8fned25)
-[Live Documentary of the experience of one of the case studies](https://youtu.be/m2nyvn7sShI?si=b8KDNqAc2oBoLYbF)
-[Metasky Products](https://metasky.me)
+- [Case Study of a Record Label Working on Near](https://www.canva.com/design/DAFG8C1Idfc/0TfvJDEDvjEiak-xZ7lSCA/view#2)
+- [Projects and Ecosystem](https://metasky.me/ecosystem)
+- [Current Growth of Metasky](https://docsend.com/view/q6sybh7fw8fned25)
+- [Live Documentary of the experience of one of the case studies](https://youtu.be/m2nyvn7sShI?si=b8KDNqAc2oBoLYbF)
+- [Metasky Products](https://metasky.me)
 
 
