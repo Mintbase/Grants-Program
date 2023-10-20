@@ -4,7 +4,7 @@
 
 - **Project Name:** MintBase Studio - One-Stop Solution for Creators to curate, engage, and monetize their NFTs and their community
 - **Team Name:** Metasky
-- **Payment Address:** A NEAR account to where funds can be transferred (e.g. myproject.near)
+- **Payment Address:** meta_sky.near
 - **[Level](../README.md#level_slider-levels):** 2
 
 ## Project Overview :page_facing_up:
