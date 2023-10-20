@@ -53,9 +53,7 @@ Support for Login with Near supporting all the supported wallets for Near
 #### The Minter Engine Integration in the collections creation flow
 * Create Collection and Mint on Mintbase 
 * Import Any Near Collection by Utilizing Mintbase Indexer
-
 ![Near_Import_Contract_Demo_GIF](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/199bbd23-f3de-4127-80cf-7dd776ce8a85)
-![User Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/b4fe8ba6-e98b-4b55-93eb-a6259eb550f3)
 
 #### Launch Utilities
 Introducing the powerful 'Utilities' module, designed to elevate the value and engagement of your NFTs. With this module, community owners can seamlessly add and edit a wide range of benefits to their existing NFTs. Studio's 'Benefits' module empowers you to create unique experiences for your NFT holders. 
