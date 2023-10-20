@@ -44,10 +44,10 @@ Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
 
 
 ### Project Details
-Here is a detailed walkthrough of the scope of work and the high-level overview of how integration would look along with some sample walkthrough videos
+Here is a detailed walkthrough of the scope of work and a high-level overview of how integration would look along with some sample walkthrough videos
 
 #### Onboarding for Mintbase Users and Creators - Support for Mintbase Wallet and Login with Near 
-With the support for Near and Mintbase Wallet(post-launch), any creator looking to tap into Near would be use 
+With the support for Near and Mintbase Wallet(post-launch), any creator looking to tap into Near would use 
 ![Login/SignUp Flow](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/a8c7a753-b1cb-4516-86b8-bae41604c67c)
 
 
@@ -58,16 +58,24 @@ Scope
 * Import Any Near Collection by Utilizing Mintbase Indexer
 
 ![Near_Import_Contract_Demo_GIF](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/199bbd23-f3de-4127-80cf-7dd776ce8a85)
-
-
 <img width="363" alt="image" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/2af060ab-fc28-402a-8d0c-2f53487261a5">
 
 #### Launch Utilities
+Introducing the powerful 'Utilities' module, designed to elevate the value and engagement of your NFTs. With this module, community owners can seamlessly add and edit a wide range of benefits to their existing NFTs. Studio's 'Benefits' module empowers you to create unique experiences for your NFT holders. 
+These are some key features : 
+* Add benefits to existing NFTs
+* Edit existing benefits in NFTs
+Types of NFT Benefits: 
+* Media Benefit: Add exclusive media files like audio and video as benefits for the user 
+* Secret Text Benefit: Add secret text to your benefit which can only be revealed on benefit redemption 
+* Discord Role Benefit: Provide specific roles on Discord to your community members and token gate the end-to-end onboarding experience
+* Custom Benefit: Add any other custom benefit as per your requirements such as Private Access to the game, Custom data sharing for very specific users, Merchandising distribution at your next IRL conference, exclusive meet-and-greet invites accessible only to certain rarity holders
+[Walkthrough Video of How to Add Utility?](https://drive.google.com/file/d/1BhT2I4FQQhLD9yqTgux4e0EnNLptcHSd/view?usp=share_link)
 
 #### Launch Bounties
-Bounty Creation GIF
+Introducing 'Bounties', a powerful tool to help community managers identify their superfans in  their community. Superfans are community members who are active, supportive, and engaging throughout your journey.
+Bounties are a tool to identify these loyal superfans and ensure they are well incentivized as well as provide them with further avenues to contribute to the community. 
 [Walkthrough Video Of Bounty Flow](https://drive.google.com/file/d/1y1zFnXO69BR8WRoe4l-uhQSaR1zM0o-s/view?usp=sharing)
-
 
 
 ### Ecosystem Fit
@@ -111,11 +119,10 @@ Bounty Creation GIF
 - **Registered Legal Entity:** METASKY PTE.LTD
 
 ### Team's experience
+The team consists of a highly skilled technical group known for their expertise in building scalable web3 infrastructure. Notably, Prakhar is a founding member of Coinswitch Kuber, India's largest cryptocurrency exchange, serving 18 million users. Naman - Built one of the first social payment extensions to reward users for e-commerce transactions, later acquired by Circles. Led the Centre of Excellence Department at Robert Bosch, driving innovation and decentralized applications around existing businesses. Previously Director of Business Development at an NFT infrastructure in Cosmos ecosystem.
+Additionally, Kushagra - an experienced anime artist with over 6 years of experience from a world-renowned studio. They are currently launching an NFT-based manga project with over 8000+ unique holders. Also leads the way in business development efforts in the Japanese market and is in discussions with CMIC group, Yanmar, Gnavi, MAFF, and Toppan to launch the Minobu Tourism Ecosystem project on the blockchain. Moreover, Anugrah & Sushant with extensive experience collaborating with GoDaddy, Microsoft, Moody's, and the Indian Government (Commission of Disability). They excel at crafting long-term strategies and successfully launching products on a global scale. The team also comprises economic experts, including a CFA Level 3 charter holder and individuals with master's degrees in Economics. These experts bring prior experience from private equity and venture capital funds and are entrusted with the responsibility of designing loyalty program flywheel models.
 
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
-
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
 
 ### Team Code Repos
 
@@ -128,42 +135,14 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - https://github.com/<team_member_1>
 - https://github.com/<team_member_2>
 
-### Team LinkedIn Profiles (if available)
-
-* [Prakhar Sharma](https://linkedin.com/in/prakharsharma) - Founder and CEO
-* [Naman Kabra](https://linkedin.com/in/namankabra) - Head of Business Development and Growth
-* [Anugrah Shukla](https://www.linkedin.com/in/anugrah-shukla) - Head of Engineering
-* [Sushant Kumar](https://www.linkedin.com/in/sushantkumar) - Product Manager
-* [Kushagra Kushwaha](https://www.linkedin.com/in/kushagra-kushwaha) - Creative Director
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
-
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
 ### Overview
 
@@ -171,15 +150,21 @@ For each milestone,
 - **Full-Time Equivalent (FTE):**  3 FTE
 - **Total Costs:** 50,000 USD
 
-### Milestone 1 Example — Implement Mintbase Modules
+### Milestone 1: Onboarding and Mintbase Indexer Support
 
 - **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 8,000 USD
+- **FTE:**  3
+- **Costs:** 12000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+#### Login with Near: Users can log into Metasky studio with the NEAR account connected to Mintbase.
+##### Contract Import: Users can import a contract upon validation and add the collection to the user dashboard
+##### Support Mintbase Wallet (Post Launch)
+
+<img width="569" alt="Screenshot 2023-10-20 at 1 18 49 PM" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/916d1cec-f8f2-4f33-a1f3-3e8252eeec6f">
+
+| Milestone | Deliverables | Estimated Duration | Costs
+| -----: | ----------- | ------------- |------------- |
+| 1a. | Studio login with NEAR Wallet | 2 Weeks |
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
 | 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
