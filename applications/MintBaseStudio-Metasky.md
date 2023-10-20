@@ -65,7 +65,7 @@ Types of NFT Benefits:
 * Secret Text Benefit: Add secret text to your benefit which can only be revealed on benefit redemption 
 * Discord Role Benefit: Provide specific roles on Discord to your community members and token gate the end-to-end onboarding experience
 * Custom Benefit: Add any other custom benefit as per your requirements such as Private Access to the game, Custom data sharing for very specific users, Merchandising distribution at your next IRL conference, exclusive meet-and-greet invites accessible only to certain rarity holders
-![Walkthrough Video of How to Add Utility?](https://drive.google.com/file/d/1BhT2I4FQQhLD9yqTgux4e0EnNLptcHSd/view?usp=share_link)
+[Walkthrough Video of How to Add Utility?](https://drive.google.com/file/d/1BhT2I4FQQhLD9yqTgux4e0EnNLptcHSd/view?usp=share_link)
 
 #### Launch Bounties
 Introducing 'Bounties', a powerful tool to help community managers identify their superfans in  their community. Superfans are community members who are active, supportive, and engaging throughout your journey.
@@ -131,9 +131,6 @@ Additionally, Kushagra - an experienced anime artist with over 6 years of experi
 
 
 ## Development Roadmap :nut_and_bolt:
-
-
-
 ### Overview
 
 - **Total Estimated Duration:** 2 Months
@@ -167,7 +164,7 @@ support of all the metadata standards by leveraging Mintbase SDK
 Provide the User with the ability to select the type and purpose of collections and set the remaining metadata fields and data as per the inputs provided. The standard templates identified so far for the first iteration of the development are Membership passes, Certificates, Ticketing, Art and collectibles, Fashion, Music, Virtual real estate, Food and drink, Gaming (virtual land, avatars, weapons, costumes ), Domain names
 
 #### Support for Mintbase Secondary Marketplace in Skywallet
-Skywallet would enable any user to buy/sell/transfer the assets via integration of Mintbase Marketplace in the Skywallet enabling user to have a mobile-friendly seamless experience to facilitate trading of the digital assets as well
+Skywallet would enable any user to buy/sell/transfer the assets via integration of Mintbase Marketplace in the Skywallet enabling user to have a mobile-friendly seamless experience to facilitate the trading of the digital assets as well
 <img width="591" alt="Screenshot 2023-10-20 at 1 27 09 PM" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/d9ce3f46-eb2c-4270-b970-4144dbc989bc">
 
 ### Milestone 3: Utility and Bounties, FTE 2, Duration - 2 Weeks
