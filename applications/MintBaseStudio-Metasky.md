@@ -42,7 +42,7 @@ Check out the Metasky Ecosystem [here](https://metasky.me/ecosystem/)
 
 
 ### Project Details
-Here is a walkthrough of the scope of work for introducing Mintbase Studio and its features
+The successful execution of MintBase Studio hinges on a meticulously planned roadmap, divided into distinct milestones, each contributing a vital component to the platform's functionality. From enabling seamless user onboarding and integrating the Minting Engine to the introduction of utilities and bounties, every phase is carefully designed to enhance the user experience and amplify the potential for engagement. This section provides a detailed breakdown of each milestone, outlining the specific features and functionalities that will be implemented to ensure a comprehensive and intuitive experience for creators and their communities on the NEAR ecosystem.
 
 #### Onboarding for Mintbase Users and Creators
 This integration allows users to log in with their NEAR account and other supported wallet providers. It simplifies the process and enhances accessibility.
