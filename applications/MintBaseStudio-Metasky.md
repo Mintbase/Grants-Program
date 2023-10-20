@@ -53,12 +53,12 @@ With the support for Near and Mintbase Wallet(post-launch), any creator looking 
 
 #### The Minter Engine Integration in the collections
 <img width="269" alt="image" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/b4fe8ba6-e98b-4b55-93eb-a6259eb550f3">
-Scope
+
+#### Scope
 * Create Collection and Mint on Mintbase 
 * Import Any Near Collection by Utilizing Mintbase Indexer
 
 ![Near_Import_Contract_Demo_GIF](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/199bbd23-f3de-4127-80cf-7dd776ce8a85)
-<img width="363" alt="image" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/2af060ab-fc28-402a-8d0c-2f53487261a5">
 
 #### Launch Utilities
 Introducing the powerful 'Utilities' module, designed to elevate the value and engagement of your NFTs. With this module, community owners can seamlessly add and edit a wide range of benefits to their existing NFTs. Studio's 'Benefits' module empowers you to create unique experiences for your NFT holders. 
@@ -70,7 +70,7 @@ Types of NFT Benefits:
 * Secret Text Benefit: Add secret text to your benefit which can only be revealed on benefit redemption 
 * Discord Role Benefit: Provide specific roles on Discord to your community members and token gate the end-to-end onboarding experience
 * Custom Benefit: Add any other custom benefit as per your requirements such as Private Access to the game, Custom data sharing for very specific users, Merchandising distribution at your next IRL conference, exclusive meet-and-greet invites accessible only to certain rarity holders
-[Walkthrough Video of How to Add Utility?](https://drive.google.com/file/d/1BhT2I4FQQhLD9yqTgux4e0EnNLptcHSd/view?usp=share_link)
+![Walkthrough Video of How to Add Utility?](https://drive.google.com/file/d/1BhT2I4FQQhLD9yqTgux4e0EnNLptcHSd/view?usp=share_link)
 
 #### Launch Bounties
 Introducing 'Bounties', a powerful tool to help community managers identify their superfans in  their community. Superfans are community members who are active, supportive, and engaging throughout your journey.
@@ -124,16 +124,11 @@ Additionally, Kushagra - an experienced anime artist with over 6 years of experi
 
 
 
-### Team Code Repos
+### Team Work References
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- [Documentary of Metasky Services with one of the music record labels](https://youtu.be/m2nyvn7sShI?si=b8KDNqAc2oBoLYbF)
+- [Studio for Ticketing and User Experience](https://youtu.be/IJlMVrfvT_s?feature=shared)
+- [Metasky in Near Ecosystem](https://twitter.com/Metasky_HQ/status/1654490233042264064)
 
 
 ## Development Status :open_book:
@@ -152,48 +147,67 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Milestone 1: Onboarding and Mintbase Indexer Support
 
-- **Estimated duration:** 1 month
+- **Estimated duration:** 2 Weeks
 - **FTE:**  3
 - **Costs:** 12000 USD
 
 #### Login with Near: Users can log into Metasky studio with the NEAR account connected to Mintbase.
 ##### Contract Import: Users can import a contract upon validation and add the collection to the user dashboard
-##### Support Mintbase Wallet (Post Launch)
+##### Support Mintbase Wallet (Post Launch): Once the Mintbase Wallet is launched, Studio to support Mintbase login with Mintbase for broader visibility of the Mintbase wallet to the ecosystem
 
 <img width="569" alt="Screenshot 2023-10-20 at 1 18 49 PM" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/916d1cec-f8f2-4f33-a1f3-3e8252eeec6f">
 
-| Milestone | Deliverables | Estimated Duration | Costs
-| -----: | ----------- | ------------- |------------- |
-| 1a. | Studio login with NEAR Wallet | 2 Weeks |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 
+### Milestone 2: Collection Creation and Minting Engine, FTE - 3, Duration - 4 Weeks
 
-### Milestone 2 Example — Additional features
+- **Estimated Duration:** 4 weeks
+- **FTE:**  3
+- **Costs:** 18,000 USD
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1
-- **Costs:** 4,000 USD
+#### Create Collection Using Mintbase Minter and SDK as Default for Near
+This flow would enable users to create their own set of collections and NFTs with the
+support of all the metadata standards by leveraging Mintbase SDK 
+
+#### Standalone Templates for a Variety of Use-Cases
+Provide the User with the ability to select the type and purpose of collections and set the remaining metadata fields and data as per the inputs provided. The standard templates identified so far for the first iteration of the development are Membership passes, Certificates, Ticketing, Art and collectibles, Fashion, Music, Virtual real estate, Food and drink, Gaming (virtual land, avatars, weapons, costumes ), Domain names
+
+#### Support for Mintbase Secondary Marketplace in Skywallet
+Skywallet would enable any user to buy/sell/transfer the assets via integration of Mintbase Marketplace in the Skywallet enabling user to have a mobile-friendly seamless experience to facilitate trading of the digital assets as well
+<img width="591" alt="Screenshot 2023-10-20 at 1 27 09 PM" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/d9ce3f46-eb2c-4270-b970-4144dbc989bc">
+
+### Milestone 3: Utility and Bounties, FTE 2, Duration - 2 Weeks
+- **Estimated Duration:** 2 weeks
+- **FTE:**  2
+- **Costs:** 10,000 USD
+Mintbase Studio to unlock the following features in this milestone
+#### Enabling bounties feature on Twitter: where users will have performed certain tasks on Twitter and will be rewarded by the creator accordingly
+#### Enabling benefits and utilities: Users can get access to all the exclusive benefits attached to the NFTs they hold and provided by the creators
+#### Enabling leaderboard for Twitter: A leaderboard for Twitter bounty participants
+<img width="534" alt="Screenshot 2023-10-20 at 1 30 38 PM" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/9bc10e71-ae73-4e6b-95b3-a3c98e92f666">
+
+### Milestone 4: Customized Club Creation and Leaderboard 
+- **Estimated Duration:** 2 weeks
+- **FTE:**  2
+- **Costs:** 10,000 USD
+
+#### Customized club page for Creators to select their branding for the club page
+![Screenshot 2023-10-20 at 1 37 41 PM](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/0a8a4cbe-9698-4bb6-a357-605f3af39066)
+#### Providing a leaderboard view for the community and creators to identify, monetize, and gather insights in terms of the overall participation of the community members. 
+![Screenshot 2023-10-20 at 1 36 56 PM](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/298a03c6-a23d-4308-911b-b43270bcfc53)
 
 ...
 ## Future Plans
 
-Please include here
-
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+Metasky has been actively working in the Near Ecosystem for a long time and with the introduction of Mintbase Studio, consumer-facing applications can be very easily deployed, manage, and monetized. We look forward to introducing an enabled loyalty program and work closely with Mintbase team to make it a successful case study to onboard next millions into Near ecosystem.  
 
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** We have been actively working with the Mintbase team to identify the key requirements and setup the Studio adhering to the demand of the community
+**How did you hear about the Grants Program?** We have been actively working with the Mintbase team to identify the key requirements and set the Studio adhering to the demands of the community
 [Case Study of a Record Label Working on Near](https://www.canva.com/design/DAFG8C1Idfc/0TfvJDEDvjEiak-xZ7lSCA/view#2)
 [Projects and Ecosystem](https://metasky.me/ecosystem)
 [Current Growth of Metasky](https://docsend.com/view/q6sybh7fw8fned25)
-[Live Documentary of the experience of one of the case study]()
+[Live Documentary of the experience of one of the case studies](https://youtu.be/m2nyvn7sShI?si=b8KDNqAc2oBoLYbF)
+[Metasky Products](https://metasky.me)
+
+
