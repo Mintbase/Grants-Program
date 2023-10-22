@@ -94,10 +94,10 @@ Bounties are a tool to identify these loyal superfans and ensure they are well i
 ## Team :busts_in_silhouette:
 
 ### Team members
-* [Prakhar Sharma](https://linkedin.com/in/prakharsharma) - Founder and CEO
-* [Naman Kabra](https://linkedin.com/in/namankabra) - Head of Business Development and Growth
-* [Anugrah Shukla](https://www.linkedin.com/in/anugrah-shukla) - Head of Engineering
-* [Sushant Kumar](https://www.linkedin.com/in/sushantkumar) - Product Manager
+* [Prakhar Sharma](https://www.linkedin.com/in/prakhar14/) - Founder and CEO
+* [Naman Kabra](https://linkedin.com/in/namankabra/) - Head of Business Development and Growth
+* [Anugrah Shukla](https://www.linkedin.com/in/anugrah-shukla-97a5b2187/) - Head of Engineering
+* [Sushant Kumar](https://www.linkedin.com/in/sushantkumar16/) - Product Manager
 * [Upendra Sager](https://www.linkedin.com/in/upendra-sengar/) - Full Stack Developer
 
 
