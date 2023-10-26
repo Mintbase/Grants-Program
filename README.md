@@ -1,7 +1,7 @@
 # Mintbase Grants Program<!-- omit in toc -->
 
 <p align="center">
-  <img src="src/Grants_Program.png" style="width:1300px";>
+  <img src="src/Grants2-template-1600x900.png" style="width:1300px";>
 </p>
 
 
