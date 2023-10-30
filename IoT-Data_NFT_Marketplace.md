@@ -4,10 +4,10 @@
 >
 > See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
+- **IoT-Data NFT Marketplace:** Name of your project (e.g. DuoSwap Module)
+- **Chainplug Srl:** Legal name of your team (e.g. Duo)
+- **chainplug.near:** A NEAR account to where funds can be transfered (e.g. myproject.near)
+- **[2] (../README.md#level_slider-levels):** 1, 2 or 3
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -18,13 +18,47 @@ If this application is in response to an RFP, please indicate this on the first 
 If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
+- IoT-Data NFT Marketplace.
 
-Please provide the following:
+- A cutting-edge platform that transforms certified IoT data into rentable Non-Fungible Tokens (NFTs), fostering sustainable innovation and responsible AI model training.
+  
+- The Chainplug project intersects with the Mintbase/NEAR ecosystem in several profound ways: let's weave together,as an example, the functionalities of Keypom with Chainplug's innovative approach, and envision a potential integration with applications enabling NFT rentals within the Mintbase/NEAR ecosystem.
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
+- Blockchain and User Onboarding Synergy:
+Both Chainplug and Keypom are devised to facilitate smooth onboarding onto the NEAR blockchain. Chainplug’s IoT Data-NFT Marketplace serves as a conduit for transforming IoT data into tradable assets, while Keypom lowers the entry barrier for individuals and developers, making the onboarding process more affordable and user-friendly. This common objective could foster a synergistic relationship between the two, providing a comprehensive onboarding solution that addresses both data tokenization and user accessibility.
+
+- Customizable Access and Data Monetization:
+Keypom’s customizable access keys and Chainplug’s rental model for data NFTs could intertwine to create a robust platform for data monetization. By amalgamating Keypom’s customizable onboarding experiences with Chainplug’s data rental model, a unified marketplace could emerge, enabling users to not only access but also rent data NFTs seamlessly.
+
+-Integration with Mintbase/NEAR Ecosystem:
+Envision an application within the Mintbase/NEAR ecosystem that leverages the combined prowess of Keypom and Chainplug to enable NFT rentals. This application could serve as a hub where users can rent NFTs representing IoT data, or other assets. Keypom’s customizable access keys could facilitate easy access and interaction with the platform, while Chainplug’s rental model could handle the monetization aspect of the rented NFTs.
+
+- Enhanced User Experience and Data Utilization:
+The integration of Keypom’s user-friendly onboarding and Chainplug’s data monetization model could significantly enhance the user experience within the Mintbase/NEAR ecosystem. Users could effortlessly rent NFTs, interact with dApps, and utilize IoT data, all within a secure and transparent blockchain environment.
+
+- Sustainable Development and NFT Rentals:
+Drawing inspiration from Chainplug’s alignment with the United Nations' Sustainable Development Goals (SDGs), the NFT rental application could also incorporate sustainability metrics. For instance, renting NFTs representing carbon credits or renewable energy data could contribute towards global sustainability goals, bringing a novel dimension to the Mintbase/NEAR ecosystem.
+
+- Expandable Use Cases:
+The fusion of Keypom’s and Chainplug’s capabilities could open the doors to myriad use cases within the Mintbase/NEAR ecosystem, ranging from sustainable data monetization to innovative NFT rental models. This could significantly broaden the spectrum of digital assets and interactions available to users, thereby enriching the overall ecosystem.
+
+In this integrated scenario, Keypom, Chainplug, and the hypothetical NFT rental application could collectively contribute to creating a more accessible, data-driven, and sustainable ecosystem within Mintbase and NEAR, offering users a plethora of options to interact with digital assets and blockchain technology.  
+
+- The Chainplug team is highly motivated to create the IoT Data-NFT Marketplace for several compelling reasons:
+
+- Unlocking IoT Data Value: The team recognizes the immense untapped value in IoT-generated data. By creating this marketplace, they aim to empower IoT device owners, data producers, and organizations to unlock the latent value within their data streams.
+
+- Efficient Data Monetization: The marketplace provides a structured and efficient way for data owners to monetize their IoT data. This benefits a wide range of stakeholders, from individual device owners to enterprises, by creating revenue streams from data assets.
+
+- Blockchain Integration: Leveraging blockchain technology, particularly the NEAR Protocol, Chainplug ensures data integrity, security, and transparency. This aligns with the team's commitment to responsible data management and the creation of trust in the data marketplace.
+
+- Supporting Sustainability: The team's interest extends to supporting sustainability efforts, as demonstrated by the issuance of Carbon Credit Certificates. By aligning with the UN SDGs and carbon reduction initiatives, they aim to foster positive environmental impact.
+
+- Standardizing Data for AI: The IoT Data-NFT Marketplace plays a crucial role in standardizing and certifying IoT data. This is of particular interest to the team as it ensures that AI models are trained on high-quality, certified data, contributing to AI model accuracy and reliability.
+
+- Enhancing Collaboration: The marketplace fosters collaboration among various stakeholders, including AI model developers, IoT producers, universities, research centers, and enterprises. This collaborative ecosystem aligns with Chainplug's vision of driving innovation through partnerships.
+
+In summary, the Chainplug team is driven by the goal of revolutionizing the IoT data landscape, making it more accessible, secure, and sustainable. They see the IoT Data-NFT Marketplace as a catalyst for transforming how IoT data is valued, certified, and utilized, ultimately benefiting a wide spectrum of industries and contributing to a more responsible and equitable data economy.
 
 ### Project Details
 
@@ -36,7 +70,7 @@ We expect the teams to already have a solid idea about your project's expected f
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+- This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 ### Ecosystem Fit
 
