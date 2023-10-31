@@ -87,19 +87,18 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Team members
 
-- Name of team leader
-- Names of team members
-
+- Donato Russo
+- Federico Mantegazza
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:Donato Russo** Full name of the contact person in your team
+- **Contact Email:donato@chainplug.io** Contact email (e.g. john@duo.com)
+- **Website:https://www.chainplug.io/**
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:Via dei colatori 12 50019 Sesto Fiorentino (FI), Italy** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
+- **Registered Legal Entity:Chainplug Srl** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
 
@@ -120,8 +119,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/donatorusso-chainplug-blockchain-building-trust-in-people-technology-web3/ 
+- https://www.linkedin.com/in/mantegazzaf/ 
 
 ## Development Status :open_book:
 
