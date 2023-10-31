@@ -25,7 +25,7 @@ Authors sell their works as NFTs on Chainlib. Readers can buy the works and crea
 **How our project relates to / integrates into the Mintbase / NEAR ecosystem**
 ChainLib is a dapp built and functioning on the NEAR blockchain, accepting offers and payments in Near. We aim to extend NFT marketplace functionality by implementing :
 - **Personalized story tales as NFTs** - programmable story tales as NFTs with predefined reader’s parameters. I.E. story tales for children. Parents can order books with their child right inside the story. All they need is add their child’s name, sex, age, even image and our platform will mint a personalized NFT containing the story tale with their child inside it. It remains only to order a printed copy of the book with created personalized NFT
-- **Generative NFT books powered by non-human system to generate new content programmatically**, constantly manipulating the variable possibilities. Imagine that You bought an NFT containing a story tale with Your child inside it. Now imagine that this NFT is programmed to generate from-time-to-time new story tales with Your child inside it, with the same predefined reader’s parameters. A new story could be unlocked any time for NFT owners. All they have to do is periodically check their NFT status on our platform.  
+- **Generative NFT books powered by non-human system to generate new content programmatically**, constantly manipulating the variable possibilities. Imagine that You bought an NFT containing a story tale with Your child inside it. Now imagine that this NFT is programmed to generate from-time-to-time new story tales with Your child as the main hero, with the same predefined reader’s parameters. A new story could be unlocked any time for NFT owners. All they have to do is periodically check their NFT status on our platform.  
 We aim to develop on Mintbase the functionality described above. Thus we hope to extend existing functionality of our platform and of Mintbase, as well.
  
 **Why are we doing this?** 
@@ -245,3 +245,17 @@ Our near future plans include:
 ## Additional Information :heavy_plus_sign:
 
 Our team is a Near Foundation grantee. We received a grant for development of: Authorization Module, Copyright Registration and Transfer Modules.
+
+## Update for 2023:
+
+During the 2023 our team:
+- created 3 new story tales for children. Check the images here: https://drive.google.com/drive/folders/1Hhtf5dP4OzIfymMuhnToXeslgs92JXcT?usp=sharing
+- sold more than 1000 hard copies of the story tales for children, mentioned above
+- developed a new concept Kidbrary - a personalized library created based on Your child's digital identity. Kidbrary's pitch dech: https://www.canva.com/design/DAFSlUy9eBU/rCDSpzIFKq0ctl_U3z38xg/view?utm_content=DAFSlUy9eBU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+- Below is the short description of our new Kidbrary concept:
+
+We leverage cutting-edge technologies, including blockchain, NFTs, and artificial intelligence, to empower parents and children in crafting their unique storybooks. Picture this - alongside your child, you have the creative freedom to shape the story's plot and even design the book's protagonist to resemble your child.
+
+With each book purchase, a portion of the funds is earmarked into your child's account. By the time they reach 18, not only will they have their personalized library, but also a financial nest egg derived from their parents' contributions through book creation and purchases.
+
+Most notably, all the stories created will ultimately be printed and delivered to your child, providing a tangible and gadget-free reading experience.
