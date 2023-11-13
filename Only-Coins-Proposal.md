@@ -1,4 +1,5 @@
 # Mintbase Grant Proposal
+![Untitled design (14)](https://github.com/Good-Fortune-Felines-Core-Team/Grants-Program/assets/103082550/4bc568a2-12f0-428b-936f-a0fab15ad109)
 
 > This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
 >
@@ -18,11 +19,11 @@ If this application is in response to an RFP, please indicate this on the first 
 If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
-
-Please provide the following:
+![Only Coins Social Layer](https://github.com/Good-Fortune-Felines-Core-Team/Grants-Program/assets/103082550/9aa32bbf-182d-4e13-beb5-f7657e73c892)
 
 - Only Coins is the premiere decentralized video sharing platform designed for web3 creators & powered by the BOS.
-Using inspiration from major video sharing platform designs, Only Coins will provide an on-chain solution for users to upload and share videos via a social layer tied to the BOS & Near Social. Each unique profile will have a feed of videos from followed and suggested creators. Users will be able to gate specific content behind a subscription, fee, or donation. Users can also publicly tip creators for specific pieces of content if they wish.
+  
+- Using inspiration from major video sharing platform designs, Only Coins will provide an on-chain solution for users to upload and share videos via a social layer tied to the BOS & Near Social. Each unique profile will have a feed of videos from followed and suggested creators. Users will be able to gate specific content behind a subscription, fee, or donation. Users can also publicly tip creators for specific pieces of content if they wish.
 
 
 - Only Coins is designed as a censorship-resistant platform specific to crypto content creators and community members from all web3 ecosystems. Only coins will be powered by the BOS with interactions stored on-chain allowing for increased transparency and accessibility.
@@ -39,14 +40,15 @@ Censorship and demonetization of video content on platforms like youtube and twi
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Cloud Service Layering: Only coins will use a proprietary contract to allow Near wallet to connect and allocate cloud service credentiasl with implied limits / conditions in the contract. Users will be able to utilize the contract to interface with google cloud services allowing for all interactions and engagement with content to be viewed and recorded on-chain.
-- Content Manager: Users will be able to manage and control their content, including visibility, access, monetization, and more.
-- Content Feed: A TikTok-like video feed that serves crypto content to users based on their preferences and interactions.
-- Content Aggregation: An automatic web scraper that brings in crypto content from diverse sources.
-- Profiles: Every user and content creator has a profile. These profiles will include a bio, content display, and a crypto wallet address for direct tipping.
-- Monetization System: Users will be able to directly monetize their channel or specific content according to their preferences. Platform will take minimal fee of subscriptions/payments (5% comparable to Patreon)
-- Tipping Mechanism: An integrated system where viewers can directly tip creators (and other users) in cryptocurrency. Platform will take small fee (1%)
+- **Cloud Service Layering:** Only coins will use a proprietary contract to allow Near wallet to connect and allocate cloud service credentiasl with implied limits / conditions in the contract. Users will be able to utilize the contract to interface with google cloud services allowing for all interactions and engagement with content to be viewed and recorded on-chain.
+- **Content Manager:** Users will be able to manage and control their content, including visibility, access, monetization, and more.
+- **Content Feed:** A TikTok-like video feed that serves crypto content to users based on their preferences and interactions.
+- **Content Aggregation:** An automatic web scraper that brings in crypto content from diverse sources.
+- **Profiles:** Every user and content creator has a profile. These profiles will include a bio, content display, and a crypto wallet address for direct tipping.
+- **Monetization System:** Users will be able to directly monetize their channel or specific content according to their preferences. Platform will take minimal fee of subscriptions/payments (5% comparable to Patreon)
+- **Tipping Mechanism:** An integrated system where viewers can directly tip creators (and other users) in cryptocurrency. Platform will take small fee (1%)
 
+![Only Coins Components](https://github.com/Good-Fortune-Felines-Core-Team/Grants-Program/assets/103082550/6cc5b6b7-0661-42e7-8341-91568905541d)
 
 ### Ecosystem Fit
 
@@ -102,11 +104,6 @@ Full stack developer with 6+ years of professional software engineering experien
 - https://github.com/Jump-Dex
 - https://github.com/ymc182
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
-
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/brandon-cantu-758011183/
@@ -161,6 +158,7 @@ For each milestone,
 - **Estimated Duration:** 2-3 Weeks
 - **FTE:**  2
 - **Costs:** 10,000 USD
+
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
@@ -175,6 +173,7 @@ For each milestone,
 - **Estimated Duration:** 2-3 Weeks
 - **FTE:**  2
 - **Costs:** 10,000 USD
+
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
@@ -189,6 +188,7 @@ For each milestone,
 - **Estimated Duration:** 2 Weeks
 - **FTE:**  2
 - **Costs:** 15,000 USD
+
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
@@ -206,6 +206,7 @@ Please include here
 - Neko will leverage its community (26k+) to advertise and spotlight Only Coins. Neko will also showcase Only Coins by hosting all past and future Neko content videos on the platform. Neko will also migrate the Learn-2-earn program to provide rewards to users interacting with videos on-chain.
 - In addition to additional BOS app integrations, Only Coins could be expanded to integrate live AMA/Video hosting similar to twitter spaces or twitch.
 
+![Only Coins Roadmap (1)](https://github.com/Good-Fortune-Felines-Core-Team/Grants-Program/assets/103082550/b484502c-4aae-44bb-9acb-769026d6d207)
 
 ## Additional Information :heavy_plus_sign:
 
