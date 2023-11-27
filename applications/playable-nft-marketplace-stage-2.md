@@ -74,7 +74,23 @@ AILAND's new features aim to enrich the NEAR ecosystem by providing innovative w
 
 ### Team's experience
 
-Our team's experience spans across blockchain development, UI/UX design, and game development. We have successfully launched the initial phase of the AILAND marketplace and are committed to further enhancing its capabilities and user experience.
+The AILAND team has demonstrated significant traction in the gaming and blockchain space, evidenced by several key achievements:
+
+1. **Pre-Alpha Testers:** By November 2023, AILAND had attracted 34,255 pre-alpha testers on Steam, highlighting strong market interest and the potential reach of the platform.
+
+2. **Active Monthly Users:** The platform has successfully engaged a growing user base, with 1,000 Monthly Active Users (MAU), indicating a dedicated and active community.
+
+3. **Revenue Generation:** The team has already started generating revenue, with $10,000 earned from selling skins, showcasing the monetization potential of their in-game assets.
+
+4. **GDWC Recognition:** Being a finalist in the Global Digital Web3 Competition (GDWC) for the Best Web3 Game, reflecting their innovative integration of blockchain technology in gaming.
+
+5. **Hackathon Successes:** During 2023 AILAND team secured 8 wins in high-profile hackathons demonstrating their capability to innovate and execute in competitive environments.
+
+6. **Accelerator Program Participation:** Graduation from esteemed accelerator programs like Startup Wise Guys Pre-Accelerator and Polygon Builder House Lisbon, which have bolstered their business and technical acumen.
+
+7. **Early Funding Achievement:** Raised $365k in seed funding, indicating confidence from investors in the project's potential and future growth.
+
+This combination of early market success, competitive achievements, and investor confidence underlines the AILAND team's strong position in the rapidly evolving gaming and blockchain industry.
 
 ### Team Code Repos
 
