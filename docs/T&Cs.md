@@ -76,7 +76,7 @@ To apply for the Mintbase, Inc. Open Grants Program, your application shall fulf
 -  it shall be a software-based project, which contributes to the advancement of the Mintbase ecosystem;
 -  the total amount of funding requested for the project shall be below USD  30,000 and USD 100,000 for follow-up grants at the time of submission;
 -  the Software shall be released under the Apache license version 2.0.;
--  You must accept payment in the blockchain tokens native to the Bitcoin Network ("BTCs") or the Ethereum based stablecoin DAI;
+-  You must accept payment in the blockchain tokens native to the NEAR Network, mainly in USN, and potentially NEAR and nUSDC;
 -  You will need to submit the application and deliver the milestones according to the process specified below;
 
 The open grants process consists of five parts, each of them described in more detail below:

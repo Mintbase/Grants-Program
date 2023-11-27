@@ -1,7 +1,7 @@
 # Mintbase Grants Program<!-- omit in toc -->
 
 <p align="center">
-  <img src="src/Grants_Program.png" style="width:1300px";>
+  <img src="src/Grants2-template-1600x900.png" style="width:1300px";>
 </p>
 
 
@@ -17,7 +17,6 @@
   - [3. Milestone Delivery and Payment](#3-milestone-delivery-and-payment)
   - [Changes to a Grant after Approval](#changes-to-a-grant-after-approval)
 - [:mailbox_with_mail: Suggest a Project](#mailbox_with_mail-suggest-a-project)
-- [:hammer_and_wrench: Maintenance Grants](#hammer_and_wrench-maintenance-grants)
 - [:bulb: Help](#bulb-help)
   - [Additional information](#additional-information)
   - [Real-time conversation](#real-time-conversation)
@@ -27,18 +26,18 @@
 
 ## :wave: Introduction
 
-Although we are accepting applications now, the program will not begin funding until July 1st 2022.  
+Cohort 2 Applications are now being reviewed!
   
-As part of our commitment to always improving the Mintbase + NEAR ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and our [GraphQL Indexer API](https://docs.mintbase.io/dev/getting-started)**.
+As part of our commitment to always improving the Mintbase + NEAR ecosystem, we offer a comprehensive grants program focused on funding software development and research efforts related to NEAR protocol NFT infrastructure, **Mintbase, [MintbaseJS](https://github.com/Mintbase/mintbase-js) and our [GraphQL Indexer API](https://docs.mintbase.io/dev/getting-started)**.
 
- Thanks to the [Web3 Foundation Grants Program](https://github.com/w3f/Grants-Program) for providing the structural outline for this program.
+ Thanks to the [Web3 Foundation's Grants Program](https://github.com/w3f/Grants-Program) for providing the structural outline for this program.
 
 
 ### Guidelines
 
 Anyone is welcome to apply for a grant. Projects funded through our programs are broad in scope, but our focus lies on strong **technical** projects that add value to the ecosystem.
 
-Projects are be more likely to be accepted if:
+Projects are more likely to be accepted if:
 
 - Your application is **rich in technical details** and well-defined.
 - It presents a **well-researched** or tested concept, for which you are able to show some prior work.
@@ -51,28 +50,30 @@ Additionally, projects **must** fulfill the following requirements:
 - All code produced as part of a grant must be **open-sourced**, and it must also not rely on closed-source software for full functionality. We prefer Apache 2.0 but GPLv3, MIT or Unlicense are also acceptable.
 - Projects may not encourage gambling or illicit activity in any shape or form. 
 - Projects cannot have been part of a successful token sale.
-- Teams must finish projects that have been awarded a grant before being considred for another.
+- Teams must finish projects that have been awarded a grant before being considered for another.
 
 
 In addition to the information provided on your application, note that your project will need to comply with our [Guidelines for Milestone Deliverables](docs/milestone-deliverables-guidelines.md). In particular, we require all projects to create documentation that explains how their project works. At a minimum, _written_ documentation is required for funding. Tutorials and videos are also helpful to understand your project goals and use cases. 
 
 Please also observe our [Announcement Guidelines](docs/announcement-guidelines.md) for grant-related communications.
 
-Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognised for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
+Finally, we take licensing and the right of all teams in and outside the ecosystem to be recognized for their work very seriously. Using others' work with no attribution or indication that this was not your own work as part of a milestone delivery **will lead to immediate termination**. Please reach out to us before submitting if you have any doubts on how to comply with a specific license and we'll be happy to help.
 
 We also try to enforce our [code of conduct](CODE_OF_CONDUCT.md) and reserve the right to [block users](https://github.blog/2016-04-04-organizations-can-now-block-abusive-users/) if necessary.
 
 ### Project Ideas
 
+Not sure where to start? Take a look at [this list of ideas](https://docs.mintbase.io/dev/build-ideas). 
+
 [Requests For Proposals](rfps) (RFPs) represent concrete ideas for projects that we would like to see implemented. Several teams may apply for the same RFP, so even if another team has already applied to implement a certain RFP, we invite you to do the same if you're interested.
 
-Finally, you don't need to start your own project in order to be eligible for a grant. Instead, some teams choose to port existing work to Mintbase, where the pertinent licenses allow, or even to contribute to an existing open-source project. In the latter case, you should check in advance that the maintainers of the project are interested in your contribution, and the acceptance of the milestones will generally be tied to the inclusion of your work in said project. See the [Maintenance Grants section](#hammer_and_wrench-maintenance-grants) for more info.
+Finally, you don't need to start your own project in order to be eligible for a grant. Instead, some teams choose to port existing work to Mintbase, where the pertinent licenses allow, or even to contribute to an existing open-source project. In the latter case, you should check in advance that the project's maintainers are interested in your contribution, and the acceptance of the milestones will generally be tied to the inclusion of your work in said project.
 
-If you would like feedback on your project idea, feel free to contac us at [grants@mintbase.io](mailto:grants@mintbase.io).
+If you would like feedback on your project idea, feel free to contact us on [telegram](https://t.me/mintgrants)
 
 ### Support
 
-The scope of our Grants Programs consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on Mintbase on the [Mintbase Developer Hub](https://docs.mintbase.io/getting-started), and we encourage you to join the [community](https://t.me/mintdev) in order to get help with specific issues and stay up to date with the most recent developments.
+The scope of our Grants Program consists of funding and feedback on delivered milestones. This means that we do not provide hands-on support as part of a grant, but if you face specific issues during development, we will do our best and try to direct you to the correct resources. You can find general documentation and more information on Mintbase on the [Mintbase Developer Hub](https://docs.mintbase.io/getting-started), and we encourage you to join the [community](https://t.me/mintdev) in order to get help with specific issues and stay up to date with the most recent developments.
 
 For questions about the grants program itself, see our [FAQ](docs/faq.md#frequently-asked-questions).
 
@@ -87,10 +88,9 @@ In cases where a niche expert opinion is desirable, one of the committee members
 - [Till](https://github.com/tifrel)
 - [Rui Santiago](https://github.com/sainthiago)
 - [Luís Freitas](https://github.com/microchipgnu)
-- [Ben Ipsen](https://github.com/cif)
 - [Nate Geier](https://github.com/nategeier)
-- [Maria](https://github.com/mariamneu)
-- [Regina](https://github.com/reginamintbase)
+- [Paul Kuveke](https://github.com/paul-kuveke)
+- Luis Infante
 - [Carolin](https://github.com/caromintbase)
 - [Marcelo](https://github.com/marcelomintbase)
 
@@ -105,25 +105,22 @@ USD equivalent payments are made in NEAR.
 - **Target:** Individuals & small teams
 - **Amount:** Up to $10,000
 - **Requirements:** 2 approvals
-- **Benefits:** Feedback during application process and evaluation, introduction to related teams/projects
 
 ### :baby_chick: Level 2<!-- omit in toc -->
 
 - **Target:** Small teams/start-ups
 - **Amount:** Up to $50,000
-- **Requirements:** 3 approvals
-- **Benefits:** All of the above + [co-promotion](./docs/announcement-guidelines.md#announcement-guidelines)
+- **Requirements:** 3 approvals and one pitch to Mintbase Council
 
 ### :rooster: Level 3<!-- omit in toc -->
 
 - **Target:** Companies/foundations with a proven track record
 - **Amount:** Unlimited
 - **Requirements:** Pitch call + 5 approvals (for >$100k: Mintbase Council approval)
-- **Benefits:** All of the above + VC introductions
 
 ## :pencil: Process
 
-> **:loudspeaker:** The application process is the same regardless of the [level](#level_slider-levels) being appplied for. 
+> **:loudspeaker:** The application process is the same regardless of the [level](#level_slider-levels) being applied for. For ideas please refer to approved submissions from the previous year. 
 
 ### 1. Application
 
@@ -140,12 +137,13 @@ USD equivalent payments are made in NEAR.
    1. The team can (and usually does) issue comments and request changes on the pull request.
    2. Clarifications and amendments made in the comments _need to be included in the application_. You may address feedback by directly modifying your application and leaving a comment once you're done. Generally, if you don't reply within 2 weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
    3. When all requested changes are addressed and the terms and conditions have been signed, someone will mark your application as `ready for review` and share it internally with the rest of the committee.
-   4. The application will be accepted and merged as soon as it receives the required number of approvals (see [levels](#level_slider-levels)), or closed after two weeks of inactivity. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
+   4. The application will be accepted and merged as soon as it receives the required approvals (see [levels](#level_slider-levels)), or closed after a rejection vote. Unless specified otherwise, the day on which it is accepted will be considered the starting date of the project and will be used to estimate delivery dates.
 
 ### 3. Milestone Delivery and Payment
+   1. The mintbase team will create a telegram group with approved teams.
+   2. When you are ready to submit completion for a milestone, please open a PR on that adds submissions/your_project_milestone_YYYY-MM-DD.md. Use the submissions/delivery guidelines.md content as the template for your submission documentation.
+   3. Share a link to the PR in your private telegram group for review and further instructions on invoicing and receiving payment.
 
-   1. When you are ready to submit completion for a milestone, please open a PR on that adds `submissions/your_project_milestone_YYYY-MM-DD.md`. Use the [submissions/delivery guidelines.md](./submissions/delivery_guidelines.md) content as the template for your submission documentation.
-   2. Contact [grants@mintbase.io](mailto:grants@mintbase.io) with a link to the PR for review for further instructions on invoicing and receiving payment.
 
 ### Changes to a Grant after Approval
 
@@ -155,7 +153,7 @@ USD equivalent payments are made in NEAR.
 
 ## :mailbox_with_mail: Suggest a Project
 
-If you think that we should support the development of certain tools or projects that aren't in the Mintbase [tech stack](docs/polkadot_stack.md), feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
+If you think that we should support the development of certain tools or projects that aren't in the Mintbase [tech stack](https://docs.mintbase.io/dev/getting-started/our-stack), feel free to submit a suggestion using the process described below. We are particularly interested in supporting projects that could be leveraged by other builders in our ecosystem.
 
 **Submit an idea:**
 
@@ -171,26 +169,6 @@ Ideas generally have better chances of being implemented if they're presented in
 4. Fill out the template with the project details. Please include as many details as possible.
 5. Once you're done, create a pull request. The pull request should only contain _one new file_—the Markdown file you created from the template.
 6. You will see the same template as for creating an application. Please replace it with [this one](.github/PULL_REQUEST_TEMPLATE/rfp_pr_template.md).
-
-## :hammer_and_wrench: Maintenance Grants
-
-Maintenance Grants are yet another idea to get involved with the Mintbase community. If you are a user of an open-source library that has gone out of date, or you simply want to work on small new features/fix bugs in these repos, we can support your contributions via a grant. We are happy to award rolling grants on a monthly basis, as long as the work done within each time period is performed to a quality standard deemed satisfactory by the grant evaluators.
-
-The process of applying for a Maintenance Grant is similar to what was already outlined above, but instead of defining very detailed deliverables for each milestone upfront, we will ask you to specify, where possible:
-
-- The repo(s) that need maintenance
-- Outline of why the specific project should continue being supported
-- Broad overview of the features/bugs that need development contributions
-- An assurance that the current project owners are willing to review/accept your contributions (a note here: if you're fully taking over the project, it would make more sense for the current owners to transfer the repository to your organisation. If you can't get in touch with them, you may, of course, work on a fork)
-- Max budget per month
-
-Then, at the end of each month, you will need to provide a comprehensive report of the work done, including the list of issues/bugs/pull requests worked on, time spent on each of these & finally the associated cost. It is quite likely that the time allocation & cost will vary from month to month, depending on the nature of the project you're contributing to. The delivery process and format should follow that of a typical [milestone delivery](./submissions/delivery_guidelines.md), as will the processing of the payment.
-
-Please note that:
-- Maintenance grants, as the name suggests, are meant to allow teams/individuals to maintain a certain project, and not to continue its development or implement larger features. Please use the traditional application process for this purpose.
-- The 1-month timeframe is just a guideline. If you find it unsuitable for you or the chosen project for any reason, feel free to adjust as seen fit and point this out in your application.
-- Please bear in mind that the Grants Committee might be stricter in accepting maintainers when compared to typical grants, mostly selecting for applicants with proven experience in the relevant tech stacks.
-- Maintenance Grants are only awarded for fixed timeframes. The requested duration needs to be specified in the application.
 
 ## :bulb: Help
 
@@ -216,13 +194,14 @@ Some funding sources might be more and some less suitable for your project throu
 
 The treasury is a pot of on-chain funds collected through transaction fees, slashing, staking inefficiencies, etc. The funds held in the treasury can be spent on spending proposals. [Mintbase](https://mintbase.io) offer everyone the opportunity to apply for funding via the treasury. See:
 
-- [Mintbase Treasury Account](https://explorer.near.org/accounts/mintgrants.near)
+- [Mintbase Treasury Account](https://nearblocks.io/address/mintbasegrants.near#transaction)
+`mintbasegrants.near`
 
 ### Hackathons
 
-From time to time, Mintbase and/or NEAR organise hackathons to promote quick prototyping of Mintbase related ideas. We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked or are planning to work on a project for a hackathon, your grant application should either propose a different set of features or otherwise build on top of your hackathon work. The same applies in reverse, although that will likely be less common.
+From time to time, Mintbase and/or NEAR organize hackathons to promote quick prototyping of Mintbase related ideas. We highly encourage you to participate in these hackathons. Bear in mind, however, that you cannot submit the **same work** for a hackathon and the Grants Program. If you have worked or are planning to work on a project for a hackathon, your grant application should either propose a different set of features or otherwise build on top of your hackathon work. The same applies in reverse, although that will likely be less common.
 
-The best way to find out about upcoming hackathons is by following Mintbase on the various social channels, such as Element or Twitter.
+The best way to learn about upcoming hackathons is by following Mintbase on Telegram and Twitter.
 
 
 ## :information_source: License<!-- omit in toc -->
