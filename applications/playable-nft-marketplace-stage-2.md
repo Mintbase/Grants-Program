@@ -88,7 +88,7 @@ The AILAND team has demonstrated significant traction in the gaming and blockcha
 
 6. **Accelerator Program Participation:** Graduation from esteemed accelerator programs like Startup Wise Guys Pre-Accelerator and Polygon Builder House Lisbon, which have bolstered their business and technical acumen.
 
-7. **Early Funding Achievement:** Raised $365k in seed funding, indicating confidence from investors in the project's potential and future growth.
+7. **Early Funding Achievement:** Raised $365k of the $5M seed funding, indicating confidence from investors in the project's potential and future growth.
 
 This combination of early market success, competitive achievements, and investor confidence underlines the AILAND team's strong position in the rapidly evolving gaming and blockchain industry.
 
