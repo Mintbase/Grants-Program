@@ -2,7 +2,7 @@
 
 - **Project Name:** AILAND Playable NFT Marketplace - Stage 2
 - **Team Name:** AILAND Team
-- **Payment Address:** ailand.sputnik-dao.near
+- **Payment Address:** amber.sputnik-dao.near
 - **[Level](../README.md#level_slider-levels):** 3
 
 ## Project Overview :page_facing_up:
@@ -14,6 +14,16 @@ The AILAND Playable NFT Marketplace is an advanced integration of our existing m
 
 Building on our successful core marketplace, we will create intuitive and engaging UIs, ensuring a seamless experience for our users. The 'Sell UI' will allow players to list and trade their unique NFT skins, providing a platform for economic interaction. The 'Chest UI' will introduce an exciting element where players can obtain random loot, enhancing their in-game assets and overall experience.
 
+#### Sell UI
+
+<img width="1722" alt="ui" src="https://github.com/andreykobal/Grants-Program/assets/19206978/1d685502-6f99-4132-a42c-cc35d4c7d6d7">
+
+#### Chest UI
+
+<img width="1728" alt="ui-2" src="https://github.com/andreykobal/Grants-Program/assets/19206978/4156dc34-3641-4367-b389-55d98a5cfe32">
+
+
+
 Technologically, we plan to utilize modern frameworks and languages such as React for frontend development, integrated with our existing smart contract infrastructure on NEAR. Our focus is on creating responsive, user-friendly interfaces that align with the immersive nature of AILAND.
 
 ### Ecosystem Fit
@@ -24,27 +34,40 @@ AILAND's new features aim to enrich the NEAR ecosystem by providing innovative w
 
 ### Team members
 
-- [Names and roles of team members]
+- Valentin Sotov - Product Owner
+- Andreas Kobal - CTO
+- Melody - CMO
+- Valeria Derrick - Product / UX  / UI Designer
+- Animem - Concept Artist 
+- Louis Egan - Full Stack Engineer (JS/TS)
+- Demetre Shonia - Lead Developer (Unity)
 
 ### Contact
 
 - **Contact Name:** Valentin Sotov (example)
-- **Contact Email:** contact@email.com
-- **Website:** [AILAND Website Link]
+- **Contact Email:** expromt4@gmail.com
+- **Website:** [[AILAND Website]](https://ailand.app/)
 
 ### Legal Structure
 
-- **Registered Address:** [Team's Registered Address]
-- **Registered Legal Entity:** [Legal Entity Name]
+- **Registered Address:** Harju maakond, Tallinn, Kesklinna linnaosa, Ahtri tn 12, 15551
+- **Registered Legal Entity:** AILAND Group OÜ
 
 ### Team's experience
 
 Our team's experience spans across blockchain development, UI/UX design, and game development. We have successfully launched the initial phase of the AILAND marketplace and are committed to further enhancing its capabilities and user experience.
 
-### Team Code Repos and LinkedIn Profiles
+### Team Code Repos
 
-- [GitHub Repos]
-- [LinkedIn Profiles]
+- [https://github.com/AMBER-Open-Source-Metaverse](https://github.com/AMBER-Open-Source-Metaverse)
+- [https://github.com/andreykobal](https://github.com/andreykobal)
+- [https://github.com/infinity-nft](https://github.com/infinity-nft)
+- [https://github.com/louisxdev](https://github.com/louisxdev)
+
+### Team LinkedIn Profiles (if available)
+
+- [https://www.linkedin.com/in/infinitynft/](https://www.linkedin.com/in/infinitynft/)
+- [https://www.linkedin.com/in/andrew-kobal/](https://www.linkedin.com/in/andrew-kobal/)
 
 ## Development Status :open_book:
 
@@ -61,24 +84,36 @@ We have already developed the core of our NFT marketplace, which includes basic 
 ### Milestone 1 — 'Sell UI' Development
 
 - **Estimated Duration:** 1 month
-- **FTE:**  3
+- **FTE:**  7
 - **Costs:** 15,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 1. | 'Sell UI' Design and Development | Designing and implementing the 'Sell UI' for users to list their NFT skins for sale. |
-| 2. | Testing and Documentation | Comprehensive testing and documentation for the 'Sell UI' feature. |
+| Number | Deliverable      | Specification |
+| ------:| ---------------- | ------------- |
+| 0a.    | License          | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b.    | Documentation    | Detailed **inline documentation** of the code and a comprehensive **tutorial** for users on how to list and sell their NFT skins on the AILAND platform. |
+| 0c.    | Testing Guide    | Complete coverage of core functions with unit tests to ensure robustness and functionality. The guide will detail how these tests can be executed. |
+| 0d.    | Docker           | Provision of a Dockerfile(s) to facilitate testing of all features delivered in this milestone. |
+| 0e.    | Article          | An **article**/workshop to be published, detailing the development process, challenges, and functionalities of the 'Sell UI'. |
+| 1.     | User Interface: Sell | Development of the 'Sell UI' allowing users to list their NFT skins for sale on the AILAND marketplace. This includes user-friendly navigation and a secure transaction process. |
+| 2.     | Backend Integration | Integration of the 'Sell UI' with the existing AILAND backend systems and NEAR blockchain, ensuring seamless listing and transaction processes. |
+| 3.     | User Feedback System | Implementation of a user feedback system within the 'Sell UI' to collect user input and improve the interface. |
 
 ### Milestone 2 — 'Chest UI' Development
 
 - **Estimated Duration:** 1 month
-- **FTE:**  3
+- **FTE:**  7
 - **Costs:** 15,000 USD
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| 1. | 'Chest UI' Design and Development | Creating the 'Chest UI' for opening chests with random loot (skins). |
-| 2. | Testing and Documentation | Thorough testing and documentation for the 'Chest UI' feature. |
+| Number | Deliverable      | Specification |
+| ------:| ---------------- | ------------- |
+| 0a.    | License          | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b.    | Documentation    | Comprehensive **inline documentation** of the code and a detailed **tutorial** for users on how to use the 'Chest UI' to obtain random loot. |
+| 0c.    | Testing Guide    | Full coverage of core functions with unit tests to validate functionality and robustness. Instructions on how to execute these tests will be included. |
+| 0d.    | Docker           | A Dockerfile(s) will be provided to test all functionalities included in this milestone. |
+| 0e.    | Article          | Publication of an **article**/workshop explaining the features, development process, and user engagement strategies for the 'Chest UI'. |
+| 1.     | User Interface: Chest | Creation of the 'Chest UI' that allows users to open chests to discover random loot (skins), enhancing the gaming experience. |
+| 2.     | Loot Algorithm   | Development of the underlying algorithm for the random generation of loot in the 'Chest UI', ensuring fairness and excitement for users. |
+| 3.     | Integration with Marketplace | Seamless integration of the 'Chest UI' with the AILAND marketplace, enabling users to use or trade their loot immediately. |
 
 ## Future Plans
 
