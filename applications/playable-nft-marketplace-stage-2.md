@@ -2,7 +2,7 @@
 
 - **Project Name:** AILAND Playable NFT Marketplace - Stage 2
 - **Team Name:** AILAND Team
-- **Payment Address:** amber.sputnik-dao.near
+- **Payment Address:** savegame.near
 - **[Level](../README.md#level_slider-levels):** 3
 
 ## Project Overview :page_facing_up:
