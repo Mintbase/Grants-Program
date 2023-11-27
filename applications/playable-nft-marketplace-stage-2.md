@@ -24,7 +24,7 @@ In essence, AILAND's commitment to blending traditional gaming with the latest i
 
 #### AILAND Playable NFT Marketplace
 
-![screencapture-amber-marketplace-vercel-app-2023-11-27-03_47_20](https://github.com/andreykobal/Grants-Program/assets/19206978/3ca0a7de-a940-4776-8fd7-c855f2ce4648)
+![screencapture-amber-marketplace-vercel-app-2023-11-27-03_47_20](https://github.com/andreykobal/Grants-Program/assets/19206978/522f4eca-28d6-4745-bfde-41559d664d82)
 
 
 The AILAND Playable NFT Marketplace is an advanced integration of our existing marketplace with new, innovative features. We propose to develop two key user interfaces: the 'Sell UI' for listing NFT skins and the 'Chest UI' for opening chests containing random loot (skins), enhancing the user experience in our AILAND gaming ecosystem.
