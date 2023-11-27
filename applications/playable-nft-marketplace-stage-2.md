@@ -7,6 +7,8 @@
 
 ## Project Overview :page_facing_up:
 
+This application is a follow-up grant for the continuation of our earlier project, as detailed in the grant application titled "Playable NFT Marketplace," available at [https://github.com/Mintbase/Grants-Program/blob/main/applications/playable-nft-marketplace.md](https://github.com/Mintbase/Grants-Program/blob/main/applications/playable-nft-marketplace.md)
+
 ### Overview
 
 #### AILAND Shooter Game
