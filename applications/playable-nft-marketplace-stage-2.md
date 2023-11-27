@@ -114,13 +114,13 @@ We have already developed the core of our NFT marketplace, which includes basic 
 
 ### Overview
 
-- **Total Estimated Duration:** 2 months
+- **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):**  6
 - **Total Costs:** 30,000 USD
 
 ### Milestone 1 — 'Sell UI' Development
 
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 1.5 month
 - **FTE:**  7
 - **Costs:** 15,000 USD
 
@@ -137,7 +137,7 @@ We have already developed the core of our NFT marketplace, which includes basic 
 
 ### Milestone 2 — 'Chest UI' Development
 
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 1.5 month
 - **FTE:**  7
 - **Costs:** 15,000 USD
 
