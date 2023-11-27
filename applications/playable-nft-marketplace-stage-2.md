@@ -8,6 +8,25 @@
 ## Project Overview :page_facing_up:
 
 ### Overview
+
+#### AILAND Shooter Game
+
+[<img width="852" alt="Screenshot 2023-11-27 at 03 48 30" src="https://github.com/andreykobal/Grants-Program/assets/19206978/735f0d29-fe8a-4bfe-b3aa-6946ce353e1b">](https://www.youtube.com/watch?v=gHiVnQd_Ogw)
+
+
+AILAND is an advanced, next-generation shooter game distinguished by its groundbreaking features and engaging gameplay. It's designed as a free-to-play model, which makes it accessible to a wide range of players, but with an innovative twist: players can earn token rewards. This feature not only enhances the gaming experience but also adds a layer of economic interaction and incentive for players.
+
+One of the most unique features of AILAND is its AINFT (AI-powered Non-Fungible Tokens) avatars. These avatars represent a fusion of gaming and blockchain technology, offering players the chance to own unique, AI-enhanced characters in the game. These avatars are not just visually distinctive; they are embedded with AI capabilities, providing a more personalized and immersive experience.
+
+The incorporation of AINFT avatars into AILAND brings a new dimension to in-game identity and ownership, allowing players to have a tangible stake in the game's universe. Coupled with the opportunity to earn token rewards, AILAND sets itself apart in the gaming market, offering an innovative and engaging experience that goes beyond traditional gameplay.
+
+In essence, AILAND's commitment to blending traditional gaming with the latest in blockchain and AI technologies, along with its aim to build a strong, engaged community, positions it as a frontrunner in the evolution of the gaming industry.
+
+#### AILAND Playable NFT Marketplace
+
+![screencapture-amber-marketplace-vercel-app-2023-11-27-03_47_20](https://github.com/andreykobal/Grants-Program/assets/19206978/3ca0a7de-a940-4776-8fd7-c855f2ce4648)
+
+
 The AILAND Playable NFT Marketplace is an advanced integration of our existing marketplace with new, innovative features. We propose to develop two key user interfaces: the 'Sell UI' for listing NFT skins and the 'Chest UI' for opening chests containing random loot (skins), enhancing the user experience in our AILAND gaming ecosystem.
 
 ### Project Details
@@ -46,7 +65,7 @@ AILAND's new features aim to enrich the NEAR ecosystem by providing innovative w
 
 - **Contact Name:** Valentin Sotov (example)
 - **Contact Email:** expromt4@gmail.com
-- **Website:** [[AILAND Website]](https://ailand.app/)
+- **Website:** [AILAND Website](https://ailand.app/)
 
 ### Legal Structure
 
