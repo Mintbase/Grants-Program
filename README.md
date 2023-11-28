@@ -88,7 +88,6 @@ In cases where a niche expert opinion is desirable, one of the committee members
 - [Till](https://github.com/tifrel)
 - [Rui Santiago](https://github.com/sainthiago)
 - [Luís Freitas](https://github.com/microchipgnu)
-- [Ben Ipsen](https://github.com/cif)
 - [Nate Geier](https://github.com/nategeier)
 - [Paul Kuveke](https://github.com/paul-kuveke)
 - Luis Infante
