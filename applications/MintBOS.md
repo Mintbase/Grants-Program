@@ -3,7 +3,7 @@
 
 
 * Project Name: MintBOS by GenaDrop
-* Team Name: [Minority Programmers Association](minorityprogrammers.org)
+* Team Name: [Minority Programmers Association](https://minorityprogrammers.org)
 * Payment Address: drop.sputnik-dao.near 
 * [Level](https://github.com/codingshot/Mintbase-Genadrop-Grants-Program/blob/main/README.md#level_slider-levels): 1
 
@@ -44,7 +44,7 @@
 
 ### **[Overview](https://github.com/codingshot/Mintbase-Genadrop-Grants-Program/blob/main/applications/application-template.md#overview)**
 
-The following proposal is to achieve Mintbase feature parity on BOS as composable mobile responsive components extended with DAO + Social features. Additionally, we will be adding mintbase listing metatransactions to our[ telegram account abstraction wallet](wallet.genadrop.xyz). 
+The following proposal is to achieve Mintbase feature parity on BOS as composable mobile responsive components extended with DAO + Social features. Additionally, we will be adding mintbase listing metatransactions to our[ telegram account abstraction wallet](https://wallet.genadrop.xyz). 
 
 We will be building Mintbos entirely on Mintbase Infra: Builds on Mintbase factory and storefront, leverages graphQL, and creates front ends for action libraries for sputnik daos on mintbase contracts, and uses social.near contract for profiles for storefront + collections and feeds. 
 
@@ -53,7 +53,7 @@ We are interested in creating this project as we want all Mintbase functionality
 
 ### **[Project Details](https://github.com/codingshot/Mintbase-Genadrop-Grants-Program/blob/main/applications/application-template.md#project-details)**
 
-For full details on the project check out [mintbase.genadrop.xyz](mintbase.genadrop.xyz) and check out the backlog
+For full details on the project check out [mintbase.genadrop.xyz](https://mintbase.genadrop.xyz) and check out the backlog
 
 
 ### **[Ecosystem Fit](https://github.com/codingshot/Mintbase-Genadrop-Grants-Program/blob/main/applications/application-template.md#ecosystem-fit)**
@@ -172,7 +172,7 @@ Deployed Application WIll Be Found At  [mintbase.genadrop.xyz/app ](mintbase.gen
 
 Docs for Forking will be found at [mintbase.genadrop.xyz/docs ](mintbase.genadrop.xyz/docs)
 
-Our designs will be at [mintbase.genadrop.xyz/design](mintbase.genadrop.xyz/design)
+Our designs will be at [mintbase.genadrop.xyz/design](https://mintbase.genadrop.xyz/design)
 
 Our Telegram Wallet in which we will add Mintbase Listing Functions[ wallet.genadrop.xyz](wallet.genadrop.xyz)
 
