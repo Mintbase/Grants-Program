@@ -181,6 +181,14 @@ Mintbase Studio to unlock the following features in this milestone
 #### Providing a leaderboard view for the community and creators to identify, monetize, and gather insights in terms of the overall participation of the community members. 
 ![Screenshot 2023-10-20 at 1 36 56 PM](https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/298a03c6-a23d-4308-911b-b43270bcfc53)
 
+### Milestone Progress Update
+| Milestone | Progress |                            Task Completed                            |                               Items WIP                               |
+|:---------:|:--------:|:--------------------------------------------------------------------:|:---------------------------------------------------------------------:|
+|     M1    |    75%   |                    Login With Near Contract Import                   |                        Support Mintbase Wallet                        |
+|     M2    |    55%   |                  Create Collection using MB Indexer                  | Standalone Templates Support Mintbase Secondary Marketplace on wallet |
+|     M3    |    80%   | Enabling bounties feature on Twitter Enabling benefits and utilities |                    Enabling leaderboard for Twitter                   |
+|     M4    |    90%   |                   Customized club page for Creators                  |                 Providing insightful leaderboard view                 |
+
 ...
 ## Future Plans
 
