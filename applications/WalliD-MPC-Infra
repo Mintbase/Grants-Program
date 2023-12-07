@@ -1,0 +1,154 @@
+# WalliD MPC Infra Proposal
+
+- **Project Name:** WalliD MPC Infra 
+- **Team Name:** WalliD S.A.
+- **Payment Address:** 7c5db8d0d80eec153e8ed78d2706224428ebdcab4c8103b8e676b697452c75d7
+- **[Level](../README.md#level_slider-levels):** 2
+
+## Project Overview :page_facing_up:
+
+### Overview
+
+WalliD is a Digital ID provider, focused on building an aggregator toolkit to enable users and organizations to issue, manage and prove the ownership of all types of verifiable data.
+Out tech stack is comprised of authentication, data verification, verifiable credential issuance and wallet solutions with corporate, web3 and governmental  partners and customers.
+Our infraestructure is already connected to NEAR and our tools support NEAR wallets, token standards and smart contract queries. In this grant we intend to expand the level of integration and enrich the ecosystem by building a decentralized layer of access to the existing NEAR MPC infrastructure.
+
+**The goal of the project desctibbed in this application is to:**
+- Enable existing NEAR wallets to use NEAR MPC infra.
+- Create a NEAR MPC SDK for the ecosystem developers.
+- Build a relayer to decentralize the key distributions
+
+### Project Details
+
+With this project WalliD is proposing to create a layer to add features to the the multi-party computing (MPC) infrastructure already built on [NEAR](https://github.com/near/mpc-recovery) in order to enable existing users to benefit from it, and developers to offer it as service within their own solutions.
+
+**Below is the depiction of the architecture components and related operations
+<p align="center">
+  <img src="https://drive.google.com/uc?id=14LBViDXXa_nBWY-4qpgDcXxyYBMuAuLW" style="height:800px";>
+</p>
+
+
+**During this project, we will be building:**
+
+- A Storage component to the NEAR MPC infra to support existing keys and add social logins as auth factor
+- A Recovery component to enable key recoveries with existing NEAR accounts and social logins
+- An SDK with frontend libs to use these features with NEAR MPC.
+- a decentralized relayer to distribute the key storage and assembly.
+
+See detailed milestones and roadmap in the milestones  in the appropriate chapter of this application
+
+### Ecosystem Fit
+
+Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
+
+- **Where and how does your project fit into the ecosystem?:** As an ID and wallet provider
+- **Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?** NEAR dApps that want to provide secure solutions to their users or to onboard users from outside the web3.
+**- What need(s) does your project meet?:** We're building ID solutions while focusing on the privacy and safety of data.
+**- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?:** Not that we're aware of
+ ** - If not, are there similar projects in related ecosystems?** [Project Galxe](https://galxe.com/galxeid), [Web3auth](https://web3auth.io/docs/)
+
+## Team :busts_in_silhouette:
+
+### Team members
+
+- Filipe Veiga (CEO)
+- Vitor Viana (CTO)
+- Beatriz Pereira (UX/UI)
+- Guilherme Arsénio (Full stack)
+
+### Contact
+
+- **Contact Name:** Filipe da Cruz Esteves Casal da Veiga
+- **Contact Email:** filipe.veiga@wallid.io
+- **Website:** [WalliD](https://wallid.io/)
+
+### Legal Structure
+
+- **Registered Address:** Rua Fernanda Seno, nr 6, 7005-485, Évora, Portugal
+- **Registered Legal Entity:** WalliD S.A
+
+### Team's experience
+
+Filipe and Vitor both met while working the development of Digital infrastructures in Portugal and have a background in product development of PKI based infrastrcutures, middleware and cryptography. Guilherme and Beatriz joined the team in 2019 when we first started building WalliD and have been the builders of all the teck stack already developed by WalliD.
+
+
+### Team Code Repos
+
+- [WalliD](https://github.com/walliDprotocol)
+- [Social Logins for NEAR](https://github.com/walliDprotocol/verification-sdk-demo-app)
+- [eSignatures with wallets on DocuSign ](https://github.com/walliDprotocol/NFT-Proof-of-Signature)
+
+Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+
+- [Filipe Veiga](https://github.com/FCVeiga)
+- [Vitor Viana ](https://github.com/masterviana)
+- [Guilherme Arsénio](https://github.com/GuilhermeArsenio)
+
+### Team LinkedIn Profiles (if available)
+
+- [Filipe Veiga ](https://www.linkedin.com/in/fiveiga/)
+- [Vitor Viana ](https://www.linkedin.com/in/vviana/)
+- [Beatriz Pereira](https://www.linkedin.com/in/beatrizpereira215/)
+- [Guilherme Arsénio ](https://www.linkedin.com/in/guilherme-ars%C3%A9nio-4b6a1a148/)
+
+## Development Status :open_book:
+
+Idea and mockup stage.
+
+## Development Roadmap :nut_and_bolt:
+
+### Overview
+
+- **Total Estimated Duration:** 10 weeks
+- **Full-Time Equivalent (FTE):**  4
+- **Total Costs:** 20,000 USD
+
+
+### Milestone 1 — MPC Store and Recovery features
+
+- **Estimated duration:** 2 weeks
+- **FTE:**  4
+- **Costs:** 10,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 1. | API (Store Flow) | Will allow a n/3 solution (NEAR accounts, social accounts and OTP) to authenticate on NEAR MPC and enable existing NEAR accounts to generate an MPC key |
+| 2. | API (Recovery Flow) | Will allow to get the MPC key through a n/3 recovery system (NEAR accounts, social accounts and OTP) |
+| 3. | Documentation | Tecnical documentation, setup samples |
+| 4. | Tests | Unit Tests |
+
+
+### Milestone 2 — MPC SDK
+
+- **Estimated Duration:** 6 weeks
+- **FTE:**  4
+- **Costs:** 10,000 USD
+
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 1. |  SDK Libs (Store + Revoery requests)| Frontend libs to allow developers to easily connect with the API built on Milestone 1 and provide MPC features from their own environments|
+| 2. | Documentation | Tecnical documentation, coverage test, pratical samples, build instructions |
+| 3. | Testing guide | coverage tests, unit tests | 
+
+
+### Milestone 3 — MPC Relayer
+
+- **Estimated Duration:** 4 weeks
+- **FTE:**  4
+- **Costs:** 15,000 USD
+
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 1. | Relayer infra | |API to Assemble stored key, sign object and host a relay UR. |
+| 3. | Testing guide | coverage tests, unit tests | 
+| 4. | Documentation | Tecnical documentation, coverage test, pratical samples, build instructions |
+...
+## Future Plans
+
+The goal of this project is to provide a tool for the NEAR ecosystem of developers to ensure their users have secure ways to backup and recover keys as well as to pay for user fees when desired. We plan to connect with teams in the ecosystem to test and improve the solution once an MVP is complete.
+
+## Additional Information :heavy_plus_sign:
+
+**How did you hear about the Grants Program?** Mintbase team. We were in the cohort of the 1st season of Mintbase grants.
