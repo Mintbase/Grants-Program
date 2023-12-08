@@ -57,7 +57,13 @@ Chatafisha is an experienced team with a strong tech.
 - [Nada](https://github.com/NadaLabidi1)
 - [Rasta Bujo](https://github.com/Rasta669)
 
-Linked in Profiles
+#### Linked in Profiles
+- [David Machuche](https://www.linkedin.com/in/david-machuche-1a9954b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+- [Firas](https://www.linkedin.com/in/firas-belhiba-4b7b66202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+- [Thamer]()
+- [Nada](https://www.linkedin.com/in/nada-labidi-95a012144/)
+- [Rasta Bujo](https://www.linkedin.com/in/rasta-bujo-06150b15a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [Victor Muhagachi](https://www.linkedin.com/in/victor-muhagachi-ab4234160?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 
 Development status (image)
 ![alt text](https://github.com/chatafisha/Chatafisha/blob/main/images/CH1.png)
