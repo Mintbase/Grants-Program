@@ -27,7 +27,7 @@ Our project, Chatafisha, is built on the NEAR Protocol, a powerful and developer
   <img src="https://github.com/chatafisha/Chatafisha/blob/main/images/CH5.png" width="800" height = "400" >
 </p>
 
-Currently we have our MVP marketplace at https://marketplace.chatafisha.com where anyone can connect their NEAR wallet, submit the metadata and proof of impact and receive a Carbon backed NFT.
+Currently we have our MVP marketplace at [Chatafisha](https://marketplace.chatafisha.com)  where anyone can connect their NEAR wallet, submit the metadata and proof of impact and receive a Carbon backed NFT.
 
 ### Ecosystem Fit for NEAR and Mintbase:
 The integration of Mintbase with the NEAR Protocol aligns with both platforms' focus on simplicity and accessibility. NEAR provides a scalable and developer-friendly environment, while Mintbase is a leading NFT marketplace. This integration will create a user-friendly experience for our community, combining the power of blockchain with traditional payment methods. It will also contribute to the growth of the NEAR and Mintbase ecosystems by bringing sustainability-focused NFTs to a wider audience.
