@@ -37,7 +37,7 @@ The integration of Mintbase with the NEAR Protocol aligns with both platforms' f
 - Firas - CTO
 - Nada - Developer
 - Victor Muhagachi - Product/ UI / UX designer
-- Buyegi Minzi - Web3 developer 
+- Rasta Bujo - Web3 developer 
 
 ### Contact
 - **Contact Name:** David Machuche
