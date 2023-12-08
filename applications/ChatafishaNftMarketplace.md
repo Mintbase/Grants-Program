@@ -19,29 +19,29 @@ Currently we have our MVP marketplace at https://marketplace.chatafisha.com wher
 The integration of Mintbase with the NEAR Protocol aligns with both platforms' focus on simplicity and accessibility. NEAR provides a scalable and developer-friendly environment, while Mintbase is a leading NFT marketplace. This integration will create a user-friendly experience for our community, combining the power of blockchain with traditional payment methods. It will also contribute to the growth of the NEAR and Mintbase ecosystems by bringing sustainability-focused NFTs to a wider audience.
 
 ### Team
--David Machuche - Product owner
--Firas - CTO
--Nada - Developer
--Victor Muhagachi - Product/ UI / UX designer
--Buyegi Minzi - Web3 developer 
+- David Machuche - Product owner
+- Firas - CTO
+- Nada - Developer
+- Victor Muhagachi - Product/ UI / UX designer
+- Buyegi Minzi - Web3 developer 
 
 ### Cntact
--**Contact Name:** David Machuche
--**Contact Email:** davidmachuche@gmail.com
--**Website:** https://marketplace.chatafisha.com
+- **Contact Name:** David Machuche
+- **Contact Email:** davidmachuche@gmail.com
+- **Website:** https://marketplace.chatafisha.com
 
 ### Legal structure
 
--**Registered Address:**
--**Registered Legal entity:** 
+- **Registered Address:**
+- **Registered Legal entity:** 
 
 ### Team experience
 Chatafisha is an experienced team with a strong tech
 Team repos
--Firas
--Thamer
--Nada
--Buyegi
+- Firas
+- Thamer
+- Nada
+- Buyegi
 
 Linked in Profiles
 
