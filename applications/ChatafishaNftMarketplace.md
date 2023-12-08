@@ -18,7 +18,7 @@ Our project, Chatafisha, is built on the NEAR Protocol, a powerful and developer
 ![alt text](https://github.com/chatafisha/Chatafisha/blob/main/images/CH4.png)
 
 <p align="center">
-  <img src="https://github.com/chatafisha/Chatafisha/blob/main/images/CH5.png" width="600" title="Chatafisha dapp">
+  <img src="https://github.com/chatafisha/Chatafisha/blob/main/images/CH5.png" width="1000" >
 </p>
 
 Currently we have our MVP marketplace at https://marketplace.chatafisha.com where anyone can connect their NEAR wallet, submit the metadata and proof of impact and receive a Carbon backed NFT.
