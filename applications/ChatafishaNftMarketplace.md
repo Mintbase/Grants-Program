@@ -46,8 +46,8 @@ The integration of Mintbase with the NEAR Protocol aligns with both platforms' f
 
 ### Legal structure
 
-- **Registered Address:**
-- **Registered Legal entity:** 
+- **Registered Address:** 12 Mbezi Juu Ndumbwi Dar es salaam, Tanzania
+- **Registered Legal entity:** Chatafisha Tz Limited , (BRELA No. 157763253)
 
 ### Team experience
 Chatafisha is an experienced team with a strong tech.
