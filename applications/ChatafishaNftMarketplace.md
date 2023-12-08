@@ -37,7 +37,7 @@ The integration of Mintbase with the NEAR Protocol aligns with both platforms' f
 
 ### Team experience
 Chatafisha is an experienced team with a strong tech.
-**Team repos**
+#### Team repos
 - Firas
 - Thamer
 - Nada
@@ -46,4 +46,39 @@ Chatafisha is an experienced team with a strong tech.
 Linked in Profiles
 
 Development status (image)
+
+### Development Roadmap:
+- **Phase 1 - Integration Setup:**
+Integrate Mintbase wallets with NEAR Protocol.
+Configure Stripe payment gateway for seamless transactions.
+Establish a secure and user-friendly environment for NFT creation and sales.
+
+- **Phase 2 - Metadata Integration:**
+Develop a system to attach carbon offset metadata to NFTs.
+Ensure metadata is correctly displayed on the Mintbase platform.
+Implement a mechanism for users to verify the environmental impact associated with each NFT.
+
+#### Milestone 1: Integrate Mintbase wallets with Chatafisha Carbon backed Marketplace
+Estimated duration: 2 months
+FTE: 3
+Costs: 25,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | Licence | GNU GPLv3  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains the functionality  |   
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. We will also describe how to run these tests on our Github guide.|
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Video walkthrough | We will publish a video walkthrough that explains how to use Chatafisha’s Carbon backed Marketplace on NEAR to mint, exchange and breed NFTs as well as be able to sell them on Mintbase. |
+| 1. | Mintbase wallet with Stripe Payment Gateway Configuration |  Configure Mintbase wallets with stripe payment for NFT purchases, ensuring security and user-friendliness. | 
+| 2. | Metadata Attachment System |  Develop a system to attach carbon offset metadata to NFTs and ensure it's displayed. | 
+| 3. | Metadata Verification Feature | Implement a feature for users to verify the environmental impact of each NFT. | 
+
+### Future Plans:
+Beyond this initial grant, our long-term plan is to continue enhancing the user experience, expanding our NFT offerings, and deepening our commitment to environmental sustainability. We aim to foster a vibrant community around carbon offsetting and waste management, using Mintbase and NEAR as foundational tools.
+
+### Additional Info:
+How did you hear about it?
+We found out about the grant from the Mintbase Telegram group and Twitter channel as we are keen daily followers and believers in the synergies between what we are building and Mintbase and NEAR technology.
+
 
