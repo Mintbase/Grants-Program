@@ -3,7 +3,7 @@
 - **Project Name:** Chatafisha NFT Marketplace
 - **Team Name:** Chatafisha
 - **Payment Address:** chatafisha.near
-- **[Level](../README.md#level_slider-levels):** 3
+- **[Level](../README.md#level_slider-levels):** 2
 
 ## Project Overview :page_facing_up:
 
