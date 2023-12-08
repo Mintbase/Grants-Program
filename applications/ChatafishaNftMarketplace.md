@@ -52,10 +52,10 @@ The integration of Mintbase with the NEAR Protocol aligns with both platforms' f
 ### Team experience
 Chatafisha is an experienced team with a strong tech.
 #### Team repos
-- Firas
+- [Firas](https://github.com/firasbelhiba)
 - Thamer
-- Nada
-- Buyegi
+- [Nada](https://github.com/NadaLabidi1)
+- [Rasta Bujo](https://github.com/Rasta669)
 
 Linked in Profiles
 
