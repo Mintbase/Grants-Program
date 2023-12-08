@@ -46,6 +46,10 @@ Chatafisha is an experienced team with a strong tech.
 Linked in Profiles
 
 Development status (image)
+![alt text](https://github.com/chatafisha/Chatafisha/blob/main/images/CH1.png)
+
+![alt text](https://github.com/chatafisha/Chatafisha/blob/main/images/CH2.png)
+
 
 ### Development Roadmap:
 - **Phase 1 - Integration Setup:**
