@@ -81,6 +81,8 @@ Develop a system to attach carbon offset metadata to NFTs.
 Ensure metadata is correctly displayed on the Mintbase platform.
 Implement a mechanism for users to verify the environmental impact associated with each NFT.
 
+
+
 #### Milestone 1: Integrate Mintbase wallets with Chatafisha Carbon backed Marketplace
 - **Estimated duration:** 3 months
 - **FTE: 3**
