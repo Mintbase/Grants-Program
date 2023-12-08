@@ -82,9 +82,9 @@ Ensure metadata is correctly displayed on the Mintbase platform.
 Implement a mechanism for users to verify the environmental impact associated with each NFT.
 
 #### Milestone 1: Integrate Mintbase wallets with Chatafisha Carbon backed Marketplace
-Estimated duration: 2 months
-FTE: 3
-Costs: 25,000 USD
+- **Estimated duration:** 3 months
+- **FTE: 3**
+- **Costs: 20,000 USD**
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -96,6 +96,28 @@ Costs: 25,000 USD
 | 1. | Mintbase wallet with Stripe Payment Gateway Configuration |  Configure Mintbase wallets with stripe payment for NFT purchases, ensuring security and user-friendliness. | 
 | 2. | Metadata Attachment System |  Develop a system to attach carbon offset metadata to NFTs and ensure it's displayed. | 
 | 3. | Metadata Verification Feature | Implement a feature for users to verify the environmental impact of each NFT. | 
+
+#### Milestone 2: Product development, ecosystem and patnership:
+
+This will include the following features
+
+- Perform User-Tests to make the dapp as user friendly as possible.
+- Integrate with the Graph for indexing.
+- Add detailed documentation
+- Perform security and performance tests
+- Patner up and integrate carbon credits api to the marketplace.
+
+- **Estimated duration:**  3 months
+- **FTE:** 4
+- **Costs:** 30,000 USD
+
+| Number | Deliverable      | Specification                                                                                                                                     |
+| -----: | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    0a. | License          | MIT                                                                                                                                               |
+|    0b. | Documentation    | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user has to interact with Chatafisha dapp          |
+|    0c. | Testing Guide    | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the Github guide, we will describe how to run these tests. |
+|    0d. | Testnet-Instance | We will provide a Testnet-Instance that can be used to test all the functionalites of our product.                                                |
+|    0e. | Article          | We will publish an **article** that explains all features and how to use them as well as two-weekly development updates in our discord-channel.   |
 
 ### Future Plans:
 Beyond this initial grant, our long-term plan is to continue enhancing the user experience, expanding our NFT offerings, and deepening our commitment to environmental sustainability. We aim to foster a vibrant community around carbon offsetting and waste management, using Mintbase and NEAR as foundational tools.
