@@ -15,10 +15,10 @@ Our proposal is to integrate Mintbase wallets with Stripe payment into Chatafish
 Our project, Chatafisha, is built on the NEAR Protocol, a powerful and developer-friendly blockchain. We issue carbon-backed NFTs that represent the offset of a specific amount of plastic waste from the environment. These NFTs have real-world value and can be sold or traded. By integrating Mintbase and Stripe, we aim to simplify the purchasing process and expand our user base.
 ![alt text](https://github.com/chatafisha/Chatafisha/blob/main/images/CH3.png)
 
-![Chata dapp architecture](https://github.com/chatafisha/Chatafisha/blob/main/images/CH4.png)
+!["Chata dapp architecture"](https://github.com/chatafisha/Chatafisha/blob/main/images/CH4.png)
 
 <p align="center">
-  <img src="https://github.com/chatafisha/Chatafisha/blob/main/images/CH5.png" width="1000" >
+  <img src="https://github.com/chatafisha/Chatafisha/blob/main/images/CH5.png" width="800" height = "800" >
 </p>
 
 Currently we have our MVP marketplace at https://marketplace.chatafisha.com where anyone can connect their NEAR wallet, submit the metadata and proof of impact and receive a Carbon backed NFT.
