@@ -25,7 +25,7 @@ The integration of Mintbase with the NEAR Protocol aligns with both platforms' f
 - Victor Muhagachi - Product/ UI / UX designer
 - Buyegi Minzi - Web3 developer 
 
-### Cntact
+### Contact
 - **Contact Name:** David Machuche
 - **Contact Email:** davidmachuche@gmail.com
 - **Website:** https://marketplace.chatafisha.com
@@ -36,8 +36,8 @@ The integration of Mintbase with the NEAR Protocol aligns with both platforms' f
 - **Registered Legal entity:** 
 
 ### Team experience
-Chatafisha is an experienced team with a strong tech
-Team repos
+Chatafisha is an experienced team with a strong tech.
+**Team repos**
 - Firas
 - Thamer
 - Nada
