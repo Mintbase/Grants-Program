@@ -140,9 +140,12 @@ The First step to proceed with the integration is to have the Mintbase SDKs inte
 
 
 
-#### Login with Near: Users can log into Metasky studio with the NEAR account connected to Mintbase.
-##### Contract Import: Users can import a contract upon validation and add the collection to the user dashboard
-##### Support Mintbase Wallet (Post Launch): Once the Mintbase Wallet is launched, Studio to support Mintbase login with Mintbase for broader visibility of the Mintbase wallet to the ecosystem
+#### Login with Near: 
+Users have the capability to access Metasky Studio by utilizing their NEAR accounts linked with Mintbase. This process encompassed the creation of a login procedure, integrating signature authentication for verification, and enabling the invitation flow within the studio environment, utilising Near Wallet Addresses. Furthermore, an infrastructure was devised to accommodate custodial logins, establishing a mechanism to generate NEAR addresses for new users while enforcing robust security measures to safeguard private keys.
+##### Contract Import: 
+UUpon validation, users have the ability to import a contract and incorporate the collection into their user dashboard. Following a successful upload of the collection, all holders will obtain access to these NFTs via Skywallet, accompanied by their respective associated benefits. The metadata of each collection added to the studio is retrieved into Mintbase Studio for token mapping, enabling the linking or unlinking of utilities based on collection properties. Moreover, to prevent multiple studios from importing identical contracts, additional measures will be implemented to verify contract ownership.
+##### Support Mintbase Wallet (Post Launch): 
+Once the Mintbase Wallet is launched, Studio to support Mintbase login with Mintbase for broader visibility of the Mintbase wallet to the ecosystem. For a more holistic experience other than the signing of the transactions with Mintbase wallet, users shall be able to get the updates of transactions within the Skywallet when interacting with the Marketplace. 
 
 <img width="569" alt="Screenshot 2023-10-20 at 1 18 49 PM" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/916d1cec-f8f2-4f33-a1f3-3e8252eeec6f">
 
@@ -154,14 +157,13 @@ The First step to proceed with the integration is to have the Mintbase SDKs inte
 - **Costs:** 18,000 USD
 
 #### Create Collection Using Mintbase Minter and SDK as Default for Near
-This flow would enable users to create their own set of collections and NFTs with the
-support of all the metadata standards by leveraging Mintbase SDK 
+This flow would enable users to create their own set of collections and NFTs with the support of all the metadata standards by leveraging Mintbase SDK. Users can furthermore add more NFTs to the collection, change price and which all will be reflected on the mintbase marketplace as well. Studio owners have access to shareable mintbase marketplace link and skywallet claim link (in case of custodial user). Additionally to provide a seamless user experience, the team will be implementing queuing service to track the state of transactions, polling at frontend service, gas estimation for deployment, paying user gas fee functionality from the club wallet.
 
 #### Standalone Templates for a Variety of Use-Cases
-Provide the User with the ability to select the type and purpose of collections and set the remaining metadata fields and data as per the inputs provided. The standard templates identified so far for the first iteration of the development are Membership passes, Certificates, Ticketing, Art and collectibles, Fashion, Music, Virtual real estate, Food and drink, Gaming (virtual land, avatars, weapons, costumes ), Domain names
+Provide the User with the ability to select the type and purpose of collections and set the remaining metadata fields and data as per the inputs provided. The standard templates identified so far for the first iteration of the development are Membership passes, Certificates, Ticketing, Art and collectibles, Fashion, Music, Virtual real estate, Food and drink, Gaming (virtual land, avatars, weapons, costumes ), Domain names. Each template requires detailed design flow for development from setting collection information to NFTs metadata, which can be handled in a seamless fashion. Moreover studio owners can add NFTs to the collection to already launched collections which shall be visible on the Mintbase marketplace. collection creation process here for users to have a seamless asynchronous process once the data has been provided. 
 
 #### Support for Mintbase Secondary Marketplace in Skywallet
-Skywallet would enable any user to buy/sell/transfer the assets via integration of Mintbase Marketplace in the Skywallet enabling user to have a mobile-friendly seamless experience to facilitate the trading of the digital assets as well
+Skywallet would enable any user to buy/sell/transfer the assets via integration of Mintbase Marketplace in the Skywallet enabling users to have a mobile-friendly seamless experience to facilitate the trading of the digital assets as well. For each collection, a separate page shall be created in Skywallet, which the admins can manage from the Studio. Users can claim and list their NFTs in this marketplace which is closely tied with Mintbase marketplace. 
 <img width="591" alt="Screenshot 2023-10-20 at 1 27 09 PM" src="https://github.com/Naman-Metasky/MintStudio-Metasky/assets/129367947/d9ce3f46-eb2c-4270-b970-4144dbc989bc">
 
 ### Milestone 3: Utility and Bounties, FTE 2, Duration - 2 Weeks
