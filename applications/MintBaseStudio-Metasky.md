@@ -132,10 +132,13 @@ Additionally, Kushagra - an experienced anime artist with over 6 years of experi
 - **Total Costs:** 50,000 USD
 
 ### Milestone 1: Onboarding and Mintbase Indexer Support
+The First step to proceed with the integration is to have the Mintbase SDKs integrated with the studio and setup the backend. The scope also includes preparing the user-flow, sequence diagram, and overall architecture for the integration which would be important for all the further milestones as well.
 
 - **Estimated duration:** 2 Weeks
 - **FTE:**  3
 - **Costs:** 12000 USD
+
+
 
 #### Login with Near: Users can log into Metasky studio with the NEAR account connected to Mintbase.
 ##### Contract Import: Users can import a contract upon validation and add the collection to the user dashboard
