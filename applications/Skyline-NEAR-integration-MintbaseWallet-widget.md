@@ -161,6 +161,11 @@ At this point in time research was made by looking at [NEAR Docs](https://docs.n
 | 1. | Widget UX/UI design + development | We will design and create a widget to be used anywhere as a window into the Skyline ecosystem allowing customers to access our services directly from the Mintbase wallet. Services include: Onboarding, Login, 3rd party payments in fiat currencies |  
 | 2. | Integrate widget into Mintbase wallet | We will create a Mintbase module that will load our widget to access Skyline services directly |  
 
+Mockups:
+![skylinePaymentsFlowWithSmartContract (1)](https://github.com/Skyline-Digital-AG/Grants-Program/assets/575479/e9b7cbfa-63c9-441f-980a-1aecd2ea78e9)
+<img width="1281" alt="Screen Shot 2023-12-11 at 21 07 37" src="https://github.com/Skyline-Digital-AG/Grants-Program/assets/575479/bc84c71a-e216-49ee-865c-7c808ae2e4c0">
+
+
 ## Future Plans
 
 Please include here
