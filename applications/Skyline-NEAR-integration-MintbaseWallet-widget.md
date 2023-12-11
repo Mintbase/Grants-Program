@@ -7,7 +7,7 @@
 - **Project Name:** Skyline Digital
 - **Team Name:** Skyline Digital AG
 - **Payment Address:** skylinedigital.mintbase.near
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
+- **[Level](../README.md#level_slider-levels):** 3
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -83,8 +83,8 @@ We would offer both on/offramping and more importantly 3rd Party Payments allowi
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Baarerstrasse 82, 6300 Zug, Switzerland
+- **Registered Legal Entity:** Skyline Digital AG
 
 ### Team's experience
 
@@ -146,13 +146,13 @@ For each milestone,
 
 - **Total Estimated Duration:** 6 months
 - **Full-Time Equivalent (FTE):**  2 developers + 1 designer + 1 PM/QA
-- **Total Costs:** $90k
+- **Total Costs:** 50,000 USD
 
 ### Milestone 1 — Integrate with NEAR network
 
 - **Estimated duration:** 3 FTE - dev + designer + (PM/QA)
 - **FTE:**  2 Months
-- **Costs:** 8,000 USD
+- **Costs:** 20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -170,7 +170,7 @@ For each milestone,
 
 - **Estimated Duration:** 3 month
 - **FTE:**  3 FTE - frontend dev + designer + (PM/QA + Designer)
-- **Costs:** 45,000 USD
+- **Costs:** 30,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
