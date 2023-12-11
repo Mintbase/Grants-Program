@@ -13,22 +13,12 @@
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
-
-### Overview
-
-Please provide the following:
-
 - Skyline Digital offers non-custodial banking transactional services (on/offramp + 3rd Party payments)
 - We want to integrate the NEAR network into Skyline to allow transactions using your network
 - We also want to integrate our API directly into the Mintbase wallet allowing users to on/offramp and pay anyone directly from their wallet using fiat currencies
 - We want to easily help open access to traditional banking services to anyone on and off-chain via a non-custodial way
 
 ### Project Details
-
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
 - Mockups/designs of any UI components
 - API documentation - https://skyline-digitial.gitbook.io/skyline-digital-api 
@@ -46,21 +36,24 @@ We expect the teams to already have a solid idea about your project's expected f
 Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
-Our product will allow mintbase wallet holders to easily on/offramp and/or pay anyone anywhere in fiat currencies using their tokens.
+
+	- _Our product will allow mintbase wallet holders to easily on/offramp and/or pay anyone anywhere in fiat currencies using their tokens._
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-Our audiences tend to be Businesses and HNWI but we also have a retail side for individual users.
+
+	- _Our audiences tend to be Businesses and HNWI but we also have a retail side for individual users.
 Our main focuses are around DAOs, Foundations and Crypto companies but we also cater to regular retail crypto investors or users.
-Mainly we would like to open our products to Mintbase wallet holders.
+Mainly we would like to open our products to Mintbase wallet holders._
 
 - What need(s) does your project meet?
-Easy, quick and highly compliant on/offramping and 3rd party payments in any fiat currency worldwide (pay invoices, suppliers, contractors, taxes or anything else)
+	- _Easy, quick and highly compliant on/offramping and 3rd party payments in any fiat currency worldwide (pay invoices, suppliers, contractors, taxes or anything else)_
 
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
   - If so, how is your project different?
   - If not, are there similar projects in related ecosystems?
-Alchemy Pay and Trasak - but these are primarily onramping tools
-We would offer both on/offramping and more importantly 3rd Party Payments allowing users to pay anyone for anything without having to first offramp into their bank account and then make a payment.
+
+	- _Alchemy Pay and Trasak - but these are primarily onramping tools
+We would offer both on/offramping and more importantly 3rd Party Payments allowing users to pay anyone for anything without having to first offramp into their bank account and then make a payment._
 
 
 ## Team :busts_in_silhouette:
@@ -99,7 +92,9 @@ If anyone on your team has applied for a grant at the Mintbase previously, pleas
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
 - https://github.com/Fatxx
-- Pending other links
+- https://github.com/TelmoFerreira
+- https://github.com/Gongas99
+- Joao Martins - Engineer (missing)
 
 ### Team LinkedIn Profiles (if available)
 
@@ -110,37 +105,13 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - Joao Martins - Engineer (missing)
 - https://www.linkedin.com/in/gon%C3%A7alo-patroc%C3%ADnio-4a40661b4 
 - https://www.linkedin.com/in/bruno-martins-29728b60 
-- Telmo Ferreira - Engineer (missing)
+- https://www.linkedin.com/in/telmoferreira-dev/
 - https://www.linkedin.com/in/juan-cruz-mazzochi-18301a1a4 
 - https://www.linkedin.com/in/cintiatcosta 
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
-
 ## Development Roadmap :nut_and_bolt:
-
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
 ### Overview
 
@@ -181,3 +152,21 @@ For each milestone,
 | 0e. | Article | We will create a blog + social media posts announcing this feature |
 | 1. | Widget UX/UI design + development | We will design and create a widget to be used anywhere as a window into the Skyline ecosystem allowing customers to access our services directly from the Mintbase wallet. Services include: Onboarding, Login, 3rd party payments in fiat currencies |  
 | 2. | Integrate widget into Mintbase wallet | We will create a Mintbase module that will load our widget to access Skyline services directly |  
+
+## Future Plans
+
+Please include here
+
+- how you intend to use, enhance, promote and support your project in the short term, and
+We plan to promote this via our social networks, blog posts and overall marketing strategies.
+We will also send newsletters to our existing customer base and investors to show how we are helping the community with more access to TradeFi which is not easily accessible.
+
+- the team's long-term plans and intentions in relation to it.
+Our long term goals are to democratize access to all financial products for any crypto native, from accessing bank accounts and payments, to cards, loans and many other services that aren’t easy to access or even at all available to the general public.
+
+## Additional Information :heavy_plus_sign:
+
+**How did you hear about the Grants Program?** Personal recommendation.
+
+- Financially backed by Stake Capital, Funfair Ventures, Nemo ventures
+- We are partnering with Otonomos/OtoCo allowing their onchain entities to access TradeFi (FYI this could be a future deal for them to setup entities on the NEAR chain too)
