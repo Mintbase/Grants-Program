@@ -81,9 +81,13 @@ We would offer both on/offramping and more importantly 3rd Party Payments allowi
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+**Sebastião Queiroz e Mello, Co-Founder and CEO of Skyline Digital**, has graduated from Instituto Superior Técnico in Lisbon and has been connected to entrepreneurial projects ever since, with multiple startups founded, such as The Code Venture, a software house, and Lisbon Tech Guide, softlanding startup in Portugal. As a creator of new products and businesses, Sebastião has a mind for finance and management. His engineering brain brings all the components together to create killer products.
 
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
+**Matthieu Gueissaz, Co-Founder and COO of Skyline Digital**, has been working as a legal professional since 2013. As Ambassador of Business Angels Switzerland, Co-Founder of a real estate investment advisory platform and a Tokenized Venture Fund, Matthieu has gained a thorough understanding of the startup ecosystem and venture investing, along with the challenges and opportunities of Blockchain. He has also worked with Lenz & Staehelin, University of Lucerne, HvB Investments, Schellenberg Wittmer Ltd, Space Metaverse, Blockchain Valley Ventures, and LynxDAO as a consultant and advisor for blockchain technologies. More recently, he founded Blockchain Lawyers Forum and, of course, Skyline Digital.
+
+**Filippo Sotto Mayor, Chief Product Officer of Skyline Digital**, with over 8 years of experience in the FinTech industry. He has a proven track record of launching innovative and successful card and credit products that solve real customer problems and create value for the business. He has worked for Ebury, where he launched a new debit and credit card offering for the global trade finance provider, and also Tymit, where he led the development and launch of Europe's first ever installment-based credit card product, which won the PayTech 2022 Best Consumer Cards Initiative award.
+
+**André Fatia, Chief Technology Officer of Skyline Digital**, has been building software for several different industries since 2012, with experience with many web paradigms from low code to serverless computing. Recently, he has been focusing on building in the Web3 space as a previous consultant for Consensys in the MetaMask mobile project he's now responsible for the technology in Skyline Digital.
 
 ### Team Code Repos
 
