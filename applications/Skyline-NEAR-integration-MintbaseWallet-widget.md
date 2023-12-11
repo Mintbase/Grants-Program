@@ -111,6 +111,10 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
+At this point in time research was made by looking at [NEAR Docs](https://docs.near.org/), we intend to use:
+- NEAR JS API or/and RCP API for wallet and account connections with the network
+- Transactions and Non-Fungible Tokens interactions for handling payments
+
 ## Development Roadmap :nut_and_bolt:
 
 ### Overview
