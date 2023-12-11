@@ -158,11 +158,13 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 Please include here
 
 - how you intend to use, enhance, promote and support your project in the short term, and
-We plan to promote this via our social networks, blog posts and overall marketing strategies.
-We will also send newsletters to our existing customer base and investors to show how we are helping the community with more access to TradeFi which is not easily accessible.
+
+_We plan to promote this via our social networks, blog posts and overall marketing strategies.
+We will also send newsletters to our existing customer base and investors to show how we are helping the community with more access to TradeFi which is not easily accessible._
 
 - the team's long-term plans and intentions in relation to it.
-Our long term goals are to democratize access to all financial products for any crypto native, from accessing bank accounts and payments, to cards, loans and many other services that aren’t easy to access or even at all available to the general public.
+
+_Our long term goals are to democratize access to all financial products for any crypto native, from accessing bank accounts and payments, to cards, loans and many other services that aren’t easy to access or even at all available to the general public._
 
 ## Additional Information :heavy_plus_sign:
 
