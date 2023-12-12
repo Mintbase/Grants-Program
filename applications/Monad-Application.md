@@ -1,6 +1,6 @@
 # Mintbase Grant Proposal
 
-- **Project Name:** Monad Mintbase NFT  Gated Ticketing, Creator & Fan Tools
+- **Project Name:** Monad NFT Multi-Chanel Gated Ticketing, Minting and Marketplaces
 - **Team Name:** Monad.Social
 - **Payment Address:** monadsocial.near
 - **[Level](../README.md#level_slider-levels):** 2
@@ -10,9 +10,9 @@
 ### Overview
 
 - Monad.Social is a sophisticated subscription-based live performance streaming experience with web3 and other features for creators and users to enhance virtual experience.
-- Monad.Social allows for creators to manage and monetize their own fanbase and offers a number of benefits for those fanbases from a variety of functional NFTs to Live Streaming performance, sophisticated chat and feeds, badging, community recognition and much more. For more information, see deck: https://docs.google.com/presentation/d/1LgFlNbeyC9v7SMxqyp1zpqShieDY2Wk9A7NlELU-_Lg/edit?usp=sharing
-- We have implemented a basic NFT system for POAPs, as rewards, as a tipping benefit and we have more ideas for these as well as needing to scale, make creation easier, and a number of other improvements to the NFT system and its overall integration into our experience. A core part of our goal is to make these technologies have value for the average "fan", make it very easy to engage with and use, and drive greater creator/fan engagement and satisfaction (leading to continued subscription)
-- Monad already received and completed a $75k NEAR Grant to build out all the necessary infrastructure and to launch the World's First "dance to earn app" we call the Virtual Dance Floor. We use the gyro and accelerometer in mobile devices to translate dancing movements into pulsing avatars that earn Monad Tokens. Phase II of this roadmap is to integrate Mintbase in order to expand and improve the UX for both the Creators and Fans. We will implement the ability of Artist/Creators to directly upload their NFT art that will be used for sale of NFTs that purchased by fans as tips for music performance and POAPs. For more information, see Trello Board https://trello.com/invite/b/VJ1pxt4j/ATTI2d3bc270064cf3bdadde51cd55778fb6277FEF7C/near-grant-milestones
+- Monad.Social allows for creators to manage and monetize their own fanbase and offers a number of benefits for those fanbases from a variety of functional NFTs to Live Streaming performance, sophisticated chat and feeds, badging, community recognition and much more. For more information, see Monad deck: https://docs.google.com/presentation/d/1LgFlNbeyC9v7SMxqyp1zpqShieDY2Wk9A7NlELU-_Lg/edit?usp=sharing
+- As part of our prior NEAR Grant, we have implemented a basic NFT system for POAPs, as rewards, as a tipping benefit and we have more ideas for these as well as needing to scale, make creation easier, and a number of other improvements to the NFT system and its overall integration into our experience. A core part of our goal is to make these technologies have value for the average "fan", make it very easy to engage with and use, and drive greater creator/fan engagement and satisfaction (leading to continued subscription)
+- Monad already received and completed a $75k NEAR Grant to build out all the necessary infrastructure and to launch the World's First "dance to earn app" we call the Virtual Dance Floor. We use the gyro and accelerometer in mobile devices to translate dancing movements into pulsing avatars that earn Monad Tokens. Phase II of this roadmap is to integrate Mintbase in order to expand and improve the UX for both the Creators and Fans. We will implement the ability of Artist/Creators to directly upload their NFT art that will be used for sale of NFTs that purchased by fans as tips for music performance and POAPs. For more information on prior NEAR Grant, see Trello Board https://trello.com/invite/b/VJ1pxt4j/ATTI2d3bc270064cf3bdadde51cd55778fb6277FEF7C/near-grant-milestones
 - In addition we want all these NFTs to be searchable and discoverable by regular web search. We will also implement the ability for Fans earning Monad Tokens via the Virtual Dance Floor, and other user behaviours, to be able to spend these Monad Tokens to purchase NFTs and to tie all of this into a NFT Gated Ticketing solution that can be used both in Virtual Events andy by IRL Venues.
 - The goal here is to create an economic ecosystem here that drives customer acquisition and retention behaviour for the masses - not to create speculative assets.
 - In order to accomplish this, we need to make the UX, especially for Creators, as simple and intuitive as possible. In our discussions with Mintbase executives (Paul Kuveke and Nate Geieir), we believe in aggregate your solutions are the best option for us to achieve these goals.
@@ -34,11 +34,11 @@
 ### Ecosystem Fit
 
 - Where and how does your project fit into the ecosystem?
-  - We've discussed our goals with Nate and Paul and identified a plethora of both "now" integrations that can be used plus "coming soon" features that sync very well with our business goals.
+  - We had always planned after "Phase I" of our first NEAR Grant was to continue building out our Product Roadmap with NEAR and partners. After substantial research and discussions with the Mintbase team, we believe this is the best solution for us to carry on with our roadmap since we have built sunbstantial aspects of the underlying required architecture, it makes to continue building upon this foundation.
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-  - We have 2 target audiences - Creators and their Fans. We are working with one of the 3 Major Record labels amd other artists to help them migrate their 30 million YouTube subscribers to Monad.
+  - We have 2 target audiences - Music Creators and their Fans. Music Creators indcludes artist, record labels, festivals, and venues. We are working with one of the 3 Major Record labels amd other artists to help them migrate their 30 million YouTube subscribers to Monad.
 - What need(s) does your project meet?
-  - We need to create simple, elegant solutions to lower the barriers for Creators to supply art that can be monetized through tokenization and digital asset sales.  Then to in turn create entertaining Fan Experiences that will encourage usage and therefore be an excellent customer retention tool. 
+  - We need to create simple, elegant solutions to lower the barriers for Creators and Fans to supply art that can be monetized through tokenization and digital asset sales.  Then to in turn create entertaining Fan Experiences that will encourage usage and therefore be an excellent customer retention tool. We also see an opening in the market for a low cost NFT Gated Ticketing solution that will combine access to our Virtual Venues with IRL Venues.
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
   - Sweatcoin has done something similar of course with the "exercise to earn" aspect of what we're doing. We are unaware of other Web3 versions of Twitch for Music which is what we are building out.
 
@@ -46,7 +46,7 @@
 
 ### Team members
 
-- Brett Hawkins - CEO
+- Brett Hawkins - CEO Product Lead
 - Greg Johnson - Chief Digital Strategist
 - Jiandon Wei - CTO
 - Anvar Bagiyev - Lead Designer/UI/UX
@@ -64,9 +64,8 @@
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+Our Team has been building complex, consumer facing internet applications together for over a decade. In addition to having received the prior NEAR Grant of $75,000 and completed that buildout, we are also a Google Cloud for Startups partner. This team built an early e-sports live streaming platform called Global Gaming League that we took from a napkin to 10 Million MAUs. We are applying a lot from that experience to apply video game and Web3 technologies to the music industry and broader.
 
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
 
 ### Team Code Repos
 
@@ -114,7 +113,7 @@ Details of what will be delivered in each milestone is available at https://trel
 
 The next steps in our 2024 Roadmap after completion of these milestones will include:
 
-- Rest of the creation and infrastructure development for our AR Portals including tokenization and gamification via the Unity SDK for NEAR that will carry over from the current Virtual Dance Floor App that’s already been built on NEAR. This will include earn and burn mechanics, use of NFT based Avatars, minting, tracking and allocating FTs in AR App and related gamification features and built to be compatible with AR/VR Headsets (though not required).
+- Complete the creation, buildout and infrastructure development for our Tokenizaed AR Portal Virtual Venues (video demo here: https://vimeo.com/861100716/1c938a25fd?share=copy ) including gamification via building out / customizing the Unity SDK for NEAR that carries over from the current Virtual Dance Floor App that’s already been built on NEAR. This will include earn and burn mechanics, use of NFT based Avatars, minting, tracking and allocating FTs in AR App and related gamification features and built to be compatible with AR/VR Headsets (though not required).
   
 - When Twitter / X SDK available for Crypto Payments (we don’t see access yet), add this to our payment alternative of PayPal, Stripe and we’re working with other payment processors like Pix in Brazil.
   
