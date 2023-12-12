@@ -1,6 +1,6 @@
 # Mintbase Grant Proposal
 
-- **Project Name:** Monad NFT Multi-Chanel Gated Ticketing, Minting and Marketplaces
+- **Project Name:** Monad NFT Multi-Chanel Gated Ticketing, Creator Minting and Marketplaces
 - **Team Name:** Monad.Social
 - **Payment Address:** monadsocial.near
 - **[Level](../README.md#level_slider-levels):** 2
@@ -9,13 +9,17 @@
 
 ### Overview
 
-- Monad.Social is a sophisticated subscription-based live performance streaming experience with web3 and other features for creators and users to enhance virtual experience.
+- Monad.Social is a subscription-based, virtual live performance streaming experience and community powered by web3. 
 - Monad.Social allows for creators to manage and monetize their own fanbase and offers a number of benefits for those fanbases from a variety of functional NFTs to Live Streaming performance, sophisticated chat and feeds, badging, community recognition and much more. For more information, see Monad deck: https://docs.google.com/presentation/d/1LgFlNbeyC9v7SMxqyp1zpqShieDY2Wk9A7NlELU-_Lg/edit?usp=sharing
-- As part of our prior NEAR Grant, we have implemented a basic NFT system for POAPs, as rewards, as a tipping benefit and we have more ideas for these as well as needing to scale, make creation easier, and a number of other improvements to the NFT system and its overall integration into our experience. A core part of our goal is to make these technologies have value for the average "fan", make it very easy to engage with and use, and drive greater creator/fan engagement and satisfaction (leading to continued subscription)
+- As part of our prior NEAR Grant, we have implemented a basic NFT system for POAPs, tipping benefit and earning Monad FTs. Next steps are to scale, make creation easier, and a number of other improvements to the NFT system and its overall integration into our experience. A core part of our goal is to make these technologies have value for the average "fan", make it very easy to engage with and use, and drive greater creator/fan engagement and satisfaction (leading to continued subscription).
 - Monad already received and completed a $75k NEAR Grant to build out all the necessary infrastructure and to launch the World's First "dance to earn app" we call the Virtual Dance Floor. We use the gyro and accelerometer in mobile devices to translate dancing movements into pulsing avatars that earn Monad Tokens. Phase II of this roadmap is to integrate Mintbase in order to expand and improve the UX for both the Creators and Fans. We will implement the ability of Artist/Creators to directly upload their NFT art that will be used for sale of NFTs that purchased by fans as tips for music performance and POAPs. For more information on prior NEAR Grant, see Trello Board https://trello.com/invite/b/VJ1pxt4j/ATTI2d3bc270064cf3bdadde51cd55778fb6277FEF7C/near-grant-milestones
 - In addition we want all these NFTs to be searchable and discoverable by regular web search. We will also implement the ability for Fans earning Monad Tokens via the Virtual Dance Floor, and other user behaviours, to be able to spend these Monad Tokens to purchase NFTs and to tie all of this into a NFT Gated Ticketing solution that can be used both in Virtual Events andy by IRL Venues.
 - The goal here is to create an economic ecosystem here that drives customer acquisition and retention behaviour for the masses - not to create speculative assets.
 - In order to accomplish this, we need to make the UX, especially for Creators, as simple and intuitive as possible. In our discussions with Mintbase executives (Paul Kuveke and Nate Geieir), we believe in aggregate your solutions are the best option for us to achieve these goals.
+- These products and developments will allow us to complete the last step in this phase which is NFT Gated Ticking. Ticketing A Huge Problem in the music industry ecosystem in particular is the loss of control by the Artists/Creators once a ticket is Initially Sold. Many bots purchase tickets to be marked up tremendously then resold on StubHub, etc. Not only do “real fans” often miss the opportunity to purchase these tickets, which upsets all artists, but of course none this money for this ‘ticket scalping’ goes to the artist / creators / event producers. This is on top of the exorbitant fees charged by these ticketing services the vast majority of which is in the 30% to 50%+ range.  Not only will we solve these problems, by using our Ticketing Platform as another extension of Tokenization, Gamification this will be another important element in customer acquisition and retention for Monad that will increase total revenues but not at the expense of artists, creators and our ticketing customers.
+- Completing this buildout will provide the foundation for the next phase of comleting our AR Virtual Venues Portals built on Unity with tokenizing and implementing these featues via the NEAR/Unity SDK (more below and in Trello).
+
+Adding Royalty Payments will further level the playing field for Ticket Sellers and will further drive transaction volume since these Sellers will even promote the opportunity to buy these secondary tickets via Monad/MB/NEAR Marketplace.
 
 ### Project Details
 
