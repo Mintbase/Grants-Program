@@ -70,7 +70,7 @@ Development status (image)
 ![alt text](https://github.com/chatafisha/Chatafisha/blob/main/images/CH2.png)
 
 #### Mainnet Launch
-We have our first dapp version launched on [Near mainnet](https://explorer.mainnet.near.org/transactions/2oQqZbehBc3qu8wLMnhWQPtPWDCiPMdGYQWkh1FT54b2), our dapp is still early in adoption, and is prone to improve to make it production ready and incorporate structure that make it ecosystem whole as outlined in the roadmap
+We have our first dapp version launched on [Near mainnet](https://explorer.mainnet.near.org/transactions/2oQqZbehBc3qu8wLMnhWQPtPWDCiPMdGYQWkh1FT54b2), our dapp is still early in adoption, and is prone to improve to make it production ready and incorporate differrent structural components that make it ecosystem whole as outlined in the roadmap
 
 
 ### Development Roadmap:
