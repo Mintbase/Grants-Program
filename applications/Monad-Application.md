@@ -69,7 +69,7 @@ Adding Royalty Payments will further level the playing field for Ticket Sellers 
 
 ### Team's experience
 
-Our Team has been building complex, consumer facing internet applications together for over a decade. In addition to having received the prior NEAR Grant of $75,000 and completed that buildout, we are also a Google Cloud for Startups partner. This team built an early e-sports live streaming platform called Global Gaming League that we took from a napkin to 10 Million MAUs. We are applying a lot from that experience to apply video game and Web3 technologies to the music industry and broader.
+In addition to the current Monad business and technology stack, our Team has been building complex, consumer facing internet applications together for over a decade (an individual careers all 20+ in tech). In addition to having received the prior NEAR Grant of $75,000 and completed that buildout, we are also a Google Cloud for Startups partner. This team built an early e-sports live streaming platform called Global Gaming League that we took from a napkin to 10 Million MAUs. We are applying a lot from that experience to apply video game and Web3 technologies to the music industry and broader.
 
 
 ### Team Code Repos
@@ -94,9 +94,9 @@ Our Team has been building complex, consumer facing internet applications togeth
 - **Full-Time Equivalent (FTE):**  3 FTE (Lead Engineer + Front End Engineer + UI/UX/Design + Strategy/Marketing, 7 people)
 - **Total Costs:** $45,000
 
-### Milestone 1  — NFT Frontend and Minting Interaction
+### Milestone 1  -  NFT Creation & Distribution Processes for Circles (channels)  & Legacy NFT Integration 
 
-- **Estimated duration:** 1.5 month
+- **Estimated duration:** 1 month
 - **FTE:**  3
 - **Costs:** 15,000 USD
 
@@ -108,7 +108,7 @@ Our Team has been building complex, consumer facing internet applications togeth
 
 ### Milestone 3  — Build Storefront and Legacy NFT Integration
 
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 1.5 months
 - **FTE:**  3
 - **Costs:** 15,000 USD
 
