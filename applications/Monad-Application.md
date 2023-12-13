@@ -96,19 +96,19 @@ Trello Board for Project
 - **Full-Time Equivalent (FTE):**  3 FTE (Lead Engineer + Front End Engineer + UI/UX/Design + Strategy/Marketing, 7 people)
 - **Total Costs:** $45,000
 
-### Milestone 1  -  NFT Creation & Distribution Processes for Circles (channels)  & Legacy NFT Integration (Trello: https://trello.com/c/j8usIwpQ)
+### Milestone 1  -  NFT Creation & Distribution Processes for Circles (channels)  & Legacy NFT Integration (Trello First Card MS1: https://trello.com/c/j8usIwpQ)
 
 - **Estimated duration:** 1 month
 - **FTE:**  3
 - **Costs:** 15,000 USD
 
-### Milestone 2  —  NFT System Processes for User Profiles (Creators & Fans) & Marketplaces (Trello: https://trello.com/c/Exn1g1Xu)
+### Milestone 2  —  NFT System Processes for User Profiles (Creators & Fans) & Marketplaces (Trello First Card MS2: https://trello.com/c/Exn1g1Xu)
 
 - **Estimated Duration:** 1 month
 - **FTE:**  3
 - **Costs:** 15,000 USD
 
-### Milestone 3  —  NFT Gated Ticketing System & Processes (Trello: https://trello.com/c/8bB46SKw)
+### Milestone 3  —  NFT Gated Ticketing System & Processes (Trello First Card MS3: https://trello.com/c/8bB46SKw)
 
 - **Estimated Duration:** 1.5 months
 - **FTE:**  3
