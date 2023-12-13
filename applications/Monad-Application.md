@@ -22,8 +22,10 @@
 Adding Royalty Payments will further level the playing field for Ticket Sellers and will further drive transaction volume since these Sellers will even promote the opportunity to buy these secondary tickets via Monad/MB/NEAR Marketplace.
 
 ### Project Details
-- We have a complete, fully functioning MVP with customers and generating revenue now ($200+k with $14 Monthly ARPU). The UI/UX for users both on the front-end side and for Creators to upload art is already completed and live. We can provide access to any Mintbase/NEAR people since the content is behind a paywall.
+- PoC/MVP or other relevant prior work or research on the topic: We have a complete, fully functioning MVP with customers and generating revenue now ($200+k with $14 Monthly ARPU). The UI/UX for users both on the front-end side and for Creators to upload art is already completed and live. We can provide access to any Mintbase/NEAR people since the content is behind a paywall.
 - https://monad.social/
+
+- Documentation of core components, protocols, architecture, etc. to be deployed -  See Trello Boards (https://trello.com/b/rYDEt1eP/mintbase-grant-milestones)
   
 - Mockups/designs of any UI components
   - Fan UX, Purchase of NFTs as tips, POAPs - https://monad.social/circle/djsneak/
@@ -35,6 +37,8 @@ Adding Royalty Payments will further level the playing field for Ticket Sellers 
   - Smart Contracts: Rust, NEAR SDK, Mintbase API
   - Front End: React, HTML, CSS, JavaScript
   - Back End: We are Google Cloud for Startups Partner so all infrastructure on GCP with a WordPress MySQL DB.
+ 
+- Data models / API specifications of the core functionality: See Trello Boards (https://trello.com/b/rYDEt1eP/mintbase-grant-milestones)
 
 ### Ecosystem Fit
 
