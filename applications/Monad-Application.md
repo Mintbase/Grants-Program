@@ -39,7 +39,7 @@ Adding Royalty Payments will further level the playing field for Ticket Sellers 
 ### Ecosystem Fit
 
 - Where and how does your project fit into the ecosystem?
-  - We had always planned after "Phase I" of our first NEAR Grant was to continue building out our Product Roadmap with NEAR and partners. After substantial research and discussions with the Mintbase team, we believe this is the best solution for us to carry on with our roadmap since we have built sunbstantial aspects of the underlying required architecture, it makes to continue building upon this foundation.
+  - We had always planned after "Phase I" of our first NEAR Grant was to continue building out our Product Roadmap with NEAR and partners. After significant research and discussions with the Mintbase team, we believe this is the best solution for us to carry on with our roadmap since we have built substantial aspects of the underlying required architecture, it makes to continue building upon this foundation.
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
   - We have 2 target audiences - Music Creators and their Fans. Music Creators indcludes artist, record labels, festivals, and venues. We are working with one of the 3 Major Record labels amd other artists to help them migrate their 30 million YouTube subscribers to Monad.
 - What need(s) does your project meet?
