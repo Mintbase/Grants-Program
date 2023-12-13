@@ -89,30 +89,31 @@ In addition to the current Monad business and technology stack, our Team has bee
 ## Development Roadmap :nut_and_bolt:
 
 ### Overview
+Trello Board for Project
+(https://trello.com/b/rYDEt1eP/mintbase-grant-milestones)
 
 - **Total Estimated Duration:** 3.5 Months
 - **Full-Time Equivalent (FTE):**  3 FTE (Lead Engineer + Front End Engineer + UI/UX/Design + Strategy/Marketing, 7 people)
 - **Total Costs:** $45,000
 
-### Milestone 1  -  NFT Creation & Distribution Processes for Circles (channels)  & Legacy NFT Integration 
+### Milestone 1  -  NFT Creation & Distribution Processes for Circles (channels)  & Legacy NFT Integration (Trello: https://trello.com/c/j8usIwpQ)
 
 - **Estimated duration:** 1 month
 - **FTE:**  3
 - **Costs:** 15,000 USD
 
-### Milestone 2  — Build Fan NFT Front End and Minting Interaction
+### Milestone 2  —  NFT System Processes for User Profiles (Creators & Fans) & Marketplaces (Trello: https://trello.com/c/Exn1g1Xu)
 
 - **Estimated Duration:** 1 month
 - **FTE:**  3
 - **Costs:** 15,000 USD
 
-### Milestone 3  — Build Storefront and Legacy NFT Integration
+### Milestone 3  —  NFT Gated Ticketing System & Processes (Trello: https://trello.com/c/8bB46SKw)
 
 - **Estimated Duration:** 1.5 months
 - **FTE:**  3
 - **Costs:** 15,000 USD
 
-Details of what will be delivered in each milestone is available at https://trello.com/invite/b/rYDEt1eP/ATTI5e27b825ab7be33b11cf362652ebd14b9031C994/mintbase-grant-milestones
 
 ## Future Plans
 
