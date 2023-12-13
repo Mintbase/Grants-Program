@@ -9,10 +9,10 @@
 
 ### Overview
 
-- Monad.Social is a subscription-based, virtual live performance streaming experience and community powered by web3. 
+- Monad.Social is a subscription-based, virtual live performance streaming experience and community powered by web3 (Web3 version of Twitch for Music). 
 - Monad.Social allows for creators to manage and monetize their own fanbase and offers a number of benefits for those fanbases from a variety of functional NFTs to Live Streaming performance, sophisticated chat and feeds, badging, community recognition and much more. For more information, see Monad deck: https://docs.google.com/presentation/d/1LgFlNbeyC9v7SMxqyp1zpqShieDY2Wk9A7NlELU-_Lg/edit?usp=sharing
 - As part of our prior NEAR Grant, we have implemented a basic NFT system for POAPs, tipping benefit and earning Monad FTs. Next steps are to scale, make creation easier, and a number of other improvements to the NFT system and its overall integration into our experience. A core part of our goal is to make these technologies have value for the average "fan", make it very easy to engage with and use, and drive greater creator/fan engagement and satisfaction (leading to continued subscription).
-- Monad already received and completed a $75k NEAR Grant to build out all the necessary infrastructure and to launch the World's First "dance to earn app" we call the Virtual Dance Floor. We use the gyro and accelerometer in mobile devices to translate dancing movements into pulsing avatars that earn Monad Tokens. Phase II of this roadmap is to integrate Mintbase in order to expand and improve the UX for both the Creators and Fans. We will implement the ability of Artist/Creators to directly upload their NFT art that will be used for sale of NFTs that purchased by fans as tips for music performance and POAPs. For more information on prior NEAR Grant, see Trello Board https://trello.com/invite/b/VJ1pxt4j/ATTI2d3bc270064cf3bdadde51cd55778fb6277FEF7C/near-grant-milestones
+- Monad's prior $75k NEAR Grant was to build out all the necessary infrastructure and to launch the World's First "dance to earn app" we call the Virtual Dance Floor. We use the gyro and accelerometer in mobile devices to translate dancing movements into pulsing avatars that earn Monad Tokens. Phase II of this roadmap is to integrate Mintbase in order to expand and improve the UX for both the Creators and Fans. We will implement the ability of Artist/Creators to directly upload their NFT art that will be used for sale of NFTs that purchased by fans as tips for music performance and POAPs. For more information on prior NEAR Grant, see Trello Board https://trello.com/invite/b/VJ1pxt4j/ATTI2d3bc270064cf3bdadde51cd55778fb6277FEF7C/near-grant-milestones
 - In addition we want all these NFTs to be searchable and discoverable by regular web search. We will also implement the ability for Fans earning Monad Tokens via the Virtual Dance Floor, and other user behaviours, to be able to spend these Monad Tokens to purchase NFTs and to tie all of this into a NFT Gated Ticketing solution that can be used both in Virtual Events andy by IRL Venues.
 - The goal here is to create an economic ecosystem here that drives customer acquisition and retention behaviour for the masses - not to create speculative assets.
 - In order to accomplish this, we need to make the UX, especially for Creators, as simple and intuitive as possible. In our discussions with Mintbase executives (Paul Kuveke and Nate Geieir), we believe in aggregate your solutions are the best option for us to achieve these goals.
@@ -22,9 +22,10 @@
 Adding Royalty Payments will further level the playing field for Ticket Sellers and will further drive transaction volume since these Sellers will even promote the opportunity to buy these secondary tickets via Monad/MB/NEAR Marketplace.
 
 ### Project Details
-
+- We have a complete, fully functioning MVP with customers and generating revenue now ($200+k with $14 Monthly ARPU). The UI/UX for users both on the front-end side and for Creators to upload art is already completed and live. We can provide access to any Mintbase/NEAR people since the content is behind a paywall.
+- https://monad.social/
+  
 - Mockups/designs of any UI components
-  - We have a complete, fully functioning MVP with customers and generating revenue now. The UI/UX for users both on the front-end side and for Creators to upload art is already completed and live. We can provide access to any Mintbase people since the content is behind a paywall.
   - Fan UX, Purchase of NFTs as tips, POAPs - https://monad.social/circle/djsneak/
   - POAP Upload UI: https://monad.social/wp-content/uploads/2023/12/MonadSocial-Create-PoAP-NFT.png
   - NFTs for tipping: https://monad.social/wp-content/uploads/2023/12/MonadSocial-Create-Tipping-NFT.png
