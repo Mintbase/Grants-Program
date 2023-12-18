@@ -53,9 +53,11 @@ We are using a usual NextJs/React stack to build our app with a Near backend sma
 - **Documentation of core components, protocols, architecture, etc. to be deployed**
 More details about our mission, history, and product are available in our white paper: https://medium.com/partage_xyz/partage-white-paper-v2-c0cbea46e2f8 
 
-A slide deck for Partage’s general presentation contains a roadmap and the UX architecture. It is available here: https://docs.google.com/presentation/d/1-TpH2HP_HUyWBBmEq4RhhOUuiOw2xbeve7yN7WEi1S8/edit#slide=id.p 
+A slide deck for Partage’s general presentation is available here: https://docs.google.com/presentation/d/1-TpH2HP_HUyWBBmEq4RhhOUuiOw2xbeve7yN7WEi1S8/edit#slide=id.p 
 
-A technical slide deck is used by our dev team to reach our deadline (Jan 24th, the pitch day of the Encode x Near Horizon accelerator). It is available here: https://www.masterlock.com/products/bluetooth-electronic-locks?personal 
+It features the following architecture sketch: ![Partage architecture](https://drive.google.com/file/d/1bIO9_ZkhjMWE9Aby5lHIQlbVja6F30Vc/view?usp=sharing)
+
+A technical slide deck is used by our dev team to reach our deadlines (Jan 24th, pitch to Encode Club x Near Horizon accelerator). It is available here: [dev pres jan.24](https://docs.google.com/presentation/d/1bfBZw7jXl_bvPlXOd2CdYmqmeSxj4JcRtHBPe2AC1OA/edit?usp=sharing) 
  
 - **PoC and research on the topic:**
 The relevance of developing a network of blockchain-controlled smart locks for adding a layer of shared utilities to urban infrastructure has been described in a medium article, rooted in academic research of Blockchain for Smart Cities (our CEO’s background studies). In short, the research states that the essence of cities has always been to share utilities between a gathering of inhabitants, and urban areas could be the context for mass adoption if citizens had a purpose to use it. Blockchain would help democratize access to a common resource or a shared utility within the daily functioning of an average city, that would be available through the most commonly used device, a smartphone.
@@ -77,7 +79,7 @@ Partage Lock seamlessly integrates into the NEAR ecosystem by aligning with Mint
 
 Elected as a finalist in the IRL hackathon at Nearcon 23 in Lisbon, Partage has garnered exceptional support from mentors, executives, and the NEAR community. Our pitch is available here: https://www.youtube.com/live/Iw8_04Kk1aw?si=U2PoHlaDgrp5Nfaq&t=16350 
 
-Since we started to work with the Near ecosystem we are feeling very well supported by the Near ecosystem of companies and people. As another proof of appreciation of Partage, we have been selected to join both accelerators programs: the Encode Club x Near https://www.encode.club/near-accelerator from Dec.23 to Jan.24, and the Near Horizon HZN2 starting in Jan.24 https://www.hzn.xyz/hzn/. These selection results ha encouraged our confidence in the platform's strength and potential for long-term impact within the NEAR ecosystem.
+Since we started to work with the Near ecosystem we are feeling very well supported by the Near ecosystem of companies and people. As another proof of appreciation of Partage, we have been selected to join both accelerator programs: the Encode Club x Near https://www.encode.club/near-accelerator from Dec.23 to Jan.24, and the Near Horizon HZN2 starting on Jan.24 https://www.hzn.xyz/hzn/. These selection results have encouraged our confidence in the platform's strength and potential for long-term impact within the NEAR ecosystem.
 
 - **Who is your target audience?**
 We are targeting both crypto holders looking for IRL experiences and a means to spend their crypto in their daily lives, and non-crypto owners or utility providers willing to share access to their belongings while starting to collect revenues in cryptocurrencies. 
