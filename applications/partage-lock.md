@@ -293,7 +293,8 @@ Integrate our locks-in starters for shared cars, scooters, or other electronic i
 At the Encode Club workshop, followed by a 1-1 call with Luis.
 
 - **Work you have already done.**
-Aside from the coding of MVPs, research, and all listed above, we just started a partnership with Master Lock. They gave us 8 devices free of charge (worth 1200 USD) to start building with. 
+Aside from the coding of MVPs, research, and all listed above, we just started a partnership with Master Lock. They gave us 8 devices free of charge (worth 1200 USD) to start building with.
+![Master Lock devices we start working with](https://pbs.twimg.com/media/GBn9TCgWsAA4BIq?format=jpg&name=medium)
 
 - **If any other teams have already contributed (financially) to the project.**
 Julien has been self-supporting the project from the beginning. We have never been financially supported yet. Julien and Daniel each received a 1000 USD grant from Near Dev Hub to cover their travels to Nearcon 23 last month.
