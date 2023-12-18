@@ -3,7 +3,7 @@
 - **Project Name:** Partage Lock
 - **Team Name:** Partage
 - **Payment Address:** partage-lock.near
-- **[Level](../README.md#level_slider-levels):** 1 (open to 2)
+- **Level:** 1 (open to 2)
 
 ## Project Overview :page_facing_up:
 
