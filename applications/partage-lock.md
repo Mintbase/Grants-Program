@@ -196,10 +196,10 @@ MILESTONE description:
 - include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community. 
 - provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
 - commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as a number of full-time employees working on each milestone.
+- indicate milestone duration as well as several full-time employees working on each milestone.
 - **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research-oriented and as such there is no code to test).
 
-### Overview
+### Grant Overview:
 - **Total Estimated Duration:** 
   - Level 1: 1 month, Near integration into Master Lock devices delivered at the end of January 2024.
   - Level 2: 3 months, The sharing network for locked items delivered at the end of March 2024.
