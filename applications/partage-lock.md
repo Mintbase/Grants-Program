@@ -201,19 +201,19 @@ MILESTONE description:
 
 ### Overview
 - **Total Estimated Duration:** 
-- Level 1: 1 month, Near integration into Master Lock devices delivered at the end of January 2024.
-- Level 2: 3 months, The sharing network for locked items delivered at the end of March 2024.
+  - Level 1: 1 month, Near integration into Master Lock devices delivered at the end of January 2024.
+  - Level 2: 3 months, The sharing network for locked items delivered at the end of March 2024.
 
 - **Full-Time Equivalent (FTE):**  3 FTE
 
 - **Total Costs:** 
-- Level 1: 10k
-- Level 2: 50k
+  - Level 1: 10k
+  - Level 2: 50k
 
 - **Milestones plan:**
-Milestone 1: January 2024
-Milestone 2: February 2024
-Milestone 3: March 2024
+  - Milestone 1: January 2024
+  - Milestone 2: February 2024
+  - Milestone 3: March 2024
 
 ### Milestone 1 — Implement Mintbase Modules into Master Lock devices
 - **Estimated duration:** 1 month
