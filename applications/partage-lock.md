@@ -17,14 +17,14 @@ Keyless Solutions For Seamless Sharing
 Partage allows property owners to make money by sharing their properties. It uses advanced smart locks that co-owners or temporary users can open easily with their smartphones, using NFC or Bluetooth signals. This system simplifies access control and monetization of shared properties.
 
 - **How does Partage integrate into the Mintbase / NEAR ecosystem?**
-Powered by the Mintbase templates, the Partage app utilizes Mintbase smart contracts to mint the access token and make market-available smart locks compatible with Near tokens. Our mission aligns with Mintbase's vision, answering the call for an application that facilitates the unlocking of gated content and exclusive unlockables on the NEAR ecosystem.
+Partage seamlessly integrates into the Mintbase/NEAR ecosystem by leveraging Mintbase smart contracts, crafted using their template, to mint access tokens. These tokens enable market-ready smart locks to be compatible with NEAR tokens. Our approach is in harmony with Mintbase’s vision, providing a practical application that enables the unlocking of exclusive content and gated access within the NEAR ecosystem, thereby enriching its functionality and user experience.
 
 - **Why is our team interested in creating this project?**
-Partage aims to contribute towards a better future by championing the sharing economy and optimizing resource allocation and functionality. Partage Lock achieves this by facilitating the monetization of idle assets through shared uses and encourages a shift towards responsible ownership to limit overproduction and overconsumption. 
+Our team at Partage is driven by the goal of fostering a sustainable future through the promotion of the sharing economy. We focus on optimizing resource allocation and enhancing functionality. Partage Lock embodies this vision by enabling the efficient monetization of underutilized assets via shared usage. This initiative not only facilitates economic benefits but also advocates for responsible ownership and usage, aiming to reduce overproduction and overconsumption in our society.
 
-Our choice to build Partage on the NEAR Protocol reflects our commitment to sustainability and reliability. Partage’s vision for the web3 sharing economy actively supports social and sustainable goals by fostering a connected community centered around collaborative ownership economies. In alignment with Mintbase's vision, the platform is spearheading an innovative application on the Near blockchain, contributing to pushing utility NFTs to their next level by making unlockables and gated content easy for Near users. 
+Our integration of Bluetooth technologies into Partage Lock ensures robust digital security, leveraging these widely used, reliable standards in modern smartphones. 
 
-The use of NFC and Bluetooth technologies ensures heightened digital security for all since all standard smartphones on the market already use them. 
+Choosing the NEAR Protocol for building Partage underscores our dedication to sustainability and reliability. This aligns with our vision for a web3 sharing economy that not only supports sustainable and social goals but also fosters a community centered around collaborative ownership. In sync with Mintbase's objectives, Partage pioneers an innovative application on the NEAR blockchain. We aim to advance the utility of NFTs by simplifying the use of unlockables and gated content, thus enhancing the experience for NEAR users and contributing to the evolution of blockchain technology in everyday applications.
 
 ### Project Details
 
@@ -58,17 +58,17 @@ More details about our mission, history, and product are available in our white 
   - A technical slide deck is used by our dev team to reach our deadlines (Jan 24th, pitch to Encode Club x Near Horizon accelerator). It is available here: [dev pres Jan. 24](https://docs.google.com/presentation/d/1bfBZw7jXl_bvPlXOd2CdYmqmeSxj4JcRtHBPe2AC1OA/edit?usp=sharing) 
  
 - **PoC and research on the topic:**
-The relevance of developing a network of blockchain-controlled smart locks for adding a layer of shared utilities to urban infrastructure has been described in a medium article, rooted in academic research on Blockchain for Smart Cities (our CEO’s background studies). In short, the research states that the essence of cities has always been to share utilities between a gathering of inhabitants, and urban areas could be the context for mass adoption if citizens had a purpose to use it. Blockchain would help democratize access to a common resource or a shared utility within the daily functioning of an average city, that would be available through the most commonly used device, a smartphone.
-The whole article is available here: https://medium.com/partage_xyz/democratizing-access-to-utilities-blockchain-for-smart-cities-25eefb0348e7. 
+Our project's relevance is underpinned by extensive research into blockchain applications for smart cities, a subject thoroughly explored in our Medium article. This research, drawing from our CEO's academic background, highlights the potential of blockchain-controlled smart locks in urban environments. The key premise is that cities, as hubs for shared utilities, can greatly benefit from blockchain technology to democratize access to common resources, making them easily available via smartphones.
+The full article, detailing how blockchain can transform smart city utilities, is accessible here: https://medium.com/partage_xyz/democratizing-access-to-utilities-blockchain-for-smart-cities-25eefb0348e7. 
 
-Another medium article presents a strategy for Partage Lock deployment rooted in another academic field called “citizen science”. It covers examples of successful citizen-led deployments of connected devices in our cities and provides ideas for building partnerships with smart cities and universities to successfully deploy our app at scale. It is available here: https://medium.com/partage_xyz/democratizing-access-to-utilities-citizen-engagement-strategy-in-blockchain-for-smart-cities-352a8096dd22. 
+Furthermore, another Medium article delves into a strategy for deploying Partage Lock, inspired by the principles of "citizen science". It discusses successful citizen-driven implementations of connected devices and suggests strategies for partnering with smart cities and universities for widespread app deployment. This article is available here: https://medium.com/partage_xyz/democratizing-access-to-utilities-citizen-engagement-strategy-in-blockchain-for-smart-cities-352a8096dd22. 
 
 Our best proof-of-concept so far is coming from the clear interest from established industry leaders proposing that we engage in a mutual NDA that gives us access to their open API and reserved developer tools so we could integrate our solution into their devices. 
 
 - **What Partage Lock will and will not provide:**
-Partage Lock will provide access control of physical gates. We believe that there’s a great potential for giving access to real-world items through the blockchain while the tech ecosystem is looking for practical use cases and a business model built on tangible products to onboard new adopters. 
+Partage Lock is designed to provide robust access control for physical assets, tapping into the vast potential of utilizing blockchain technology for real-world applications. As the tech ecosystem explores practical use cases and seeks business models grounded in tangible products, Partage Lock aims to be a frontrunner in onboarding new adopters into the blockchain space.
 
-So far, Partage will not handle digital gated content. We do have big ideas for future developments in that space, which aligns with the Partage mission. Suppose we could use Partage to share revenues from a successful YouTube video generating millions of views with all the early supporters. Or to offer passive income to all team members having participated in a successful piece of art or video game. These ideas were reviewed last year and tested through lean experiments with niche customer targets, and we couldn’t find an easy go-to-market validation. A 5-min video presentation of our market research is available here: https://youtu.be/cWC9rXksXiI?si=m4413wCddohpt1KT 
+Currently, Partage does not support the management of digital gated content. However, we have ambitious plans for future expansions in this area, which resonate with our broader mission. Imagine using Partage to distribute revenues from a viral YouTube video among its early supporters, or offering passive income to contributors of a successful artwork or video game. These concepts were explored and subjected to lean experiments targeting niche markets last year. Despite the challenges in finding a straightforward market entry strategy, we remain committed to these ideas. To gain more insights into our market research and findings, you can view our 5-minute video presentation here: https://youtu.be/cWC9rXksXiI?si=m4413wCddohpt1KT 
 
 
 ### Ecosystem Fit
@@ -95,16 +95,16 @@ Alignment with Mintbase's vision for blockchain applications
 Sustainability practices
 
 - **Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?**
-We have reported similar projects on other blockchains, but not in the Near ecosystem as we know. This is somehow encouraging because we can benefit from the experience of other builders, without being directly in competition with them, while we’ll bring Near users a new use case of proven validity.
+We have reported similar projects on other blockchains, but not in the Near ecosystem as we know. This is encouraging because we can benefit from the experience of other builders, without being directly in competition with them, while we’ll bring Near users a new use case of proven validity.
 
   - **If so, how is your project different?**
 One interesting difference is that the Partage team is globally distributed. Our team members are spread across Europe, America, and Africa. This enhances the project's adaptability and innovation in the competitive landscape. Having different background experiences in tech adoption brings diverse perspectives and expertise from around the world to shape the platform's initiative, as well as a great potential for deployment. Since our team is spread worldwide, we can distribute our Partage Locks to businesses in each team member's area easily and quickly. 
 
   - **If not, are there similar projects in related ecosystems?**
-- Myloby integrates master lock devices to the Thesos blockchain.
+- [Myloby](https://myloby.com/) integrates master lock devices to the Thesos blockchain.
 - Blockchain-controlled smart locks are a topic of interest for academic research in computer science (see various thesis and papers on the topic), 
 - DIY/FabLab/Makerspaces like the use case to build a smart lock on an Arduino board and connect it to a blockchain (see multiple tutorials available).
-- No one of our knowledge except Slock It tried to deploy this solution in 2016 for society at scale. They were granted 12M ETH of investments but have been hacked and stolen their funds (ethereum early days).
+- No one of our knowledge except [Slock It](https://www.crunchbase.com/organization/slock-it) tried to deploy this solution in 2016 for society at scale. They were granted 12M ETH of investments but have been hacked and stolen their funds (ethereum early days).
 
 ## Team :busts_in_silhouette:
 
@@ -137,7 +137,7 @@ Daniel Makarov (Lead Dev) is a computer scientist specializing in Artificial Int
 
 Sophie Kirsch (Marketing) has worked alongside Julien since February 2023, supporting his vision in Brand Design, Content Creation, and Creative Strategy. Sophie has participated in some experimental marketing tactics and strategies, and aided in potential partner liaisons and relationship building. She has also worked alongside Julien during application submissions, overseeing the copy. 
 
-James Sanderson (BizDevOps) works in fintech on business development, and procurement (mainly SaaS deals). He graduated from London Business School’s Masters in Finance, specializing in entrepreneurship and venture capital. He co-founded the school's inaugural Blockchain Society amongst working on other tech-for-good related initiatives and continues to build a coffee-centric startup backed by blockchain infrastructure.
+James Sanderson (BizDevOps) works in fintech on business development, and procurement (mainly SaaS deals). He graduated from London Business School’s Masters in Finance, specializing in entrepreneurship and venture capital. He co-founded the school's inaugural Blockchain Society while working on other tech-for-good-related initiatives and continues to build a coffee-centric startup backed by blockchain infrastructure.
 
 Lilibel Obiadika (Community Management and Social Media) joined the Partage team as a contractor to assist with Digital Marketing, Social Media, and Community Management, notably contributing to Technical Writing. 
 
@@ -186,18 +186,6 @@ See above.
 ## Development Roadmap :nut_and_bolt:
 
 ![Partage roadmap (General presentation)](https://pbs.twimg.com/media/GBompXtWYAATgg-?format=jpg&name=medium)
-
-MILESTONE description: 
-- describe _the functionality in as much detail as possible_, 
-- how we can verify and test that functionality. 
-- how your project is related to Mintbase. 
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community. 
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as several full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research-oriented and as such there is no code to test).
 
 ### Grant Overview:
 - **Total Estimated Duration:** 
@@ -248,7 +236,7 @@ MILESTONE description:
 | 3. | Mintbase module: Mintbase wallet | We will integrate the Mintbase wallet into our marketplace, providing a seamless experience for users to pay, store, and view their tokens directly through the Mintbase wallet interface. |
 | 4. | NEAR chain integration | Master Lock devices will leverage the user’s smartphone Bluetooth to authenticate the presence of a valid access token in their Mintbase wallet. Locks will open only when a valid token is detected, ensuring secure and efficient access management. |
 
-**What we completed:** In Milestone 1, completed in one month with a $10,000 budget and a team of three FTE, we successfully integrated Mintbase (NEAR) modules with Master Lock devices. This integration involved developing a Partage Lock Smart Contract for minting temporary access tokens as NFTs, with specific start and end dates, and incorporating the Mintbase wallet into our marketplace. The Master Locks now use Bluetooth technology to authenticate valid access tokens from users' Mintbase wallets, ensuring secure and efficient lock management.
+**What we completed:** In Milestone 1, completed in one month with a $10,000 budget and a team of three FTE, we successfully integrated Mintbase (NEAR) modules with Master Lock devices. This integration involved developing a Partage Lock Smart Contract for minting temporary access tokens as NFTs, with specific start and end dates and incorporating the Mintbase wallet into our marketplace. The Master Locks now use Bluetooth technology to authenticate valid access tokens from users' Mintbase wallets, ensuring secure and efficient lock management.
 
 
 ### Milestone 2 — Building the lock owner dashboard
@@ -290,8 +278,6 @@ MILESTONE description:
 |  |  | Completing the full development of our application, conducting extensive internal tests, and initiating pilot testing with our initial customer base to ensure comprehensive functionality and reliability.
 |  |  | Setting up for a series of onboarding events and conferences where to present our app. 
 | 1. | Mintbase modules | We are improving the module implementation listed in Milestone 1 & 2 |
-
-
 
 ## Future Plans
 - **How you intend to use, enhance, promote, and support your project in the short term**
