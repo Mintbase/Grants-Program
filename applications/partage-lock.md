@@ -5,8 +5,6 @@
 - **Payment Address:** partage-lock.near
 - **[Level](../README.md#level_slider-levels):** 1 (open to 2)
 
-> ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
-
 ## Project Overview :page_facing_up:
 
 ### Overview
