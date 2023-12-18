@@ -226,15 +226,14 @@ MILESTONE description:
 | 0b. | Documentation | Marketplace User’s Guide: Interactive Video Guide (Duration: 5-10 minutes): Demonstrates unlocking the lock using the mobile app, highlighting NFC/Bluetooth unlocking, adding temporary users, and access management. |
 |  |  | Marketplace User’s Guide: Extensive Step-by-Step Written Guide (Approx. 15-25 pages): Detailed instructions on app usage for unlocking and managing the smart lock, with app interface screenshots, security tips, crypto transaction info, and temporary access setup guidelines. |
 |  |  | Marketplace User’s Guide: Using Mintbase Wallet for Unlocking (Duration: 3-5 minutes in video, 5-8 pages in written guide): A specific section or segment showing how to open a lock using the Mintbase wallet. It should include a tutorial on linking the Mintbase wallet to the user's account, initiating transactions, and the process of unlocking the lock through the wallet app, with emphasis on security and ease of use.|
-| 0c. | Testing Guide | 
-Master Lock Testing: Lock Installation & App Connection: Upon purchasing a master lock, verify the installation process and ensure a seamless connection to the Partage app.
-Bluetooth and Connectivity Test: Confirm the lock's Bluetooth functionality and overall connectivity performance.
-Live Demo Option
-Full Code Demonstration: Request a live demo call with us to observe a comprehensive test of the app, including installation, app integration, and Bluetooth connectivity.
-Mintbase Wallet Integration
-Wallet Linking & Unlock Test: Connect your Mintbase wallet to the Partage app and perform a test to unlock the lock, ensuring smooth integration and functionality.
-Additional Testing Option
-You can also clone our Github repository to test the app locally on your system, and alternatively, you can deploy the smart contract on the NEAR blockchain and run security tests.|
+| 0c. | Testing Guide | Master Lock Testing: Lock Installation & App Connection: Upon purchasing a master lock, verify the installation process and ensure a seamless connection to the Partage app.|
+|  |  | Bluetooth and Connectivity Test: Confirm the lock's Bluetooth functionality and overall connectivity performance.|
+|  |  | Live Demo Option |
+|  |  | Full Code Demonstration: Request a live demo call with us to observe a comprehensive test of the app, including installation, app integration, and Bluetooth connectivity. |
+|  |  | Mintbase Wallet Integration |
+|  |  | Wallet Linking & Unlock Test: Connect your Mintbase wallet to the Partage app and perform a test to unlock the lock, ensuring smooth integration and functionality. |
+|  |  | Additional Testing Option |
+|  |  | You can also clone our Github repository to test the app locally on your system, and alternatively, you can deploy the smart contract on the NEAR blockchain and run security tests.|
 | 0d. | Docker | A Dockerfile is a script of instructions used to create a Docker image. It automates the process of image creation by compiling commands typically executed manually on the command line. However, this technology does not apply to our current app development.|
 | 0e. | Article | As described above, we will provide a written article for our users so they can easily use our product.|
 | 0f. | Budget breakdown | 60% dev, 10% marketing, 30% bizdev. 
