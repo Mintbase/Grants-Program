@@ -228,8 +228,7 @@ Interactive Video Guide (Duration: 5-10 minutes): Demonstrates unlocking the loc
 Extensive Step-by-Step Written Guide (Approx. 15-25 pages): Detailed instructions on app usage for unlocking and managing the smart lock, with app interface screenshots, security tips, crypto transaction info, and temporary access setup guidelines.
 Using Mintbase Wallet for Unlocking (Duration: 3-5 minutes in video, 5-8 pages in written guide): A specific section or segment showing how to open a lock using the Mintbase wallet. It should include a tutorial on linking the Mintbase wallet to the user's account, initiating transactions, and the process of unlocking the lock through the wallet app, with emphasis on security and ease of use.|
 | 0c. | Testing Guide | 
-Master Lock Testing
-Lock Installation & App Connection: Upon purchasing a master lock, verify the installation process and ensure a seamless connection to the Partage app.
+Master Lock Testing: Lock Installation & App Connection: Upon purchasing a master lock, verify the installation process and ensure a seamless connection to the Partage app.
 Bluetooth and Connectivity Test: Confirm the lock's Bluetooth functionality and overall connectivity performance.
 Live Demo Option
 Full Code Demonstration: Request a live demo call with us to observe a comprehensive test of the app, including installation, app integration, and Bluetooth connectivity.
@@ -294,17 +293,18 @@ You can also clone our Github repository to test the app locally on your system,
 ## Future Plans
 - **How you intend to use, enhance, promote, and support your project in the short term**
 We have many marketing-based options available for short-term support. Some examples are: 
-Paid Digital Advertising on platforms like Meta, Instagram, or Google Ads to reach a broader audience. 
-Social Media Campaigns to create awareness, engage potential users, and build a community around Partage Lock. Leverage visuals, user testimonials, and educational content to showcase the platform's features and benefits. 
-Collaborations with Influencer and/or Brand Partnerships in the sharing economy, technology, or blockchain space. Their endorsement can lend credibility to Partage Lock and help reach a wider audience. 
-We would continue to create high-quality content, including LinkedIn blog posts, articles, and infographics, to highlight the value proposition of Partage Lock. 
-Community Engagement Events can be advantageous to actively engage with the community, address questions, and showcase the platform's functionality. This can strengthen user relationships and generate positive word-of-mouth - and can be considered for PR Campaigns. 
+    - Paid Digital Advertising on platforms like Meta, Instagram, or Google Ads to reach a broader audience. 
+    - Social Media Campaigns to create awareness, engage potential users, and build a community around Partage Lock. Leverage visuals, user testimonials, and educational content to showcase the platform's features and benefits. 
+    - Collaborations with Influencer and/or Brand Partnerships in the sharing economy, technology, or blockchain space. Their endorsement can lend credibility to Partage Lock and help reach a wider audience. 
+    - We would continue to create high-quality content, including LinkedIn blog posts, articles, and infographics, to highlight the value proposition of Partage Lock. 
+    - Community Engagement Events can be advantageous to actively engage with the community, address questions, and showcase the platform's functionality. This can strengthen user relationships and generate positive word-of-mouth - and can be considered for PR Campaigns. 
 
 - **The team's long-term plans and intentions about it.**
-Grow adopters within the Near ecosystem and the Master Lock customers. 
-Deploy networks of lockers on public infrastructures through smart city partnerships and universities.
-Diversify our solutions to other kinds of shared items and gated content (digital, like described above in the “what partage lock will not provide” section)
-Integrate our locks-in starters for shared cars, scooters, or other electronic items available after payment. 
+    - Grow adopters within the Near ecosystem and the Master Lock customers. 
+    - Deploy networks of lockers on public infrastructures through smart city partnerships and universities.
+    - Diversify our solutions to other kinds of shared items and gated content (digital, like described above in the “what partage lock will not provide” section)
+    - Integrate our locks-in starters for shared cars, scooters, or other electronic items available after payment.
+    - Attend conferences (web3FC in Barcelona in April, Bitcoin 2024 in Nashville in July, …) to present Partage and onboard customers.
 
 ## Additional Information :heavy_plus_sign:
 **How did you hear about the Grants Program?**
