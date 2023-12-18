@@ -55,9 +55,9 @@ More details about our mission, history, and product are available in our white 
 
 A slide deck for Partage’s general presentation is available here: https://docs.google.com/presentation/d/1-TpH2HP_HUyWBBmEq4RhhOUuiOw2xbeve7yN7WEi1S8/edit#slide=id.p 
 
-It features the following architecture sketch: ![Partage architecture](https://drive.google.com/file/d/1bIO9_ZkhjMWE9Aby5lHIQlbVja6F30Vc/view?usp=sharing)
+It features the following architecture sketch: ![Partage architecture](https://pbs.twimg.com/media/GBomJUFXkAA0qx4?format=jpg&name=4096x4096)
 
-A technical slide deck is used by our dev team to reach our deadlines (Jan 24th, pitch to Encode Club x Near Horizon accelerator). It is available here: [dev pres jan.24](https://docs.google.com/presentation/d/1bfBZw7jXl_bvPlXOd2CdYmqmeSxj4JcRtHBPe2AC1OA/edit?usp=sharing) 
+A technical slide deck is used by our dev team to reach our deadlines (Jan 24th, pitch to Encode Club x Near Horizon accelerator). It is available here: [dev pres Jan. 24](https://docs.google.com/presentation/d/1bfBZw7jXl_bvPlXOd2CdYmqmeSxj4JcRtHBPe2AC1OA/edit?usp=sharing) 
  
 - **PoC and research on the topic:**
 The relevance of developing a network of blockchain-controlled smart locks for adding a layer of shared utilities to urban infrastructure has been described in a medium article, rooted in academic research of Blockchain for Smart Cities (our CEO’s background studies). In short, the research states that the essence of cities has always been to share utilities between a gathering of inhabitants, and urban areas could be the context for mass adoption if citizens had a purpose to use it. Blockchain would help democratize access to a common resource or a shared utility within the daily functioning of an average city, that would be available through the most commonly used device, a smartphone.
