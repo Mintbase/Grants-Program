@@ -243,9 +243,11 @@ MILESTONE description:
 |  |  | **Salary for 3 Developers ($4,000):** Covering the cost of three developers who will work on the smart contract integration, application development, and system testing. |
 |  |  | **Marketing Strategy Preparation ($1000):** Developing a comprehensive marketing plan to promote the new crypto-integrated smart lock system. This includes identifying target markets, creating promotional materials, and planning digital marketing campaigns. |
 |  |  | **Travel Expenses for Partnerships ($3000):** Allocate $3,000 for travel expenses to facilitate in-person meetings for signing partnerships and negotiating device purchases.".|
-| 1. | Mintbase module: Minter | We will use the Mintbase Minter template to create the Partage Lock smart contrat that will mint temporary access tokens and send them to users’ wallet after payment. |  
-| 2. | Mintbase module: Access Token NFTs | The access token NFTs minted from our smart contract will include a start date and an end date in their metadata, to allow holders to open the lock during this time frame but not giving them access outside of it. |  
-| 3. | NEAR chain integration | Master Lock devices will use the Bluetooth in the user’s smart phone to verify that they are holding a valid token in their Mintbase wallet, and opening at this condition. |  
+| 1. | Mintbase module: Minter Integration | Utilize Mintbase's Minter template to develop the Partage Lock Smart Contract. This contract will mint temporary access tokens, issuing them to users' wallets upon payment completion, facilitating controlled access to locks. |  
+| 2. | Mintbase module: Access Token NFTs | Access tokens, minted as NFTs, will contain specific metadata including a start and end date. This metadata ensures lock access is granted only within the defined timeframe, enhancing security and usage flexibility. |  
+| 3. | Mintbase module: Mintbase wallet | We will integrate the Mintbase wallet into our marketplace, providing a seamless experience for users to pay, store, and view their tokens directly through the Mintbase wallet interface. |
+| 4. | NEAR chain integration | Master Lock devices will leverage the user’s smartphone Bluetooth to authenticate the presence of a valid access token in their Mintbase wallet. Locks will open only when a valid token is detected, ensuring secure and efficient access management. |
+
  
 
 
