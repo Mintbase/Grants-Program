@@ -201,8 +201,8 @@ MILESTONE description:
 
 ### Grant Overview:
 - **Total Estimated Duration:** 
-  - Level 1: 1 month, Near integration into Master Lock devices delivered at the end of January 2024.
-  - Level 2: 3 months, The sharing network for locked items delivered at the end of March 2024.
+  - Level 1: 1 month, Near integration (Mintbase modules) into Master Lock devices, delivered at the end of January 2024.
+  - Level 2: 3 months, A sharing network for locked items, delivered at the end of March 2024.
 
 - **Full-Time Equivalent (FTE):**  3 FTE
 
@@ -215,23 +215,41 @@ MILESTONE description:
   - Milestone 2: February 2024
   - Milestone 3: March 2024
 
-### Milestone 1 — Implement Mintbase Modules into Master Lock devices
+### Milestone 1 — Near integration (Mintbase modules) into Master Lock devices
 - **Estimated duration:** 1 month
 - **FTE:**  3
 - **Costs:** 10,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicensed |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 0f. | Budget breakdown | 60% dev, 10% marketing, 30% bizdev. Marketing strategy preparation, Signing partnerships and negotiating testing devices free of charge.
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0a. | License | Unlicensed |
+| 0b. | Documentation | Marketplace User’s Guide:
+Interactive Video Guide (Duration: 5-10 minutes): Demonstrates unlocking the lock using the mobile app, highlighting NFC/Bluetooth unlocking, adding temporary users, and access management.
+Extensive Step-by-Step Written Guide (Approx. 15-25 pages): Detailed instructions on app usage for unlocking and managing the smart lock, with app interface screenshots, security tips, crypto transaction info, and temporary access setup guidelines.
+Using Mintbase Wallet for Unlocking (Duration: 3-5 minutes in video, 5-8 pages in written guide): A specific section or segment showing how to open a lock using the Mintbase wallet. It should include a tutorial on linking the Mintbase wallet to the user's account, initiating transactions, and the process of unlocking the lock through the wallet app, with emphasis on security and ease of use.|
+| 0c. | Testing Guide | 
+Master Lock Testing
+Lock Installation & App Connection: Upon purchasing a master lock, verify the installation process and ensure a seamless connection to the Partage app.
+Bluetooth and Connectivity Test: Confirm the lock's Bluetooth functionality and overall connectivity performance.
+Live Demo Option
+Full Code Demonstration: Request a live demo call with us to observe a comprehensive test of the app, including installation, app integration, and Bluetooth connectivity.
+Mintbase Wallet Integration
+Wallet Linking & Unlock Test: Connect your Mintbase wallet to the Partage app and perform a test to unlock the lock, ensuring smooth integration and functionality.
+Additional Testing Option
+You can also clone our Github repository to test the app locally on your system, and alternatively, you can deploy the smart contract on the NEAR blockchain and run security tests.|
+| 0d. | Docker | A Dockerfile is a script of instructions used to create a Docker image. It automates the process of image creation by compiling commands typically executed manually on the command line. However, this technology does not apply to our current app development.|
+| 0e. | Article | As described above, we will provide a written article for our users so they can easily use our product.|
+| 0f. | Budget breakdown | 60% dev, 10% marketing, 30% bizdev. 
+**Smart Contract Pre-Loading ($500):** Allocating funds to pre-load the smart contract onto the system for customers.
+**Smart Contract Testing and Deployment ($300):** Covers the cost of rigorous testing of the smart contract to ensure security and functionality, and the deployment on the blockchain.
+**Smart Locks Purchase ($1,200):** Acquiring smart locks to integrate with the blockchain technology and for testing the system.
+**Salary for 3 Developers ($4,000):** Covering the cost of three developers who will work on the smart contract integration, application development, and system testing.
+**Marketing Strategy Preparation ($1000):** Developing a comprehensive marketing plan to promote the new crypto-integrated smart lock system. This includes identifying target markets, creating promotional materials, and planning digital marketing campaigns.
+**Travel Expenses for Partnerships ($3000):** Allocate $3,000 for travel expenses to facilitate in-person meetings for signing partnerships and negotiating device purchases.".|
+| 1. | Mintbase module: Minter | We will use the Mintbase Minter template to create the Partage Lock smart contrat that will mint temporary access tokens and send them to users’ wallet after payment. |  
+| 2. | Mintbase module: Access Token NFTs | The access token NFTs minted from our smart contract will include a start date and an end date in their metadata, to allow holders to open the lock during this time frame but not giving them access outside of it. |  
+| 3. | NEAR chain integration | Master Lock devices will use the Bluetooth in the user’s smart phone to verify that they are holding a valid token in their Mintbase wallet, and opening at this condition. |  
+ 
 
 
 ### Milestone 2 — Embed Mintbase Modules into the Partage app marketplace
