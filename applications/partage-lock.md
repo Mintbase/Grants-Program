@@ -187,7 +187,7 @@ See above.
 
 ## Development Roadmap :nut_and_bolt:
 
-![Partage roadmap (General presentation)](https://drive.google.com/file/d/1F7l4D_tqCzIDCjkEdzKq5rd1e8UkJ0iH/view?usp=drive_link)
+![Partage roadmap (General presentation)](https://pbs.twimg.com/media/GBompXtWYAATgg-?format=jpg&name=medium)
 
 MILESTONE description: 
 - describe _the functionality in as much detail as possible_, 
