@@ -287,8 +287,8 @@ MILESTONE description:
 | 0d. | Docker | Same as Milestone 1 |
 | 0e. | Article | As said above, we will complete, and improve Milestone 1 & 2 documents |
 | 0f. | Budget breakdown | 20k: 60% dev, 30% marketing, 10% bizdev. 
-Completing the full development of our application, conducting extensive internal tests, and initiating pilot testing with our initial customer base to ensure comprehensive functionality and reliability.
-Setting up for a series of onboarding events and conferences where to present our app. 
+|  |  | Completing the full development of our application, conducting extensive internal tests, and initiating pilot testing with our initial customer base to ensure comprehensive functionality and reliability.
+|  |  | Setting up for a series of onboarding events and conferences where to present our app. 
 | 1. | Mintbase modules | We are improving the module implementation listed in Milestone 1 & 2 |
 
 
