@@ -251,7 +251,7 @@ MILESTONE description:
  
 
 
-### Milestone 2 — Embed Mintbase Modules into the Partage app marketplace
+### Milestone 2 — Building the lock owner dashboard
 - **Estimated duration:** 1 month
 - **FTE:**  4
 - **Costs:** 20,000 USD
