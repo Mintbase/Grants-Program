@@ -29,18 +29,16 @@ The use of NFC and Bluetooth technologies ensures heightened digital security fo
 ### Project Details
 
 - **Mockups/designs of any UI components**
-A full design of our marketplace is available here: 
+  - A full design of our marketplace is available here: 
 https://www.figma.com/file/D4u5WSOO1Tq2D7BNy7i6zv/Partage-NFT-Marketplace?type=design&node-id=1647%3A17907&mode=design&t=Zl0EjoPvRDlmdFIw-1 
-Implemented in a demo version here:
+  - Implemented in a demo version here:
 https://hellopartage.xyz 
 
 The above marketplace MVP was built 9 months ago and we are now working on integrating the latest Partage Lock MVP to deliver temporary access keys to a network of smart locks. 
 
-A demo version of the first Partage Lock app is available here:
-https://lock.hellopartage.xyz 
-We will integrate Mintbase template smart contracts to mint access tokens:
-https://shorturl.at/qANW3 
-An example of a temporary access token (an NFT including start date and end date in its metadata) has been minted using Mintbase and is available on partage-lock.testnet wallet: https://www.mintbase.xyz/meta/moments.mintbase1.near:5e2027fd30e5f0dfb26dd3b3e005eeed 
+  - A demo version of the first Partage Lock app is available here: https://lock.hellopartage.xyz 
+  - We will integrate Mintbase template smart contracts to mint access tokens: https://shorturl.at/qANW3 
+  - An example of a temporary access token (an NFT including start date and end date in its metadata) has been minted using Mintbase and is available on partage-lock.testnet wallet: https://www.mintbase.xyz/meta/moments.mintbase1.near:5e2027fd30e5f0dfb26dd3b3e005eeed 
 
 - **Data models / API specifications of the core functionality**
 We bring the Partage Lock to its next level of functionality and potential for market deployment through a signed partnership with Master Lock. Master is one of the world's most renowned lock brands, and they released a series of popular devices equipped with Bluetooth technology https://www.masterlock.com/products/bluetooth-electronic-locks?personal. All models from this series (padlocks of various sizes, pin pads, and door controller) are working with the same background technology, which we are integrating as a partner using their SDK and APIs. 
@@ -53,14 +51,14 @@ We are using a usual NextJs/React stack to build our app with a Near backend sma
 - **Documentation of core components, protocols, architecture, etc. to be deployed**
 More details about our mission, history, and product are available in our white paper: https://medium.com/partage_xyz/partage-white-paper-v2-c0cbea46e2f8 
 
-A slide deck for Partage’s general presentation is available here: https://docs.google.com/presentation/d/1-TpH2HP_HUyWBBmEq4RhhOUuiOw2xbeve7yN7WEi1S8/edit#slide=id.p 
+  - A slide deck for Partage’s general presentation is available here: https://docs.google.com/presentation/d/1-TpH2HP_HUyWBBmEq4RhhOUuiOw2xbeve7yN7WEi1S8/edit#slide=id.p 
 
-It features the following architecture sketch: ![Partage architecture](https://pbs.twimg.com/media/GBomJUFXkAA0qx4?format=jpg&name=4096x4096)
+  - It features the following architecture sketch:![Partage architecture](https://pbs.twimg.com/media/GBomJUFXkAA0qx4?format=jpg&name=4096x4096)
 
-A technical slide deck is used by our dev team to reach our deadlines (Jan 24th, pitch to Encode Club x Near Horizon accelerator). It is available here: [dev pres Jan. 24](https://docs.google.com/presentation/d/1bfBZw7jXl_bvPlXOd2CdYmqmeSxj4JcRtHBPe2AC1OA/edit?usp=sharing) 
+  - A technical slide deck is used by our dev team to reach our deadlines (Jan 24th, pitch to Encode Club x Near Horizon accelerator). It is available here: [dev pres Jan. 24](https://docs.google.com/presentation/d/1bfBZw7jXl_bvPlXOd2CdYmqmeSxj4JcRtHBPe2AC1OA/edit?usp=sharing) 
  
 - **PoC and research on the topic:**
-The relevance of developing a network of blockchain-controlled smart locks for adding a layer of shared utilities to urban infrastructure has been described in a medium article, rooted in academic research of Blockchain for Smart Cities (our CEO’s background studies). In short, the research states that the essence of cities has always been to share utilities between a gathering of inhabitants, and urban areas could be the context for mass adoption if citizens had a purpose to use it. Blockchain would help democratize access to a common resource or a shared utility within the daily functioning of an average city, that would be available through the most commonly used device, a smartphone.
+The relevance of developing a network of blockchain-controlled smart locks for adding a layer of shared utilities to urban infrastructure has been described in a medium article, rooted in academic research on Blockchain for Smart Cities (our CEO’s background studies). In short, the research states that the essence of cities has always been to share utilities between a gathering of inhabitants, and urban areas could be the context for mass adoption if citizens had a purpose to use it. Blockchain would help democratize access to a common resource or a shared utility within the daily functioning of an average city, that would be available through the most commonly used device, a smartphone.
 The whole article is available here: https://medium.com/partage_xyz/democratizing-access-to-utilities-blockchain-for-smart-cities-25eefb0348e7. 
 
 Another medium article presents a strategy for Partage Lock deployment rooted in another academic field called “citizen science”. It covers examples of successful citizen-led deployments of connected devices in our cities and provides ideas for building partnerships with smart cities and universities to successfully deploy our app at scale. It is available here: https://medium.com/partage_xyz/democratizing-access-to-utilities-citizen-engagement-strategy-in-blockchain-for-smart-cities-352a8096dd22. 
