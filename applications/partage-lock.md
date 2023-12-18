@@ -224,8 +224,8 @@ MILESTONE description:
 | -----: | ----------- | ------------- |
 | 0a. | License | Unlicensed |
 | 0b. | Documentation | Marketplace User’s Guide: Interactive Video Guide (Duration: 5-10 minutes): Demonstrates unlocking the lock using the mobile app, highlighting NFC/Bluetooth unlocking, adding temporary users, and access management. |
-| 0b. | Documentation | Marketplace User’s Guide: Extensive Step-by-Step Written Guide (Approx. 15-25 pages): Detailed instructions on app usage for unlocking and managing the smart lock, with app interface screenshots, security tips, crypto transaction info, and temporary access setup guidelines. |
-| 0b. | Documentation | Marketplace User’s Guide: Using Mintbase Wallet for Unlocking (Duration: 3-5 minutes in video, 5-8 pages in written guide): A specific section or segment showing how to open a lock using the Mintbase wallet. It should include a tutorial on linking the Mintbase wallet to the user's account, initiating transactions, and the process of unlocking the lock through the wallet app, with emphasis on security and ease of use.|
+|  |  | Marketplace User’s Guide: Extensive Step-by-Step Written Guide (Approx. 15-25 pages): Detailed instructions on app usage for unlocking and managing the smart lock, with app interface screenshots, security tips, crypto transaction info, and temporary access setup guidelines. |
+|  |  | Marketplace User’s Guide: Using Mintbase Wallet for Unlocking (Duration: 3-5 minutes in video, 5-8 pages in written guide): A specific section or segment showing how to open a lock using the Mintbase wallet. It should include a tutorial on linking the Mintbase wallet to the user's account, initiating transactions, and the process of unlocking the lock through the wallet app, with emphasis on security and ease of use.|
 | 0c. | Testing Guide | 
 Master Lock Testing: Lock Installation & App Connection: Upon purchasing a master lock, verify the installation process and ensure a seamless connection to the Partage app.
 Bluetooth and Connectivity Test: Confirm the lock's Bluetooth functionality and overall connectivity performance.
