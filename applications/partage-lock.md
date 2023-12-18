@@ -248,7 +248,7 @@ MILESTONE description:
 | 3. | Mintbase module: Mintbase wallet | We will integrate the Mintbase wallet into our marketplace, providing a seamless experience for users to pay, store, and view their tokens directly through the Mintbase wallet interface. |
 | 4. | NEAR chain integration | Master Lock devices will leverage the user’s smartphone Bluetooth to authenticate the presence of a valid access token in their Mintbase wallet. Locks will open only when a valid token is detected, ensuring secure and efficient access management. |
 
- 
+**What we completed:** In Milestone 1, completed in one month with a $10,000 budget and a team of three FTE, we successfully integrated Mintbase (NEAR) modules with Master Lock devices. This integration involved developing a Partage Lock Smart Contract for minting temporary access tokens as NFTs, with specific start and end dates, and incorporating the Mintbase wallet into our marketplace. The Master Locks now use Bluetooth technology to authenticate valid access tokens from users' Mintbase wallets, ensuring secure and efficient lock management.
 
 
 ### Milestone 2 — Building the lock owner dashboard
@@ -258,35 +258,40 @@ MILESTONE description:
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicensed |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 0f. | Budget breakdown | 50k: 60% dev, 30% marketing, 10% bizdev. Marketing strategy implementation, start customer support.
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0a. | License | Unlicensed |
+| 0b. | Documentation | Lock Owner’s Comprehensive Guide: |
+|  |  | In-Depth Video Tutorial (Duration: 10-15 minutes): A step-by-step visual guide covering the entire process of setting up the smart lock. This includes unboxing, physical installation, connecting the lock to the Wi-Fi network, and registering the lock with the Partage marketplace. |
+|  |  | Detailed Written Instructions (Approx. 10-20 pages): A written manual that complements the video tutorial. It should include clear, annotated images for each step, troubleshooting tips, FAQs, and contact information for customer support. |
+| 0c. | Testing Guide | Same testing protocol as Milestone 1 |
+| 0d. | Docker | Same logic as Milestone 1 |
+| 0e. | Article | As described above, we will provide a written article for this milestone 2 |
+| 0f. | Budget breakdown | 20k: 60% dev, 20% marketing, 20% bizdev. |
+|  |  | Development (60% - $12,000): Dashboard Development: Create a user-friendly dashboard for lock owners. Features include real-time lock status updates, and cryptocurrency payment reception (NEAR tokens or other chosen tokens such as Bitcoin and Ethereum). |
+|  |  | Marketing (20% - $4000): Implement comprehensive marketing campaigns, including digital and traditional channels, to promote our product. |
+|  |  | Business Development (20% - $4000) - Launch of Customer Support - Establish a dedicated customer support team to assist users, enhancing user experience and feedback collection. |
+| 1. | Mintbase module: Payment Processing | We will utilize Mintbase's smart contract templates to develop a customized contract. This contract will facilitate automatic payouts of a nominal fee to our company, Partage, and also manage payments to lock owners. This streamlined approach ensures efficient and transparent financial transactions. |  
+| 2. | NEAR chain integration | We will implement and deploy sophisticated smart contracts on the NEAR Blockchain to efficiently handle and streamline payment transactions, ensuring a secure and automated financial management system. |  
 
+**What we completed:** In Milestone 2, our team efficiently developed a comprehensive lock owner dashboard, offering advanced functionalities like real-time status monitoring of locks and an integrated system for receiving cryptocurrency payments in NEAR tokens, Bitcoin, Ethereum, and other tokens. We also implemented a novel payment processing module using Mintbase's smart contract templates, allowing automatic fee collection for Partage and streamlined payment disbursements to lock owners. This development was complemented by robust NEAR Blockchain integration, ensuring secure and automated financial transactions. Our dedicated team of four completed this complex project within a month, adhering to the planned budget of $20,000.
 
-### Milestone 3 — Fully integrate the Partage app marketplace with Near elements
+### Milestone 3 — Finalizing the app for scaling up customer onboarding. 
 - **Estimated duration:** 1 month
 - **FTE:**  4
 - **Costs:** 20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicensed |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 0f. | Budget breakdown | 50k: 60% dev, 30% marketing, 10% bizdev. Marketing strategy implementation, start customer support.
-| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
-| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
-| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) | 
+| 0a. | License | Unlicensed |
+| 0b. | Documentation | Completing Milestone 1 & 2 documentations |
+| 0c. | Testing Guide | Same protocol as Milestone 1 & 2 |
+| 0d. | Docker | Same as Milestone 1 |
+| 0e. | Article | As said above, we will complete, and improve Milestone 1 & 2 documents |
+| 0f. | Budget breakdown | 20k: 60% dev, 30% marketing, 10% bizdev. 
+Completing the full development of our application, conducting extensive internal tests, and initiating pilot testing with our initial customer base to ensure comprehensive functionality and reliability.
+Setting up for a series of onboarding events and conferences where to present our app. 
+| 1. | Mintbase modules | We are improving the module implementation listed in Milestone 1 & 2 |
+
+
 
 ## Future Plans
 - **How you intend to use, enhance, promote, and support your project in the short term**
