@@ -288,8 +288,6 @@ MILESTONE description:
 | 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
 | 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) | 
 
-**We’d be happy to give you more details about our budget allocation in a call.**
-
 ## Future Plans
 - **How you intend to use, enhance, promote, and support your project in the short term**
 We have many marketing-based options available for short-term support. Some examples are: 
