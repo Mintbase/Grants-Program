@@ -236,13 +236,13 @@ MILESTONE description:
 |  |  | You can also clone our Github repository to test the app locally on your system, and alternatively, you can deploy the smart contract on the NEAR blockchain and run security tests.|
 | 0d. | Docker | A Dockerfile is a script of instructions used to create a Docker image. It automates the process of image creation by compiling commands typically executed manually on the command line. However, this technology does not apply to our current app development.|
 | 0e. | Article | As described above, we will provide a written article for our users so they can easily use our product.|
-| 0f. | Budget breakdown | 60% dev, 10% marketing, 30% bizdev. 
-**Smart Contract Pre-Loading ($500):** Allocating funds to pre-load the smart contract onto the system for customers.
-**Smart Contract Testing and Deployment ($300):** Covers the cost of rigorous testing of the smart contract to ensure security and functionality, and the deployment on the blockchain.
-**Smart Locks Purchase ($1,200):** Acquiring smart locks to integrate with the blockchain technology and for testing the system.
-**Salary for 3 Developers ($4,000):** Covering the cost of three developers who will work on the smart contract integration, application development, and system testing.
-**Marketing Strategy Preparation ($1000):** Developing a comprehensive marketing plan to promote the new crypto-integrated smart lock system. This includes identifying target markets, creating promotional materials, and planning digital marketing campaigns.
-**Travel Expenses for Partnerships ($3000):** Allocate $3,000 for travel expenses to facilitate in-person meetings for signing partnerships and negotiating device purchases.".|
+| 0f. | Budget breakdown | 60% dev, 10% marketing, 30% bizdev. |
+|  |  | **Smart Contract Pre-Loading ($500):** Allocating funds to pre-load the smart contract onto the system for customers. |
+|  |  | **Smart Contract Testing and Deployment ($300):** Covers the cost of rigorous testing of the smart contract to ensure security and functionality, and the deployment on the blockchain. |
+|  |  | **Smart Locks Purchase ($1,200):** Acquiring smart locks to integrate with the blockchain technology and for testing the system. |
+|  |  | **Salary for 3 Developers ($4,000):** Covering the cost of three developers who will work on the smart contract integration, application development, and system testing. |
+|  |  | **Marketing Strategy Preparation ($1000):** Developing a comprehensive marketing plan to promote the new crypto-integrated smart lock system. This includes identifying target markets, creating promotional materials, and planning digital marketing campaigns. |
+|  |  | **Travel Expenses for Partnerships ($3000):** Allocate $3,000 for travel expenses to facilitate in-person meetings for signing partnerships and negotiating device purchases.".|
 | 1. | Mintbase module: Minter | We will use the Mintbase Minter template to create the Partage Lock smart contrat that will mint temporary access tokens and send them to users’ wallet after payment. |  
 | 2. | Mintbase module: Access Token NFTs | The access token NFTs minted from our smart contract will include a start date and an end date in their metadata, to allow holders to open the lock during this time frame but not giving them access outside of it. |  
 | 3. | NEAR chain integration | Master Lock devices will use the Bluetooth in the user’s smart phone to verify that they are holding a valid token in their Mintbase wallet, and opening at this condition. |  
