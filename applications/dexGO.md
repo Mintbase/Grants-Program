@@ -63,7 +63,17 @@ Smart contracts deployed on Aurora now.
 
 ### Ecosystem Fit
 
-We propose to create NEAR native version inclides BOS integration.
+We propose to create NEAR native version. With smart contracts users can:
+1. buy NFT sneakers
+2. purchase NFT
+3. repear sneakers
+4. create routes
+5. get routes approval
+6. visit routes 
+7. receive rewards
+
+Smart contract will be publish open source. We can't use existing smart contracts bcs we have own complicated business logic build in. 
+
 We also launch similar campaigns for cities/countries with separate social accounts:
 10 cities worldwide
 
@@ -77,7 +87,9 @@ https://t.me/openbisea_en
 https://discord.gg/bwbpgp9jhS 
 https://www.reddit.com/r/openbisea/
 
-## Team :busts_in_silhouette:
+Our target is 1k+ active wallets per day with 5-6k tnx per day. 
+
+## Team
 
 ### Team members
 
