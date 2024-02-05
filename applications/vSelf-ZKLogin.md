@@ -42,8 +42,9 @@ In the current proposal, we expand on this solution while continuing our own pre
 
 - **UI Components**
   The project will include intuitive and user-friendly interface designs in two forms: Telegram bots and web plugin. These mockups will showcase the login process through Telegram vPass bot using NEAR account, and the user journey involving ephemeral and personal account management.
-  <img src="./vPassBot.png" width="100"  alt="vPassBot">
-  <img src="./vPassBot2.png" width="100" alt="vPassBot2">
+
+  <img src="./vPassBot.png" width="200"  alt="vPassBot">
+  <img src="./vPassBot2.png" width="200" alt="vPassBot2">
 
 - **Project Limitations**
   vSelf ZKLogin will not provide a full-fledged identity management system beyond the scope of user authentication and status verification, described in this proposal. It will focus primarily on the use casessuitable for the NEAR and Mintbase ecosystem.
