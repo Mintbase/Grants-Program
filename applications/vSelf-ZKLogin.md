@@ -42,12 +42,13 @@ In the current proposal, we expand on this solution while continuing our own pre
 
 - **UI Components**
   The project will include intuitive and user-friendly interface designs in two forms: Telegram bots and web plugin. These mockups will showcase the login process through Telegram vPass bot using NEAR account, and the user journey involving ephemeral and personal account management.
-  ![vPassBot](./vPassBot.png)
-  ![vPassBot](./vPassBot2.png)
+  <img src="./vPassBot.png" width="100"  alt="vPassBot">
+  <img src="./vPassBot2.png" width="100" alt="vPassBot2">
+
 - **Project Limitations**
   vSelf ZKLogin will not provide a full-fledged identity management system beyond the scope of user authentication and status verification, described in this proposal. It will focus primarily on the use casessuitable for the NEAR and Mintbase ecosystem.
 
-The initial vPass release will be limited in terms of UX and feature set on the admin side. Future versions will aim to expand these capabilities. This detailed breakdown of deliverables and milestones sets clear expectations and provides a roadmap for the development of vSelf ZKLogin.
+  The initial vPass release will be limited in terms of UX and feature set on the admin side. Future versions will aim to expand these capabilities. This detailed breakdown of deliverables and milestones sets clear expectations and provides a roadmap for the development of vSelf ZKLogin.
 
 #### Technology Stack Overview
 
@@ -73,79 +74,59 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Tatiana Yakushkina (CEO, product manager, blockchain architect)
+- Roxana Balan (CMO, customer journey manager)
+- Sergey Kozlov (Full Stack Dev)
+- Anttoni Viital (Full Stack Dev)
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:** Tatiana Yakushkina
+- **Contact Email:** ty@vself.app
+- **Website:** https://vself.app/
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** 68 CIRCULAR ROAD 02-01 SINGAPORE (049422)
+- **Registered Legal Entity:** VSELF PTE. LTD.
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+The vSelf team has been contributing to the NEAR ecosystem since the end of 2021, focusing on identity applications and data management. We successfuly delivered a project for a grant from Human Guild (NEAR Foundation [grant report](https://gov.near.org/t/proposal-vself-learn-to-earn-app-for-participation-in-events-meetups-and-courses/11368)) and later won the Best Design Prize at the MetaBUILD Hackathon ([our demo](https://devpost.com/software/vself)). Besides, we completed a ZK cohort of the Outlier Ventures acceleration program with less than 3% of applicants accepted.  
+Tatiana holds a PhD in Applied mathematics and spent ten years in academia, doing research in computer science and teaching at business informatics department (including courses on blockchain business applications). Together with our full-stack developer Sergey, she had worked on previous startup Nuland in the blockchain space: a Web3 app to allow tokenisation of rewards for user engagement and feedback based on geolocation. During 2020, it secured cooperation with MIT PathCheck ([collaborative pilot](https://github.com/nuland-project/safe-path-sm)) intended to customise their digital contract tracing (DCT) technology and deploy it to production in the San Marino Republic. Roxana has extensive experience in customer behaviour research and incorpoorating marketing and cusdev insights into bespoke user journeys. Anttoni is a seasoned blockchain and full-stack dev, bringing experience of working with the most modern tech stack accross platforms. This powerful combination of skills enables them to navigate the complexities of the web3 ecosystem effectively, driving innovation and creating cutting-edge solutions that cater to the evolving needs of the digital landscape.
 
-If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
+Previously, [the team attempted to apply](https://www.notion.so/Mintbase-2024-be66e748b26940d08aca0fc619587dcd?pvs=4#4b4e2acb0a974439bc18614a54a24c32) for a Mintbase grant (but didn’t submit it correctly). Earlier, an [application for identity management was supported by the NEAR Foundation](https://gov.near.org/t/proposal-vself-learn-to-earn-app-for-participation-in-events-meetups-and-courses/11368).
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/vself-project
+- https://github.com/vself-project/vself-dao
+- https://github.com/vself-project/vstudio-metabuild
+- https://github.com/vself-project/vself-beta
+- https://github.com/vself-project/vself-brands
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+GitHub accounts of team members:
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/sergantche
+- https://github.com/legendaryangelist
+- https://github.com/mrpejker
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/tyakushkina/
+- https://www.linkedin.com/in/roxanabalan/
+- https://www.linkedin.com/in/sergey-kozlov-7b3520127/
+- https://www.linkedin.com/in/anttoni-viitala-69296124a/
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+ADD
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-For each milestone,
-
-- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
-- include the amount of funding requested _per milestone_.
-- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
-- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
-- commit to providing Dockerfiles for the delivery of your project.
-- indicate milestone duration as well as number of full-time employees working on each milestone.
-- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
-
-> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):** Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in USN, and potentially NEAR and nUSDC, the amount will be calculated according to the exchange rate at the time of payment.
-
-### Milestone 1 Example — Implement Mintbase Modules
-
-- **Estimated duration:** 1 month
+- **Estimated duration:** 6 months
 - **FTE:** 2
 - **Costs:** 8,000 USD
 
