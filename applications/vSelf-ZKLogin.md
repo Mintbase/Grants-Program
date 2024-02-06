@@ -16,7 +16,8 @@ In this proposal, we're honing in on a key aspect of the user journey: a straigh
 - Privacy Meets Simplicity in Authentication: Introducing ZKLogin for the NEAR Ecosystem.
 - ZKLogin represents a significant leap in the authentication domain, blending ease of use with robust privacy protections. Our solution uses conventional Web2 authorization services, like Google Sign-In and Telegram Login, to provide access to DApps in the NEAR Ecosystem without compromising the user’s identity. It blends an authentication token with a NEAR address (ephemeral or provided by the user) and passes it through a zero-knowledge proof (ZKP) service to create a unique identification for each DApp.
 
-ZKLogin offers a secure and private way of authentication, which is crucial for the mass adoption of the NEAR blockchain. In the NEAR ecosystem, our development focuses on creating an SDK for streamlined authorization processes alongside a Telegram bot designed to generate secure authorization passcodes. We aim to go beyond mere account ownership verification, incorporating an assessment of user status, such as evaluating Soulbound Tokens (SBTs). This holistic approach ensures a more comprehensive and secure authentication system tailored to the evolving needs of Web3 users.
+  ZKLogin offers a secure and private way of authentication, which is crucial for the mass adoption of the NEAR blockchain. In the NEAR ecosystem, our     
+development focuses on creating an SDK for streamlined authorization processes alongside a Telegram bot designed to generate secure authorization passcodes. We aim to go beyond mere account ownership verification, incorporating an assessment of user status, such as evaluating Soulbound Tokens (SBTs). This holistic approach ensures a more comprehensive and secure authentication system tailored to the evolving needs of Web3 users.
 
 - vSelf team has experience in designing privacy-preserving solutions, e.g., we developed a ZK-powered community membership toolkit [vStudio](https://github.com/vself-project/vstudio-metabuild). Besides, we went through [Outlier Ventures ZK Cohort](https://outlierventures.io/article/outlier-ventures-announces-first-cohort-for-zero-knowledge-base-camp/), where we explored cutting-edge privacy tech with our mentors.
 
@@ -25,7 +26,7 @@ ZKLogin offers a secure and private way of authentication, which is crucial for 
 - **PoC/MVP and Prior Work:**
   The project is inspired by a recent release of the [zkLogin](https://sui.io/zklogin) in the Sui ecosystem. The original work presented a concept of web2.5 authorization that was executed for the Sui blockchain and [audited](https://www.zksecurity.xyz/blog/posts/zklogin/).
 
-In the current proposal, we expand on this solution while continuing our own previous zkp-related work: [vStudio tools for private membership.](https://devpost.com/software/vstudio-private-onboarding-to-web3-communities) It focused on the idea of smooth onboarding of the users into communities and Web3-powered campaigns (like DAO activations, voting, or SMM engagement) without compromising the account data with which the user verified its membership. [To build it](https://github.com/vself-project/vstudio-metabuild), we used Bulletproofs, which is a well-established ZK-proof system without a trusted setup (unlike some zkSNARKs). On top of Bulletproofs, we built our R1CS circuit to prove set membership in zero-knowledge, so on-chain data doesn't reveal members’ identities. This was quite an experimental approach: we used MiMC hash under the hood (as it has low multiplicative complexity). The produced proof contains zero-knowledge attestation of the fact that one knows a secret behind the member’s public commitment and simultaneously belongs to a set of members.
+  In the current proposal, we expand on this solution while continuing our own previous zkp-related work: [vStudio tools for private membership.](https://devpost.com/software/vstudio-private-onboarding-to-web3-communities) It focused on the idea of smooth onboarding of the users into communities and Web3-powered campaigns (like DAO activations, voting, or SMM engagement) without compromising the account data with which the user verified its membership. [To build it](https://github.com/vself-project/vstudio-metabuild), we used Bulletproofs, which is a well-established ZK-proof system without a trusted setup (unlike some zkSNARKs). On top of Bulletproofs, we built our R1CS circuit to prove set membership in zero-knowledge, so on-chain data doesn't reveal members’ identities. This was quite an experimental approach: we used MiMC hash under the hood (as it has low multiplicative complexity). The produced proof contains zero-knowledge attestation of the fact that one knows a secret behind the member’s public commitment and simultaneously belongs to a set of members.
 
 - **Deliverables**
 
@@ -61,15 +62,17 @@ In the current proposal, we expand on this solution while continuing our own pre
 - **Crypto**: Zero-knowledge proofs **Bulletproofs** & **R1CS circuit** implementation in Rust ensures user privacy and safety.
 
 ### Ecosystem Fit
-
-Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
-
 - Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+  We are natively building on NEAR Protocol as we proponents of NEAR tech, particularly account abstraction, and its good fit for Web2.5 adoption. We see wallet-type of authorization as a big friction point for non-crypto native customers. Besides, existing alternative solutions are often unsuitable to meet business needs for data management regulation. We aim to provide a new open-source tool for forter adoption process and bridge current gaps in the market.
+  
+- Who is your target audience?
+    This project targets NEAR-compatible or NEAR-native DApps and their Telegram communities, which could benefit from integration of our bot and/or SDK for private or gated access. Besides, all their users, whether they’re allready NEAR adopters or newcommers, will  leverage these tools.
+    
 - What need(s) does your project meet?
+    There is a need for seamless onboarding techniques (including Web2 ways), as well as a reduction of on-chain footprint (we prefer to limit the exposure of the data to only what is necessary.).
+    
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
+    None we are aware of, though we have examples on other chains (like Sui). In the NEAR ecosystem, there are other solutions facilitating authorization like FastAuth (email key recovery) and Keypom (linkdrop mechanics), but they are complimentary and can be used along with zkLogin as a last-mile solution.
 
 ## Team :busts_in_silhouette:
 
