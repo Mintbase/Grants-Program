@@ -38,32 +38,32 @@ development focuses on creating an SDK for streamlined authorization processes a
 
   - It allows users to seamlessly authorize in dApps and gated Telegram groups and channels, using their combination of NEAR address and Telegram account and generating ZKLogin for each request. vPass utilizes ZKLogin SDK to run proof verification and connects to NEAR infrastructure for on-chain data.
   - vPass bot can be set up by the admin to check more specific credentials of the users, e.g. SBTs or NFTs of particular kind and conditions of ownership, that could be derived from on-chain data.
-  - vPass TMA (Telegram mini application) which manages user identity (including SSO with Google) and enabled to produce zk-proofs for future logins (using same SDK).
-  - Testnet gated Telegram channel which is moderated by vPass bot and only accessible on customizable conditions (like having specific SBT).
+  - vPass TMA (Telegram mini-application), which manages user identity (including SSO with Google) and enables to production of zk-proofs for future logins (using the same SDK).
+  - Testnet gated Telegram channel, which is moderated by vPass bot and only accessible on customizable conditions (like having specific SBT).
 
 - **UI Components**
-  The project will include intuitive and user-friendly interface designs in two forms: Telegram bots and web plugin. These mockups will showcase the login process through Telegram vPass bot using NEAR account, and the user journey involving ephemeral and personal account management.
+  The project will include intuitive and user-friendly interface designs in two forms: Telegram bots and web plugin. These mockups will showcase the login process through Telegram vPass bot using NEAR account and the user journey involving ephemeral and personal account management.
 
   <img src="./vPassBot.png" width="200"  alt="vPassBot">
   <img src="./vPassBot2.png" width="200" alt="vPassBot2">
 
 - **Project Limitations**
-  vSelf ZKLogin will not provide a full-fledged identity management system beyond the scope of user authentication and status verification, described in this proposal. It will focus primarily on the use casessuitable for the NEAR and Mintbase ecosystem.
+  vSelf ZKLogin will not provide a full-fledged identity management system beyond the scope of user authentication and status verification described in this proposal. It will focus primarily on the use cases suitable for the NEAR and Mintbase ecosystems.
 
   The initial vPass release will be limited in terms of UX and feature set on the admin side. Future versions will aim to expand these capabilities. This detailed breakdown of deliverables and milestones sets clear expectations and provides a roadmap for the development of vSelf ZKLogin.
 
 #### Technology Stack Overview
 
 - **Frontend**: **Next.js 14 T3 stack** (Typescript/Tailwind CSS) for dynamic and responsive UI, Telegram bot (Telegraf.js), Telegram Web App.
-- **Backend**: Node.js service for handling API requests, integration with NEAR blockchain.
-- **Database**: **Firebase** & **Google Cloud** are used for hosting and content delivery and identity management.
+- **Backend**: Node.js service for handling API requests and integration with NEAR blockchain.
+- **Database**: **Firebase** & **Google Cloud** are used for hosting and content delivery, and identity management.
 - **Auth**: The Single Sign-On protocol supported by is **[OAuth 2.0](https://oauth.net/2/)**. In which a user can log into a trusted third party (Google, Facebook, etc.) and get a signed token attesting that they logged in in the form of a signed **[JSON Web Token](https://jwt.io/)** (JWT).
 - **Blockchain**: NEAR protocol and Rust smart contracts for blockchain-based interactions, particularly for handling authentication and NFT-related processes. For NEAR integration, we use **NEAR JS SDK** & **WalletSelector.**
 - **Crypto**: Zero-knowledge proofs **Bulletproofs** & **R1CS circuit** implementation in Rust ensures user privacy and safety.
 
 ### Ecosystem Fit
 - Where and how does your project fit into the ecosystem?
-  We are natively building on NEAR Protocol as we are proponents of NEAR tech, particularly account abstraction and its good fit for Web2.5 adoption. We see wallet-type of authorization as a big friction point for non-crypto native customers. Besides, existing alternative solutions are often unsuitable to meet business needs for data management regulation. We aim to provide a new open-source tool for forter adoption process and bridge current gaps in the market.
+  We are natively building on NEAR Protocol as we are proponents of NEAR tech, particularly account abstraction and its good fit for Web2.5 adoption. We see wallet-type of authorization as a big friction point for non-crypto native customers. Besides, existing alternative solutions are often unsuitable to meet business needs for data management regulation. We aim to provide a new open-source tool to foster the adoption process and bridge current gaps in the market.
   
 - Who is your target audience?
     This project targets NEAR-compatible or NEAR-native DApps and their Telegram communities, which could benefit from the integration of our bot and/or SDK for private or gated access. Besides, all their users will leverage these tools, whether they’re already NEAR adopters or newcomers.
@@ -139,9 +139,15 @@ vSelf ZKLogin project is an evolution of our research and development focused on
 
 ### Overview
 
-- **Estimated duration:** 6 months
-- **FTE:** 2
-- **Costs:** 8,000 USD
+- **Total Estimated duration:** 6 months
+- **FTE:** 3
+- **Costs:** 50,000 USD
+
+### Milestone 1 ZKLogin SDK npm package 
+
+- **Estimated duration:** 2 month
+- **FTE:** 3
+- **Costs:** 20,000 USD
 
 | Number | Deliverable            | Specification                                                                                                                                                                                                                                |
 | -----: | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -155,13 +161,38 @@ vSelf ZKLogin project is an evolution of our research and development focused on
 |     3. | Mintbase module: Z     | We will create a Mintbase / NEAR module that will...                                                                                                                                                                                         |
 |     4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible)                                                                                                           |
 
-### Milestone 2 Example — Additional features
+### Milestone 2 vPass Telegram bot v1
 
-- **Estimated Duration:** 1 month
-- **FTE:** 1
-- **Costs:** 4,000 USD
+- **Estimated Duration:** 2 month
+- **FTE:** 3
+- **Costs:** 15,000 USD
+| Number | Deliverable            | Specification                                                                                                                                                                                                                                |
+| -----: | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    0a. | License                | Apache 2.0 / GPLv3 / MIT / Unlicense                                                                                                                                                                                                         |
+|    0b. | Documentation          | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
+|    0c. | Testing Guide          | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                            |
+|    0d. | Docker                 | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                |
+|    0e. | Article                | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)                                               |
+|     1. | npm package    | We will create ... (Please list the functionality that will be implemented for the first milestone)                                                                                                                                                                                                             |
+|     4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible)  
 
-...
+### Milestone 3 vPass Telegram bot v2
+
+- **Estimated Duration:** 2 month
+- **FTE:** 3
+- **Costs:** 15,000 USD
+  
+| Number | Deliverable            | Specification                                                                                                                                                                                                                                |
+| -----: | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    0a. | License                | Apache 2.0 / GPLv3 / MIT / Unlicense                                                                                                                                                                                                         |
+|    0b. | Documentation          | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
+|    0c. | Testing Guide          | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.                                                                                            |
+|    0d. | Docker                 | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone.                                                                                                                                |
+|    0e. | Article                | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)                                               |
+|     1. | Mintbase module: X     | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone)                                                                                                        |
+|     2. | Mintbase module: Y     | We will create a Mintbase / NEAR module that will...                                                                                                                                                                                         |
+|     3. | Mintbase module: Z     | We will create a Mintbase / NEAR module that will...                                                                                                                                                                                         |
+|     4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible)  
 
 ## Future Plans
 
