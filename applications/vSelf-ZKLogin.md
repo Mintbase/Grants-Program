@@ -63,16 +63,16 @@ development focuses on creating an SDK for streamlined authorization processes a
 
 ### Ecosystem Fit
 - Where and how does your project fit into the ecosystem?
-  We are natively building on NEAR Protocol as we proponents of NEAR tech, particularly account abstraction, and its good fit for Web2.5 adoption. We see wallet-type of authorization as a big friction point for non-crypto native customers. Besides, existing alternative solutions are often unsuitable to meet business needs for data management regulation. We aim to provide a new open-source tool for forter adoption process and bridge current gaps in the market.
+  We are natively building on NEAR Protocol as we are proponents of NEAR tech, particularly account abstraction and its good fit for Web2.5 adoption. We see wallet-type of authorization as a big friction point for non-crypto native customers. Besides, existing alternative solutions are often unsuitable to meet business needs for data management regulation. We aim to provide a new open-source tool for forter adoption process and bridge current gaps in the market.
   
 - Who is your target audience?
-    This project targets NEAR-compatible or NEAR-native DApps and their Telegram communities, which could benefit from integration of our bot and/or SDK for private or gated access. Besides, all their users, whether they’re allready NEAR adopters or newcommers, will  leverage these tools.
+    This project targets NEAR-compatible or NEAR-native DApps and their Telegram communities, which could benefit from the integration of our bot and/or SDK for private or gated access. Besides, all their users will leverage these tools, whether they’re already NEAR adopters or newcomers.
     
 - What need(s) does your project meet?
     There is a need for seamless onboarding techniques (including Web2 ways), as well as a reduction of on-chain footprint (we prefer to limit the exposure of the data to only what is necessary.).
     
 - Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
-    None we are aware of, though we have examples on other chains (like Sui). In the NEAR ecosystem, there are other solutions facilitating authorization like FastAuth (email key recovery) and Keypom (linkdrop mechanics), but they are complimentary and can be used along with zkLogin as a last-mile solution.
+    None we are aware of, though we have examples on other chains (like Sui). In the NEAR ecosystem, there are other solutions facilitating authorization, like FastAuth (email key recovery) and Keypom (linkdrop mechanics), but they are complimentary and can be used along with zkLogin as a last-mile solution.
 
 ## Team :busts_in_silhouette:
 
@@ -97,7 +97,7 @@ development focuses on creating an SDK for streamlined authorization processes a
 ### Team's experience
 
 The vSelf team has been contributing to the NEAR ecosystem since the end of 2021, focusing on identity applications and data management. We successfuly delivered a project for a grant from Human Guild (NEAR Foundation [grant report](https://gov.near.org/t/proposal-vself-learn-to-earn-app-for-participation-in-events-meetups-and-courses/11368)) and later won the Best Design Prize at the MetaBUILD Hackathon ([our demo](https://devpost.com/software/vself)). Besides, we completed a ZK cohort of the Outlier Ventures acceleration program with less than 3% of applicants accepted.  
-Tatiana holds a PhD in Applied mathematics and spent ten years in academia, doing research in computer science and teaching at business informatics department (including courses on blockchain business applications). Together with our full-stack developer Sergey, she had worked on previous startup Nuland in the blockchain space: a Web3 app to allow tokenisation of rewards for user engagement and feedback based on geolocation. During 2020, it secured cooperation with MIT PathCheck ([collaborative pilot](https://github.com/nuland-project/safe-path-sm)) intended to customise their digital contract tracing (DCT) technology and deploy it to production in the San Marino Republic. Roxana has extensive experience in customer behaviour research and incorpoorating marketing and cusdev insights into bespoke user journeys. Anttoni is a seasoned blockchain and full-stack dev, bringing experience of working with the most modern tech stack accross platforms. This powerful combination of skills enables them to navigate the complexities of the web3 ecosystem effectively, driving innovation and creating cutting-edge solutions that cater to the evolving needs of the digital landscape.
+Tatiana holds a PhD in applied mathematics and has spent ten years in academia, doing research in computer science and teaching at the business informatics department (including courses on blockchain business applications). Together with our full-stack developer Sergey, she had worked on the previous startup, Nuland, in the blockchain space: a Web3 app to allow the tokenisation of rewards for user engagement and feedback based on geolocation. During 2020, it secured cooperation with MIT PathCheck ([collaborative pilot](https://github.com/nuland-project/safe-path-sm)) intended to customise their digital contract tracing (DCT) technology and deploy it to production in the San Marino Republic. Roxana has extensive experience in customer behaviour research, incorpoorating marketing, and cusdev insights into bespoke user journeys. Anttoni is a seasoned blockchain and full-stack dev, bringing the experience of working with the most modern tech stack across platforms. This powerful combination of skills enables them to navigate the complexities of the web3 ecosystem effectively, driving innovation and creating cutting-edge solutions that cater to the evolving needs of the digital landscape.
 
 Previously, [the team attempted to apply](https://www.notion.so/Mintbase-2024-be66e748b26940d08aca0fc619587dcd?pvs=4#4b4e2acb0a974439bc18614a54a24c32) for a Mintbase grant (but didn’t submit it correctly). Earlier, an [application for identity management was supported by the NEAR Foundation](https://gov.near.org/t/proposal-vself-learn-to-earn-app-for-participation-in-events-meetups-and-courses/11368).
 
@@ -124,7 +124,16 @@ GitHub accounts of team members:
 
 ## Development Status :open_book:
 
-ADD
+vSelf ZKLogin project is an evolution of our research and development focused on bringing Web3 data management for mass adoption in loyalty and SMM verticals for the general audience of brands. We expand on the solution for private community membership, designed as vStudio project, by incorporating insights and methodologies from the [zkLogin framework developed in the Sui ecosystem](https://sui.io/zklogin). Below, we outline our preparatory work, developmental milestones, and collaborations that have shaped the current state of ZKLogin:
+
+- **Continuation of vStudio Research**: Building on our previous work with vStudio, which focused on privacy-preserving community engagement tools, we are extending our research to include advanced zero-knowledge proof (ZKP) technologies. This ongoing effort is documented in our [vStudio repository](https://github.com/vself-project/vstudio-metabuild), showcasing our commitment to enhancing privacy without compromising user convenience or security.
+    - A pure-Rust implementation of group operations on Ristretto and Curve25519. https://doc.dalek.rs/curve25519_dalek/index.html
+    - BulletProofs https://github.com/zkcrypto/bulletproofs
+    - Zero-Knowledge Proofs for Set Membership: Efficient, Succinct, Modular https://link.springer.com/chapter/10.1007/978-3-662-64322-8_19
+    - zkKYC https://eprint.iacr.org/2021/907.pdf
+- **Incorporation of zkLogin data flow from Sui**: Inspired by the innovative approach of zkLogin within the Sui ecosystem, our project adapts and extends these concepts for the NEAR platform. This cross-ecosystem adaptation leverages the strengths of zkLogin's authorization mechanisms, aiming to address the unique challenges faced by users and developers within the NEAR ecosystem.
+    - https://docs.sui.io/concepts/cryptography/zklogin/
+- **Engagement with Academic and Developer Communities**: Our team has actively contributed to discussions and shared our findings with both academic and developer communities, highlighting our advancements in zero-knowledge proofs and blockchain-based identity management. Our team participates in NEAR Zero Knowledge Community Group, zkDay conferences and meetups and regularly connects with our mentors from Aleo, zkSync, and ScalingX.
 
 ## Development Roadmap :nut_and_bolt:
 
