@@ -41,10 +41,9 @@ development focuses on creating an SDK for streamlined authorization processes a
   - vPass TMA (Telegram mini-application), which manages user identity (including SSO with Google) and enables to production of zk-proofs for future logins (using the same SDK).
   - Testnet gated Telegram channel, which is moderated by vPass bot and only accessible on customizable conditions (like having specific SBT).
 
-- **UI Components**
+- [**UI Components**](https://drive.google.com/file/d/1VbzwtqZGcayLPxTgOugF4eJWrOzFgMMm/view?usp=sharing)
   The project will include intuitive and user-friendly interface designs in two forms: Telegram bots and web plugin. These mockups will showcase the login process through Telegram vPass bot using NEAR account and the user journey involving ephemeral and personal account management.
 
-![UIComponents](https://drive.google.com/file/d/1VbzwtqZGcayLPxTgOugF4eJWrOzFgMMm/view?usp=sharing)
 
 - **Project Limitations**
   vSelf ZKLogin will not provide a full-fledged identity management system beyond the scope of user authentication and status verification described in this proposal. It will focus primarily on the use cases suitable for the NEAR and Mintbase ecosystems.
