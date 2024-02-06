@@ -32,7 +32,7 @@ development focuses on creating an SDK for streamlined authorization processes a
 
   1. **ZKLogin SDK npm package** (partially compiled from Rust to WebAssembly).
 
-  NEAR ecosystem members can use it to generate & verify proofs of account ownership. It is limited to two types of Web2 accounts (Google and Telegram) and NEAR Web3 addresses.
+    NEAR ecosystem members can use it to generate & verify proofs of account ownership. It is limited to two types of Web2 accounts (Google and Telegram) and NEAR     Web3 addresses.
 
   2. **vPass** Telegram bot
 
