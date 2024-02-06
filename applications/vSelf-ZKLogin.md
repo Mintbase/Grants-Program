@@ -198,17 +198,10 @@ vSelf ZKLogin project is an evolution of our research and development focused on
 
 ## Future Plans
 
-Please include here
-
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+- **Utilization and Enhancement**: In the immediate future, our focus is on deploying ZKLogin for live testing within selected NEAR ecosystem applications. This phase will allow us to gather real-world feedback, crucial for refining our solution. Concurrently, we plan to enhance ZKLogin's capabilities, specifically its integration flexibility with various DApps and its scalability to handle a growing user base.
+- **Promotion and Documentation**: We will embark on a comprehensive promotional campaign targeting both the existing NEAR ecosystem and potential new adopters from traditional Web2 backgrounds. This will involve active participation in relevant blockchain and privacy-focused AMAs and meetups. To ensure users and developers can easily integrate and use ZKLogin, we will develop extensive documentation, including tutorials and  guides.
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?**  Twitter 
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
