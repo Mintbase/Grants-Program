@@ -183,7 +183,8 @@ vSelf ZKLogin project is an evolution of our research and development focused on
 - **Estimated Duration:** 2 month
 - **FTE:** 3
 - **Costs:** 15,000 USD
-  | Number | Deliverable                      | Specification                                                                                                                                                                                                                              |
+
+| Number | Deliverable                      | Specification                                                                                                                                                                                                                              |
 |-------:|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0a.    | License                          | Apache 2.0 / GPLv3 / MIT / Unlicense. Ensuring the project remains open-source for community use and contribution.                                                                                                                           |
 | 0b.    | Documentation                    | Detailed documentation of the bot's extended features, including setup guides for moderation parameters, interaction flows for enhanced user verification, and examples of advanced usage scenarios.                                       |
