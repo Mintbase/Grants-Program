@@ -1,4 +1,4 @@
-#Mintbase Grant Proposal
+# Mintbase Grant Proposal
 
 - Project Name: Sports Pick'em
 - Company Name: TENAMINT
@@ -6,7 +6,7 @@
 - Grant Level: 2
 - [Deck Link](https://drive.google.com/file/d/1VYaIq1BaJJ2A7r9JUvZFcIovBGXemnLb/view?usp=share_link): [https://drive.google.com/file/d/1VYaIq1BaJJ2A7r9JUvZFcIovBGXemnLb/view?usp=share\_link](https://drive.google.com/file/d/1VYaIq1BaJJ2A7r9JUvZFcIovBGXemnLb/view?usp=share_link)
 
-###Project Overview
+### Project Overview
 
 Project Description: **TENAMINT Sports Pick'em Game and Digital Collectibles**
 
@@ -16,7 +16,7 @@ The envisioned product is crafted to transform into token-gated fan hubs, facili
 
 The game, rewards, collectibles, and upcoming product additions are intricately crafted to offer value in league partnerships, delivering exclusive content, digital collectibles, fan tokens and IRL activations. This approach fosters a vibrant ecosystem of sports enthusiasts, resulting in heightened fan experiences, strengthened league-to-fan relationships, and a compelling avenue for web3 fan-base adoption.
 
-####Key Features and Rewards:
+#### Key Features and Rewards:
 
 - **Pick'em Game:**
   - Introduces dynamic live match prediction within Sports Pick'em.
@@ -40,7 +40,7 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
   - "Mint Your Moment" feature captures fan experiences at games with the NFT Minter
 
 
-####Project Details
+#### Project Details
 
 - **Figma Exports:**
   - [https://drive.google.com/drive/folders/1-rek75CWt7GZhEPEWXRKxfW2pQ7xgPIo?usp=share\_link](https://drive.google.com/drive/folders/1-rek75CWt7GZhEPEWXRKxfW2pQ7xgPIo?usp=share_link)
@@ -54,7 +54,7 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
   - Architecture Model
     - [https://drive.google.com/file/d/1pg3gqbdVOpssSn9sB0beQ\_FGDmX\_8v1I/view?usp=sharing](https://drive.google.com/file/d/1pg3gqbdVOpssSn9sB0beQ_FGDmX_8v1I/view?usp=sharing)
 
-####Tech-Stack, Architecture, and Components
+#### Tech-Stack, Architecture, and Components
 
 - TENAMINT Digital & Pick'em Game:
   - Front-End:
@@ -117,9 +117,9 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
           - Powered by Mintbase Wallet
           - Potential for direct to marketplace/rewards integration
 
-###Ecosystem Fit
+### Ecosystem Fit
 
-####Where and How TENAMINT Digital and Gaming fits into the Ecosystem:
+#### Where and How TENAMINT Digital and Gaming fits into the Ecosystem:
 
   - Mintbase:
     - Mintbase Wallet
@@ -158,7 +158,7 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
       - For example, the "Mint Your Moment" feature, capturing fan experiences at games and immortalizing them as NFTs on the NEAR blockchain, not only advances Web3 technology but also provides a tangible connection between the digital and physical worlds.
       - TENAMINT's commitment to bridging the digital-physical gap sets it apart as a holistic and immersive experience within the sports and gaming ecosystem.
 
-####Target Audience and Needs Met:
+#### Target Audience and Needs Met:
 
 - Target Audience:
   - Sports Leagues and Teams:
@@ -193,7 +193,7 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
       - Solution: For play-to-earn gamers, the emphasis is on rewarding gameplay experiences, creating a dynamic and incentivized gaming environment.
 
 
-####Similar Projects in NEAR Ecosystems:
+#### Similar Projects in NEAR Ecosystems:
 
 - Playible also offers a fantasy sports focused product but with a different approach to the space.
 - SailGP has a officially licensed league NFT on built on NEAR from previous Seasons
@@ -201,7 +201,7 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
 - Details pending TBA: The NEAR Foundation will become the ICC's official blockchain partner.
 
 
-###Team
+### Team
 
 ####
  Team members
@@ -213,13 +213,13 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
 - Shunsuke Kano
 - Walt Yao
 
-####Contact
+#### Contact
 
 - Sal Chaudhry
 - [office@tenamint.com](mailto:office@tenamint.com)
 - [https://www.linkedin.com/in/salchaudhry](https://www.linkedin.com/in/salchaudhry/?originalSubdomain=ca)
 
-####Legal Structure
+#### Legal Structure
 
   - Registered Legal Entity
     - Ball Street Technologies Inc.
@@ -228,7 +228,7 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
       - Toronto, ON, Canada
       - M5V0E1
 
-####Team Experience
+#### Team Experience
 
 - TENAMINT:
   - [www.tenamint.com/](http://www.tenamint.com/phygital)
@@ -237,7 +237,7 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
   - Accelerators and similar programs:
     - NEAR HZN1, Innovation Boost Zone, Accelerator Centre, Founder Institute, etc.
 
-####Team Links:
+#### Team Links:
 
 - TENAMINT:
     - [https://github.com/TENAMINT](https://github.com/TENAMINT)
@@ -259,11 +259,11 @@ The game, rewards, collectibles, and upcoming product additions are intricately 
   - Shawn:
     - [https://github.com/Benz222](https://github.com/Benz222)
 
-###Development Status
+### Development Status
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
-####Wireframes, Mock-ups, Other:
+#### Wireframes, Mock-ups, Other:
 
 - Figma Mockup:
   - [https://www.figma.com/proto/5ivxRYoqK2KHjKHhCht8up/TENAMINT-Pick'em?type=design&node-id=1300-2012&t=N4dCS0wkNofN63Fx-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1300%3A2012&show-proto-sidebar=1](https://www.figma.com/proto/5ivxRYoqK2KHjKHhCht8up/TENAMINT-Pick'em?type=design&node-id=1300-2012&t=N4dCS0wkNofN63Fx-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1300%3A2012&show-proto-sidebar=1)
@@ -274,7 +274,7 @@ If you've already started implementing your project or it is part of a larger re
 - Other Products: [https://tenamint.com/phygital](https://tenamint.com/phygital)
 - _Note: A team development submission was submitted to abstraction hacks which featured some high-level concepts discussed in this proposal._
 
-####Research Done:
+#### Research Done:
 
 - Engagement with League Executives: In-depth conversations and consultations have taken place with league executives to gain valuable insights into their specific needs and identify emerging opportunities within the industry.
 - Comprehensive Review and Audit: Rigorous examination and audit of fantasy sports gaming products, pick'em games, and sports collectibles have been undertaken. This comprehensive review ensures a thorough understanding of the current landscape and identifies areas for innovation and improvement.
@@ -282,7 +282,7 @@ If you've already started implementing your project or it is part of a larger re
 - Industry Specialization: The co-founder brings a wealth of expertise to the project, grounded in an educational background specializing in sport business. Emphasizing fan experience and sport technology, the co-founder adopts a strategic and thoroughly researched approach to advancements in sports innovation and fan engagement.
 - Other Relevant Experiences: A lifetime dedicated to being a team of passionate enthusiasts, including roles as die-hard fans, fantasy sports players, league commissioners, and collectors of both digital and physical sports collectibles, has provided a unique and holistic perspective. This firsthand experience enriches the project with a deep understanding of user expectations and industry dynamics.
 
-####Relevant Conversations: Mintbase
+#### Relevant Conversations: Mintbase
 
 - Paul via Zoom Call - September 2023
   - Discussion Regarding: TENAMINT and Mintbase Grant
@@ -290,15 +290,15 @@ If you've already started implementing your project or it is part of a larger re
   - Discussion Regarding: MTS, TENAMINT, and Future Opportunities
 
 
-###Milestones and Product Roadmap
+### Milestones and Product Roadmap
 
-####Overview — Milestone Summary
+#### Overview — Milestone Summary
 
 - Estimated Duration: 4.5 months
 - FTE: 3
 - Costs: $50,000 USD
 
-####Milestone 1 — Sports Pick'em Game
+#### Milestone 1 — Sports Pick'em Game
 
 - Estimated Duration: 1.5 months
 - FTE: 3
@@ -327,7 +327,7 @@ If you've already started implementing your project or it is part of a larger re
       - Mechanics Feedback Improvements
       - Documentation Update
 
-####Milestone 2 — Rewards Development, Release, and Refinement
+#### Milestone 2 — Rewards Development, Release, and Refinement
 
 Duration: 1.5 months
 
@@ -356,7 +356,7 @@ Duration: 1.5 months
       - Mechanics Feedback Improvements
       - Documentation Update
 
-####Milestone 3 — NFT Release, Integration, & Development
+#### Milestone 3 — NFT Release, Integration, & Development
 
 - Estimated Duration: 1.5 Months
 - FTE: 3
@@ -383,7 +383,7 @@ Duration: 1.5 months
       - Mechanics Feedback Improvements
       - Documentation Update
 
-###Future Plans
+### Future Plans
 
 - **Short-Term:** In the short-term, our primary objectives include the integration of merchandise E-Commerce for the Rewards Marketplace, along with the implementation of social share features and the introduction of a bracket game to enhance user engagement. Additionally, we aim to execute our Go-To-Market (GTM) plan, focusing on strategic partnerships and the execution of seamless IRL activations in arena venues.
 
@@ -393,7 +393,7 @@ Duration: 1.5 months
 
 - **Note:** In the future we aim to eventually continue development towards advancing and improving Phygital/RWA releases and technologies by integrating and leveraging our newer product lines. Pre-developed and qualified userbases may eventually provide lead-generation for the Phygital/RWA products. Partnerships that align with the TENAMINT Phygital vision will also be considered as we recognize the trends and long-term potential of RWA-backed collectibles, fractional ownership, and other core concepts we had previously prioritized. It's essential to highlight that as mentioned in previous discussions with the Mintbase team, the Multi-Token Standard (MTS) is intricately connected to the TENAMINT Phygital product line and we'd like to explore Mintbase integration for this initiative in the future once our new product line priorities are successfully released and established.
 
-###Additional Information
+### Additional Information
 
 How did you hear about the Grants Program?
 
