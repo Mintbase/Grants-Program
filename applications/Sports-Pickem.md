@@ -244,145 +244,145 @@ Note: order of Milestone Delivery may change
 
 ## Mintabase Templates Technical Approach and Preliminary Notes
 
-    ### Milestone 1 — Mintbase Pick’em Template:
-      
-      The objective of this internal high-level overview is to outline the implementation approach for building a Pick'Em template on NEAR via Mintbase. The goal is to create an engaging and versatile smart contract that allows users to participate in Pick'Em scenarios, associating potential outcomes with corresponding airdrops. The contract should seamlessly interact with NEAR infrastructure, validate user picks, and integrate with a rewards payer for token distribution. 
-      
-      
-      **Preliminary Notes on Technical Approach: Pick’em Template Implementation**
-      
-      **Contract Structure:**
-      1. Modularity and Extensibility:
-         - Components are modular, allowing for easy addition or modification of functionalities.
-         - Contracts can be extended to accommodate new features or integrate with other contracts seamlessly.
-      
-      2. State Variables:
-         - Well-defined state variables encapsulate essential information such as user balances, task completion status, and reward distribution details.
-         - Variables are organized in a structured manner for clarity and efficient access.
-      
-      **Contract Methods:**
-      1. Singular Validation:
-         - A method is implemented to facilitate singular validation through Zk.proof or assigned transactions.
-         - Validators or oracles utilize this method to confirm the completion of specific tasks by users before triggering reward distribution.
-      
-      2. Security Measures:
-         - Methods are designed with security in mind, incorporating measures to prevent unauthorized access, tampering, or malicious activities.
-         - Permission settings and access controls are implemented to restrict certain actions to authorized entities.
-      
-      3. Transparency:
-         - The contract methods provide clear and transparent processes for task validation and reward distribution.
-         - Event logging ensures a transparent record of completed tasks, helping in auditing and accountability.
-      
-      4. Integration with Minter and Token Drop:
-         - Seamless integration with Mintbase is achieved through well-defined methods for token creation and distribution.
-         - The contract can efficiently mint new reward tokens based on predefined criteria and distribute them to users who successfully complete incentivized tasks.
-      
-      **Interaction with Rewards Payer:**
-      The contract interacts seamlessly with the Rewards Payer, which could be an external entity responsible for validating tasks and distributing rewards. Validators or oracles can utilize the contract's methods to verify task completion, ensuring a secure and tamper-proof process for rewarding users.
-      
-      **Testing:**
-      Documentation and instruction provided for a comprehensive testing environment. Documentation and Tutorial will be created to guide users through use of the template.
-      
-      **Versatility:**
-      The template's versatility is a key highlight, enabling users to configure and enhance their rewards by assigning values to incentivized actions. Whether it's related to NFT collections, check-ins, game participation, or referrals, the Rewards Token template empowers users to tailor their incentivization strategies according to their specific use cases.
+### Milestone 1 — Mintbase Pick’em Template:
+
+The objective of this internal high-level overview is to outline the implementation approach for building a Pick'Em template on NEAR via Mintbase. The goal is to create an engaging and versatile smart contract that allows users to participate in Pick'Em scenarios, associating potential outcomes with corresponding airdrops. The contract should seamlessly interact with NEAR infrastructure, validate user picks, and integrate with a rewards payer for token distribution. 
+
+
+**Preliminary Notes on Technical Approach: Pick’em Template Implementation**
+
+**Contract Structure:**
+1. Modularity and Extensibility:
+    - Components are modular, allowing for easy addition or modification of functionalities.
+    - Contracts can be extended to accommodate new features or integrate with other contracts seamlessly.
+
+2. State Variables:
+    - Well-defined state variables encapsulate essential information such as user balances, task completion status, and reward distribution details.
+    - Variables are organized in a structured manner for clarity and efficient access.
+
+**Contract Methods:**
+1. Singular Validation:
+    - A method is implemented to facilitate singular validation through Zk.proof or assigned transactions.
+    - Validators or oracles utilize this method to confirm the completion of specific tasks by users before triggering reward distribution.
+
+2. Security Measures:
+    - Methods are designed with security in mind, incorporating measures to prevent unauthorized access, tampering, or malicious activities.
+    - Permission settings and access controls are implemented to restrict certain actions to authorized entities.
+
+3. Transparency:
+    - The contract methods provide clear and transparent processes for task validation and reward distribution.
+    - Event logging ensures a transparent record of completed tasks, helping in auditing and accountability.
+
+4. Integration with Minter and Token Drop:
+    - Seamless integration with Mintbase is achieved through well-defined methods for token creation and distribution.
+    - The contract can efficiently mint new reward tokens based on predefined criteria and distribute them to users who successfully complete incentivized tasks.
+
+**Interaction with Rewards Payer:**
+The contract interacts seamlessly with the Rewards Payer, which could be an external entity responsible for validating tasks and distributing rewards. Validators or oracles can utilize the contract's methods to verify task completion, ensuring a secure and tamper-proof process for rewarding users.
+
+**Testing:**
+Documentation and instruction provided for a comprehensive testing environment. Documentation and Tutorial will be created to guide users through use of the template.
+
+**Versatility:**
+The template's versatility is a key highlight, enabling users to configure and enhance their rewards by assigning values to incentivized actions. Whether it's related to NFT collections, check-ins, game participation, or referrals, the Rewards Token template empowers users to tailor their incentivization strategies according to their specific use cases.
 
 
 ### Milestone 2 — Mintbase Rewards Template: 
     
-       The objective of this Rewards Token implementation is to provide an easy to use and  versatile NEP-141 rewards smart contract template via Mintbase. This template allows users to create personalized Reward Tokens that can be utilized for various purposes, such as measuring activity, loyalty, performance, or other values. The focus is on encouraging user involvement in Pick'em games, NFT challenges, or any incentivized actions, enhancing engagement and participation.
-      
-      **Preliminary Notes on Technical Approach: Rewards Template Implementation**
-      
-      **Contract Structure:**
-      1. NEP-141 Standard Compliance:
-         - Design the smart contract to comply with the NEP-141 standard for fungible tokens on the NEAR protocol.
-         - Implement core functionalities such as `total_supply()`, `balance_of(account)`, `transfer(sender, receiver, amount)`, and other standard methods.
-      
-      2. Zk.proof Integration:
-         - Leverage Zk.proof capabilities for zero-knowledge proof implementations.
-         - Incorporate Zk.proof into the contract logic to ensure secure and private validations of completed tasks
-      
-      3. Mintbase Integration:
-         - Establish a seamless integration with Mintbase, utilizing the Mintbase API for creating and managing Reward Tokens.
-         - Configure the contract to support Mintbase's marketplace functionalities, enabling users to mint, trade, and interact with their Reward Tokens directly through Mintbase.
-      
-      **Contract Methods:**
-      1. NEP-141 Standard Methods:
-         - Implement the standard NEP-141 methods for the Reward Token contract, allowing users to create, transfer, and manage their tokens with ease.
-         - Ensure that the contract adheres to the fungible token specifications outlined in the NEP-141 standard.
-      
-      2. Zk.proof-enabled Validation:
-         - Develop methods for task completion validation, incorporating Zk.proof to secure the validation process.
-         - Utilize zero-knowledge proofs to verify that a task has been completed without exposing the details of the task on the blockchain.
-      
-      3. Singular Validation through Oracles/Validators:
-         - Establish a mechanism for singular validation using oracles or validators on the NEAR platform.
-         - Design the contract to trigger validation requests to external oracles or validators, ensuring an additional layer of reliability in confirming completed tasks.
-      
-      **Testing:** 
-      Documentation and instruction provided for a comprehensive testing environment Documentation and Tutorial will be created to guide users through the use of the template.
-      
-      **Versatility:**
-      The template's design intends to emphasize  versatility, allowing users to configure rewards for incentivizing user actions. 
+The objective of this Rewards Token implementation is to provide an easy to use and  versatile NEP-141 rewards smart contract template via Mintbase. This template allows users to create personalized Reward Tokens that can be utilized for various purposes, such as measuring activity, loyalty, performance, or other values. The focus is on encouraging user involvement in Pick'em games, NFT challenges, or any incentivized actions, enhancing engagement and participation.
+
+**Preliminary Notes on Technical Approach: Rewards Template Implementation**
+
+**Contract Structure:**
+1. NEP-141 Standard Compliance:
+    - Design the smart contract to comply with the NEP-141 standard for fungible tokens on the NEAR protocol.
+    - Implement core functionalities such as `total_supply()`, `balance_of(account)`, `transfer(sender, receiver, amount)`, and other standard methods.
+
+2. Zk.proof Integration:
+    - Leverage Zk.proof capabilities for zero-knowledge proof implementations.
+    - Incorporate Zk.proof into the contract logic to ensure secure and private validations of completed tasks
+
+3. Mintbase Integration:
+    - Establish a seamless integration with Mintbase, utilizing the Mintbase API for creating and managing Reward Tokens.
+    - Configure the contract to support Mintbase's marketplace functionalities, enabling users to mint, trade, and interact with their Reward Tokens directly through Mintbase.
+
+**Contract Methods:**
+1. NEP-141 Standard Methods:
+    - Implement the standard NEP-141 methods for the Reward Token contract, allowing users to create, transfer, and manage their tokens with ease.
+    - Ensure that the contract adheres to the fungible token specifications outlined in the NEP-141 standard.
+
+2. Zk.proof-enabled Validation:
+    - Develop methods for task completion validation, incorporating Zk.proof to secure the validation process.
+    - Utilize zero-knowledge proofs to verify that a task has been completed without exposing the details of the task on the blockchain.
+
+3. Singular Validation through Oracles/Validators:
+    - Establish a mechanism for singular validation using oracles or validators on the NEAR platform.
+    - Design the contract to trigger validation requests to external oracles or validators, ensuring an additional layer of reliability in confirming completed tasks.
+
+**Testing:** 
+Documentation and instruction provided for a comprehensive testing environment Documentation and Tutorial will be created to guide users through the use of the template.
+
+**Versatility:**
+The template's design intends to emphasize  versatility, allowing users to configure rewards for incentivizing user actions. 
 
 ### Milestone 3 — Mintbase NFT Challenge Template: 
   
-      The goal is to develop a versatile NFT Challenge template on the NEAR blockchain through Mintbase, facilitating the creation of unique NFT challenges with customizable requirements and rewarding outcomes. 
-      
-      **Preliminary Notes on Technical Approach: NFT Challenge Template Implementation**
-      
-      For collectors, NFT challenges present collection tasks with rewarding outcomes. Earn exclusive NFTs specifically tailored for those who successfully complete the challenge. 
-      
-      **Objective:** 
-      The goal is to develop a versatile NFT Challenge template on the NEAR blockchain through Mintbase, facilitating the creation of unique challenges with customizable requirements and rewarding outcomes.
-      
-      **Technical Approach for NFT Challenge Contract**
-      
-      **Contract Structure:**
-      1. Initialization:
-         - The contract is designed with three states: Configuration, Claiming, and Finished.
-         - Initialization includes setting challenge parameters and defining required NFTs with associated contract addresses.
-      
-      2. Configuration State:
-         - Parameters like start time, duration, and claiming window status are tracked internally.
-         - Utilizes NEAR Smart Contract functionality to initialize the challenge.
-      
-      3. Claiming State:
-         - Activation via the unlock mechanism, transitioning from Configuration.
-         - Asynchronous claiming window for collectors to submit NFTs.
-         - NEAR runtime environment used to handle asynchronous actions.
-      
-      4. Cross-Check Mechanism:
-         - Implemented in the claim_rewards method during Claiming State.
-         - Ensures uniqueness of provided NFTs, preventing reuse.
-      
-      5. Finished State:
-         - Triggered post-claiming window closure.
-         - Cleanup operations and challenge finalization are executed.
-         - NEAR contract state is adjusted, and further interactions are prevented by locking down the contract.
-      
-      **Contract Methods:**
-      1. configure_nfts:
-         - NEAR Smart Contract method allowing the setting of required NFTs during Configuration State.
-         - Parameters updated in the contract state.
-      
-      2. unlock_challenge:
-         - NEAR method transitioning the contract from Configuration to Claiming State.
-         - Activates the asynchronous claiming window.
-      
-      3. claim_rewards:
-         - NEAR method for collectors to claim rewards during Claiming State.
-         - Employs cross-checks to ensure NFT uniqueness before processing rewards.
-      
-      4. finish_challenge:
-         - NEAR method transitioning the contract from Claiming to Finished State.
-         - Executed cleanup operations and locks down the contract to prevent further interactions.
-      
-      **Testing:**
-      Documentation and instruction provided for a comprehensive testing environment Documentation and Tutorial will be created to guide users through the use of the template.
-      
-      **Versatility:**
-      - The template design prioritizes configurability, allowing users to tailor challenges with diverse collectibles and set specific completion circumstances and conditions.
+The goal is to develop a versatile NFT Challenge template on the NEAR blockchain through Mintbase, facilitating the creation of unique NFT challenges with customizable requirements and rewarding outcomes. 
+
+**Preliminary Notes on Technical Approach: NFT Challenge Template Implementation**
+
+For collectors, NFT challenges present collection tasks with rewarding outcomes. Earn exclusive NFTs specifically tailored for those who successfully complete the challenge. 
+
+**Objective:** 
+The goal is to develop a versatile NFT Challenge template on the NEAR blockchain through Mintbase, facilitating the creation of unique challenges with customizable requirements and rewarding outcomes.
+
+**Technical Approach for NFT Challenge Contract**
+
+**Contract Structure:**
+1. Initialization:
+    - The contract is designed with three states: Configuration, Claiming, and Finished.
+    - Initialization includes setting challenge parameters and defining required NFTs with associated contract addresses.
+
+2. Configuration State:
+    - Parameters like start time, duration, and claiming window status are tracked internally.
+    - Utilizes NEAR Smart Contract functionality to initialize the challenge.
+
+3. Claiming State:
+    - Activation via the unlock mechanism, transitioning from Configuration.
+    - Asynchronous claiming window for collectors to submit NFTs.
+    - NEAR runtime environment used to handle asynchronous actions.
+
+4. Cross-Check Mechanism:
+    - Implemented in the claim_rewards method during Claiming State.
+    - Ensures uniqueness of provided NFTs, preventing reuse.
+
+5. Finished State:
+    - Triggered post-claiming window closure.
+    - Cleanup operations and challenge finalization are executed.
+    - NEAR contract state is adjusted, and further interactions are prevented by locking down the contract.
+
+**Contract Methods:**
+1. configure_nfts:
+    - NEAR Smart Contract method allowing the setting of required NFTs during Configuration State.
+    - Parameters updated in the contract state.
+
+2. unlock_challenge:
+    - NEAR method transitioning the contract from Configuration to Claiming State.
+    - Activates the asynchronous claiming window.
+
+3. claim_rewards:
+    - NEAR method for collectors to claim rewards during Claiming State.
+    - Employs cross-checks to ensure NFT uniqueness before processing rewards.
+
+4. finish_challenge:
+    - NEAR method transitioning the contract from Claiming to Finished State.
+    - Executed cleanup operations and locks down the contract to prevent further interactions.
+
+**Testing:**
+Documentation and instruction provided for a comprehensive testing environment Documentation and Tutorial will be created to guide users through the use of the template.
+
+**Versatility:**
+- The template design prioritizes configurability, allowing users to tailor challenges with diverse collectibles and set specific completion circumstances and conditions.
 
 
 ## TENAMINT Future Plans
