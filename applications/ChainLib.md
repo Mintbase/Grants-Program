@@ -101,15 +101,10 @@ Key possibilities that NFT-based memberships can provide (in future):
 Our target audience are families with children. We are going to expand this audience together with expansion of our functionality. Imagine, for example a famous author such as J. K. Rowling, writing next book about Harry Potter and her fans that can get access to every new chapter upon release, based on NFT-based memberships. 
 **What need(s) does your project meet?**
 
-For users:
 - Personalization - with new functionality we solve a great demand for personalized content (stories with You or Your child the main heroes)
 - Access to programmable art - new stories created programmatically based on your parameters, dropped as NFT
-- Ownership - You owb Your stories through NFT
-
-For authors:
-- Ownership - Right book holders cannot effectively control the use of their work on the Internet
-- Decentralization - no intermediaries between authors and readers
-- Access to audience - Most publishers find it difficult to accept new emerging writers 
+- Ownership and decentralization - Users own their stories
+- Access to exclusive content, through NFT-based memberships
 
 **Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?**
 - There are a few project connected with the book industry. However, most of these projects are in early development stage. Additionally, our project has oustanding idea (Personalized story tales as NFTs + NFT-based memberships)
