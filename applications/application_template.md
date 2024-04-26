@@ -1,190 +1,168 @@
 # Mintbase Grant Proposal
 
-- **Project Name:** Infinfty
-- **Team Name:** Enterprise Blockchain Labs LLC
-- **Payment Address:** f7282dd09fb96525e6633f70ae00bc371a715d148896e6208318dedcc4aaa910
-- **Level:** 2
+> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines. Blockquote sections starting with a `>` (such as this one) can be removed.
+>
+> See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
+
+- **Project Name:** Name of your project (e.g. DuoSwap Module)
+- **Team Name:** Legal name of your team (e.g. Duo)
+- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
+- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
+
+> ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
+If this application is in response to an RFP, please indicate this on the first line of this section.
+
+If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
+
 ### Overview
 
-**Tag Line:**
-Infinfty is an enterprise platform strengthen connections between brands and customers through digital-physical ownership.
+Please provide the following:
 
-**Brief Description:**
-Expand the NEAR protocol ecosystem by adding it to our suite of blockchains for our customers. Brands will be able to select the NEAR protocol as their preferred chain to deploy smart contracts, manage NFTs, and pair them with our NFC chips. To expand NEAR's presence, we'll create a Shopify plugin where users will be able to directly link NEAR NFTs with NFC chips via the Shopify app.
-
-**NEAR and Mintbase Relation:**
-Our platform will use the @mintbase-js/sdk library to deploy smart contacts and manage NFTs on the NEAR protocol.
-
-**Team Interest:**
-We believe the future of web3 is in Real World Assets. Our platform is one piece of the broader RWA ecosystem allowing brands to pair their physical goods with NFTs. We believe that digital-physical experiences will generate new value for customers and present them with tangible experiences in a growing digital world.
+- If the name of your project is not descriptive, a tag line (one sentence summary).
+- A brief description of your project.
+- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
+- An indication of why your team is interested in creating this project.
 
 ### Project Details
 
-**Overview:** 
-The goal of this project is to expand the presence of the NEAR protocol into the digital-physical space. We will add the NEAR protocol to our list of EVM blockchains to enable users with a fast and secure blockchain to mint their NFTs. At the completion of this project, users will be able to mint NFTs on the NEAR protocol using the Mintbase SDK and pair their NFTs with either ARX or NTAG 424 tags. By developing a Shopify plugin, we can expand the presence and legitimacy of the NEAR protocol, and our application, to the million-plus users on the Shopify platform by providing them with the same NFT to NFC tag pairing capabilities.
+We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-**Technology Stack:** 
-Bubble.io front-end and back-end. Python and Node.js functions interacting with the Polygon blockchain. React.js app to pair NFTs with Arx NFC chips.
-
-**Launched App:** 
-We've already launched Infinfty, and it can be accessed [here](https://app.toinfinfty.com/). Feel free to reach out for credentials. 
-
+- Mockups/designs of any UI components
+- Data models / API specifications of the core functionality
+- An overview of the technology stack to be used
+- Documentation of core components, protocols, architecture, etc. to be deployed
+- PoC/MVP or other relevant prior work or research on the topic
+- What your project is _not_ or will _not_ provide or implement
+  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 ### Ecosystem Fit
 
-**Ecosystem Fit:**
-Our project fits within the Mintbase utility ecosystem because we’re leveraging the codebase to create NFTs for digital-physical experiences. When brands pair NFTs with physical goods they unlock new use cases like digital certificates of authenticity, product-level CRM, loyal programs, and customer insights to strengthen the connection to their customers.
+Help us locate your project in the Mintbase landscape and what problems it tries to solve by answering each of these questions:
 
-**Target Audience:**
-Our target audience is any brand that’s creating a physical product. However, we see immediate applicability in the apparel, art, automotive, collectibles, footwear, furniture, games, luxury goods, and toy industries.
-
-**Needs Met:**
-Sixty-four percent of customers want closer connections with their brands and fifty-seven percent of them are willing to choose a brand over a competitor if they have a close connection to them. With digital-physical products, brands can strengthen their engagement with their customers in a new way. Brands can leverage the data provided by their customers’ wallets to create products or experiences that align better with their interests. NFTs will become the preferred method for market research as brands will make decisions based on their customers’ profiles and not sample populations.
-
-**Similar Projects:**
-While there are no projects like ours on the NEAR protocol, there are several competitors in the space like IYK, Legitimate, and Arianee. We differ from our competitors in the industries we’re able to target, the NFC chips we’re able to offer, our focus on full product lifecycle traceability, and multi-chain deployment (with support from this grant!). We originally built our platform on the Polygon network, but we’re interested in adding NEAR as this will set us apart from our competitors and leverage NEAR’s speed and security for enterprise customers.
+- Where and how does your project fit into the ecosystem?
+- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+- What need(s) does your project meet?
+- Are there any other projects similar to yours in the Mintbase / NEAR ecosystem?
+  - If so, how is your project different?
+  - If not, are there similar projects in related ecosystems?
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Name of team leader: Brett Blalock
-- Names of team members: Sam White, Andrew Hart
+- Name of team leader
+- Names of team members
 
 ### Contact
 
-- **Contact Name:** Brett Blalock
-- **Contact Email:** brett@toinfinfty.com
-- **Website:** https://www.toinfinfty.com
+- **Contact Name:** Full name of the contact person in your team
+- **Contact Email:** Contact email (e.g. john@duo.com)
+- **Website:**
 
 ### Legal Structure
 
-- **Registered Address:** 6735 Crestwood Peninsula, Flowery Branch, GA 30542
-- **Registered Legal Entity:** Enterprise Blockchain Labs LLC
+- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
+- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
 
-Brett Blalock - Creator of the Infinfty platform. Developed the Python and Node.js functions creating the smart contracts and NFTs using the Thirdweb SDK on the Polygon Network. The Thirdweb SDK has a comparable Typescript library enabling quick smart contract deployment and NFT management.
+Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
 
-Andrew Hart - At Once Upon (Human-readable Ethereum block explorer), he built the back-end technology enabling the company to index the Ethereum blockchain. 
+If anyone on your team has applied for a grant at the Mintbase previously, please list the name of the project and legal entity here.
 
 ### Team Code Repos
 
-- https://github.com/toinfinfty
-- https://github.com/toinfinfty/functions
+- https://github.com/<your_organisation>
+- https://github.com/<your_organisation>/<project_1>
+- https://github.com/<your_organisation>/<project_2>
 
-**Team GitHub Accounts**
+Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/brettbl
-- https://github.com/andrewfhart
-- https://github.com/samwhiteiv
+- https://github.com/<team_member_1>
+- https://github.com/<team_member_2>
 
-### Team LinkedIn Profiles
+### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/in/brettblalock/
-- https://www.linkedin.com/in/andrewfhart/
-- https://www.linkedin.com/in/samwhiteiv/
+- https://www.linkedin.com/<person_1>
+- https://www.linkedin.com/<person_2>
 
 ## Development Status :open_book:
 
-**Existing project:** We already developed a working platform with paid customers. Here's a [product demo](https://youtu.be/avmiv0NXNcI) of how users can mint and pair NFTs to physical products. You can access the app [here](https://app.toinfinfty.com). Please reach out an we'll provide you with credentials.
+If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
-**Project Repo:** https://github.com/toinfinfty
+- links to improvement proposals or [RFPs](https://github.com/mintbase/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
+- academic publications relevant to the problem,
+- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
+- references to conversations you might have had related to this project with anyone from the Mintbase Foundation,
+- previous interface iterations, such as mock-ups and wireframes.
 
 ## Development Roadmap :nut_and_bolt:
 
-### Milestone 1 — Implement Mintbase Modules
+This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 
-- **Estimated duration:** 26 Hours
-- **FTE:**  1
-- **Costs:** 5,200 USD
+Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Mintbase. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
 
-| Number | Deliverable | Specification |
-| -----: | :---------- | :------------ |
-| 0a. | License | GPLv3 |
-| 0b. | Documentation | Inline documentation of the code that explains how users can leverage the Mintbase SDK to create smart contracts and manage NFTs. |
-| 0c. | Testing Guide | Instructions on how to test smart contract deployment and NFT management using the Mintbase SDK. |
-| 0d. | Docker | Dockerfile(s) used for smart contract deployment and NFT management. |
-| 0e. | Article | Article detailing the smart contract deployment and NFT management within the Infinfty platform. |
-| 1. | Mintbase module: Create Wallet | Create a NEAR wallet for users using the near-api-js library. Functions include nearConnection, createAccount |  
-| 2. | Mintbase module: Connect Wallet | Connect a user's NEAR wallet for NEAR protocol interactions using the mintbase-js/auth and mintbase-js/react libraries. Functions include KeyPair, InMemoryKeyStore, KeyStore, WalletContextProvider |  
-| 3. | Mintbase module: Deploy Smart Contract | Deploy a smart contract on the NEAR protocol using the mintbase-js/sdk library. Functions include DeployContract Args, deployContract, AddMinterArgs, and addMinter |  
-| 4. | Mintbase module: NFT Management | Manage NFTs on the NEAR protocol using the mintbase-js/sdk library. Functions include execute;  mint, burn, list, delist, buy, transfer functions; and related "arg" functions |  
+For each milestone,
 
+- make sure to include a specification of your software. _Treat it as a contract_; the level of detail must be enough to later verify that the software meets the specification.
+- include the amount of funding requested _per milestone_.
+- include documentation (tutorials, API specifications, architecture diagrams, whatever is appropriate) in each milestone. This ensures that the code can be widely used by the community.
+- provide a test suite, comprising unit and integration tests, along with a guide on how to set up and run them.
+- commit to providing Dockerfiles for the delivery of your project.
+- indicate milestone duration as well as number of full-time employees working on each milestone.
+- **Deliverables 0a-0d are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
 
-### Milestone 2 — Enable NEAR NFT & Arx Chip Pairing
+> :zap: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
 
-- **Estimated duration:** 15 Hours
-- **FTE:**  1
-- **Costs:** 3,000 USD
+### Overview
 
-| Number | Deliverable | Specification |
-| -----: | :---------- | :------------ |
-| 0a. | License | GPLv3 |
-| 0b. | Documentation | Inline documentation of the code that explains how users can leverage the libhalo library to link the ARX NFC tags with NEAR NFTs. |
-| 0c. | Testing Guide | Instructions on how to test the link between the ARX NFC tag and the NEAR NFTs. |
-| 0d. | Docker | Dockerfile(s) used for ARX NFC tag and NEAR NFT pairing. |
-| 0e. | Article | Article detailing how the Infinfty platform enables digital-physical experiences by pairing ARX tags with NEAR NFTs. |
-| 0f. | Code Base | We will fork the Halo verify app to speed up development: https://github.com/kong-org/halo-verify-web/tree/master |
-| 1. | Arx module: Connect Wallet | Connect the user's NEAR wallet. Functions include deviceStore. |
-| 2. | Arx module: Scan Chip | Scan the Arx chip to retrieve the chip's public key. Functions include deviceStore. |  
-| 3. | Arx module: Provide NFT Details | Pass the NFT details to the chip. Functions include registerStore. |  
-| 4. | Arx module: Sign Block Hash | Sign a recent block hash from the NEAR protocol using the chip. |  
-| 5. | Arx module: Generate Signature | From the user's wallet, generate a signature of several parameters: including the pre-calculated IPFS hash of the media along with the name, description, device_id, the signature generated by the device and block hash used to generate the signature and the address of the user's wallet. | 
-| 6. | Arx module: Post Data | POST this data to the KONG bridge server which will add the media and tag it will the information from the previous step on Arweave. |
+- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
+- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
+- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in USN, and potentially NEAR and nUSDC, the amount will be calculated according to the exchange rate at the time of payment.
 
+### Milestone 1 Example — Implement Mintbase Modules
 
-### Milestone 3 — Shopify App
-
-- **Estimated duration:** 29 Hours
-- **FTE:**  1
-- **Costs:** 5,800 USD
+- **Estimated duration:** 1 month
+- **FTE:**  2
+- **Costs:** 8,000 USD
 
 | Number | Deliverable | Specification |
-| -----: | :---------- | :------------ |
-| 0a. | License | GPLv3 |
-| 0b. | Documentation | Inline documentation of the code that explains how the Shopify API creates smart contracts and manages NFTs using the Mintbase SDK. |
-| 0c. | Testing Guide | Instructions on how to test the creation of smart contracts and management from Shopify. |
-| 0d. | Docker | Dockerfile(s) used to create smart contracts and manage NFTs from Shopify. Used to verify a customer's account. |
-| 0e. | Article | Article detailing how the Infinfty plugin enables Shopufy users to create digital-physical experiences. |
-| 1. | Shopify module: Create Webhook Listener | Create a Shopify event listener using an Amazon EventBridge. |
-| 2. | Shopify module: Products | Create a new product in the Infinfty platform and a new NEAR smart contract when a product is created in Shopify. |  
-| 3. | Shopify module: Inventory | Create or remove inventory in the Infinfty platform and create or burn NEAR NFTs when inventory is created or removed in Shopify. | 
-| 4. | Shopify module: UI | Create a metaobject boolean field indicating the whether the Shopify event listener should create a smart contract and NFTs for the product. | 
-| 5. | Shopify module: Customer Verification | Create a Shopify GraphQL request that checks the order ID and email address to verify the customer minting an NFT purchased the product. | 
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Mintbase nodes and send test transactions, which will show how the new functionality works. |
+| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
+| 1. | Mintbase module: X | We will create a Mintbase / NEAR module that will... (Please list the functionality that will be implemented for the first milestone) |  
+| 2. | Mintbase module: Y | We will create a Mintbase / NEAR module that will... |  
+| 3. | Mintbase module: Z | We will create a Mintbase / NEAR module that will... |  
+| 4. | NEAR chain integration | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
 
-### Milestone 4 — Enable NEAR NFT & NTAG 424 DNA Chip Pairing
 
-- **Estimated duration:** 7
+### Milestone 2 Example — Additional features
+
+- **Estimated Duration:** 1 month
 - **FTE:**  1
-- **Costs:** 6,000 USD
-
-| Number | Deliverable | Specification |
-| -----: | :---------- | :------------ |
-| 0a. | License | GPLv3 |
-| 0b. | Documentation | Inline documentation of the code that explains how the NTAG 424 connects to a NEAR NFT. |
-| 0c. | Testing Guide | Instructions on how to test the link between the NTAG 424 and a NEAR NFT. |
-| 0d. | Docker | Dockerfile(s) used to for NTAG 424 and NEAR NFT pairing. |
-| 0e. | Article | Article detailing how the Infinfty platform enables digital-physical experiences by pairing NTAG 424 tags with NEAR NFTs. |
-| 0f. | Product | We will leverage an exsiting software toolkit created by an NFC developer to speed time to market. https://nfcdeveloper.com/ |
-| 1. | Server Set Up | Set up a dedicated server to manage chip initialization and validation. |
-| 2. | Chip Initialization | Leverage the NFC software toolkit to link the chip id to the NEAR NFT in the Infinfty database. |  
-| 3. | Chip Validation | Leverage the NFC software toolkit to verify legitimate interactions with the chip. | 
+- **Costs:** 4,000 USD
 
 ...
 ## Future Plans
 
-In the short term, the addition of the NTAG 424 tag encoding and Shopify integration will open our platform up to more use cases and a broader audience. With the NTAG 424 tags, we’ll be able to create tailored and secure digital-physical experiences for industries like apparel, automotive, art, collectibles, furniture, gaming, music, and toys. These markets combined together are worth $3.75 trillion globally and $871 billion in the USA. We believe there will be substantial interest in the next several years in digital-physical experiences and capturing just 1% of these markets would represent a substantial opportunity to grow the size of the NEAR ecosystem. We plan to support the projects Chris Ghent is leading with Auto Auctions, Custom Car Builders, OEMs (like Lamborghini), and more to create unique digital-physical experiences with NFT and NFC technology. We would like to see this on-ramp users via Mintbase wallet interactions as well.
+Please include here
 
-In the long term, we'd like to expand our offerings to support the full traceability of products throughout the supply chain. This will enable brands to follow their products from cradle to grave, unleashing new insights into the lifespan and useability of their products. We see the NEAR protocol as an integral part of this implementation as blockchains will act as the central source of truth for disparate systems along a product’s lifecycle. We see this use case playing out in multiple industries where provenance and prior history are important. For example, we could see this technology replace incumbents like Carfax in the automotive industry as the data captured will be richer than what’s currently available.
+- how you intend to use, enhance, promote and support your project in the short term, and
+- the team's long-term plans and intentions in relation to it.
+
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?**
-Through HUMANS, a growing collective of web3 founders, and NEAR Foundation’s former Head of Brand Partnerships, Chris Ghent.
+**How did you hear about the Grants Program?** Mintbase Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
-**Closing Thoughts:**
-Our platform already has a couple of users with several more starting early next year. With the support of the Near Foundation, we believe we can offer our customers a secure and quick blockchain to mint their NFTs. We really want to develop a platform that can support enterprise clients which is why we originally started on Polygon. We think the speed and security of NEAR’s blockchain will enable us to attract more enterprise clients to our platform which is why we’re excited about this opportunity.
+Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
+
+- Work you have already done.
+- If there are any other teams who have already contributed (financially) to the project.
+- Previous grants you may have applied for.
