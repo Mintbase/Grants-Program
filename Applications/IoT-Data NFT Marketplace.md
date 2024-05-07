@@ -4,10 +4,10 @@
 >
 > See the [Grants Program Process](https://github.com/Mintbase/Grants-Program/#pencil-process) on how to submit a proposal.
 
-- **Project Name:** Name of your project (e.g. DuoSwap Module)
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** A NEAR account to where funds can be transfered (e.g. myproject.near)
-- **[Level](../README.md#level_slider-levels):** 1, 2 or 3
+- **IoT-Data NFT Marketplace:** Name of your project (e.g. DuoSwap Module)
+- **Chainplug Srl:** Legal name of your team (e.g. Duo)
+- **chainplug.near:** A NEAR account to where funds can be transfered (e.g. myproject.near)
+- **[2] (../README.md#level_slider-levels):** 1, 2 or 3
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
@@ -18,13 +18,31 @@ If this application is in response to an RFP, please indicate this on the first 
 If this is an application for a follow-up grant (the continuation of an earlier, successful Mintbase grant), please provide name and/or pull request of said grant on the first line of this section.
 
 ### Overview
+- IoT-Data NFT Marketplace.
 
-Please provide the following:
+- A cutting-edge platform that transforms certified IoT data into rentable Non-Fungible Tokens (NFTs), fostering sustainable innovation and responsible AI model training.
+  
+- The Chainplug project intersects with the Mintbase/NEAR ecosystem in several profound ways: let's weave together,as an example, the functionalities of FastAuth or Keypom with Chainplug's innovative approach, and envision a potential integration with applications enabling NFT rentals within the Mintbase/NEAR ecosystem.
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into the Mintbase / NEAR ecosystem.
-- An indication of why your team is interested in creating this project.
+Onboarding Synergy: FastAuth and Keypom simplify user onboarding to Chainplug's IoT Data-NFT Marketplace on the Mintbase/NEAR ecosystem, enhancing accessibility to blockchain-based data marketplaces.
+- Access & Monetization: Keypom and Chainplug collaborate to create a robust data monetization platform, enabling seamless NFT rentals.
+- Ecosystem Integration: An app within Mintbase/NEAR could leverage FastAuth or Keypom and Chainplug's capabilities for NFT rentals, facilitating user interaction and monetization.
+- User Experience: Integrations enhance user experience, enabling effortless NFT rentals and interactions with dApps.
+- Sustainable Rentals: NFT rental app aligns with UN's SDGs, introducing sustainability metrics to the ecosystem.
+- Expanded Use Cases: Fusion of FastAuth's or Keypom’s and Chainplug’s capabilities enriches the ecosystem, opening avenues for diverse digital asset interactions and innovative NFT rental model
+
+In this integrated scenario, FastAuth or Keypom, Chainplug, and the hypothetical NFT rental application could collectively contribute to creating a more accessible, data-driven, and sustainable ecosystem within Mintbase and NEAR, offering users a plethora of options to interact with digital assets and blockchain technology.  
+
+The Chainplug team is highly motivated to create the IoT Data-NFT Marketplace for several compelling reasons:
+
+- Value Unlocking: Aiming to unveil IoT data's latent value, benefiting various stakeholders.
+- Data Monetization: Structured, efficient monetization of IoT data, creating revenue streams.
+- Blockchain Utilization: Ensuring data integrity and trust using NEAR Protocol for responsible data management.
+- Sustainability Support: Aligning with UN SDGs for positive environmental impact through Carbon Credit Certificates.
+- Data Standardization: Aiding AI accuracy by standardizing and certifying IoT data.
+- Collaborative Innovation: Enhancing stakeholder collaboration to drive innovation in a unified ecosystem.
+
+In summary, the Chainplug team is driven by the goal of revolutionizing the IoT data landscape, making it more accessible, secure, and sustainable. They see the IoT Data-NFT Marketplace as a catalyst for transforming how IoT data is valued, certified, and utilized, ultimately benefiting a wide spectrum of industries and contributing to a more responsible and equitable data economy.
 
 ### Project Details
 
@@ -36,7 +54,7 @@ We expect the teams to already have a solid idea about your project's expected f
 - Documentation of core components, protocols, architecture, etc. to be deployed
 - PoC/MVP or other relevant prior work or research on the topic
 - What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+- This is a place for you to manage expectations and to clarify any limitations that might not be obvious
 
 ### Ecosystem Fit
 
@@ -53,19 +71,18 @@ Help us locate your project in the Mintbase landscape and what problems it tries
 
 ### Team members
 
-- Name of team leader
-- Names of team members
-
+- Donato Russo
+- Federico Mantegazza
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:**
+- **Contact Name:Donato Russo** Full name of the contact person in your team
+- **Contact Email:donato@chainplug.io** Contact email (e.g. john@duo.com)
+- **Website:https://www.chainplug.io/**
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:Via dei colatori 12 50019 Sesto Fiorentino (FI), Italy** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
+- **Registered Legal Entity:Chainplug Srl** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
 
@@ -75,9 +92,9 @@ If anyone on your team has applied for a grant at the Mintbase previously, pleas
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/Plughub
+- https://github.com//Plughub/Flow-Frontend
+- https://github.com/Plughub/Flow-Backend
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
@@ -86,8 +103,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/donatorusso-chainplug-blockchain-building-trust-in-people-technology-web3/ 
+- https://www.linkedin.com/in/mantegazzaf/ 
 
 ## Development Status :open_book:
 
