@@ -40,7 +40,7 @@ Licensed under Apache 2.0.
 
 ## Formatted code
 
-The [ZKAF R0 (Framework) codebase](https://github.com/usherlabs/zkaf-r0) and the X (Twitter) NFTs Game which involves the TLS Proof generation are both programmed in strictly typed Rust, for the most part. Comments are included among various steps in the logic to aid in understand the flow and processing of data.
+The [ZKAF R0 (Framework) codebase](https://github.com/usherlabs/zkaf-r0) and the [X (Twitter) NFTs Game](https://github.com/usherlabs/x-twitter-nfts) which involves the TLS Proof generation are both programmed in strictly typed Rust, for the most part. Comments are included among various steps in the logic to aid in understand the flow and processing of data.
 
 The currently archived/deprecated [ZKAF (on zkLLVM) codebase](https://github.com/usherlabs/zkaf) includes Typescript for handling Smart Contract dependencies issues, however, is no longer relevant to demonstrate the working deliverables for this milestone.
 
