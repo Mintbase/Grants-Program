@@ -35,7 +35,7 @@ Licensed under Apache 2.0.
        ./generate_twitter_proof.sh
       ```
 2. Clone the framework - `git clone https://github.com/usherlabs/zkaf-r0`
-3. If you've created a new TLS Proof, load it into the `./host/fixtures/` directory
+3. If you've created a new TLS Proof, load it into the `./host/fixtures/twitter_proof.json` directory
 4. Execute the ZK Circuit locally with `RISC0_DEV_MODE=1 cargo run --release`
 
 ## Formatted code
@@ -72,6 +72,8 @@ Each item in the list should include a link to the deliverable itself, e.g.:
 **Please highlight anything that deviates from the contract** and include further information that you think is relevant to the deliverable, either alongside the appropriate deliverable or under [Additional Information](#additional-information).
 
 Please ensure the repo has the correct open-source license.
+
+
 
 | Number | Deliverable | Links & Notes |
 | --- | --- | --- |
