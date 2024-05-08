@@ -1,6 +1,6 @@
 # Mintbase Grant Proposal
 
-## Project Name: TENAMINT Fan Engagement Templates: Pick'em, Rewards, and Challenges
+## Project Name: TENAMINT NFT Challenge Template
 **Company Name:** TENAMINT  
 **Payment Address:** bstt.near  
 **Grant Level:** 2
