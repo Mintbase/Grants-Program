@@ -78,12 +78,12 @@ Please ensure the repo has the correct open-source license.
 | Number | Deliverable | Links & Notes |
 | --- | --- | --- |
 | 0a. | License | Apache 2.0 |
-| 0b. | Documentation | [LICENSE](https://github.com/usherlabs/zkaf-r0/blob/master/LICENSE)  |
-| 0c. | Testing Guide | [ZKAF Testing Guide](https://github.com/usherlabs/zkaf-r0/blob/master/README.md) and [TLS Proof Guide](https://github.com/usherlabs/x-twitter-nfts/blob/main/README.md) |
+| 0b. | Documentation | [LICENSE](https://github.com/usherlabs/zkaf-r0/blob/8f54c1c563220db80bf07620d11d46fa1a8fe988/LICENSE)  |
+| 0c. | Testing Guide | [ZKAF Testing Guide](https://github.com/usherlabs/zkaf-r0/blob/8f54c1c563220db80bf07620d11d46fa1a8fe988/README.md) and [TLS Proof Guide](https://github.com/usherlabs/x-twitter-nfts/blob/main/README.md) |
 | 0d. | Docker | [Docker setup guide for deprecated ZKAF](https://github.com/usherlabs/zkaf?tab=readme-ov-file#build-the-image). Docker is incompatible with newer ZK proving systems due to GPU accelerated hardware requirements. |
-| 1. | ZK Proof Generation Logic | [Development of boilerplate logic for ZK Proof Generation](https://github.com/usherlabs/zkaf-r0/blob/master/host/src/main.rs) of [sub-proofs produced by the Transparency Node](https://github.com/usherlabs/zkaf-r0/blob/master/methods/guest/src/main.rs). |
-| 2. | Notary Proofs from Twitter API | [Implementation of logic](https://github.com/usherlabs/x-twitter-nfts/blob/main/src/twitter/src/main.rs) to generate [Notary Proofs](https://github.com/usherlabs/zkaf-r0/blob/master/host/fixtures/twitter_proof.json) for data fetched from the Twitter API. |
-| 3. | ZK Circuit Verification | [Development of a ZK Circuit](https://github.com/usherlabs/zkaf-r0/blob/master/methods/guest/src/main.rs) for [verifying the Notary Proofs (Sub-proofs)](https://github.com/usherlabs/zkaf-r0/blob/master/host/src/main.rs#L39). |
+| 1. | ZK Proof Generation Logic | [Development of boilerplate logic for ZK Proof Generation](https://github.com/usherlabs/zkaf-r0/blob/8f54c1c563220db80bf07620d11d46fa1a8fe988/host/src/main.rs) of [sub-proofs produced by the Transparency Node](https://github.com/usherlabs/zkaf-r0/blob/8f54c1c563220db80bf07620d11d46fa1a8fe988/methods/guest/src/main.rs). |
+| 2. | Notary Proofs from Twitter API | [Implementation of logic](https://github.com/usherlabs/x-twitter-nfts/blob/main/src/twitter/src/main.rs) to generate [Notary Proofs](https://github.com/usherlabs/zkaf-r0/blob/8f54c1c563220db80bf07620d11d46fa1a8fe988/host/fixtures/twitter_proof.json) for data fetched from the Twitter API. |
+| 3. | ZK Circuit Verification | [Development of a ZK Circuit](https://github.com/usherlabs/zkaf-r0/blob/8f54c1c563220db80bf07620d11d46fa1a8fe988/methods/guest/src/main.rs) for [verifying the Notary Proofs (Sub-proofs)](https://github.com/usherlabs/zkaf-r0/blob/8f54c1c563220db80bf07620d11d46fa1a8fe988/host/src/main.rs#L39). |
 
 ## Additional Information
 
