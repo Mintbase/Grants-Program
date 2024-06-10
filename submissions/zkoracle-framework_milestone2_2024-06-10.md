@@ -57,7 +57,7 @@ The full documentation, detailing the deployment of various contracts and the op
 
 Originally, the [ZKAF R0 (Framework) codebase](https://github.com/usherlabs/zkaf-r0) and the [X (Twitter) NFTs Game](https://github.com/usherlabs/x-twitter-nfts) were separate repositories, demonstrating that the framework for processing ZK Attestation is composable. This allows applications like the X (Twitter) NFT Game to adopt and use these modules to deliver an end-to-end verifiable data protocol that verifies social data within the Near Blockchain. 
 
-However, for simplified development, the [ZKAF has temporarily been merged into the X (Twitter) NFTs repository](https://github.com/usherlabs/x-twitter-nfts/tree/main/src/zkaf), allowing for streamlined dependency management and operation. The goal of separating the framework into a standalone dependency of the X (Twitter) NFT Game will be achieved in a future milestone.
+However, for simplified development, the [ZKAF has temporarily been merged into the X (Twitter) NFTs repository](https://github.com/usherlabs/x-twitter-nfts/tree/9a10a819d982c6ff0d90238f636051cf8d069f13/src/zkaf), allowing for streamlined dependency management and operation. The goal of separating the framework into a standalone dependency of the X (Twitter) NFT Game will be achieved in a future milestone.
 
 **The code distribution:**
 
