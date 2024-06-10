@@ -24,7 +24,7 @@ This milestone encapsulates the integration of zkProofs into the Near Blockchain
 
 While zkProof verification directly on Near is feasible and under research, it has not yet been successfully implemented. Therefore, as per the original milestone deliverables, the Aurora EVM Blockchain, which includes SDKs for Aurora <> Near communication, is used to verify zkProofs and establish a registry for verified zkProofs that encapsulate the verification of social data from X (Twitter).
 
-The full documentation, detailing the deployment of various contracts and the operation of the ZK Prover, can be found in the [README.md](https://github.com/usherlabs/x-twitter-nfts/blob/main/README.md). In this documentation, we will highlight the steps to:
+The full documentation, detailing the deployment of various contracts and the operation of the ZK Prover, can be found in the [README.md](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/README.md). In this documentation, we will highlight the steps to:
 
 1. Generate a zkProof of X (Twitter) data.
 2. Verify the zkProof in an Aurora transaction.
@@ -33,9 +33,9 @@ The full documentation, detailing the deployment of various contracts and the op
 ### Execution
 
 1. Navigate to the zkaf repo
-   - Moved into X (Twitter) NFTs — [https://github.com/usherlabs/twitter_notary/blob/feature/integrate-smart-contracts/src/zkaf](https://github.com/usherlabs/twitter_notary/blob/feature/integrate-smart-contracts/src/zkaf)
+   - Moved into X (Twitter) NFTs — [src/zkaf](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/zkaf)
 
-2. *(Optional)* [Follow the deployment process outlined in the README.md](https://github.com/usherlabs/x-twitter-nfts/blob/main/README.md#smart-contracts)
+2. *(Optional)* [Follow the deployment process outlined in the README.md](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/README.md#smart-contracts)
 
 3. Install pre-requisite software libraries and technologies:
    1. Install Foundry [here](https://book.getfoundry.sh/getting-started/installation)
@@ -44,7 +44,7 @@ The full documentation, detailing the deployment of various contracts and the op
       - To deterministically build the ZK Circuit / Guest, Docker must be running — [Learn more](https://dev.risczero.com/terminology#deterministic-builds)
     
 4. Provide all environment variables
-   1. See all required environment variables: [https://github.com/usherlabs/x-twitter-nfts/blob/main/src/zkaf/.env.sample](https://github.com/usherlabs/x-twitter-nfts/blob/main/src/zkaf/.env.sample)
+   1. See all required environment variables: [src/zkaf/.env.sample](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/zkaf/.env.sample)
    2. If you have not deployed the Smart Contracts using your own wallets, and do not have access to RiscZero's Bonsai managed ZK compute environment, Usher Labs can provide testnet Near and Aurora private keys and associated environment variables on an ad-hoc basis, or provide a live demo of this execution.
     
 5. Run the publisher to generate and verify the proof:
@@ -94,10 +94,10 @@ Unit tests have been developed for both the Near and Aurora Smart Contracts. Fol
 | Number | Deliverable | Specification | Links & Notes |
 | --- | --- | --- | --- |
 | 0a. | License | Apache 2.0 | [LICENSE](https://github.com/usherlabs/zkaf-r0/blob/8f54c1c563220db80bf07620d11d46fa1a8fe988/LICENSE) |
-| 0b. | Documentation | Documentation on deploying NEAR and Aurora Smart Contracts to respective testnets and their integration using Aurora Contract SDK. | [README.md](https://github.com/usherlabs/x-twitter-nfts/blob/main/README.md) |
-| 0c. | Testing Guide | Testing guide for Smart Contract functionality, with a focus on Docker operation for ZK Proof generation. | The ZKAF Testing Guide is outlined in the [README.md](https://github.com/usherlabs/x-twitter-nfts/blob/main/README.md) and covers unit tests for Smart Contracts on NEAR and Aurora, the deployment guide for these Smart Contracts, and a TL;DR on executing logic to generate zkProofs, verify them, and use verification as authentication for subsequent on-chain processes within NEAR. |
+| 0b. | Documentation | Documentation on deploying NEAR and Aurora Smart Contracts to respective testnets and their integration using Aurora Contract SDK. | [README.md](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/README.md) |
+| 0c. | Testing Guide | Testing guide for Smart Contract functionality, with a focus on Docker operation for ZK Proof generation. | The ZKAF Testing Guide is outlined in the [README.md](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/README.md) and covers unit tests for Smart Contracts on NEAR and Aurora, the deployment guide for these Smart Contracts, and a TL;DR on executing logic to generate zkProofs, verify them, and use verification as authentication for subsequent on-chain processes within NEAR. |
 | 0d. | Docker | No updates in Docker setup; existing environment used for test proof generation. | Docker is now reincorporated as a primary mechanism through which zkProofs are built, ensuring deterministic builds. This is a [paradigm set by RiscZero](https://dev.risczero.com/terminology#deterministic-builds) and is specific to the RiscZero ZK Co-processor. |
-| 1. | Verification Smart Contracts | ZK Verification Smart Contracts leveraging the existing EVM Proof System Verification. | Placeholder replaced with [R0's Groth16 Verification](https://github.com/usherlabs/x-twitter-nfts/blob/main/src/zkaf/contracts/Verifier.sol) |
-| 2. | NEAR Contract Integration | Integration of Aurora Smart Contract functionality through a NEAR Smart Contract entry point. | [NEAR Smart Contracts](https://github.com/usherlabs/x-twitter-nfts/blob/main/src/near/contract/src/lib.rs) |
+| 1. | Verification Smart Contracts | ZK Verification Smart Contracts leveraging the existing EVM Proof System Verification. | Placeholder replaced with [R0's Groth16 Verification](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/zkaf/contracts/Verifier.sol) |
+| 2. | NEAR Contract Integration | Integration of Aurora Smart Contract functionality through a NEAR Smart Contract entry point. | [NEAR Smart Contracts](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/near/contract/src/lib.rs) |
 | 3. | Smart Contract Deployment | Deployment of ZK Verification Smart Contracts to Aurora Testnet and deployment of NEAR Smart Contracts to NEAR Testnet. | The ["Publisher"](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/zkaf/apps/src/bin/publisher.rs#L11) encapsulates zkProof generation, [verification on Aurora](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/zkaf/apps/src/aurora.rs), and [cross-referencing the verification within NEAR](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/zkaf/apps/src/near.rs). Deployment of EVM Contracts is managed by [Forge](https://book.getfoundry.sh/). NEAR Smart Contracts are deployed using the NEAR CLI, as detailed in the documentation. |
-| 4. | Testing Framework | Development of a test-driven development framework for Smart Contract functionality. | Unit tests are developed for both [Aurora Smart Contracts](https://github.com/usherlabs/x-twitter-nfts/blob/main/src/zkaf/tests/Verifier.t.sol), where execution is managed by [Forge](https://book.getfoundry.sh/), and [NEAR Smart Contracts](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/near/integration-tests/src/lib.rs), where unit tests are written in Rust. |
+| 4. | Testing Framework | Development of a test-driven development framework for Smart Contract functionality. | Unit tests are developed for both [Aurora Smart Contracts](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/zkaf/tests/Verifier.t.sol), where execution is managed by [Forge](https://book.getfoundry.sh/), and [NEAR Smart Contracts](https://github.com/usherlabs/x-twitter-nfts/blob/9a10a819d982c6ff0d90238f636051cf8d069f13/src/near/integration-tests/src/lib.rs), where unit tests are written in Rust. |
