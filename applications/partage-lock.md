@@ -102,7 +102,6 @@ https://github.com/juliencarbonnell
 - https://www.linkedin.com/in/juliencarbonnell/ 
 
 ## Development Status :open_book:
- ![Partage roadmap](https://github.com/jcarbonnell/jcarbonnell/blob/main/partage-roadmap.jpg) 
 
 - **links to your research diary, blog posts, articles, forum discussions, or open GitHub issues:**
 All our research articles are available on our medium publication: https://medium.com/partage-btc 
@@ -115,7 +114,7 @@ See above.
 
 ## Development Roadmap :nut_and_bolt:
 
-![Partage roadmap (General presentation)](https://pbs.twimg.com/media/GBompXtWYAATgg-?format=jpg&name=medium)
+ ![Partage roadmap](https://github.com/jcarbonnell/jcarbonnell/blob/main/partage-roadmap.jpg) 
 
 ### Grant Overview:
 - **Total Estimated Duration:** 
@@ -242,4 +241,3 @@ None for this project.
 
 - **If any other teams have already contributed (financially) to the project.**
 Julien has been self-supporting the project from the beginning through his registered company in Estonia “CivicTech OÜ”.
-
