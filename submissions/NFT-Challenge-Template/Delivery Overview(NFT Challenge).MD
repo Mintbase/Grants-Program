@@ -39,9 +39,9 @@ Key Features and Benefits
 
 ## Deliverables 
 
-[Link to NFT Challenge Main](submissions/NFT-Challenge-Template/nft-challenge-main)
+[Link to NFT Challenge Main](/nft-challenge-main)
 
-[Link to NFT Challenge Template](submissions/NFT-Challenge-Template/nft-challenge-template-fe)
+[Link to NFT Challenge Template](/nft-challenge-template-fe)
 
-[Link to NFT Challenge Factory](submissions/NFT-Challenge-Template/nft-challenge-factory-main)
+[Link to NFT Challenge Factory](/nft-challenge-factory-main)
 
