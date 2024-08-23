@@ -21,7 +21,8 @@ As this is mainly an artist funded project, we are seeking grant funding to enab
 
 iiNDYVERSE is an interactive engagement platform that enables seamless gamified experiences and  NFT based rewards within instant messaging apps. Clients include Nike, Air Jordan, Pernod Ricard, Ray-Ban, and top artists from UMG, XL Recording, Atlantic Records.
 
-Given over 90% of viewers will be non-crypto natives, we propose to enable fans to purchase and claim NFTs using a passwordless **one tap** wallet creation and digital asset minting via instant messaging apps (e.g. WhatsApp). We plan to use this grant to support integrating Mintbase stack into the iiNDYVERSE platform to supprt the web3 onboarding, minting and smart contract management. We will build this service to be production ready.
+Given over 90% of viewers will be non-crypto natives, we propose to enable fans to purchase and claim NFTs using a passwordless **one tap** wallet creation and digital asset minting via instant messaging apps (e.g. WhatsApp). This authentication process relies on multiple layers of security checks, such as one-time, time bound, JW tokens sent to verified WhatApp accounts,to ensure user data protection and fraud prevention, which are crucial for building trust with non-crypto native users.
+We plan to use this grant to support integrating Mintbase stack into the iiNDYVERSE platform to supprt the web3 onboarding, minting and smart contract management. We will build this service to be production ready.
 
 **Relevance to Mintbase and NEAR**
 
@@ -68,8 +69,13 @@ Given over 90% of viewers will be non-crypto natives, we propose to enable fans 
 
 **What need(s) does our project meet?**
 
-- For Brands and Musicians, we provide them a customer friendly way for them to use digital collectibles to earn new revenue and offer rewards to their most loyal fans.
+- For Brands and Musicians, we provide them a customer friendly and secure way for them to use digital collectibles to earn new revenue and offer rewards to their most loyal fans. 
+We ensure compliance with all relevant legal and regulatory requirements, including tax implications and consumer protectio(n laws, which are clearly communicated to our users. See our GDPR Policy (https://iindyverse.notion.site/iiNDY-GDPR-Policy-eae1af40ddb94847ad27155a1ee5fd5a) and Privacy policy (https://www.iindyverse.com/privacy) for further details.
+Our passwordless, one-tap approach is based on unique,time-bound, one-time authentication links sent to a verified whatsapp account. This approach also mitigages againt SMS OTP interception attacks. We also intend to add support for browser based biometrics/ passkeys as a 2nd factor to authourise wallet transactions.
+ 
+
 - For fans who are interested in purchasing/owning limited collectibles , we offer them a simple way to purchase them and benefit from the utility/rewards it unlocks.
+ Currently, trading and price speculation is not a requirment for our target customers, as the NFTs act more as a soul-bound loyalty mechanism. However, as Client and Fan needs evolve in the future, we will implement a feature allowing fans to trade or exchange their collectibles either on the platform or via existing marketplaces.
 
 **Are there any other projects similar to ours in the Mintbase / NEAR ecosystem?**
 
@@ -179,7 +185,7 @@ As mentioned above, iiNDYVERSE has an customer build Web3 stack (testnet and mai
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
-| 1 | Stripe Integration | Integrate Stripe payment gateway with iiNDY backend |
+| 1 | Stripe Integration | Integrate Stripe payment gateway with iiNDY backend. NB As part of Milestone 4 (Shopify Integration) we will implement a secondary payment method (e.g., Shopify Payments) to provide an alternative in case of Stripe downtime or failures, ensuring continuous transaction capability. |
 | 2 | Fiat Currency Support | Implement support for fiat currency payments |
 | 3 | Payment Flow | Develop the payment flow from user interaction to successful transaction |
 | 4 | Security Measures | Implement necessary security measures for handling payments |
@@ -192,7 +198,7 @@ As mentioned above, iiNDYVERSE has an customer build Web3 stack (testnet and mai
 
 | Number | Deliverable | Specification |
 | --- | --- | --- |
-| 1 | Shopify Integration | Integrate the developed system with a Shopify store |
+| 1 | Shopify Integration | Integrate the developed system with the Shopify store, inlcuding Shopify Paymnents (as an alternative/backup to Stripe) |
 | 2 | End-to-End Flow | Implement the complete flow from product selection to NFT minting |
 | 3 | User Experience | Optimize the user experience for seamless NFT purchases |
 
