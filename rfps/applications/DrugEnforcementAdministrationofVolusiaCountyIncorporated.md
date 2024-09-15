@@ -3,7 +3,7 @@
 This is a proposal for a DAO Agent to be developed and hence added to the current list of supported agents for Metor wallet. 
 Interacting with Sputnik DAO contracts right now has 2 major problems. 
 -  Needs other UX and css for prefilled templates for moving tokens and making swaps between the ref.finance contract. 
-- Does not have and option to create credentials for agents. 
+-  Does not have an option to create credentials for agents.
 A DAO agent on Metor wallet would make it easy for users to interact with Sputnik V2 contracts. 
 
 ## Functionality 	
@@ -11,7 +11,7 @@ A DAO agent on Metor wallet would make it easy for users to interact with Sputni
 ### Search Functionality 
 **DAOs**
 - Retrieve a list of all DAOs 
-- Search for a specific DAO using keywords, contract addresses, or names
+- Search for a specific DAO using keywords (e.g., 'education', 'sustainability'), contract addresses (e.g., 'dao123.near'), or names (e.g., 'Volusia DAO')
 
 **Proposals**
 - Fetch all proposals for a given DAO 
@@ -31,7 +31,9 @@ A DAO agent on Metor wallet would make it easy for users to interact with Sputni
     - Transfer stable coins
     - Swap Near for stable coins via Ref
     - Token swaps (implementation to be carefully considered)
-    - Transfer any FT token, add liquidy to pools for following tokens [usnr.tkn.near,usnd.tkn.near,usnrd.tkn.near,rnc.tkn.near,dnc.tkn.near,nfc.tkn.near]
+    - Transfer any FT token, add liquidity to pools for following tokens: usnr.tkn.near,usnd.tkn.near,usnrd.tkn.near,rnc.tkn.near,dnc.tkn.near,nfc.tkn.near
+ 
+
 - Add or remove DAO members 
 
 ## Deliverables 
