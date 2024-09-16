@@ -1,10 +1,10 @@
 # Overview 
 
-This is a proposal for a DAO Agent to be developed and hence added to the current list of supported agents for Metor wallet. 
+This is a proposal for a DAO Agent to be developed and hence added to the current list of supported agents for Meteor wallet. 
 Interacting with Sputnik DAO contracts right now has 2 major problems. 
 -  Needs other UX and css for prefilled templates for moving tokens and making swaps between the ref.finance contract. 
 -  Does not have an option to create credentials for agents.
-A DAO agent on Metor wallet would make it easy for users to interact with Sputnik V2 contracts. 
+A DAO agent on Meteor wallet would make it easy for users to interact with Sputnik V2 contracts. 
 
 ## Functionality 	
 
