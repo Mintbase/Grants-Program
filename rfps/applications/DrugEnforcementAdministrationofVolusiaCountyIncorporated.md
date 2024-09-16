@@ -32,6 +32,7 @@ A DAO agent on Metor wallet would make it easy for users to interact with Sputni
     - Swap Near for stable coins via Ref
     - Token swaps (implementation to be carefully considered)
     - Transfer any FT token, add liquidity to pools for following tokens: usnr.tkn.near,usnd.tkn.near,usnrd.tkn.near,rnc.tkn.near,dnc.tkn.near,nfc.tkn.near
+    - Use the rainbow bridge to push FT to other blockchains
  
 
 - Add or remove DAO members 
