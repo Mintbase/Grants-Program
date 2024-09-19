@@ -1,5 +1,5 @@
-# Overview 
 
+# Overview
 This is a proposal for the GFXvs AI Agent, which has been developed to generate images within the Bitte wallet and post them to the GFXvs upcoming battle arts queue. This integration addresses key challenges:
 - Users need a seamless way to create AI-generated art directly within the wallet interface.
 - Efficient submission of art for battles is essential to enhance user engagement in the NFT space.
@@ -25,4 +25,3 @@ The GFXvs AI Agent simplifies the creation and submission of AI art, providing a
 4. Confirmation notifications for successful submissions.
 
 **Budget**: 3200 USD (Single release payment)  
-
