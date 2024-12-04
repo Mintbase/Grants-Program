@@ -163,9 +163,10 @@ For each milestone,
 
 - **Estimated Duration:** 1 month
 - **FTE:**  1
-- **Costs:** 4,000 USD
+- **Costs:** 8,000 USD
 
-...
+Final deliverables of Marketplace and contract code.
+
 ## Future Plans
 
 Please include here
